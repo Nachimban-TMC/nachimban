@@ -199,6 +199,45 @@
   .modal-box .fine{margin:14px 0 0;font-size:11.5px;color:var(--ink-faint);line-height:1.55;}
   .hp{position:absolute;left:-9999px;}
 
+  /* ---------- 📰 신문 종이 질감 (되돌리려면 이 블록만 삭제) ---------- */
+  body{
+    background-color:var(--paper);
+    background-image:
+      /* 아주 옅은 세로 그라데이션 — 인쇄물의 잉크 농도차 */
+      linear-gradient(180deg, rgba(0,0,0,.022) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,.016) 100%),
+      /* 종이 섬유 노이즈 */
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='p'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23p)' opacity='.05'/%3E%3C/svg%3E");
+    background-attachment:fixed, fixed;
+    background-repeat:no-repeat, repeat;
+  }
+  @media (prefers-color-scheme:dark){
+    body{background-image:
+      linear-gradient(180deg, rgba(255,255,255,.028) 0%, rgba(255,255,255,0) 26%, rgba(255,255,255,.018) 100%),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='p'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23p)' opacity='.055'/%3E%3C/svg%3E");}
+  }
+  :root[data-theme="dark"] body{background-image:
+    linear-gradient(180deg, rgba(255,255,255,.028) 0%, rgba(255,255,255,0) 26%, rgba(255,255,255,.018) 100%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='p'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23p)' opacity='.055'/%3E%3C/svg%3E");}
+  :root[data-theme="light"] body{background-image:
+    linear-gradient(180deg, rgba(0,0,0,.022) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,.016) 100%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='p'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23p)' opacity='.05'/%3E%3C/svg%3E");}
+  /* 카드는 종이 위에 얹힌 느낌으로 살짝 띄움 */
+  .card{box-shadow:0 1px 0 rgba(0,0,0,.02);}
+
+  /* ---------- 지난 호 배너 ---------- */
+  .pastbar{background:var(--ink);color:var(--on-ink);font-size:12px;letter-spacing:.02em;
+    padding:10px 16px;text-align:center;margin:0 -22px 4px;}
+  .pastbar a{color:var(--on-ink);font-weight:800;text-decoration:underline;margin-left:6px;}
+
+  /* ---------- 아카이브: 클릭 가능하게 ---------- */
+  .issue-hd{text-decoration:none;color:inherit;cursor:pointer;}
+  .issue-hd .go{font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--ink);white-space:nowrap;}
+  .issue-hd:hover .go{text-decoration:underline;}
+  .issue-hd:hover .no{opacity:.6;}
+  a.arch-item{text-decoration:none;color:inherit;}
+  a.arch-item:hover{background:var(--panel);}
+
   /* ---------- 앱 설치 안내 배너 ---------- */
   .a2hs{position:fixed;left:0;right:0;bottom:0;z-index:120;transform:translateY(110%);
     transition:transform .34s cubic-bezier(.2,.7,.2,1);padding:0 12px 12px;
@@ -232,9 +271,9 @@
     .subhead{font-size:14.5px;line-height:1.68;}
     .eyebrow{font-size:10px;flex-direction:column;gap:3px;}
 
-    /* 지역 필터: 가로 스크롤 + 화면 끝까지 */
-    .filter{margin:0 -16px;padding:18px 16px 8px;gap:8px;}
-    .fpill{padding:10px 16px;font-size:11px;}
+    /* 지역 필터: 가로 스크롤 대신 2줄로 감싸기 (옆으로 밀리는 느낌 제거) */
+    .filter{margin:0;padding:16px 0 6px;gap:7px;overflow-x:visible;flex-wrap:wrap;}
+    .fpill{padding:9px 0;font-size:10.5px;flex:1 1 calc(33.333% - 5px);min-width:0;}
 
     .sec-hd{padding:26px 0 0;gap:10px;}
     .sec-hd .k{font-size:14px;}
@@ -260,10 +299,28 @@
     .modal-box{padding:28px 22px 24px;}
     .modal-box h3{font-size:26px;}
   }
-  /* 아주 작은 화면 */
+  /* ---------- 모바일 하단 탭바 (앱처럼) ---------- */
+  .tabs{display:none;}
+  @media (max-width:640px){
+    .navlinks a{display:none;}            /* 상단 메뉴는 감추고 */
+    .tabs{                                 /* 하단 고정 탭바로 대체 */
+      display:flex;position:fixed;left:0;right:0;bottom:0;z-index:90;
+      background:color-mix(in srgb,var(--paper) 92%,transparent);
+      backdrop-filter:saturate(180%) blur(14px);
+      border-top:1px solid var(--line);
+      padding:7px 0 calc(7px + env(safe-area-inset-bottom));
+    }
+    .tabs button{flex:1;background:none;border:0;cursor:pointer;color:var(--ink-faint);
+      font-family:var(--kr);font-size:10px;font-weight:800;letter-spacing:.06em;
+      display:flex;flex-direction:column;align-items:center;gap:4px;padding:4px 0;}
+    .tabs button svg{width:19px;height:19px;}
+    .tabs button.on{color:var(--ink);}
+    .wrap{padding-bottom:96px;}           /* 탭바에 가리지 않게 */
+    .pastbar{margin:0 -16px 4px;}
+  }
   @media (max-width:380px){
-    .navlinks a{display:none;}     /* 메뉴는 숨기고 구독 버튼만 */
-    .hero h1{font-size:50px;}
+    .hero h1{font-size:48px;}
+    .fpill{font-size:10px;}
   }
 
   .rise{opacity:0;transform:translateY(12px);animation:rise .6s cubic-bezier(.2,.7,.2,1) forwards;}
@@ -454,6 +511,18 @@
   </footer>
 </div>
 
+<!-- ===== 모바일 하단 탭바 ===== -->
+<nav class="tabs" id="tabs">
+  <button data-v="today" class="on" onclick="showView('today')">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5 12 3l9 6.5V21H3z"/></svg>오늘</button>
+  <button data-v="archive" onclick="showView('archive')">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg>지난 호</button>
+  <button data-v="community" onclick="showView('community')">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>커뮤니티</button>
+  <button onclick="openSub()">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"/><path d="m4 7 8 6 8-6"/></svg>구독</button>
+</nav>
+
 <!-- ===== 구독 모달 (Netlify Forms) ===== -->
 <div class="modal" id="submodal" onclick="if(event.target===this)closeSub()">
   <div class="modal-box">
@@ -493,8 +562,10 @@
     window.scrollTo({top:0,behavior:'smooth'});
   }
   function showView(v){
-    ['today','archive','community'].forEach(function(n){document.getElementById('view-'+n).hidden=(n!==v);});
+    ['today','archive','community'].forEach(function(n){
+      var el=document.getElementById('view-'+n); if(el) el.hidden=(n!==v);});
     document.querySelectorAll('.nav-link').forEach(function(a){a.classList.toggle('on', a.dataset.v===v);});
+    document.querySelectorAll('.tabs button').forEach(function(b){b.classList.toggle('on', b.dataset.v===v);});
     window.scrollTo({top:0,behavior:'smooth'});
   }
   function cfilter(t,btn){

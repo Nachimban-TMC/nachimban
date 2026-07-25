@@ -63,27 +63,26 @@ def _render_feed(issue: Issue) -> str:
 
 
 def _render_archive(index: List[dict]) -> str:
-    """index[0] = 최신 호(펼침), 나머지는 요약 행."""
+    """모든 호를 '읽기' 링크와 함께. 최신 호는 목차까지 펼쳐서 보여준다."""
     if not index:
         return ""
-    latest = index[0]
-    items = "\n".join(
-        f'        <div class="arch-item"><span class="rg">{s["rg"]}</span>'
-        f'<span class="ttl">{s["title"]}</span></div>'
-        for s in latest.get("sample", [])
-    )
-    dt = latest["date"].replace("-", " · ")
-    cnt = " · ".join(f"{_RG_SHORT[r]} {n}" for r, n in latest["region_counts"].items())
-    out = [f"""    <div class="issue">
-      <div class="issue-hd"><span class="no">{latest['number']:02d}</span><span class="dt">{dt} · 오늘</span><span class="cnt">{cnt} — {latest['total']}건</span></div>
-      <div class="arch-list">
-{items}
-      </div>
-    </div>"""]
-    for iss in index[1:]:
+    out = []
+    for i, iss in enumerate(index):
         dt = iss["date"].replace("-", " · ")
+        cnt = " · ".join(f"{_RG_SHORT[r]} {n}" for r, n in iss.get("region_counts", {}).items())
+        label = f"{cnt} — {iss['total']}건" if cnt else f"{iss['total']}건 발행"
+        today = " · 오늘" if i == 0 else ""
+        link = f"/archive/{iss['number']}.html"
+        items = ""
+        if i == 0 and iss.get("sample"):
+            rows = "\n".join(
+                f'        <a class="arch-item" href="{link}"><span class="rg">{s["rg"]}</span>'
+                f'<span class="ttl">{s["title"]}</span></a>'
+                for s in iss["sample"]
+            )
+            items = f'\n      <div class="arch-list">\n{rows}\n      </div>'
         out.append(f"""    <div class="issue">
-      <div class="issue-hd"><span class="no">{iss['number']:02d}</span><span class="dt">{dt}</span><span class="cnt">{iss['total']}건 발행</span></div>
+      <a class="issue-hd" href="{link}"><span class="no">{iss['number']:02d}</span><span class="dt">{dt}{today}</span><span class="cnt">{label}</span><span class="go">읽기 →</span></a>{items}
     </div>""")
     return "\n".join(out)
 
@@ -110,6 +109,20 @@ def _update_index(issue: Issue) -> List[dict]:
 
 
 # ── 공개 API ─────────────────────────────────────────────────────
+def _render_issue_page(tpl: str, issue: Issue, index: List[dict]) -> str:
+    """지난 호를 그대로 다시 볼 수 있는 개별 페이지."""
+    html = tpl.replace("<!--FEED-->", _render_feed(issue))
+    html = html.replace("<!--ARCHIVE-->", _render_archive(index))
+    html = html.replace("2026. 07. 25 · AM 7:00",
+                        f"{issue.date.replace('-', '. ')} · 제{issue.number}호")
+    # 지난 호임을 알리는 배너 + 오늘자로 돌아가는 링크
+    banner = (f'<div class="pastbar">지난 호를 보고 있습니다 · 제{issue.number}호 '
+              f'({issue.date.replace("-", ". ")}) <a href="/">오늘의 브리핑 →</a></div>')
+    html = html.replace('<div id="view-today">', banner + '\n  <div id="view-today">')
+    # 개별 호 페이지에서는 하위 경로이므로 상대 링크 보정 불필요(모두 절대경로 사용)
+    return html
+
+
 def publish(issue: Issue) -> str:
     os.makedirs(config.DATA_DIR, exist_ok=True)
     # 1) 호 데이터 저장(발행분·보류분·검증로그 포함)
@@ -125,4 +138,11 @@ def publish(issue: Issue) -> str:
     tpl = tpl.replace("2026. 07. 25 · AM 7:00", f"{issue.date.replace('-', '. ')} · AM 7:00")
     out = os.path.join(config.SITE_DIR, "index.html")
     open(out, "w", encoding="utf-8").write(tpl)
+
+    # 4) 이 호의 개별 페이지도 생성 (아카이브에서 다시 읽기)
+    raw = open(os.path.join(config.SITE_DIR, "template.html"), encoding="utf-8").read()
+    arc_dir = os.path.join(config.SITE_DIR, "archive")
+    os.makedirs(arc_dir, exist_ok=True)
+    open(os.path.join(arc_dir, f"{issue.number}.html"), "w", encoding="utf-8").write(
+        _render_issue_page(raw, issue, index))
     return out
