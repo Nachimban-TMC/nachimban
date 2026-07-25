@@ -25,11 +25,11 @@ def _headline_rows(issue: Issue, limit: int = 5) -> str:
     rows = []
     for it in ordered[:limit]:
         kr, _, _ = config.CATEGORIES.get(it.category, (it.category, "", ""))
-        star = ' <span style="color:#b0472f;">●</span>' if it.hot else ""
+        star = ' <span style="color:#e0795f;">●</span>' if it.hot else ""
         rows.append(f"""
-      <tr><td style="padding:13px 0;border-bottom:1px solid #eeedea;">
-        <div style="font:700 10px/1 -apple-system,Arial;letter-spacing:1.4px;color:#9a9a95;text-transform:uppercase;">{_RG.get(it.region, it.region)} · {kr}{star}</div>
-        <div style="font:700 15px/1.45 -apple-system,Arial;color:#111;margin-top:6px;">{it.head}</div>
+      <tr><td style="padding:15px 0;border-bottom:1px solid #262628;">
+        <div style="font:700 10px/1 -apple-system,Arial;letter-spacing:1.5px;color:#77776f;text-transform:uppercase;">{_RG.get(it.region, it.region)} &nbsp;·&nbsp; {kr}{star}</div>
+        <div style="font:700 16px/1.45 -apple-system,Arial;color:#f3f2ef;margin-top:7px;">{it.head}</div>
       </td></tr>""")
     return "".join(rows)
 
@@ -46,53 +46,57 @@ def build_email_html(issue: Issue) -> str:
     more_line = f"외 {more}건이 더 있습니다" if more > 0 else "전체 브리핑을 확인하세요"
     url = config.SITE_URL
 
-    return f"""<!doctype html><html lang="ko"><body style="margin:0;padding:0;background:#f2f1ee;">
-    <table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="background:#f2f1ee;">
-      <tr><td align="center" style="padding:32px 14px;">
-        <table width="520" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;border:1px solid #e2e1dd;max-width:520px;">
+    # 사이트와 같은 흑백 매거진 톤 (잉크블랙 배경)
+    return f"""<!doctype html><html lang="ko"><head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="dark"></head>
+    <body style="margin:0;padding:0;background:#0b0b0c;">
+    <table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="background:#0b0b0c;">
+      <tr><td align="center" style="padding:30px 12px;">
+        <table width="520" cellpadding="0" cellspacing="0" role="presentation" style="background:#111112;border:1px solid #262628;max-width:520px;width:100%;">
 
-          <!-- 마스트헤드 -->
-          <tr><td style="padding:30px 28px 16px;border-bottom:2px solid #111;">
-            <div style="font:800 34px/1 -apple-system,Arial;letter-spacing:7px;color:#111;">나침반</div>
-            <div style="font:italic 400 12px/1 Georgia,serif;color:#9a9a95;margin-top:9px;">Nachimban — The Morning Compass</div>
+          <!-- 마스트헤드 (사이트와 동일한 톤) -->
+          <tr><td style="padding:32px 26px 18px;border-bottom:2px solid #f3f2ef;">
+            <div style="font:800 38px/1 -apple-system,'Helvetica Neue',Arial;letter-spacing:8px;color:#f3f2ef;">나침반</div>
+            <div style="font:italic 400 12px/1 Georgia,serif;color:#77776f;margin-top:10px;letter-spacing:.5px;">Nachimban — The Morning Compass</div>
           </td></tr>
 
           <!-- 발행 정보 -->
-          <tr><td style="padding:16px 28px 4px;">
-            <div style="font:700 10px/1 -apple-system,Arial;letter-spacing:1.4px;color:#9a9a95;text-transform:uppercase;">
+          <tr><td style="padding:18px 26px 2px;">
+            <div style="font:700 10px/1 -apple-system,Arial;letter-spacing:1.6px;color:#77776f;text-transform:uppercase;">
               제 {issue.number} 호 &nbsp;·&nbsp; {date_dot} &nbsp;·&nbsp; 오늘 {total}건
             </div>
-            <div style="font:400 14px/1.6 -apple-system,Arial;color:#555;margin-top:10px;">
+            <div style="font:400 14px/1.65 -apple-system,Arial;color:#b4b3af;margin-top:12px;">
               오늘 아침, 해외에 사는 우리에게 꼭 필요한 소식입니다.
             </div>
           </td></tr>
 
           <!-- 헤드라인만 -->
-          <tr><td style="padding:10px 28px 6px;">
+          <tr><td style="padding:12px 26px 4px;">
             <table width="100%" cellpadding="0" cellspacing="0" role="presentation">{rows}</table>
-            <div style="font:400 12px/1.5 -apple-system,Arial;color:#9a9a95;padding-top:14px;">{more_line}</div>
+            <div style="font:italic 400 12.5px/1.5 Georgia,serif;color:#77776f;padding-top:15px;">{more_line}</div>
           </td></tr>
 
-          <!-- 사이트로 보내는 버튼 -->
-          <tr><td style="padding:8px 28px 30px;">
+          <!-- 사이트로 보내는 버튼 (흰 버튼 = 사이트 다크모드와 동일) -->
+          <tr><td style="padding:10px 26px 32px;">
             <table cellpadding="0" cellspacing="0" role="presentation" width="100%">
-              <tr><td align="center" bgcolor="#111111" style="background:#111111;">
-                <a href="{url}" style="display:block;padding:17px 20px;font:800 12px/1 -apple-system,Arial;letter-spacing:1.6px;color:#ffffff;text-decoration:none;text-transform:uppercase;">
+              <tr><td align="center" bgcolor="#f3f2ef" style="background:#f3f2ef;">
+                <a href="{url}" style="display:block;padding:17px 20px;font:800 12px/1 -apple-system,Arial;letter-spacing:1.8px;color:#0b0b0c;text-decoration:none;text-transform:uppercase;">
                   오늘의 브리핑 전체 보기 &nbsp;&#8599;
                 </a>
               </td></tr>
             </table>
-            <div style="font:400 11.5px/1.6 -apple-system,Arial;color:#9a9a95;text-align:center;padding-top:12px;">
-              각 소식마다 <b style="color:#555;">쉬운 해석</b>과 원문 링크가 함께 있습니다.
+            <div style="font:400 11.5px/1.6 -apple-system,Arial;color:#77776f;text-align:center;padding-top:13px;">
+              각 소식마다 <b style="color:#b4b3af;">쉬운 해석</b>과 원문 링크가 함께 있습니다.
             </div>
           </td></tr>
 
           <!-- 푸터 -->
-          <tr><td style="padding:16px 28px 20px;border-top:1px solid #eeedea;background:#fafaf8;">
-            <div style="font:400 11px/1.6 -apple-system,Arial;color:#9a9a95;">
+          <tr><td style="padding:17px 26px 22px;border-top:1px solid #262628;background:#0e0e0f;">
+            <div style="font:400 11px/1.65 -apple-system,Arial;color:#6a6a63;">
               {counts}<br>
               나침반 · 재외한인을 위한 매일 아침 뉴스<br>
-              <a href="{url}" style="color:#9a9a95;">{url.replace('https://', '')}</a> · 수신거부는 회신 주세요.
+              <a href="{url}" style="color:#8a8a82;text-decoration:none;">{url.replace('https://', '')}</a> &nbsp;·&nbsp; 수신거부는 회신 주세요.
             </div>
           </td></tr>
 
