@@ -1,0 +1,21 @@
+name: daily-notify   # 매일 07:00 KST — 최신 호를 구독자에게 이메일 발송
+
+on:
+  schedule:
+    - cron: "0 22 * * *"   # 22:00 UTC = 07:00 KST
+  workflow_dispatch: {}
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4   # build 잡이 커밋한 최신 data/ 를 가져옴
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: 오전 7시 이메일 발송 (Resend)
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          NB_FROM: ${{ secrets.NB_FROM }}
+        run: python -m pipeline.run --send-latest

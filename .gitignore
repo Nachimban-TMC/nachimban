@@ -1,0 +1,5 @@
+.env
+data/subscribers.txt   # 실제 구독자 이메일 — 커밋 금지(개인정보)
+__pycache__/
+*.pyc
+run.log
