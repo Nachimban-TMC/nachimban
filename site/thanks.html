@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>구독 완료 — 나침반</title>
+<style>
+  :root{
+    --paper:#FFFFFF; --ink:#0A0A0A; --ink-soft:#4B4B4B; --ink-faint:#8C8C8C;
+    --line:#E2E1DD; --line-strong:#0A0A0A; --on-ink:#FFFFFF;
+    --disp:"Helvetica Neue","Pretendard","Apple SD Gothic Neo",Arial,system-ui,sans-serif;
+    --kr:"Pretendard","Apple SD Gothic Neo","Malgun Gothic",system-ui,-apple-system,sans-serif;
+    --serif:Georgia,"Times New Roman",serif;
+  }
+  @media (prefers-color-scheme:dark){:root{--paper:#0B0B0C;--ink:#F3F2EF;--ink-soft:#B4B3AF;
+    --ink-faint:#77776F;--line:#262628;--line-strong:#F3F2EF;--on-ink:#0B0B0C;}}
+  *{box-sizing:border-box;}
+  body{margin:0;min-height:100vh;background:var(--paper);color:var(--ink);font-family:var(--kr);
+    display:flex;align-items:center;justify-content:center;padding:26px;-webkit-font-smoothing:antialiased;}
+  .box{max-width:460px;width:100%;text-align:center;}
+  .rule{border-top:2px solid var(--ink);padding-top:10px;display:flex;justify-content:space-between;
+    font-size:10.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);}
+  h1{font-family:var(--disp);font-weight:800;font-size:clamp(38px,10vw,64px);line-height:.95;
+    letter-spacing:-.03em;margin:26px 0 0;}
+  .romn{font-family:var(--serif);font-style:italic;font-size:13px;color:var(--ink-faint);margin-top:10px;}
+  .msg{margin:26px 0 0;font-size:15px;color:var(--ink-soft);line-height:1.75;}
+  .msg b{color:var(--ink);}
+  .back{display:inline-block;margin-top:28px;background:var(--ink);color:var(--on-ink);
+    text-decoration:none;padding:14px 28px;font-size:11px;font-weight:800;letter-spacing:.14em;
+    text-transform:uppercase;border-radius:999px;}
+  .fine{margin-top:22px;font-size:11.5px;color:var(--ink-faint);line-height:1.6;}
+</style>
+</head>
+<body>
+  <div class="box">
+    <div class="rule"><span>나침반</span><span>Subscribed</span></div>
+    <h1>구독 완료</h1>
+    <div class="romn">Nachimban — The Morning Compass</div>
+    <p class="msg">감사합니다! 이제 <b>매일 아침</b> 해외에 사는 우리에게<br>꼭 필요한 소식을 메일로 보내드립니다.</p>
+    <a class="back" href="/">오늘의 브리핑 보기</a>
+    <p class="fine">메일이 스팸함으로 갈 수 있으니, 첫 브리핑이 도착하면<br>&lsquo;스팸 아님&rsquo;으로 표시해 주세요.</p>
+  </div>
+</body>
+</html>

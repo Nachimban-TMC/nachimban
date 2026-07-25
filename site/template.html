@@ -159,6 +159,31 @@
     width:34px;height:34px;border-radius:50%;cursor:pointer;display:grid;place-items:center;}
   .themebtn svg{width:16px;height:16px;}
 
+  /* ---------- 구독 모달 ---------- */
+  .modal{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;padding:22px;
+    background:color-mix(in srgb,#000 62%,transparent);backdrop-filter:blur(6px);}
+  .modal.open{display:flex;}
+  .modal-box{background:var(--paper);border:1px solid var(--line-strong);max-width:440px;width:100%;
+    padding:34px 30px 30px;position:relative;animation:pop .28s cubic-bezier(.2,.7,.2,1);}
+  @keyframes pop{from{opacity:0;transform:translateY(14px) scale(.98);}to{opacity:1;transform:none;}}
+  .modal-box .x{position:absolute;top:12px;right:14px;background:none;border:0;color:var(--ink-faint);
+    font-size:22px;cursor:pointer;line-height:1;padding:4px;}
+  .modal-box .eyebrow2{font-size:10.5px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--ink-faint);}
+  .modal-box h3{margin:8px 0 6px;font-family:var(--disp);font-weight:800;font-size:30px;letter-spacing:-.02em;line-height:1.05;}
+  .modal-box .sub2{margin:0 0 20px;font-size:13.5px;color:var(--ink-soft);line-height:1.6;}
+  .modal-box label{display:block;font-size:10.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--ink-faint);margin-bottom:7px;}
+  .modal-box input[type=email]{width:100%;border:1px solid var(--line-strong);background:var(--paper);
+    color:var(--ink);font-family:var(--kr);font-size:15px;padding:13px 15px;outline:none;border-radius:0;}
+  .modal-box input[type=email]:focus{box-shadow:0 0 0 3px color-mix(in srgb,var(--ink) 14%,transparent);}
+  .modal-box .go{width:100%;margin-top:14px;background:var(--ink);color:var(--on-ink);border:0;
+    padding:15px;font-family:var(--kr);font-size:12px;font-weight:800;letter-spacing:.14em;
+    text-transform:uppercase;cursor:pointer;}
+  .modal-box .go:hover{opacity:.88;}
+  .modal-box .fine{margin:14px 0 0;font-size:11.5px;color:var(--ink-faint);line-height:1.55;}
+  .hp{position:absolute;left:-9999px;}
+
   .rise{opacity:0;transform:translateY(12px);animation:rise .6s cubic-bezier(.2,.7,.2,1) forwards;}
   @keyframes rise{to{opacity:1;transform:none;}}
   @media (prefers-reduced-motion:reduce){.rise{animation:none;opacity:1;transform:none;}}
@@ -221,7 +246,7 @@
       <button class="themebtn" onclick="toggleTheme()" aria-label="theme">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z"/></svg>
       </button>
-      <button class="cta-pill">Subscribe</button>
+      <button class="cta-pill" onclick="openSub()">Subscribe</button>
     </div>
   </nav>
 
@@ -333,7 +358,7 @@
     <div class="sub"><span>Daily · 7:00 AM</span><span>Email + Push</span><span>Germany · Korea · EU · USA · France</span></div>
     <h2>매일 아침 7시</h2>
     <p>당신의 하루가 시작되기 전에, 꼭 필요한 소식만 담아 메일함과 홈 화면으로 보내드립니다.</p>
-    <button class="subscribe">Subscribe &#8599;</button>
+    <button class="subscribe" onclick="openSub()">Subscribe &#8599;</button>
   </div>
 </section>
 
@@ -345,7 +370,30 @@
   </footer>
 </div>
 
+<!-- ===== 구독 모달 (Netlify Forms) ===== -->
+<div class="modal" id="submodal" onclick="if(event.target===this)closeSub()">
+  <div class="modal-box">
+    <button class="x" onclick="closeSub()" aria-label="닫기">&times;</button>
+    <div class="eyebrow2">Daily · 7:00 AM</div>
+    <h3>매일 아침<br>받아보기</h3>
+    <p class="sub2">해외에 사는 우리에게 꼭 필요한 법률·복지·비자·세금 소식만 골라, 매일 아침 메일함으로 보내드립니다. 언제든 수신거부할 수 있어요.</p>
+    <form name="subscribe" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/thanks.html">
+      <input type="hidden" name="form-name" value="subscribe">
+      <p class="hp"><label>비워두세요 <input name="bot-field"></label></p>
+      <label for="sub-email">이메일 주소</label>
+      <input id="sub-email" type="email" name="email" placeholder="you@example.com" required>
+      <button class="go" type="submit">구독하기</button>
+    </form>
+    <p class="fine">스팸은 보내지 않습니다. 이메일은 브리핑 발송에만 사용됩니다.</p>
+  </div>
+</div>
+
 <script>
+  function openSub(){document.getElementById('submodal').classList.add('open');
+    setTimeout(function(){var e=document.getElementById('sub-email');if(e)e.focus();},60);}
+  function closeSub(){document.getElementById('submodal').classList.remove('open');}
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')closeSub();});
+
   function toggleTheme(){
     var r=document.documentElement, cur=r.getAttribute('data-theme');
     if(!cur) cur=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';
