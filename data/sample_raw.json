@@ -1,6 +1,18 @@
 [
   {
     "region": "de",
+    "category": "general",
+    "head": "독일 인플레이션 둔화 — 장바구니 물가 안정세",
+    "desc": "독일 소비자물가 상승률이 완만해지면서 식료품·에너지 등 생활물가 부담이 다소 줄어드는 흐름입니다. 다만 임대료와 서비스 요금은 여전히 높은 수준을 유지하고 있어 체감 물가는 지역별로 차이가 큽니다.",
+    "interp": "장 보실 때 체감이 조금 나아질 수 있습니다. 다만 <b>임대료</b>는 별개로 움직이니, 재계약을 앞두셨다면 인상 폭을 미리 확인해두세요.",
+    "source": "연방통계청",
+    "read": 2,
+    "url": "https://www.destatis.de/EN/Home/_node.html",
+    "hot": false,
+    "hotflag": null
+  },
+  {
+    "region": "de",
     "category": "visa",
     "head": "독일, 신규 게스트워커 체류허가 중단 — 블루카드·기회카드로 일원화",
     "desc": "2026년 6월 6일부터 독일은 제3국 국민에 대한 신규 게스트워커(단순 취업) 체류허가 발급을 중단했습니다. 앞으로 취업 목적 입국은 완화된 EU 블루카드 또는 점수제 기회카드(Chancenkarte)가 주요 경로가 됩니다. 기회카드는 구직 목적 1년 체류로, 2026년 기준 월 약 €1,091의 생활비 증빙과 어학(독일어 A1 또는 영어 B2)이 요구됩니다.",
@@ -56,6 +68,18 @@
     "source": "독일 외무부 · yesGermany",
     "read": 2,
     "url": "https://www.yesgermany.com/blocked-account-in-germany-2026/",
+    "hot": false,
+    "hotflag": null
+  },
+  {
+    "region": "kr",
+    "category": "general",
+    "head": "인천공항 여름 성수기 혼잡 — 출국 소요시간 증가",
+    "desc": "여름 휴가철을 맞아 인천공항 이용객이 크게 늘면서 출국 수속 대기시간이 길어지고 있습니다. 항공사들은 국제선 탑승객에게 평소보다 이른 도착을 권고하고 있습니다.",
+    "interp": "한국 방문 후 돌아오실 때 <b>공항에 여유 있게</b> 도착하세요. 자동출입국심사 사전등록을 해두면 대기를 줄일 수 있습니다.",
+    "source": "인천국제공항공사",
+    "read": 2,
+    "url": "https://www.airport.kr/",
     "hot": false,
     "hotflag": null
   },
@@ -121,6 +145,18 @@
   },
   {
     "region": "eu",
+    "category": "general",
+    "head": "유럽 폭염 경보 — 남부 중심 이동·야외활동 주의",
+    "desc": "유럽 남부를 중심으로 고온 현상이 이어지면서 여러 국가가 폭염 경보를 발령했습니다. 일부 지역은 열차 운행 지연과 야외 행사 취소가 이어지고 있습니다.",
+    "interp": "여름 휴가로 남유럽을 계획하셨다면 <b>이동 일정</b>에 여유를 두세요. 유럽 기상당국의 경보 단계를 출발 전 확인하는 것이 안전합니다.",
+    "source": "EU 기상당국",
+    "read": 2,
+    "url": "https://www.copernicus.eu/en",
+    "hot": false,
+    "hotflag": null
+  },
+  {
+    "region": "eu",
     "category": "travel",
     "head": "EU 입출국시스템 EES, 2026년 4월 전면 시행",
     "desc": "셍겐 지역 외부 국경에서 지문·얼굴 정보를 등록하는 입출국시스템(EES)이 2026년 4월 10일부터 29개국에서 전면 시행됐습니다. 단기 방문자의 출입국이 자동 기록되어, 여권 도장 대신 전자 기록으로 체류일수가 관리됩니다.",
@@ -152,6 +188,18 @@
     "source": "EU 집행위 · EFAMA",
     "read": 3,
     "url": "https://www.efama.org/newsroom/news/european-commission-s-savings-and-investments-union-strategy-credible-pathway-boost",
+    "hot": false,
+    "hotflag": null
+  },
+  {
+    "region": "us",
+    "category": "general",
+    "head": "미국 달러 환율 변동 — 송금 시점 확인 필요",
+    "desc": "미국 금리 정책 전망에 따라 달러 환율 변동성이 이어지고 있습니다. 한국이나 유럽으로 송금하는 재외한인의 실수령액에 직접적인 영향이 있습니다.",
+    "interp": "큰 금액을 보내실 계획이라면 <b>송금 시점</b>을 나눠 분산하는 것도 방법입니다. 은행별 수수료·환율 스프레드도 함께 비교해보세요.",
+    "source": "미 연준 · 한국은행",
+    "read": 2,
+    "url": "https://www.federalreserve.gov/",
     "hot": false,
     "hotflag": null
   },
@@ -200,30 +248,6 @@
     "source": "미 국세청(IRS) · Withum",
     "read": 3,
     "url": "https://www.withum.com/resources/form-1099-da-for-crypto-in-2026-what-taxpayers-and-issuers-need-to-know/",
-    "hot": false,
-    "hotflag": null
-  },
-  {
-    "region": "fr",
-    "category": "visa",
-    "head": "프랑스 체류증 갱신, ANEF 온라인 절차 개선",
-    "desc": "2026년 4월 5일 시행 훈령으로 체류증 갱신 온라인 시스템(ANEF)이 개선되고, 국무원(Conseil d'Etat)은 플랫폼 오류를 기한 내 시정하도록 명령했습니다. 갱신은 만료 4개월~2개월 전 온라인으로 신청하며(수수료 75유로), 접수 후 발급되는 임시증명(API)으로 심사 기간 중 체류·근로가 보호됩니다.",
-    "interp": "파리권 예약 적체로 불안했던 유학생·주재원에게 도움이 됩니다. 만료 전 <b>임시증명(API)</b>을 확보해 두면 체류 공백 위험을 크게 줄일 수 있습니다.",
-    "source": "프랑스 내무부 · France-Immigration",
-    "read": 3,
-    "url": "https://www.france-immigration.com/en/expert-articles/anef-2026-residence-permit-renewal/",
-    "hot": false,
-    "hotflag": null
-  },
-  {
-    "region": "fr",
-    "category": "housing",
-    "head": "프랑스 주거보조금 APL, 비EU 유학생 요건 강화",
-    "desc": "2026년 7월 1일부터 학업 계속 체류 자격의 비EU 유학생은 사회기준 장학금(bourse) 수급자여야 APL을 받을 수 있게 바뀌었습니다. 신규 신청자뿐 아니라 기존 수급자도 조건을 못 채우면 대상에서 제외되며, 상황에 따라 월 100~250유로가 줄어들 수 있습니다.",
-    "interp": "근로·견습 계약이 있거나 배우자·난민 등은 계속 대상입니다. 본인이 <b>장학금 수급 요건</b>에 해당하는지 먼저 확인하고, 안 되면 다른 주거 지원을 알아보세요.",
-    "source": "CAF(가족수당금고)",
-    "read": 3,
-    "url": "https://www.caf.fr/allocataires/actualites/actualites-nationales/apl-ce-qui-change-pour-certains-etudiants-partir-du-1er-juillet-2026",
     "hot": false,
     "hotflag": null
   }

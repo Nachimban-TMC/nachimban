@@ -49,6 +49,18 @@ def _section(region: str, items: List[NewsItem], date_dot: str) -> str:
   </section>"""
 
 
+def _render_filter(issue: Issue) -> str:
+    """지역 인덱스 — config.REGION_ORDER 를 따라 자동 생성(그 호에 기사가 있는 지역만)."""
+    have = {it.region for it in issue.published}
+    out = ['<button class="fpill on" data-r="all" onclick="showRegion(\'all\')">All</button>']
+    for r in config.REGION_ORDER:
+        if r in have:
+            meta = config.REGIONS[r]
+            out.append(f'<button class="fpill" data-r="{r}" '
+                       f'onclick="showRegion(\'{r}\')">{meta.get("s", meta["k"])}</button>')
+    return "\n      ".join(out)
+
+
 def _render_feed(issue: Issue) -> str:
     date_dot = issue.date.replace("-", ".")
     by_region = {r: [it for it in issue.published if it.region == r] for r in config.REGION_ORDER}
@@ -57,7 +69,7 @@ def _render_feed(issue: Issue) -> str:
         if not by_region[r]:
             continue
         blocks.append(_section(r, by_region[r], date_dot))
-        if r == config.AD_AFTER:
+        if config.AD_AFTER and r == config.AD_AFTER:   # None 이면 광고 숨김
             blocks.append(_AD)
     return "\n\n".join(blocks)
 
@@ -111,7 +123,8 @@ def _update_index(issue: Issue) -> List[dict]:
 # ── 공개 API ─────────────────────────────────────────────────────
 def _render_issue_page(tpl: str, issue: Issue, index: List[dict]) -> str:
     """지난 호를 그대로 다시 볼 수 있는 개별 페이지."""
-    html = tpl.replace("<!--FEED-->", _render_feed(issue))
+    html = tpl.replace("<!--FILTER-->", _render_filter(issue))
+    html = html.replace("<!--FEED-->", _render_feed(issue))
     html = html.replace("<!--ARCHIVE-->", _render_archive(index))
     html = html.replace("2026. 07. 25 · AM 7:00",
                         f"{issue.date.replace('-', '. ')} · 제{issue.number}호")
@@ -133,6 +146,7 @@ def publish(issue: Issue) -> str:
     index = _update_index(issue)
     # 3) 사이트 렌더
     tpl = open(os.path.join(config.SITE_DIR, "template.html"), encoding="utf-8").read()
+    tpl = tpl.replace("<!--FILTER-->", _render_filter(issue))
     tpl = tpl.replace("<!--FEED-->", _render_feed(issue))
     tpl = tpl.replace("<!--ARCHIVE-->", _render_archive(index))
     tpl = tpl.replace("2026. 07. 25 · AM 7:00", f"{issue.date.replace('-', '. ')} · AM 7:00")
