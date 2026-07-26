@@ -9,3 +9,8 @@
   from = "/"
   to = "/index.html"
   status = 200
+
+# 푸시 구독 저장용 서버리스 함수
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"

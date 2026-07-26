@@ -257,6 +257,36 @@
   a.arch-item{text-decoration:none;color:inherit;}
   a.arch-item:hover{background:var(--panel);}
 
+  /* ---------- 푸시 알림 안내 (구독 모달 안) ---------- */
+  .pushbox{margin-top:18px;padding-top:16px;border-top:1px solid var(--line);
+    display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;}
+  .pushbox:empty{display:none;}
+  .pushbox .pl{font-size:10.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--ink);border:1px solid var(--line-strong);border-radius:999px;padding:4px 10px;}
+  .pushbox.on .pl{background:var(--ink);color:var(--on-ink);}
+  .pushbox .pd{flex:1 1 100%;font-size:12.5px;color:var(--ink-soft);line-height:1.55;order:2;}
+  .pushbox .pd b{color:var(--ink);}
+  .pushbox .pbtn{order:3;background:var(--ink);color:var(--on-ink);border:0;border-radius:999px;
+    padding:10px 18px;font-family:var(--kr);font-size:11px;font-weight:800;letter-spacing:.08em;cursor:pointer;}
+  .pushbox .pbtn.ghost{background:none;color:var(--ink-faint);border:1px solid var(--line);}
+  .pushbox.off .pd{color:var(--ink-faint);}
+
+  /* ---------- 맨 위로 (스크롤해야 나타남 · 읽기를 방해하지 않게) ---------- */
+  .totop{position:fixed;right:16px;bottom:calc(20px + env(safe-area-inset-bottom));z-index:80;
+    width:44px;height:44px;border-radius:50%;border:1px solid var(--line-strong);
+    background:color-mix(in srgb,var(--paper) 86%,transparent);backdrop-filter:blur(10px);
+    color:var(--ink);cursor:pointer;display:grid;place-items:center;
+    opacity:0;visibility:hidden;transform:translateY(8px);
+    transition:opacity .25s,transform .25s,visibility .25s;}
+  .totop.show{opacity:.92;visibility:visible;transform:none;}
+  .totop:hover{opacity:1;}
+  .totop svg{width:17px;height:17px;}
+  @media (max-width:640px){
+    /* 하단 탭바 위로 띄우기 */
+    .totop{bottom:calc(74px + env(safe-area-inset-bottom));right:14px;width:42px;height:42px;}
+  }
+  @media (prefers-reduced-motion:reduce){.totop{transition:none;}}
+
   /* ---------- 앱 설치 안내 배너 ---------- */
   .a2hs{position:fixed;left:0;right:0;bottom:0;z-index:120;transform:translateY(110%);
     transition:transform .34s cubic-bezier(.2,.7,.2,1);padding:0 12px 12px;
@@ -759,6 +789,11 @@
   </footer>
 </div>
 
+<!-- ===== 맨 위로 ===== -->
+<button class="totop" id="totop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="맨 위로">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
+</button>
+
 <!-- ===== 모바일 하단 탭바 ===== -->
 <nav class="tabs" id="tabs">
   <button data-v="today" class="on" onclick="showView('today')">
@@ -786,11 +821,29 @@
       <button class="go" type="submit">구독하기</button>
     </form>
     <p class="fine">스팸은 보내지 않습니다. 이메일은 브리핑 발송에만 사용됩니다.</p>
+    <div class="pushbox" id="pushbox"></div>
   </div>
 </div>
 
 <script>
+  // 맨 위로: 한 화면 이상 내려갔을 때만 표시
+  (function(){
+    var b=document.getElementById('totop'), tick=false;
+    function upd(){
+      // innerHeight 를 못 읽는 환경에서도 동작하도록 하한을 둔다
+      var th = Math.max(320, (window.innerHeight||0) * 0.8);
+      b.classList.toggle('show', (window.scrollY||window.pageYOffset||0) > th);
+      tick=false;
+    }
+    window.addEventListener('scroll', function(){
+      if(!tick){ tick=true; setTimeout(upd, 60); }   // rAF 는 비활성 탭에서 멈춤
+    }, {passive:true});
+    window.addEventListener('resize', upd, {passive:true});
+    upd();
+  })();
+
   function openSub(){document.getElementById('submodal').classList.add('open');
+    if(window.nbPushInit) try{nbPushInit();}catch(e){}
     setTimeout(function(){var e=document.getElementById('sub-email');if(e)e.focus();},60);}
   function closeSub(){document.getElementById('submodal').classList.remove('open');}
   document.addEventListener('keydown',function(e){if(e.key==='Escape')closeSub();});
@@ -828,6 +881,8 @@
   }
 </script>
 
+<script>window.NB_VAPID_PUBLIC="BGTQKOl13Yac9podf-K5lqnOhOQuU_1Fdk_kCweLg_I6e0sf07PyUtIpOSl_GqqGbnQeWIdmwyst-uhSzJYZBp0";</script>
 <script src="/sw-register.js"></script>
+<script src="/push.js"></script>
 </body>
 </html>

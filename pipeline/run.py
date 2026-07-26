@@ -90,14 +90,15 @@ def main():
                     help="빌드 없이 가장 최근 호를 이메일로만 발송")
     args = ap.parse_args()
 
-    from pipeline import publish, notify
+    from pipeline import publish, notify, push
 
     # 07:00 발송 전용: 이미 만들어둔 호를 메일로만
     if args.send_only or args.send_latest:
         num = args.send_only or _latest_number()
         issue = _load_issue(num)
         print(f"=== 발송: 제{issue.number}호 · {issue.date} ===")
-        notify.send(issue)
+        notify.send(issue)   # 이메일
+        push.send(issue)     # 앱 푸시
         return
 
     number = args.number or _next_number()
@@ -113,6 +114,7 @@ def main():
             print(f"    - [{it.region}] {it.head} :: {'; '.join(it.check_notes)}")
     if args.send:
         notify.send(issue)
+        push.send(issue)
 
 
 if __name__ == "__main__":
