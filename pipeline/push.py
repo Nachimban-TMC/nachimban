@@ -26,11 +26,13 @@ def _vapid() -> dict | None:
     return json.load(open(_VAPID_PATH, encoding="utf-8"))
 
 
-def _fetch_subscriptions() -> list[dict]:
+def _fetch_subscriptions() -> list[dict] | None:
+    """구독 목록. 토큰이 없으면 None(=푸시 시도 자체를 건너뜀)."""
     token = os.getenv("PUSH_ADMIN_TOKEN")
     if not token:
         print("   🔔 PUSH_ADMIN_TOKEN 없음 → 푸시 건너뜀")
-        return []
+        print('       👉 발송하려면: PUSH_ADMIN_TOKEN="정한값" python3 -m pipeline.run --send-latest')
+        return None
     url = config.SITE_URL.rstrip("/") + "/api/subscribers"
     req = urllib.request.Request(url, headers={
         "x-admin-token": token,
@@ -39,9 +41,26 @@ def _fetch_subscriptions() -> list[dict]:
     try:
         with urllib.request.urlopen(req, timeout=20) as r:
             data = json.loads(r.read().decode())
-        return data.get("subscriptions", [])
+        subs = data.get("subscriptions", [])
+        print(f"   🔔 알림 켠 기기: {len(subs)}대")
+        return subs
+    except urllib.error.HTTPError as e:
+        body = ""
+        try:
+            body = e.read().decode("utf-8", "replace")[:200]
+        except Exception:  # noqa: BLE001
+            pass
+        print(f"   🔔 구독자 목록 조회 실패 — HTTP {e.code}")
+        if e.code == 401:
+            print("       👉 PUSH_ADMIN_TOKEN 이 Netlify 환경변수와 다릅니다. 값을 확인하세요.")
+        elif e.code == 404:
+            print("       👉 /api/subscribers 함수가 아직 배포되지 않았습니다.")
+            print("          Netlify → Deploys → Trigger deploy 로 재배포하세요.")
+        elif body:
+            print(f"       사유: {body}")
+        return []
     except Exception as e:  # noqa: BLE001
-        print(f"   🔔 구독자 목록 조회 실패: {e}")
+        print(f"   🔔 구독자 목록 조회 실패: {type(e).__name__}: {e}")
         return []
 
 
@@ -52,7 +71,12 @@ def send(issue: Issue) -> int:
         print("   🔔 data/vapid.json 없음 → 푸시 건너뜀")
         return 0
     subs = _fetch_subscriptions()
+    if subs is None:          # 토큰 없음 — 위에서 이미 안내함
+        return 0
     if not subs:
+        print("   🔔 아직 알림을 켠 기기가 없습니다.")
+        print("       👉 휴대폰에서 사이트 → SUBSCRIBE → '알림 받기' 를 눌러주세요.")
+        print("          (아이폰은 먼저 '홈 화면에 추가' 후 그 앱에서 열어야 합니다)")
         return 0
 
     try:
