@@ -1,9 +1,12 @@
 name: daily-build   # 매일 06:00 KST — 수집→요약→이중 팩트체크→발행(사이트 갱신)
 
+# ⚠️ 자동 스케줄 비활성화 상태입니다.
+# 현재 나침반은 '무료 Claude 예약작업'으로 매일 갱신하므로 이 워크플로는 쓰지 않습니다.
+# (유료 API 자동화가 필요해지면 아래 schedule 주석을 해제하고 시크릿을 등록하세요)
 on:
-  schedule:
-    - cron: "0 21 * * *"   # 21:00 UTC = 06:00 KST
-  workflow_dispatch: {}     # 수동 실행 버튼(테스트용)
+  # schedule:
+  #   - cron: "0 21 * * *"   # 21:00 UTC = 06:00 KST
+  workflow_dispatch: {}      # 수동 실행만 가능
 
 permissions:
   contents: write           # 갱신된 site/·data/ 를 커밋하기 위함

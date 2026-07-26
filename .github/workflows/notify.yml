@@ -1,8 +1,9 @@
 name: daily-notify   # 매일 07:00 KST — 최신 호를 구독자에게 이메일 발송
 
+# ⚠️ 자동 스케줄 비활성화 상태입니다. (수동 실행만 가능)
 on:
-  schedule:
-    - cron: "0 22 * * *"   # 22:00 UTC = 07:00 KST
+  # schedule:
+  #   - cron: "0 22 * * *"   # 22:00 UTC = 07:00 KST
   workflow_dispatch: {}
 
 jobs:
