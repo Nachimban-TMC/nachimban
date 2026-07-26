@@ -1,0 +1,641 @@
+{
+  "number": 6,
+  "date": "2026-07-26",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "독일 부유층 절반 '해외이주 고려'",
+      "desc": "구인구직 플랫폼 Indeed 의뢰 설문(2026년 7월 19일 발표)에서 가구 순소득 월 6천유로 이상 고소득층의 54%가 최근 12개월간 해외 취업을 알아봤고, 34.5%는 영구 이주까지 고려한다고 답했다. 선호 이주국은 미국(14.4%), 영국·스위스(각 13.6%) 순이었다.",
+      "interp": "<b>고소득 전문직 이탈</b> 우려가 커지면서 향후 세제·이민 정책에 변화가 뒤따를 수 있으니, 독일 경제·구인시장 흐름에 관심 있는 재외한인이라면 계속 지켜볼 만하다.",
+      "source": "Euronews",
+      "read": 3,
+      "url": "https://www.euronews.com/business/2026/07/19/survey-half-of-germanys-top-earners-consider-moving-abroad",
+      "source_urls": [
+        "https://www.euronews.com/business/2026/07/19/survey-half-of-germanys-top-earners-consider-moving-abroad",
+        "https://de.finance.yahoo.com/nachrichten/aktuelle-umfrage-zweite-deutsche-spitzenverdiener-121831711.html"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "citizenship",
+      "head": "17~45세 남성 장기출국, 허가 필요?",
+      "desc": "2026년 1월 1일 시행된 병역현대화법(WDModG)에 따라 17~45세 독일 남성(이중국적 포함)은 3개월 넘게 해외 체류 시 원칙적으로 병무청(Bundeswehr Karrierecenter) 승인이 필요하다. 다만 국방부는 4월 7일, 현재 자원입대 체제인 만큼 '포괄적 면제'를 발급해 사실상 사전 허가 없이 출국 가능하다고 밝혔다.",
+      "interp": "<b>독일 국적 남성(이중국적자 포함)</b>은 법 조항 자체는 여전히 유효해 향후 징병제 전환 시 달라질 수 있으니, 장기 출국 전 병무청 최신 공지를 확인해두는 게 안전하다.",
+      "source": "Berliner Zeitung / AOL(dpa)",
+      "read": 3,
+      "url": "https://www.berliner-zeitung.de/news/neue-wehrpflicht-regel-junge-maenner-duerfen-deutschland-nicht-mehr-laengere-zeit-ohne-genehmigung-verlassen-li.10028539",
+      "source_urls": [
+        "https://www.berliner-zeitung.de/news/neue-wehrpflicht-regel-junge-maenner-duerfen-deutschland-nicht-mehr-laengere-zeit-ohne-genehmigung-verlassen-li.10028539",
+        "https://www.aol.com/articles/germanys-young-men-not-permit-183036525.html",
+        "https://euronews.com/2026/04/06/going-abroad-what-will-germanys-new-military-service-act-actually-change"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "health",
+      "head": "법정 건강보험료, 2026년 또 인상",
+      "desc": "2026년 들어 독일 주요 법정건강보험이 추가기여율(Zusatzbeitrag)을 인상했다. 최대 보험사 TK는 2.45%→2.69%, DAK-Gesundheit는 2.8%→3.2%로 올랐고, 전체 평균 추가기여율은 2.5%에서 2.9%로 상승했다. 정부의 약 20억유로 지원에도 추가 인상을 막기엔 부족했다는 평가다.",
+      "interp": "<b>월급명세서상 건강보험료 공제액</b>이 늘었을 수 있으니, 가입 보험사의 2026년 요율을 확인하고 필요하면 추가기여율이 낮은 곳으로 이전(Kassenwechsel)을 고려해보자.",
+      "source": "iamexpat.de",
+      "read": 3,
+      "url": "https://www.iamexpat.de/expat-info/germany-news/german-health-insurance-providers-announce-price-rises",
+      "source_urls": [
+        "https://www.iamexpat.de/expat-info/germany-news/german-health-insurance-providers-announce-price-rises",
+        "https://www.thelocal.de/20251222/statutory-insurance-companies-announce-contribution-hike-in-the-new-year",
+        "https://www.newsworm.de/news/germanys-health-insurance-contributions-rise-in-2026"
+      ],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "housing",
+      "head": "독일 임대차법 개정안 각의 통과",
+      "desc": "독일 연방정부는 2026년 4월 29일 '임대차법 II(Mietrecht II)' 개정안을 의결했다. 소비자물가 연 3% 초과분 인덱스임대료 인상은 절반만 반영하도록 상한을 두고, 단기임대차 계약 기간도 최대 6개월(예외 시 8개월)로 제한하는 내용이다. 기존 임대료상한제(Mietpreisbremse)는 이미 2029년 말까지 연장돼 있다.",
+      "interp": "<b>인덱스 임대차 계약</b> 세입자에게는 임대료 급등을 막는 안전장치가 생기는 셈이지만, 아직 분데스탁·분데스라트 통과 전 초안 단계이니 최종 시행 여부는 계속 확인이 필요하다.",
+      "source": "Bundesregierung",
+      "read": 3,
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/besserer-schutz-im-mietrecht-2426570",
+      "source_urls": [
+        "https://www.bundesregierung.de/breg-de/aktuelles/besserer-schutz-im-mietrecht-2426570",
+        "https://www.handelsblatt.com/politik/deutschland/mietrecht-kabinett-beschliesst-beschraenkung-fuer-indexmieterhoehungen/100220904.html"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "labor",
+      "head": "외국인 근로자, 무료 상담받을 권리 고지",
+      "desc": "2026년 1월 1일부터 독일 고용주는 제3국 출신 외국인 근로자 채용 시 근무 첫날까지 무료 다국어 상담 서비스 '페어 인테그레이션(Faire Integration)'을 서면으로 안내해야 한다. 개정 체류법(§45c AufenthG)에 따른 의무로, 임금 착취 등 부당대우를 막기 위한 조치다.",
+      "interp": "<b>임금·근로조건 관련 고민</b>이 있다면 고용주가 안내한 주(州)별 '페어 인테그레이션' 상담소를 무료로 이용할 수 있으니 적극 활용하자.",
+      "source": "BMAS(연방노동사회부)",
+      "read": 3,
+      "url": "https://www.bmas.de/DE/Service/Presse/Meldungen/2026/start-des-beratungsangebots-faire-integration.html",
+      "source_urls": [
+        "https://www.bmas.de/DE/Service/Presse/Meldungen/2026/start-des-beratungsangebots-faire-integration.html",
+        "https://www.ihk.de/stuttgart/fuer-unternehmen/fachkraefte-und-ausbildung/personalgewinnung-und-entwicklung/fachkraefteeinwanderung/neue-pflicht-fuer-arbeitgeber-6845440"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "pension",
+      "head": "독일 연금, 7월부터 4.24% 인상",
+      "desc": "독일 연방연금보험(Deutsche Rentenversicherung)은 2026년 7월 1일부터 법정연금이 4.24% 인상됐다고 공식 발표했다. 연금포인트 가치는 40.79유로에서 42.52유로로 오르며 약 2,100만명이 혜택을 받는다. 월 1,000유로 수급자는 1,042.40유로를 받게 된다.",
+      "interp": "<b>독일에서 국민연금(Rentenversicherung)을 납부해온 교민</b>이라면 향후 수급액 계산 시 이번 인상률을 반영해야 하며, 임금이 오를수록 연금도 함께 오르는 구조임을 참고하자.",
+      "source": "Deutsche Rentenversicherung",
+      "read": 3,
+      "url": "https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Meldungen/2026/260305-rentenanpassung-2026",
+      "source_urls": [
+        "https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Meldungen/2026/260305-rentenanpassung-2026",
+        "https://www.steuertipps.de/altersvorsorge-rente-finanzen/rentenerhoehung-2026-so-viel-mehr-rente-gibt-es-ab-dem-1-7-2026"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "남부 폭염중대경보, 전국 찜통더위",
+      "desc": "7월 26일 전국 대부분 지역에 폭염특보가 발효 중이며 전남·영남 일부 지역엔 폭염중대경보가 내려졌다. 대구 등 내륙은 낮 최고기온이 37~38도까지 오르고 서울·수도권도 33도 안팎의 무더위와 열대야가 이어지고 있다.",
+      "interp": "<b>폭염중대경보</b>는 체감 38도 이상일 때 발령되는 최고 단계 경보로 한낮 야외활동은 피하는 게 안전하다. 오전 10시~오후 5시 외출을 자제하고 수분을 자주 섭취하세요.",
+      "source": "경향신문/네이트뉴스",
+      "read": 2,
+      "url": "https://www.khan.co.kr/article/202607252054001/",
+      "source_urls": [
+        "https://www.khan.co.kr/article/202607252054001/",
+        "https://news.nate.com/weather/view/20260726n03510"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "study",
+      "head": "2027학년도 재외국민 특별전형 요강 발표",
+      "desc": "서울대·연세대·고려대 등 주요 대학이 2027학년도 재외국민 특별전형 모집요강을 발표했다. 대부분 대학이 학교생활기록부상 학교폭력 조치사항을 서류·면접 평가에 정량 반영하기로 했고, 서울시립대는 기존에 없던 '전 교육과정 국외이수자(12년 특례)' 전형을 신설했다.",
+      "interp": "자녀 대학 입시를 준비 중이라면 <b>학교폭력 조치사항</b>이 감점 요인이 될 수 있으니 생활기록부 관리에 유의하고, 서울시립대 12년 특례 신설 등 세부 요강을 각 대학 입학처에서 확인하세요.",
+      "source": "에듀인포",
+      "read": 3,
+      "url": "https://www.eduinfo.co.kr/news/article.html?no=23234",
+      "source_urls": [
+        "https://www.eduinfo.co.kr/news/article.html?no=23234",
+        "https://www.edu-seminar.com/Entrance_Exam_Information_Korea/?bmode=view&idx=168141736"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "visa",
+      "head": "재외동포(F-4) 취업 제한 완화 시행",
+      "desc": "법무부가 '재외동포(F-4) 자격의 취업활동 제한범위 고시'(법무부고시 제2026-35호)를 2026년 2월 12일 새로 시행했다. 단순노무 제한 직종이 39개에서 29개로 줄어 건설단순종사원·주유원·매장정리원 등 10개 직종이 새로 허용됐고, 인구감소지역 거주자는 제한이 추가로 완화된다.",
+      "interp": "F-4 비자로 취업을 고려 중이라면 <b>허용 직종이 확대</b>됐으니 구직 전 법무부고시 제2026-35호의 최신 제한 목록을 하이코리아나 관할 출입국청에서 확인하세요.",
+      "source": "법무부/한국다문화뉴스",
+      "read": 3,
+      "url": "https://www.moj.go.kr/bbs/moj/184/603463/artclView.do",
+      "source_urls": [
+        "https://www.moj.go.kr/bbs/moj/184/603463/artclView.do",
+        "https://www.kmcn.kr/news/article.html?no=9126",
+        "https://www.ekw.co.kr/news/articleView.html?idxno=20143"
+      ],
+      "hot": true,
+      "hotflag": "For expats",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "pension",
+      "head": "국민연금 보험료율, 올해부터 단계 인상",
+      "desc": "2025년 3월 국회를 통과한 국민연금법 개정에 따라 보험료율이 기존 9%에서 2026년 9.5%로 오른 것을 시작으로 매년 0.5%포인트씩 8년간 인상돼 2033년 13%에 도달한다. 소득대체율도 43%로 상향됐다.",
+      "interp": "재외국민도 국민연금에 <b>임의가입</b>해 있다면 보험료율 인상분이 순차 적용되니 다음 납부 고지서에서 인상 여부를 확인하세요.",
+      "source": "토스뱅크/대연법률사무소",
+      "read": 3,
+      "url": "https://www.tossbank.com/articles/nps2026",
+      "source_urls": [
+        "https://www.tossbank.com/articles/nps2026",
+        "https://www.daeryunlaw.com/newsletter/amendment/144"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "tax",
+      "head": "국외전출세, 2027년부터 해외주식도 과세",
+      "desc": "기획재정부의 2025년 세제개편안에 따라 이민·영주권 취득으로 출국하는 대주주에게 양도소득세를 매기는 '국외전출세'의 과세 범위가 2027년부터 해외 주식까지 확대된다. 코스피 1%·코스닥 2%·비상장 4% 이상 지분 또는 시가총액 50억원 이상 대주주가 대상이며 세율은 3억원 이하 20%, 초과분 25%다.",
+      "interp": "<b>해외 이주 예정</b>이고 대주주 요건에 해당하는 해외주식을 보유하고 있다면 2027년 시행 전 세무 전문가와 미리 상담해 두는 것이 좋습니다.",
+      "source": "기획재정부/한국경제",
+      "read": 3,
+      "url": "https://www.hankyung.com/article/2025110286801",
+      "source_urls": [
+        "https://www.hankyung.com/article/2025110286801",
+        "https://www.thepublic.kr/news/articleView.html?idxno=282009"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "travel",
+      "head": "여권 수수료, 3월부터 20년만에 인상",
+      "desc": "여권법 시행령 개정으로 2026년 3월 1일부터 여권 발급 수수료가 인상됐다. 국내 10년 복수여권(58면)은 5만원에서 5만2천원으로, 재외공관에서 발급받을 경우 국제교류기여금이 미화 2달러(현지화 약 1.80유로) 추가로 오른다.",
+      "interp": "여권 갱신이 임박했다면 <b>재외공관 수수료 인상분(미화 2달러)</b>이 이미 반영돼 있으니 신청 전 관할 공관 홈페이지에서 최신 수수료를 확인하세요.",
+      "source": "외교부/정책브리핑",
+      "read": 3,
+      "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148959916",
+      "source_urls": [
+        "https://www.korea.kr/news/policyNewsView.do?newsId=148959916",
+        "https://at.mofa.go.kr/at-ko/brd/m_8461/view.do?seq=1347829",
+        "https://www.issueon.co.kr/news/articleView.html?idxno=12303"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "구글, EU서 8.9억유로 과징금",
+      "desc": "유럽연합 집행위원회가 2026년 7월 23일 구글이 디지털시장법(DMA)을 위반했다며 8억9000만 유로 과징금을 부과했습니다. 검색 자사 서비스 우대 혐의로 4억6000만 유로, 플레이스토어에서 저렴한 대체 결제 안내를 막은 혐의로 4억3000만 유로가 부과됐습니다.",
+      "interp": "<b>구글</b>이 검색에서 쇼핑·호텔 등 자사 서비스를 우선 노출하고, 앱 개발자가 <b>플레이스토어</b> 밖 더 저렴한 결제를 안내하지 못하게 막은 게 문제였습니다. 앞으로 앱 구매 시 대체 결제 안내가 보이면 가격을 비교해보세요.",
+      "source": "European Commission (DMA)",
+      "read": 3,
+      "url": "https://digital-markets-act.ec.europa.eu/commission-fines-google-eur890-million-breaches-digital-markets-act-2026-07-23_en",
+      "source_urls": [
+        "https://digital-markets-act.ec.europa.eu/commission-fines-google-eur890-million-breaches-digital-markets-act-2026-07-23_en",
+        "https://www.bleepingcomputer.com/news/google/eu-fines-google-1-billion-for-digital-markets-act-breaches-in-search-and-play-store/"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "invest",
+      "head": "ECB, 기준금리 2.25% 동결",
+      "desc": "유럽중앙은행(ECB)이 2026년 7월 23일 통화정책회의에서 예금금리를 2.25%(주요 리파이낸싱 2.40%, 한계대출 2.65%)로 동결했습니다. 중동발 에너지가격 충격을 주시하며 9월 10일 회의에서 추가 인상 가능성을 열어뒀습니다.",
+      "interp": "<b>ECB</b>가 금리를 유지했지만 인플레이션(6월 2.8%)이 다시 오르면 <b>9월 금리 인상</b> 가능성을 시사했습니다. 큰돈 이동이나 대출 계획이 있다면 9월 발표 전까지 지켜보는 게 좋습니다.",
+      "source": "European Central Bank",
+      "read": 3,
+      "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html",
+      "source_urls": [
+        "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html",
+        "https://live.euronext.com/en/financial-news/ecb-leaves-rates-hold-keeps-door-open-further-rate-hikes"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "travel",
+      "head": "EU, EES 전면중단 요청 거부",
+      "desc": "항공업계가 여름철 최대 5시간 대기를 이유로 EES(입출국시스템) 전면 중단을 요청했으나 EU 집행위는 2026년 7월 8일경 '불필요하고 불가능하다'며 거부했습니다. 대신 국경검문소별 최대 6시간 부분정지만 허용하는 현행 유연성 조치(9월 6일 만료 예정)를 유지 중이며, 벨기에·프랑스·독일 등 9개국이 이 조치의 연장을 요청한 상태입니다.",
+      "interp": "여름 성수기 <b>EES</b> 검문 지연은 당분간 계속될 전망이니, 유럽 국경 통과 시 평소보다 시간을 넉넉히 잡으세요. 9월 초 연장 여부가 결정되므로 8~9월 여행 시 최신 공지를 다시 확인하는 게 좋습니다.",
+      "source": "The Local",
+      "read": 3,
+      "url": "https://www.thelocal.com/20260708/europes-ees-border-checks-wont-be-suspended-eu-insists",
+      "source_urls": [
+        "https://www.thelocal.com/20260708/europes-ees-border-checks-wont-be-suspended-eu-insists",
+        "https://www.biometricupdate.com/202607/eu-decides-not-to-suspend-the-ees-even-as-it-admits-difficulties"
+      ],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "policy",
+      "head": "EU 항공여객권리법 개정 최종승인",
+      "desc": "유럽의회가 2026년 7월 7일(찬성 646·반대 12) 항공여객권리 규정(EU261) 개정안을 승인했고 이사회도 7월 13일 최종 승인했습니다. 보상금액(1500km 이하 250유로~3500km 초과 600유로)은 유지되며 무료 기내수하물, 어린이·임산부 가족 무료 인접좌석, 노쇼 조항 금지가 새로 추가됐지만 실제 시행은 2027년 하반기부터입니다.",
+      "interp": "<b>보상금액</b>은 그대로지만 무료 기내가방과 <b>가족 무료 좌석 배정</b>이 새로 생겼습니다. 다만 적용은 2027년 하반기부터이니 올해 지연·결항 시에는 기존 EU261 규정으로 보상을 청구하면 됩니다.",
+      "source": "Euronews",
+      "read": 3,
+      "url": "https://www.euronews.com/my-europe/2026/07/21/air-passenger-rights-reform-what-the-new-rules-mean-for-you",
+      "source_urls": [
+        "https://www.euronews.com/my-europe/2026/07/21/air-passenger-rights-reform-what-the-new-rules-mean-for-you",
+        "https://www.consilium.europa.eu/en/press/press-releases/2026/07/13/council-gives-final-clearance-for-stronger-air-passenger-rights/"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "6월 소비자물가 3.5%로 둔화",
+      "desc": "미국 노동통계국(BLS) 발표에 따르면 6월 소비자물가지수(CPI)는 전월 대비 0.4% 하락했고, 전년 대비 상승률은 5월 4.2%에서 3.5%로 크게 둔화됐다. 에너지 가격이 한 달 새 5.7% 급락한 것이 주된 요인이며, 근원물가(식품·에너지 제외)는 전년 대비 2.6% 상승에 그쳤다.",
+      "interp": "<b>물가 상승세가 주춤</b>하며 장바구니·주유비 부담이 다소 줄었다는 신호지만, 근원물가는 여전히 높아 안심하긴 이릅니다. 큰 지출 계획이 있다면 이번 달 가격 흐름을 참고해 타이밍을 조율해보세요.",
+      "source": "CNBC / Fox Business",
+      "read": 3,
+      "url": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html",
+      "source_urls": [
+        "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html",
+        "https://www.foxbusiness.com/economy/cpi-inflation-june-2026"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "연준, 7월29일 5연속 금리동결 유력",
+      "desc": "연방준비제도(Fed)는 7월 28~29일 FOMC 회의에서 기준금리를 현행 3.50~3.75%로 5회 연속 동결할 것으로 시장은 전망한다. 커빈 워시(Kevin Warsh) 의장은 '물가가 여전히 높다'며 매파적 입장을 유지해 9월 이후 추가 인상 가능성도 배제하지 않고 있다.",
+      "interp": "<b>금리 동결이 유력</b>하지만 워시 의장의 발언 톤에 따라 증시·환율이 출렁일 수 있습니다. 미국 주식·펀드 보유자라면 29일 오후 2시(동부시간) 발표를 주시하고 단기 변동성에 대비하세요.",
+      "source": "CBS News / Reuters",
+      "read": 3,
+      "url": "https://www.cbsnews.com/news/fed-interest-rate-decision-july-meeting/",
+      "source_urls": [
+        "https://www.cbsnews.com/news/fed-interest-rate-decision-july-meeting/",
+        "https://www.aol.com/articles/fed-hold-rates-may-warsh-105507075.html"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "visa",
+      "head": "H-1B 2027회계연도 정원 마감",
+      "desc": "미국 이민서비스국(USCIS)이 2027 회계연도 H-1B 비자의 정규 쿼터(6만5000명)와 석사 이상 쿼터(2만명)를 모두 채웠다고 확인했다. 올해는 임금 수준이 높을수록 추첨 기회를 더 주는 가중치 추첨제 첫 정식 시행 연도로, 선발자의 71.5%가 미국 내 고학력(석사 이상) 소지자였다.",
+      "interp": "<b>고연봉·고학력자일수록 유리</b>해진 새 추첨 방식이 자리잡았습니다. 이번 사이클에서 탈락했다면 OPT 연장, O-1, L-1 등 대안 비자를 미리 알아보는 게 좋습니다.",
+      "source": "SHRM / Fragomen",
+      "read": 3,
+      "url": "https://www.shrm.org/topics-tools/news/talent-acquisition/uscis-reaches-fy2027-h1b-visa-cap",
+      "source_urls": [
+        "https://www.shrm.org/topics-tools/news/talent-acquisition/uscis-reaches-fy2027-h1b-visa-cap",
+        "https://www.fragomen.com/insights/united-states-h-1b-cap-is-reached-for-fy-2027.html"
+      ],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "pension",
+      "head": "2027년 사회보장 COLA 3.8% 전망",
+      "desc": "고령층 권익단체 시니어시티즌리그(TSCL)는 6월 물가 둔화를 반영해 2027년 사회보장 생계비조정(COLA)을 3.8%로 추정했다. 이대로 확정되면 평균 수령액이 약 74달러 늘어 월 2011달러 수준이 될 전망이며, 공식 수치는 10월 사회보장국(SSA)이 발표한다.",
+      "interp": "<b>부모님이나 본인의 은퇴 소득 계획</b>에 참고할 수치입니다. 다만 7~9월 물가 데이터가 더 반영돼 최종 확정치는 달라질 수 있으니 10월 공식 발표를 다시 확인하세요.",
+      "source": "Fox Business / CBS News",
+      "read": 3,
+      "url": "https://www.foxbusiness.com/economy/social-security-recipients-could-see-bigger-cost-of-living-adjustment-2027-new-forecast-says",
+      "source_urls": [
+        "https://www.foxbusiness.com/economy/social-security-recipients-could-see-bigger-cost-of-living-adjustment-2027-new-forecast-says",
+        "https://www.cbsnews.com/news/social-security-cola-percentage-2027-estimate/"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "labor",
+      "head": "6월 고용 5.7만명 증가, 예상 밑돌아",
+      "desc": "미국 노동통계국(BLS) 발표에 따르면 6월 비농업 고용은 5만7000명 증가에 그쳐 시장 예상치(11만5000명)를 크게 밑돌았고, 4·5월 고용도 합계 7만4000명 하향 수정됐다. 실업률은 4.2%로 소폭 하락했지만 구직 포기 등으로 경제활동참가율이 낮아진 영향이 크다.",
+      "interp": "<b>고용시장 둔화 신호</b>로, 겉으로 보이는 실업률 하락에 안심하기보다 이직·구직 활동은 신중하게 계획하는 게 좋습니다.",
+      "source": "NBC News / BLS",
+      "read": 3,
+      "url": "https://www.nbcnews.com/business/economy/june-jobs-report-stable-hiring-rcna352603",
+      "source_urls": [
+        "https://www.nbcnews.com/business/economy/june-jobs-report-stable-hiring-rcna352603",
+        "https://www.hiringlab.org/2026/07/02/june-2026-jobs-report-an-unmoving-tide/"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
