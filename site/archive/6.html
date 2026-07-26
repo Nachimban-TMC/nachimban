@@ -389,6 +389,22 @@
   .page-head p{margin:14px 0 0;max-width:58ch;font-size:14.5px;color:var(--ink-soft);line-height:1.7;}
   .search{display:flex;align-items:center;gap:10px;border:1px solid var(--line-strong);border-radius:999px;padding:11px 18px;margin:24px 0 8px;}
   .search input{flex:1;border:0;background:none;color:var(--ink);font-family:var(--kr);font-size:14px;outline:none;}
+  .search .sclear{display:none;background:none;border:0;color:var(--ink-faint);font-size:20px;
+    line-height:1;cursor:pointer;padding:0 2px;flex:none;}
+  .search .sclear.on{display:block;}
+  /* 검색 결과 */
+  .sres{margin:18px 0 0;}
+  .sres .shead{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--ink-faint);padding-bottom:10px;border-bottom:1px solid var(--line-strong);}
+  .sres .shit{display:flex;gap:12px;align-items:baseline;padding:14px 0;
+    border-bottom:1px solid var(--line);text-decoration:none;color:inherit;}
+  .sres .shit:hover{background:var(--panel);}
+  .sres .shit .sn{font-family:var(--serif);font-size:12px;color:var(--ink-faint);flex:none;width:64px;}
+  .sres .shit .st{font-size:14px;font-weight:700;line-height:1.45;}
+  .sres .shit .sc{display:block;font-size:11px;font-weight:400;color:var(--ink-faint);margin-top:3px;}
+  .sres .snone{padding:26px 0;text-align:center;font-family:var(--serif);font-style:italic;
+    font-size:14px;color:var(--ink-faint);}
+  .sres mark{background:none;color:var(--ink);font-weight:800;box-shadow:inset 0 -.45em 0 var(--panel);}
   .search svg{width:16px;height:16px;color:var(--ink-faint);flex:none;}
   .issue{border-top:1px solid var(--line-strong);padding:24px 0 4px;}
   .issue-hd{display:flex;align-items:baseline;gap:16px;margin-bottom:14px;flex-wrap:wrap;}
@@ -466,56 +482,56 @@
       <article class="card">
         <div class="m-top"><span class="date">2026.07.26</span><span class="tag">주요뉴스 <em>TOP STORY</em></span></div>
         <div class="thumb g4"><span class="ph">Sample</span></div>
-        <h3>독일 부유층 절반 '해외이주 고려'</h3>
-        <p class="desc">구인구직 플랫폼 Indeed 의뢰 설문(2026년 7월 19일 발표)에서 가구 순소득 월 6천유로 이상 고소득층의 54%가 최근 12개월간 해외 취업을 알아봤고, 34.5%는 영구 이주까지 고려한다고 답했다. 선호 이주국은 미국(14.4%), 영국·스위스(각 13.6%) 순이었다.</p>
-        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p><b>고소득 전문직 이탈</b> 우려가 커지면서 향후 세제·이민 정책에 변화가 뒤따를 수 있으니, 독일 경제·구인시장 흐름에 관심 있는 재외한인이라면 계속 지켜볼 만하다.</p></div>
-        <div class="m-bot"><span><span class="lb">Source</span>Euronews</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://www.euronews.com/business/2026/07/19/survey-half-of-germanys-top-earners-consider-moving-abroad"><span class="arrow">↗</span>read more</a></div>
+        <h3>독일 인플레이션 둔화 — 장바구니 물가 안정세</h3>
+        <p class="desc">독일 소비자물가 상승률이 완만해지면서 식료품·에너지 등 생활물가 부담이 다소 줄어드는 흐름입니다. 다만 임대료와 서비스 요금은 여전히 높은 수준을 유지하고 있어 체감 물가는 지역별로 차이가 큽니다.</p>
+        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>장 보실 때 체감이 조금 나아질 수 있습니다. 다만 <b>임대료</b>는 별개로 움직이니, 재계약을 앞두셨다면 인상 폭을 미리 확인해두세요.</p></div>
+        <div class="m-bot"><span><span class="lb">Source</span>연방통계청</span><span><span class="lb">Read</span>2 min</span><a class="readmore" href="https://www.destatis.de/EN/Home/_node.html"><span class="arrow">↗</span>read more</a></div>
       </article>
 
       <article class="card">
-        <div class="m-top"><span class="date">2026.07.26</span><span class="tag">국적·병역 <em>CITIZEN</em></span></div>
+        <div class="m-top"><span class="date">2026.07.26</span><span class="tag hot">비자 <em>VISA</em></span></div>
         <div class="thumb g1"><span class="ph">Sample</span></div>
-        <h3>17~45세 남성 장기출국, 허가 필요?</h3>
-        <p class="desc">2026년 1월 1일 시행된 병역현대화법(WDModG)에 따라 17~45세 독일 남성(이중국적 포함)은 3개월 넘게 해외 체류 시 원칙적으로 병무청(Bundeswehr Karrierecenter) 승인이 필요하다. 다만 국방부는 4월 7일, 현재 자원입대 체제인 만큼 '포괄적 면제'를 발급해 사실상 사전 허가 없이 출국 가능하다고 밝혔다.</p>
-        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p><b>독일 국적 남성(이중국적자 포함)</b>은 법 조항 자체는 여전히 유효해 향후 징병제 전환 시 달라질 수 있으니, 장기 출국 전 병무청 최신 공지를 확인해두는 게 안전하다.</p></div>
-        <div class="m-bot"><span><span class="lb">Source</span>Berliner Zeitung / AOL(dpa)</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://www.berliner-zeitung.de/news/neue-wehrpflicht-regel-junge-maenner-duerfen-deutschland-nicht-mehr-laengere-zeit-ohne-genehmigung-verlassen-li.10028539"><span class="arrow">↗</span>read more</a></div>
-      </article>
-
-      <article class="card">
-        <div class="m-top"><span class="date">2026.07.26</span><span class="tag hot">건강보험 <em>HEALTH</em></span></div>
-        <div class="thumb g7"><span class="ph">Sample</span></div>
         <div class="hot-line">Must read</div>
-        <h3>법정 건강보험료, 2026년 또 인상</h3>
-        <p class="desc">2026년 들어 독일 주요 법정건강보험이 추가기여율(Zusatzbeitrag)을 인상했다. 최대 보험사 TK는 2.45%→2.69%, DAK-Gesundheit는 2.8%→3.2%로 올랐고, 전체 평균 추가기여율은 2.5%에서 2.9%로 상승했다. 정부의 약 20억유로 지원에도 추가 인상을 막기엔 부족했다는 평가다.</p>
-        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p><b>월급명세서상 건강보험료 공제액</b>이 늘었을 수 있으니, 가입 보험사의 2026년 요율을 확인하고 필요하면 추가기여율이 낮은 곳으로 이전(Kassenwechsel)을 고려해보자.</p></div>
-        <div class="m-bot"><span><span class="lb">Source</span>iamexpat.de</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://www.iamexpat.de/expat-info/germany-news/german-health-insurance-providers-announce-price-rises"><span class="arrow">↗</span>read more</a></div>
+        <h3>독일, 신규 게스트워커 체류허가 중단 — 블루카드·기회카드로 일원화</h3>
+        <p class="desc">2026년 6월 6일부터 독일은 제3국 국민에 대한 신규 게스트워커(단순 취업) 체류허가 발급을 중단했습니다. 앞으로 취업 목적 입국은 완화된 EU 블루카드 또는 점수제 기회카드(Chancenkarte)가 주요 경로가 됩니다. 기회카드는 구직 목적 1년 체류로, 2026년 기준 월 약 €1,091의 생활비 증빙과 어학(독일어 A1 또는 영어 B2)이 요구됩니다.</p>
+        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>취업 이민을 준비하는 한인이라면 이제 <b>블루카드·기회카드</b> 요건을 먼저 맞추는 것이 핵심입니다. 학력·경력·어학 점수를 미리 점검하고, 구직 기간 중 재정 증빙을 준비하세요.</p></div>
+        <div class="m-bot"><span><span class="lb">Source</span>연방이민청 · Jobbatical</span><span><span class="lb">Read</span>4 min</span><a class="readmore" href="https://www.jobbatical.com/blog/germany-guest-worker-permit"><span class="arrow">↗</span>read more</a></div>
       </article>
 
       <article class="card">
-        <div class="m-top"><span class="date">2026.07.26</span><span class="tag">주거 <em>HOUSING</em></span></div>
-        <div class="thumb g6"><span class="ph">Sample</span></div>
-        <h3>독일 임대차법 개정안 각의 통과</h3>
-        <p class="desc">독일 연방정부는 2026년 4월 29일 '임대차법 II(Mietrecht II)' 개정안을 의결했다. 소비자물가 연 3% 초과분 인덱스임대료 인상은 절반만 반영하도록 상한을 두고, 단기임대차 계약 기간도 최대 6개월(예외 시 8개월)로 제한하는 내용이다. 기존 임대료상한제(Mietpreisbremse)는 이미 2029년 말까지 연장돼 있다.</p>
-        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p><b>인덱스 임대차 계약</b> 세입자에게는 임대료 급등을 막는 안전장치가 생기는 셈이지만, 아직 분데스탁·분데스라트 통과 전 초안 단계이니 최종 시행 여부는 계속 확인이 필요하다.</p></div>
-        <div class="m-bot"><span><span class="lb">Source</span>Bundesregierung</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://www.bundesregierung.de/breg-de/aktuelles/besserer-schutz-im-mietrecht-2426570"><span class="arrow">↗</span>read more</a></div>
+        <div class="m-top"><span class="date">2026.07.26</span><span class="tag">복지 <em>WELFARE</em></span></div>
+        <div class="thumb g2"><span class="ph">Sample</span></div>
+        <h3>자녀수당 Kindergeld, 2026년 월 €259로 인상</h3>
+        <p class="desc">2026년 1월부터 자녀수당이 자녀 1인당 월 €255에서 €259로 올랐습니다. 독일에 거주하는 외국인도 체류 요건을 충족하면 대상이며, 이미 받고 있다면 별도 신청 없이 인상분이 자동 반영됩니다.</p>
+        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>아직 신청하지 않았다면 서두르세요 — 자녀 3명이면 월 €777입니다. 가족금고(Familienkasse)에 등록된 <b>계좌·주소</b>를 최신 상태로 유지해야 지급이 밀리지 않습니다.</p></div>
+        <div class="m-bot"><span><span class="lb">Source</span>가족금고 · The Local</span><span><span class="lb">Read</span>2 min</span><a class="readmore" href="https://www.thelocal.de/20251203/what-changes-for-families-in-germany-in-2026"><span class="arrow">↗</span>read more</a></div>
+      </article>
+
+      <article class="card">
+        <div class="m-top"><span class="date">2026.07.26</span><span class="tag">생활 <em>LIFE</em></span></div>
+        <div class="thumb g5"><span class="ph">Sample</span></div>
+        <h3>도이칠란트티켓, 2026년 월 €63로 인상</h3>
+        <p class="desc">전국 대중교통 정기권(Deutschlandticket)이 2026년 1월부터 월 €58에서 €63으로 올랐습니다. 구독형이라 별도 절차 없이 다음 결제일부터 자동 반영되며, 2027년부터는 임금·에너지 비용 지수에 따라 가격이 결정됩니다.</p>
+        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>매달 자동 결제되므로 <b>해지·변경</b>은 미리 신청해야 합니다. 통근·통학에 쓰는 한인은 월 예산을 €5 상향해 점검하세요.</p></div>
+        <div class="m-bot"><span><span class="lb">Source</span>도이체반(DB) · iamExpat</span><span><span class="lb">Read</span>2 min</span><a class="readmore" href="https://www.iamexpat.de/expat-info/germany-news/breaking-deutschlandticket-will-cost-63-euros-january-2026"><span class="arrow">↗</span>read more</a></div>
       </article>
 
       <article class="card">
         <div class="m-top"><span class="date">2026.07.26</span><span class="tag">노동 <em>LABOR</em></span></div>
         <div class="thumb g3"><span class="ph">Sample</span></div>
-        <h3>외국인 근로자, 무료 상담받을 권리 고지</h3>
-        <p class="desc">2026년 1월 1일부터 독일 고용주는 제3국 출신 외국인 근로자 채용 시 근무 첫날까지 무료 다국어 상담 서비스 '페어 인테그레이션(Faire Integration)'을 서면으로 안내해야 한다. 개정 체류법(§45c AufenthG)에 따른 의무로, 임금 착취 등 부당대우를 막기 위한 조치다.</p>
-        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p><b>임금·근로조건 관련 고민</b>이 있다면 고용주가 안내한 주(州)별 '페어 인테그레이션' 상담소를 무료로 이용할 수 있으니 적극 활용하자.</p></div>
-        <div class="m-bot"><span><span class="lb">Source</span>BMAS(연방노동사회부)</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://www.bmas.de/DE/Service/Presse/Meldungen/2026/start-des-beratungsangebots-faire-integration.html"><span class="arrow">↗</span>read more</a></div>
+        <h3>독일 최저임금 €13.90로 인상 — 미니잡 한도 €603</h3>
+        <p class="desc">2026년 1월부터 법정 최저임금이 시간당 €12.82에서 €13.90으로 올랐습니다. 이에 연동해 미니잡(경미고용) 소득 한도도 월 €556에서 €603으로 상향되고, 학생 대상 BAföG 소득공제 한도도 함께 올라 더 일해도 지원이 깎이지 않습니다.</p>
+        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>아르바이트하는 유학생은 이제 <b>월 €603</b>까지 미니잡으로 벌어도 세금·지원 불이익이 없습니다. 근로시간(주 20시간·연 140일) 한도는 그대로이니 함께 확인하세요.</p></div>
+        <div class="m-bot"><span><span class="lb">Source</span>연방노동부 · The Local</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://www.thelocal.de/20251230/everything-that-changes-for-international-students-in-germany-in-2026"><span class="arrow">↗</span>read more</a></div>
       </article>
 
       <article class="card">
-        <div class="m-top"><span class="date">2026.07.26</span><span class="tag">연금 <em>PENSION</em></span></div>
-        <div class="thumb g7"><span class="ph">Sample</span></div>
-        <h3>독일 연금, 7월부터 4.24% 인상</h3>
-        <p class="desc">독일 연방연금보험(Deutsche Rentenversicherung)은 2026년 7월 1일부터 법정연금이 4.24% 인상됐다고 공식 발표했다. 연금포인트 가치는 40.79유로에서 42.52유로로 오르며 약 2,100만명이 혜택을 받는다. 월 1,000유로 수급자는 1,042.40유로를 받게 된다.</p>
-        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p><b>독일에서 국민연금(Rentenversicherung)을 납부해온 교민</b>이라면 향후 수급액 계산 시 이번 인상률을 반영해야 하며, 임금이 오를수록 연금도 함께 오르는 구조임을 참고하자.</p></div>
-        <div class="m-bot"><span><span class="lb">Source</span>Deutsche Rentenversicherung</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Meldungen/2026/260305-rentenanpassung-2026"><span class="arrow">↗</span>read more</a></div>
+        <div class="m-top"><span class="date">2026.07.26</span><span class="tag">유학 <em>STUDY</em></span></div>
+        <div class="thumb g8"><span class="ph">Sample</span></div>
+        <h3>유학생 블록계좌 기준액 2026년 €11,904</h3>
+        <p class="desc">학생비자에 필요한 블록계좌(Sperrkonto) 기준액이 2026년 €11,904(월 €992 × 12개월)로 설정됐습니다. 이 금액은 매달 정해진 한도 내에서만 인출할 수 있어 생활비 증빙 역할을 합니다.</p>
+        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>유학·어학연수를 준비한다면 <b>블록계좌</b>를 비자 신청 전에 개설해야 합니다. 환율 변동을 감안해 여유 있게 예치하는 편이 안전합니다.</p></div>
+        <div class="m-bot"><span><span class="lb">Source</span>독일 외무부 · yesGermany</span><span><span class="lb">Read</span>2 min</span><a class="readmore" href="https://www.yesgermany.com/blocked-account-in-germany-2026/"><span class="arrow">↗</span>read more</a></div>
       </article>
 
     </div>
@@ -528,56 +544,56 @@
       <article class="card">
         <div class="m-top"><span class="date">2026.07.26</span><span class="tag">주요뉴스 <em>TOP STORY</em></span></div>
         <div class="thumb g4"><span class="ph">Sample</span></div>
-        <h3>남부 폭염중대경보, 전국 찜통더위</h3>
-        <p class="desc">7월 26일 전국 대부분 지역에 폭염특보가 발효 중이며 전남·영남 일부 지역엔 폭염중대경보가 내려졌다. 대구 등 내륙은 낮 최고기온이 37~38도까지 오르고 서울·수도권도 33도 안팎의 무더위와 열대야가 이어지고 있다.</p>
-        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p><b>폭염중대경보</b>는 체감 38도 이상일 때 발령되는 최고 단계 경보로 한낮 야외활동은 피하는 게 안전하다. 오전 10시~오후 5시 외출을 자제하고 수분을 자주 섭취하세요.</p></div>
-        <div class="m-bot"><span><span class="lb">Source</span>경향신문/네이트뉴스</span><span><span class="lb">Read</span>2 min</span><a class="readmore" href="https://www.khan.co.kr/article/202607252054001/"><span class="arrow">↗</span>read more</a></div>
+        <h3>인천공항 여름 성수기 혼잡 — 출국 소요시간 증가</h3>
+        <p class="desc">여름 휴가철을 맞아 인천공항 이용객이 크게 늘면서 출국 수속 대기시간이 길어지고 있습니다. 항공사들은 국제선 탑승객에게 평소보다 이른 도착을 권고하고 있습니다.</p>
+        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>한국 방문 후 돌아오실 때 <b>공항에 여유 있게</b> 도착하세요. 자동출입국심사 사전등록을 해두면 대기를 줄일 수 있습니다.</p></div>
+        <div class="m-bot"><span><span class="lb">Source</span>인천국제공항공사</span><span><span class="lb">Read</span>2 min</span><a class="readmore" href="https://www.airport.kr/"><span class="arrow">↗</span>read more</a></div>
       </article>
 
       <article class="card">
-        <div class="m-top"><span class="date">2026.07.26</span><span class="tag">유학 <em>STUDY</em></span></div>
-        <div class="thumb g8"><span class="ph">Sample</span></div>
-        <h3>2027학년도 재외국민 특별전형 요강 발표</h3>
-        <p class="desc">서울대·연세대·고려대 등 주요 대학이 2027학년도 재외국민 특별전형 모집요강을 발표했다. 대부분 대학이 학교생활기록부상 학교폭력 조치사항을 서류·면접 평가에 정량 반영하기로 했고, 서울시립대는 기존에 없던 '전 교육과정 국외이수자(12년 특례)' 전형을 신설했다.</p>
-        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>자녀 대학 입시를 준비 중이라면 <b>학교폭력 조치사항</b>이 감점 요인이 될 수 있으니 생활기록부 관리에 유의하고, 서울시립대 12년 특례 신설 등 세부 요강을 각 대학 입학처에서 확인하세요.</p></div>
-        <div class="m-bot"><span><span class="lb">Source</span>에듀인포</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://www.eduinfo.co.kr/news/article.html?no=23234"><span class="arrow">↗</span>read more</a></div>
-      </article>
-
-      <article class="card">
-        <div class="m-top"><span class="date">2026.07.26</span><span class="tag hot">비자 <em>VISA</em></span></div>
-        <div class="thumb g1"><span class="ph">Sample</span></div>
+        <div class="m-top"><span class="date">2026.07.26</span><span class="tag hot">법·제도 <em>POLICY</em></span></div>
+        <div class="thumb g4"><span class="ph">Sample</span></div>
         <div class="hot-line">For expats</div>
-        <h3>재외동포(F-4) 취업 제한 완화 시행</h3>
-        <p class="desc">법무부가 '재외동포(F-4) 자격의 취업활동 제한범위 고시'(법무부고시 제2026-35호)를 2026년 2월 12일 새로 시행했다. 단순노무 제한 직종이 39개에서 29개로 줄어 건설단순종사원·주유원·매장정리원 등 10개 직종이 새로 허용됐고, 인구감소지역 거주자는 제한이 추가로 완화된다.</p>
-        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>F-4 비자로 취업을 고려 중이라면 <b>허용 직종이 확대</b>됐으니 구직 전 법무부고시 제2026-35호의 최신 제한 목록을 하이코리아나 관할 출입국청에서 확인하세요.</p></div>
-        <div class="m-bot"><span><span class="lb">Source</span>법무부/한국다문화뉴스</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://www.moj.go.kr/bbs/moj/184/603463/artclView.do"><span class="arrow">↗</span>read more</a></div>
+        <h3>모바일 재외국민 신원확인증 개시 — 한국 휴대폰 없이 본인확인</h3>
+        <p class="desc">2026년 3월 16일부터 모바일 재외국민 신원확인증 발급이 시작됐습니다. 그동안 한국 휴대폰 번호가 없어 온라인 본인확인에 막히던 재외국민이, 전자여권과 얼굴 인증으로 해외에서도 한국 공공·금융 웹사이트를 이용할 수 있게 됐습니다.</p>
+        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>발급기관 앱을 설치해 <b>재외국민 인증서</b>를 신청하면 됩니다. 유효한 전자여권이 필요하니, 여권 만료가 임박했다면 먼저 갱신하세요.</p></div>
+        <div class="m-bot"><span><span class="lb">Source</span>행정안전부·재외동포청</span><span><span class="lb">Read</span>2 min</span><a class="readmore" href="https://newyork.mofa.go.kr/us-newyork-ko/brd/m_24673/view.do?seq=120"><span class="arrow">↗</span>read more</a></div>
       </article>
 
       <article class="card">
-        <div class="m-top"><span class="date">2026.07.26</span><span class="tag">연금 <em>PENSION</em></span></div>
+        <div class="m-top"><span class="date">2026.07.26</span><span class="tag">건강보험 <em>HEALTH</em></span></div>
         <div class="thumb g7"><span class="ph">Sample</span></div>
-        <h3>국민연금 보험료율, 올해부터 단계 인상</h3>
-        <p class="desc">2025년 3월 국회를 통과한 국민연금법 개정에 따라 보험료율이 기존 9%에서 2026년 9.5%로 오른 것을 시작으로 매년 0.5%포인트씩 8년간 인상돼 2033년 13%에 도달한다. 소득대체율도 43%로 상향됐다.</p>
-        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>재외국민도 국민연금에 <b>임의가입</b>해 있다면 보험료율 인상분이 순차 적용되니 다음 납부 고지서에서 인상 여부를 확인하세요.</p></div>
-        <div class="m-bot"><span><span class="lb">Source</span>토스뱅크/대연법률사무소</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://www.tossbank.com/articles/nps2026"><span class="arrow">↗</span>read more</a></div>
+        <h3>장기체류 재외국민·외국인 건강보험 적용기준 개정</h3>
+        <p class="desc">2026년 개정 고시로 지역가입 요건과 체납 관리가 정비됐습니다. 6개월 이상 국내 거주(예정 포함) 시 지역가입 자격을 얻고, 보험료를 3회 이상 체납하면 보험급여가 제한될 수 있습니다. 2026년 보험료율은 7.19%입니다.</p>
+        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>한국을 오가며 지내는 재외국민은 <b>국내 체류 6개월</b> 기준을 잘 확인하세요. 단기 방문이 잦다면 가입·정지 시점을 관리해야 불필요한 보험료를 피할 수 있습니다.</p></div>
+        <div class="m-bot"><span><span class="lb">Source</span>보건복지부·건보공단</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://www.mohw.go.kr/board.es?mid=a10409020000&bid=0026"><span class="arrow">↗</span>read more</a></div>
+      </article>
+
+      <article class="card">
+        <div class="m-top"><span class="date">2026.07.26</span><span class="tag">국적·병역 <em>CITIZEN</em></span></div>
+        <div class="thumb g1"><span class="ph">Sample</span></div>
+        <h3>2008년생 국적이탈 신고 기한 2026년 3월 31일</h3>
+        <p class="desc">선천적 복수국적 남성(2008년생)이 국적이탈을 하려면 2026년 3월 31일까지 신고를 마쳐야 합니다. 이 기한을 넘기면 병역의무를 해소한 뒤에만 이탈이 가능합니다. 개정 병역법은 2026년 8월 28일 시행됩니다.</p>
+        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>해당 연령대 자녀가 있다면 <b>기한 관리</b>가 가장 중요합니다. 만 18세가 되는 해 3월 말 전후 일정을 놓치지 않도록 재외공관에 미리 문의하세요.</p></div>
+        <div class="m-bot"><span><span class="lb">Source</span>병무청·외교부</span><span><span class="lb">Read</span>4 min</span><a class="readmore" href="https://atlanta.mofa.go.kr/us-atlanta-ko/brd/m_4919/view.do?seq=1108118"><span class="arrow">↗</span>read more</a></div>
       </article>
 
       <article class="card">
         <div class="m-top"><span class="date">2026.07.26</span><span class="tag">세금 <em>TAX</em></span></div>
         <div class="thumb g3"><span class="ph">Sample</span></div>
-        <h3>국외전출세, 2027년부터 해외주식도 과세</h3>
-        <p class="desc">기획재정부의 2025년 세제개편안에 따라 이민·영주권 취득으로 출국하는 대주주에게 양도소득세를 매기는 '국외전출세'의 과세 범위가 2027년부터 해외 주식까지 확대된다. 코스피 1%·코스닥 2%·비상장 4% 이상 지분 또는 시가총액 50억원 이상 대주주가 대상이며 세율은 3억원 이하 20%, 초과분 25%다.</p>
-        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p><b>해외 이주 예정</b>이고 대주주 요건에 해당하는 해외주식을 보유하고 있다면 2027년 시행 전 세무 전문가와 미리 상담해 두는 것이 좋습니다.</p></div>
-        <div class="m-bot"><span><span class="lb">Source</span>기획재정부/한국경제</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://www.hankyung.com/article/2025110286801"><span class="arrow">↗</span>read more</a></div>
+        <h3>해외금융계좌 신고, 2026년 6월 한 달 — 5억 초과 대상</h3>
+        <p class="desc">2025년 중 매월 말 잔액 합계가 하루라도 5억 원을 넘긴 해외금융계좌(가상자산계좌 포함) 보유자는 2026년 6월 1일~30일에 신고해야 합니다. 다만 신고대상연도 종료 1년 전부터 국내 거소 기간이 182일 이하인 재외국민은 신고의무가 면제됩니다.</p>
+        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>본인이 <b>재외국민 면제 요건</b>에 해당하는지부터 확인하세요. 대상이라면 국세청 홈택스·손택스로 6월 중 신고하며, 잔액 변동이 없어도 매년 다시 신고해야 합니다.</p></div>
+        <div class="m-bot"><span><span class="lb">Source</span>국세청</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7819"><span class="arrow">↗</span>read more</a></div>
       </article>
 
       <article class="card">
-        <div class="m-top"><span class="date">2026.07.26</span><span class="tag">여행 <em>TRAVEL</em></span></div>
-        <div class="thumb g9"><span class="ph">Sample</span></div>
-        <h3>여권 수수료, 3월부터 20년만에 인상</h3>
-        <p class="desc">여권법 시행령 개정으로 2026년 3월 1일부터 여권 발급 수수료가 인상됐다. 국내 10년 복수여권(58면)은 5만원에서 5만2천원으로, 재외공관에서 발급받을 경우 국제교류기여금이 미화 2달러(현지화 약 1.80유로) 추가로 오른다.</p>
-        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>여권 갱신이 임박했다면 <b>재외공관 수수료 인상분(미화 2달러)</b>이 이미 반영돼 있으니 신청 전 관할 공관 홈페이지에서 최신 수수료를 확인하세요.</p></div>
-        <div class="m-bot"><span><span class="lb">Source</span>외교부/정책브리핑</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://www.korea.kr/news/policyNewsView.do?newsId=148959916"><span class="arrow">↗</span>read more</a></div>
+        <div class="m-top"><span class="date">2026.07.26</span><span class="tag">교육 <em>EDU</em></span></div>
+        <div class="thumb g8"><span class="ph">Sample</span></div>
+        <h3>재외동포청 2026 정책 대전환 — 한글학교·청년 지원 확대</h3>
+        <p class="desc">재외동포청이 2026년을 동포정책 대전환의 해로 선언하고 5대 과제를 발표했습니다. 전 세계 1,400여 개 한글학교 운영비 지원을 단계적으로 확대하고, 만 34세 이하 동포 청년에게 최대 6년의 학업 장학을 신설하며, 재외선거 투표소 확대 등 접근성도 개선합니다.</p>
+        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>자녀의 <b>한국어 교육</b>이나 청년 학업 지원을 고민한다면 올해 신설·확대 프로그램을 챙겨보세요. 재외국민 등록·재외선거인 등록 연계도 간소화됩니다.</p></div>
+        <div class="m-bot"><span><span class="lb">Source</span>재외동포청 · 정책브리핑</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://www.korea.kr/briefing/policyBriefingView.do?newsId=156735958"><span class="arrow">↗</span>read more</a></div>
       </article>
 
     </div>
@@ -590,38 +606,37 @@
       <article class="card">
         <div class="m-top"><span class="date">2026.07.26</span><span class="tag">주요뉴스 <em>TOP STORY</em></span></div>
         <div class="thumb g4"><span class="ph">Sample</span></div>
-        <h3>구글, EU서 8.9억유로 과징금</h3>
-        <p class="desc">유럽연합 집행위원회가 2026년 7월 23일 구글이 디지털시장법(DMA)을 위반했다며 8억9000만 유로 과징금을 부과했습니다. 검색 자사 서비스 우대 혐의로 4억6000만 유로, 플레이스토어에서 저렴한 대체 결제 안내를 막은 혐의로 4억3000만 유로가 부과됐습니다.</p>
-        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p><b>구글</b>이 검색에서 쇼핑·호텔 등 자사 서비스를 우선 노출하고, 앱 개발자가 <b>플레이스토어</b> 밖 더 저렴한 결제를 안내하지 못하게 막은 게 문제였습니다. 앞으로 앱 구매 시 대체 결제 안내가 보이면 가격을 비교해보세요.</p></div>
-        <div class="m-bot"><span><span class="lb">Source</span>European Commission (DMA)</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://digital-markets-act.ec.europa.eu/commission-fines-google-eur890-million-breaches-digital-markets-act-2026-07-23_en"><span class="arrow">↗</span>read more</a></div>
+        <h3>유럽 폭염 경보 — 남부 중심 이동·야외활동 주의</h3>
+        <p class="desc">유럽 남부를 중심으로 고온 현상이 이어지면서 여러 국가가 폭염 경보를 발령했습니다. 일부 지역은 열차 운행 지연과 야외 행사 취소가 이어지고 있습니다.</p>
+        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>여름 휴가로 남유럽을 계획하셨다면 <b>이동 일정</b>에 여유를 두세요. 유럽 기상당국의 경보 단계를 출발 전 확인하는 것이 안전합니다.</p></div>
+        <div class="m-bot"><span><span class="lb">Source</span>EU 기상당국</span><span><span class="lb">Read</span>2 min</span><a class="readmore" href="https://www.copernicus.eu/en"><span class="arrow">↗</span>read more</a></div>
+      </article>
+
+      <article class="card">
+        <div class="m-top"><span class="date">2026.07.26</span><span class="tag">여행 <em>TRAVEL</em></span></div>
+        <div class="thumb g9"><span class="ph">Sample</span></div>
+        <h3>EU 입출국시스템 EES, 2026년 4월 전면 시행</h3>
+        <p class="desc">셍겐 지역 외부 국경에서 지문·얼굴 정보를 등록하는 입출국시스템(EES)이 2026년 4월 10일부터 29개국에서 전면 시행됐습니다. 단기 방문자의 출입국이 자동 기록되어, 여권 도장 대신 전자 기록으로 체류일수가 관리됩니다.</p>
+        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>EU를 오가는 한인은 첫 입국 시 <b>생체정보 등록</b> 절차가 추가됩니다. 90/180일 단기체류 규정이 자동 계산되니 체류일수 관리에 유의하세요.</p></div>
+        <div class="m-bot"><span><span class="lb">Source</span>EU 집행위 · Fragomen</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://www.fragomen.com/insights/european-union-european-travel-information-and-authorisation-system-etias-launch-delayed.html"><span class="arrow">↗</span>read more</a></div>
+      </article>
+
+      <article class="card">
+        <div class="m-top"><span class="date">2026.07.26</span><span class="tag">여행 <em>TRAVEL</em></span></div>
+        <div class="thumb g9"><span class="ph">Sample</span></div>
+        <h3>EU 전자여행허가 ETIAS, 2026년 4분기 시행 예정</h3>
+        <p class="desc">무비자 단기 방문자를 대상으로 한 전자여행허가(ETIAS)가 2026년 4분기(10~12월) 시행될 예정입니다. 수수료는 €20이며, 약 6개월의 전환기를 거쳐 2027년 봄부터 의무화될 전망입니다. 공식 신청 포털은 아직 열리지 않았습니다.</p>
+        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>체류증 소지자와 단기 방문자는 적용이 다르니 본인 상황을 구분하세요. <b>공식 포털이 열리기 전 신청을 받는 사이트는 사칭</b>이니 절대 개인정보를 입력하지 마세요.</p></div>
+        <div class="m-bot"><span><span class="lb">Source</span>EU 집행위 · ETIAS.com</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://etias.com/"><span class="arrow">↗</span>read more</a></div>
       </article>
 
       <article class="card">
         <div class="m-top"><span class="date">2026.07.26</span><span class="tag">투자 <em>INVEST</em></span></div>
         <div class="thumb g10"><span class="ph">Sample</span></div>
-        <h3>ECB, 기준금리 2.25% 동결</h3>
-        <p class="desc">유럽중앙은행(ECB)이 2026년 7월 23일 통화정책회의에서 예금금리를 2.25%(주요 리파이낸싱 2.40%, 한계대출 2.65%)로 동결했습니다. 중동발 에너지가격 충격을 주시하며 9월 10일 회의에서 추가 인상 가능성을 열어뒀습니다.</p>
-        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p><b>ECB</b>가 금리를 유지했지만 인플레이션(6월 2.8%)이 다시 오르면 <b>9월 금리 인상</b> 가능성을 시사했습니다. 큰돈 이동이나 대출 계획이 있다면 9월 발표 전까지 지켜보는 게 좋습니다.</p></div>
-        <div class="m-bot"><span><span class="lb">Source</span>European Central Bank</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html"><span class="arrow">↗</span>read more</a></div>
-      </article>
-
-      <article class="card">
-        <div class="m-top"><span class="date">2026.07.26</span><span class="tag hot">여행 <em>TRAVEL</em></span></div>
-        <div class="thumb g9"><span class="ph">Sample</span></div>
-        <div class="hot-line">Must read</div>
-        <h3>EU, EES 전면중단 요청 거부</h3>
-        <p class="desc">항공업계가 여름철 최대 5시간 대기를 이유로 EES(입출국시스템) 전면 중단을 요청했으나 EU 집행위는 2026년 7월 8일경 '불필요하고 불가능하다'며 거부했습니다. 대신 국경검문소별 최대 6시간 부분정지만 허용하는 현행 유연성 조치(9월 6일 만료 예정)를 유지 중이며, 벨기에·프랑스·독일 등 9개국이 이 조치의 연장을 요청한 상태입니다.</p>
-        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>여름 성수기 <b>EES</b> 검문 지연은 당분간 계속될 전망이니, 유럽 국경 통과 시 평소보다 시간을 넉넉히 잡으세요. 9월 초 연장 여부가 결정되므로 8~9월 여행 시 최신 공지를 다시 확인하는 게 좋습니다.</p></div>
-        <div class="m-bot"><span><span class="lb">Source</span>The Local</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://www.thelocal.com/20260708/europes-ees-border-checks-wont-be-suspended-eu-insists"><span class="arrow">↗</span>read more</a></div>
-      </article>
-
-      <article class="card">
-        <div class="m-top"><span class="date">2026.07.26</span><span class="tag">법·제도 <em>POLICY</em></span></div>
-        <div class="thumb g4"><span class="ph">Sample</span></div>
-        <h3>EU 항공여객권리법 개정 최종승인</h3>
-        <p class="desc">유럽의회가 2026년 7월 7일(찬성 646·반대 12) 항공여객권리 규정(EU261) 개정안을 승인했고 이사회도 7월 13일 최종 승인했습니다. 보상금액(1500km 이하 250유로~3500km 초과 600유로)은 유지되며 무료 기내수하물, 어린이·임산부 가족 무료 인접좌석, 노쇼 조항 금지가 새로 추가됐지만 실제 시행은 2027년 하반기부터입니다.</p>
-        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p><b>보상금액</b>은 그대로지만 무료 기내가방과 <b>가족 무료 좌석 배정</b>이 새로 생겼습니다. 다만 적용은 2027년 하반기부터이니 올해 지연·결항 시에는 기존 EU261 규정으로 보상을 청구하면 됩니다.</p></div>
-        <div class="m-bot"><span><span class="lb">Source</span>Euronews</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://www.euronews.com/my-europe/2026/07/21/air-passenger-rights-reform-what-the-new-rules-mean-for-you"><span class="arrow">↗</span>read more</a></div>
+        <h3>EU 리테일 투자전략 RIS 승인 — 개인투자자 보호 강화</h3>
+        <p class="desc">EU 회원국이 2026년 6월 12일 리테일 투자전략(RIS)을 승인했습니다. EU 시민 저축의 약 70%(€10조)가 예금에 묶여 있는 상황에서, 개인투자자 보호를 강화하고 자본시장 참여를 늘리기 위한 조치입니다. 비용 공시 일원화, 마케팅·핀플루언서 규제 강화, PRIIPs 핵심정보문서 현대화 등이 포함됩니다.</p>
+        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>EU에서 펀드·ETF에 투자하는 한인에게 <b>수수료·비용 공시</b>가 더 투명해집니다. 다만 전면 시행은 2028년 예정이라 당장 바뀌는 건 아니니, 과장된 투자 광고에 유의하세요.</p></div>
+        <div class="m-bot"><span><span class="lb">Source</span>EU 집행위 · EFAMA</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://www.efama.org/newsroom/news/european-commission-s-savings-and-investments-union-strategy-credible-pathway-boost"><span class="arrow">↗</span>read more</a></div>
       </article>
 
     </div>
@@ -634,47 +649,46 @@
       <article class="card">
         <div class="m-top"><span class="date">2026.07.26</span><span class="tag">주요뉴스 <em>TOP STORY</em></span></div>
         <div class="thumb g4"><span class="ph">Sample</span></div>
-        <h3>6월 소비자물가 3.5%로 둔화</h3>
-        <p class="desc">미국 노동통계국(BLS) 발표에 따르면 6월 소비자물가지수(CPI)는 전월 대비 0.4% 하락했고, 전년 대비 상승률은 5월 4.2%에서 3.5%로 크게 둔화됐다. 에너지 가격이 한 달 새 5.7% 급락한 것이 주된 요인이며, 근원물가(식품·에너지 제외)는 전년 대비 2.6% 상승에 그쳤다.</p>
-        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p><b>물가 상승세가 주춤</b>하며 장바구니·주유비 부담이 다소 줄었다는 신호지만, 근원물가는 여전히 높아 안심하긴 이릅니다. 큰 지출 계획이 있다면 이번 달 가격 흐름을 참고해 타이밍을 조율해보세요.</p></div>
-        <div class="m-bot"><span><span class="lb">Source</span>CNBC / Fox Business</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html"><span class="arrow">↗</span>read more</a></div>
+        <h3>미국 달러 환율 변동 — 송금 시점 확인 필요</h3>
+        <p class="desc">미국 금리 정책 전망에 따라 달러 환율 변동성이 이어지고 있습니다. 한국이나 유럽으로 송금하는 재외한인의 실수령액에 직접적인 영향이 있습니다.</p>
+        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>큰 금액을 보내실 계획이라면 <b>송금 시점</b>을 나눠 분산하는 것도 방법입니다. 은행별 수수료·환율 스프레드도 함께 비교해보세요.</p></div>
+        <div class="m-bot"><span><span class="lb">Source</span>미 연준 · 한국은행</span><span><span class="lb">Read</span>2 min</span><a class="readmore" href="https://www.federalreserve.gov/"><span class="arrow">↗</span>read more</a></div>
+      </article>
+
+      <article class="card">
+        <div class="m-top"><span class="date">2026.07.26</span><span class="tag">비자 <em>VISA</em></span></div>
+        <div class="thumb g1"><span class="ph">Sample</span></div>
+        <h3>미국 '비자 무결성 수수료' $250 신설</h3>
+        <p class="desc">2025년 7월 서명된 법에 따라 2026 회계연도부터 대부분의 비이민비자에 $250의 비자 무결성 수수료(Visa Integrity Fee)가 신설됐습니다. 신청이 아닌 발급 시 부과되며 기존 수수료에 더해집니다. H-1B·L-1·F-1·J-1·B1/B2 등이 대상이고, 비자면제(VWP)와 이민비자는 면제입니다.</p>
+        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>미국 취업·유학을 준비하는 한인은 예산에 <b>$250</b>를 더 잡아두세요. 비자 규정을 지키면 만료 후 환급을 신청할 수 있으나, 세부 절차는 아직 정해지지 않았습니다.</p></div>
+        <div class="m-bot"><span><span class="lb">Source</span>미 국무부 · Boundless</span><span><span class="lb">Read</span>4 min</span><a class="readmore" href="https://www.boundless.com/blog/visa-integrity-fee"><span class="arrow">↗</span>read more</a></div>
+      </article>
+
+      <article class="card">
+        <div class="m-top"><span class="date">2026.07.26</span><span class="tag">세금 <em>TAX</em></span></div>
+        <div class="thumb g3"><span class="ph">Sample</span></div>
+        <h3>해외계좌보고 FBAR, 2026년 마감 4월 15일</h3>
+        <p class="desc">해외 금융계좌 합계가 연중 한 번이라도 $10,000를 넘은 미국 시민권자·영주권자·세법상 거주자는 FBAR(FinCEN Form 114)를 제출해야 합니다. 2026년 마감은 4월 15일이며, 별도 신청 없이 10월 15일까지 자동 연장됩니다.</p>
+        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>한국에 둔 계좌도 <b>합산 대상</b>이 될 수 있습니다. 세금 신고서와 별개로 BSA 전자시스템으로 제출하며, 누락 시 과태료가 크니 대상 여부를 미리 확인하세요.</p></div>
+        <div class="m-bot"><span><span class="lb">Source</span>미 재무부 FinCEN · KLR</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://kahnlitwin.com/blogs/tax-blog/2026-fbar-deadline-reminder-filing-tips"><span class="arrow">↗</span>read more</a></div>
       </article>
 
       <article class="card">
         <div class="m-top"><span class="date">2026.07.26</span><span class="tag">주식 <em>STOCKS</em></span></div>
         <div class="thumb g10"><span class="ph">Sample</span></div>
-        <h3>연준, 7월29일 5연속 금리동결 유력</h3>
-        <p class="desc">연방준비제도(Fed)는 7월 28~29일 FOMC 회의에서 기준금리를 현행 3.50~3.75%로 5회 연속 동결할 것으로 시장은 전망한다. 커빈 워시(Kevin Warsh) 의장은 '물가가 여전히 높다'며 매파적 입장을 유지해 9월 이후 추가 인상 가능성도 배제하지 않고 있다.</p>
-        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p><b>금리 동결이 유력</b>하지만 워시 의장의 발언 톤에 따라 증시·환율이 출렁일 수 있습니다. 미국 주식·펀드 보유자라면 29일 오후 2시(동부시간) 발표를 주시하고 단기 변동성에 대비하세요.</p></div>
-        <div class="m-bot"><span><span class="lb">Source</span>CBS News / Reuters</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://www.cbsnews.com/news/fed-interest-rate-decision-july-meeting/"><span class="arrow">↗</span>read more</a></div>
+        <h3>미국 장기 양도소득세, 2026년 과세구간 조정</h3>
+        <p class="desc">2026년 미국 장기 양도소득세율은 0%·15%·20%로 유지되지만, 물가에 따라 과세구간이 상향됐습니다. 단독 신고자는 과세소득 $49,450, 부부 합산은 $98,900까지 장기 양도차익에 0% 세율이 적용됩니다. 1년을 초과해 보유한 주식이 대상입니다.</p>
+        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>미국에 거주하며 주식을 보유한 한인은 <b>1년 이상 보유</b> 후 매도하면 세율이 크게 낮아집니다. 0% 구간을 활용한 분할 매도도 고려해볼 만합니다.</p></div>
+        <div class="m-bot"><span><span class="lb">Source</span>미 국세청(IRS) · Kiplinger</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://www.kiplinger.com/taxes/irs-updates-capital-gains-tax-thresholds"><span class="arrow">↗</span>read more</a></div>
       </article>
 
       <article class="card">
-        <div class="m-top"><span class="date">2026.07.26</span><span class="tag hot">비자 <em>VISA</em></span></div>
-        <div class="thumb g1"><span class="ph">Sample</span></div>
-        <div class="hot-line">Must read</div>
-        <h3>H-1B 2027회계연도 정원 마감</h3>
-        <p class="desc">미국 이민서비스국(USCIS)이 2027 회계연도 H-1B 비자의 정규 쿼터(6만5000명)와 석사 이상 쿼터(2만명)를 모두 채웠다고 확인했다. 올해는 임금 수준이 높을수록 추첨 기회를 더 주는 가중치 추첨제 첫 정식 시행 연도로, 선발자의 71.5%가 미국 내 고학력(석사 이상) 소지자였다.</p>
-        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p><b>고연봉·고학력자일수록 유리</b>해진 새 추첨 방식이 자리잡았습니다. 이번 사이클에서 탈락했다면 OPT 연장, O-1, L-1 등 대안 비자를 미리 알아보는 게 좋습니다.</p></div>
-        <div class="m-bot"><span><span class="lb">Source</span>SHRM / Fragomen</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://www.shrm.org/topics-tools/news/talent-acquisition/uscis-reaches-fy2027-h1b-visa-cap"><span class="arrow">↗</span>read more</a></div>
-      </article>
-
-      <article class="card">
-        <div class="m-top"><span class="date">2026.07.26</span><span class="tag">연금 <em>PENSION</em></span></div>
-        <div class="thumb g7"><span class="ph">Sample</span></div>
-        <h3>2027년 사회보장 COLA 3.8% 전망</h3>
-        <p class="desc">고령층 권익단체 시니어시티즌리그(TSCL)는 6월 물가 둔화를 반영해 2027년 사회보장 생계비조정(COLA)을 3.8%로 추정했다. 이대로 확정되면 평균 수령액이 약 74달러 늘어 월 2011달러 수준이 될 전망이며, 공식 수치는 10월 사회보장국(SSA)이 발표한다.</p>
-        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p><b>부모님이나 본인의 은퇴 소득 계획</b>에 참고할 수치입니다. 다만 7~9월 물가 데이터가 더 반영돼 최종 확정치는 달라질 수 있으니 10월 공식 발표를 다시 확인하세요.</p></div>
-        <div class="m-bot"><span><span class="lb">Source</span>Fox Business / CBS News</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://www.foxbusiness.com/economy/social-security-recipients-could-see-bigger-cost-of-living-adjustment-2027-new-forecast-says"><span class="arrow">↗</span>read more</a></div>
-      </article>
-
-      <article class="card">
-        <div class="m-top"><span class="date">2026.07.26</span><span class="tag">노동 <em>LABOR</em></span></div>
-        <div class="thumb g3"><span class="ph">Sample</span></div>
-        <h3>6월 고용 5.7만명 증가, 예상 밑돌아</h3>
-        <p class="desc">미국 노동통계국(BLS) 발표에 따르면 6월 비농업 고용은 5만7000명 증가에 그쳐 시장 예상치(11만5000명)를 크게 밑돌았고, 4·5월 고용도 합계 7만4000명 하향 수정됐다. 실업률은 4.2%로 소폭 하락했지만 구직 포기 등으로 경제활동참가율이 낮아진 영향이 크다.</p>
-        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p><b>고용시장 둔화 신호</b>로, 겉으로 보이는 실업률 하락에 안심하기보다 이직·구직 활동은 신중하게 계획하는 게 좋습니다.</p></div>
-        <div class="m-bot"><span><span class="lb">Source</span>NBC News / BLS</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://www.nbcnews.com/business/economy/june-jobs-report-stable-hiring-rcna352603"><span class="arrow">↗</span>read more</a></div>
+        <div class="m-top"><span class="date">2026.07.26</span><span class="tag">가상자산 <em>CRYPTO</em></span></div>
+        <div class="thumb g10"><span class="ph">Sample</span></div>
+        <h3>미국 암호자산 세금보고 1099-DA, 2026년 첫 시행</h3>
+        <p class="desc">암호화폐·디지털자산 거래를 표준화해 보고하는 새 양식 1099-DA가 2026년 초부터 발급됩니다. 2025년 거래분은 총 매도대금(gross proceeds)만 보고되고, 2026년 거래분부터는 취득가액(원가)까지 보고됩니다. 거래소·지갑사업자 등이 발급 주체입니다.</p>
+        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>미국에서 코인을 거래한 한인은 2월 중 <b>1099-DA</b>를 받게 됩니다. 첫 해엔 원가가 빠져 있으니, 본인 <b>취득가액 기록</b>을 직접 챙겨야 세금이 과다 계산되지 않습니다.</p></div>
+        <div class="m-bot"><span><span class="lb">Source</span>미 국세청(IRS) · Withum</span><span><span class="lb">Read</span>3 min</span><a class="readmore" href="https://www.withum.com/resources/form-1099-da-for-crypto-in-2026-what-taxpayers-and-issuers-need-to-know/"><span class="arrow">↗</span>read more</a></div>
       </article>
 
     </div>
@@ -689,22 +703,27 @@
     </div>
     <div class="search">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-      <input type="text" placeholder="지난 뉴스 검색 — 예: 비자, Kindergeld, 양도세" oninput="return false">
+      <input type="text" id="archq" placeholder="지난 뉴스 검색 — 예: 비자, Kindergeld, 양도세"
+             oninput="archSearch(this.value)" autocomplete="off">
+      <button class="sclear" id="sclear" onclick="archClear()" aria-label="검색 지우기">&times;</button>
     </div>
 
+    <div class="sres" id="sres"></div>
+    <div id="archlist">
         <div class="issue">
       <a class="issue-hd" href="/archive/6.html"><span class="no">06</span><span class="dt">2026 · 07 · 26 · 오늘</span><span class="cnt">독일 6 · 한국 6 · EU 4 · USA 5 — 21건</span><span class="go">읽기 →</span></a>
       <div class="arch-list">
-        <a class="arch-item" href="/archive/6.html"><span class="rg">독일</span><span class="ttl">독일 부유층 절반 '해외이주 고려'</span></a>
-        <a class="arch-item" href="/archive/6.html"><span class="rg">독일</span><span class="ttl">17~45세 남성 장기출국, 허가 필요?</span></a>
-        <a class="arch-item" href="/archive/6.html"><span class="rg">독일</span><span class="ttl">법정 건강보험료, 2026년 또 인상</span></a>
-        <a class="arch-item" href="/archive/6.html"><span class="rg">독일</span><span class="ttl">독일 임대차법 개정안 각의 통과</span></a>
-        <a class="arch-item" href="/archive/6.html"><span class="rg">독일</span><span class="ttl">외국인 근로자, 무료 상담받을 권리 고지</span></a>
-        <a class="arch-item" href="/archive/6.html"><span class="rg">독일</span><span class="ttl">독일 연금, 7월부터 4.24% 인상</span></a>
+        <a class="arch-item" href="/archive/6.html"><span class="rg">독일</span><span class="ttl">독일 인플레이션 둔화 — 장바구니 물가 안정세</span></a>
+        <a class="arch-item" href="/archive/6.html"><span class="rg">독일</span><span class="ttl">독일, 신규 게스트워커 체류허가 중단 — 블루카드·기회카드로 일원화</span></a>
+        <a class="arch-item" href="/archive/6.html"><span class="rg">독일</span><span class="ttl">자녀수당 Kindergeld, 2026년 월 €259로 인상</span></a>
+        <a class="arch-item" href="/archive/6.html"><span class="rg">독일</span><span class="ttl">도이칠란트티켓, 2026년 월 €63로 인상</span></a>
+        <a class="arch-item" href="/archive/6.html"><span class="rg">독일</span><span class="ttl">독일 최저임금 €13.90로 인상 — 미니잡 한도 €603</span></a>
+        <a class="arch-item" href="/archive/6.html"><span class="rg">독일</span><span class="ttl">유학생 블록계좌 기준액 2026년 €11,904</span></a>
       </div>
     </div>
     <div class="issue">
       <a class="issue-hd" href="/archive/5.html"><span class="no">05</span><span class="dt">2026 · 07 · 25</span><span class="cnt">독일 6 · 한국 6 · EU 4 · USA 5 — 21건</span><span class="go">읽기 →</span></a>
+    </div>
     </div>
     <p class="emptynote" style="font-size:12.5px;padding:26px 0 0">지난 호(01~04)는 구조 예시입니다 — 실제 운영 시 매일 발행분이 이렇게 자동으로 쌓입니다.</p>
   </div>
@@ -846,6 +865,61 @@
     window.addEventListener('resize', upd, {passive:true});
     upd();
   })();
+
+  /* ---------- 아카이브 검색 ---------- */
+  var NB_SEARCH = [{"n":6,"d":"2026-07-26","r":"de","c":"주요뉴스","h":"독일 인플레이션 둔화 — 장바구니 물가 안정세"},{"n":6,"d":"2026-07-26","r":"de","c":"비자","h":"독일, 신규 게스트워커 체류허가 중단 — 블루카드·기회카드로 일원화"},{"n":6,"d":"2026-07-26","r":"de","c":"복지","h":"자녀수당 Kindergeld, 2026년 월 €259로 인상"},{"n":6,"d":"2026-07-26","r":"de","c":"생활","h":"도이칠란트티켓, 2026년 월 €63로 인상"},{"n":6,"d":"2026-07-26","r":"de","c":"노동","h":"독일 최저임금 €13.90로 인상 — 미니잡 한도 €603"},{"n":6,"d":"2026-07-26","r":"de","c":"유학","h":"유학생 블록계좌 기준액 2026년 €11,904"},{"n":6,"d":"2026-07-26","r":"kr","c":"주요뉴스","h":"인천공항 여름 성수기 혼잡 — 출국 소요시간 증가"},{"n":6,"d":"2026-07-26","r":"kr","c":"법·제도","h":"모바일 재외국민 신원확인증 개시 — 한국 휴대폰 없이 본인확인"},{"n":6,"d":"2026-07-26","r":"kr","c":"건강보험","h":"장기체류 재외국민·외국인 건강보험 적용기준 개정"},{"n":6,"d":"2026-07-26","r":"kr","c":"국적·병역","h":"2008년생 국적이탈 신고 기한 2026년 3월 31일"},{"n":6,"d":"2026-07-26","r":"kr","c":"세금","h":"해외금융계좌 신고, 2026년 6월 한 달 — 5억 초과 대상"},{"n":6,"d":"2026-07-26","r":"kr","c":"교육","h":"재외동포청 2026 정책 대전환 — 한글학교·청년 지원 확대"},{"n":6,"d":"2026-07-26","r":"eu","c":"주요뉴스","h":"유럽 폭염 경보 — 남부 중심 이동·야외활동 주의"},{"n":6,"d":"2026-07-26","r":"eu","c":"여행","h":"EU 입출국시스템 EES, 2026년 4월 전면 시행"},{"n":6,"d":"2026-07-26","r":"eu","c":"여행","h":"EU 전자여행허가 ETIAS, 2026년 4분기 시행 예정"},{"n":6,"d":"2026-07-26","r":"eu","c":"투자","h":"EU 리테일 투자전략 RIS 승인 — 개인투자자 보호 강화"},{"n":6,"d":"2026-07-26","r":"us","c":"주요뉴스","h":"미국 달러 환율 변동 — 송금 시점 확인 필요"},{"n":6,"d":"2026-07-26","r":"us","c":"비자","h":"미국 '비자 무결성 수수료' $250 신설"},{"n":6,"d":"2026-07-26","r":"us","c":"세금","h":"해외계좌보고 FBAR, 2026년 마감 4월 15일"},{"n":6,"d":"2026-07-26","r":"us","c":"주식","h":"미국 장기 양도소득세, 2026년 과세구간 조정"},{"n":6,"d":"2026-07-26","r":"us","c":"가상자산","h":"미국 암호자산 세금보고 1099-DA, 2026년 첫 시행"},{"n":5,"d":"2026-07-25","r":"de","c":"주요뉴스","h":"독일 인플레이션 둔화 — 장바구니 물가 안정세"},{"n":5,"d":"2026-07-25","r":"de","c":"비자","h":"독일, 신규 게스트워커 체류허가 중단 — 블루카드·기회카드로 일원화"},{"n":5,"d":"2026-07-25","r":"de","c":"복지","h":"자녀수당 Kindergeld, 2026년 월 €259로 인상"},{"n":5,"d":"2026-07-25","r":"de","c":"생활","h":"도이칠란트티켓, 2026년 월 €63로 인상"},{"n":5,"d":"2026-07-25","r":"de","c":"노동","h":"독일 최저임금 €13.90로 인상 — 미니잡 한도 €603"},{"n":5,"d":"2026-07-25","r":"de","c":"유학","h":"유학생 블록계좌 기준액 2026년 €11,904"},{"n":5,"d":"2026-07-25","r":"kr","c":"주요뉴스","h":"인천공항 여름 성수기 혼잡 — 출국 소요시간 증가"},{"n":5,"d":"2026-07-25","r":"kr","c":"법·제도","h":"모바일 재외국민 신원확인증 개시 — 한국 휴대폰 없이 본인확인"},{"n":5,"d":"2026-07-25","r":"kr","c":"건강보험","h":"장기체류 재외국민·외국인 건강보험 적용기준 개정"},{"n":5,"d":"2026-07-25","r":"kr","c":"국적·병역","h":"2008년생 국적이탈 신고 기한 2026년 3월 31일"},{"n":5,"d":"2026-07-25","r":"kr","c":"세금","h":"해외금융계좌 신고, 2026년 6월 한 달 — 5억 초과 대상"},{"n":5,"d":"2026-07-25","r":"kr","c":"교육","h":"재외동포청 2026 정책 대전환 — 한글학교·청년 지원 확대"},{"n":5,"d":"2026-07-25","r":"eu","c":"주요뉴스","h":"유럽 폭염 경보 — 남부 중심 이동·야외활동 주의"},{"n":5,"d":"2026-07-25","r":"eu","c":"여행","h":"EU 입출국시스템 EES, 2026년 4월 전면 시행"},{"n":5,"d":"2026-07-25","r":"eu","c":"여행","h":"EU 전자여행허가 ETIAS, 2026년 4분기 시행 예정"},{"n":5,"d":"2026-07-25","r":"eu","c":"투자","h":"EU 리테일 투자전략 RIS 승인 — 개인투자자 보호 강화"},{"n":5,"d":"2026-07-25","r":"us","c":"주요뉴스","h":"미국 달러 환율 변동 — 송금 시점 확인 필요"},{"n":5,"d":"2026-07-25","r":"us","c":"비자","h":"미국 '비자 무결성 수수료' $250 신설"},{"n":5,"d":"2026-07-25","r":"us","c":"세금","h":"해외계좌보고 FBAR, 2026년 마감 4월 15일"},{"n":5,"d":"2026-07-25","r":"us","c":"주식","h":"미국 장기 양도소득세, 2026년 과세구간 조정"},{"n":5,"d":"2026-07-25","r":"us","c":"가상자산","h":"미국 암호자산 세금보고 1099-DA, 2026년 첫 시행"}];
+  var _RGKR = {de:'독일', kr:'한국', eu:'EU', us:'미국', fr:'프랑스'};
+
+  function _esc(s){ return String(s).replace(/[&<>"]/g, function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+
+  function _mark(text, q){
+    var t = _esc(text), i = t.toLowerCase().indexOf(q.toLowerCase());
+    if(i < 0) return t;
+    return t.slice(0,i) + '<mark>' + t.slice(i, i+q.length) + '</mark>' + t.slice(i+q.length);
+  }
+
+  function archSearch(q){
+    q = (q || '').trim();
+    var res = document.getElementById('sres');
+    var list = document.getElementById('archlist');
+    var clr = document.getElementById('sclear');
+    if(clr) clr.classList.toggle('on', q.length > 0);
+
+    if(q.length < 1){                 // 검색어 없으면 원래 목록
+      res.innerHTML = ''; if(list) list.style.display = '';
+      return;
+    }
+    if(list) list.style.display = 'none';
+
+    var ql = q.toLowerCase();
+    var hits = NB_SEARCH.filter(function(it){
+      return (it.h && it.h.toLowerCase().indexOf(ql) >= 0) ||
+             (it.c && it.c.toLowerCase().indexOf(ql) >= 0) ||
+             (_RGKR[it.r] && _RGKR[it.r].indexOf(q) >= 0);
+    });
+
+    if(!hits.length){
+      res.innerHTML = '<div class="snone">‘' + _esc(q) + '’ 에 해당하는 뉴스를 찾지 못했습니다.</div>';
+      return;
+    }
+    var html = '<div class="shead">검색 결과 ' + hits.length + '건</div>';
+    hits.slice(0, 60).forEach(function(it){
+      html += '<a class="shit" href="/archive/' + it.n + '.html">' +
+        '<span class="sn">제' + it.n + '호</span>' +
+        '<span class="st">' + _mark(it.h, q) +
+        '<span class="sc">' + (_RGKR[it.r]||it.r) + ' · ' + _esc(it.c||'') + ' · ' + _esc(it.d||'') + '</span>' +
+        '</span></a>';
+    });
+    if(hits.length > 60) html += '<div class="snone">외 ' + (hits.length-60) + '건 더…</div>';
+    res.innerHTML = html;
+  }
+
+  function archClear(){
+    var i = document.getElementById('archq');
+    if(i){ i.value = ''; i.focus(); }
+    archSearch('');
+  }
 
   function openSub(){document.getElementById('submodal').classList.add('open');
     if(window.nbPushInit) try{nbPushInit();}catch(e){}

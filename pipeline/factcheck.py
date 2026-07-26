@@ -9,18 +9,24 @@ import json
 
 import config
 from schema import NewsItem, FactVerdict
-from pipeline import llm
 
 _SYSTEM = (
     "당신은 재외한인 뉴스의 팩트체커입니다. 주어진 뉴스 카드의 사실 주장"
-    "(수치·금액·시행일·요건·기관명)을 원문 출처와 1:1로 대조합니다. "
-    "web_fetch 로 출처를 열고, 필요하면 web_search 로 교차 확인하세요. "
-    "요약 전체가 아니라 '조각(개별 주장)' 단위로 검증합니다. "
+    "(수치·금액·시행일·요건·기관명)을 출처와 1:1로 대조합니다. "
+    "요약 전체가 아니라 '조각(개별 주장)' 단위로 검증합니다.\n"
+    "토큰 효율 원칙: 원문을 통째로 읽지 마세요. 검색 결과 요약(스니펫)으로 "
+    "확인되는 사실은 그것으로 충분합니다. web_fetch 는 수치·날짜가 스니펫만으로 "
+    "확정되지 않을 때만 쓰고, 같은 출처를 두 번 열지 마세요.\n"
     "하나라도 출처와 어긋나거나 확인 불가면 HOLD. 확신이 서야만 PASS."
 )
 
+# 위험도가 높아 이중 검증이 필요한 카테고리
+_HIGH_RISK = {"visa", "immigration", "citizenship", "tax", "welfare", "pension",
+              "health", "invest", "stocks", "crypto"}   # 돈·자격과 직결 → 이중 검증
+
 
 def _check(item: NewsItem, model: str) -> FactVerdict:
+    from pipeline import llm   # SDK는 실제 검증할 때만 필요
     user = f"""다음 카드의 사실을 검증하세요.
 
 제목: {item.head}
@@ -48,6 +54,26 @@ def _check(item: NewsItem, model: str) -> FactVerdict:
         "sources_count": int(data.get("sources_count", 0)),
         "issues": data.get("issues", []) or [],
     })
+
+
+import re
+
+# '틀리면 피해가 큰 수치'만 잡는다. 연도(2026년)는 제외 — 거의 모든 기사에 있어 의미가 없음.
+_NUM = re.compile(
+    r"[€$₩]\s*[\d,]"                       # €259, $250
+    r"|[\d.,]+\s*(?:%|퍼센트)"              # 7.19%
+    r"|[\d,]+\s*(?:억|천만|만\s*원|원|유로|달러)"   # 5억, 1,091원
+    r"|\d{1,2}\s*월\s*\d{1,2}\s*일"         # 3월 31일 (기한)
+)
+
+
+def needs_double_check(item: NewsItem) -> bool:
+    """A급(이중 검증) 대상인지. hot / 수치 포함 / 고위험 카테고리."""
+    if item.hot:
+        return True
+    if item.category in _HIGH_RISK:
+        return True
+    return bool(_NUM.search(item.head + " " + item.desc))
 
 
 def check_a(item: NewsItem) -> FactVerdict:
