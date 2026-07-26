@@ -389,6 +389,22 @@
   .page-head p{margin:14px 0 0;max-width:58ch;font-size:14.5px;color:var(--ink-soft);line-height:1.7;}
   .search{display:flex;align-items:center;gap:10px;border:1px solid var(--line-strong);border-radius:999px;padding:11px 18px;margin:24px 0 8px;}
   .search input{flex:1;border:0;background:none;color:var(--ink);font-family:var(--kr);font-size:14px;outline:none;}
+  .search .sclear{display:none;background:none;border:0;color:var(--ink-faint);font-size:20px;
+    line-height:1;cursor:pointer;padding:0 2px;flex:none;}
+  .search .sclear.on{display:block;}
+  /* 검색 결과 */
+  .sres{margin:18px 0 0;}
+  .sres .shead{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--ink-faint);padding-bottom:10px;border-bottom:1px solid var(--line-strong);}
+  .sres .shit{display:flex;gap:12px;align-items:baseline;padding:14px 0;
+    border-bottom:1px solid var(--line);text-decoration:none;color:inherit;}
+  .sres .shit:hover{background:var(--panel);}
+  .sres .shit .sn{font-family:var(--serif);font-size:12px;color:var(--ink-faint);flex:none;width:64px;}
+  .sres .shit .st{font-size:14px;font-weight:700;line-height:1.45;}
+  .sres .shit .sc{display:block;font-size:11px;font-weight:400;color:var(--ink-faint);margin-top:3px;}
+  .sres .snone{padding:26px 0;text-align:center;font-family:var(--serif);font-style:italic;
+    font-size:14px;color:var(--ink-faint);}
+  .sres mark{background:none;color:var(--ink);font-weight:800;box-shadow:inset 0 -.45em 0 var(--panel);}
   .search svg{width:16px;height:16px;color:var(--ink-faint);flex:none;}
   .issue{border-top:1px solid var(--line-strong);padding:24px 0 4px;}
   .issue-hd{display:flex;align-items:baseline;gap:16px;margin-bottom:14px;flex-wrap:wrap;}
@@ -687,19 +703,27 @@
     </div>
     <div class="search">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-      <input type="text" placeholder="지난 뉴스 검색 — 예: 비자, Kindergeld, 양도세" oninput="return false">
+      <input type="text" id="archq" placeholder="지난 뉴스 검색 — 예: 비자, Kindergeld, 양도세"
+             oninput="archSearch(this.value)" autocomplete="off">
+      <button class="sclear" id="sclear" onclick="archClear()" aria-label="검색 지우기">&times;</button>
     </div>
 
+    <div class="sres" id="sres"></div>
+    <div id="archlist">
         <div class="issue">
-      <a class="issue-hd" href="/archive/5.html"><span class="no">05</span><span class="dt">2026 · 07 · 25 · 오늘</span><span class="cnt">독일 6 · 한국 6 · EU 4 · USA 5 — 21건</span><span class="go">읽기 →</span></a>
+      <a class="issue-hd" href="/archive/6.html"><span class="no">06</span><span class="dt">2026 · 07 · 26 · 오늘</span><span class="cnt">독일 6 · 한국 6 · EU 4 · USA 5 — 21건</span><span class="go">읽기 →</span></a>
       <div class="arch-list">
-        <a class="arch-item" href="/archive/5.html"><span class="rg">독일</span><span class="ttl">독일 인플레이션 둔화 — 장바구니 물가 안정세</span></a>
-        <a class="arch-item" href="/archive/5.html"><span class="rg">독일</span><span class="ttl">독일, 신규 게스트워커 체류허가 중단 — 블루카드·기회카드로 일원화</span></a>
-        <a class="arch-item" href="/archive/5.html"><span class="rg">독일</span><span class="ttl">자녀수당 Kindergeld, 2026년 월 €259로 인상</span></a>
-        <a class="arch-item" href="/archive/5.html"><span class="rg">독일</span><span class="ttl">도이칠란트티켓, 2026년 월 €63로 인상</span></a>
-        <a class="arch-item" href="/archive/5.html"><span class="rg">독일</span><span class="ttl">독일 최저임금 €13.90로 인상 — 미니잡 한도 €603</span></a>
-        <a class="arch-item" href="/archive/5.html"><span class="rg">독일</span><span class="ttl">유학생 블록계좌 기준액 2026년 €11,904</span></a>
+        <a class="arch-item" href="/archive/6.html"><span class="rg">독일</span><span class="ttl">독일 부유층 절반 '해외이주 고려'</span></a>
+        <a class="arch-item" href="/archive/6.html"><span class="rg">독일</span><span class="ttl">17~45세 남성 장기출국, 허가 필요?</span></a>
+        <a class="arch-item" href="/archive/6.html"><span class="rg">독일</span><span class="ttl">법정 건강보험료, 2026년 또 인상</span></a>
+        <a class="arch-item" href="/archive/6.html"><span class="rg">독일</span><span class="ttl">독일 임대차법 개정안 각의 통과</span></a>
+        <a class="arch-item" href="/archive/6.html"><span class="rg">독일</span><span class="ttl">외국인 근로자, 무료 상담받을 권리 고지</span></a>
+        <a class="arch-item" href="/archive/6.html"><span class="rg">독일</span><span class="ttl">독일 연금, 7월부터 4.24% 인상</span></a>
       </div>
+    </div>
+    <div class="issue">
+      <a class="issue-hd" href="/archive/5.html"><span class="no">05</span><span class="dt">2026 · 07 · 25</span><span class="cnt">독일 6 · 한국 6 · EU 4 · USA 5 — 21건</span><span class="go">읽기 →</span></a>
+    </div>
     </div>
     <p class="emptynote" style="font-size:12.5px;padding:26px 0 0">지난 호(01~04)는 구조 예시입니다 — 실제 운영 시 매일 발행분이 이렇게 자동으로 쌓입니다.</p>
   </div>
@@ -841,6 +865,61 @@
     window.addEventListener('resize', upd, {passive:true});
     upd();
   })();
+
+  /* ---------- 아카이브 검색 ---------- */
+  var NB_SEARCH = [{"n":6,"d":"2026-07-26","r":"de","c":"주요뉴스","h":"독일 부유층 절반 '해외이주 고려'"},{"n":6,"d":"2026-07-26","r":"de","c":"국적·병역","h":"17~45세 남성 장기출국, 허가 필요?"},{"n":6,"d":"2026-07-26","r":"de","c":"건강보험","h":"법정 건강보험료, 2026년 또 인상"},{"n":6,"d":"2026-07-26","r":"de","c":"주거","h":"독일 임대차법 개정안 각의 통과"},{"n":6,"d":"2026-07-26","r":"de","c":"노동","h":"외국인 근로자, 무료 상담받을 권리 고지"},{"n":6,"d":"2026-07-26","r":"de","c":"연금","h":"독일 연금, 7월부터 4.24% 인상"},{"n":6,"d":"2026-07-26","r":"kr","c":"주요뉴스","h":"남부 폭염중대경보, 전국 찜통더위"},{"n":6,"d":"2026-07-26","r":"kr","c":"유학","h":"2027학년도 재외국민 특별전형 요강 발표"},{"n":6,"d":"2026-07-26","r":"kr","c":"비자","h":"재외동포(F-4) 취업 제한 완화 시행"},{"n":6,"d":"2026-07-26","r":"kr","c":"연금","h":"국민연금 보험료율, 올해부터 단계 인상"},{"n":6,"d":"2026-07-26","r":"kr","c":"세금","h":"국외전출세, 2027년부터 해외주식도 과세"},{"n":6,"d":"2026-07-26","r":"kr","c":"여행","h":"여권 수수료, 3월부터 20년만에 인상"},{"n":6,"d":"2026-07-26","r":"eu","c":"주요뉴스","h":"구글, EU서 8.9억유로 과징금"},{"n":6,"d":"2026-07-26","r":"eu","c":"투자","h":"ECB, 기준금리 2.25% 동결"},{"n":6,"d":"2026-07-26","r":"eu","c":"여행","h":"EU, EES 전면중단 요청 거부"},{"n":6,"d":"2026-07-26","r":"eu","c":"법·제도","h":"EU 항공여객권리법 개정 최종승인"},{"n":6,"d":"2026-07-26","r":"us","c":"주요뉴스","h":"6월 소비자물가 3.5%로 둔화"},{"n":6,"d":"2026-07-26","r":"us","c":"주식","h":"연준, 7월29일 5연속 금리동결 유력"},{"n":6,"d":"2026-07-26","r":"us","c":"비자","h":"H-1B 2027회계연도 정원 마감"},{"n":6,"d":"2026-07-26","r":"us","c":"연금","h":"2027년 사회보장 COLA 3.8% 전망"},{"n":6,"d":"2026-07-26","r":"us","c":"노동","h":"6월 고용 5.7만명 증가, 예상 밑돌아"},{"n":5,"d":"2026-07-25","r":"de","c":"주요뉴스","h":"독일 인플레이션 둔화 — 장바구니 물가 안정세"},{"n":5,"d":"2026-07-25","r":"de","c":"비자","h":"독일, 신규 게스트워커 체류허가 중단 — 블루카드·기회카드로 일원화"},{"n":5,"d":"2026-07-25","r":"de","c":"복지","h":"자녀수당 Kindergeld, 2026년 월 €259로 인상"},{"n":5,"d":"2026-07-25","r":"de","c":"생활","h":"도이칠란트티켓, 2026년 월 €63로 인상"},{"n":5,"d":"2026-07-25","r":"de","c":"노동","h":"독일 최저임금 €13.90로 인상 — 미니잡 한도 €603"},{"n":5,"d":"2026-07-25","r":"de","c":"유학","h":"유학생 블록계좌 기준액 2026년 €11,904"},{"n":5,"d":"2026-07-25","r":"kr","c":"주요뉴스","h":"인천공항 여름 성수기 혼잡 — 출국 소요시간 증가"},{"n":5,"d":"2026-07-25","r":"kr","c":"법·제도","h":"모바일 재외국민 신원확인증 개시 — 한국 휴대폰 없이 본인확인"},{"n":5,"d":"2026-07-25","r":"kr","c":"건강보험","h":"장기체류 재외국민·외국인 건강보험 적용기준 개정"},{"n":5,"d":"2026-07-25","r":"kr","c":"국적·병역","h":"2008년생 국적이탈 신고 기한 2026년 3월 31일"},{"n":5,"d":"2026-07-25","r":"kr","c":"세금","h":"해외금융계좌 신고, 2026년 6월 한 달 — 5억 초과 대상"},{"n":5,"d":"2026-07-25","r":"kr","c":"교육","h":"재외동포청 2026 정책 대전환 — 한글학교·청년 지원 확대"},{"n":5,"d":"2026-07-25","r":"eu","c":"주요뉴스","h":"유럽 폭염 경보 — 남부 중심 이동·야외활동 주의"},{"n":5,"d":"2026-07-25","r":"eu","c":"여행","h":"EU 입출국시스템 EES, 2026년 4월 전면 시행"},{"n":5,"d":"2026-07-25","r":"eu","c":"여행","h":"EU 전자여행허가 ETIAS, 2026년 4분기 시행 예정"},{"n":5,"d":"2026-07-25","r":"eu","c":"투자","h":"EU 리테일 투자전략 RIS 승인 — 개인투자자 보호 강화"},{"n":5,"d":"2026-07-25","r":"us","c":"주요뉴스","h":"미국 달러 환율 변동 — 송금 시점 확인 필요"},{"n":5,"d":"2026-07-25","r":"us","c":"비자","h":"미국 '비자 무결성 수수료' $250 신설"},{"n":5,"d":"2026-07-25","r":"us","c":"세금","h":"해외계좌보고 FBAR, 2026년 마감 4월 15일"},{"n":5,"d":"2026-07-25","r":"us","c":"주식","h":"미국 장기 양도소득세, 2026년 과세구간 조정"},{"n":5,"d":"2026-07-25","r":"us","c":"가상자산","h":"미국 암호자산 세금보고 1099-DA, 2026년 첫 시행"}];
+  var _RGKR = {de:'독일', kr:'한국', eu:'EU', us:'미국', fr:'프랑스'};
+
+  function _esc(s){ return String(s).replace(/[&<>"]/g, function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+
+  function _mark(text, q){
+    var t = _esc(text), i = t.toLowerCase().indexOf(q.toLowerCase());
+    if(i < 0) return t;
+    return t.slice(0,i) + '<mark>' + t.slice(i, i+q.length) + '</mark>' + t.slice(i+q.length);
+  }
+
+  function archSearch(q){
+    q = (q || '').trim();
+    var res = document.getElementById('sres');
+    var list = document.getElementById('archlist');
+    var clr = document.getElementById('sclear');
+    if(clr) clr.classList.toggle('on', q.length > 0);
+
+    if(q.length < 1){                 // 검색어 없으면 원래 목록
+      res.innerHTML = ''; if(list) list.style.display = '';
+      return;
+    }
+    if(list) list.style.display = 'none';
+
+    var ql = q.toLowerCase();
+    var hits = NB_SEARCH.filter(function(it){
+      return (it.h && it.h.toLowerCase().indexOf(ql) >= 0) ||
+             (it.c && it.c.toLowerCase().indexOf(ql) >= 0) ||
+             (_RGKR[it.r] && _RGKR[it.r].indexOf(q) >= 0);
+    });
+
+    if(!hits.length){
+      res.innerHTML = '<div class="snone">‘' + _esc(q) + '’ 에 해당하는 뉴스를 찾지 못했습니다.</div>';
+      return;
+    }
+    var html = '<div class="shead">검색 결과 ' + hits.length + '건</div>';
+    hits.slice(0, 60).forEach(function(it){
+      html += '<a class="shit" href="/archive/' + it.n + '.html">' +
+        '<span class="sn">제' + it.n + '호</span>' +
+        '<span class="st">' + _mark(it.h, q) +
+        '<span class="sc">' + (_RGKR[it.r]||it.r) + ' · ' + _esc(it.c||'') + ' · ' + _esc(it.d||'') + '</span>' +
+        '</span></a>';
+    });
+    if(hits.length > 60) html += '<div class="snone">외 ' + (hits.length-60) + '건 더…</div>';
+    res.innerHTML = html;
+  }
+
+  function archClear(){
+    var i = document.getElementById('archq');
+    if(i){ i.value = ''; i.focus(); }
+    archSearch('');
+  }
 
   function openSub(){document.getElementById('submodal').classList.add('open');
     if(window.nbPushInit) try{nbPushInit();}catch(e){}

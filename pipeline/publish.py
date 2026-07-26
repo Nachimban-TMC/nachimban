@@ -49,6 +49,27 @@ def _section(region: str, items: List[NewsItem], date_dot: str) -> str:
   </section>"""
 
 
+def _build_search_index() -> str:
+    """모든 호의 뉴스를 검색용 JSON 으로. (n=호수, d=날짜, r=지역, c=카테고리, h=제목)"""
+    import glob
+    rows = []
+    for path in sorted(glob.glob(os.path.join(config.DATA_DIR, "issue-*.json")), reverse=True):
+        try:
+            d = json.load(open(path, encoding="utf-8"))
+        except Exception:  # noqa: BLE001
+            continue
+        for it in d.get("published", []):
+            kr, _, _ = config.CATEGORIES.get(it.get("category", ""), (it.get("category", ""), "", ""))
+            rows.append({
+                "n": d.get("number"),
+                "d": d.get("date"),
+                "r": it.get("region"),
+                "c": kr,
+                "h": it.get("head", ""),
+            })
+    return json.dumps(rows, ensure_ascii=False, separators=(",", ":"))
+
+
 def _render_filter(issue: Issue) -> str:
     """지역 인덱스 — config.REGION_ORDER 를 따라 자동 생성(그 호에 기사가 있는 지역만)."""
     have = {it.region for it in issue.published}
@@ -126,6 +147,7 @@ def _render_issue_page(tpl: str, issue: Issue, index: List[dict]) -> str:
     html = tpl.replace("<!--FILTER-->", _render_filter(issue))
     html = html.replace("<!--FEED-->", _render_feed(issue))
     html = html.replace("<!--ARCHIVE-->", _render_archive(index))
+    html = html.replace("/*<!--SEARCHDATA-->*/[]", _build_search_index())
     html = html.replace("2026. 07. 25 · AM 7:00",
                         f"{issue.date.replace('-', '. ')} · 제{issue.number}호")
     # 지난 호임을 알리는 배너 + 오늘자로 돌아가는 링크
@@ -149,6 +171,7 @@ def publish(issue: Issue) -> str:
     tpl = tpl.replace("<!--FILTER-->", _render_filter(issue))
     tpl = tpl.replace("<!--FEED-->", _render_feed(issue))
     tpl = tpl.replace("<!--ARCHIVE-->", _render_archive(index))
+    tpl = tpl.replace("/*<!--SEARCHDATA-->*/[]", _build_search_index())
     tpl = tpl.replace("2026. 07. 25 · AM 7:00", f"{issue.date.replace('-', '. ')} · AM 7:00")
     out = os.path.join(config.SITE_DIR, "index.html")
     open(out, "w", encoding="utf-8").write(tpl)

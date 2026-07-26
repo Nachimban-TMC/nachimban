@@ -389,6 +389,22 @@
   .page-head p{margin:14px 0 0;max-width:58ch;font-size:14.5px;color:var(--ink-soft);line-height:1.7;}
   .search{display:flex;align-items:center;gap:10px;border:1px solid var(--line-strong);border-radius:999px;padding:11px 18px;margin:24px 0 8px;}
   .search input{flex:1;border:0;background:none;color:var(--ink);font-family:var(--kr);font-size:14px;outline:none;}
+  .search .sclear{display:none;background:none;border:0;color:var(--ink-faint);font-size:20px;
+    line-height:1;cursor:pointer;padding:0 2px;flex:none;}
+  .search .sclear.on{display:block;}
+  /* 검색 결과 */
+  .sres{margin:18px 0 0;}
+  .sres .shead{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--ink-faint);padding-bottom:10px;border-bottom:1px solid var(--line-strong);}
+  .sres .shit{display:flex;gap:12px;align-items:baseline;padding:14px 0;
+    border-bottom:1px solid var(--line);text-decoration:none;color:inherit;}
+  .sres .shit:hover{background:var(--panel);}
+  .sres .shit .sn{font-family:var(--serif);font-size:12px;color:var(--ink-faint);flex:none;width:64px;}
+  .sres .shit .st{font-size:14px;font-weight:700;line-height:1.45;}
+  .sres .shit .sc{display:block;font-size:11px;font-weight:400;color:var(--ink-faint);margin-top:3px;}
+  .sres .snone{padding:26px 0;text-align:center;font-family:var(--serif);font-style:italic;
+    font-size:14px;color:var(--ink-faint);}
+  .sres mark{background:none;color:var(--ink);font-weight:800;box-shadow:inset 0 -.45em 0 var(--panel);}
   .search svg{width:16px;height:16px;color:var(--ink-faint);flex:none;}
   .issue{border-top:1px solid var(--line-strong);padding:24px 0 4px;}
   .issue-hd{display:flex;align-items:baseline;gap:16px;margin-bottom:14px;flex-wrap:wrap;}
@@ -465,10 +481,15 @@
     </div>
     <div class="search">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-      <input type="text" placeholder="지난 뉴스 검색 — 예: 비자, Kindergeld, 양도세" oninput="return false">
+      <input type="text" id="archq" placeholder="지난 뉴스 검색 — 예: 비자, Kindergeld, 양도세"
+             oninput="archSearch(this.value)" autocomplete="off">
+      <button class="sclear" id="sclear" onclick="archClear()" aria-label="검색 지우기">&times;</button>
     </div>
 
+    <div class="sres" id="sres"></div>
+    <div id="archlist">
     <!--ARCHIVE-->
+    </div>
     <p class="emptynote" style="font-size:12.5px;padding:26px 0 0">지난 호(01~04)는 구조 예시입니다 — 실제 운영 시 매일 발행분이 이렇게 자동으로 쌓입니다.</p>
   </div>
 
@@ -609,6 +630,61 @@
     window.addEventListener('resize', upd, {passive:true});
     upd();
   })();
+
+  /* ---------- 아카이브 검색 ---------- */
+  var NB_SEARCH = /*<!--SEARCHDATA-->*/[];
+  var _RGKR = {de:'독일', kr:'한국', eu:'EU', us:'미국', fr:'프랑스'};
+
+  function _esc(s){ return String(s).replace(/[&<>"]/g, function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+
+  function _mark(text, q){
+    var t = _esc(text), i = t.toLowerCase().indexOf(q.toLowerCase());
+    if(i < 0) return t;
+    return t.slice(0,i) + '<mark>' + t.slice(i, i+q.length) + '</mark>' + t.slice(i+q.length);
+  }
+
+  function archSearch(q){
+    q = (q || '').trim();
+    var res = document.getElementById('sres');
+    var list = document.getElementById('archlist');
+    var clr = document.getElementById('sclear');
+    if(clr) clr.classList.toggle('on', q.length > 0);
+
+    if(q.length < 1){                 // 검색어 없으면 원래 목록
+      res.innerHTML = ''; if(list) list.style.display = '';
+      return;
+    }
+    if(list) list.style.display = 'none';
+
+    var ql = q.toLowerCase();
+    var hits = NB_SEARCH.filter(function(it){
+      return (it.h && it.h.toLowerCase().indexOf(ql) >= 0) ||
+             (it.c && it.c.toLowerCase().indexOf(ql) >= 0) ||
+             (_RGKR[it.r] && _RGKR[it.r].indexOf(q) >= 0);
+    });
+
+    if(!hits.length){
+      res.innerHTML = '<div class="snone">‘' + _esc(q) + '’ 에 해당하는 뉴스를 찾지 못했습니다.</div>';
+      return;
+    }
+    var html = '<div class="shead">검색 결과 ' + hits.length + '건</div>';
+    hits.slice(0, 60).forEach(function(it){
+      html += '<a class="shit" href="/archive/' + it.n + '.html">' +
+        '<span class="sn">제' + it.n + '호</span>' +
+        '<span class="st">' + _mark(it.h, q) +
+        '<span class="sc">' + (_RGKR[it.r]||it.r) + ' · ' + _esc(it.c||'') + ' · ' + _esc(it.d||'') + '</span>' +
+        '</span></a>';
+    });
+    if(hits.length > 60) html += '<div class="snone">외 ' + (hits.length-60) + '건 더…</div>';
+    res.innerHTML = html;
+  }
+
+  function archClear(){
+    var i = document.getElementById('archq');
+    if(i){ i.value = ''; i.focus(); }
+    archSearch('');
+  }
 
   function openSub(){document.getElementById('submodal').classList.add('open');
     if(window.nbPushInit) try{nbPushInit();}catch(e){}
