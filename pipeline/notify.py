@@ -14,6 +14,7 @@ import os
 import urllib.request
 
 import config
+from pipeline import env
 from schema import Issue, NewsItem
 
 _RG = {"de": "🇩🇪 독일", "kr": "🇰🇷 한국", "eu": "🇪🇺 EU", "us": "🇺🇸 미국", "fr": "🇫🇷 프랑스"}
@@ -114,6 +115,7 @@ def _subscribers() -> list[str]:
 
 def send(issue: Issue) -> int:
     """구독자에게 발송. 발송 건수 반환. 키/구독자 없으면 0(건너뜀)."""
+    env.load()
     key = os.getenv("RESEND_API_KEY")
     subs = _subscribers()
     if not key:

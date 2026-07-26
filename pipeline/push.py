@@ -15,6 +15,7 @@ import os
 import urllib.request
 
 import config
+from pipeline import env
 from schema import Issue
 
 _VAPID_PATH = os.path.join(config.DATA_DIR, "vapid.json")
@@ -66,6 +67,7 @@ def _fetch_subscriptions() -> list[dict] | None:
 
 def send(issue: Issue) -> int:
     """오늘 호 알림을 모든 구독 기기에 발송. 보낸 수를 반환."""
+    env.load()
     keys = _vapid()
     if not keys:
         print("   🔔 data/vapid.json 없음 → 푸시 건너뜀")
