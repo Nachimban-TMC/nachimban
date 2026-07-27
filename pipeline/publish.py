@@ -70,6 +70,15 @@ def _build_search_index() -> str:
     return json.dumps(rows, ensure_ascii=False, separators=(",", ":"))
 
 
+def _archive_info(index: List[dict]) -> str:
+    """아카이브 안내에 들어갈 현재 현황 (하드코딩 대신 자동 갱신)."""
+    if not index:
+        return ""
+    issues = len(index)
+    total = sum(e.get("total", 0) for e in index)
+    return f"지금까지 <b>{issues}호</b>, 모두 <b>{total}건</b>을 전해드렸습니다."
+
+
 def _render_filter(issue: Issue) -> str:
     """지역 인덱스 — config.REGION_ORDER 를 따라 자동 생성(그 호에 기사가 있는 지역만)."""
     have = {it.region for it in issue.published}
@@ -147,6 +156,7 @@ def _render_issue_page(tpl: str, issue: Issue, index: List[dict]) -> str:
     html = tpl.replace("<!--FILTER-->", _render_filter(issue))
     html = html.replace("<!--FEED-->", _render_feed(issue))
     html = html.replace("<!--ARCHIVE-->", _render_archive(index))
+    html = html.replace("<!--ARCHINFO-->", _archive_info(index))
     html = html.replace("/*<!--SEARCHDATA-->*/[]", _build_search_index())
     html = html.replace("2026. 07. 25 · AM 7:00",
                         f"{issue.date.replace('-', '. ')} · 제{issue.number}호")
@@ -171,6 +181,7 @@ def publish(issue: Issue) -> str:
     tpl = tpl.replace("<!--FILTER-->", _render_filter(issue))
     tpl = tpl.replace("<!--FEED-->", _render_feed(issue))
     tpl = tpl.replace("<!--ARCHIVE-->", _render_archive(index))
+    tpl = tpl.replace("<!--ARCHINFO-->", _archive_info(index))
     tpl = tpl.replace("/*<!--SEARCHDATA-->*/[]", _build_search_index())
     tpl = tpl.replace("2026. 07. 25 · AM 7:00", f"{issue.date.replace('-', '. ')} · AM 7:00")
     out = os.path.join(config.SITE_DIR, "index.html")
