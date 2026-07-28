@@ -8,3 +8,17 @@
   Cache-Control: no-cache
 /index.html
   Cache-Control: no-cache
+/sw-register.js
+  Cache-Control: no-cache
+
+# 카드 사진·아이콘은 내용이 바뀌지 않는다 — 오래 캐시해 재방문 때 다시 받지 않게
+/img/*
+  Cache-Control: public, max-age=31536000, immutable
+/icon-192.png
+  Cache-Control: public, max-age=604800
+/icon-512.png
+  Cache-Control: public, max-age=604800
+/icon-180.png
+  Cache-Control: public, max-age=604800
+/og.png
+  Cache-Control: public, max-age=604800
