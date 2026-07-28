@@ -43,7 +43,7 @@ def draft_item(c: Candidate) -> NewsItem:
 - desc: 2~3문장 한글 요약
 - {interp_ask}
 - read_min: 예상 읽기 분(1~5)"""
-    d: Draft = llm.structured(_SYSTEM, user, Draft, model=config.MODEL_LEGAL)
+    d: Draft = llm.structured(_SYSTEM, user, Draft, model=config.MODEL_LEGAL, stage="초안")
     return NewsItem(
         region=c.region,
         category=c.category,

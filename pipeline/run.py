@@ -120,6 +120,10 @@ def main():
             alert.failure(stage, e, number=number, date=args.date, push_too=True)
         raise
 
+    # 클라우드 이전 판단용 — 이번 실행이 종량제였다면 얼마였을지
+    from pipeline import llm as _llm
+    print(_llm.cost_report())
+
     if issue.held:
         print(f"⚠️  보류 {len(issue.held)}건 → 편집장 검토 필요:")
         for it in issue.held:

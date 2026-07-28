@@ -46,7 +46,7 @@ def _check(item: NewsItem, model: str) -> FactVerdict:
   "sources_count": 확인한 출처 수(정수),
   "issues": ["불일치/의심 항목", "..."]}}
 ```"""
-    data = llm.research(_SYSTEM, user, model=model)
+    data = llm.research(_SYSTEM, user, model=model, stage="팩트체크")
     # research 는 dict 를 돌려줌 → FactVerdict 로 검증
     return FactVerdict(**{
         "verdict": data.get("verdict", "HOLD"),

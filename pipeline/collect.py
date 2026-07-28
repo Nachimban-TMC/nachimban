@@ -58,7 +58,7 @@ def collect_region(region: str, date: str) -> List[Candidate]:
     "source_urls": ["https://...", "https://..."]}}
 ]}}
 ```"""
-    data = llm.research(_SYSTEM, user, model=config.MODEL_JOURNALIST)
+    data = llm.research(_SYSTEM, user, model=config.MODEL_JOURNALIST, stage="취재")
     items = [Candidate(**it) for it in data.get("items", [])]
     return _keep(items, meta["count"], region)
 
