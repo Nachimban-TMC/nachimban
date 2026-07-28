@@ -163,6 +163,15 @@
   .m-bot{margin-top:auto;padding-top:16px;border-top:1px solid var(--line);
     display:flex;align-items:center;gap:14px;font-size:11px;color:var(--ink-faint);letter-spacing:.02em;}
   .m-bot .lb{font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);margin-right:4px;}
+  /* 공유 — 매거진 톤을 해치지 않게 아이콘만, read more 왼쪽에 둔다 */
+  /* 아이콘은 작게 두되 손가락으로 누를 영역은 넉넉히(음수 마진으로 줄 높이는 유지) */
+  .shr{margin-left:auto;background:none;border:0;padding:11px;margin-top:-11px;margin-bottom:-11px;
+    cursor:pointer;color:var(--ink-faint);
+    display:inline-flex;align-items:center;line-height:0;transition:color .15s;}
+  .shr:hover,.shr:focus-visible{color:var(--ink);}
+  .shr svg{width:15px;height:15px;}
+  .shr.done{color:var(--ink);}
+  .m-bot .shr + .readmore{margin-left:12px;}
   .m-bot .readmore{margin-left:auto;display:inline-flex;align-items:center;gap:8px;text-decoration:none;
     font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);}
   .m-bot .arrow{width:24px;height:24px;border:1px solid var(--line-strong);border-radius:50%;
@@ -679,6 +688,32 @@
     var i = document.getElementById('archq');
     if(i){ i.value = ''; i.focus(); }
     archSearch('');
+  }
+
+  /* ---------- 공유 ----------
+     휴대폰이면 시스템 공유 시트, 아니면 링크 복사로 대체한다. */
+  function nbShare(btn){
+    var head = btn.getAttribute('data-h') || document.title;
+    var url  = location.href.split('#')[0];
+    var text = head + ' — 나침반 · 재외한인 아침 브리핑';
+    function done(msg){
+      btn.classList.add('done');
+      var t = btn.getAttribute('title');
+      btn.setAttribute('title', msg);
+      setTimeout(function(){ btn.classList.remove('done'); btn.setAttribute('title', t); }, 1800);
+    }
+    if(navigator.share){
+      navigator.share({title:'나침반', text:text, url:url}).then(function(){done('공유함');})
+        .catch(function(){});   // 사용자가 취소한 경우 — 아무 표시도 하지 않는다
+      return;
+    }
+    var payload = text + '\n' + url;
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(payload).then(function(){done('링크를 복사했습니다');})
+        .catch(function(){ window.prompt('아래 주소를 복사하세요', payload); });
+    } else {
+      window.prompt('아래 주소를 복사하세요', payload);
+    }
   }
 
   // push.js 가 못 뜬 경우에도 알림 칸이 조용히 사라지지 않게 한다

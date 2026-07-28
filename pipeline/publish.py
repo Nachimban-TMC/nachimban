@@ -21,6 +21,22 @@ _AD = """  <div class="adslot">
   </div>"""
 
 
+def _esc_attr(s: str) -> str:
+    return (s.replace("&", "&amp;").replace('"', "&quot;")
+             .replace("<", "&lt;").replace(">", "&gt;"))
+
+
+def _share_btn(it: NewsItem) -> str:
+    """카드 공유 버튼. 원문이 아니라 '나침반'을 공유한다(서비스를 알리는 게 목적)."""
+    return (f'<button class="shr" type="button" aria-label="이 소식 공유하기" '
+            f'title="공유하기" onclick="nbShare(this)" data-h="{_esc_attr(it.head)}">'
+            '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" '
+            'stroke-linecap="round" stroke-linejoin="round">'
+            '<circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/>'
+            '<circle cx="18" cy="19" r="3"/>'
+            '<path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg></button>')
+
+
 # ── 카드/섹션 렌더 (template.html 의 CSS 클래스와 일치) ──────────────
 def _card(it: NewsItem, date_dot: str) -> str:
     kr, en, img = config.CATEGORIES.get(it.category, (it.category, "", "g1"))
@@ -32,7 +48,7 @@ def _card(it: NewsItem, date_dot: str) -> str:
         <h3>{it.head}</h3>
         <p class="desc">{it.desc}</p>
         <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>{it.interp}</p></div>
-        <div class="m-bot"><span><span class="lb">Source</span>{it.source}</span><span><span class="lb">Read</span>{it.read} min</span><a class="readmore" href="{it.url}" target="_blank" rel="noopener noreferrer"><span class="arrow">↗</span>read more</a></div>
+        <div class="m-bot"><span><span class="lb">Source</span>{it.source}</span><span><span class="lb">Read</span>{it.read} min</span>{_share_btn(it)}<a class="readmore" href="{it.url}" target="_blank" rel="noopener noreferrer"><span class="arrow">↗</span>read more</a></div>
       </article>"""
 
 
