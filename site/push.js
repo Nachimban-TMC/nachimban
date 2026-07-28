@@ -33,7 +33,8 @@
     }
     if (isIOS && !standalone) {
       setState(box, 'off',
-        '<span class="pl">알림</span><span class="pd">아이폰은 <b>공유 ⬆️ → 홈 화면에 추가</b> 후 앱에서 열면 알림을 받을 수 있어요.</span>');
+        '<span class="pl">앱 알림</span><span class="pd">아이폰은 앱으로 설치해야 알림을 받을 수 있어요.<br>' +
+        '① 아래 <b>공유 ⬆️</b> → ② <b>홈 화면에 추가</b> → ③ 새로 생긴 <b>🧭 아이콘</b>으로 열기</span>');
       return;
     }
     if (Notification.permission === 'denied') {
@@ -51,7 +52,11 @@
         setState(box, '', '<span class="pl">앱 알림</span><span class="pd">매일 아침, 새 브리핑이 올라오면 알려드릴까요?</span>' +
           '<button class="pbtn" onclick="nbPushOn()">알림 받기</button>');
       }
-    }).catch(function () {});
+    }).catch(function () {
+      // 서비스워커가 아직 안 붙었을 때도 칸이 비어 사라지지 않게 한다
+      setState(box, '', '<span class="pl">앱 알림</span><span class="pd">매일 아침, 새 브리핑이 올라오면 알려드릴까요?</span>' +
+        '<button class="pbtn" onclick="nbPushOn()">알림 받기</button>');
+    });
   };
 
   window.nbPushOn = function () {
