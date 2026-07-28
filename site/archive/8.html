@@ -910,8 +910,16 @@
     archSearch('');
   }
 
+  // push.js 가 못 뜬 경우에도 알림 칸이 조용히 사라지지 않게 한다
+  function nbPushFallback(){
+    var b=document.getElementById('pushbox'); if(!b) return;
+    b.className='pushbox off';
+    b.innerHTML='<span class="pl">앱 알림</span><span class="pd">알림 기능을 불러오지 못했습니다. '+
+      '새로고침하면 대개 해결됩니다.</span>'+
+      '<button class="pbtn" onclick="location.reload(true)">새로고침</button>';
+  }
   function openSub(){document.getElementById('submodal').classList.add('open');
-    if(window.nbPushInit) try{nbPushInit();}catch(e){}
+    if(window.nbPushInit){ try{nbPushInit();}catch(e){nbPushFallback();} } else nbPushFallback();
     setTimeout(function(){var e=document.getElementById('sub-email');if(e)e.focus();},60);}
   function closeSub(){document.getElementById('submodal').classList.remove('open');}
   document.addEventListener('keydown',function(e){if(e.key==='Escape')closeSub();});

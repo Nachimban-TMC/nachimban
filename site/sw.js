@@ -1,6 +1,8 @@
 /* 나침반 서비스워커 — 앱처럼 설치되고, 오프라인에서도 마지막 브리핑을 볼 수 있게. */
-const CACHE = 'nachimban-v1';
-const CORE = ['/', '/index.html', '/thanks.html', '/manifest.json', '/icon-192.png'];
+const CACHE = 'nachimban-v2';
+// 스크립트도 미리 담아둔다 — 이게 없으면 알림 칸이 통째로 사라진다
+const CORE = ['/', '/index.html', '/thanks.html', '/manifest.json', '/icon-192.png',
+              '/push.js', '/sw-register.js'];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(CORE)).then(() => self.skipWaiting()));
@@ -25,7 +27,13 @@ self.addEventListener('fetch', (e) => {
         caches.open(CACHE).then((c) => c.put(req, copy));
         return res;
       })
-      .catch(() => caches.match(req).then((r) => r || caches.match('/index.html')))
+      .catch(() => caches.match(req).then((r) => {
+        if (r) return r;
+        // HTML 폴백은 '화면 이동' 요청에만. 스크립트 자리에 HTML을 돌려주면
+        // 파싱이 깨져 push.js 가 통째로 죽는다(알림 칸이 안 보이던 원인).
+        if (req.mode === 'navigate') return caches.match('/index.html');
+        return Response.error();
+      }))
   );
 });
 
