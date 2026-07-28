@@ -2,7 +2,33 @@
 (function () {
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', function () {
-      navigator.serviceWorker.register('/sw.js').catch(function () {});
+      navigator.serviceWorker.register('/sw.js').then(function (reg) {
+        // 새 버전 확인 — 이게 없으면 사용자가 앱을 지웠다 다시 깔아야만
+        // 수정이 반영된다. 서비스로서 말이 안 되는 동작이다.
+        function check() { try { reg.update(); } catch (e) {} }
+        check();
+        setInterval(check, 30 * 60 * 1000);            // 30분마다
+        document.addEventListener('visibilitychange', function () {
+          if (!document.hidden) check();               // 앱을 다시 열 때마다
+        });
+        reg.addEventListener('updatefound', function () {
+          var nw = reg.installing;
+          if (!nw) return;
+          nw.addEventListener('statechange', function () {
+            if (nw.state === 'installed' && navigator.serviceWorker.controller) {
+              nw.postMessage({ type: 'SKIP_WAITING' });  // 기다리지 말고 바로 교체
+            }
+          });
+        });
+      }).catch(function () {});
+    });
+
+    // 새 서비스워커가 넘겨받으면 한 번만 새로고침 — 사용자는 최신 화면을 본다
+    var reloaded = false;
+    navigator.serviceWorker.addEventListener('controllerchange', function () {
+      if (reloaded) return;
+      reloaded = true;
+      location.reload();
     });
   }
 

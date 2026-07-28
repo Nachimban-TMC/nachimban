@@ -262,7 +262,7 @@
   /* ---------- 푸시 알림 안내 (구독 모달 안) ---------- */
   .pushbox{margin:18px 0;padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);
     display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;}
-  .pushbox:empty{display:none;}
+  /* :empty{display:none} 은 실패를 조용히 숨겨 버린다 — 쓰지 않는다 */
   .pushbox .pl{font-size:10.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;
     color:var(--ink);border:1px solid var(--line-strong);border-radius:999px;padding:4px 10px;}
   .pushbox.on .pl{background:var(--ink);color:var(--on-ink);}
@@ -995,28 +995,45 @@
       return;
     }
 
+    // 먼저 버튼을 그려 놓는다. 아래 조회는 '켜짐' 여부를 확인하는 보정일 뿐,
+    // 그 결과를 기다렸다가 그리면 안 된다 — serviceWorker.ready 는 서비스워커가
+    // 활성화되지 않으면 실패하지도 않고 영원히 대기한다(.catch 도 안 걸린다).
+    // 그 사이 칸이 비어 있으면 :empty 규칙에 숨겨져 화면에서 사라진다.
+    setState(box, '', '<span class="pl">앱 알림</span><span class="pd">매일 아침, 새 브리핑이 올라오면 알려드릴까요?</span>' +
+      '<button class="pbtn" onclick="nbPushOn()">알림 받기</button>');
+
     navigator.serviceWorker.ready.then(function (reg) {
       return reg.pushManager.getSubscription();
     }).then(function (sub) {
       if (sub) {
         setState(box, 'on', '<span class="pl">알림 켜짐</span><span class="pd">매일 아침 새 브리핑을 알려드립니다.</span>' +
           '<button class="pbtn ghost" onclick="nbPushOff()">끄기</button>');
-      } else {
-        setState(box, '', '<span class="pl">앱 알림</span><span class="pd">매일 아침, 새 브리핑이 올라오면 알려드릴까요?</span>' +
-          '<button class="pbtn" onclick="nbPushOn()">알림 받기</button>');
       }
-    }).catch(function () {
-      // 서비스워커가 아직 안 붙었을 때도 칸이 비어 사라지지 않게 한다
-      setState(box, '', '<span class="pl">앱 알림</span><span class="pd">매일 아침, 새 브리핑이 올라오면 알려드릴까요?</span>' +
-        '<button class="pbtn" onclick="nbPushOn()">알림 받기</button>');
-    });
+    }).catch(function () {});
   };
+
+  /* 서비스워커가 준비될 때까지 기다리되, 무한정은 아니다.
+     ready 는 실패하지 않고 계속 매달려 있기만 하므로 직접 시한을 둔다. */
+  function swReady(ms) {
+    return Promise.race([
+      navigator.serviceWorker.ready,
+      new Promise(function (_, reject) {
+        setTimeout(function () { reject(new Error('sw-timeout')); }, ms || 8000);
+      }),
+    ]).catch(function (e) {
+      // 아직 등록 전일 수 있으니 한 번 직접 등록해 보고 다시 기다린다
+      return navigator.serviceWorker.register('/sw.js').then(function () {
+        return navigator.serviceWorker.ready;
+      });
+    });
+  }
 
   window.nbPushOn = function () {
     var box = document.getElementById('pushbox');
+    setState(box, '', '<span class="pl">앱 알림</span><span class="pd">설정하는 중…</span>');
     Notification.requestPermission().then(function (p) {
       if (p !== 'granted') { window.nbPushInit(); return; }
-      return navigator.serviceWorker.ready.then(function (reg) {
+      return swReady(8000).then(function (reg) {
         return reg.pushManager.subscribe({
           userVisibleOnly: true,
           applicationServerKey: b64ToU8(VAPID_PUBLIC),
@@ -1031,8 +1048,11 @@
         setState(box, 'on', '<span class="pl">알림 켜짐</span><span class="pd">내일 아침부터 알려드릴게요.</span>' +
           '<button class="pbtn ghost" onclick="nbPushOff()">끄기</button>');
       });
-    }).catch(function () {
-      setState(box, 'off', '<span class="pl">알림</span><span class="pd">알림 설정에 실패했습니다. 잠시 후 다시 시도해 주세요.</span>');
+    }).catch(function (e) {
+      // 실패 사유를 화면에 남긴다 — 안 그러면 원인을 물어봐야만 알 수 있다
+      var why = (e && (e.name || e.message)) ? ' (' + (e.name || e.message) + ')' : '';
+      setState(box, 'off', '<span class="pl">알림</span><span class="pd">알림 설정에 실패했습니다' + why +
+        '. 다시 시도해 주세요.</span><button class="pbtn" onclick="nbPushOn()">다시 시도</button>');
     });
   };
 

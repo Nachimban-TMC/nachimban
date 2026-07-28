@@ -262,7 +262,7 @@
   /* ---------- 푸시 알림 안내 (구독 모달 안) ---------- */
   .pushbox{margin:18px 0;padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);
     display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;}
-  .pushbox:empty{display:none;}
+  /* :empty{display:none} 은 실패를 조용히 숨겨 버린다 — 쓰지 않는다 */
   .pushbox .pl{font-size:10.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;
     color:var(--ink);border:1px solid var(--line-strong);border-radius:999px;padding:4px 10px;}
   .pushbox.on .pl{background:var(--ink);color:var(--on-ink);}
