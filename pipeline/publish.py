@@ -150,6 +150,17 @@ def _update_index(issue: Issue) -> List[dict]:
     return index
 
 
+def _inline_push(html: str) -> str:
+    """푸시 스크립트를 HTML 안에 직접 넣는다.
+
+    외부 파일로 두면 네트워크가 한 번만 흔들려도(또는 서비스워커가 엉뚱한
+    응답을 돌려줘도) 알림 칸이 통째로 사라진다. 실제로 그렇게 사라졌다.
+    """
+    src = open(os.path.join(config.SITE_DIR, "push.js"), encoding="utf-8").read()
+    src = src.replace("</script>", "<\\/script>")   # 조기 종료 방지
+    return html.replace("/*<!--PUSHJS-->*/", src)
+
+
 # ── 공개 API ─────────────────────────────────────────────────────
 def _render_issue_page(tpl: str, issue: Issue, index: List[dict]) -> str:
     """지난 호를 그대로 다시 볼 수 있는 개별 페이지."""
@@ -158,6 +169,7 @@ def _render_issue_page(tpl: str, issue: Issue, index: List[dict]) -> str:
     html = html.replace("<!--ARCHIVE-->", _render_archive(index))
     html = html.replace("<!--ARCHINFO-->", _archive_info(index))
     html = html.replace("/*<!--SEARCHDATA-->*/[]", _build_search_index())
+    html = _inline_push(html)
     html = html.replace("2026. 07. 25 · AM 7:00",
                         f"{issue.date.replace('-', '. ')} · 제{issue.number}호")
     # 지난 호임을 알리는 배너 + 오늘자로 돌아가는 링크
@@ -183,6 +195,7 @@ def publish(issue: Issue) -> str:
     tpl = tpl.replace("<!--ARCHIVE-->", _render_archive(index))
     tpl = tpl.replace("<!--ARCHINFO-->", _archive_info(index))
     tpl = tpl.replace("/*<!--SEARCHDATA-->*/[]", _build_search_index())
+    tpl = _inline_push(tpl)
     tpl = tpl.replace("2026. 07. 25 · AM 7:00", f"{issue.date.replace('-', '. ')} · AM 7:00")
     out = os.path.join(config.SITE_DIR, "index.html")
     open(out, "w", encoding="utf-8").write(tpl)
