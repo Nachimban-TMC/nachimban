@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# 사람이 읽을 페이지가 아닌 곳은 색인에서 제외
+Disallow: /api/
+Disallow: /thanks
+Disallow: /thanks-feedback
+
+Sitemap: https://nachimban.pages.dev/sitemap.xml

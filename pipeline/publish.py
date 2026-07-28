@@ -150,6 +150,39 @@ def _update_index(issue: Issue) -> List[dict]:
     return index
 
 
+def _write_sitemap(index: List[dict]) -> None:
+    """검색엔진에 어떤 페이지가 있는지 알린다. 호가 늘 때마다 다시 쓴다."""
+    base = config.SITE_URL.rstrip("/")
+    latest = index[0]["date"] if index else ""
+    rows = [f"  <url><loc>{base}/</loc><lastmod>{latest}</lastmod>"
+            f"<changefreq>daily</changefreq><priority>1.0</priority></url>"]
+    for it in index:
+        rows.append(f"  <url><loc>{base}/archive/{it['number']}</loc>"
+                    f"<lastmod>{it['date']}</lastmod>"
+                    f"<changefreq>never</changefreq><priority>0.7</priority></url>")
+    xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+           + "\n".join(rows) + "\n</urlset>\n")
+    open(os.path.join(config.SITE_DIR, "sitemap.xml"), "w", encoding="utf-8").write(xml)
+
+
+def _og(html: str, *, url: str = "", title: str = "", desc: str = "") -> str:
+    """공유 카드(og) 채우기. 절대주소가 필요해 여기서 넣는다."""
+    base = config.SITE_URL.rstrip("/")
+    html = html.replace("<!--SITEURL-->", (url or base))
+    # og:image 는 항상 사이트 루트 기준 절대주소여야 한다
+    html = html.replace(f'content="{url}/og.png"', f'content="{base}/og.png"') if url else html
+    if title:
+        html = html.replace('property="og:title" content="나침반 — 재외한인 아침 브리핑"',
+                            f'property="og:title" content="{title}"')
+        html = html.replace('name="twitter:title" content="나침반 — 재외한인 아침 브리핑"',
+                            f'name="twitter:title" content="{title}"')
+    if desc:
+        old = ('content="해외에 사는 우리에게 꼭 필요한 법률·복지·비자·세금 소식만 매일 아침 7시."')
+        html = html.replace(old, f'content="{desc}"')
+    return html
+
+
 def _inline_push(html: str) -> str:
     """푸시 스크립트를 HTML 안에 직접 넣는다.
 
@@ -170,6 +203,12 @@ def _render_issue_page(tpl: str, issue: Issue, index: List[dict]) -> str:
     html = html.replace("<!--ARCHINFO-->", _archive_info(index))
     html = html.replace("/*<!--SEARCHDATA-->*/[]", _build_search_index())
     html = _inline_push(html)
+    # 지난 호는 그 호의 제목·헤드라인으로 공유되게 한다
+    heads = " · ".join(it.head for it in issue.published[:3])
+    html = _og(html,
+               url=f"{config.SITE_URL.rstrip('/')}/archive/{issue.number}",
+               title=f"나침반 제{issue.number}호 · {issue.date.replace('-', '. ')}",
+               desc=(heads[:150] or "재외한인을 위한 아침 브리핑"))
     html = html.replace("2026. 07. 25 · AM 7:00",
                         f"{issue.date.replace('-', '. ')} · 제{issue.number}호")
     # 지난 호임을 알리는 배너 + 오늘자로 돌아가는 링크
@@ -188,6 +227,7 @@ def publish(issue: Issue) -> str:
               ensure_ascii=False, indent=2)
     # 2) 아카이브 인덱스 갱신
     index = _update_index(issue)
+    _write_sitemap(index)
     # 3) 사이트 렌더
     tpl = open(os.path.join(config.SITE_DIR, "template.html"), encoding="utf-8").read()
     tpl = tpl.replace("<!--FILTER-->", _render_filter(issue))
@@ -196,6 +236,7 @@ def publish(issue: Issue) -> str:
     tpl = tpl.replace("<!--ARCHINFO-->", _archive_info(index))
     tpl = tpl.replace("/*<!--SEARCHDATA-->*/[]", _build_search_index())
     tpl = _inline_push(tpl)
+    tpl = _og(tpl)          # 대문은 브랜드 기본 문구 그대로
     tpl = tpl.replace("2026. 07. 25 · AM 7:00", f"{issue.date.replace('-', '. ')} · AM 7:00")
     out = os.path.join(config.SITE_DIR, "index.html")
     open(out, "w", encoding="utf-8").write(tpl)
