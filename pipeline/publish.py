@@ -32,7 +32,7 @@ def _card(it: NewsItem, date_dot: str) -> str:
         <h3>{it.head}</h3>
         <p class="desc">{it.desc}</p>
         <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>{it.interp}</p></div>
-        <div class="m-bot"><span><span class="lb">Source</span>{it.source}</span><span><span class="lb">Read</span>{it.read} min</span><a class="readmore" href="{it.url}"><span class="arrow">↗</span>read more</a></div>
+        <div class="m-bot"><span><span class="lb">Source</span>{it.source}</span><span><span class="lb">Read</span>{it.read} min</span><a class="readmore" href="{it.url}" target="_blank" rel="noopener noreferrer"><span class="arrow">↗</span>read more</a></div>
       </article>"""
 
 

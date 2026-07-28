@@ -433,6 +433,10 @@
   .post h4{margin:0 0 5px;font-size:15.5px;font-weight:800;line-height:1.35;}
   .post .pbody{margin:0;font-size:13px;color:var(--ink-soft);line-height:1.6;}
   .post .pmeta{margin-top:8px;font-size:11.5px;color:var(--ink-faint);letter-spacing:.02em;}
+  .cnote{display:flex;gap:12px;align-items:flex-start;margin:22px 0 0;padding:16px 18px;
+    border:1px solid var(--line);background:var(--panel);font-size:13px;color:var(--ink-soft);line-height:1.6;}
+  .cnote-i{font-size:17px;flex:none;line-height:1.3;}
+  .cnote b{color:var(--ink);}
   .cform{border:1px solid var(--line-strong);padding:22px;margin:22px 0 0;}
   .cform h3{margin:0 0 4px;font-size:15px;font-weight:800;}
   .cform label{display:block;font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);margin:14px 0 6px;}
@@ -497,65 +501,42 @@
   <div id="view-community" hidden>
     <div class="page-head">
       <h2>Community</h2>
-      <p>구독자가 궁금한 점이나 개선 아이디어를 올리고 함께 의견을 더하는 공간입니다. 추천을 많이 받거나 <b>채택된 제안은 다음 브리핑에 반영</b>됩니다.</p>
-    </div>
-    <div class="cbar">
-      <button class="cbtn on" data-t="all" onclick="cfilter('all',this)">전체</button>
-      <button class="cbtn" data-t="q" onclick="cfilter('q',this)">질문 Q&amp;A</button>
-      <button class="cbtn" data-t="s" onclick="cfilter('s',this)">개선제안</button>
-      <button class="cbtn" data-t="e" onclick="cfilter('e',this)">오류신고</button>
-      <button class="cbtn primary" onclick="document.getElementById('cform').scrollIntoView({behavior:'smooth'})">글쓰기</button>
+      <p>궁금한 점, 이런 소식도 다뤄달라는 요청, 잘못된 내용 제보 — 무엇이든 보내주세요.
+         <b>보내주신 의견은 편집팀이 직접 읽고</b> 다음 브리핑에 반영합니다.</p>
     </div>
 
-    <div id="posts">
-      <div class="post" data-type="s">
-        <div class="votes"><span class="n">42</span><span class="u">Vote</span></div>
-        <div class="pmain">
-          <div class="prow"><span class="ptype s">개선제안</span><span class="pstatus pick">✔ 채택</span></div>
-          <h4>미국 주식 양도세처럼 '한국 거주자' 관점 세금 코너도 있으면 좋겠어요</h4>
-          <p class="pbody">해외 거주자와 한국 거주자는 세금 규정이 달라서, 두 관점을 나눠서 정리해주면 훨씬 도움이 될 것 같습니다.</p>
-          <p class="pmeta">박OO · 2일 전 · 답글 8 · 편집팀: 다음 주부터 '거주자/비거주자' 구분 표기 반영 예정</p>
-        </div>
-      </div>
-      <div class="post" data-type="s">
-        <div class="votes"><span class="n">36</span><span class="u">Vote</span></div>
-        <div class="pmain">
-          <div class="prow"><span class="ptype s">개선제안</span><span class="pstatus">검토중</span></div>
-          <h4>독일 Anmeldung(거주등록) 절차도 정기적으로 다뤄주세요</h4>
-          <p class="pbody">이사할 때마다 헷갈리는 부분이라, 도시별 차이나 최신 변경사항을 주기적으로 알려주면 좋겠습니다.</p>
-          <p class="pmeta">김OO · 3일 전 · 답글 5</p>
-        </div>
-      </div>
-      <div class="post" data-type="q">
-        <div class="votes"><span class="n">18</span><span class="u">Vote</span></div>
-        <div class="pmain">
-          <div class="prow"><span class="ptype">질문</span><span class="pstatus done">답변완료</span></div>
-          <h4>Kindergeld 소급 신청은 몇 년치까지 되나요?</h4>
-          <p class="pbody">이번 인상 기사를 보고 아직 신청을 안 한 걸 알았는데, 지난 기간도 받을 수 있는지 궁금합니다.</p>
-          <p class="pmeta">익명 · 1일 전 · 답글 2 · 법률 해설가: 현재 최대 6개월 소급이 원칙입니다</p>
-        </div>
-      </div>
-      <div class="post" data-type="e">
-        <div class="votes"><span class="n">7</span><span class="u">Vote</span></div>
-        <div class="pmain">
-          <div class="prow"><span class="ptype">오류신고</span><span class="pstatus">처리중</span></div>
-          <h4>체류허가 기사의 원문 링크가 열리지 않아요</h4>
-          <p class="pbody">'게스트워커 체류허가 중단' 카드의 원문 링크를 누르면 오류가 납니다. 확인 부탁드립니다.</p>
-          <p class="pmeta">이OO · 5시간 전 · 답글 1</p>
-        </div>
+    <div class="cnote">
+      <span class="cnote-i">✉️</span>
+      <div>
+        <b>아직 공개 게시판은 열지 않았습니다.</b>
+        지금은 편집팀에게 직접 전달되는 방식입니다. 의견이 쌓이면 서로 보고 의논할 수 있는
+        공개 게시판으로 넓혀갈 계획이에요.
       </div>
     </div>
 
-    <form class="cform" id="cform" onsubmit="return csubmit(event)">
-      <h3>새 글 올리기</h3>
-      <label>유형</label>
-      <select><option>질문 Q&amp;A</option><option>개선제안</option><option>오류신고</option></select>
-      <label>제목</label>
-      <input type="text" placeholder="무엇이 궁금하거나 어떤 점을 개선하면 좋을까요?" required>
-      <label>내용</label>
-      <textarea placeholder="자세히 적어주실수록 편집팀이 빠르게 반영할 수 있어요."></textarea>
-      <button class="submit" type="submit">등록하기</button>
-      <p class="toast" id="ctoast"></p>
+    <form class="cform" name="feedback" method="POST" data-netlify="true"
+          data-netlify-honeypot="bot-field" action="/thanks-feedback.html">
+      <input type="hidden" name="form-name" value="feedback">
+      <p class="hp"><label>비워두세요 <input name="bot-field"></label></p>
+      <h3>편집팀에 의견 보내기</h3>
+
+      <label for="fb-type">어떤 내용인가요?</label>
+      <select id="fb-type" name="type">
+        <option>궁금한 점을 묻고 싶어요</option>
+        <option>이런 소식도 다뤄주세요</option>
+        <option>잘못된 내용을 발견했어요</option>
+        <option>그 밖의 의견</option>
+      </select>
+
+      <label for="fb-body">내용</label>
+      <textarea id="fb-body" name="message" required
+        placeholder="예: 독일 거주등록(Anmeldung) 절차도 정기적으로 다뤄주시면 좋겠어요."></textarea>
+
+      <label for="fb-email">이메일 <span style="font-weight:400;text-transform:none;letter-spacing:0;">(답변이 필요하면 남겨주세요 · 선택)</span></label>
+      <input id="fb-email" type="email" name="email" placeholder="you@example.com">
+
+      <button class="submit" type="submit">보내기</button>
+      <p class="fine" style="margin-top:14px">보내주신 내용은 브리핑 개선에만 사용합니다.</p>
     </form>
   </div>
 
@@ -712,16 +693,6 @@
     document.querySelectorAll('.nav-link').forEach(function(a){a.classList.toggle('on', a.dataset.v===v);});
     document.querySelectorAll('.tabs button').forEach(function(b){b.classList.toggle('on', b.dataset.v===v);});
     window.scrollTo({top:0,behavior:'smooth'});
-  }
-  function cfilter(t,btn){
-    document.querySelectorAll('.cbtn').forEach(function(b){if(b.dataset.t) b.classList.toggle('on', b===btn);});
-    document.querySelectorAll('#posts .post').forEach(function(p){p.style.display=(t==='all'||p.dataset.type===t)?'':'none';});
-  }
-  function csubmit(e){
-    e.preventDefault();
-    document.getElementById('ctoast').textContent='등록되었습니다 — 편집팀 검토 후 반영됩니다. (데모)';
-    e.target.reset();
-    return false;
   }
 </script>
 
