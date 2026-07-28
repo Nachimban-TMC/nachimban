@@ -1,0 +1,10 @@
+# Cloudflare Pages 헤더 설정
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
+# 서비스워커·매니페스트는 캐시하지 않음(갱신 즉시 반영)
+/sw.js
+  Cache-Control: no-cache
+/index.html
+  Cache-Control: no-cache

@@ -77,7 +77,8 @@ GENERAL_HINT = (
 )
 
 # 사이트 주소 (이메일의 '전체 보기' 링크에 사용)
-SITE_URL = os.getenv("NB_SITE_URL", "https://nachimban.netlify.app")
+# 호스팅 이전: Netlify → Cloudflare Pages (배포 한도 때문)
+SITE_URL = os.getenv("NB_SITE_URL", "https://nachimban.pages.dev")
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 SITE_DIR = os.path.join(os.path.dirname(__file__), "site")
