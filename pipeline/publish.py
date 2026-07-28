@@ -26,6 +26,11 @@ def _esc_attr(s: str) -> str:
              .replace("<", "&lt;").replace(">", "&gt;"))
 
 
+def _interp_label(it: NewsItem) -> str:
+    """사건·사고 카드에 '법률 해설가'를 붙이면 어색하다."""
+    return "현지 한인에게" if it.category == "general" else "쉬운 해석 — 법률 해설가"
+
+
 def _share_btn(it: NewsItem) -> str:
     """카드 공유 버튼. 원문이 아니라 '나침반'을 공유한다(서비스를 알리는 게 목적)."""
     return (f'<button class="shr" type="button" aria-label="이 소식 공유하기" '
@@ -47,7 +52,7 @@ def _card(it: NewsItem, date_dot: str) -> str:
         <div class="thumb {img}"><span class="ph">Sample</span></div>{hl}
         <h3>{it.head}</h3>
         <p class="desc">{it.desc}</p>
-        <div class="interp"><span class="il">쉬운 해석 — 법률 해설가</span><p>{it.interp}</p></div>
+        <div class="interp"><span class="il">{_interp_label(it)}</span><p>{it.interp}</p></div>
         <div class="m-bot"><span><span class="lb">Source</span>{it.source}</span><span><span class="lb">Read</span>{it.read} min</span>{_share_btn(it)}<a class="readmore" href="{it.url}" target="_blank" rel="noopener noreferrer"><span class="arrow">↗</span>read more</a></div>
       </article>"""
 

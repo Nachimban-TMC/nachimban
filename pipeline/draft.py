@@ -20,6 +20,16 @@ _SYSTEM = (
 
 
 def draft_item(c: Candidate) -> NewsItem:
+    # 사건·사고에 '법 조항 해설'을 붙이면 어색하다. 그날의 1면 뉴스는
+    # 해석의 각도를 '현지에 사는 한인이 지금 뭘 해야 하는가'로 바꾼다.
+    if c.category == "general":
+        interp_ask = ("interp: '현지 한인에게' 2문장 이내 — 지금 무엇을 조심하거나 "
+                      "확인해야 하는지(해당 지역 통행·안전·행정 영향 등). "
+                      "법 조항 해설로 쓰지 말 것. 핵심어는 <b>…</b>. "
+                      "사상자 수·경위는 확인된 것만, 단정하지 말 것")
+    else:
+        interp_ask = "interp: '쉬운 해석' 2문장 이내, 핵심어는 <b>…</b>"
+
     user = f"""아래 뉴스를 카드용으로 다듬어 주세요.
 
 [지역] {c.region}
@@ -31,7 +41,7 @@ def draft_item(c: Candidate) -> NewsItem:
 
 - head: 25자 내외의 카드 제목(한글)
 - desc: 2~3문장 한글 요약
-- interp: '쉬운 해석' 2문장 이내, 핵심어는 <b>…</b>
+- {interp_ask}
 - read_min: 예상 읽기 분(1~5)"""
     d: Draft = llm.structured(_SYSTEM, user, Draft, model=config.MODEL_LEGAL)
     return NewsItem(
