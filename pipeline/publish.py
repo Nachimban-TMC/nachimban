@@ -42,9 +42,37 @@ def _share_btn(it: NewsItem) -> str:
             '<path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg></button>')
 
 
+# 주제군마다 준비된 사진 장수 (site/img/gN-1.jpg …)
+_IMG_VARIANTS = {"g1": 6, "g2": 4, "g3": 4, "g4": 6, "g5": 4,
+                 "g6": 4, "g7": 4, "g8": 4, "g9": 4, "g10": 4}
+
+
+class _ImgRotator:
+    """한 호 안에서 사진이 겹치지 않게 골라준다.
+
+    예전에는 카테고리 하나에 사진 하나여서, 지역마다 들어가는 1면 뉴스 4건이
+    한 화면에 똑같은 사진 4장으로 나왔다. '호수 + 그 주제군을 이미 몇 번 썼는지'로
+    고르면 같은 호 안에서는 반드시 다른 사진이 나오고(주제군 사진 수 이내),
+    호가 바뀌면 시작점도 달라져 날마다 다르게 보인다.
+    """
+
+    def __init__(self, issue_no: int = 0) -> None:
+        self.issue_no = issue_no
+        self._used: dict[str, int] = {}
+
+    def pick(self, group: str) -> str:
+        n = _IMG_VARIANTS.get(group, 1)
+        if n <= 1:
+            return group
+        k = self._used.get(group, 0)
+        self._used[group] = k + 1
+        return f"{group}-{(self.issue_no + k) % n + 1}"
+
+
 # ── 카드/섹션 렌더 (template.html 의 CSS 클래스와 일치) ──────────────
-def _card(it: NewsItem, date_dot: str) -> str:
-    kr, en, img = config.CATEGORIES.get(it.category, (it.category, "", "g1"))
+def _card(it: NewsItem, date_dot: str, rot: "_ImgRotator | None" = None) -> str:
+    kr, en, group = config.CATEGORIES.get(it.category, (it.category, "", "g1"))
+    img = (rot or _ImgRotator()).pick(group)
     hotcls = " hot" if it.hot else ""
     hl = f'\n        <div class="hot-line">{it.hotflag}</div>' if it.hotflag else ""
     return f"""      <article class="card">
@@ -57,9 +85,10 @@ def _card(it: NewsItem, date_dot: str) -> str:
       </article>"""
 
 
-def _section(region: str, items: List[NewsItem], date_dot: str) -> str:
+def _section(region: str, items: List[NewsItem], date_dot: str,
+             rot: "_ImgRotator | None" = None) -> str:
     meta = config.REGIONS[region]
-    cards = "\n\n".join(_card(it, date_dot) for it in items)
+    cards = "\n\n".join(_card(it, date_dot, rot) for it in items)
     return f"""  <section data-region="{region}">
     <div class="sec-hd"><span class="k">{meta['k']}</span><span class="en">{meta['en']}</span><span class="rule"></span></div>
     <div class="grid">
@@ -116,10 +145,11 @@ def _render_feed(issue: Issue) -> str:
     date_dot = issue.date.replace("-", ".")
     by_region = {r: [it for it in issue.published if it.region == r] for r in config.REGION_ORDER}
     blocks = []
+    rot = _ImgRotator(issue.number)   # 호 전체가 하나의 회전판을 공유한다
     for r in config.REGION_ORDER:
         if not by_region[r]:
             continue
-        blocks.append(_section(r, by_region[r], date_dot))
+        blocks.append(_section(r, by_region[r], date_dot, rot))
         if config.AD_AFTER and r == config.AD_AFTER:   # None 이면 광고 숨김
             blocks.append(_AD)
     return "\n\n".join(blocks)
