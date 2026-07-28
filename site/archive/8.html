@@ -1020,11 +1020,17 @@
       new Promise(function (_, reject) {
         setTimeout(function () { reject(new Error('sw-timeout')); }, ms || 8000);
       }),
-    ]).catch(function (e) {
-      // 아직 등록 전일 수 있으니 한 번 직접 등록해 보고 다시 기다린다
-      return navigator.serviceWorker.register('/sw.js').then(function () {
-        return navigator.serviceWorker.ready;
-      });
+    ]).catch(function () {
+      // 아직 등록 전일 수 있으니 한 번 직접 등록해 보고 다시 기다린다.
+      // 여기서도 시한을 둔다 — 안 그러면 '설정하는 중…'에서 영원히 멈춘다.
+      return Promise.race([
+        navigator.serviceWorker.register('/sw.js').then(function () {
+          return navigator.serviceWorker.ready;
+        }),
+        new Promise(function (_, reject) {
+          setTimeout(function () { reject(new Error('서비스워커 준비 실패')); }, ms || 8000);
+        }),
+      ]);
     });
   }
 

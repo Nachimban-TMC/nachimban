@@ -1,11 +1,21 @@
 /* 나침반 서비스워커 — 앱처럼 설치되고, 오프라인에서도 마지막 브리핑을 볼 수 있게. */
-const CACHE = 'nachimban-v2';
-// 스크립트도 미리 담아둔다 — 이게 없으면 알림 칸이 통째로 사라진다
-const CORE = ['/', '/index.html', '/thanks.html', '/manifest.json', '/icon-192.png',
-              '/push.js', '/sw-register.js'];
+const CACHE = 'nachimban-v3';
+// '.html' 주소는 넣지 않는다. Cloudflare Pages 가 확장자 없는 주소로
+// 308 리다이렉트하는데, 리다이렉트된 응답은 캐시에 넣을 수 없다.
+const CORE = ['/', '/thanks', '/manifest.json', '/icon-192.png', '/sw-register.js'];
 
 self.addEventListener('install', (e) => {
-  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(CORE)).then(() => self.skipWaiting()));
+  e.waitUntil(
+    caches.open(CACHE).then((c) =>
+      // addAll 은 하나만 실패해도 전부 실패하고, install 이 실패하면
+      // 서비스워커가 영영 활성화되지 않는다(푸시도 영영 불가능해진다).
+      // 캐시는 '있으면 좋은 것'일 뿐이므로 실패는 넘기고 설치를 마친다.
+      Promise.all(CORE.map((u) =>
+        fetch(u).then((r) => (r.ok && !r.redirected ? c.put(u, r) : null))
+                .catch(() => null)
+      ))
+    ).catch(() => null).then(() => self.skipWaiting())
+  );
 });
 
 /* 페이지가 '바로 교체하라'고 하면 대기하지 않는다 */
@@ -28,8 +38,11 @@ self.addEventListener('fetch', (e) => {
   e.respondWith(
     fetch(req)
       .then((res) => {
-        const copy = res.clone();
-        caches.open(CACHE).then((c) => c.put(req, copy));
+        // 리다이렉트·에러 응답은 캐시에 넣을 수 없다(넣으려 하면 예외).
+        if (res.ok && !res.redirected) {
+          const copy = res.clone();
+          caches.open(CACHE).then((c) => c.put(req, copy)).catch(() => {});
+        }
         return res;
       })
       .catch(() => caches.match(req).then((r) => {
