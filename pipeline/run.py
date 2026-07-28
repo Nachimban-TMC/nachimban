@@ -105,16 +105,34 @@ def main():
     regions = args.regions or config.REGION_ORDER
 
     print(f"=== 나침반 제{number}호 · {args.date} ({'mock' if args.mock else 'live'}) ===")
-    issue = (run_mock if args.mock else run_real)(args.date, number, regions)
-    out = publish.publish(issue)
-    print(f"⑦ 발행 완료 → {out}")
+
+    # 어느 단계에서 멈췄는지 남기고, 조용히 실패하지 않게 알린다.
+    from pipeline import alert
+    stage = "취재·검증"
+    try:
+        issue = (run_mock if args.mock else run_real)(args.date, number, regions)
+        stage = "사이트 생성"
+        out = publish.publish(issue)
+        print(f"⑦ 발행 완료 → {out}")
+    except Exception as e:  # noqa: BLE001
+        print(f"🚨 [{stage}] 실패: {type(e).__name__}: {e}")
+        if not args.mock:
+            alert.failure(stage, e, number=number, date=args.date, push_too=True)
+        raise
+
     if issue.held:
         print(f"⚠️  보류 {len(issue.held)}건 → 편집장 검토 필요:")
         for it in issue.held:
             print(f"    - [{it.region}] {it.head} :: {'; '.join(it.check_notes)}")
     if args.send:
-        notify.send(issue)
-        push.send(issue)
+        # 발송이 실패해도 사이트는 이미 나갔다 — 알리되 멈추지는 않는다
+        try:
+            notify.send(issue)
+            push.send(issue)
+        except Exception as e:  # noqa: BLE001
+            print(f"🚨 [발송] 실패: {type(e).__name__}: {e}")
+            if not args.mock:
+                alert.failure("발송", e, number=number, date=args.date)
 
 
 if __name__ == "__main__":
