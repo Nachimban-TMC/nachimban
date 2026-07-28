@@ -2,7 +2,8 @@
 const CACHE = 'nachimban-v3';
 // '.html' 주소는 넣지 않는다. Cloudflare Pages 가 확장자 없는 주소로
 // 308 리다이렉트하는데, 리다이렉트된 응답은 캐시에 넣을 수 없다.
-const CORE = ['/', '/thanks', '/manifest.json', '/icon-192.png', '/sw-register.js'];
+const CORE = ['/', '/thanks', '/manifest.json', '/icon-192.png', '/sw-register.js',
+              '/style.css'];   // CSS 가 없으면 오프라인에서 화면이 깨진다
 
 self.addEventListener('install', (e) => {
   e.waitUntil(

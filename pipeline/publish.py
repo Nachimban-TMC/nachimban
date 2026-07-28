@@ -2,7 +2,7 @@
 
 - data/issue-NNNN.json : 그 호의 전체 데이터(발행분 + 보류분 + 검증 로그)
 - data/index.json      : 아카이브용 호 목록(누적)
-- site/index.html      : template.html 의 <!--FEED--> / <!--ARCHIVE--> 를
+- site/index.html      : template.html 의 <!--FEED--> 를
                          실제 카드/아카이브로 치환한 정적 페이지(자체 완결)
 """
 from __future__ import annotations
@@ -166,6 +166,33 @@ def _update_index(issue: Issue) -> List[dict]:
     return index
 
 
+def _write_archive_data(index: List[dict]) -> None:
+    """아카이브 목록과 검색 인덱스를 파일 하나로 뺀다.
+
+    예전에는 이 둘을 '모든 호 페이지 안에' 통째로 넣었다. 호가 쌓일수록
+    페이지마다 같은 데이터가 무거워지고, 새 호가 나올 때마다 지난 호를
+    전부 다시 만들어야 목록이 최신이 됐다. 파일 하나로 빼면 페이지 크기는
+    호 수와 무관하게 고정되고, 지난 호는 다시 만들 필요가 없다.
+    """
+    issues = []
+    for i, iss in enumerate(index):
+        cnt = " · ".join(f"{_RG_SHORT[r]} {n}" for r, n in iss.get("region_counts", {}).items())
+        issues.append({
+            "n": iss["number"],
+            "d": iss["date"],
+            "label": f"{cnt} — {iss['total']}건" if cnt else f"{iss['total']}건 발행",
+            "sample": iss.get("sample", []) if i == 0 else [],
+        })
+    data = {
+        "info": {"issues": len(index), "total": sum(e.get("total", 0) for e in index)},
+        "issues": issues,
+        "search": json.loads(_build_search_index()),
+    }
+    out = os.path.join(config.SITE_DIR, "archive-data.json")
+    json.dump(data, open(out, "w", encoding="utf-8"),
+              ensure_ascii=False, separators=(",", ":"))
+
+
 def _write_sitemap(index: List[dict]) -> None:
     """검색엔진에 어떤 페이지가 있는지 알린다. 호가 늘 때마다 다시 쓴다."""
     base = config.SITE_URL.rstrip("/")
@@ -215,9 +242,6 @@ def _render_issue_page(tpl: str, issue: Issue, index: List[dict]) -> str:
     """지난 호를 그대로 다시 볼 수 있는 개별 페이지."""
     html = tpl.replace("<!--FILTER-->", _render_filter(issue))
     html = html.replace("<!--FEED-->", _render_feed(issue))
-    html = html.replace("<!--ARCHIVE-->", _render_archive(index))
-    html = html.replace("<!--ARCHINFO-->", _archive_info(index))
-    html = html.replace("/*<!--SEARCHDATA-->*/[]", _build_search_index())
     html = _inline_push(html)
     # 지난 호는 그 호의 제목·헤드라인으로 공유되게 한다
     heads = " · ".join(it.head for it in issue.published[:3])
@@ -243,14 +267,12 @@ def publish(issue: Issue) -> str:
               ensure_ascii=False, indent=2)
     # 2) 아카이브 인덱스 갱신
     index = _update_index(issue)
+    _write_archive_data(index)
     _write_sitemap(index)
     # 3) 사이트 렌더
     tpl = open(os.path.join(config.SITE_DIR, "template.html"), encoding="utf-8").read()
     tpl = tpl.replace("<!--FILTER-->", _render_filter(issue))
     tpl = tpl.replace("<!--FEED-->", _render_feed(issue))
-    tpl = tpl.replace("<!--ARCHIVE-->", _render_archive(index))
-    tpl = tpl.replace("<!--ARCHINFO-->", _archive_info(index))
-    tpl = tpl.replace("/*<!--SEARCHDATA-->*/[]", _build_search_index())
     tpl = _inline_push(tpl)
     tpl = _og(tpl)          # 대문은 브랜드 기본 문구 그대로
     tpl = tpl.replace("2026. 07. 25 · AM 7:00", f"{issue.date.replace('-', '. ')} · AM 7:00")

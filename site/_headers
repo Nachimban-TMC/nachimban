@@ -10,6 +10,9 @@
   Cache-Control: no-cache
 /sw-register.js
   Cache-Control: no-cache
+# 아카이브 목록·검색 인덱스는 매일 바뀐다
+/archive-data.json
+  Cache-Control: no-cache
 
 # 카드 사진·아이콘은 내용이 바뀌지 않는다 — 오래 캐시해 재방문 때 다시 받지 않게
 /img/*
