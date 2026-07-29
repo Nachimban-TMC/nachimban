@@ -5,6 +5,36 @@
     {
       "region": "de",
       "category": "general",
+      "head": "베를린 CSD 차량 돌진 — 사망 1·부상 29",
+      "desc": "7월 25일 밤 베를린 대(大)티어가르텐 아호른슈타이크에서 CSD 행사 인근 인파로 차량이 돌진해 여성 1명이 숨지고 29명이 다쳤습니다. 21세 용의자는 다음 날 저녁 슈판다우의 한 주말농장에서 경찰 특공대와 대치하다 총격으로 사망했습니다. 연방검찰이 수사를 맡았고, 당국은 이슬람주의 동기로 보고 단독 범행 여부와 조력자가 있었는지를 확인하고 있습니다.",
+      "interp": "티어가르텐 일대는 경비와 통제가 강화된 상태입니다. 당분간 <b>대형 야외 행사</b> 주변을 지날 때는 베를린 경찰 공지와 우회 안내를 먼저 확인하세요. 사상자 수와 경위는 수사 진행에 따라 달라질 수 있습니다.",
+      "source": "베를린 경찰·연방검찰",
+      "read": 3,
+      "url": "https://www.berlin.de/polizei/polizeimeldungen/2026/pressemitteilung.1697457.php",
+      "source_urls": [
+        "https://www.berlin.de/polizei/polizeimeldungen/2026/pressemitteilung.1697457.php",
+        "https://de.wikipedia.org/wiki/Anschlag_auf_den_Berliner_Christopher_Street_Day_2026"
+      ],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "general",
       "head": "독일 전역 폭염 특보 — 저녁엔 뇌우 위험도",
       "desc": "7월 29일 독일 기상청(DWD)이 전국 대부분 지역에 강한 무더위 특보를 내렸다. 저녁에는 알프스 인근 지역을 중심으로 돌풍(진 8)과 시간당 15L 안팎의 국지성 폭우를 동반한 뇌우 가능성이 있다.",
       "interp": "무더위에는 <b>야외활동을 오전·저녁 시간대로 옮기고 수분 섭취</b>를 늘리세요. 남부·알프스 인근에 계신다면 오늘 저녁 돌풍·폭우에 대비해 외출 계획을 다시 확인하는 게 좋습니다.",
@@ -14,8 +44,8 @@
       "source_urls": [
         "https://www.dwd.de/DE/wetter/warnungen_aktuell/warnungen_aktuell_node.html"
       ],
-      "hot": true,
-      "hotflag": "Must read",
+      "hot": false,
+      "hotflag": "",
       "verdict": "PASS",
       "check_a": {
         "verdict": "PASS",
@@ -46,7 +76,7 @@
         "https://www.arbeitsagentur.de/vor-ort/zav/working-and-living-in-germany/newsletter-iss/02-2026/chancenkarte"
       ],
       "hot": false,
-      "hotflag": null,
+      "hotflag": "",
       "verdict": "PASS",
       "check_a": {
         "verdict": "PASS",
@@ -77,7 +107,7 @@
         "https://www.bundesregierung.de/breg-de/aktuelles/beitragsgemessungsgrenzen-2386514"
       ],
       "hot": false,
-      "hotflag": null,
+      "hotflag": "",
       "verdict": "PASS",
       "check_a": {
         "verdict": "PASS",
@@ -108,7 +138,7 @@
         "https://www.bundesregierung.de/breg-de/aktuelles/beitragsgemessungsgrenzen-2386514"
       ],
       "hot": false,
-      "hotflag": null,
+      "hotflag": "",
       "verdict": "PASS",
       "check_a": {
         "verdict": "PASS",
@@ -139,7 +169,7 @@
         "https://www.handelsblatt.com/politik/deutschland/universitaet-bafoeg-erhoehung-verschiebt-sich-um-halbes-jahr/100239067.html"
       ],
       "hot": false,
-      "hotflag": null,
+      "hotflag": "",
       "verdict": "PASS",
       "check_a": {
         "verdict": "PASS",
@@ -249,6 +279,66 @@
       "check_notes": [
         "A급 검증: 1차 출처 대조 완료"
       ]
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "원·달러 1,450원대 — 송금 부담 지속",
+      "desc": "7월 29일 원·달러 환율은 1,450~1,460원대에서 등락하고 있습니다. 고환율이 이어지면서 해외로 학비·생활비를 보낼 때 같은 외화를 마련하는 데 더 많은 원화가 필요합니다.",
+      "interp": "학비처럼 <b>금액이 큰 송금</b>은 한 번에 보내기보다 시점을 나누거나, 은행별 환율 우대율을 비교해 보세요. 같은 금액도 은행에 따라 차이가 납니다.",
+      "source": "KB국민은행 환율 전망",
+      "read": 2,
+      "url": "https://kbthink.com/investment/fx/daily/260729.html",
+      "source_urls": [
+        "https://kbthink.com/investment/fx/daily/260729.html",
+        "https://kbthink.com/investment/issues/2026-krw-usd-outlook.html"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "policy",
+      "head": "재외동포청 조직 개편 — 10월 1일 시행",
+      "desc": "재외동포청이 7월 14일 직제 개정을 공포하고 10월 1일부터 시행합니다. 산하기관인 재외동포협력센터를 본청으로 통합해, 그동안 나뉘어 있던 지원 체계를 하나로 합치는 것이 핵심입니다.",
+      "interp": "지원 사업 문의 창구가 <b>본청으로 일원화</b>됩니다. 10월 이후에는 협력센터가 아니라 재외동포청 안내를 확인하세요.",
+      "source": "재외동포청",
+      "read": 2,
+      "url": "https://www.oka.go.kr/",
+      "source_urls": [
+        "https://www.oka.go.kr/",
+        "https://www.worldkorean.net/news/articleView.html?idxno=57387"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
     },
     {
       "region": "eu",
