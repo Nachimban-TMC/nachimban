@@ -1,0 +1,472 @@
+{
+  "number": 9,
+  "date": "2026-07-29",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "독일 전역 폭염 특보 — 저녁엔 뇌우 위험도",
+      "desc": "7월 29일 독일 기상청(DWD)이 전국 대부분 지역에 강한 무더위 특보를 내렸다. 저녁에는 알프스 인근 지역을 중심으로 돌풍(진 8)과 시간당 15L 안팎의 국지성 폭우를 동반한 뇌우 가능성이 있다.",
+      "interp": "무더위에는 <b>야외활동을 오전·저녁 시간대로 옮기고 수분 섭취</b>를 늘리세요. 남부·알프스 인근에 계신다면 오늘 저녁 돌풍·폭우에 대비해 외출 계획을 다시 확인하는 게 좋습니다.",
+      "source": "Deutscher Wetterdienst(DWD)",
+      "read": 3,
+      "url": "https://www.dwd.de/DE/wetter/warnungen_aktuell/warnungen_aktuell_node.html",
+      "source_urls": [
+        "https://www.dwd.de/DE/wetter/warnungen_aktuell/warnungen_aktuell_node.html"
+      ],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.85,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.85,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": [
+        "A급 검증: 1차 출처 대조 완료"
+      ]
+    },
+    {
+      "region": "de",
+      "category": "visa",
+      "head": "기회카드(Chancenkarte) 생계비 기준, 월 €1,091",
+      "desc": "구직용 체류허가인 '기회카드'(Chancenkarte) 신청 시 요구되는 생계비 증빙 기준이 2026년 현재 월 1,091유로로 안내되고 있다. 점수제 최소 6점(어학·경력·연령 등)을 충족해야 하며, 최초 발급은 최대 1년, 연장 시 최대 2년까지 가능하다.",
+      "interp": "기회카드로 독일에 입국해 구직 중이라면 <b>매달 생계비 잔고 증빙(차단계좌 등)</b>을 미리 준비해두세요. 점수가 애매하면 어학 성적이나 자격증 부분인정 신청으로 점수를 보완할 수 있습니다.",
+      "source": "Bundesagentur für Arbeit(ZAV)",
+      "read": 3,
+      "url": "https://www.arbeitsagentur.de/vor-ort/zav/working-and-living-in-germany/newsletter-iss/02-2026/chancenkarte",
+      "source_urls": [
+        "https://www.arbeitsagentur.de/vor-ort/zav/working-and-living-in-germany/newsletter-iss/02-2026/chancenkarte"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 1,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 1,
+        "issues": []
+      },
+      "check_notes": [
+        "A급 검증: 1차 출처 대조 완료"
+      ]
+    },
+    {
+      "region": "de",
+      "category": "health",
+      "head": "건강보험 소득상한액, 연 €69,750로 인상",
+      "desc": "2026년 1월 1일부터 법정건강보험의 보험료 산정 상한액(Beitragsbemessungsgrenze)이 월 5,812.50유로(연 69,750유로)로 인상됐다. 2024년 임금상승률(5.16%)을 반영한 조정으로, 고소득 근로자의 보험료 부담이 늘었다.",
+      "interp": "월급이 <b>약 581만원(환산) 이상</b>이라면 올해 건강보험료가 예년보다 더 오를 수 있습니다. 급여명세서의 보험료 공제액을 한 번 확인해보세요.",
+      "source": "독일 연방정부(Bundesregierung)",
+      "read": 3,
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/beitragsgemessungsgrenzen-2386514",
+      "source_urls": [
+        "https://www.bundesregierung.de/breg-de/aktuelles/beitragsgemessungsgrenzen-2386514"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.92,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.92,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": [
+        "A급 검증: 1차 출처 대조 완료"
+      ]
+    },
+    {
+      "region": "de",
+      "category": "pension",
+      "head": "연금보험 소득상한액, 월 €8,450로 인상",
+      "desc": "2026년 일반 연금보험의 보험료 산정 상한액이 월 8,450유로(연 101,400유로)로 인상됐다. 보험료율 자체는 18.6%로 동결됐지만, 상한액이 오르며 고소득자의 실제 납부액은 늘어난다.",
+      "interp": "고소득 근로자라면 <b>연금보험료 공제액이 소폭 늘어난 것</b>을 급여명세서에서 확인할 수 있습니다. 보험료율은 그대로이니 대부분의 근로자에게는 영향이 없습니다.",
+      "source": "독일 연방정부(Bundesregierung)",
+      "read": 3,
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/beitragsgemessungsgrenzen-2386514",
+      "source_urls": [
+        "https://www.bundesregierung.de/breg-de/aktuelles/beitragsgemessungsgrenzen-2386514"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.92,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.92,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": [
+        "A급 검증: 1차 출처 대조 완료"
+      ]
+    },
+    {
+      "region": "de",
+      "category": "study",
+      "head": "BAföG 주거비 인상, 2027년 여름학기로 연기",
+      "desc": "여당(기민/기사연합-사민당)이 2026년 겨울학기로 예정됐던 BAföG(대학생 학자금 지원) 주거비 정액 인상(월 380→440유로)을 반년 늦춰 2027년 여름학기부터 시행하기로 합의했다. 기초생활비는 2027년 겨울학기 503유로, 2029년 여름학기 563유로로 단계적으로 오른다.",
+      "interp": "BAföG로 월세를 지원받는 유학생이라면 <b>이번 겨울학기(2026/27)에는 주거비 인상이 적용되지 않는다</b>는 점을 기억하세요. 인상은 2027년 여름학기부터입니다.",
+      "source": "Handelsblatt",
+      "read": 3,
+      "url": "https://www.handelsblatt.com/politik/deutschland/universitaet-bafoeg-erhoehung-verschiebt-sich-um-halbes-jahr/100239067.html",
+      "source_urls": [
+        "https://www.handelsblatt.com/politik/deutschland/universitaet-bafoeg-erhoehung-verschiebt-sich-um-halbes-jahr/100239067.html"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.85,
+        "sources_count": 3,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.85,
+        "sources_count": 3,
+        "issues": []
+      },
+      "check_notes": [
+        "A급 검증: 1차 출처 대조 완료"
+      ]
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "코스피·코스닥 이틀째 '매도 사이드카'",
+      "desc": "7월 29일 코스피와 코스닥이 반도체주 투매 여파로 나란히 5~6%대 급락하며 이틀 연속 매도 사이드카(프로그램매도호가 효력정지)가 발동됐다. 이날 오전 원/달러 환율은 1,455원대에서 거래됐다.",
+      "interp": "급락장에서는 <b>무리한 저가매수보다 현금 비중 관리</b>가 우선입니다. 환율도 원화 약세 쪽으로 움직이고 있어, 한국으로 송금 계획이 있다면 타이밍을 조금 더 지켜봐도 좋습니다.",
+      "source": "헤럴드경제",
+      "read": 3,
+      "url": "https://biz.heraldcorp.com/article/10824257",
+      "source_urls": [
+        "https://biz.heraldcorp.com/article/10824257"
+      ],
+      "hot": true,
+      "hotflag": "For expats",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 4,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 4,
+        "issues": []
+      },
+      "check_notes": [
+        "A급 검증: 1차 출처 대조 완료"
+      ]
+    },
+    {
+      "region": "kr",
+      "category": "policy",
+      "head": "재외동포청, 하반기 지원제도 확대 시행",
+      "desc": "재외동포청이 2026년 하반기부터 재외동포 데이터베이스(DB) 구축, 고려인 등 역사적 동포 정착 프로그램 확대, 한식·제과제빵 등 직업교육 프로그램 운영 등 지원 제도를 확대한다고 밝혔다. 세부 항목은 관계부처 공고를 통해 순차 공개된다.",
+      "interp": "구체적인 신청 자격·일정은 아직 부처별 공고를 기다려야 합니다. <b>재외동포청 홈페이지나 가까운 재외공관 공지</b>를 주기적으로 확인해두면 놓치지 않습니다.",
+      "source": "전국인력신문",
+      "read": 3,
+      "url": "https://www.kjob.news/news/502009",
+      "source_urls": [
+        "https://www.kjob.news/news/502009"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.72,
+        "sources_count": 1,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.72,
+        "sources_count": 1,
+        "issues": []
+      },
+      "check_notes": [
+        "B급 검증: 복수 출처 확인"
+      ]
+    },
+    {
+      "region": "kr",
+      "category": "travel",
+      "head": "캄보디아 스캠 피해 급감 — 여행경보 일부 하향",
+      "desc": "외교부가 7월 9일 2026년 상반기 여행경보를 정기 조정하며 캄보디아 캄폿주 보코산·바벳시·포이펫시의 여행금지(4단계)를 여행자제·출국권고(3단계)로 낮췄다. 올해 상반기 현지 스캠 범죄 연루 감금 피해 신고가 전년 동기 대비 94% 줄어든 점이 반영됐다.",
+      "interp": "경보가 낮아졌다고 <b>안전이 완전히 보장된 것은 아닙니다.</b> 여전히 3단계(출국권고) 지역이니 해당 지역 방문·체류 계획이 있다면 신중히 재검토하세요.",
+      "source": "외교부",
+      "read": 3,
+      "url": "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377409",
+      "source_urls": [
+        "https://www.mofa.go.kr/www/brd/m_4080/view.do?seq=377409"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.93,
+        "sources_count": 1,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.93,
+        "sources_count": 1,
+        "issues": []
+      },
+      "check_notes": [
+        "A급 검증: 1차 출처 대조 완료"
+      ]
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "프랑스·스페인 산불 확산, 30만 명 대피",
+      "desc": "7월 넷째 주 프랑스 보르도 인근과 스페인 마드리드 북동부에서 대형 산불이 잇따르며 두 나라에서 누적 약 30만 명이 대피했다. 스페인 정부는 마드리드주와 아빌라주에 사상 처음으로 국가 재난사태를 선포했다.",
+      "interp": "해당 지역을 <b>여행·경유할 계획이라면 현지 소방당국·공항 공지를 먼저 확인</b>하세요. 대기질 악화로 항공편 지연이 있을 수 있습니다.",
+      "source": "유럽연합 집행위원회 / SRF",
+      "read": 3,
+      "url": "https://www.srf.ch/news/international/rekordbraende-wegen-trockenheit-heftige-waldbraende-in-frankreich-und-spanien-die-aktuelle-lage",
+      "source_urls": [
+        "https://www.srf.ch/news/international/rekordbraende-wegen-trockenheit-heftige-waldbraende-in-frankreich-und-spanien-die-aktuelle-lage"
+      ],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 3,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 3,
+        "issues": []
+      },
+      "check_notes": [
+        "A급 검증: 1차 출처 대조 완료"
+      ]
+    },
+    {
+      "region": "eu",
+      "category": "invest",
+      "head": "디지털유로, 개인 보유한도 €3,000 제안",
+      "desc": "유럽연합 집행위원회가 7월 11일 디지털유로(CBDC) 최종 규정안을 발표했다. 개인당 보유한도를 3,000유로로 제한하는 방안이 담겼으며, 유럽의회는 7월 8일 협상 개시 입장을 채택했다. 아직 확정된 법은 아니며 연내 입법 완료가 목표다.",
+      "interp": "디지털유로는 <b>아직 시행 전 논의 단계</b>입니다. 실제 발행은 2027년 이후로 예상되니 지금 당장 준비할 것은 없지만, 큰 방향은 알아두면 좋습니다.",
+      "source": "European Commission(제안 단계)",
+      "read": 3,
+      "url": "https://financefeeds.com/eu-lawmakers-back-digital-euro-with-privacy-safeguards-and-holding-limits/",
+      "source_urls": [
+        "https://financefeeds.com/eu-lawmakers-back-digital-euro-with-privacy-safeguards-and-holding-limits/"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.75,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.75,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": [
+        "B급 검증: 복수 출처 확인"
+      ]
+    },
+    {
+      "region": "eu",
+      "category": "immigration",
+      "head": "EU 단일허가지침, 회원국별 시행 중",
+      "desc": "체류·근로 허가를 하나로 묶는 EU 단일허가지침(Directive 2024/1233)의 회원국 국내법 반영 시한이 2026년 5월 21일로 지나면서, 각국이 순차적으로 시행에 들어갔다. 신청 처리 기한은 원칙적으로 90일(복잡한 사안은 최대 30일 추가)이다.",
+      "interp": "비EU 국적자가 유럽에서 취업 비자를 신청한다면 <b>체류허가와 근로허가를 따로 신청할 필요가 줄어듭니다.</b> 다만 실제 적용 시기는 국가마다 다를 수 있으니 해당국 이민당국에 확인하세요.",
+      "source": "European Commission",
+      "read": 3,
+      "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/legal-migration-and-resettlement/work/single-permit-residence-and-work_en",
+      "source_urls": [
+        "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/legal-migration-and-resettlement/work/single-permit-residence-and-work_en"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.85,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.85,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": [
+        "A급 검증: 1차 출처 대조 완료"
+      ]
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "연준, 오늘 기준금리 동결 발표 예정",
+      "desc": "미 연방준비제도(Fed)가 7월 29일(현지시간) FOMC 회의 결과를 발표한다. 시장은 5회 연속 3.50~3.75% 동결을 예상하지만, 최근 물가상승률이 4.2%로 오르며 위원회 내 매파적 기류가 강해졌다.",
+      "interp": "금리 발표 직후에는 <b>환율·주식시장 변동성이 커질 수 있습니다.</b> 큰 금액을 송금하거나 환전할 계획이 있다면 발표(현지시간 오후 2시) 이후 상황을 지켜보는 것도 방법입니다.",
+      "source": "CBS News",
+      "read": 3,
+      "url": "https://www.cbsnews.com/news/fed-interest-rate-decision-july-meeting/",
+      "source_urls": [
+        "https://www.cbsnews.com/news/fed-interest-rate-decision-july-meeting/"
+      ],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.85,
+        "sources_count": 3,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.85,
+        "sources_count": 3,
+        "issues": []
+      },
+      "check_notes": [
+        "A급 검증: 1차 출처 대조 완료"
+      ]
+    },
+    {
+      "region": "us",
+      "category": "tax",
+      "head": "해외송금 1% 세금, 대상 거래 지침 발표",
+      "desc": "미국에서 해외로 현금·머니오더 등으로 송금할 때 부과되는 1% 소비세(Remittance Excise Tax)가 올해 1월부터 시행 중인 가운데, IRS가 최근 어떤 송금이 과세 대상인지 명확히 하는 규정안을 발표했다. 미국 은행 계좌에서 인출해 송금하는 경우는 면제 대상이다.",
+      "interp": "송금업체 창구에서 <b>현금으로 송금하면 1% 세금이 붙지만, 은행 계좌 이체 방식을 이용하면 이 세금을 피할 수 있습니다.</b> 송금 방법을 확인해보세요.",
+      "source": "IRS",
+      "read": 3,
+      "url": "https://www.irs.gov/newsroom/treasury-irs-issue-proposed-regulations-on-the-new-remittance-transfer-tax-established-under-the-one-big-beautiful-bill",
+      "source_urls": [
+        "https://www.irs.gov/newsroom/treasury-irs-issue-proposed-regulations-on-the-new-remittance-transfer-tax-established-under-the-one-big-beautiful-bill"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.93,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.93,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": [
+        "A급 검증: 1차 출처 대조 완료"
+      ]
+    },
+    {
+      "region": "us",
+      "category": "visa",
+      "head": "8월 취업이민 비자범핏 — 인도 EB-2 '접수불가'",
+      "desc": "미 국무부가 발표한 8월 비자범핏에서 인도 국적자의 EB-2(고학력 전문직) 우선일자가 '접수 불가(unavailable)'로 표시됐다. EB-1(특수인재)도 중국은 2023년 7월 1일, 인도는 2022년 10월 15일에 머물러 있어 적체가 이어지고 있다.",
+      "interp": "인도 출신 취업이민 신청자는 <b>당분간 그린카드 진행이 더뎌질 수 있습니다.</b> 본인의 우선일자와 카테고리를 매달 비자범핏에서 확인하는 습관을 들이세요.",
+      "source": "美 국무부",
+      "read": 3,
+      "url": "https://www.uscis.gov/green-card/green-card-processes-and-procedures/visa-availability-priority-dates/when-to-file-your-adjustment-of-status-application-for-family-sponsored-or-employment-based-127",
+      "source_urls": [
+        "https://www.uscis.gov/green-card/green-card-processes-and-procedures/visa-availability-priority-dates/when-to-file-your-adjustment-of-status-application-for-family-sponsored-or-employment-based-127"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.88,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.88,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": [
+        "A급 검증: 1차 출처 대조 완료"
+      ]
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "S&P500, 반도체주 약세에 소폭 조정",
+      "desc": "글로벌 반도체주 매도세 여파로 미국 증시가 숨고르기에 들어갔다. 7월 29일 S&P500은 전일 대비 0.05% 내린 7,425포인트를 기록했으며, 시장은 이날 오후 예정된 FOMC 결과를 주시하고 있다.",
+      "interp": "올해 S&P500은 이미 24차례 최고치를 경신하며 크게 올랐습니다. <b>단기 조정은 자연스러운 흐름</b>이니, 장기 투자자라면 일희일비하기보다 분산투자 원칙을 유지하는 게 좋습니다.",
+      "source": "Bloomberg",
+      "read": 3,
+      "url": "https://www.bloomberg.com/news/articles/2026-07-28/stock-market-today-dow-s-p-live-updates",
+      "source_urls": [
+        "https://www.bloomberg.com/news/articles/2026-07-28/stock-market-today-dow-s-p-live-updates"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.8,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.8,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": [
+        "B급 검증: 복수 출처 확인"
+      ]
+    }
+  ],
+  "held": []
+}
