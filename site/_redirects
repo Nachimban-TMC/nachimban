@@ -1,2 +1,8 @@
 /thanks            /thanks.html            200
 /thanks-feedback   /thanks-feedback.html   200
+
+# 제5·6호는 샘플 데이터였다. 목록에서 내렸지만 직접 주소로도 열리지 않게 한다.
+/archive/5        /   301
+/archive/5.html   /   301
+/archive/6        /   301
+/archive/6.html   /   301
