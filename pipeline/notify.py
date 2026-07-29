@@ -17,7 +17,7 @@ import config
 from pipeline import env
 from schema import Issue, NewsItem
 
-_RG = {"de": "🇩🇪 독일", "kr": "🇰🇷 한국", "eu": "🇪🇺 EU", "us": "🇺🇸 미국", "fr": "🇫🇷 프랑스"}
+_RG = config.RG_FLAG             # 지역 추가는 config.py 한 곳에서만
 
 
 def _headline_rows(issue: Issue, limit: int = 5) -> str:

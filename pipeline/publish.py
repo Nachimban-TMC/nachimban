@@ -13,7 +13,7 @@ from typing import List
 import config
 from schema import Issue, NewsItem
 
-_RG_SHORT = {"de": "독일", "kr": "한국", "eu": "EU", "us": "USA", "fr": "프랑스"}
+_RG_SHORT = config.RG_SHORT      # 지역 추가는 config.py 한 곳에서만
 _AD = """  <div class="adslot">
     <span class="lbl">Advertisement · 광고</span>
     <div class="body"><b>이 자리에 광고가 노출됩니다.</b> 재외한인 대상 서비스 — 국제 송금·환전, 법률·세무 상담, 유학·보험, 항공 등</div>
@@ -162,7 +162,7 @@ def _render_archive(index: List[dict]) -> str:
     out = []
     for i, iss in enumerate(index):
         dt = iss["date"].replace("-", " · ")
-        cnt = " · ".join(f"{_RG_SHORT[r]} {n}" for r, n in iss.get("region_counts", {}).items())
+        cnt = " · ".join(f"{_RG_SHORT.get(r, r)} {n}" for r, n in iss.get("region_counts", {}).items())
         label = f"{cnt} — {iss['total']}건" if cnt else f"{iss['total']}건 발행"
         today = " · 오늘" if i == 0 else ""
         link = f"/archive/{iss['number']}.html"
@@ -187,7 +187,7 @@ def _update_index(issue: Issue) -> List[dict]:
     if os.path.exists(path):
         index = json.load(open(path, encoding="utf-8"))
     index = [e for e in index if e["number"] != issue.number]  # 같은 호 갱신
-    sample = [{"rg": _RG_SHORT[it.region], "title": it.head}
+    sample = [{"rg": _RG_SHORT.get(it.region, it.region), "title": it.head}
               for it in issue.published[:6]]
     index.insert(0, {
         "number": issue.number,
@@ -211,7 +211,7 @@ def _write_archive_data(index: List[dict]) -> None:
     """
     issues = []
     for i, iss in enumerate(index):
-        cnt = " · ".join(f"{_RG_SHORT[r]} {n}" for r, n in iss.get("region_counts", {}).items())
+        cnt = " · ".join(f"{_RG_SHORT.get(r, r)} {n}" for r, n in iss.get("region_counts", {}).items())
         issues.append({
             "n": iss["number"],
             "d": iss["date"],
@@ -278,6 +278,9 @@ def _render_issue_page(tpl: str, issue: Issue, index: List[dict]) -> str:
     html = tpl.replace("<!--FILTER-->", _render_filter(issue))
     html = html.replace("<!--FEED-->", _render_feed(issue))
     html = _inline_push(html)
+    html = html.replace("/*<!--REGIONNAMES-->*/{}",
+                        json.dumps({r: m["en"] for r, m in config.REGIONS.items()},
+                                   ensure_ascii=False))
     html = html.replace("<!--ISSUEDATE-->", "")
     # 지난 호는 그 호의 제목·헤드라인으로 공유되게 한다
     heads = " · ".join(it.head for it in issue.published[:3])
@@ -310,6 +313,9 @@ def publish(issue: Issue) -> str:
     tpl = tpl.replace("<!--FILTER-->", _render_filter(issue))
     tpl = tpl.replace("<!--FEED-->", _render_feed(issue))
     tpl = _inline_push(tpl)
+    tpl = tpl.replace("/*<!--REGIONNAMES-->*/{}",
+                        json.dumps({r: m["en"] for r, m in config.REGIONS.items()},
+                                   ensure_ascii=False))
     tpl = _og(tpl)          # 대문은 브랜드 기본 문구 그대로
     tpl = tpl.replace("<!--ISSUEDATE-->", issue.date)
     tpl = tpl.replace("2026. 07. 25 · AM 7:00", f"{issue.date.replace('-', '. ')} · AM 7:00")

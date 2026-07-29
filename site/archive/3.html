@@ -439,7 +439,8 @@
         '<span class="go">읽기 →</span></a>' + items + '</div>';
     }).join('');
   }
-  var _RGKR = {de:'독일', kr:'한국', eu:'EU', us:'미국', fr:'프랑스'};
+  // 지역명은 config.py 에서 주입된다. 지역을 추가해도 여기는 손댈 필요 없다.
+  var _RGKR = {"de": "독일", "kr": "한국 · 국내", "eu": "EU 공통", "us": "미국", "wo": "세계"};
 
   function _esc(s){ return String(s).replace(/[&<>"]/g, function(c){
     return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
