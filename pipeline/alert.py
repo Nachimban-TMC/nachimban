@@ -48,7 +48,20 @@ def _mail(subject: str, body_html: str) -> bool:
 
 
 def _push(title: str, body: str) -> int:
-    """관리자 기기로 푸시. 메일보다 빨리 눈에 띈다."""
+    """관리자 기기로만 푸시.
+
+    사고 알림은 운영자가 볼 것이지 구독자가 볼 것이 아니다. 구독자 폰에
+    '발행 실패'가 뜨면 서비스 신뢰만 깎인다. 그래서 전체 구독자에게 보내지
+    않고, .env 의 NB_ADMIN_PUSH 에 적힌 기기에만 보낸다.
+
+    NB_ADMIN_PUSH 에는 관리자 기기 엔드포인트의 '일부 문자열'을 쉼표로
+    구분해 넣는다(전체 URL을 적을 필요 없음). 비어 있으면 푸시를 보내지
+    않고 메일로만 알린다 — 잘못 보내느니 안 보내는 쪽이 낫다.
+    """
+    marks = [m.strip() for m in os.getenv("NB_ADMIN_PUSH", "").split(",") if m.strip()]
+    if not marks:
+        print("   🚨 NB_ADMIN_PUSH 미설정 → 푸시 건너뜀(메일로만 알림)")
+        return 0
     try:
         from pipeline import push as _p
         keys = _p._vapid()
@@ -59,10 +72,16 @@ def _push(title: str, body: str) -> int:
     except Exception:  # noqa: BLE001
         return 0
 
+    admin = [s for s in subs
+             if any(m in (s.get("endpoint") or "") for m in marks)]
+    if not admin:
+        print("   🚨 관리자 기기를 찾지 못함 → 푸시 건너뜀(메일로만 알림)")
+        return 0
+
     data = json.dumps({"title": title, "body": body,
                        "url": config.SITE_URL}, ensure_ascii=False)
     sent = 0
-    for sub in subs:
+    for sub in admin:
         try:
             webpush(subscription_info=sub, data=data,
                     vapid_private_key=keys["private"],
@@ -70,8 +89,7 @@ def _push(title: str, body: str) -> int:
             sent += 1
         except Exception:  # noqa: BLE001
             pass
-    if sent:
-        print(f"   🚨 관리자 푸시 {sent}건")
+    print(f"   🚨 관리자 푸시 {sent}/{len(admin)}건 (전체 구독자 {len(subs)}명 중)")
     return sent
 
 
