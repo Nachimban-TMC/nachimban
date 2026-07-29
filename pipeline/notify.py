@@ -138,7 +138,7 @@ def send(issue: Issue) -> int:
                 "Content-Type": "application/json",
                 # User-Agent 를 명시하지 않으면 Python 기본값이 봇으로 차단됨
                 # (Cloudflare error 1010 → HTTP 403)
-                "User-Agent": "nachimban/1.0 (+https://nachimban.netlify.app)",
+                "User-Agent": "nachimban/1.0 (+https://nachimban.pages.dev)",
                 "Accept": "application/json",
             })
         try:

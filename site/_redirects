@@ -1,8 +1,17 @@
 /thanks            /thanks.html            200
 /thanks-feedback   /thanks-feedback.html   200
 
-# 제5·6호는 샘플 데이터였다. 목록에서 내렸지만 직접 주소로도 열리지 않게 한다.
+# 제5·6호는 샘플 데이터였다. 목록에서 내렸고 직접 주소로도 열리지 않게 한다.
 /archive/5        /   301
 /archive/5.html   /   301
 /archive/6        /   301
 /archive/6.html   /   301
+
+# 실제 취재본은 7~9호였는데 1~3호로 다시 매겼다(1~4호는 존재한 적이 없고
+# 5~6호는 샘플이었다). 옛 주소로 들어와도 같은 호를 보게 한다.
+/archive/7        /archive/1   301
+/archive/7.html   /archive/1   301
+/archive/8        /archive/2   301
+/archive/8.html   /archive/2   301
+/archive/9        /archive/3   301
+/archive/9.html   /archive/3   301

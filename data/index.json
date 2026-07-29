@@ -1,6 +1,6 @@
 [
   {
-    "number": 9,
+    "number": 3,
     "date": "2026-07-29",
     "total": 18,
     "region_counts": {
@@ -37,7 +37,7 @@
     ]
   },
   {
-    "number": 8,
+    "number": 2,
     "date": "2026-07-28",
     "total": 21,
     "region_counts": {
@@ -74,7 +74,7 @@
     ]
   },
   {
-    "number": 7,
+    "number": 1,
     "date": "2026-07-27",
     "total": 21,
     "region_counts": {

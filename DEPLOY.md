@@ -1,88 +1,115 @@
-# 배포 & 매일 7시 발송 세팅 가이드
+# 나침반 — 배포와 자동 운영
 
-전체 그림:
+## 전체 그림
 
 ```
-GitHub 저장소  ──(push)──▶  Netlify  ──▶  실제 사이트 URL(무료·자동 재배포)
-     ▲                                         
-     │ 매일 커밋                                
-GitHub Actions cron
-  · 06:00 KST  build   : 파이프라인 실행 → site/ 갱신 → 커밋(→Netlify 재배포)
-  · 07:00 KST  notify  : 최신 호를 Resend 로 구독자에게 이메일 발송
+Mac Studio (독일 자택, 24시간 가동)
+  └ Claude 앱 예약 작업
+      06:00  취재 → 팩트체크 → site/ 갱신 → git push
+      07:00  구독자에게 앱 푸시(+메일)
+  └ launchd / pmset
+      05:50  맥 자동 기상 (잠자기·전원꺼짐 모두 복구)
+      06:30  발행 확인 — 실패 시 관리자에게만 알림 (토큰 안 듦)
+      5분마다 Claude 앱 생존 확인, 죽으면 재실행
+
+GitHub (Nachimban-TMC/nachimban)
+  └(push)─▶ Cloudflare Pages ─▶ https://nachimban.pages.dev
 ```
 
-사장님이 하실 일은 **① 저장소 올리기 ② Netlify 연결 ③ 키 3개 등록 ④ Resend 도메인 인증**
-네 가지뿐입니다. 코드·스케줄·발송 로직은 다 붙어 있습니다.
+**호스팅은 Cloudflare Pages입니다.** 예전에 Netlify를 썼지만 무료 배포 한도가
+나흘 만에 소진돼 옮겼습니다(2026-07-28). 배포는 하루 한 번으로 모읍니다.
+
+**취재는 Claude 구독으로 돌아갑니다 — API 종량 과금이 아닙니다.**
+`.github/workflows/` 의 GitHub Actions 는 비활성 상태로 남겨둔 것이며,
+클라우드로 옮길 때만 쓰입니다(그때는 `ANTHROPIC_API_KEY` 과금이 발생).
 
 ---
 
-## 1) GitHub 저장소에 올리기
+## 구성 요소
 
-```bash
-cd ~/nachimban
-git init && git add . && git commit -m "나침반 초기 세팅"
-# GitHub 에서 빈 저장소 생성 후:
-git remote add origin https://github.com/<사용자명>/nachimban.git
-git push -u origin main
-```
-
-> `data/subscribers.txt` 와 `.env` 는 `.gitignore` 로 자동 제외됩니다(개인정보/키 보호).
-
-## 2) Netlify 연결 (무료)
-
-1. netlify.com 로그인 → **Add new site → Import an existing project → GitHub**
-2. `nachimban` 저장소 선택
-3. **Publish directory** 를 `site` 로 설정, Build command 는 비움 (`netlify.toml` 에 이미 지정됨)
-4. Deploy → 바로 `https://<이름>.netlify.app` URL 발급 ✅
-5. (선택) **Domain settings** 에서 커스텀 도메인 연결 — 예: `nachimban.co`
-
-> **지금 당장 한 번 보고 싶다면**: netlify.com/drop 에 `site/` 폴더를 드래그하면
-> 즉시 임시 URL 이 뜹니다(계정 연결 없이 미리보기용).
->
-> Vercel 을 쓰신다면 `vercel.json` 이 준비돼 있어 저장소 Import 만 하면 됩니다.
-
-## 3) GitHub 시크릿 등록
-
-저장소 → **Settings → Secrets and variables → Actions → New repository secret** 로 3개:
-
-| 이름 | 값 | 용도 |
-|---|---|---|
-| `ANTHROPIC_API_KEY` | `sk-ant-...` | 매일 수집·요약·이중 팩트체크 실행 |
-| `RESEND_API_KEY` | `re_...` | 이메일 발송 |
-| `NB_FROM` | `나침반 <brief@nachimban.co>` | 발신자(아래 4번에서 인증한 도메인) |
-
-## 4) Resend 이메일 세팅
-
-1. resend.com 가입 → **API Keys** 에서 키 발급 → 위 `RESEND_API_KEY` 에 등록
-2. **Domains** 에서 발송 도메인(예: `nachimban.co`) 추가 후 DNS 인증
-   (인증 전에는 `onboarding@resend.dev` 로만 테스트 발송 가능)
-3. 인증된 주소를 `NB_FROM` 에 넣기
-4. 구독자: `data/subscribers.txt` 파일에 이메일을 한 줄에 하나씩
-   (개인정보라 저장소에는 안 올라가니, 서버/Actions에서 관리하거나
-   추후 커뮤니티 '구독' 폼과 DB로 연동)
-
-## 5) 동작 확인
-
-- GitHub → **Actions** 탭 → `daily-build` → **Run workflow** (수동 실행)로 즉시 테스트
-- 그 다음 `daily-notify` 도 수동 실행해 메일이 오는지 확인
-- 이상 없으면 매일 06:00 / 07:00 (KST) 자동 실행됩니다
+| 위치 | 역할 |
+|---|---|
+| `pipeline/` | 취재·초안·팩트체크·발행·발송·헬스체크 코드 |
+| `site/` | 배포되는 정적 사이트 (Pages 의 publish directory) |
+| `functions/api/*.js` | Cloudflare Pages Functions — 구독·피드백·푸시 저장(KV) |
+| `data/` | 호별 데이터와 아카이브 인덱스 |
+| `ops/` | 무인 운영 스크립트 + 발행 지시서 사본 |
 
 ---
 
-## 시간대 메모
+## 키와 비밀값
 
-cron 은 UTC 기준입니다. 한국(KST=UTC+9):
-- `0 21 * * *` → **06:00 KST** (사이트 생성)
-- `0 22 * * *` → **07:00 KST** (이메일 발송)
+**절대 커밋하지 않습니다** (`.gitignore` 로 제외):
 
-다른 나라 기준으로 바꾸려면 `.github/workflows/*.yml` 의 cron 만 수정하세요.
+| 파일 | 내용 |
+|---|---|
+| `.env` | `PUSH_ADMIN_TOKEN`, `RESEND_API_KEY`, `NB_ADMIN_PUSH` |
+| `data/vapid.json` | 웹 푸시 개인키 |
+| `data/subscribers.txt` | 구독자 이메일 |
 
-## 로컬에서 미리 돌려보기
+Cloudflare 쪽은 **Pages 프로젝트 → Settings** 에서 환경변수 `PUSH_ADMIN_TOKEN`
+과 KV 바인딩 `NB_KV` 를 등록합니다.
+
+> 키는 직접 입력하세요. 채팅에 붙여넣지 마세요.
+> `NB_ADMIN_PUSH` 는 사고 알림을 받을 **관리자 기기**의 푸시 엔드포인트 일부입니다.
+> 비어 있으면 푸시를 보내지 않고 메일로만 알립니다(구독자 오발송 방지).
+
+---
+
+## 자주 쓰는 명령
 
 ```bash
-pip install -r requirements.txt
-export ANTHROPIC_API_KEY=sk-ant-...      # 실제 수집·팩트체크
-export RESEND_API_KEY=re_...             # 실제 발송
-python -m pipeline.run --send            # 발행 + 즉시 발송
-python -m pipeline.run --mock            # 키 없이 사이트만 생성(오프라인)
+# 발행 여부 확인 (토큰 안 듦)
+cd ~/nachimban && python3 -m pipeline.healthcheck
+
+# 이미 만든 최신 호를 다시 발송 (푸시 + 메일)
+cd ~/nachimban && python3 -m pipeline.run --send-latest
+
+# 구독자·받은 의견 확인
+cd ~/nachimban && python3 -m pipeline.inbox
 ```
+
+`git push` 하면 Cloudflare Pages 가 1~2분 내 자동 반영합니다.
+
+---
+
+## 무인 운영 설정 (2026-07-28 적용)
+
+```bash
+sudo pmset repeat wakeorpoweron MTWRF 05:50:00   # 평일 자동 기상
+sudo pmset -a autorestart 1                       # 정전 복구
+```
+
+- Claude.app 을 **로그인 항목**에 등록 (재부팅 후 자동 실행)
+- `com.nachimban.claude-keeper` — 앱 감시, 죽으면 재실행
+- `com.nachimban.healthcheck` — 평일 06:30 발행 확인
+
+**잠자기에서 깨어나는 것은 세션이 유지되므로 암호가 걸려 있어도 동작합니다.**
+자동 로그인이 필요한 경우는 재부팅이 일어났을 때뿐입니다.
+
+### 2026년 10월 한국 체류 대비
+
+맥을 모니터 없이 켜둔 채로 갑니다. 떠나기 전에:
+
+1. **FileVault 해제** — 켜져 있으면 자동 로그인이 불가능하고, 재부팅 시 암호
+   화면에서 영구 정지됩니다(그 화면에는 네트워크가 없어 원격 복구 불가)
+2. 자동 로그인 켜기 (1번 완료 후에야 가능)
+3. 자동 업데이트 끄기 — 재부팅을 유발하는 가장 큰 요인
+4. Tailscale 설치(맥+아이폰) — 원격 복구 수단
+5. `.env`, `data/vapid.json` 을 비밀번호 관리자에 백업
+6. 귀국 후 1~3번 원상복구
+
+전기세는 월 약 7유로. 클라우드 이전 시 API 비용은 월 약 $63 로 8배입니다.
+실제 금액은 발행 로그의 "API 종량제 환산" 값을 보고 판단하세요.
+
+---
+
+## 발행 지시서 — 중요
+
+매일 아침 실제로 실행되는 것은 파이프라인 스크립트가 아니라
+`~/.claude/scheduled-tasks/nachimban-daily-brief/SKILL.md` 를 따르는 Claude 세션입니다.
+이 세션이 WebSearch 로 직접 취재한 뒤 `publish.publish()` 만 호출합니다.
+
+**`config.py` 나 `collect.py` 를 고쳐도 발행 결과는 바뀌지 않습니다.**
+편집 규칙을 바꿀 때는 지시서를 반드시 함께 고치세요.
+사본: `ops/daily-brief-SKILL.md`
