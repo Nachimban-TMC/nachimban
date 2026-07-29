@@ -14,3 +14,4 @@ data/vapid.json
 # 무인 운영 감시 로그 (기기별 기록이라 공유 불필요)
 ops/keeper.log
 ops/keeper.err
+ops/healthcheck.log
