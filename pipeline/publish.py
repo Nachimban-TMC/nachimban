@@ -278,6 +278,7 @@ def _render_issue_page(tpl: str, issue: Issue, index: List[dict]) -> str:
     html = tpl.replace("<!--FILTER-->", _render_filter(issue))
     html = html.replace("<!--FEED-->", _render_feed(issue))
     html = _inline_push(html)
+    html = html.replace("<!--ISSUEDATE-->", "")
     # 지난 호는 그 호의 제목·헤드라인으로 공유되게 한다
     heads = " · ".join(it.head for it in issue.published[:3])
     html = _og(html,
@@ -310,6 +311,7 @@ def publish(issue: Issue) -> str:
     tpl = tpl.replace("<!--FEED-->", _render_feed(issue))
     tpl = _inline_push(tpl)
     tpl = _og(tpl)          # 대문은 브랜드 기본 문구 그대로
+    tpl = tpl.replace("<!--ISSUEDATE-->", issue.date)
     tpl = tpl.replace("2026. 07. 25 · AM 7:00", f"{issue.date.replace('-', '. ')} · AM 7:00")
     out = os.path.join(config.SITE_DIR, "index.html")
     open(out, "w", encoding="utf-8").write(tpl)

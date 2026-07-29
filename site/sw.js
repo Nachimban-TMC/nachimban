@@ -71,8 +71,21 @@ self.addEventListener('push', (e) => {
 self.addEventListener('notificationclick', (e) => {
   e.notification.close();
   const url = (e.notification.data && e.notification.data.url) || '/';
-  e.waitUntil(clients.matchAll({ type: 'window' }).then((list) => {
-    for (const c of list) if (c.url.includes(url) && 'focus' in c) return c.focus();
-    return clients.openWindow(url);
-  }));
+  e.waitUntil(
+    clients.matchAll({ type: 'window', includeUncontrolled: true }).then((list) => {
+      const target = new URL(url, self.location.origin);
+      for (const c of list) {
+        let same = false;
+        try { same = new URL(c.url).origin === target.origin; } catch (_) {}
+        if (!same) continue;
+        // 이미 열려 있는 창은 '새 주소로 이동'시킨다. focus 만 하면 어제 화면이
+        // 그대로 남아, 사용자가 앱을 껐다 다시 켜야 오늘 뉴스를 보게 된다.
+        if ('navigate' in c) {
+          return c.navigate(target.href).then((cl) => (cl || c).focus()).catch(() => c.focus());
+        }
+        return c.focus();
+      }
+      return clients.openWindow(target.href);
+    })
+  );
 });

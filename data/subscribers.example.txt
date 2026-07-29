@@ -1,3 +1,6 @@
 # 이 파일을 복사해서 data/subscribers.txt 로 저장하고, 구독자 이메일을 한 줄에 하나씩 적으세요.
 # (subscribers.txt 는 개인정보라 .gitignore 로 커밋에서 제외됩니다.)
-zookzlue@gmail.com
+#
+# 예시:
+# someone@example.com
+# another@example.com
