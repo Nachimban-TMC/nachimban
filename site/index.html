@@ -504,8 +504,8 @@
     if(p !== '/' && p !== '/index.html') return;
     var CUR = '2026-07-30';
     var busy = false;
-    function check(){
-      if(document.hidden || busy) return;
+    function check(force){
+      if((document.hidden && !force) || busy) return;
       busy = true;
       fetch('/archive-data.json', {cache:'no-store'})
         .then(function(r){ return r.ok ? r.json() : null; })
@@ -518,6 +518,9 @@
     }
     document.addEventListener('visibilitychange', check);
     window.addEventListener('focus', check);
+    // iOS PWA 는 visibilitychange 보다 pageshow 가 안정적이다.
+    // persisted 는 bfcache(뒤로가기 캐시)에서 복원된 경우 — 오래됐을 수 있어 강제 확인.
+    window.addEventListener('pageshow', function(e){ check(!!e.persisted); });
   })();
 
   /* ---------- 공유 ----------
@@ -574,6 +577,39 @@
     document.getElementById('emptynote').style.display=shown?'none':'';
     window.scrollTo({top:0,behavior:'smooth'});
   }
+  /* 좌우 스와이프로 지역 이동 (All → 독일 → 한국 → …) */
+  (function(){
+    function regions(){
+      var out=[];
+      document.querySelectorAll('#view-today .fpill').forEach(function(b){
+        if(b.dataset.r) out.push(b.dataset.r);
+      });
+      return out;   // ['all','de','kr','eu','us','wo'] 중 오늘 있는 지역만
+    }
+    function current(){
+      var on=document.querySelector('#view-today .fpill.on');
+      return on ? on.dataset.r : 'all';
+    }
+    var x0=null, y0=null, t0=0;
+    document.addEventListener('touchstart', function(e){
+      var today=document.getElementById('view-today');
+      if(!today || today.hidden || e.touches.length!==1){ x0=null; return; }
+      x0=e.touches[0].clientX; y0=e.touches[0].clientY; t0=Date.now();
+    }, {passive:true});
+    document.addEventListener('touchend', function(e){
+      if(x0===null) return;
+      var t=e.changedTouches[0], dx=t.clientX-x0, dy=t.clientY-y0, dt=Date.now()-t0;
+      x0=null;
+      // 가로 이동이 뚜렷하고(60px+), 세로보다 크고, 너무 느리지 않을 때만
+      if(Math.abs(dx)<60 || Math.abs(dx)<Math.abs(dy)*1.4 || dt>700) return;
+      var regs=regions(), i=regs.indexOf(current());
+      if(i<0) return;
+      var ni = dx<0 ? i+1 : i-1;   // 왼쪽으로 밀면 다음 지역
+      if(ni<0 || ni>=regs.length) return;
+      showRegion(regs[ni]);
+    }, {passive:true});
+  })();
+
   function showView(v){
     if(v==='archive') nbArchLoad();       // 아카이브를 열 때만 받는다
     ['today','archive','community'].forEach(function(n){

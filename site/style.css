@@ -312,9 +312,18 @@
     .filter{margin-top:22px;}
     .fpill{padding:13px 2px;font-size:10px;letter-spacing:.06em;}
 
-    .sec-hd{padding:26px 0 0;gap:10px;}
+    /* 지역 헤더를 상단에 고정 — 스크롤 중에도 어느 지역인지 항상 보인다 */
+    .sec-hd{padding:11px 0 9px;gap:10px;
+      position:sticky;top:0;z-index:30;
+      background:var(--paper);border-bottom:1px solid var(--line);
+      margin:0;}
     .sec-hd .k{font-size:14px;}
     .sec-hd .en{font-size:10px;}
+    .sec-hd .rule{display:none;}   /* 고정 바에서는 줄 대신 배경으로 구분 */
+
+    /* 카드 스냅 — 스크롤을 멈추면 가까운 카드 시작점에 맞춰진다 */
+    html{scroll-snap-type:y proximity;}
+    .card{scroll-snap-align:start;scroll-margin-top:52px;}
 
     /* 카드: 여백 줄이고 글자 키워 읽기 쉽게 */
     .card{padding:18px 16px 16px;}
