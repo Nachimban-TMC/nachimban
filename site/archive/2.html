@@ -605,6 +605,38 @@
     document.getElementById('emptynote').style.display=shown?'none':'';
     window.scrollTo({top:0,behavior:'smooth'});
   }
+  /* 현재 보는 지역을 작은 칩으로 표시 (모바일).
+     섹션 헤더는 원래대로 두고, 스크롤 중 화면 상단에 지역명만 띄운다. */
+  (function(){
+    var chip=document.createElement('div');
+    chip.id='rgnow'; document.body.appendChild(chip);
+    var names=_RGKR;   // config 에서 주입된 지역명 재사용
+    function upd(){
+      // 좁은 화면에서만. 로드 시점이 아니라 매번 판단해 방향 전환에도 대응.
+      var mobile=window.matchMedia('(max-width:640px)').matches;
+      var today=document.getElementById('view-today');
+      if(!mobile || !today || today.hidden || window.scrollY < 200){
+        chip.classList.remove('on'); return;
+      }
+      var secs=document.querySelectorAll('#view-today section[data-region]');
+      var y=60, cur=null;
+      for(var i=0;i<secs.length;i++){
+        var r=secs[i].getBoundingClientRect();
+        if(r.top<=y && r.bottom>y){ cur=secs[i].dataset.region; break; }
+      }
+      if(!cur){ chip.classList.remove('on'); return; }
+      var nm=names[cur]||cur;
+      if(nm.length>4) nm=nm.split(' ')[0];   // '한국 · 국내' → '한국'
+      chip.textContent=nm;
+      chip.classList.add('on');
+    }
+    var tick=false;
+    window.addEventListener('scroll',function(){
+      if(!tick){ tick=true; requestAnimationFrame(function(){ upd(); tick=false; }); }
+    },{passive:true});
+    window.addEventListener('resize',upd,{passive:true});
+  })();
+
   /* 좌우 스와이프로 지역 이동 (All → 독일 → 한국 → …) */
   (function(){
     function regions(){
