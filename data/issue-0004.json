@@ -1,0 +1,587 @@
+{
+  "number": 4,
+  "date": "2026-07-30",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "메르츠 총리, 내각 대대적 개편 착수",
+      "desc": "프리드리히 메르츠 총리가 슈판 원내대표 사퇴 이후 내각 개편에 나서, 프라이 총리실장이 CDU/CSU 원내대표로, 바르켄 보건장관이 총리실장으로 이동할 예정입니다. 메르츠 총리는 추가 개편도 예고했습니다.",
+      "interp": "독일 연립정부 내 <b>세대교체</b>가 본격화되는 신호로, 이후 정책 기조 변화가 있을 수 있으니 체류·비자 관련 소식을 계속 확인하세요.",
+      "source": "Bundesregierung",
+      "read": 3,
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/merz-veraenderungen-im-kabinett--2448244",
+      "source_urls": [
+        "https://www.bundesregierung.de/breg-de/aktuelles/merz-veraenderungen-im-kabinett--2448244"
+      ],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "welfare",
+      "head": "아동수당(Kindergeld) 월 259유로로 인상",
+      "desc": "2026년 1월부터 자녀 1인당 아동수당이 월 255유로에서 259유로로 인상되어 자동 지급되고 있습니다. 기존 수급자는 별도 재신청이 필요 없습니다.",
+      "interp": "이미 수급 중이라면 <b>추가 신청 없이</b> 자동으로 인상분이 반영되니 통장 입금액만 확인하면 됩니다.",
+      "source": "Bundesagentur für Arbeit",
+      "read": 2,
+      "url": "https://www.arbeitsagentur.de/news/kindergeld-steigt-2026",
+      "source_urls": [
+        "https://www.arbeitsagentur.de/news/kindergeld-steigt-2026"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "도이칠란트티켓 월 63유로로 인상",
+      "desc": "2026년 1월부터 전국 대중교통 정기권인 도이칠란트티켓 요금이 월 58유로에서 63유로로 5유로 인상됐습니다. 각종 할인 요금제도 함께 조정됐습니다.",
+      "interp": "정기결제 중이라면 <b>자동으로 인상된 금액</b>이 청구되니 은행 계좌 잔액과 구독 상태를 확인하세요.",
+      "source": "Deutsche Bahn",
+      "read": 2,
+      "url": "https://www.bahn.de/faq/deutschlandticket-preisanpassung-2026",
+      "source_urls": [
+        "https://www.bahn.de/faq/deutschlandticket-preisanpassung-2026"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "labor",
+      "head": "최저임금, 2027년 시간당 14.60유로로 확정",
+      "desc": "최저임금위원회 결정에 따라 독일 법정 최저임금이 2026년 13.90유로에서 2027년 1월 14.60유로로 인상 확정됐습니다. 연방정부 승인까지 이미 마쳤습니다.",
+      "interp": "아르바이트나 미니잡 계약을 앞두고 있다면 <b>2027년 임금 기준</b>을 미리 참고해 계약서를 검토하세요.",
+      "source": "DGB",
+      "read": 2,
+      "url": "https://www.dgb.de/service/ratgeber/mindestlohn/",
+      "source_urls": [
+        "https://www.dgb.de/service/ratgeber/mindestlohn/"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "policy",
+      "head": "베를린시, 연방정부에 '반퀴어혐오' 원탁회의 요청",
+      "desc": "베를린 CSD 차량돌진 참사 이후 캔셀 크즐테페 베를린 상원의원이 메르츠 총리에게 연방 차원의 반(反)퀴어혐오 원탁회의 소집을 요청하는 서한을 보냈습니다.",
+      "interp": "치안 강화 논의가 이어지고 있는 만큼, 관련 행사에 참여할 계획이라면 <b>현지 공지사항</b>을 유의해서 살펴보세요.",
+      "source": "Nordkurier",
+      "read": 2,
+      "url": "https://www.nordkurier.de/regional/brandenburg/senatorin-fordert-von-merz-einsatz-gegen-queerfeindlichkeit-4753462",
+      "source_urls": [
+        "https://www.nordkurier.de/regional/brandenburg/senatorin-fordert-von-merz-einsatz-gegen-queerfeindlichkeit-4753462"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "재외공관 금융위임장, 오늘부터 온라인 즉시 전달",
+      "desc": "이재명 대통령이 칠레 순방 중 재외동포 간담회에서 재외공관의 금융위임장을 7월 30일부터 국내 은행에 온라인으로 즉시 전달하는 서비스를 시작한다고 밝혔습니다. 기존에는 우편 등으로 처리에 시일이 걸렸습니다.",
+      "interp": "해외에서 국내 계좌 관련 위임장을 발급받았다면 <b>재외공관에 온라인 전달 여부</b>를 문의해 처리 시간을 단축하세요.",
+      "source": "뉴스핌",
+      "read": 2,
+      "url": "https://www.newspim.com/news/view/20260730000047",
+      "source_urls": [
+        "https://www.newspim.com/news/view/20260730000047"
+      ],
+      "hot": true,
+      "hotflag": "For expats",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "citizenship",
+      "head": "복수국적 허용 연령 50세 하향, 아직 미시행",
+      "desc": "정부가 병역을 마친 재외동포의 복수국적 허용 연령을 만 65세에서 50세로 낮추는 법안을 추진 중이나, 7월 현재 국회 법사위 소위에 계류돼 있어 아직 시행되지 않았습니다. 현재 기준은 여전히 만 65세입니다.",
+      "interp": "법안이 최종 통과되기 전까지는 <b>기존 만 65세 기준</b>이 적용되니, 성급하게 국적 신고 절차를 진행하지 않도록 주의하세요.",
+      "source": "재외동포신문",
+      "read": 2,
+      "url": "https://www.dongponews.net/news/articleView.html?idxno=55286",
+      "source_urls": [
+        "https://www.dongponews.net/news/articleView.html?idxno=55286"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "health",
+      "head": "건강보험료율 7.19%로 인상 확정",
+      "desc": "보건복지부가 2026년 건강보험료율을 7.19%로 결정했습니다. 2025년(7.09%) 대비 0.1%포인트 오른 수치로, 직장가입자 월평균 본인부담 보험료가 약 2,235원 늘어납니다.",
+      "interp": "해외 체류 중에도 <b>건강보험 임의계속가입</b> 등을 유지하고 있다면 인상된 보험료가 반영됐는지 확인하세요.",
+      "source": "보건복지부",
+      "read": 2,
+      "url": "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1487279",
+      "source_urls": [
+        "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1487279"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "invest",
+      "head": "코스피, 이틀 폭락 후 오늘 반등 시도",
+      "desc": "코스피는 중국 반도체 기업 CXMT발 충격으로 7월 28일 서킷브레이커까지 발동하며 급락한 데 이어 29일에도 5.98% 추가 하락했습니다. 30일에는 장 초반 소폭 상승 출발했으나 등락을 거듭하고 있습니다.",
+      "interp": "국내 주식·펀드 자산이 있다면 <b>단기 변동성 확대</b>에 대비해 무리한 매매보다는 상황을 지켜보는 편이 안전합니다.",
+      "source": "파이낸셜뉴스",
+      "read": 2,
+      "url": "https://www.fnnews.com/news/202607300950538939",
+      "source_urls": [
+        "https://www.fnnews.com/news/202607300950538939"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "원/달러 환율, 1,446원대로 하락 마감",
+      "desc": "7월 29일 서울 외환시장에서 원/달러 환율은 전날보다 15.8원 내린 1,446.7원에 마감했습니다. 미국의 대이란 추가 공습 자제와 외교적 해법 기대가 반영된 결과였으나, 이후 상황이 다시 악화되고 있어 변동성이 큽니다.",
+      "interp": "송금 계획이 있다면 <b>환율 변동 폭이 커진 시기</b>이니 여러 날에 나눠 환전 타이밍을 분산하는 것도 방법입니다.",
+      "source": "파이낸셜뉴스",
+      "read": 2,
+      "url": "https://www.fnnews.com/news/202607291534513058",
+      "source_urls": [
+        "https://www.fnnews.com/news/202607291534513058"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "남유럽 산불, 그리스·튀르키예로 확산",
+      "desc": "프랑스·스페인을 덮친 대형 산불이 봄철 이상 다우로 마른 수풀에 옮겨붙어 계속 번지고 있으며, 최근에는 그리스·튀르키예에서도 새로운 화재가 발생해 각국이 추가 진화 인력을 파견하고 있습니다. 누적 대피 인원은 30만 명을 넘었습니다.",
+      "interp": "남유럽 여행이나 거주 계획이 있다면 <b>산불 확산 지역</b>과 대피 안내를 수시로 확인하세요.",
+      "source": "한국일보",
+      "read": 2,
+      "url": "https://www.hankookilbo.com/news/article/A2026072610390004566",
+      "source_urls": [
+        "https://www.hankookilbo.com/news/article/A2026072610390004566"
+      ],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "invest",
+      "head": "ECB, 기준금리 3연속 동결(예금금리 2.25%)",
+      "desc": "유럽중앙은행(ECB)은 7월 23일 통화정책회의에서 예금금리를 2.25%로 유지하며 3회 연속 동결을 결정했습니다. 앞서 6월에는 2023년 이후 처음으로 금리를 인상한 바 있습니다.",
+      "interp": "유로존에서 예금·대출을 이용 중이라면 당분간 <b>현재 금리 수준</b>이 유지될 가능성이 높다는 점을 참고하세요.",
+      "source": "ECB",
+      "read": 2,
+      "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260723~29f24d99bc.en.html",
+      "source_urls": [
+        "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260723~29f24d99bc.en.html"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "immigration",
+      "head": "EU 입출국시스템(EES), 전면 시행 임박",
+      "desc": "2025년 10월 단계적으로 도입된 EU의 생체정보 기반 입출국시스템(EES)이 2026년 4월 전면 시행을 목표로 확대되고 있습니다. 최초 등록 시 지문·사진이 저장되며 3년간 재등록 없이 이용할 수 있습니다.",
+      "interp": "아직 EES가 적용되지 않는 일부 국경에서는 여권 도장이 병행되므로, 입국하는 국가마다 <b>절차가 다를 수 있다는 점</b>을 감안해 여유 있게 이동하세요.",
+      "source": "주에스토니아 대한민국 대사관",
+      "read": 2,
+      "url": "https://ee.mofa.go.kr/est-ko/brd/m_27742/view.do?seq=105",
+      "source_urls": [
+        "https://ee.mofa.go.kr/est-ko/brd/m_27742/view.do?seq=105"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "연준, 기준금리 5연속 동결(3.50~3.75%)",
+      "desc": "미국 연방준비제도(Fed)는 7월 29일 FOMC 회의에서 기준금리를 3.50~3.75%로 5회 연속 동결했습니다. 9대 3 표결로, 반대한 3명은 0.25%포인트 인상을 주장했습니다.",
+      "interp": "중동 정세 불안으로 물가 상승 압력이 남아 있어 <b>향후 금리 인상 가능성</b>도 배제할 수 없으니 대출·환전 계획을 세울 때 참고하세요.",
+      "source": "Federal Reserve",
+      "read": 3,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "source_urls": [
+        "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
+      ],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "美 증시, 연준 매파적 동결에 급락",
+      "desc": "7월 29일 뉴욕증시는 연준의 매파적 금리 동결과 중동 정세 불안이 겹치며 S&P500이 1.52%, 다우존스가 2.19%, 나스닥이 1.74% 각각 하락했습니다.",
+      "interp": "미국 주식이나 ETF에 투자 중이라면 <b>단기 변동성 확대</b>에 대비해 분산 투자와 장기 관점을 유지하는 것이 좋습니다.",
+      "source": "Washington Post",
+      "read": 2,
+      "url": "https://www.washingtonpost.com/business/2026/07/29/wall-street-stocks-dow-nasdaq/",
+      "source_urls": [
+        "https://www.washingtonpost.com/business/2026/07/29/wall-street-stocks-dow-nasdaq/"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "visa",
+      "head": "H-1B 10만달러 수수료, 항소법원도 효력정지 유지",
+      "desc": "연방 제1순회 항소법원이 7월 24일 H-1B 비자에 10만달러 수수료를 부과하는 조치를 위법으로 본 하급심 판결에 대해 정부의 집행정지 요청을 기각했습니다. 정부의 본안 항소는 계속 진행 중입니다.",
+      "interp": "현재는 <b>수수료가 부과되지 않는 상태</b>이지만 항소 결과에 따라 다시 바뀔 수 있어 진행 상황을 계속 확인하는 것이 안전합니다.",
+      "source": "Murthy Law Firm",
+      "read": 2,
+      "url": "https://www.murthy.com/2026/07/27/newsflash-federal-appeals-court-allows-block-on-100000-h1b-fee-to-take-effect/",
+      "source_urls": [
+        "https://www.murthy.com/2026/07/27/newsflash-federal-appeals-court-allows-block-on-100000-h1b-fee-to-take-effect/"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "policy",
+      "head": "한국산 제품 대미 관세, 10%→12.5%로 인상",
+      "desc": "미국은 7월 24일부터 무역법 301조에 근거한 새 관세를 시행해 한국산 일반 제품의 기본 관세 부담이 2.5%포인트 높아졌습니다. 다만 한미 무역합의상 상한선인 15%보다는 낮은 수준입니다.",
+      "interp": "미국에서 사업체를 운영하거나 한국 제품을 수입한다면 <b>인상된 관세율</b>이 반영됐는지 거래명세서를 확인하세요.",
+      "source": "헤럴드경제",
+      "read": 2,
+      "url": "https://www.heraldk.com/article/2026072319094443557",
+      "source_urls": [
+        "https://www.heraldk.com/article/2026072319094443557"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "미국, 이란에 대규모 공습 재개",
+      "desc": "미 중부사령부는 7월 29일 밤(현지시간, 한국시간 30일 오전) 이란 혁명수비대 시설 수십 곳을 겨냥해 약 2시간에 걸친 공습을 실시했습니다. 이란이 요르단 주둔 미군 기지에 탄도미사일 공격을 시도한 데 대한 대응으로, 국제유가는 하루 새 8%가량 급등했습니다.",
+      "interp": "이란은 이미 여행금지(4단계) 국가이며, 정세 악화로 요르단·오만·사우디 등 인근국 여행경보도 강화되고 있으니 <b>중동 지역 여행은 자제</b>하고 현지 교민은 안전 공지를 수시로 확인하세요.",
+      "source": "뉴스핌",
+      "read": 3,
+      "url": "https://www.newspim.com/news/view/20260730000895",
+      "source_urls": [
+        "https://www.newspim.com/news/view/20260730000895"
+      ],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "일본 구마모토 규모 7.1 지진 발생",
+      "desc": "7월 28일 오후 4시 27분 일본 구마모토현 남쪽 해역에서 규모 7.1 지진이 발생해 국내 부산·경남·전남 일부 지역에서도 진동이 감지됐습니다. 전문가들은 추가 강진 가능성에 유의해야 한다고 경고했습니다.",
+      "interp": "일본 여행을 계획 중이라면 <b>여진 가능성</b>을 염두에 두고 현지 재난 문자·대피 안내를 미리 확인해두세요.",
+      "source": "머니투데이",
+      "read": 2,
+      "url": "https://www.mt.co.kr/society/2026/07/28/2026072816431363214",
+      "source_urls": [
+        "https://www.mt.co.kr/society/2026/07/28/2026072816431363214"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "스페인 마요르카공항, 8월 4일부터 무기한 파업",
+      "desc": "스위스포트 지상조업 노조가 8월 4일부터 팔마 데 마요르카 공항에서 기간을 정하지 않은 파업에 돌입한다고 예고했습니다. 콘도르·에어캐나다·에티하드항공 등 다수 국제선 항공편에 지연·결항이 우려됩니다.",
+      "interp": "8월 초 마요르카를 경유하거나 방문할 계획이라면 <b>항공편 일정 변경 가능성</b>을 염두에 두고 항공사 공지를 확인하세요.",
+      "source": "Majorca Daily Bulletin",
+      "read": 2,
+      "url": "https://www.majorcadailybulletin.com/holiday/airport/2026/07/29/144491/mallorca-airport-disruption-warning-indefinite-strike-begins-next-week.html",
+      "source_urls": [
+        "https://www.majorcadailybulletin.com/holiday/airport/2026/07/29/144491/mallorca-airport-disruption-warning-indefinite-strike-begins-next-week.html"
+      ],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
