@@ -319,9 +319,12 @@
     /* 카드 스냅 — 카드가 화면보다 작아(약 0.8배) 딱 맞출 수 있다.
        mandatory 로 확실히 카드 단위로 넘어가게 한다. */
     html{scroll-snap-type:y mandatory;}
-    .card{scroll-snap-align:start;scroll-margin-top:12px;}
-    /* 빠르게 여러 장 넘기는 건 허용(카드마다 강제로 멈추진 않음).
-       스크롤을 멈추면 가장 가까운 카드에 딱 붙는다. */
+    /* 카드는 화면 중앙에 오도록 정렬 */
+    .card{scroll-snap-align:center;}
+    /* 최상단 머리말도 쉼점으로 — 위로 스크롤하면 첫 카드로 끌려가지 않고
+       머리말(제목)에서 멈춘다. */
+    .hero{scroll-snap-align:start;scroll-margin-top:0;}
+    /* 빠르게 여러 장 넘기는 건 허용. 멈추면 가장 가까운 카드 중앙에 붙는다. */
 
     /* 현재 보는 지역을 작게 띄워 보여준다 — 다이나믹 아일랜드 아래에 위치.
        섹션 헤더는 원래 모양 그대로 두고, 이 칩만 스크롤 중에 나타난다. */
