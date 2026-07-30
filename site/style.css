@@ -321,9 +321,10 @@
     html{scroll-snap-type:y mandatory;}
     /* 카드는 화면 중앙에 오도록 정렬 */
     .card{scroll-snap-align:center;}
-    /* 최상단 머리말도 쉼점으로 — 위로 스크롤하면 첫 카드로 끌려가지 않고
-       머리말(제목)에서 멈춘다. */
-    .hero{scroll-snap-align:start;scroll-margin-top:0;}
+    /* 최상단 쉼점은 페이지 맨 위(nav)에 둔다. hero 에 두면 그 위의 nav 가
+       잘리고 제목이 노치 밑으로 들어간다. nav 자체가 안전영역 여백을 갖고
+       있어, 여기 붙으면 로고·구독·제목이 온전히 보인다. */
+    .nav{scroll-snap-align:start;scroll-margin-top:0;}
     /* 빠르게 여러 장 넘기는 건 허용. 멈추면 가장 가까운 카드 중앙에 붙는다. */
 
     /* 현재 보는 지역을 작게 띄워 보여준다 — 다이나믹 아일랜드 아래에 위치.
