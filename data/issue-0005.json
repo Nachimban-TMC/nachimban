@@ -1,0 +1,439 @@
+{
+  "number": 5,
+  "date": "2026-07-31",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "메르츠 내각 개편, 후폭풍 거세",
+      "desc": "메르츠 총리가 대대적 내각 개편을 단행했으나 언론은 '소통 참사'라 혹평했다. 보건장관이 교체돼 린네만 전 사무총장이 새로 맡는다.",
+      "interp": "정부 정책 방향이 흔들릴 수 있는 시기입니다. <b>체류·비자 공지</b>는 자주 확인하세요.",
+      "source": "ZDF",
+      "read": 3,
+      "url": "https://www.zdfheute.de/politik/deutschland/merz-kabinett-umbau-warken-linnemann-analyse-100.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "獨 7월 물가 2.8%↑, 에너지 급등",
+      "desc": "독일 연방통계청이 7월 소비자물가 상승률을 전년 대비 2.8%로 예비 발표했다. 에너지 가격이 8.3% 뛰며 상승세를 이끌었다.",
+      "interp": "근원물가도 2.4%로 여전히 높습니다. <b>공과금·장바구니 비용</b> 증가에 대비하세요.",
+      "source": "Destatis",
+      "read": 3,
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_270_611.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "education",
+      "head": "獨 초1 종일보육 청구권, 8월 시행",
+      "desc": "8월 1일부터 초등 1학년 학생에 대한 전국 단위 종일보육 법적 청구권이 시행된다. 방과후 돌봄이 필요하면 지자체에 신청하면 된다.",
+      "interp": "자녀가 초1이라면 <b>Ganztagsbetreuung</b> 신청 여부를 학교에 확인하세요.",
+      "source": "Sparkasse",
+      "read": 3,
+      "url": "https://www.sparkasse.de/aktuelles/reformen-eltern-2026.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "코스피 13%대 급등, 매수 사이드카",
+      "desc": "31일 코스피가 13.08% 급등한 6325.32로 마감하며 매수 사이드카가 발동됐다. 美 반도체주 급등에 삼성전자·SK하이닉스가 동반 폭등했다.",
+      "interp": "<b>단기 변동성</b>이 매우 큰 장세입니다. 국내 자산이 있다면 무리한 추격매수는 주의하세요.",
+      "source": "한국경제",
+      "read": 3,
+      "url": "https://www.hankyung.com/article/2026073172426",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "policy",
+      "head": "檢 보완수사권 폐지법, 오늘 통과",
+      "desc": "검사의 보완수사권을 전면 폐지하는 형사소송법 개정안이 31일 국회 본회의를 통과할 전망이다. 경찰이 보완수사를 전담하게 된다.",
+      "interp": "수사 체계가 크게 바뀝니다. <b>형사 사건 연루 시</b> 달라진 절차를 확인하세요.",
+      "source": "서울경제",
+      "read": 3,
+      "url": "https://www.sedaily.com/article/20074027",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "pension",
+      "head": "국민연금 상한액, 659만원으로↑",
+      "desc": "국민연금 기준소득월액 상한액이 7월부터 내년 6월까지 637만원에서 659만원으로 오른다. 하한액도 41만원으로 조정됐다.",
+      "interp": "고소득 <b>임의계속가입자</b>는 보험료가 늘 수 있습니다. 공단 안내를 확인하세요.",
+      "source": "다음뉴스",
+      "read": 3,
+      "url": "https://v.daum.net/v/20260609061249380",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "travel",
+      "head": "인천공항, 8월2일 최고 혼잡 예상",
+      "desc": "인천공항 하계 성수기(7/25~8/10) 이용객이 377만 명에 달할 전망이다. 8월 2일 하루 23만 명 넘게 몰려 가장 붐빈다.",
+      "interp": "이 기간 이용한다면 <b>출국장 30분 일찍 도착</b>을 권장합니다.",
+      "source": "머니투데이",
+      "read": 3,
+      "url": "https://www.mt.co.kr/estate/2026/07/27/2026072714172338876",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "크레타 산불 확산, 소방관 사망·대피",
+      "desc": "그리스 크레타섬 남부 산불이 강풍을 타고 확산돼 소방관 2명이 숨지고 관광객 6천여 명이 대피했다. 튀르키예 안탈리아에서도 화재가 이어지고 있다.",
+      "interp": "그리스·튀르키예 여행 중이라면 <b>현지 대피 안내</b>를 수시로 확인하세요.",
+      "source": "Euronews",
+      "read": 3,
+      "url": "https://www.euronews.com/my-europe/2026/07/30/wildfires-in-greece-blaze-out-of-control-in-rethymno-crete",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "invest",
+      "head": "EU 통합거래정보, 9월14일 출범",
+      "desc": "EU 전역 주식·ETF 거래정보를 한곳에 모으는 '통합테이프'가 9월 14일 출범한다. ESMA는 EuroCTP를 첫 사업자로 승인했다.",
+      "interp": "<b>EU 상장 ETF·주식</b> 투자자라면 가격 투명성 개선을 기대할 만합니다.",
+      "source": "The TRADE",
+      "read": 3,
+      "url": "https://www.thetradenews.com/euroctp-secures-esma-authorisation-to-operate-eu-shares-and-etfs-consolidated-tape/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "travel",
+      "head": "EU 입출국시스템(EES) 9월로 연기",
+      "desc": "생체정보 기반 EU 입출국관리시스템(EES) 전면 시행이 국경 혼잡 문제로 2026년 9월로 다시 연기됐다.",
+      "interp": "EU 입국 시 <b>지문·안면 등록</b> 절차가 늦춰졌으니 최신 공지를 확인하세요.",
+      "source": "IndexBox",
+      "read": 3,
+      "url": "https://www.indexbox.io/blog/eu-entryexit-system-full-rollout-delayed-to-september-2026/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "팀 쿡, 애플 CEO 마지막 실적발표",
+      "desc": "팀 쿡이 30일 애플 분기 실적발표에서 CEO로서 마지막으로 투자자와 소통했다. 9월 1일부로 존 터너스가 새 CEO에 오른다.",
+      "interp": "<b>애플 주식 보유자</b>라면 리더십 교체에 따른 변동성에 유의하세요.",
+      "source": "Apple Newsroom",
+      "read": 3,
+      "url": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "visa",
+      "head": "H-1B 2027회계연도 쿼터 마감",
+      "desc": "USCIS가 2027회계연도 H-1B 정규(6.5만)·석사(2만) 쿼터를 모두 채웠다고 발표했다. 신규 접수는 이제 닫혔다.",
+      "interp": "올해 <b>신규 H-1B 신청</b>은 불가능합니다. 내년 접수 일정을 미리 확인하세요.",
+      "source": "USCIS",
+      "read": 3,
+      "url": "https://ogletree.com/insights-resources/blog-posts/uscis-reaches-fy-2027-h-1b-cap/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "아마존 실적 서프라이즈, 나스닥 반등",
+      "desc": "아마존이 시장 예상을 웃돈 2분기 실적을 내놓으며 클라우드 강세를 보였다. 필라델피아반도체지수는 8.19% 급등했다.",
+      "interp": "<b>미국 기술주·반도체주</b> 보유자에게 우호적인 흐름입니다.",
+      "source": "CNBC",
+      "read": 3,
+      "url": "https://www.cnbc.com/2026/07/30/apple-and-amazon-report-after-the-bell-heres-what-the-options-market-is-saying.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "구마모토 지진 사망 35명, 복구 지연",
+      "desc": "일본 구마모토 강진으로 사망자가 35명으로 늘었다. 규슈신칸센 일부 구간이 이틀째 운휴 중이며 5만8천여 가구가 단수·단전 상태다.",
+      "interp": "규슈 여행·거주 중이라면 <b>신칸센 운행 정보</b>를 미리 확인하세요.",
+      "source": "네이트뉴스",
+      "read": 3,
+      "url": "https://news.nate.com/view/20260731n14314",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "마요르카 공항, 지상직 파업 잇따라",
+      "desc": "팔마데마요르카공항 지상조업사 스위스포트 직원들이 7/28·8/1·8/4·8/8 파업에 나선다. 라이언에어 협력사 수화물 노동자도 8월 15일부터 파업한다.",
+      "interp": "이 기간 <b>스페인 여행 항공편</b>은 지연·결항 가능성을 확인하세요.",
+      "source": "Euro Weekly News",
+      "read": 3,
+      "url": "https://euroweeklynews.com/2026/07/26/palma-airport-strike-warning-as-summer-ground-staff-walkouts-threaten-holiday-disruption/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "ETIAS, 4분기 출시·수수료 20유로 확정",
+      "desc": "유럽 무비자 입국을 위한 ETIAS가 2026년 4분기 공식 출시된다. 수수료는 20유로로 정해졌으며 18세 미만·70세 이상은 면제된다.",
+      "interp": "출시 후에도 <b>최소 6개월 유예기간</b>이 있어 당장 의무는 아닙니다.",
+      "source": "ETIAS.co.kr",
+      "read": 3,
+      "url": "https://eurotravelo.com/ko/is-etias-delayed-again-your-guide-to-the-etias-start-date-visa-fees-and-application-process/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.9,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
