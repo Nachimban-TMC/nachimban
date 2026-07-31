@@ -18,3 +18,8 @@ ops/healthcheck.log
 
 # 로컬 세션 도구(커밋하지 않음)
 .claude/
+
+# 무인 발행 초안·보관(커밋 불필요)
+data/today-draft.json
+data/drafts/
+ops/logs/
