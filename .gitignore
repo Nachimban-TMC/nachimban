@@ -15,3 +15,6 @@ data/vapid.json
 ops/keeper.log
 ops/keeper.err
 ops/healthcheck.log
+
+# 로컬 세션 도구(커밋하지 않음)
+.claude/

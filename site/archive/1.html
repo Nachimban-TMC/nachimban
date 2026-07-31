@@ -399,6 +399,21 @@
 </div>
 
 <script>
+  // 지난 호(아카이브) 페이지는 항상 머리말에서 열리게 한다.
+  // 스냅(mandatory)과 브라우저의 스크롤 위치 복원이 겹치면 호마다 시작
+  // 위치가 제각각이 된다. 복원을 끄고, 로드 직후 맨 위로 고정한다.
+  (function(){
+    if('scrollRestoration' in history){ try{ history.scrollRestoration='manual'; }catch(e){} }
+    if(location.pathname.indexOf('/archive/')===0){
+      function top(){ window.scrollTo(0,0); }
+      top();
+      window.addEventListener('DOMContentLoaded', top);
+      window.addEventListener('load', function(){ top(); requestAnimationFrame(top); });
+      // 뒤로가기(bfcache)로 되돌아와도 머리말에서 시작
+      window.addEventListener('pageshow', top);
+    }
+  })();
+
   // 맨 위로: 한 화면 이상 내려갔을 때만 표시
   (function(){
     var b=document.getElementById('totop'), tick=false;
