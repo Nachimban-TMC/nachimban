@@ -404,14 +404,21 @@
   // 위치가 제각각이 된다. 복원을 끄고, 로드 직후 맨 위로 고정한다.
   (function(){
     if('scrollRestoration' in history){ try{ history.scrollRestoration='manual'; }catch(e){} }
-    if(location.pathname.indexOf('/archive/')===0){
-      function top(){ window.scrollTo(0,0); }
-      top();
-      window.addEventListener('DOMContentLoaded', top);
-      window.addEventListener('load', function(){ top(); requestAnimationFrame(top); });
-      // 뒤로가기(bfcache)로 되돌아와도 머리말에서 시작
-      window.addEventListener('pageshow', top);
-    }
+    if(location.pathname.indexOf('/archive/')!==0) return;
+    var el=document.documentElement;
+    // 로드하는 동안엔 스냅을 꺼 둔다. iOS 사파리는 mandatory 스냅이 켜져
+    // 있으면 로드 직후 직전 위치 근처의 카드로 끌어당겨, scrollTo(0,0)을
+    // 해도 다시 내려가 버린다(호마다 다른 위치에서 열리던 원인).
+    el.classList.add('no-snap');
+    function top(){ window.scrollTo(0,0); }
+    top();
+    document.addEventListener('DOMContentLoaded', top);
+    window.addEventListener('load', top);
+    window.addEventListener('pageshow', top);   // 뒤로가기(bfcache) 복귀도 머리말로
+    // iOS 의 지연 복원·스냅을 이기려면 여러 시점에 반복해서 눌러야 한다.
+    [0,50,120,250,400].forEach(function(t){ setTimeout(top,t); });
+    // 다 자리잡은 뒤 스냅을 되살린다(그때부터 카드 스냅이 정상 동작).
+    setTimeout(function(){ top(); el.classList.remove('no-snap'); }, 450);
   })();
 
   // 맨 위로: 한 화면 이상 내려갔을 때만 표시

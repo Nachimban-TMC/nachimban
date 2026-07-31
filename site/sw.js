@@ -1,5 +1,5 @@
 /* 나침반 서비스워커 — 앱처럼 설치되고, 오프라인에서도 마지막 브리핑을 볼 수 있게. */
-const CACHE = 'nachimban-v4';
+const CACHE = 'nachimban-v5';
 // '.html' 주소는 넣지 않는다. Cloudflare Pages 가 확장자 없는 주소로
 // 308 리다이렉트하는데, 리다이렉트된 응답은 캐시에 넣을 수 없다.
 const CORE = ['/', '/thanks', '/manifest.json', '/icon-192.png', '/sw-register.js',
