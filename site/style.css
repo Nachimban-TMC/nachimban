@@ -316,31 +316,34 @@
     .sec-hd .k{font-size:14px;}
     .sec-hd .en{font-size:10px;}
 
-    /* 카드 스냅 — 카드가 화면보다 작아(약 0.8배) 딱 맞출 수 있다.
-       mandatory 로 확실히 카드 단위로 넘어가게 한다. */
-    html{scroll-snap-type:y mandatory;}
+    /* 카드 스냅 — 오늘 피드에서만. 아카이브·커뮤니티는 no-snap 으로 끈다.
+       (showView 가 오늘이 아닐 때 html 에 no-snap 을 붙인다) */
+    html:not(.no-snap){scroll-snap-type:y mandatory;}
     /* 카드는 화면 중앙에 오도록 정렬 */
     .card{scroll-snap-align:center;}
-    /* 최상단 쉼점은 페이지 맨 위(nav)에 둔다. hero 에 두면 그 위의 nav 가
-       잘리고 제목이 노치 밑으로 들어간다. nav 자체가 안전영역 여백을 갖고
-       있어, 여기 붙으면 로고·구독·제목이 온전히 보인다. */
+    /* 최상단 쉼점은 페이지 맨 위(nav) — 위로 올리면 로고·제목이 온전히 보인다. */
     .nav{scroll-snap-align:start;scroll-margin-top:0;}
+    /* 맨 아래 구독 footer(band)도 쉼점으로 — 마지막 카드에 갇히지 않고
+       끝까지 스크롤해 footer 를 볼 수 있다. */
+    .band{scroll-snap-align:start;}
     /* 빠르게 여러 장 넘기는 건 허용. 멈추면 가장 가까운 카드 중앙에 붙는다. */
 
     /* 현재 보는 지역을 작게 띄워 보여준다 — 다이나믹 아일랜드 아래에 위치.
        섹션 헤더는 원래 모양 그대로 두고, 이 칩만 스크롤 중에 나타난다. */
-    /* 왼쪽에 배치해 오른쪽 카테고리 태그(주요뉴스·노동)와 겹치지 않게.
-       카테고리는 한글·검정 알약이므로, 지역은 영문·연한 스타일로 구분한다. */
-    #rgnow{position:fixed;left:max(16px, env(safe-area-inset-left) + 4px);
-      transform:translateY(-6px);
-      top:calc(env(safe-area-inset-top) + 10px);z-index:60;
-      background:color-mix(in srgb, var(--paper) 80%, transparent);
+    /* 카드가 화면을 꽉 채워, 위쪽은 날짜(왼)·카테고리(오른)가 이미 차지한다.
+       겹치지 않는 곳은 좌우 가장자리뿐 — 왼쪽 가장자리에 세로로 세운다.
+       날짜·카테고리·본문 어디와도 겹치지 않는 사이드 라벨. */
+    #rgnow{position:fixed;left:0;top:50%;
+      transform:translateY(-50%) translateX(-6px);z-index:60;
+      writing-mode:vertical-rl;text-orientation:mixed;
+      background:color-mix(in srgb, var(--paper) 82%, transparent);
       -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
-      color:var(--ink);border:1px solid var(--line-strong);
-      font-size:9.5px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;
-      padding:5px 11px;border-radius:999px;white-space:nowrap;
-      opacity:0;pointer-events:none;transition:opacity .2s, transform .2s;}
-    #rgnow.on{opacity:1;transform:translateY(0);}
+      color:var(--ink);border:1px solid var(--line-strong);border-left:0;
+      border-radius:0 6px 6px 0;
+      font-size:9px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;
+      padding:13px 4px;
+      opacity:0;pointer-events:none;transition:opacity .25s, transform .25s;}
+    #rgnow.on{opacity:1;transform:translateY(-50%) translateX(0);}
 
     /* 카드: 높이를 화면에 맞춰 통일한다. 길이가 제각각이던 카드가 같은
        크기로 정렬돼 스냅이 깔끔해진다. 넘치는 텍스트는 줄수로 정리하고,
