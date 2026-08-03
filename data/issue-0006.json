@@ -1,0 +1,493 @@
+{
+  "number": 6,
+  "date": "2026-08-03",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "독일 4차 폭염, 남서부 38~40도",
+      "desc": "독일 남서부·라인 지역에 올여름 네 번째 폭염이 찾아왔다. 수요일 38도, 목요일엔 39~40도까지 오르고 뇌우도 함께 예보됐다.",
+      "interp": "낮 시간 실외활동은 피하고 수분을 충분히 섭취하세요. <b>뇌우</b> 예보 지역은 외출 시 유의하세요.",
+      "source": "ZDF",
+      "read": 3,
+      "url": "https://www.zdfheute.de/panorama/hitzewelle-august-gewitter-deutschland-100.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "immigration",
+      "head": "이민행정에 AI 도입법, 내각 통과",
+      "desc": "연방정부가 비자·체류·난민 심사에 인공지능 분석을 활용하는 'AI이민행정법'을 지난주 승인했다. 가을 정기국회에서 논의될 예정이다.",
+      "interp": "심사 <b>지연 완화</b>가 목적이나 아직 시행 전입니다. 자동결정이 아닌 보조 도구로만 쓰입니다.",
+      "source": "t-online",
+      "read": 3,
+      "url": "https://www.t-online.de/nachrichten/deutschland/id_101365372/bundeskabinett-behoerden-duerfen-ki-bei-asylantraegen-nutzen.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "policy",
+      "head": "독일, 국경통제 9월 이후로 재연장",
+      "desc": "돕린트 내무장관이 세우타 이주민 사태를 이유로 독일 국경 내 통제를 9월 중순 이후로도 이어가겠다고 밝혔다. 정확한 연장 기간은 아직 미정이다.",
+      "interp": "국경을 오갈 계획이라면 <b>여권·체류증</b>을 평소보다 꼼꼼히 챙기세요.",
+      "source": "Handelsblatt",
+      "read": 3,
+      "url": "https://www.handelsblatt.com/politik/deutschland/migration-innenminister-dobrindt-verlaengert-grenzkontrollen/100244312.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "독일 지역 대중교통 요금, 8월 인상",
+      "desc": "라이프치히·에르푸르트·잉골슈타트 등 여러 지역 교통조합이 8월 1일부터 요금을 4~6%가량 올렸다. 인건비·에너지 비용 상승이 이유다.",
+      "interp": "정기권 이용자는 <b>갱신 전 새 요금표</b>를 확인하세요.",
+      "source": "in-direkt",
+      "read": 3,
+      "url": "https://in-direkt.de/gesellschaft/89846/neue-oepnv-tarife-ab-august-2026/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "코스피 3.6%대 급락, 급등 하루만에",
+      "desc": "전날 13%대 폭등했던 코스피가 3일 차익실현 매물에 3.60% 내린 6,358선에서 출발했다. 삼성전자·SK하이닉스 등 반도체주가 낙폭을 이끌었다.",
+      "interp": "<b>단기 변동성</b>이 매우 큰 장세입니다. 해외송금·환전 타이밍은 서두르지 말고 지켜보세요.",
+      "source": "아주경제",
+      "read": 3,
+      "url": "https://www.ajunews.com/view/20260803092226182",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "수도권도 오늘부터 극한 폭염",
+      "desc": "전국에 폭염특보가 이어지는 가운데 서울도 최고 37도까지 오르며 온열질환자가 올해 누적 1,889명으로 늘었다. 중대본은 대응 2단계로 격상했다.",
+      "interp": "낮 시간 <b>야외활동을 자제</b>하고 무더위쉼터를 이용하세요.",
+      "source": "파이낸셜뉴스",
+      "read": 3,
+      "url": "https://www.fnnews.com/news/202608021908031670",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "tax",
+      "head": "국세청, 귀국 재외국민 세무상담 신설",
+      "desc": "국세청이 7월부터 국내 복귀를 희망하는 재외국민 대상 1:1 온라인 세무상담을 정식 운영한다. 익명으로도 신청할 수 있다.",
+      "interp": "귀국 전 <b>자산 반입·양도세</b>가 걱정된다면 신청해 보세요. 법적 효력이 있는 유권해석은 아닙니다.",
+      "source": "아주경제",
+      "read": 3,
+      "url": "https://www.ajunews.com/view/20260623100447725",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "원·달러 환율 1430원대, 5개월 최저",
+      "desc": "3일 서울 외환시장에서 원·달러 환율이 1430원대에서 등락 중이다. 중동 지정학적 불확실성이 누그러지며 달러 약세가 이어진 영향이다.",
+      "interp": "송금 계획이 있다면 <b>환율 하락 구간</b>을 활용할 만합니다.",
+      "source": "아주경제",
+      "read": 3,
+      "url": "https://www.ajunews.com/view/20260803094817291",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "포항 해병대 간부, 총기사고 사망",
+      "desc": "3일 경북 포항 해병대 영외간부숙소에서 간부 1명이 총기 사고로 숨진 채 발견됐다. 군·경이 정확한 사고 경위를 조사하고 있다.",
+      "interp": "사고 경위가 <b>아직 조사 중</b>이므로 섣부른 단정은 주의가 필요합니다.",
+      "source": "헤럴드경제",
+      "read": 3,
+      "url": "https://biz.heraldcorp.com/article/10829075",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "세우타 이주민 위기, 사망 72명",
+      "desc": "모로코에서 스페인령 세우타로 이주민 약 6만 명이 몰리며 최소 72명이 숨졌다. EU는 8월 4일 내무장관 긴급 화상회의를 연다.",
+      "interp": "위기 지역을 방문할 예정이라면 <b>현지 안전공지</b>를 미리 확인하세요.",
+      "source": "Al Jazeera",
+      "read": 3,
+      "url": "https://www.aljazeera.com/news/2026/8/2/migrant-deaths-in-ceuta-rise-to-72-after-border-surge-from-morocco",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "travel",
+      "head": "이탈리아, 스페인발 입국자 국경검문",
+      "desc": "이탈리아가 세우타 사태 여파로 스페인발 항공·항만 입국자에 임시 검문을 시작했다. 덴마크·스웨덴도 국경통제 도입을 검토 중이다.",
+      "interp": "솅겐 내 이동이라도 <b>여권을 지참</b>하는 것이 안전합니다.",
+      "source": "Al Jazeera",
+      "read": 3,
+      "url": "https://www.aljazeera.com/news/2026/8/2/why-has-the-eu-called-an-emergency-meeting-on-spain-migrants-surge",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "crypto",
+      "head": "레볼루트, 테더(USDT) 8/31 상장폐지",
+      "desc": "레볼루트가 EU 미카(MiCA) 규정에 따라 8월 31일까지 EEA·스위스 이용자의 테더(USDT) 지원을 종료한다. 신규 매수는 이미 중단됐다.",
+      "interp": "USDT 보유자는 <b>기한 내 매도·이전</b>이 필요합니다.",
+      "source": "Yahoo Finance",
+      "read": 3,
+      "url": "https://finance.yahoo.com/markets/crypto/articles/revolut-delist-usdt-europe-tether-100105588.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "미국 워싱턴주 산불, 건물 600여채 소실",
+      "desc": "워싱턴주 스포캔 인근 대형 산불로 최소 600채 이상 건물이 파괴되고 수천 명이 긴급 대피했다. 기상당국은 최고 등급 화재위험 경보를 발령했다.",
+      "interp": "해당 지역 거주·여행 예정자는 <b>대피 안내</b>를 수시로 확인하세요.",
+      "source": "OPB",
+      "read": 3,
+      "url": "https://www.opb.org/article/2026/08/02/thousands-of-people-under-evacuation-order-from-wildfires-in-spokane-wash/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "S&P500 사상 최고치, 아마존 15%↑",
+      "desc": "지난 주말 아마존이 클라우드 실적 서프라이즈로 15% 급등하며 S&P500이 사상 최고치를 새로 썼다. 8월 7일 발표될 고용지표가 다음 변수다.",
+      "interp": "실적 시즌 <b>변동성</b>이 클 수 있으니 분산 투자를 점검하세요.",
+      "source": "CNBC",
+      "read": 3,
+      "url": "https://www.cnbc.com/2026/08/02/stock-market-today-live-updates.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "가족초청 그린카드, 8월 우선일 급진전",
+      "desc": "8월 비자 범핏에서 배우자·미혼자녀(F2A) 최종심사일이 2025년 1월에서 2026년 7월로 크게 앞당겨졌다. 접수 가능일은 계속 '현재(C)'다.",
+      "interp": "해당 대상자는 <b>이번 달 서류 준비</b>를 서두르는 것이 좋습니다.",
+      "source": "Newsweek",
+      "read": 3,
+      "url": "https://www.newsweek.com/green-card-update-full-list-changes-family-visas-august-visa-bulletin-state-department-12221324",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "study",
+      "head": "유학생 체류기간 고정제, 9/15 시행",
+      "desc": "국토안보부가 F·J·I 비자 소지자의 무기한 체류를 폐지하고 최대 4년의 고정 체류기간을 두는 규정을 확정했다. 9월 15일 시행 예정이다.",
+      "interp": "졸업이 늦어질 경우 <b>체류연장(EOS) 신청</b>을 미리 준비하세요.",
+      "source": "Forbes",
+      "read": 3,
+      "url": "https://www.forbes.com/sites/stuartanderson/2026/07/17/dhs-finalizes-immigration-rule-that-imperils-status-of-many-students/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "일본, 올해 태풍 28개 예보 — 8월 주의",
+      "desc": "일본 기상 전문기관들이 올해 태풍 약 28개 발생과 이 중 14개가 일본에 접근할 것으로 내다봤다. 특히 8월에 접근 빈도가 높을 전망이다.",
+      "interp": "오키나와·규슈 등으로 <b>8~9월 여행</b>은 일정에 여유를 두세요.",
+      "source": "Tokyo Weekender",
+      "read": 3,
+      "url": "https://www.tokyoweekender.com/japan-life/news-and-opinion/japan-typhoon-season-2026-forecast/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "국제선 유류할증료, 8월 또 인하",
+      "desc": "국제선 유류할증료가 8월 1일부터 3개월 연속 인하됐다. 항공유 가격 하락 영향으로 미주·유럽 노선은 편도 기준 최대 16만 원가량 낮아졌다.",
+      "interp": "<b>항공권 발권 시점</b>에 따라 총액이 달라지니 참고하세요.",
+      "source": "한국일보",
+      "read": 3,
+      "url": "https://www.hankookilbo.com/news/article/A2026071614040005437",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
