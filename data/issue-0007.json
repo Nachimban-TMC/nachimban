@@ -1,0 +1,466 @@
+{
+  "number": 7,
+  "date": "2026-08-04",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "라인강 최저수위, 연료공급 비상",
+      "desc": "라인강 카우프 지점 수위가 29㎝로 2018년 이후 최저치를 기록했습니다. 이번 주 22~24㎝까지 내려가면 1990년 관측 이래 최저이며, 서·남부 일부 주유소는 연료 부족이 우려됩니다.",
+      "interp": "<b>주유소 재고</b>를 미리 확인하고 급유는 여유 있게 해두세요. 서·남부 지역이 특히 영향권입니다.",
+      "source": "Handelsblatt",
+      "read": 3,
+      "url": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/spritpreise-niedriger-rhein-pegel-bedroht-spritversorgung-in-deutschland-01/100243365.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "health",
+      "head": "IKK클래식 건강보험료 인상",
+      "desc": "독일 대형 건강보험조합 IKK클래식의 추가기여율이 8월 1일부터 3.40%에서 3.85%로 오릅니다. 근로자는 월 최대 13유로, 자영업자는 최대 26유로를 더 냅니다.",
+      "interp": "IKK클래식 가입자는 인상을 이유로 <b>특별해지권</b>을 행사해 다른 보험조합으로 옮길 수 있습니다.",
+      "source": "Versicherungsjournal",
+      "read": 3,
+      "url": "https://www.versicherungsjournal.de/versicherungen-und-finanzen/ikk-classic-erhoeht-zusatzbeitrag-deutlich-156266",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "policy",
+      "head": "CSD 테러 대응, 소년법 강화 논의",
+      "desc": "베를린 CSD 테러 이후 내무장관 도브린트 등이 위험인물에 대한 소년법 적용 완화와 예방적 구금 강화를 요구했습니다. 연방하원 내무위원회도 대책을 논의했습니다.",
+      "interp": "치안 강화 흐름이니 <b>대규모 행사장</b> 인근에서는 평소보다 주변을 살피는 게 좋습니다.",
+      "source": "ZDFheute",
+      "read": 3,
+      "url": "https://www.zdfheute.de/politik/deutschland/csd-anschlag-berlin-abdul-b-vorgeschichte-gefaehrder-100.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "코스피 1.6%·코스닥 5.9% 동반 상승",
+      "desc": "코스피가 101.50포인트(1.62%) 오른 6358.95, 코스닥은 43.37포인트(5.88%) 오른 780.72로 마감했습니다. 반도체로 쏠렸던 자금이 바이오·로봇주로 옮겨간 영향입니다.",
+      "interp": "<b>업종 순환매</b> 장세이니 특정 종목 쏠림보다 분산 투자 원칙을 지키는 게 안전합니다.",
+      "source": "파이낸셜뉴스",
+      "read": 3,
+      "url": "https://www.fnnews.com/news/202608041631169275",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "tax",
+      "head": "비거주 1주택자 종부세, 대폭 인상",
+      "desc": "정부가 3일 발표한 세제개편안으로 1주택자 종부세 기본공제가 거주자 14억원, 비거주자 9억원으로 차등화됩니다. 비거주 1주택자는 종부세가 최대 851만원 늘어납니다.",
+      "interp": "해외 거주 중 국내 주택을 보유했다면 <b>거주자 지위와 종부세 부담</b>을 미리 따져보세요.",
+      "source": "파이낸셜뉴스",
+      "read": 3,
+      "url": "https://www.fnnews.com/news/202608031812382027",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "원·달러 환율 1432원대 마감",
+      "desc": "4일 원·달러 환율은 전일보다 2.7원 오른 1432.5원에 마감했습니다. 장중 1421~1433원대에서 등락하며 저가 매수와 결제 수요가 엇갈렸습니다.",
+      "interp": "<b>송금 시점</b>에 따라 유불리가 갈리니 급하지 않다면 환율 흐름을 며칠 지켜보세요.",
+      "source": "이투데이",
+      "read": 3,
+      "url": "https://www.etoday.co.kr/news/view/2610923",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "policy",
+      "head": "계열사 누락 총수, 직접 과징금 추진",
+      "desc": "공정거래위원회가 4일 하반기 업무계획을 발표하며, 계열사 신고를 누락한 대기업 총수 개인에게 최대 10%의 과징금을 직접 부과하는 법 개정을 추진한다고 밝혔습니다.",
+      "interp": "대기업 지배구조 규제가 <b>더 엄격</b>해지는 흐름이니 관련 투자 시 참고하세요.",
+      "source": "아주경제",
+      "read": 3,
+      "url": "https://www.ajunews.com/view/20260804112846052",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "education",
+      "head": "재외동포 학업지원, 8월 합격자 발표",
+      "desc": "재외동포청이 신설한 '재외동포청년 인재 학업지원' 사업의 최종 합격자가 이달 발표됩니다. 등록금 학기당 최대 500만원과 항공료, 연 1320만원 학업장려금을 지원합니다.",
+      "interp": "<b>모국 유학</b>을 고려 중이라면 발표 시기를 놓치지 말고 재외동포청 공지를 확인하세요.",
+      "source": "뉴스코리아",
+      "read": 3,
+      "url": "https://www.newskorea.ne.kr/news/articleView.html?idxno=18253",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "세우타 이주민 위기, EU 긴급회의",
+      "desc": "약 6만명이 며칠새 스페인령 세우타로 몰려 최소 72명이 사망한 가운데, 4일 EU 내무장관들이 긴급회의를 열어 국경통제 재도입과 국경기구 권한 강화를 논의했습니다.",
+      "interp": "국경 인근 <b>일시적 검문 강화</b> 가능성이 있으니 해당 지역 여행 시 여권을 항상 소지하세요.",
+      "source": "RTE",
+      "read": 3,
+      "url": "https://www.rte.ie/news/europe/2026/0804/1586312-ceuta-crisis/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "stocks",
+      "head": "독일 DAX지수, 사상 최고치 경신",
+      "desc": "독일 DAX지수가 전일 대비 1.45% 오른 26001.31로 사상 처음 26000선을 돌파했습니다. 미국 빅테크 실적 호조와 중동 긴장 완화 기대감이 겹친 영향입니다.",
+      "interp": "지수가 <b>사상 최고 구간</b>에 있는 만큼 신규 투자는 분할매수로 리스크를 관리하세요.",
+      "source": "이투데이",
+      "read": 3,
+      "url": "https://www.etoday.co.kr/news/view/2610598",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "crypto",
+      "head": "EU, 가상자산 규정 재검토 착수",
+      "desc": "유럽집행위원회가 가상자산 규정(미카)에 대한 공개 의견수렴을 시작해 8월 31일까지 접수합니다. 토큰화 주식과 스테이블코인 규제 범위 확대가 쟁점입니다.",
+      "interp": "<b>EU 내 가상자산 거래소</b> 이용자는 향후 규정 변경 여부를 지켜볼 필요가 있습니다.",
+      "source": "The Block",
+      "read": 3,
+      "url": "https://www.theblock.co/post/407613/european-commission-expand-mica-tokenization-non-eu-stablecoin-report",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "다우존스 사상 최고치, 뉴욕증시 급등",
+      "desc": "3일 다우존스가 693포인트(1.32%) 오른 53178.41로 사상 최고치를 기록했고, S&P500도 1.5% 상승했습니다. 미국과 이란의 외교적 타결 기대감이 랠리를 이끌었습니다.",
+      "interp": "시장이 <b>지정학적 뉴스</b>에 민감하니 뉴스 변화에 따른 변동성 확대에 대비하세요.",
+      "source": "Bloomberg",
+      "read": 3,
+      "url": "https://www.bloomberg.com/news/articles/2026-08-03/stock-market-today-dow-s-p-live-updates",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "방문비자 보증금제 영구화, 한국 제외",
+      "desc": "미 국무부가 3일 B-1·B-2 방문비자 신청자에게 최대 2만달러 보증금을 요구하는 제도를 영구화했습니다. 대상은 지정된 50개국이며 한국은 포함되지 않습니다.",
+      "interp": "한국 여권 소지자는 <b>해당 없음</b>이지만, 지정국 출신 가족·지인을 초청할 때는 참고하세요.",
+      "source": "Fragomen",
+      "read": 3,
+      "url": "https://www.fragomen.com/insights/united-states-state-department-makes-permanent-b-1b-2-visa-bond-program-for-certain-countries-and-increases-bond-amounts.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "가족초청 그린카드 우선일 대폭 전진",
+      "desc": "8월 비자공고에서 가족초청 영주권 우선일이 크게 앞당겨졌습니다. F2A는 2025년 1월에서 2026년 7월로, F2B는 7개월, F1은 5.5개월 전진했습니다.",
+      "interp": "<b>대상자라면 서류</b>를 미리 준비해 신청 시기를 놓치지 마세요.",
+      "source": "USCIS",
+      "read": 3,
+      "url": "https://www.uscis.gov/green-card/green-card-processes-and-procedures/visa-availability-priority-dates/when-to-file-your-adjustment-of-status-application-for-family-sponsored-or-employment-based-127",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "아마존, 시가총액 3조달러 첫 돌파",
+      "desc": "아마존이 예상을 웃돈 2분기 실적에 힘입어 3일 시가총액 3조달러를 처음 넘어섰습니다. 클라우드 부문 AWS 매출이 422억달러로 전망치를 웃돌았습니다.",
+      "interp": "<b>빅테크 실적 랠리</b>가 이어지고 있으니 보유 종목 비중을 점검해보세요.",
+      "source": "CNBC",
+      "read": 3,
+      "url": "https://www.cnbc.com/2026/08/03/amazon-amzn-stock-market-cap-earnings.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "스페인 두 공항, 무기한 파업 돌입",
+      "desc": "바르셀로나·팔마 공항 지상직 근로자들이 4일부터 무기한 파업에 들어가 최대 200만명의 승객이 영향권에 놓였습니다. 바르셀로나에서만 16편 이상이 결항했습니다.",
+      "interp": "8월 중 두 공항을 이용한다면 <b>항공편 변동</b>을 수시로 확인하고 여유 있게 공항에 도착하세요.",
+      "source": "The Local Spain",
+      "read": 3,
+      "url": "https://www.thelocal.es/20260804/barcelona-airport-strike-kicks-off-with-dozens-of-flights-cancelled",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "일본 구마모토 지진, 총리 현장 방문",
+      "desc": "다카이치 일본 총리가 3일 구마모토 지진 현장을 방문해 예비비 200억엔 투입을 밝혔습니다. 이번 지진은 특별재정지원이 필요한 '격심재해'로 지정됐습니다.",
+      "interp": "일본 여행 시 <b>피해 지역 접근</b> 전 최신 교통·숙박 정보를 미리 확인하세요.",
+      "source": "이데일리",
+      "read": 3,
+      "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=05516966645543712",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
