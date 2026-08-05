@@ -1,0 +1,466 @@
+{
+  "number": 8,
+  "date": "2026-08-05",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "루프트한자, 케로신 급등에 이익전망 하향",
+      "desc": "루프트한자가 케로신 가격 급등으로 2026년 조정영업이익 전망을 17~22억유로로 낮췄습니다. 2분기 이익은 작년보다 56% 줄었고 주가는 11% 급락했습니다.",
+      "interp": "<b>항공권 가격</b>이 오를 수 있어 예약은 서두르는 편이 유리합니다.",
+      "source": "Bloomberg",
+      "read": 3,
+      "url": "https://www.bloomberg.com/news/articles/2026-08-04/lufthansa-warns-of-profit-risk-as-jet-fuel-surge-roils-industry",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "policy",
+      "head": "독일, 병역 대비 시민봉사 부활 검토",
+      "desc": "독일 정부가 징병제 재도입에 대비해 새로운 시민봉사(치빌딘스트) 도입을 검토 중입니다. 관련 기관 23곳 중 22곳이 참여 의사를 밝혔습니다.",
+      "interp": "당장 <b>징병제가 부활하는 것은 아니며</b> 사전 대비 단계입니다.",
+      "source": "Euronews",
+      "read": 3,
+      "url": "https://de.euronews.com/my-europe/2026/08/04/wehrpflicht-ministerium-ruckkehr-zivildienst",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "housing",
+      "head": "독일 최대 임대업체, 임대료 4.2%↑ 전망",
+      "desc": "독일 최대 부동산 임대업체 보노비아가 상반기 실적 발표에서 올해 임대료 상승률을 4.2%로 전망했습니다. 공실률은 2.3%로 낮게 유지되고 있습니다.",
+      "interp": "<b>임대료 인상 추세</b>가 이어질 전망이니 갱신 시기를 미리 확인하세요.",
+      "source": "Boerse-Express",
+      "read": 3,
+      "url": "https://www.boerse-express.com/news/articles/vonovia-aktie-halbjahresbericht-am-5-august-929958",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "labor",
+      "head": "독일 7월 실업자 300만명 넘어",
+      "desc": "7월 실업자가 전월보다 7만1천명 늘어난 300만7천명, 실업률은 6.4%로 올랐습니다. 여름방학철 계절 요인이 크다는 설명입니다.",
+      "interp": "계절적 증가지만 <b>고용시장 둔화</b>가 이어지고 있어 이직 준비는 여유있게 하세요.",
+      "source": "Bundesagentur für Arbeit",
+      "read": 3,
+      "url": "https://www.presseportal.de/pm/6776/6324915",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "독일 오늘밤 강한 뇌우·폭염 경보",
+      "desc": "북해상 저기압 영향으로 5일 밤 돌풍과 우박을 동반한 강한 뇌우가 예상됩니다. 낮 최고기온은 36도까지 오를 전망입니다.",
+      "interp": "<b>야외 활동은 저녁 전에 마치고</b> 창문 단속을 해두는 게 안전합니다.",
+      "source": "wetter.com",
+      "read": 2,
+      "url": "https://www.wetter.com/news/wetterbericht-fuer-morgen-mittwoch-5-august-2026-sonne-hitze-und-teils-kraeftige-gewitter_aid_6a718038362e4f2c1501c014.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "서울 폭염중대경보 사상 첫 발령",
+      "desc": "서울 전역에 사상 처음으로 폭염중대경보가 내려졌습니다. 전국 온열질환자는 누적 2221명, 사망자는 19명으로 늘었습니다.",
+      "interp": "<b>한낮 외출을 피하고</b> 어르신·야외 근로자는 각별히 주의하세요.",
+      "source": "뉴시스·newspim",
+      "read": 3,
+      "url": "https://www.newspim.com/news/view/20260805000214",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "policy",
+      "head": "검찰 수사권 완전폐지, 국무회의 통과",
+      "desc": "1954년 형사소송법 제정 이후 72년 만에 검찰의 직접·보완수사권이 전면 폐지됩니다. 10월2일 공소청 출범과 함께 시행됩니다.",
+      "interp": "<b>수사는 경찰, 기소는 검찰</b>로 나뉩니다. 관련 민원 창구도 순차로 바뀝니다.",
+      "source": "이투데이·YTN",
+      "read": 3,
+      "url": "https://www.etoday.co.kr/news/view/2610794",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "stocks",
+      "head": "코스피 4%대 급등, 6600선 회복",
+      "desc": "뉴욕증시 강세와 국제유가 급락에 힘입어 코스피가 4%대 오르며 6600선을 회복했습니다. 삼성전자·SK하이닉스가 나란히 급등했습니다.",
+      "interp": "<b>변동성이 큰 장세</b>이니 해외송금·환전 타이밍은 여유를 두고 판단하세요.",
+      "source": "세계일보·한국일보",
+      "read": 2,
+      "url": "https://segye.com/newsView/20260805508062",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "policy",
+      "head": "재외국민 아이핀 인증, 8월부터 시행",
+      "desc": "재외동포청과 한국인터넷진흥원이 국내 휴대전화 없이도 쓸 수 있는 재외국민 아이핀 서비스를 8월부터 순차 개시합니다.",
+      "interp": "<b>휴대전화 인증이 어려웠던 분</b>은 재외동포365에서 새 인증수단을 확인하세요.",
+      "source": "재외동포청",
+      "read": 3,
+      "url": "https://www.oka.go.kr/web/board/brdDetail.do?menu_cd=000018&num=3886",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "travel",
+      "head": "휴가철 여권분실 사칭 보이스피싱 주의",
+      "desc": "공항 유실물 담당자를 사칭해 여권을 습득했다며 불안감을 조성하는 신종 보이스피싱이 여름 휴가철 늘고 있습니다.",
+      "interp": "<b>정부기관은 전화로 금전을 요구하지 않습니다</b>. 의심되면 바로 끊으세요.",
+      "source": "뉴시스",
+      "read": 2,
+      "url": "https://www.newsis.com/view/NISX20260803_0003734505",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "유럽 가뭄, 다뉴브강 사상 최저 수위",
+      "desc": "부다페스트 구간 다뉴브강 수위가 10cm까지 떨어져 2018년 최저치(33cm)를 크게 밑돌았습니다. 오스트리아·스위스 수력발전량은 평년의 절반 이하로 줄었습니다.",
+      "interp": "<b>일부 지역 전력·용수 사정</b>이 빠듯할 수 있으니 현지 공지를 확인하세요.",
+      "source": "Euronews·NPR",
+      "read": 3,
+      "url": "https://www.euronews.com/2026/08/04/europes-hydropower-nears-all-time-low-as-summer-drought-worsens-is-gas-the-only-backup",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "immigration",
+      "head": "세우타 이주민 위기, 사망 80명 넘어",
+      "desc": "지난주부터 세우타로 넘어온 이주민 7만2천명 중 7만명이 모로코로 돌아갔습니다. 국경을 넘다 숨진 사람은 80명을 넘어섰습니다.",
+      "interp": "<b>스페인 남부 국경지역</b> 통행이 불안정하니 해당 지역 여행은 최신 공지를 확인하세요.",
+      "source": "Euronews",
+      "read": 3,
+      "url": "https://www.euronews.com/my-europe/2026/08/04/spain-says-70000-of-72000-migrants-who-crossed-into-ceuta-have-already-returned",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "stocks",
+      "head": "유럽증시 스톡스600 사상 최고치",
+      "desc": "범유럽 스톡스600 지수가 기술주·실적 호조에 힘입어 사상 최고치를 새로 썼습니다. 4개월 연속 상승세를 이어가고 있습니다.",
+      "interp": "<b>유럽 주식형 상품 투자자</b>라면 최근 강세장 배경을 참고하세요.",
+      "source": "MarketScreener",
+      "read": 2,
+      "url": "https://www.marketscreener.com/news/european-stocks-hit-record-high-on-tech-earnings-boost-eye-monthly-gain-ce7f50dbdc8dff27",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "뉴욕증시 사상 최고치, 다우 5만4천대",
+      "desc": "호르무즈 해협 개방 기대에 국제유가가 5%대 급락하며 다우지수가 사상 처음 5만4천선에 안착했습니다. S&P500·나스닥도 최고치를 기록했습니다.",
+      "interp": "<b>유가 하락은 물가·항공료 안정에 도움</b>이 되지만 변동성은 남아있습니다.",
+      "source": "파이낸셜뉴스·뉴스핌",
+      "read": 3,
+      "url": "https://www.fnnews.com/news/202608050435316783",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "호르무즈 해협 재개방 협상, 유가 급락",
+      "desc": "미국과 이란이 호르무즈 해협 재개방 협상을 진행 중이며, 국제유가가 이틀 새 5~10% 급락했습니다. 다만 완전한 정상화까지는 시간이 걸릴 전망입니다.",
+      "interp": "<b>항공 유류할증료 인하</b>로 이어질 수 있어 항공권 가격을 지켜볼 만합니다.",
+      "source": "이데일리",
+      "read": 3,
+      "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01551446645544368",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "스페인 공항 파업 확산, 15일 추가",
+      "desc": "바르셀로나·팔마 지상직 파업에 이어 8월15일부터 라이언에어 지상조업사 직원 3천명이 스페인 12개 공항에서 파업에 들어갑니다.",
+      "interp": "<b>스페인행 라이언에어 이용자</b>는 체크인·수하물 지연에 대비하세요.",
+      "source": "National World",
+      "read": 3,
+      "url": "https://www.nationalworld.com/travel/travel-news/ryanair-strike-staff-strikes-in-spain-extended-until-december-affecting-barcelona-ibiza-malaga-palma-5278363",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "태풍 9호 바비, 오키나와 남쪽 접근",
+      "desc": "제9호 태풍 바비가 8월9일 오키나와 남서쪽 해상까지 북상한 뒤 대만 부근을 거쳐 세력이 약화될 전망입니다.",
+      "interp": "<b>오키나와·대만 여행 예정자</b>는 항공편 결항 여부를 미리 확인하세요.",
+      "source": "이투데이",
+      "read": 2,
+      "url": "https://www.etoday.co.kr/news/view/2602271",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}

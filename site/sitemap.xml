@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://nachimban.pages.dev/</loc><lastmod>2026-08-04</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://nachimban.pages.dev/</loc><lastmod>2026-08-05</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://nachimban.pages.dev/archive/8</loc><lastmod>2026-08-05</lastmod><changefreq>never</changefreq><priority>0.7</priority></url>
   <url><loc>https://nachimban.pages.dev/archive/7</loc><lastmod>2026-08-04</lastmod><changefreq>never</changefreq><priority>0.7</priority></url>
   <url><loc>https://nachimban.pages.dev/archive/6</loc><lastmod>2026-08-03</lastmod><changefreq>never</changefreq><priority>0.7</priority></url>
   <url><loc>https://nachimban.pages.dev/archive/5</loc><lastmod>2026-07-31</lastmod><changefreq>never</changefreq><priority>0.7</priority></url>
