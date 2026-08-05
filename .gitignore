@@ -23,3 +23,7 @@ ops/healthcheck.log
 data/today-draft.json
 data/drafts/
 ops/logs/
+
+# 소셜 자동게시 비밀·상태(커밋 금지)
+data/social_tokens.json
+data/social_posted.json

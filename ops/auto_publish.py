@@ -23,6 +23,7 @@ import os
 import shutil
 import subprocess
 import sys
+import time
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(REPO)
@@ -144,9 +145,37 @@ def main() -> int:
         _alert_failure("알림 발송", e, number, today)
         # 발행·배포는 됐으므로 초안은 치운다(중복 발행 방지). 실패는 알림으로 이미 통지.
 
+    # --- 4) 인스타·스레드 자동 게시 — 최선노력(토큰 없으면 건너뜀, 실패해도 발행은 완료) ---
+    try:
+        _wait_images_live()
+        sys.path.insert(0, os.path.join(REPO, "ops", "social"))
+        import post_social
+        post_social.run(log=_log)
+    except Exception as e:
+        _log(f"🚨 소셜 자동 게시 실패: {type(e).__name__}: {e}")
+        _alert_failure("소셜 자동 게시", e, number, today)
+
     _archive_draft("published")
     _log(f"✅ 제{number}호 무인 발행 완료")
     return 0
+
+
+def _wait_images_live(timeout: int = 180) -> None:
+    """게시 API는 공개 이미지 URL을 가져가므로, Cloudflare 배포가 끝나 이미지가
+    실제로 뜰 때까지 기다린다(최대 timeout초)."""
+    import urllib.request
+    url = "https://nachimban.pages.dev/social/img/slide-01.png"
+    deadline = dt.datetime.now() + dt.timedelta(seconds=timeout)
+    while dt.datetime.now() < deadline:
+        try:
+            req = urllib.request.Request(url + f"?cb={int(time.time())}", method="HEAD")
+            with urllib.request.urlopen(req, timeout=15) as r:
+                if r.status == 200:
+                    return
+        except Exception:
+            pass
+        time.sleep(10)
+    _log("소셜 이미지 라이브 확인 시간초과 — 그래도 게시 시도")
 
 
 def _alert_failure(stage: str, err: BaseException, number: int, date: str) -> None:

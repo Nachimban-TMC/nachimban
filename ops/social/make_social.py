@@ -264,6 +264,15 @@ def build_all(n=7):
         f"===== INSTAGRAM =====\n\n{ig}\n\n\n===== THREADS =====\n\n{th}\n")
     open(os.path.join(SOCIAL, "index.html"), "w", encoding="utf-8").write(
         viewer_html(iss, picks, ig, th, len(slides)))
+    # 매니페스트 — 자동 게시(post_social.py)가 이걸 읽어 그대로 올린다.
+    base = "https://nachimban.pages.dev/social/img"
+    manifest = {
+        "number": iss["number"], "date": iss["date"], "slides": len(slides),
+        "image_urls": [f"{base}/slide-{n:02d}.png" for n in range(1, len(slides) + 1)],
+        "ig_caption": ig, "threads_text": th,
+    }
+    open(os.path.join(SOCIAL, "manifest.json"), "w", encoding="utf-8").write(
+        json.dumps(manifest, ensure_ascii=False, indent=2))
     return {"number": iss["number"], "date": iss["date"],
             "slides": len(slides), "failed": fail, "picks": len(picks)}
 
