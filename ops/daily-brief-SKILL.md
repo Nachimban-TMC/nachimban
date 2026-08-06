@@ -95,6 +95,7 @@ for p in sorted(glob.glob('data/issue-*.json'))[-4:]:
 - `interp`: "쉬운 해석" **2문장 이내(대략 40~70자)**, 핵심어 1~2개를 `<b>…</b>` 로 강조. 실천 팁 포함.
 - 카드는 한 화면에 한 장씩 뜨므로 **길이를 고르게** 맞추는 게 중요합니다. 내용이 많아도 카드엔 핵심만, 자세한 건 원문(READ MORE)으로 넘깁니다.
 - 단정·과장 금지, 안내형 표현("확인하세요") 사용.
+- **한자·한문 약칭 금지.** 누구나 쉽게 읽어야 합니다. 신문식 한 글자 약칭(獨·美·檢·日·中·與·野·靑 등)을 절대 쓰지 말고 **평범한 한글 전체 단어**로 쓰세요 — 獨→독일, 美→미국, 檢→검찰, 日→일본, 中→중국, 與→여당, 野→야당, 靑→대통령실. `head·desc·interp·source` 어디에도 한자가 들어가면 안 됩니다.
 
 ### 3) 팩트체커 역할 — 위험도에 따라 검증 강도를 나눔 (토큰 효율 + 정확성)
 
@@ -124,49 +125,39 @@ A급 절차:
 - 추측·과장 금지. 원문에 없는 수치·날짜를 만들지 마세요.
 - 검증 근거로 쓴 URL을 각 뉴스의 `url` 에 넣으세요.
 
-### 4) 발행
-```python
-import json, datetime
-from schema import Issue, NewsItem, FactVerdict
-from pipeline import publish
+### 4) 초안 저장 — 이게 마지막 작업입니다 ⚠️
 
-items = [NewsItem(**d) for d in 오늘_뉴스_리스트]
-v = FactVerdict(verdict="PASS", confidence=0.95, sources_count=2)
-for it in items:
-    it.check_a, it.check_b, it.verdict = v, v, "PASS"
-issue = Issue(number=다음_호수, date=오늘_날짜, published=items, held=[])
-publish.publish(issue)
+조사·검증이 끝난 뉴스를 **`data/today-draft.json` 파일에 저장**하세요. 반드시 **Write 도구**로 저장합니다 (bash·python 으로 하지 마세요 — 그러면 승인 대기로 멈춥니다).
+
+```json
+{
+  "items": [
+    {"region":"de","category":"general","head":"...","desc":"...","interp":"...","source":"매체명","read":3,"url":"https://...","hot":true,"hotflag":"Must read"},
+    {"region":"de","category":"tax","head":"...","desc":"...","interp":"...","source":"...","read":3,"url":"https://...","hot":false,"hotflag":null}
+  ]
+}
 ```
-- 호수: `data/index.json` 의 최대 number + 1
+
+- **호수·날짜는 넣지 마세요** — 발행 스크립트가 `data/index.json` 을 보고 자동으로 정합니다(최대 number + 1, 오늘 날짜).
 - 각 item 필드: `region, category, head, desc, interp, source, read, url, hot, hotflag`
 - `category` 는 `config.CATEGORIES` 키만 사용 (general/visa/welfare/tax/policy/life/housing/pension/health/study/education/travel/invest/stocks/crypto/labor/immigration/citizenship)
 - **지역별 배치 순서**: 그 지역의 `general`(주요뉴스)을 맨 앞에 두세요.
-- 지역별 가장 중요한 1건에 `hot=True`, `hotflag="Must read"` (한국은 `"For expats"`)
-- `url` 은 1차 출처 링크
+- 지역별 가장 중요한 1건에 `"hot":true`, `"hotflag":"Must read"` (한국은 `"For expats"`), 나머지는 `"hot":false, "hotflag":null`.
+- `url` 은 1차 출처 링크.
+- 한자·한문 약칭 절대 금지(위 2) 규칙) — `head·desc·interp·source` 어디에도 한자가 없어야 합니다.
 
-### 5) 배포
-```bash
-cd ~/nachimban && git add site/ data/ && git commit -m "제N호 자동 발행 YYYY-MM-DD" && git push
-```
-인증은 맥 키체인에 저장돼 있어 추가 입력이 필요 없습니다. push 후 Cloudflare Pages 가 1~2분 내 자동 재배포합니다.
-
-### 5-b) 📣 알림 발송 — 반드시 실행 (빼먹지 마세요)
-배포까지 끝났으면 구독자에게 **앱 푸시(+이메일)** 를 보냅니다. 키는 `.env` 에서 자동으로 읽습니다:
-```bash
-cd ~/nachimban && python3 -m pipeline.run --send-latest
-```
-- 출력에 `🔔 푸시 발송 N/N건` 이 보이면 성공입니다.
-- `PUSH_ADMIN_TOKEN 없음` 이 나오면 `.env` 에 토큰이 없는 것이니, 보고에 그 사실을 적어주세요.
-- 이 단계를 건너뛰면 사이트는 갱신되지만 **사용자가 알림을 받지 못합니다.**
+**초안 파일을 쓰면 당신의 일은 끝입니다. git·발행·발송은 절대 직접 하지 마세요.**
+백그라운드 자동작업(launchd `com.nachimban.autopublish`)이 몇 분 안에 그 초안을 받아 **빌드 → 배포(git push) → 앱 푸시·이메일 발송**까지 승인 없이 끝냅니다. 이렇게 나눈 이유는, 그 바깥 단계들이 예약 세션에선 매번 승인 대기로 멈추기 때문입니다.
 
 ### 6) 보고
-완료 후 한국어로 간단히:
-- 발행 호수·날짜·총 건수(지역별)
-- **알림 발송 결과** (푸시 N건 / 실패 시 사유)
+초안 저장 후 한국어로 간단히 (배포·발송은 자동작업이 이어서 합니다):
+- 오늘 조사한 총 건수(지역별)
 - 검증 요약 (A급 이중검증 N건 / B급 N건)
 - 오늘의 주요 헤드라인 2~3개
 - 검증 중 **제외한 뉴스가 있으면 그 이유**
-- 사이트 링크 https://nachimban.pages.dev
+- 마지막 줄: "초안 저장 완료 — 자동작업이 배포·발송합니다."
+- 그 아래 소셜 자료 안내를 항상 남기세요(발행 몇 분 뒤 자동 갱신됨):
+  📱 인스타·스레드 소셜 자료: https://nachimban.pages.dev/social
 
 ## 주의
 - 뉴스는 반드시 **실제 웹 조사 결과**. 지어내지 마세요.

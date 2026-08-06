@@ -157,6 +157,7 @@ def main() -> int:
 
     _archive_draft("published")
     _log(f"✅ 제{number}호 무인 발행 완료")
+    _log("📱 인스타·스레드 소셜 자료: https://nachimban.pages.dev/social")
     return 0
 
 
