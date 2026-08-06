@@ -1,0 +1,439 @@
+{
+  "number": 9,
+  "date": "2026-08-06",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "라인강 사상 최저 수위, 화물선 운항 중단",
+      "desc": "라인강 마우아우 관측소 수위가 3.03미터로 사상 최저치를 기록했다. 쾰른·카를스루에 항구는 8월 9일까지 운항을 중단했고 화물 적재량도 3분의 1로 제한됐다.",
+      "interp": "물류 차질로 <b>연료·생필품 가격</b>이 오를 수 있다. 당분간 물가 변동을 확인하는 게 좋다.",
+      "source": "카를스루에 지역지(ka-news)",
+      "read": 3,
+      "url": "https://www.ka-news.de/karlsruhe/karlsruhe-rhein-niedrigwasser-erreicht-historischen-tiefstand-114957248",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "general",
+      "head": "메르츠 총리 지지율, 1998년 이후 최저",
+      "desc": "RTL·ntv 여론조사에서 메르츠 총리 지지율이 20%로 떨어져 1998년 조사 이래 최저치를 기록했다. 불만족 응답은 78%에 달했다.",
+      "interp": "<b>연정 갈등</b>이 계속되며 정국 불안정이 이어지고 있다. 관련 정책 변화를 지켜봐야 한다.",
+      "source": "ad-hoc-news",
+      "read": 3,
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/unzufriedenheit-mit-kanzler-merz-auf-allzeithoch-afd-holt-cdu-csu-in/69097458",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "crypto",
+      "head": "비트코인 비과세 폐지 반대 청원, 청문회 확정",
+      "desc": "비트코인 등 가상자산의 1년 보유 후 비과세 혜택 폐지에 반대하는 연방의회 청원이 3만 명 서명을 넘겼다. 의회는 공개 청문회를 열어야 한다.",
+      "interp": "독일에서 <b>가상자산을 장기 보유</b>하고 있다면 세제 논의를 주시하세요. 아직 확정된 변경은 아니다.",
+      "source": "Handelsblatt",
+      "read": 3,
+      "url": "https://www.handelsblatt.com/technik/it-internet/umstrittene-haltefrist-bundestags-petition-gegen-krypto-steuerplaene-erfolgreich/100245373.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "policy",
+      "head": "내무장관, 소년법 개정 추진 표명",
+      "desc": "도브린트 내무장관이 CSD 테러 이후 소년법 개정을 추진하겠다고 밝혔다. 위험인물에 대한 예방적 구금과 전자발찌 착용 등을 검토 중이다.",
+      "interp": "아직 <b>법안 발의 전 단계</b>다. 확정되면 다시 안내하겠다.",
+      "source": "it-boltwise",
+      "read": 3,
+      "url": "https://www.it-boltwise.de/dobrindt-will-jugendstrafrecht-reformieren-praeventivhaft-und-elektronische-fussfesseln.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "6월 경상수지 사상 최대, 수출 첫 1000억달러",
+      "desc": "한국은행이 발표한 6월 경상수지가 497억3000만달러 흑자로 두 달 연속 역대 최대를 기록했다. 수출도 처음으로 1000억달러를 넘어섰다.",
+      "interp": "<b>반도체 수출 호조</b>가 이끈 결과다. 원화 자산·환율에도 우호적인 신호다.",
+      "source": "이투데이",
+      "read": 3,
+      "url": "https://www.etoday.co.kr/news/view/2611523",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "citizenship",
+      "head": "병역법 개정, 재외국민 2세 여행허가 확대",
+      "desc": "개정 병역법에 따라 재외국민 2세는 25세부터 37세까지 국외여행허가를 받을 수 있게 된다. 국내 취업이나 6개월 이상 체류도 허가 취소 사유에서 제외된다.",
+      "interp": "재외국민 2세 자녀가 있다면 <b>병역 관련 서류</b>를 미리 확인해두는 게 좋다.",
+      "source": "찾기쉬운 생활법령정보",
+      "read": 3,
+      "url": "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1698&ccfNo=4&cciNo=1&cnpClsNo=1",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "폭염중대경보 확대, 광양까지 포함",
+      "desc": "서울 등 수도권과 전남 광양에 폭염중대경보가 발효돼 낮 최고기온이 39도에 달했다. 필수 업무 외 야외활동은 중단이 권고된다.",
+      "interp": "귀국 예정이라면 <b>폭염 대비용품</b>을 챙기고 야외 일정을 조정하세요.",
+      "source": "파이낸셜뉴스",
+      "read": 3,
+      "url": "https://www.fnnews.com/news/202608060630492824",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "AI법 투명성 규정 시행, 챗봇 표시 의무화",
+      "desc": "8월 2일부터 EU AI법의 투명성 규정이 시행됐다. 챗봇은 AI임을 밝혀야 하고 딥페이크·AI 생성물에는 표시를 달아야 한다.",
+      "interp": "EU 거주자라면 <b>AI 챗봇·이미지</b> 이용 시 표시 여부를 확인할 수 있다.",
+      "source": "유럽연합 집행위원회",
+      "read": 3,
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "policy",
+      "head": "ETIAS 출시 목표 철회, 2027년으로 밀릴 듯",
+      "desc": "EU가 올해 4분기로 예고했던 ETIAS 출시 목표를 공식 페이지에서 삭제했다. eu-LISA 9월 이사회 이후 2027년 시행이 유력하다.",
+      "interp": "이번 겨울까지는 <b>ETIAS 없이</b> 기존 방식으로 유럽 입국이 가능할 전망이다.",
+      "source": "etias.com",
+      "read": 3,
+      "url": "https://etias.com/articles/etias-drops-2026-date-as-launch-slips-out-of-view",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "invest",
+      "head": "반도체주 강세, 유럽증시 최고치 행진",
+      "desc": "인피니언·ASML 등 반도체주 강세에 힘입어 스톡스600지수가 656.86으로 다시 최고치를 갈아치웠다. 올해 상승률은 10%에 달한다.",
+      "interp": "유럽 증시에 투자 중이라면 <b>반도체 관련주</b> 비중을 점검해볼 만하다.",
+      "source": "CNBC",
+      "read": 3,
+      "url": "https://www.cnbc.com/2026/08/05/stoxx-600-record-leaders-laggards-markets.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "서부 폭염돔 지속, 사망자 70명",
+      "desc": "미국 서부를 뒤덮은 폭염돔으로 7월 이후 사망자가 최소 70명에 달한다. 애리조나·워싱턴 등에서는 산불 위험도 함께 커지고 있다.",
+      "interp": "서부 지역 방문 예정이라면 <b>폭염 경보</b>와 산불 상황을 미리 확인하세요.",
+      "source": "Washington Post",
+      "read": 3,
+      "url": "https://www.washingtonpost.com/weather/2026/07/26/this-months-heat-domes-killed-least-70-people-us-post-analysis-finds/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "invest",
+      "head": "연준 금리 동결, 이례적 3명 인상 소수의견",
+      "desc": "연준이 기준금리를 3.50~3.75%로 5회 연속 동결했다. 신임 워시 의장 체제에서 최다인 3명이 인상 소수의견을 냈다.",
+      "interp": "달러 예금·송금 계획이 있다면 <b>금리 동향</b>을 계속 지켜보는 게 좋다.",
+      "source": "Bloomberg",
+      "read": 3,
+      "url": "https://www.bloomberg.com/news/articles/2026-07-29/fed-holds-rates-steady-three-officials-dissent-favoring-a-hike",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "스페이스X 락업 해제, 매도 물량 우려",
+      "desc": "8월 6일 스페이스X 주식 1010억달러어치가 매도 제한에서 풀린다. 9단계로 나뉜 이번 락업 해제로 최대 9억1150만 주가 시장에 나올 수 있다.",
+      "interp": "스페이스X 관련 <b>투자 상품</b>을 보유 중이라면 단기 변동성에 유의하세요.",
+      "source": "Bloomberg",
+      "read": 3,
+      "url": "https://www.bloomberg.com/news/articles/2026-08-05/spacex-s-101-billion-unlock-heaps-pressure-on-battered-shares",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "구마모토 지진 복구 지연, 사망 36명",
+      "desc": "구마모토 지진 사망자가 36명으로 늘었고 6만9000여 가구는 여전히 단수 상태다. 신칸센 일부 구간은 8월 내 복구가 어려울 전망이다.",
+      "interp": "구마모토 방문 예정이라면 <b>교통·상수도</b> 상황을 미리 확인하세요.",
+      "source": "뉴시스",
+      "read": 3,
+      "url": "https://www.newsis.com/view/NISX20260801_0003732767",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "스페인 공항 파업 확대, 200만명 영향",
+      "desc": "바르셀로나·팔마 공항 지상직 파업이 무기한으로 확대됐다. 9월 말까지 최대 200만 명의 승객이 영향을 받을 수 있다.",
+      "interp": "스페인 여행 계획이 있다면 <b>항공편 변동</b> 여부를 수시로 확인하세요.",
+      "source": "AirHelp",
+      "read": 3,
+      "url": "https://www.airhelp.com/en/flight-disruptions/spain-ground-handling-strikes-barcelona-palma-30072026/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "태풍 9호 바비, 오키나와 10~11일 영향",
+      "desc": "태풍 바비가 마리아나 제도를 통과해 서북서진 중이다. 10~11일에는 오키나와 지역에 높은 파도와 너울이 예상된다.",
+      "interp": "오키나와 등 일본 남부 여행 예정이라면 <b>태풍 경로</b>를 계속 확인하세요.",
+      "source": "일본기상청 인용보도",
+      "read": 3,
+      "url": "https://www.lecturernews.com/news/articleView.html?idxno=205941",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
