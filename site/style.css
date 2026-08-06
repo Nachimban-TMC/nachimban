@@ -319,8 +319,9 @@
     /* 카드 스냅 — 오늘 피드에서만. 아카이브·커뮤니티는 no-snap 으로 끈다.
        (showView 가 오늘이 아닐 때 html 에 no-snap 을 붙인다) */
     html:not(.no-snap){scroll-snap-type:y mandatory;}
-    /* 카드는 화면 중앙에 오도록 정렬 */
-    .card{scroll-snap-align:center;}
+    /* 카드는 위에서부터 보이도록 상단 정렬 — 내용이 길어 화면보다 커도
+       머리부터 잘림 없이 읽힌다(중앙 정렬은 긴 카드의 위아래를 잘랐다). */
+    .card{scroll-snap-align:start;scroll-margin-top:10px;}
     /* 최상단 쉼점은 페이지 맨 위(nav) — 위로 올리면 로고·제목이 온전히 보인다. */
     .nav{scroll-snap-align:start;scroll-margin-top:0;}
     /* 맨 아래 구독 footer(band)도 쉼점으로 — 마지막 카드에 갇히지 않고
@@ -345,18 +346,13 @@
       opacity:0;pointer-events:none;transition:opacity .25s, transform .25s;}
     #rgnow.on{opacity:1;transform:translateY(-50%) translateX(0);}
 
-    /* 카드: 높이를 화면에 맞춰 통일한다. 길이가 제각각이던 카드가 같은
-       크기로 정렬돼 스냅이 깔끔해진다. 넘치는 텍스트는 줄수로 정리하고,
-       전문은 READ MORE 로 볼 수 있다. (내일부터는 생성 단계에서 길이를
-       맞춰 잘림 없이 한 화면에 들어오게 한다.) */
+    /* 카드: 최소 한 화면 높이를 유지하되(짧은 카드도 한 장씩 스냅되게),
+       내용이 길면 카드가 늘어나 전부 보인다. 잘라서 '...' 로 감추지 않는다. */
     .card{padding:18px 16px 16px;
-      height:calc(100svh - 128px);overflow:hidden;}
-    .card h3{font-size:19px;line-height:1.38;
-      display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
-    .desc{font-size:14px;line-height:1.72;
-      display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden;}
-    .interp p{font-size:13.5px;
-      display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;}
+      min-height:calc(100svh - 128px);}
+    .card h3{font-size:19px;line-height:1.38;}
+    .desc{font-size:14px;line-height:1.72;}
+    .interp p{font-size:13.5px;}
     .thumb{aspect-ratio:16/10;margin-bottom:15px;}
     .m-bot{flex-wrap:wrap;gap:8px 12px;font-size:10.5px;}
     .m-bot .readmore{font-size:9.5px;}
