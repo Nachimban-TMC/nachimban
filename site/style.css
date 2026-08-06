@@ -355,7 +355,9 @@
       display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden;}
     .interp p{font-size:13.5px;
       display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;}
-    .thumb{aspect-ratio:16/10;margin-bottom:15px;}
+    /* 이미지는 화면 높이에 비례해 통일(같은 화면에선 모든 카드 동일). 작은 폰에선
+       작아져 본문 4줄 공간을 확보하고, 큰 폰에선 커져 카드 빈 공간을 줄인다. */
+    .thumb{aspect-ratio:auto;height:clamp(100px, 15svh, 176px);flex:none;margin-bottom:14px;}
     .m-bot{flex-wrap:wrap;gap:8px 12px;font-size:10.5px;}
     .m-bot .readmore{font-size:9.5px;}
 
