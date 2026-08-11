@@ -1,0 +1,547 @@
+{
+  "number": 12,
+  "date": "2026-08-11",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "라이프치히 드론, 러시아 배후 결론",
+      "desc": "라이프치히 공항 드론 사건을 미 정보당국이 러시아 배후로 결론지었습니다. 월스트리트저널이 '높은 확률로 러시아 개입'이라 보도했습니다. 독일 내 안보 경계가 높아지고 있습니다.",
+      "interp": "<b>러시아 배후설</b>이 정보당국 결론으로 공식화됐습니다. 공항·역 등을 이용할 땐 <b>보안 안내방송</b>에 유의하세요.",
+      "source": "WSJ·t-online",
+      "read": 3,
+      "url": "https://www.t-online.de/nachrichten/deutschland/militaer-verteidigung/id_101380040/drohnenangriff-in-leipzig-us-geheimdienste-verdaechtigen-wohl-russland.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "policy",
+      "head": "정부, 공항 드론방어 긴급 강화",
+      "desc": "빌거 교통장관이 라이프치히 사건 후 공항 드론방어 확충을 서두르겠다고 밝혔습니다. 프랑크푸르트·뮌헨은 갖췄지만 다른 공항은 미비합니다. 여름 성수기 이용객 불편이 우려됩니다.",
+      "interp": "<b>공항 보안검색</b>이 당분간 곳곳에서 강화될 수 있습니다. 항공편 이용 시엔 <b>여유 있게 출발</b>하는 것이 좋습니다.",
+      "source": "finanznachrichten.de",
+      "read": 2,
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69259554-bilger-will-drohnenabwehr-an-flughaefen-verbessern-003.htm",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "immigration",
+      "head": "이민행정 디지털화법 관보 게재",
+      "desc": "생체정보를 재사용하게 하는 '이민행정 디지털화법'이 지난달 28일 관보 게재로 시행됐습니다. 체류허가 갱신 때 지문·사진을 다시 낼 필요가 없어졌습니다. 방문 부담이 줄어듭니다.",
+      "interp": "체류허가 <b>갱신 시 지문 재등록</b>이 불필요해졌습니다. 예약 전 담당 외국인청에 <b>적용 여부를 확인</b>해보세요.",
+      "source": "Bundesgesetzblatt",
+      "read": 2,
+      "url": "https://www.recht.bund.de/bgbl/1/2026/222/regelungstext.pdf",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "study",
+      "head": "일부 주, 유학생 등록금 재도입 논의",
+      "desc": "바덴뷔르템베르크 등 일부 주가 비유럽 유학생에게 학기당 1500유로 등록금을 걷는 방안을 다시 논의 중입니다. 다른 주로도 확산될 조짐입니다. 유학생 부담이 커질 수 있습니다.",
+      "interp": "<b>등록금을 부과하는 주</b>가 늘어날 조짐입니다. 진학·환승 예정이면 <b>해당 주 최신 방침을 확인</b>하세요.",
+      "source": "Studis Online",
+      "read": 2,
+      "url": "https://www.studis-online.de/studiengebuehren/bawue.php",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "남부 폭염 지속, 최고 33도",
+      "desc": "11일 독일 남부는 최고 33도까지 오르는 무더위와 열대야가 이어집니다. 북부는 20~25도로 선선하지만 알프스 인근은 강한 뇌우가 우려됩니다. 온열질환에 유의해야 합니다.",
+      "interp": "독일 남부는 당분간 <b>무더위</b>가 계속됩니다. 야외활동 시엔 <b>수분 섭취와 그늘 휴식</b>을 충분히 챙기세요.",
+      "source": "DWD",
+      "read": 1,
+      "url": "https://www.dwd.de/DE/wetter/warnungen_gemeinden/warnWetter_node.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "8월 수출 213억달러, 역대 최대",
+      "desc": "이달 1~10일 수출이 213억달러로 8월 상순 기준 역대 최대를 기록했습니다. 반도체가 전년보다 155% 늘어 100억달러에 육박, 전체의 46.8%를 차지했습니다.",
+      "interp": "반도체가 이번 <b>수출 호조</b>를 이끌고 있습니다. 송금·환전 계획이 있다면 <b>환율 변동을 당분간 주시</b>하세요.",
+      "source": "파이낸셜뉴스",
+      "read": 2,
+      "url": "https://www.fnnews.com/news/202608110916077487",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "평택 위험물창고 화재, 9시간만에 진화",
+      "desc": "11일 새벽 경기 평택 위험물 창고 화재로 국가소방동원령이 발령됐다 9시간 만에 꺼졌습니다. 인화성 액체 191만리터가 있던 시설로 4개 지역이 지원했습니다. 인명피해는 없습니다.",
+      "interp": "대형 화재였지만 <b>인명피해는 없었습니다</b>. 평택 방문 계획이 있다면 <b>주변 교통 통제 여부를 확인</b>하세요.",
+      "source": "파이낸셜뉴스",
+      "read": 2,
+      "url": "https://www.fnnews.com/news/202608110915221707",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "education",
+      "head": "자녀 출입국증명서, 온라인 발급 추진",
+      "desc": "재외동포청이 재외국민 자녀 출입국증명서를 온라인 발급하는 방안을 추진 중입니다. 특례입학 지원 서류로, 그동안 영사관 방문·우편 신청이 필요했습니다. 부담이 줄어들 전망입니다.",
+      "interp": "특례입학 필요 서류를 <b>온라인으로 발급</b>받게 될 전망입니다. 정확한 시행 시기는 <b>동포청 공지를 확인</b>하세요.",
+      "source": "아세안익스프레스",
+      "read": 2,
+      "url": "https://www.aseanexpress.co.kr/news/article.html?no=12957",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "crypto",
+      "head": "가상자산 과세, 유예법안 발의",
+      "desc": "내년 1월 시행될 가상자산 과세를 2030년까지 미루는 법안이 국민의힘 발의로 제출됐습니다. 현행대로면 연 250만원 초과 이익에 약 22%가 과세됩니다. 연말 국회서 결론납니다.",
+      "interp": "가상자산 <b>과세 시행 여부</b>가 다시 쟁점이 됐습니다. 연말까지 <b>확정된 것이 아니니</b> 성급한 매매는 주의하세요.",
+      "source": "이투데이",
+      "read": 2,
+      "url": "https://www.etoday.co.kr/news/view/2582306",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "health",
+      "head": "재외국민 건보료, 형평성 논란",
+      "desc": "장기체류 재외국민이 지역가입자로 건강보험에 가입하면 소득이 없어도 최소보험료가 국내 평균보다 훨씬 높게 매겨집니다. 소득 미확인 시 평균보험료까지 자동으로 올리는 방식입니다.",
+      "interp": "입국 후 <b>지역가입자</b>가 되면 보험료가 예상보다 높을 수 있습니다. 귀국 전 <b>국민건강보험공단에 문의</b>해보세요.",
+      "source": "동포세계신문",
+      "read": 2,
+      "url": "https://www.ekw.co.kr/news/articleView.html?idxno=20077",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "남유럽 산불·가뭄 확산",
+      "desc": "스페인 우엘바에서 산불로 주민 약 500명이 대피했고, 프랑스는 가뭄으로 국토 70%에 물 사용을 제한했습니다. 스페인은 올해 대형 산불이 40건으로 지난해보다 크게 늘었습니다.",
+      "interp": "남유럽 곳곳에서 <b>산불·가뭄</b>이 이어지고 있습니다. 여행 예정이면 목적지의 <b>제한급수·산불 정보</b>를 미리 확인하세요.",
+      "source": "Euronews",
+      "read": 3,
+      "url": "https://www.euronews.com/my-europe/2026/08/09/fires-in-huelva-and-castellon-force-evacuation-of-hundreds-of-residents",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "invest",
+      "head": "EU 소액투자자 보호법, 9월 공포",
+      "desc": "EU 이사회·의회가 합의한 소액투자자 보호 개편안이 다음달 관보 게재를 앞두고 있습니다. 투자상품 수수료 공시를 표준화하고 이해상충 관리를 강화합니다. 펀드 가입자도 영향받습니다.",
+      "interp": "EU 전역의 <b>투자상품 수수료 공시</b>가 더 투명해집니다. 가입 상품이 있다면 앞으로 <b>안내문 변경을 확인</b>하세요.",
+      "source": "Consilium(EU이사회)",
+      "read": 2,
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2025/12/18/retail-investment-strategy-council-and-parliament-agree-on-package-to-empower-consumers-while-boosting-markets/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "travel",
+      "head": "유럽 항공대란, 결항 2500편대",
+      "desc": "지난 9일 하루 유럽에서 118편이 결항하고 2478편이 지연됐습니다. 로마 피우미치노 공항만 291편이 지연됐고 7개국 항로가 영향받았습니다. 지연이 당분간 이어질 전망입니다.",
+      "interp": "여름 내내 유럽 곳곳에서 <b>항공편 지연·결항</b>이 잦습니다. 이동 시 <b>환승 시간을 넉넉히</b> 잡아두세요.",
+      "source": "Travel And Tour World",
+      "read": 2,
+      "url": "https://www.travelandtourworld.com/news/article/y8ltlj9icm11/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "블랜치, 미 법무장관 취임",
+      "desc": "트럼프 전 개인변호사 토드 블랜치가 상원 인준을 거쳐 10일 미 법무장관에 취임했습니다. 표결은 50대49로 여당 이탈표까지 나오며 팽팽했습니다. 이민 정책 변화가 주목됩니다.",
+      "interp": "새 법무장관 체제가 시작됐습니다. 앞으로 <b>이민·비자 정책 변화</b> 여부를 계속 지켜볼 필요가 있습니다.",
+      "source": "Washington Post",
+      "read": 3,
+      "url": "https://www.washingtonpost.com/politics/2026/08/10/trump-attorney-general-todd-blanche-justice-department/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "citizenship",
+      "head": "출생시민권 제한, 법원이 제동",
+      "desc": "트럼프 대통령이 6일 서명한 출생시민권 제한 명령에 연방법원이 7일 전국 집행정지를 내렸습니다. 앞서 대법원도 6월 기존 명령을 위헌 판단했습니다. 출산 예정 가족은 확인 필요.",
+      "interp": "이번 제한 조치는 <b>법원에서 다시 막혔습니다</b>. 소송이 진행 중이니 <b>최신 판결을 계속 확인</b>해보세요.",
+      "source": "NPR",
+      "read": 3,
+      "url": "https://www.npr.org/2026/08/06/g-s1-137686/trump-birthright-citizenship-immigration-curb",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "policy",
+      "head": "미국, 폴리실리콘 관세·최저가격제",
+      "desc": "미국 정부가 지난 6일 폴리실리콘과 파생제품에 새 관세·최저수입가격제 도입을 발표했습니다. 12월4일부터 시행되며 한국산 제품에도 적용될 전망입니다. 관련 업계 대응이 필요합니다.",
+      "interp": "폴리실리콘 관련 제품에 <b>새 관세</b>가 12월부터 붙습니다. 관련 업계 종사자라면 <b>시행 세부내용을 확인</b>하세요.",
+      "source": "파이낸셜뉴스",
+      "read": 2,
+      "url": "https://www.fnnews.com/news/202608071447270800",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "스페이스X, AI 기대에 급등세",
+      "desc": "스페이스X 주가가 애거스리서치 투자의견 상향 후 한 주간 15%대 급등했습니다. 2분기 매출이 전년보다 92% 늘고 AI 매출도 크게 늘었습니다. 설비투자 우려는 잦아들었습니다.",
+      "interp": "AI 인프라 투자 기대감에 <b>주가 변동성</b>이 커진 상태입니다. 보유 중이라면 <b>단기 급등락에 유의</b>하세요.",
+      "source": "CNBC",
+      "read": 2,
+      "url": "https://www.cnbc.com/2026/08/07/spacex-shares-upgraded-argus-says-dont-bet-against-musk.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "콜롬비아 강진 111명 사망",
+      "desc": "10일 콜롬비아 서부에서 규모 7.4 강진이 나 최소 111명이 숨지고 87명이 다쳤습니다. 정부는 국가비상사태를 선포했고 건물 1000여채가 파손됐습니다. 교민은 무사합니다.",
+      "interp": "다행히 우리 <b>교민 인명피해는 없습니다</b>. 콜롬비아 서부를 방문할 계획이면 <b>여진 가능성에 유의</b>하세요.",
+      "source": "한국일보",
+      "read": 3,
+      "url": "https://www.hankookilbo.com/news/article/A2026081108280004426",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "태풍 돌핀, 열대저압부로 소멸",
+      "desc": "오키나와·대만 해역을 지나던 제13호 태풍 돌핀이 11일 오전 약해져 열대저압부로 바뀌었습니다. 태풍특보도 해제돼 결항 우려가 줄었습니다. 다음 태풍 소식도 확인이 필요합니다.",
+      "interp": "이번 태풍의 위험은 <b>사실상 해소</b>됐습니다. 태풍철인 만큼 <b>다음 태풍 예보도 주기적으로 확인</b>하세요.",
+      "source": "기상청",
+      "read": 1,
+      "url": "https://www.weather.go.kr/weather/typoon/report.jsp",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "후티, 사우디 유조선 재공격",
+      "desc": "예멘 후티 반군이 지난 5일 사우디 유조선 '와파'호를 공격했다고 밝혔습니다. 지난달 20일 선포한 사우디 해상봉쇄 이후 공격이 이어지고 있습니다. 홍해 이용객은 유의해야 합니다.",
+      "interp": "홍해 일대 <b>해상 안전 위협</b>이 계속되고 있습니다. 중동 경유 항공편이라면 <b>항로 변경 가능성</b>을 참고하세요.",
+      "source": "Al Jazeera",
+      "read": 2,
+      "url": "https://www.longwarjournal.org/archives/2026/08/houthis-escalate-attacks-in-red-sea-and-on-saudi-arabia-riyadh-evaluates-options.php",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
