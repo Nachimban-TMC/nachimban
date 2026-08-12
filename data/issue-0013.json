@@ -1,0 +1,439 @@
+{
+  "number": 13,
+  "date": "2026-08-12",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "오늘밤 독일 하늘, 부분일식 90%",
+      "desc": "오늘 저녁 독일 전역에서 부분일식이 관측됩니다. 남서부 최대 90%, 북동부 84%까지 해가 가려지며 오후 8시쯤 절정입니다. 이렇게 깊은 일식은 2081년까지 다시 없습니다.",
+      "interp": "직접 태양을 보면 실명 위험이 있어 반드시 <b>전용 일식안경</b>이 필요합니다. 오후 7시~9시 사이 야외라면 안경 없이 태양 쪽을 보지 마세요.",
+      "source": "Tagesspiegel",
+      "read": 3,
+      "url": "https://www.tagesspiegel.de/wissen/sonnenfinsternis-2026-uhrzeiten-der-start-und-hohepunkte-in-deutschland-15871724.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "welfare",
+      "head": "독일 어린이 연금저축, 오늘 확정",
+      "desc": "독일 내각이 오늘 프뤼슈타트연금 도입안을 의결했습니다. 6~18세 자녀에 매달 10유로씩 연금계좌로 지원되며 2020년생부터 소급됩니다. 계좌는 부모가 금융사에서 개설합니다.",
+      "interp": "자녀가 있는 가정은 연말께 계좌 개설 안내를 챙겨보세요. 소액 추가 납입도 <b>세무서 신고 의무</b>가 생길 수 있어 주의하세요.",
+      "source": "Bundesregierung",
+      "read": 3,
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/kabinett-fruehstart-rente-2399880",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "education",
+      "head": "바푁 인상 확정, 유학생도 혜택",
+      "desc": "독일 내각이 오늘 바푁 인상안을 의결했습니다. 주거비는 27년 여름학기 440유로로, 기초생계비는 27·28년 겨울학기 563유로로 오릅니다. 확정엔 의회 심의가 남았습니다.",
+      "interp": "독일에서 공부하는 자녀가 있다면 <b>2027년 인상 시점</b>을 미리 챙겨두세요. 법안이 의회를 통과해야 최종 확정된다는 점은 유의해야 합니다.",
+      "source": "Tagesspiegel",
+      "read": 3,
+      "url": "https://www.tagesspiegel.de/politik/mehr-geld-fur-studierende-und-schuler-kabinett-will-bafog-reform-und-fruhstartrente-beschliessen-15933538.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "policy",
+      "head": "세관 자산압류 권한, 내각 확대 의결",
+      "desc": "독일 내각이 오늘 관세청 자금세탁 대응 권한 강화안을 의결했습니다. 출처 불분명 자산을 쉽게 압류하며 2027년 1월 시행 목표입니다. 세관 인력도 올해 1500명 늘어납니다.",
+      "interp": "고액 현금을 갖고 출입국하거나 송금할 때 <b>출처 소명</b>을 준비해두는 것이 안전합니다. 관련 서류는 미리 갖춰두세요.",
+      "source": "독일 연방재무부",
+      "read": 3,
+      "url": "https://www.bundesfinanzministerium.de/Content/EN/Pressemitteilungen/2026/2026-07-16-action-plan-against-tax-crime.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "코스피 사상 최고치, 6600 육박",
+      "desc": "12일 코스피가 3%대 급등, 6600선 근접해 사상 최고치를 새로 썼습니다. 삼성전자·SK하이닉스 등 반도체주가 수출 호조로 강세였습니다. 환율도 1410원대로 내렸습니다.",
+      "interp": "국내 주식·펀드가 있다면 <b>반도체 업황</b> 훈풍이 계속될지 지켜보세요. 환율도 안정된 흐름이라 송금 계획에 참고할 만합니다.",
+      "source": "전자신문",
+      "read": 3,
+      "url": "https://www.etnews.com/20260812000138",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "tax",
+      "head": "부동산 세제개편, 수정 여지 시사",
+      "desc": "이재명 대통령이 국무회의에서 입법예고 중인 부동산 세제개편안에 국민 반론을 받아들이겠다고 말했습니다. 보유가액 과세와 보유세 강화가 핵심입니다. 입법예고는 이달 20일까지입니다.",
+      "interp": "국내에 주택을 보유한 재외국민은 <b>양도세·보유세 개편</b> 방향을 확인해두는 게 좋습니다. 최종안은 국회 제출 전까지 바뀔 수 있습니다.",
+      "source": "한국일보",
+      "read": 3,
+      "url": "https://www.hankookilbo.com/news/article/A2026081115430002938",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "education",
+      "head": "국가장학금 2차 신청, 오늘 시작",
+      "desc": "2026학년도 2학기 국가장학금 2차 신청이 오늘 오전 9시 시작됐습니다. 신청은 9월 9일까지, 재학생·신입생·복학생이 대상입니다. 한국장학재단 홈페이지·앱에서 신청합니다.",
+      "interp": "자녀가 국내 대학에 재학 중이라면 <b>마감 전 여유 있게</b> 신청하는 것이 안전합니다. 가구원 동의·서류제출은 9월 16일까지입니다.",
+      "source": "복지뉴스",
+      "read": 3,
+      "url": "https://ia.finez.co.kr/24439",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "남유럽 폭염 재점화, 42도 예보",
+      "desc": "유럽에 열돔이 다시 형성돼 스페인·프랑스·이탈리아에 최고 42도 폭염이 예보됐습니다. 스페인은 전국 산불위험지수를 최고 단계로 발표했습니다. 폭염은 곧 독일까지 번질 전망입니다.",
+      "interp": "남유럽 여행을 앞두고 있다면 <b>산불·폭염 경보</b> 지역은 피하는 게 안전합니다. 외출 시 수분 섭취와 자외선 차단에 신경 쓰세요.",
+      "source": "SBS",
+      "read": 3,
+      "url": "https://news.sbs.co.kr/amp/news.amp?news_id=N1008697634",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "invest",
+      "head": "유럽증시 최고치, 반도체주 견인",
+      "desc": "스톡스유럽600이 3거래일째 최고치를 새로 썼고 독일 DAX도 26,100선을 처음 돌파했습니다. 프랑스·이탈리아 증시도 최고치를 경신했습니다. 반도체주가 강세를 이끌었습니다.",
+      "interp": "유럽 주식·펀드에 투자 중이라면 <b>반도체 관련주</b>가 랠리를 이끈다는 점을 참고하세요. 단기 급등 이후 변동성도 대비하세요.",
+      "source": "Fortune",
+      "read": 3,
+      "url": "https://fortune.com/2026/08/09/europe-stock-markets-stoxx-600-dax-cac-40-ftse-mib/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "travel",
+      "head": "파리 오를리공항 활주로 폐쇄",
+      "desc": "파리 오를리공항 4번 활주로가 이달 10일부터 12월 17일까지 폐쇄됩니다. 약 3천 편이 결항되거나 샤를드골공항으로 옮겨 운항됩니다. 에어알제리·이베리아 등이 영향받습니다.",
+      "interp": "연말까지 파리를 오간다면 예약 항공사가 <b>오를리 노선</b>인지 미리 확인하세요. 결항 시 환불·재예약 안내를 챙기시기 바랍니다.",
+      "source": "The Local France",
+      "read": 3,
+      "url": "https://www.thelocal.fr/20260612/paris-airport-cancels-or-reroutes-3000-flights-for-runway-works/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "미국 7월 CPI 오늘 발표",
+      "desc": "미국 노동부가 오늘 밤 7월 소비자물가지수를 발표합니다. 전년비 상승률 3.4%, 근원물가 2.5%로 둔화가 예상됩니다. 결과에 따라 다음 달 연준 금리 방향이 갈릴 전망입니다.",
+      "interp": "미국 자산이나 환전 계획이 있다면 <b>발표 직후 변동성</b>에 유의하세요. 예상치를 웃돌면 금리 인상 우려로 시장이 흔들릴 수 있습니다.",
+      "source": "Newsquawk",
+      "read": 3,
+      "url": "https://www.newsquawk.com/headlines/preview-us-cpi-due-wednesday-12th-august-2026-at-1330bst0830edt",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "미국 비자 17만5천건 취소",
+      "desc": "미국 국무부가 트럼프 대통령 취임 후 비자 17만5천여 건을 취소했다고 밝혔습니다. 음주운전·폭행·사기 등 범죄나 비자 조건 위반이 주요 사유입니다. 소셜미디어 발언도 검토됐습니다.",
+      "interp": "미국 체류 중이라면 <b>사소한 법규 위반</b>도 비자에 영향을 줄 수 있음을 유념하세요. 온라인 발언도 검토 대상이 될 수 있습니다.",
+      "source": "VOA 한국어",
+      "read": 3,
+      "url": "https://www.voakorea.com/a/us-revokes-over-175-000-visas-for-violations-criminal-activities-20260810/8184828.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "항소법원, 신속추방 확대 허용",
+      "desc": "연방항소법원이 11일 가석방 입국 이민자에게도 신속추방을 적용할 수 있다고 판결했습니다. 하급심 제동을 뒤집으며 원고 자격이 없다고 봤습니다. 국토안보부 권한이 넓어졌습니다.",
+      "interp": "가석방 신분으로 체류 중이라면 <b>서류와 체류 자격</b>을 다시 점검해보는 게 안전합니다. 불확실하면 이민 변호사 상담을 권합니다.",
+      "source": "Courthouse News",
+      "read": 3,
+      "url": "https://www.courthousenews.com/dc-circuit-restores-trumps-expedited-deportation-policy/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "S&P500 연일 최고치 행진",
+      "desc": "S&P500이 11일 7728선 마감, 올해 25번째로 최고치를 갈아치웠습니다. 오늘 발표될 CPI와 반도체 실적이 주목받고 있습니다. AI 인프라 투자 기대에 강세가 이어집니다.",
+      "interp": "미국 주식·연금 계좌가 있다면 <b>CPI 발표 이후 변동성</b>을 감안해 매매 시점을 조율하세요. 조정 가능성도 염두에 두세요.",
+      "source": "Bloomberg",
+      "read": 3,
+      "url": "https://www.bloomberg.com/news/newsletters/2026-08-06/the-s-p-500-hit-another-record-high-in-2026-so-what-money",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "태풍 찬홈, 일본 관통 항공대란",
+      "desc": "제15호 태풍 찬홈이 일본 혼슈를 관통, 하네다·나리타공항 60여 편이 결항됐습니다. 대한항공·아시아나 노선도 지연됐습니다. 12일 중 일본을 빠져나가 동해로 이동할 전망입니다.",
+      "interp": "이번 주 일본 여행을 앞두고 있다면 <b>항공편 운항 상태</b>를 출발 전 다시 확인하세요. 결항 시 환불·일정 변경 규정도 챙겨두면 좋습니다.",
+      "source": "데일리안",
+      "read": 3,
+      "url": "https://www.dailian.co.kr/news/view/1677346/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "동남아 여행, 뎅기열·홍역 주의",
+      "desc": "여름휴가철 동남아에 방문객이 몰리며 베트남·태국·필리핀서 뎅기열·홍역이 유행 중입니다. 싱가포르는 뎅기열·지카가, 대만은 뎅기열 관리지역입니다. 출국 2주 전 예방접종이 권장됩니다.",
+      "interp": "동남아 여행 전에는 <b>모기 기피제</b>를 챙기고 숲이나 풀숲 방문을 피하는 게 좋습니다. 홍역 예방접종 이력도 확인해두세요.",
+      "source": "네이트뉴스",
+      "read": 3,
+      "url": "https://news.nate.com/view/20260729n08909",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
