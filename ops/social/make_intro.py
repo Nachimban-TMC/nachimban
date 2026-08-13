@@ -120,16 +120,21 @@ def render(name, inner):
     with tempfile.TemporaryDirectory() as td:
         hp = os.path.join(td, name + ".html")
         open(hp, "w", encoding="utf-8").write(doc(inner))
-        png = os.path.join(OUT, name + ".png")
+        png = os.path.join(td, name + ".png")   # 임시 PNG
         subprocess.run([CHROME, "--headless=new", "--disable-gpu", "--hide-scrollbars",
                         "--no-first-run", "--no-default-browser-check", "--force-device-scale-factor=1",
                         "--window-size=1080,1350", f"--screenshot={png}", f"file://{hp}"],
                        check=False, capture_output=True, text=True, timeout=60)
+        jpg = os.path.join(OUT, name + ".jpg")   # 폰 업로드용 JPG
         ok = os.path.exists(png) and os.path.getsize(png) > 2000
-        print(("OK  " if ok else "FAIL ") + os.path.basename(png))
+        if ok:
+            subprocess.run(["sips", "-s", "format", "jpeg", "-s", "formatOptions", "92",
+                            png, "--out", jpg], check=False, capture_output=True, text=True)
+            ok = os.path.exists(jpg) and os.path.getsize(jpg) > 2000
+        print(("OK  " if ok else "FAIL ") + os.path.basename(jpg))
 
 if __name__ == "__main__":
-    for old in glob.glob(os.path.join(OUT, "*.png")):
+    for old in glob.glob(os.path.join(OUT, "*.png")) + glob.glob(os.path.join(OUT, "*.jpg")):
         os.remove(old)
     for i, fn in enumerate([cover, slide_why, slide_what, slide_how, cta], start=1):
         render(f"intro-{i:02d}", fn())
