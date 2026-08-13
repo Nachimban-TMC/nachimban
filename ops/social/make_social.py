@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """오늘자 호에서 인스타/스레드용 자료를 만든다.
-- site/social/img/slide-NN.png : 1080x1350 캐러셀 이미지 (Chrome 헤드리스 렌더)
+- site/social/img/slide-NN.jpg : 1080x1350 캐러셀 이미지 (Chrome 렌더 → JPG)
 - site/social/index.html       : 폰에서 열어 이미지 저장·캡션 복사하는 뷰어
 브랜드 톤(신문식 흑백 에디토리얼)을 사이트와 맞춘다. 유료 생성 안 씀.
 
@@ -142,26 +142,34 @@ def _slide_doc(inner):
             f'<style>{CSS}</style></head><body>{inner}</body></html>')
 
 
-def render_pngs(slides):
-    """각 슬라이드를 Chrome 헤드리스로 1080x1350 PNG 로 렌더. 실패 개수를 반환."""
+def render_images(slides):
+    """각 슬라이드를 Chrome 헤드리스로 1080x1350 렌더 후 JPG 로 저장. 실패 개수 반환.
+    Chrome 은 PNG 만 출력하므로 임시 PNG → sips(맥 기본)로 JPG 변환한다.
+    인스타/스레드는 JPG 가 표준이라 폰에서 바로 업로드된다(IG 게시 API 도 JPEG 요구)."""
     if not os.path.exists(CHROME):
         raise RuntimeError(f"Chrome 없음: {CHROME}")
     os.makedirs(IMG, exist_ok=True)
-    for old in glob.glob(os.path.join(IMG, "slide-*.png")):
+    for old in glob.glob(os.path.join(IMG, "slide-*.png")) + glob.glob(os.path.join(IMG, "slide-*.jpg")):
         os.remove(old)
     fail = 0
     with tempfile.TemporaryDirectory() as td:
         for n, s in enumerate(slides, start=1):
             hp = os.path.join(td, f"s{n:02d}.html")
             open(hp, "w", encoding="utf-8").write(_slide_doc(s))
-            png = os.path.join(IMG, f"slide-{n:02d}.png")
+            png = os.path.join(td, f"s{n:02d}.png")   # 임시 PNG
             subprocess.run([CHROME, "--headless=new", "--disable-gpu", "--hide-scrollbars",
                             "--no-first-run", "--no-default-browser-check",
                             "--force-device-scale-factor=1", "--window-size=1080,1350",
                             "--default-background-color=FFFFFFFF",
                             f"--screenshot={png}", f"file://{hp}"],
                            check=False, capture_output=True, text=True, timeout=60)
-            if not (os.path.exists(png) and os.path.getsize(png) > 2000):
+            jpg = os.path.join(IMG, f"slide-{n:02d}.jpg")
+            ok = os.path.exists(png) and os.path.getsize(png) > 2000
+            if ok:
+                subprocess.run(["sips", "-s", "format", "jpeg", "-s", "formatOptions", "92",
+                                png, "--out", jpg], check=False, capture_output=True, text=True)
+                ok = os.path.exists(jpg) and os.path.getsize(jpg) > 2000
+            if not ok:
                 fail += 1
     return fail
 
@@ -214,9 +222,9 @@ a.dl{display:inline-block;margin-top:12px;font-size:13px;color:var(--soft)}
 
 def viewer_html(iss, picks, ig, th, nslides):
     thumbs = "".join(
-        f'<a href="img/slide-{n:02d}.png" download="nachimban-{iss["date"]}-{n:02d}.png">'
+        f'<a href="img/slide-{n:02d}.jpg" download="nachimban-{iss["date"]}-{n:02d}.jpg">'
         f'<span class="i">{n:02d}</span>'
-        f'<img src="img/slide-{n:02d}.png" alt="slide {n}" loading="lazy"></a>'
+        f'<img src="img/slide-{n:02d}.jpg" alt="slide {n}" loading="lazy"></a>'
         for n in range(1, nslides + 1))
     igj = json.dumps(ig, ensure_ascii=False)
     thj = json.dumps(th, ensure_ascii=False)
@@ -258,7 +266,7 @@ def build_all(n=7):
              [news_slide(it, i, len(picks) + 2, iss["date"]) for i, it in enumerate(picks, start=2)] + \
              [outro_slide()]
     os.makedirs(SOCIAL, exist_ok=True)
-    fail = render_pngs(slides)
+    fail = render_images(slides)
     ig, th = captions(iss, picks)
     open(os.path.join(SOCIAL, "captions.txt"), "w", encoding="utf-8").write(
         f"===== INSTAGRAM =====\n\n{ig}\n\n\n===== THREADS =====\n\n{th}\n")
@@ -268,7 +276,7 @@ def build_all(n=7):
     base = "https://nachimban.pages.dev/social/img"
     manifest = {
         "number": iss["number"], "date": iss["date"], "slides": len(slides),
-        "image_urls": [f"{base}/slide-{n:02d}.png" for n in range(1, len(slides) + 1)],
+        "image_urls": [f"{base}/slide-{n:02d}.jpg" for n in range(1, len(slides) + 1)],
         "ig_caption": ig, "threads_text": th,
     }
     open(os.path.join(SOCIAL, "manifest.json"), "w", encoding="utf-8").write(
