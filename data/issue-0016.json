@@ -1,0 +1,493 @@
+{
+  "number": 16,
+  "date": "2026-08-17",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "AfD 의원, 10대 야구방망이 폭행 의혹",
+      "desc": "작센안할트에서 선거포스터를 훼손한 10대를 AfD 의원이 야구방망이로 폭행했다는 의혹입니다. 14세 소년이 뇌진탕과 타박상을 입어 주 형사청이 수사 중입니다.",
+      "interp": "정치적 갈등이 폭력으로 번진 사건으로 현지 사회의 관심이 큽니다. <b>선거철 시위·집회</b> 근처에서는 각별히 주의하시기 바랍니다.",
+      "source": "타게스슈피겔",
+      "read": 3,
+      "url": "https://www.tagesspiegel.de/politik/mutmassliche-attacke-in-sachsen-anhalt-afd-politiker-soll-14-jahrigen-mit-baseballschlager-verfolgt-haben-15946064.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "education",
+      "head": "초1 전일제 돌봄, 오늘부터 법적 청구권",
+      "desc": "이달 1일부터 초1 자녀에게 주5일 하루 8시간 전일제 돌봄 청구권이 전국 시행됐습니다. 방학도 포함됩니다. 오늘 작센 등 4개 주가 개학해 적용이 시작됩니다.",
+      "interp": "자녀를 둔 가정은 거주 지자체 유겐트암트에 <b>돌봄 신청</b> 절차를 확인하시기 바랍니다. 대기자가 많은 지역은 서두르는 것이 좋습니다.",
+      "source": "Lehrer-Online",
+      "read": 3,
+      "url": "https://www.lehrer-online.de/aktuelles/aktuelle-nachrichten/news/na/seit-dem-1-august-gilt-der-ganztagsanspruch-fuer-erstklaessler/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "health",
+      "head": "비만치료 알약, 9월 1일 독일 출시",
+      "desc": "먹는 비만치료제 베고비 정제가 9월 1일 독일에 출시됩니다. 월 비용은 약 170~300유로로 예상됩니다. 미용 목적 약물로 분류돼 건강보험 적용은 받지 못합니다.",
+      "interp": "체중 관리를 고려 중이라면 <b>보험 미적용</b>임을 감안해 비용을 미리 확인하시기 바랍니다. 처방은 의사 상담이 필수입니다.",
+      "source": "Deutsche Apotheker Zeitung",
+      "read": 2,
+      "url": "https://www.deutsche-apotheker-zeitung.de/news/artikel/2026/08/12/wegovy-tablette-markteinfuehrung-zum-1-september-geplant",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "tax",
+      "head": "연간세법 내각 승인, 세금고지 전자화",
+      "desc": "정부가 연간세법 2026을 내각 승인했습니다. 2027년 1월부터 엘스터 계정 보유자는 세금고지서를 전자로 받습니다. 체납·환급 이자율은 연 1.8%에서 3.6%로 오릅니다.",
+      "interp": "우편 고지를 원하면 <b>엘스터에서 별도 신청</b>이 필요할 전망입니다. 세금 체납 시 이자 부담이 커지니 기한을 꼭 지키시기 바랍니다.",
+      "source": "독일 연방재무부",
+      "read": 3,
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Pressemitteilungen/Finanzpolitik/2026/08/2026-08-12-jahressteuergesetz-2026.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "거제·통영 극한호우, 산사태로 1명 사망",
+      "desc": "오늘 새벽 경남 거제에 500㎜ 넘는 폭우로 산사태가 아파트를 덮쳐 1명이 숨졌습니다. 통영에서도 산사태로 1명이 매몰됐다 구조됐습니다. 정부가 재난대책본부 1단계를 가동했습니다.",
+      "interp": "고향이나 가족이 경남권에 있다면 <b>안전 상태를 확인</b>하시기 바랍니다. 방문 예정자는 최신 기상특보를 참고하세요.",
+      "source": "뉴스핌",
+      "read": 3,
+      "url": "https://www.newspim.com/news/view/20260817000033",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "citizenship",
+      "head": "고령 재외동포 국적회복 역이민 급증",
+      "desc": "지난해 국적회복 허가자 4,037명 중 미국 국적자가 2,586명(64%)이었습니다. 신청은 4년 새 65.6% 늘었습니다. 65세 이상은 서약만으로 원국적 유지가 가능합니다.",
+      "interp": "법무부가 심사기간을 13개월에서 <b>9개월로 단축</b> 추진 중입니다. 은퇴 후 귀국을 고민한다면 지금 신청을 검토해볼 만합니다.",
+      "source": "미주 한국일보",
+      "read": 3,
+      "url": "http://www.koreatimes.com/article/20260813/1625632",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "policy",
+      "head": "재외선거 우편·전자투표, 2028년 도입 추진",
+      "desc": "재외동포청이 재외선거 우편·전자투표를 2028년까지 도입하는 방안을 대통령에게 보고했습니다. 선관위와 모의투표도 진행 중입니다. 공직선거법 개정안이 국회에 전달됐습니다.",
+      "interp": "투표소가 멀어 참여가 어려웠던 재외국민에게 <b>투표 접근성</b>이 크게 개선될 전망입니다. 추진 경과를 계속 지켜볼 사안입니다.",
+      "source": "라디오서울",
+      "read": 2,
+      "url": "https://www.radioseoul1650.com/archives/150415",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "labor",
+      "head": "2027년 최저임금 시급 1만700원 확정",
+      "desc": "고용노동부가 2027년 최저임금을 시급 1만700원으로 공식 고시했습니다. 올해보다 380원, 3.7% 올랐습니다. 월 환산액은 주40시간 기준 223만6,300원입니다.",
+      "interp": "국내에서 아르바이트나 취업을 준비하는 자녀가 있다면 <b>인상된 시급</b>을 임금 계약에 반영했는지 확인하시기 바랍니다.",
+      "source": "다음뉴스",
+      "read": 2,
+      "url": "https://v.daum.net/v/20260805173222729",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "세우타 이주민 위기, EU 국경통제 검토",
+      "desc": "모로코 접경 세우타로 이주민 6만~7만명이 몰려 최소 72명이 숨졌습니다. EU 22개국이 긴급회의를 요구했고 국경통제 재도입이 검토됩니다. 이달도 돌파 시도가 이어졌습니다.",
+      "interp": "국경통제가 실제 시행되면 <b>솅겐 역내 이동</b>에 지장이 생길 수 있습니다. 유럽 내 국가 간 이동 계획 시 참고하시기 바랍니다.",
+      "source": "유로뉴스",
+      "read": 3,
+      "url": "https://www.euronews.com/my-europe/2026/08/01/22-eu-leaders-call-for-emergency-talks-over-ceuta-migrant-crisis",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "visa",
+      "head": "ETIAS 여행허가제, 2027년으로 연기",
+      "desc": "EU가 올해 4분기 예정이던 ETIAS 여행허가제 도입을 공식 철회했습니다. 시스템 준비 미비가 이유로 9월 이사회가 새 일정을 논의합니다. 도입은 2027년이 유력합니다.",
+      "interp": "무비자로 유럽을 찾는 미국·영국 등 국적 가족의 방문 계획에는 <b>당분간 변화가 없습니다.</b> 새 일정 발표를 계속 지켜보시기 바랍니다.",
+      "source": "유로뉴스",
+      "read": 2,
+      "url": "https://www.euronews.com/travel/2026/08/12/europe-has-officially-delayed-the-roll-out-of-the-etias-travel-permit-indefinitely",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "crypto",
+      "head": "미인가 가상자산 거래소 1700곳 퇴출",
+      "desc": "가상자산 규제 MiCA 시행으로 미인가 플랫폼 1,700여곳이 EU에서 퇴출됐습니다. 인가 기업은 323곳, 거래소는 21곳뿐입니다. 최대 1000만명이 자산을 옮겨야 합니다.",
+      "interp": "가상자산을 보유했다면 거래소가 <b>정식 인가</b>를 받았는지 EU 공식 명부에서 확인하시기 바랍니다. 미인가 플랫폼발 사기도 급증하고 있습니다.",
+      "source": "크립토노미스트",
+      "read": 3,
+      "url": "https://en.cryptonomist.ch/2026/08/16/mica-crypto-enforcement-eu-platforms/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "7월 소매판매 부진, 증시는 사상 최고치",
+      "desc": "미국 7월 소매판매가 전월 대비 0.6% 줄어 1년여 만에 최대 낙폭을 냈습니다. 반면 S&P500은 이번 주 최고치를 썼습니다. 시장은 월말 잭슨홀 회의 금리 신호를 주시합니다.",
+      "interp": "소비 둔화와 자산시장 고점이 겹친 국면이라 <b>환율과 투자자산</b> 변동성에 대비하시기 바랍니다. 월말 회의 결과를 참고하세요.",
+      "source": "PBS 뉴스아워",
+      "read": 3,
+      "url": "https://www.pbs.org/newshour/economy/july-retail-sales-were-flat-as-customers-weather-inflation",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "이민서류 미비 시 보완 없이 즉시 거부",
+      "desc": "미국 이민국이 이달 5일부터 서류 미비 시 보완 요청 없이 곧바로 거부할 재량을 심사관에게 부여했습니다. 접수·계류 중인 모든 신청에 즉시 적용됩니다. 영주권·귀화도 대상입니다.",
+      "interp": "이민 서류를 준비 중이라면 제출 전 <b>필수 증빙</b>을 빠짐없이 갖췄는지 두 번 확인하시기 바랍니다. 실수 하나로 거부될 수 있습니다.",
+      "source": "미국 이민국(USCIS)",
+      "read": 3,
+      "url": "https://www.uscis.gov/newsroom/alerts/uscis-to-reduce-frivolous-immigration-benefits-requests-by-reinforcing-evidence-standards",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "복지 수급 이력, 영주권 심사에 다시 반영",
+      "desc": "9월 18일부터 새 공적부조 규정이 시행돼 메디케이드·푸드스탬프 수급 이력이 영주권 심사에 반영됩니다. 2022년보다 범위가 넓어졌습니다. 시행 전 접수분은 기존 기준입니다.",
+      "interp": "가족 초청으로 영주권을 준비 중이라면 <b>복지 수급 이력</b>이 있는지 미리 점검하시기 바랍니다. 시행 전 접수를 서두르는 것도 방법입니다.",
+      "source": "저리스트(Jurist)",
+      "read": 3,
+      "url": "https://www.jurist.org/news/2026/07/us-to-deny-green-cards-to-immigrants-who-use-public-benefits/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "invest",
+      "head": "자본이득세 인하 검토, 주택매각도 포함",
+      "desc": "트럼프 행정부가 자산 취득원가를 물가에 연동해 과세이익을 줄이는 방안을 검토 중입니다. 주택매각 비과세 확대안도 논의됩니다. 백악관 공식 발표는 아직 없어 불확실합니다.",
+      "interp": "미국 주식이나 부동산을 보유하고 있다면 <b>세제 변화 가능성</b>을 염두에 두고 지켜보시기 바랍니다. 확정 전까지는 예단하지 마세요.",
+      "source": "ITEP",
+      "read": 2,
+      "url": "https://itep.org/trump-capital-gains-indexing-midterms-2026/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "콩고 에볼라 사망 2184명, 사상 최악",
+      "desc": "콩고에서 에볼라가 사상 최대로 확산해 사망자가 2,184명입니다. 6개주 54개 구역으로 번졌고 우간다·프랑스도 사례가 확인됐습니다. 미국은 최고등급 여행금지를 내렸습니다.",
+      "interp": "아프리카 현지 체류자는 여행경보 지역을 <b>전면 회피</b>하시기 바랍니다. 발열 등 증상이 있으면 즉시 의료기관에 신고하세요.",
+      "source": "알자지라",
+      "read": 3,
+      "url": "https://www.aljazeera.com/news/2026/8/11/drc-ebola-death-toll-passes-2000-amid-fastest-growing-outbreak-on-record",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "태국 나라티왓, 계엄 수준 보안 강화",
+      "desc": "지난달 무장세력 습격이 있었던 태국 나라티왓주에 계엄법 수준 보안조치가 강화됐습니다. 검문·검색이 늘고 즉시 체포도 가능합니다. 이곳은 이미 여행경보 3단계 철수권고 지역입니다.",
+      "interp": "방문 예정이라면 <b>일정을 취소·연기</b>하시고, 체류 중이라면 긴요한 용무가 아니면 철수를 권고합니다. 위급시 영사콜센터로 연락하세요.",
+      "source": "재태국한인회",
+      "read": 2,
+      "url": "https://0404.go.kr/ntnSafetyInfo/260/detail",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "모스크바 3개 공항, 드론 공격에 반복 폐쇄",
+      "desc": "16일 밤 모스크바 인근 드론 38대가 격추돼 브누코보 등 3개 공항 운항이 중단됐습니다. 이달 들어 유사한 제한이 반복됩니다. 러시아 항공당국이 안전을 이유로 조치했습니다.",
+      "interp": "러시아를 경유하거나 체류 중이라면 <b>항공편 지연·결항</b>에 상시 대비하시기 바랍니다. 출발 전 최신 운항정보를 꼭 확인하세요.",
+      "source": "코메르산트",
+      "read": 2,
+      "url": "https://www.kommersant.ru/doc/8890583",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
