@@ -1,0 +1,385 @@
+{
+  "number": 20,
+  "date": "2026-08-21",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "독일 토네이도 강타, 1명 사망",
+      "desc": "20일 밤 독일 브란덴부르크주에 토네이도가 덮쳐 1명이 숨지고 여러 명이 다쳤습니다. 헤센주도 폭풍우로 지붕이 날아갔습니다. 독일 기상청이 토네이도 발생을 공식 확인했습니다.",
+      "interp": "<b>브란덴부르크·헤센 지역</b> 거주 한인은 산책·야외활동 시 쓰러진 나무·전선을 조심하시고, 지자체 대피 안내를 확인하세요.",
+      "source": "Weather.com Deutschland",
+      "read": 4,
+      "url": "https://weather.com/de-DE/wetter/deutschland/news/2026-08-20-tornado-in-brandenburg-unwetter-fordern-ein-todesopfer-in",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "general",
+      "head": "독일 전역 산불, 진화 순항",
+      "desc": "노르트라인베스트팔렌주 역사상 최대 산불이 1주일 만에 진정돼 대피 주민이 귀환했습니다. 작센주 산불도 완전히 꺼졌습니다. 불발탄 때문에 잔불 정리는 시간이 더 걸릴 전망입니다.",
+      "interp": "<b>서부 독일</b> 산불은 대부분 진정됐지만, 폭염이 이어지는 만큼 산림 인접 지역에서는 화기 사용을 계속 주의하세요.",
+      "source": "ZDFheute",
+      "read": 3,
+      "url": "https://www.zdfheute.de/panorama/huertgenwald-waldbrand-gey-eifel-dueren-liveblog-104.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "김여정, 이재명 대통령 맹비난",
+      "desc": "김여정 부부장이 20일 심야 담화로 이재명 대통령을 '이중적 언행'이라 비난했습니다. 트럼프의 한미훈련 축소 지시 이후 이틀째 담화입니다. 동맹국 사이 불안감도 커지고 있습니다.",
+      "interp": "안보 불확실성이 커지는 국면이라 <b>원화 환율 변동성</b>이 커질 수 있으니, 송금·환전 계획이 있다면 시세를 자주 확인하세요.",
+      "source": "이투데이",
+      "read": 4,
+      "url": "https://www.etoday.co.kr/news/view/2616607",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "stocks",
+      "head": "코스피 1%대 하락 출발",
+      "desc": "21일 코스피가 전날보다 1.35% 내린 6759선에서 출발했고 코스닥도 2% 하락했습니다. 원·달러 환율은 1389.7원까지 올랐습니다. 뉴욕증시발 금리 충격 여파입니다.",
+      "interp": "환전·해외송금 계획이 있는 분은 <b>환율 급등락</b>을 감안해 시점을 나눠 분산 환전하는 방법을 고려해보시면 좋습니다.",
+      "source": "국제뉴스",
+      "read": 3,
+      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3670446",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "남부·제주 폭염경보, 열대야",
+      "desc": "21일 전남·경남 일부와 광주·울산에 폭염경보가, 충청·전북·경북엔 폭염주의보가 내려졌습니다. 체감온도 최고 35도에 열대야도 이어집니다. 온열질환 예방에 유의해야 합니다.",
+      "interp": "한국 방문·거주 중인 한인은 <b>낮 시간 야외활동</b>을 줄이고 물을 충분히 섭취하며 노약자·영유아를 살펴주세요.",
+      "source": "기상청",
+      "read": 2,
+      "url": "https://www.weather.go.kr/w/special-report/overall.do",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "핀란드 영공, 러시아기 침범 의심",
+      "desc": "핀란드 국방부가 20일 러시아 항공기의 영공 침범 의심 정황을 조사 중이라고 밝혔습니다. 노르웨이도 발트해 안보 활동에 새로 합류했습니다. 나토는 동부보초 작전으로 대응 중입니다.",
+      "interp": "발트해 인근을 오가는 항공편은 <b>운항 지연이나 우회</b> 가능성이 있으니 해당 노선 이용 시 여유를 두고 확인하세요.",
+      "source": "Euronews",
+      "read": 3,
+      "url": "https://www.euronews.com/my-europe/2026/08/20/finland-suspects-russian-plane-of-violating-its-airspace-defence-ministry-says",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "crypto",
+      "head": "EU 크립토 규정 재검토, 의견수렴",
+      "desc": "유럽집행위가 가상자산 규정 미카 재검토 의견수렴 중이며 마감은 8월 31일입니다. 7월 전환 기간이 끝나 감독 초점이 집행으로 옮겨갔습니다. 투자자 보호가 핵심 쟁점입니다.",
+      "interp": "유럽에서 <b>가상자산 거래소</b>를 이용 중이라면 향후 규정 변경 가능성을 염두에 두고 공지사항을 챙겨보세요.",
+      "source": "Taylor Wessing",
+      "read": 3,
+      "url": "https://www.taylorwessing.com/en/insights-and-events/insights/2026/05/mica-20",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "travel",
+      "head": "그리스 산불 확산, 곳곳 대피",
+      "desc": "그리스 코르푸섬·살라미스·할키디키반도에서 산불이 나 주민과 관광객이 대피했습니다. 살라미스 해변에서 약 600명이 배로 급히 대피했습니다. 소방관 150여 명이 진화 중입니다.",
+      "interp": "그리스 여행을 앞두고 있다면 <b>목적지별 산불 상황</b>을 출발 직전까지 다시 확인하고 대피 안내에 따라주세요.",
+      "source": "Euronews",
+      "read": 3,
+      "url": "https://www.euronews.com/my-europe/2026/08/13/people-evacuated-from-beach-as-wildfire-tears-through-popular-greek-tourist-hotspot",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "미국 연방부채 40조달러 첫 돌파",
+      "desc": "미국 연방부채가 19일 사상 처음 40조달러를 넘었습니다. 3월 39조달러를 넘긴 지 5개월 만이며 하루 이자만 약 1조1000억달러입니다. 뉴욕증시 변동성 요인으로 꼽힙니다.",
+      "interp": "미국 국채·달러 자산을 보유 중이라면 <b>금리 변동성</b>이 커진 시기이니 포트폴리오를 다시 한 번 점검해보시길 권합니다.",
+      "source": "Washington Post",
+      "read": 4,
+      "url": "https://www.washingtonpost.com/business/2026/08/19/united-states-debt-surpasses-40-trillion/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "policy",
+      "head": "트럼프, 캐나다 관세 시한 잠정합의",
+      "desc": "미국과 캐나다가 21일 관세 시한을 앞두고 잠정 합의했다고 트럼프가 밝혔습니다. 캐나다산 유제품·주류 관세 50%가 문서 마무리 전까지 보류됐습니다. 세부 내용은 유동적입니다.",
+      "interp": "캐나다와 거래·투자가 있다면 <b>관세 확정 여부</b>가 아직 유동적이니 최종 서명 발표를 조금 더 지켜보세요.",
+      "source": "CNN Business",
+      "read": 3,
+      "url": "https://www.cnn.com/2026/08/18/economy/canada-tariffs-trump",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "미국, 제3국 추방 대상 확대",
+      "desc": "미국이 멕시코 국적자 2300여 명을 과테말라로, 라이베리아로 20명을 추방해 최대 1200명까지 늘릴 계획입니다. 제3국 추방이 확대되는 흐름입니다. 멕시코는 반발하고 있습니다.",
+      "interp": "미국 체류 자격이 불안정한 분은 <b>제3국 추방 확대</b> 흐름을 참고해 서류·체류 상태를 미리 점검해두세요.",
+      "source": "Al Jazeera",
+      "read": 3,
+      "url": "https://www.aljazeera.com",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "뉴욕증시 급락, 국채금리 급등",
+      "desc": "20일 다우지수가 700포인트 떨어지고 S&P500·나스닥도 각각 0.8%, 1% 하락했습니다. 국채 금리 급등에 소비주가 약세였습니다. 연방부채 40조달러 돌파도 부담됐습니다.",
+      "interp": "미국 주식을 보유 중이라면 <b>국채금리 흐름</b>을 함께 살펴보며 당분간 변동성 확대에 대비하시는 게 좋습니다.",
+      "source": "CNBC",
+      "read": 3,
+      "url": "https://www.cnbc.com/2026/08/19/stock-market-today-live-updates.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "태풍 사우델, 오키나와 향해 발달",
+      "desc": "제18호 태풍 사우델이 22일 강도3까지 발달해 오키나와로 향할 전망입니다. 현재 경로면 한반도 영향은 적지만 변동 가능성이 큽니다. 오키나와·규슈는 다음주가 태풍 최성기입니다.",
+      "interp": "오키나와·규슈 여행을 계획 중이라면 <b>항공편 지연·결항</b> 가능성을 염두에 두고 일정을 여유 있게 잡으세요.",
+      "source": "아주경제",
+      "read": 3,
+      "url": "https://www.ajunews.com/view/20260821061804160",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "유럽 공항 파업, 성수기 항공 차질",
+      "desc": "스페인 바르셀로나 지상직 파업 이어 팔마데마요르카 스위스포트 직원도 파업했습니다. 이탈리아·영국도 교통 파업이 이어져 항공편 차질 우려가 큽니다. 8월 성수기라 영향이 큽니다.",
+      "interp": "유럽 항공편을 이용할 예정이라면 <b>출발 전 결항 여부</b>를 항공사 앱으로 다시 확인하고 여행자보험 약관도 살펴보세요.",
+      "source": "Euro Weekly News",
+      "read": 3,
+      "url": "https://euroweeklynews.com/2026/07/26/palma-airport-strike-warning-as-summer-ground-staff-walkouts-threaten-holiday-disruption/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
