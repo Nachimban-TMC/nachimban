@@ -1,0 +1,385 @@
+{
+  "number": 22,
+  "date": "2026-08-23",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "이탈리아, 독일 난민송환 거부",
+      "desc": "이탈리아가 독일행 이주민 재이송을 당분간 거부한다고 밝혔습니다. 6월 새 EU 이주협정 시행 뒤 양국 갈등이 커지고 있습니다. 재이송 지연 시 체류허가 심사도 늦어질 수 있습니다.",
+      "interp": "<b>재이송 지연</b>에 따른 체류허가 심사 지체 가능성을 염두에 두세요. 이탈리아 경유 입국자는 서류를 미리 준비해두세요.",
+      "source": "Brussels Signal",
+      "read": 3,
+      "url": "https://brusselssignal.eu/2026/08/italy-rejects-germanys-planned-deportations-of-migrants/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "study",
+      "head": "FAU, 비EU 유학생 등록금 도입",
+      "desc": "에얼랑겐대학교가 2027년 여름학기부터 비유럽연합 신입생에게 등록금을 부과합니다. 지난달 발표됐고 재학생은 대상이 아닙니다. 다른 주로 확산될지 주목됩니다.",
+      "interp": "<b>2027년 여름학기</b> 신입생부터 적용되니 진학 예정이라면 학비 계획을 다시 세워보세요. 재학생은 영향이 없습니다.",
+      "source": "FAU",
+      "read": 3,
+      "url": "https://www.fau.de/2026/07/news/studium/einfuehrung-von-studiengebuehren-fuer-zukuenftige-internationale-studierende-aus-nicht-eu-staaten/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "health",
+      "head": "서나일열, 유럽 12개국 확산",
+      "desc": "모기 매개 서나일열이 올해 유럽 12개국에서 발생했습니다. 독일도 라인란트팔츠주에서 첫 국내 감염이 확인됐습니다. 고령자·기저질환자는 중증 위험이 있어 주의가 필요합니다.",
+      "interp": "야외활동 시 <b>모기 기피제</b>를 사용하고 고인 물을 없애 번식지를 줄이세요. 고열이나 두통이 이어지면 병원을 찾으세요.",
+      "source": "Euronews",
+      "read": 3,
+      "url": "https://www.euronews.com/health/2026/08/06/west-nile-virus-spreads-in-europe-greece-reports-surge-italy-leads-infections-first-case-i",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "라인강 수위, 사상 최저 기록",
+      "desc": "라인강 카우프 수위가 19cm까지 떨어져 관측 이래 최저치를 기록했습니다. 내륙 화물선 운항이 크게 제한되고 있습니다. 생필품·연료 운송 차질로 물가 상승도 우려됩니다.",
+      "interp": "생필품 가격 상승 가능성을 염두에 두고 <b>미리 준비</b>해두면 도움이 됩니다. 라인강 유람선을 예약했다면 일정 변경 여부를 확인하세요.",
+      "source": "WirtschaftsWoche",
+      "read": 3,
+      "url": "https://www.wiwo.de/unternehmen/industrie/rhein-niedrigwasser-2026-wie-niedrigwasserschiffe-transporte-retten-sollen/100246576.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "현대차 파업 격화, 협상 답보",
+      "desc": "현대차 노조가 부분파업을 8월 말까지 이어가기로 했습니다. 22일 교섭에서도 회사 측 추가 제시안이 없었습니다. 올해 임금협상은 넉 달 넘게 타결되지 못하고 있습니다.",
+      "interp": "생산 차질이 길어지면 국내 출고·선적 일정이 늦어질 수 있습니다. <b>차량 구매 예정</b>이라면 인도 지연 가능성을 확인하세요.",
+      "source": "한국경제",
+      "read": 3,
+      "url": "https://www.hankyung.com/article/2026081418937",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "tax",
+      "head": "종부세 개편, 비거주자 반발",
+      "desc": "세제개편안이 실거주 1주택 기본공제를 12억서 14억원으로 올렸습니다. 반면 비거주 1주택 공제는 12억서 9억원으로 줄었습니다. 여당 내 형평성 논란에 수정 요구가 나옵니다.",
+      "interp": "국내에 집을 둔 채 해외에 거주 중이라면 <b>종부세 부담 증가</b>를 대비해두세요. 법안이 국회를 통과하기 전까지는 확정된 내용이 아닙니다.",
+      "source": "경향신문",
+      "read": 3,
+      "url": "https://www.khan.co.kr/article/202608171911001",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "재외국민 비대면 인증 확대",
+      "desc": "국내 휴대전화가 없는 재외국민도 아이핀 온라인 인증을 할 수 있게 됐습니다. 이달부터 시행돼 국내 사이트 이용·진료 예약이 쉬워졌습니다. 은행 인증서는 연말부터 도입됩니다.",
+      "interp": "정부24나 병원 예약 사이트에서 <b>아이핀 인증</b>을 먼저 시도해보세요. 은행 서비스는 연말 이후 이용할 수 있습니다.",
+      "source": "주로스앤젤레스 대한민국 총영사관",
+      "read": 3,
+      "url": "https://www.mofa.go.kr/us-losangeles-ko/brd/m_21106/view.do?seq=188",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "그리스 산불, 부부 2명 사망",
+      "desc": "아테네 서쪽 살라미나섬 해변에서 산불이 나 부부로 추정되는 2명이 숨졌습니다. 관광객·주민 수백 명이 대피했습니다. 그리스 전역에서 하루 새 30건 넘는 산불이 이어지고 있습니다.",
+      "interp": "그리스 여행 중이라면 <b>산불 경보 지역</b>을 피하고 현지 대피 안내를 따르세요. 해안 지역도 안심할 수 없는 상황입니다.",
+      "source": "MBC",
+      "read": 3,
+      "url": "https://imnews.imbc.com/news/2026/world/article/6845176_36925.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "invest",
+      "head": "애플, EU 앱스토어 수수료 개편",
+      "desc": "애플이 10월 1일부터 EU 앱스토어 수수료를 30%에서 26%로 낮춥니다. 디지털시장법 분쟁을 해결하기 위한 조치입니다. 소규모 개발사는 15%까지 낮은 수수료를 적용받습니다.",
+      "interp": "애플 관련주 투자자라면 <b>매출 구조 변화</b>를 다음 실적 발표에서 확인해보세요. 앱 개발자는 새 수수료 체계를 미리 살펴두세요.",
+      "source": "MacRumors",
+      "read": 3,
+      "url": "https://www.macrumors.com/2026/08/18/eu-app-store-fee-change/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "policy",
+      "head": "유로폴, 이란발 테러위협 경고",
+      "desc": "유로폴이 이란 분쟁 격화로 유럽 내 테러 위험이 커졌다고 경고했습니다. 국가 배후 해커의 사이버 공격과 허위정보 확산도 우려됩니다. 이주민 공동체 겨냥 급진화 시도도 지목됐습니다.",
+      "interp": "유럽 내 공공장소나 교통 요지에서는 <b>평소보다 주의</b>를 기울이세요. 출처가 불분명한 온라인 정보는 걸러서 받아들이세요.",
+      "source": "보안뉴스",
+      "read": 3,
+      "url": "https://m.boannews.com/html/detail.html?idx=142624",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "미·캐나다 관세전쟁 격화",
+      "desc": "미국이 캐나다산 제품 200억 달러에 50% 관세를 부과했습니다. 협상 결렬로 캐나다도 9월 8일부터 동일하게 맞대응합니다. 북미 공급망에 물가 상승 압력이 커질 수 있습니다.",
+      "interp": "캐나다산 제품이나 관련주에 투자 중이라면 <b>관세 확전</b> 여파를 지켜보세요. 9월 초 추가 조치 여부도 확인이 필요합니다.",
+      "source": "NPR",
+      "read": 3,
+      "url": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "연방법원, 75개국 비자금지 위법",
+      "desc": "연방법원이 트럼프 행정부의 75개국 이민비자 발급 중단을 위법하다고 판결했습니다. 국적 차별이라며 정책을 무효화했습니다. 해당 조치로 거부됐던 비자 신청도 다시 심사받게 됐습니다.",
+      "interp": "브라질·이집트 등 대상국 출신 가족이 있다면 <b>비자 재신청</b>이 가능한지 확인해보세요. 정부의 항소 여부도 지켜봐야 합니다.",
+      "source": "NPR",
+      "read": 3,
+      "url": "https://www.npr.org/2026/08/22/nx-s1-5941765/trump-immigration-visa-ban-75-countries",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "호르무즈 해협, 한국선 25척 억류",
+      "desc": "호르무즈 해협에 갇혔던 한국 선박 26척 중 1척이 처음 통과했습니다. 아직 25척, 선원 116명이 남아 있습니다. 이란 혁명수비대는 통제하에 상선 통행을 허용한다고 밝혔습니다.",
+      "interp": "중동 해역을 지나는 항공·해운편을 이용한다면 <b>운항 지연</b> 가능성을 확인하세요. 선박 가족은 해양수산부 안내를 참고하세요.",
+      "source": "헤럴드경제",
+      "read": 3,
+      "url": "https://biz.heraldcorp.com/article/10790245",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "태풍 사우델, 초강력 발달 중",
+      "desc": "제18호 태풍 사우델이 23일 오후 최대풍속 초속 45m로 발달했습니다. 24일 오키나와 동남동쪽 해상까지 접근할 전망입니다. 한반도 영향은 불확실하나 대비가 필요합니다.",
+      "interp": "오키나와나 일본 남부 여행을 앞두고 있다면 <b>태풍 경로</b>를 계속 확인하세요. 국내 날씨도 갑자기 바뀔 수 있어 대비가 필요합니다.",
+      "source": "디지털타임스",
+      "read": 3,
+      "url": "https://www.dt.co.kr/article/12079183",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
