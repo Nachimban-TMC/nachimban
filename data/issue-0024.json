@@ -1,0 +1,412 @@
+{
+  "number": 24,
+  "date": "2026-08-25",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "독일 새 내각 워크숍, 경쟁력 논의",
+      "desc": "메르츠 내각이 여름휴가 후 첫 워크숍을 노이하르덴베르그성에서 열었습니다. 산업 경쟁력 강화와 폭염 대응책을 논의했습니다. 지멘스 등 대기업 대표들도 함께했습니다.",
+      "interp": "독일 정부의 가을 개혁 방향을 가늠할 자리로, <b>세금·에너지 정책</b> 변화가 뒤따를 수 있습니다. 관련 발표를 계속 지켜보세요.",
+      "source": "ZDF·bundeskanzler.de",
+      "read": 3,
+      "url": "https://www.bundeskanzler.de/bk-de/aktuelles/kabinettsklausur-im-schloss-neuhardenberg-2449744",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "welfare",
+      "head": "독일 수발보험 2027년 80억유로 적자",
+      "desc": "AOK 연방회장이 오늘 법정 수발보험이 2027년 80억 유로 적자에 직면한다고 경고했습니다. 연간 지출 700억 유로의 10%를 넘는 규모로, 정부 대출로도 부족할 전망입니다.",
+      "interp": "고령 부모를 초청했거나 본인이 수발보험에 가입돼 있다면 <b>보험료 추가 인상</b> 가능성을 염두에 두고 지출 계획을 다시 점검해보세요.",
+      "source": "t-online·Handelsblatt",
+      "read": 3,
+      "url": "https://www.t-online.de/nachrichten/deutschland/id_101403526/aok-chefin-acht-milliarden-loch-in-pflegeversicherung-2027.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "코스피 4.58% 폭락, 반도체주 급락",
+      "desc": "오늘 코스피가 미국 반도체주 급락 여파로 4.58% 내린 6296.38에 마감했습니다. 삼성전자 약 6%, SK하이닉스 약 10% 급락했고 매도 사이드카까지 발동됐습니다.",
+      "interp": "한국 주식·펀드에 투자 중이라면 <b>단기 변동성 확대</b>에 대비하세요. 무리한 추가매매보다는 상황을 지켜보는 편이 안전합니다.",
+      "source": "이투데이·서울신문·MBC",
+      "read": 3,
+      "url": "https://amp.seoul.co.kr/news/economy/securities/2026/08/25/20260825500019",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "제주 실종 허위종결, 경찰 4명 대기발령",
+      "desc": "제주 서부경찰서의 실종사건 허위종결 사태로, 오늘 전·현직 서장 등 지휘라인 4명이 대기발령됐습니다. 경찰청은 감찰조사에 착수해 지휘책임을 가리고 있다고 밝혔습니다.",
+      "interp": "국내 체류 중 사건·사고를 신고할 때 <b>초동대응 지연</b> 가능성을 염두에 두고, 필요하면 영사안전콜센터도 함께 활용하세요.",
+      "source": "국민일보",
+      "read": 3,
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000005940&cp=nv",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "citizenship",
+      "head": "국외여행허가 서류 강화, 28일 시행",
+      "desc": "개정 병역법이 8월 28일부터 시행돼, 해외이주 사유의 국외여행허가 신청 시 서류가 늘어납니다. 거주국 출입국 내역, 재학·재직 증명서 등 실거주 증빙이 추가로 필요합니다.",
+      "interp": "해외이주 신고로 국외여행허가를 준비 중인 병역의무자라면 <b>서류를 미리 준비</b>해 신청 지연이나 반려를 피하세요.",
+      "source": "병무청·법제처",
+      "read": 3,
+      "url": "https://mma.go.kr/board/boardView.do?mc=mma0000392&gesipan_id=15&gsgeul_no=1522512",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "EU, 우크라이나 방위 61억유로 승인",
+      "desc": "EU가 900억 유로 대출 프로그램의 일환으로 우크라이나 방위 자금 61억 유로를 승인했습니다. 핀란드·룩셈부르크 정상과 영국 총리도 함께해 지지를 재확인했습니다.",
+      "interp": "유럽 여러 나라가 공동 대응하는 사안으로, <b>대러 관계·에너지 가격</b>에 미칠 영향을 계속 지켜보는 것이 좋습니다.",
+      "source": "Euronews",
+      "read": 3,
+      "url": "https://www.euronews.com/my-europe/2026/08/24/we-are-stepping-up-eu-approves-61-billion-for-ukraines-defences",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "travel",
+      "head": "그리스 35개 지역, 오늘 산불 고위험 경보",
+      "desc": "그리스 소방당국이 오늘 아티카·테살로니키·크레타 등 35개 지역에 산불 고위험 3단계 경보를 발령했습니다. 폭염이 다시 오르면서 대응 태세도 2단계로 격상됐습니다.",
+      "interp": "그리스 여행·거주 중이라면 <b>산불 경보 지역</b>과 대피 안내를 수시로 확인하고 당분간 야외활동을 자제하는 것이 안전합니다.",
+      "source": "Athens Times",
+      "read": 3,
+      "url": "https://athens-times.com/wildfire-alert-yellow-alert-for-fire-risk-in-35-regions-across-greece-on-tuesday/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "invest",
+      "head": "EU 크립토 대러제재 확대, 오늘 발효",
+      "desc": "EU의 21차 대러 제재 패키지에 따라 오늘부터 러시아 국적·거주자 제한이 모든 크립토자산 서비스로 확대됩니다. EU 27개국에 동시 발효되는 규정입니다.",
+      "interp": "유럽에서 가상자산 거래·보관 서비스를 이용 중이라면 <b>거래상대방 제재 여부</b> 확인 절차가 더 엄격해질 수 있습니다.",
+      "source": "Covington & Burling",
+      "read": 3,
+      "url": "https://www.cov.com/en/news-and-insights/insights/2026/07/eu-adopts-21st-package-of-russia-sanctions-extends-belarus-sanctions",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "네바다 산불 진화율 27%, 대피 6.3만명",
+      "desc": "리노 인근 호크산불이 23제곱마일까지 번진 가운데 어제 기준 진화율 27%, 대피 인원은 약 6만3000명으로 줄었습니다. 다만 오늘 기온 상승으로 재확산 우려가 남아 있습니다.",
+      "interp": "네바다·리노 인근 거주 교민이라면 <b>대피령 해제 여부</b>를 계속 확인하고, 돌풍·고온 예보가 있는 만큼 대피 준비를 유지하세요.",
+      "source": "Press Democrat·CNN",
+      "read": 3,
+      "url": "https://www.pressdemocrat.com/2026/08/24/nevada-wildfires-reno/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "H-1B 수수료 10만3265달러 재추진",
+      "desc": "국토안보부가 오늘 H-1B 신규 취업비자에 10만3265달러 수수료를 부과하는 규정안을 연방관보에 게재했습니다. 지난 6월 법원의 위법 판결 이후 재추진된 것입니다.",
+      "interp": "H-1B로 미국 취업·이민을 준비 중이라면 <b>규정안 확정 여부와 의견수렴 절차</b>를 앞으로 계속 확인해야 합니다.",
+      "source": "Washington Post·Bloomberg",
+      "read": 3,
+      "url": "https://www.washingtonpost.com/immigration/2026/08/24/trump-administration-proposes-103000-fee-h-1b-visas-after-legal-setback/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "policy",
+      "head": "트럼프, 캐나다차 관세 2배 위협",
+      "desc": "트럼프 대통령이 캐나다산 자동차·트럭·철강 관세 50%를 2027년 1월부터 두 배로 올리겠다고 위협했습니다. 캐나다도 9월 8일부터 보복관세를 예고했습니다.",
+      "interp": "미국에서 자동차·가전 구매를 계획 중이라면 <b>관세발 가격 인상</b> 가능성을 염두에 두고 구매 시기를 조정해보세요.",
+      "source": "CNN·CNBC",
+      "read": 3,
+      "url": "https://www.cnn.com/2026/08/24/business/us-canada-cost-more",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "tax",
+      "head": "2026년 FBAR 벌금 상한 인상 확정",
+      "desc": "2026년 물가연동으로 FBAR(해외금융계좌신고) 미신고 벌금 상한이 인상됐습니다. 비고의 위반은 1만6536달러, 고의 위반은 계좌잔액의 50%까지 부과될 수 있습니다.",
+      "interp": "한국에 계좌를 보유한 미국 시민권·영주권자라면 <b>FBAR 신고 누락 여부</b>를 지금 다시 꼼꼼히 점검해보세요.",
+      "source": "Morningstar·WealthStrategiesJournal",
+      "read": 3,
+      "url": "https://www.morningstar.com/news/accesswire/1172907msn/irs-tightens-fbar-penalties-for-2026-clear-start-tax-warns-holders-of-foreign-accounts-to-review-filing-obligations",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "호르무즈 선박 45척 블랙리스트, 한국 포함",
+      "desc": "이란이 어제 통항 규정 위반을 이유로 유조선 등 45척을 블랙리스트에 올렸고 한국 선사 선박 5척이 포함됐습니다. 오늘 한국 선박 5척은 추가 통과해 잔류 선박은 13척입니다.",
+      "interp": "해운·선원 관련 교민이라면 <b>블랙리스트 선박 명단</b>과 호르무즈 통항 상황을 뉴스로 계속 확인해두는 것이 좋습니다.",
+      "source": "아시아경제·SBS",
+      "read": 3,
+      "url": "https://www.asiae.co.kr/article/2026082502275924448",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "태풍 사우델 오늘 정점, 오키나와 근접",
+      "desc": "제18호 태풍 사우델이 오늘 중심기압 930hPa로 정점을 찍으며 오키나와 동남동쪽 약 340km까지 접근했습니다. 제주 등 한반도 직접 영향 가능성은 현재 낮게 예보됩니다.",
+      "interp": "오키나와 여행을 앞두고 있다면 <b>항공편 결항 여부</b>를 출발 전 항공사 공지로 미리 확인하고 일정을 조정하세요.",
+      "source": "기상청·위키트리",
+      "read": 3,
+      "url": "https://www.theonetv.kr/news/articleView.html?idxno=252486",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "마드리드공항 27~30일 부분파업 예고",
+      "desc": "스페인 마드리드-바라하스 공항에서 8월 27·28·30일 수하물 처리 인력의 부분파업이 예고됐습니다. 시간대는 오전 5~7시, 오후 1~3시로 지연이 예상됩니다.",
+      "interp": "이 기간 마드리드를 오가는 일정이라면 <b>수하물 지연</b>에 대비해 공항에 평소보다 여유 있게 도착하는 것이 좋습니다.",
+      "source": "myflyright",
+      "read": 3,
+      "url": "https://myflyright.com/blog/airline-airport-strikes-august-september-2026/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
