@@ -1,0 +1,277 @@
+{
+  "number": 25,
+  "date": "2026-08-26",
+  "published": [
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "현대차·기아 임단협 타결",
+      "desc": "현대자동차 노사가 111일 만에 임금·단체협약 잠정합의안을 마련했습니다. 기본급 10만원 인상과 성과급 400%+1270만원 등이 담겼고, 기아도 부분파업 계획을 접고 비슷한 조건으로 합의했습니다. 두 회사 파업으로 약 2조3천억원의 매출 손실이 발생한 뒤 나온 결과입니다.",
+      "interp": "국내 자동차 생산 차질이 풀리며 협력업체 고용도 안정될 전망입니다. 관련 <b>부품·투자 소식</b>을 함께 챙겨보면 도움이 됩니다.",
+      "source": "서울신문",
+      "read": 3,
+      "url": "https://www.seoul.co.kr/news/society/2026/08/26/20260826008001",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "제주 실종 허위종결 298건",
+      "desc": "제주의 한 경찰관이 담당하던 실종신고 298건이 부실하게 '셀프 종결' 처리된 사실이 드러났습니다. 국회 행정안전위원회에서 경찰청 차장 대행이 이 규모를 공식 확인했습니다. 경찰은 전수조사와 함께 해안 수색 범위를 넓혀 추가 피해 여부를 확인하고 있습니다.",
+      "interp": "재외국민도 국내 실종·수사 민원은 진행 상황을 직접 확인하는 것이 안전합니다. <b>정부24·국민신문고</b>로 처리 현황을 조회할 수 있습니다.",
+      "source": "아시아경제",
+      "read": 3,
+      "url": "https://view.asiae.co.kr/article/2026082418424552413",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "stocks",
+      "head": "코스피 반등, 삼성전자 급등",
+      "desc": "코스피가 전날 급락을 딛고 26일 6800선을 회복하며 반등했습니다. 밤사이 뉴욕 반도체주 강세 영향으로 삼성전자가 3%대 오른 26만5000원에 거래됐습니다. 원/달러 환율은 1384원대에서 움직이며 최근의 1300원대 안정 흐름을 이어갔습니다.",
+      "interp": "환율이 1380원대로 다소 안정돼 해외 송금·환전 부담이 줄었습니다. 송금 전 <b>실시간 환율</b>을 비교해 유리한 시점을 고르세요.",
+      "source": "머니투데이",
+      "read": 3,
+      "url": "https://www.mt.co.kr/stock/2026/08/26/2026082608524044700",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "general",
+      "head": "메르츠 지지율 18%, 역대 최저",
+      "desc": "메르츠 총리의 국정 지지율이 인사(Insa) 여론조사에서 18%로 역대 최저치를 기록했습니다. 여당 원내대표 프라이는 방송에 출연해 총리의 사임설을 거듭 부인했습니다. 정치 불안이 이어지면 이민·세제 등 주요 정책 논의가 늦어질 수 있어 지켜볼 필요가 있습니다.",
+      "interp": "정치 불안은 비자·세제 개혁 논의 지연으로 이어질 수 있습니다. 앞으로 나올 <b>이민·세제 정책 공지</b>를 주시하세요.",
+      "source": "t-online",
+      "read": 3,
+      "url": "https://www.t-online.de/nachrichten/deutschland/id_101405176/unionsfraktionschef-frei-rueckzug-nie-ein-thema-fuer-merz.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "프랑스 남부 토네이도 39명 부상",
+      "desc": "프랑스 남부 오드주 포마 마을에 토네이도가 덮쳐 39명이 다치고 주택 약 300채가 부서졌습니다. 주민 1000여명 전원이 대피했고 1400가구가 정전 피해를 입었습니다. 프랑스에서 토네이도는 이례적이어서 당국이 원인과 피해 규모를 조사 중입니다.",
+      "interp": "프랑스 남부 여행 중이라면 해당 지역 도로·숙소 상황을 미리 확인하세요. 정전 지역에서는 <b>대사관 긴급연락처</b>를 챙겨두면 안전합니다.",
+      "source": "아시아경제",
+      "read": 3,
+      "url": "https://view.asiae.co.kr/article/2026082521424363713",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "미국, 비자 20만건 취소 추진",
+      "desc": "미국 국무부가 2016~2026년 발급된 B1·B2 비자 중 망명을 신청했거나 신청 중인 외국인 약 20만명의 비자를 취소하는 방안을 추진합니다. 실현되면 미국 역사상 최대 규모의 비자 일괄 취소가 됩니다. 비자가 취소돼도 즉시 추방되지는 않지만 여행·상용 신분은 잃게 됩니다.",
+      "interp": "미국 방문 이력이 있다면 과거 비자 종류와 망명 신청 여부를 점검해 두세요. 해당 소지가 있다면 <b>이민 전문 변호사</b> 상담을 권합니다.",
+      "source": "Axios",
+      "read": 3,
+      "url": "https://www.axios.com/2026/08/24/trump-visas-asylum-seekers-revoke",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "H-1B 수수료 규정 초안 발표",
+      "desc": "미국 국토안보부가 25일 관보를 통해 H-1B 전문직 비자 신청 수수료를 10만3265달러로 올리는 규정 초안을 발표했습니다. 기존에 알려진 인상 방침이 실제 규정 마련 단계로 넘어간 것입니다. 국토안보부는 이 수수료로 연간 약 88억달러를 걷어 이민 단속 재원으로 쓸 계획이라고 밝혔습니다.",
+      "interp": "H-1B 신청·갱신 예정이라면 규정 확정 시점과 경과 규정을 꼭 확인하세요. 고용주와 <b>비용 분담</b>도 미리 상의해 두는 것이 좋습니다.",
+      "source": "서울신문",
+      "read": 3,
+      "url": "https://www.seoul.co.kr/news/international/USA-amrica/2026/08/26/20260826002006",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "뉴욕증시 상승, 반도체주 반등",
+      "desc": "26일 뉴욕증시에서 국제유가와 국채금리가 동반 하락하며 S&P500과 나스닥 등 3대 지수가 모두 올랐습니다. 7거래일 내리막이던 엔비디아가 2%대 반등했고 AMD·마이크론도 강세를 보였습니다. 시장은 이날 나올 7월 개인소비지출(PCE) 물가지수와 28일 잭슨홀 회의를 주시하고 있습니다.",
+      "interp": "미국 주식·ETF를 보유하고 있다면 이번 주 물가지표 발표 후 변동성 확대에 대비하세요. <b>분할 매수·매도</b>로 위험을 관리하는 것이 안전합니다.",
+      "source": "글로벌이코노믹",
+      "read": 3,
+      "url": "https://www.g-enews.com/article/Securities/2026/08/202608260531031440e250e8e188_1",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "베트남·중국 태풍 나라 대홍수",
+      "desc": "태풍 나라의 영향으로 베트남 북부와 중국 광시 지역에 폭우가 쏟아지며 큰 홍수가 났습니다. 중국 광시에서는 5만4천명이 대피했고 베트남 랑선에서는 주택 4천여채가 침수 피해를 입었습니다. 양국 모두 최고 수준의 재난 대응 단계를 발령하고 구조·복구 작업을 벌이고 있습니다.",
+      "interp": "베트남 북부·중국 남부 방문·거주 중이라면 현지 대사관 안전공지를 수시로 확인하세요. 산사태 위험 지역은 <b>이동을 자제</b>하는 것이 안전합니다.",
+      "source": "TimesLIVE",
+      "read": 3,
+      "url": "https://www.timeslive.co.za/news/world/2026-08-25-typhoon-narra-forces-thousands-to-evacuate-homes-in-southern-china/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "태국 폭우·홍수 유의보 발령",
+      "desc": "주태국 대한민국 대사관이 태국 북부·중부·북동부 지역의 폭우로 하천이 범람하고 도로가 침수됐다며 안전 유의 안내를 냈습니다. 대사관은 현지 기상 변화를 수시로 확인하고 침수·범람 예상 지역 진입과 운전을 피해 달라고 당부했습니다. 송클라주 핫야이 등 일부 지역은 별도 홍수 안내도 함께 나왔습니다.",
+      "interp": "태국 여행·체류 중이라면 뉴스와 기상 정보를 계속 확인하세요. 긴급 상황 시 <b>대사관 영사콜센터</b>로 바로 연락하세요.",
+      "source": "주태국 대한민국 대사관",
+      "read": 3,
+      "url": "https://www.mofa.go.kr/th-ko/brd/m_25795/view.do?seq=1347316",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
