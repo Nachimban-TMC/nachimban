@@ -6,6 +6,7 @@
                          실제 카드/아카이브로 치환한 정적 페이지(자체 완결)
 """
 from __future__ import annotations
+import html
 import json
 import os
 from typing import List
@@ -70,6 +71,20 @@ class _ImgRotator:
 
 
 # ── 카드/섹션 렌더 (template.html 의 CSS 클래스와 일치) ──────────────
+def _mark_terms(text: str, terms: list) -> str:
+    """desc 안의 어려운 단어를 점선 밑줄 span 으로 감싼다. 탭하면 설명이 뜬다.
+    긴 단어부터 감싸 부분 겹침을 피하고, 각 단어는 첫 등장 1회만 표시한다."""
+    for t in sorted(terms or [], key=lambda x: -len((x or {}).get("term", ""))):
+        term = (t.get("term") or "").strip()
+        explain = (t.get("explain") or "").strip()
+        if not term or not explain or term not in text:
+            continue
+        span = (f'<span class="term" role="button" tabindex="0" '
+                f'data-x="{html.escape(explain, quote=True)}">{term}</span>')
+        text = text.replace(term, span, 1)
+    return text
+
+
 def _card(it: NewsItem, date_dot: str, rot: "_ImgRotator | None" = None) -> str:
     kr, en, group = config.CATEGORIES.get(it.category, (it.category, "", "g1"))
     img = (rot or _ImgRotator()).pick(group)
@@ -79,7 +94,7 @@ def _card(it: NewsItem, date_dot: str, rot: "_ImgRotator | None" = None) -> str:
         <div class="m-top"><span class="date">{date_dot}</span><span class="tag{hotcls}">{kr} <em>{en}</em></span></div>
         <div class="thumb {img}"><span class="ph">Sample</span></div>{hl}
         <h3>{it.head}</h3>
-        <p class="desc">{it.desc}</p>
+        <p class="desc">{_mark_terms(it.desc, it.terms)}</p>
         <div class="interp"><span class="il">{_interp_label(it)}</span><p>{it.interp}</p></div>
         <div class="m-bot"><span><span class="lb">Source</span>{it.source}</span><span><span class="lb">Read</span>{it.read} min</span>{_share_btn(it)}<a class="readmore" href="{it.url}" target="_blank" rel="noopener noreferrer"><span class="arrow">↗</span>read more</a></div>
       </article>"""

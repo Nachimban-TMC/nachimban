@@ -14,6 +14,7 @@
       "source_urls": [],
       "hot": true,
       "hotflag": "Must read",
+      "terms": [],
       "verdict": "PASS",
       "check_a": {
         "verdict": "PASS",
@@ -41,6 +42,12 @@
       "source_urls": [],
       "hot": false,
       "hotflag": null,
+      "terms": [
+        {
+          "term": "AfD",
+          "explain": "독일 극우 성향 정당 \"독일을 위한 대안\"입니다."
+        }
+      ],
       "verdict": "PASS",
       "check_a": {
         "verdict": "PASS",
@@ -68,6 +75,7 @@
       "source_urls": [],
       "hot": false,
       "hotflag": null,
+      "terms": [],
       "verdict": "PASS",
       "check_a": {
         "verdict": "PASS",
@@ -95,6 +103,7 @@
       "source_urls": [],
       "hot": false,
       "hotflag": null,
+      "terms": [],
       "verdict": "PASS",
       "check_a": {
         "verdict": "PASS",
@@ -122,6 +131,7 @@
       "source_urls": [],
       "hot": false,
       "hotflag": null,
+      "terms": [],
       "verdict": "PASS",
       "check_a": {
         "verdict": "PASS",
@@ -149,6 +159,7 @@
       "source_urls": [],
       "hot": true,
       "hotflag": "For expats",
+      "terms": [],
       "verdict": "PASS",
       "check_a": {
         "verdict": "PASS",
@@ -176,6 +187,7 @@
       "source_urls": [],
       "hot": false,
       "hotflag": null,
+      "terms": [],
       "verdict": "PASS",
       "check_a": {
         "verdict": "PASS",
@@ -203,6 +215,12 @@
       "source_urls": [],
       "hot": false,
       "hotflag": null,
+      "terms": [
+        {
+          "term": "종부세",
+          "explain": "종합부동산세. 고가·다주택 보유자에게 매기는 국세입니다."
+        }
+      ],
       "verdict": "PASS",
       "check_a": {
         "verdict": "PASS",
@@ -230,6 +248,7 @@
       "source_urls": [],
       "hot": false,
       "hotflag": null,
+      "terms": [],
       "verdict": "PASS",
       "check_a": {
         "verdict": "PASS",
@@ -257,6 +276,12 @@
       "source_urls": [],
       "hot": false,
       "hotflag": null,
+      "terms": [
+        {
+          "term": "환태평양경제동반자협정",
+          "explain": "아시아·태평양 11개국의 자유무역 협정(CPTPP)입니다."
+        }
+      ],
       "verdict": "PASS",
       "check_a": {
         "verdict": "PASS",
@@ -284,6 +309,7 @@
       "source_urls": [],
       "hot": true,
       "hotflag": "Must read",
+      "terms": [],
       "verdict": "PASS",
       "check_a": {
         "verdict": "PASS",
@@ -311,6 +337,12 @@
       "source_urls": [],
       "hot": false,
       "hotflag": null,
+      "terms": [
+        {
+          "term": "스테이블코인",
+          "explain": "달러 등에 가치를 1:1로 고정한 가상자산입니다."
+        }
+      ],
       "verdict": "PASS",
       "check_a": {
         "verdict": "PASS",
@@ -338,6 +370,7 @@
       "source_urls": [],
       "hot": false,
       "hotflag": null,
+      "terms": [],
       "verdict": "PASS",
       "check_a": {
         "verdict": "PASS",
@@ -365,6 +398,7 @@
       "source_urls": [],
       "hot": true,
       "hotflag": "Must read",
+      "terms": [],
       "verdict": "PASS",
       "check_a": {
         "verdict": "PASS",
@@ -392,6 +426,16 @@
       "source_urls": [],
       "hot": false,
       "hotflag": null,
+      "terms": [
+        {
+          "term": "잭슨홀",
+          "explain": "미국 연준이 매년 여는 세계 중앙은행 경제 심포지엄입니다."
+        },
+        {
+          "term": "PCE",
+          "explain": "연준이 가장 중시하는 개인소비지출 물가지표입니다."
+        }
+      ],
       "verdict": "PASS",
       "check_a": {
         "verdict": "PASS",
@@ -419,6 +463,7 @@
       "source_urls": [],
       "hot": false,
       "hotflag": null,
+      "terms": [],
       "verdict": "PASS",
       "check_a": {
         "verdict": "PASS",
@@ -446,6 +491,7 @@
       "source_urls": [],
       "hot": false,
       "hotflag": null,
+      "terms": [],
       "verdict": "PASS",
       "check_a": {
         "verdict": "PASS",
@@ -473,6 +519,7 @@
       "source_urls": [],
       "hot": true,
       "hotflag": "Must read",
+      "terms": [],
       "verdict": "PASS",
       "check_a": {
         "verdict": "PASS",
@@ -500,6 +547,7 @@
       "source_urls": [],
       "hot": false,
       "hotflag": null,
+      "terms": [],
       "verdict": "PASS",
       "check_a": {
         "verdict": "PASS",
@@ -527,6 +575,7 @@
       "source_urls": [],
       "hot": false,
       "hotflag": null,
+      "terms": [],
       "verdict": "PASS",
       "check_a": {
         "verdict": "PASS",

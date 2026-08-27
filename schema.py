@@ -51,6 +51,8 @@ class NewsItem(BaseModel):
     source_urls: List[str] = Field(default_factory=list)
     hot: bool = False
     hotflag: Optional[str] = None
+    # 어려운 용어 풀이 — desc 안 단어에 점선 밑줄 → 탭하면 설명. [{"term","explain"}, ...]
+    terms: List[dict] = Field(default_factory=list)
     # 검증 결과(감사 로그)
     verdict: Literal["PASS", "HOLD", "PENDING"] = "PENDING"
     check_a: Optional[FactVerdict] = None

@@ -121,6 +121,17 @@
   .interp p{margin:0;font-size:13px;color:var(--ink-soft);line-height:1.66;}
   .interp p b{color:var(--ink);font-weight:700;border-bottom:1.5px solid var(--ink);}
 
+  /* 어려운 용어 — 점선 밑줄, 탭/클릭하면 설명 팝오버가 뜬다(카드 높이는 안 늘어남) */
+  .term{border-bottom:1px dotted var(--ink-faint);cursor:help;}
+  .term:hover,.term:focus{border-bottom-color:var(--ink);outline:none;}
+  #termpop{position:fixed;z-index:200;max-width:min(300px,86vw);
+    background:var(--ink);color:var(--on-ink);font-family:var(--kr);
+    font-size:13px;font-weight:500;line-height:1.5;padding:11px 14px;border-radius:9px;
+    box-shadow:0 10px 34px rgba(0,0,0,.32);
+    opacity:0;transform:translateY(4px);pointer-events:none;transition:opacity .14s, transform .14s;}
+  #termpop.on{opacity:1;transform:translateY(0);}
+  #termpop b{font-weight:800;}
+
   .m-bot{margin-top:auto;padding-top:16px;border-top:1px solid var(--line);
     display:flex;align-items:center;gap:14px;font-size:11px;color:var(--ink-faint);letter-spacing:.02em;}
   .m-bot .lb{font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);margin-right:4px;}
