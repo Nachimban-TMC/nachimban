@@ -262,8 +262,8 @@ def build_all(n=7):
     """이미지·캡션·뷰어를 site/social/ 에 만든다. 성공 요약(dict) 반환."""
     iss = latest_issue()
     picks = pick(iss["published"], n=n)
-    slides = [cover_slide(iss)] + \
-             [news_slide(it, i, len(picks) + 2, iss["date"]) for i, it in enumerate(picks, start=2)] + \
+    # 표지 없이 바로 첫 기사부터 — 인스타 첫 장이 뉴스라야 후킹된다. (뉴스 → 앱 안내)
+    slides = [news_slide(it, i, len(picks), iss["date"]) for i, it in enumerate(picks, start=1)] + \
              [outro_slide()]
     os.makedirs(SOCIAL, exist_ok=True)
     fail = render_images(slides)
