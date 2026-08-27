@@ -1,0 +1,547 @@
+{
+  "number": 26,
+  "date": "2026-08-27",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "독일 폭염사망 1만4천명 넘어",
+      "desc": "로베르트코흐연구소가 4월6일부터 8월9일까지 폭염으로 최소 1만4천명이 숨졌다고 밝혔습니다. 1992년 이후 가장 치명적인 여름으로 사망자 다수가 75세 이상입니다. 어르신 재외한인도 건강 관리가 필요합니다.",
+      "interp": "폭염특보 시 고령층·기저질환자는 외출을 자제하시기 바랍니다. <b>수분 섭취</b>와 냉방 관리가 중요합니다.",
+      "source": "ZDFheute",
+      "read": 3,
+      "url": "https://www.zdfheute.de/wissen/hitzewelle-hitzetote-deutschland-rki-statistik-100.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "general",
+      "head": "작센안할트 AfD 지지율 43%",
+      "desc": "9월6일 작센안할트 주선거를 앞두고 여론조사에서 AfD가 43%로 1위, 기민당은 23%에 그쳤습니다. 주 헌법수호청이 극우로 분류한 정당이라 결과에 관심이 쏠립니다. 다만 과반 미달로 연정 향방이 변수입니다.",
+      "interp": "다른 정당은 연정 거부 원칙을 유지 중입니다. <b>주선거 결과</b>가 사회 분위기에 미칠 영향을 지켜볼 만합니다.",
+      "source": "타게스슈피겔",
+      "read": 3,
+      "url": "https://www.tagesspiegel.de/politik/wahl-in-sachsen-anhalt-afd-erreicht-43-prozent-in-neuer-umfrage-15937127.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "policy",
+      "head": "독일 기업경기 지수 4개월째 상승",
+      "desc": "독일 ifo연구소가 8월 기업경기지수를 88.8포인트로 발표했으며 전월 86.7보다 올랐습니다. 예상치를 웃돈 결과로 제조업·서비스업 모두 기대감이 개선됐습니다. 경기 회복 신호는 구직·창업 계획에도 참고할 지표입니다.",
+      "interp": "에너지값 상승은 여전한 부담 요인입니다. <b>경기 지표</b> 개선 흐름과 다음달 발표도 함께 지켜보시기 바랍니다.",
+      "source": "ifo경제연구소",
+      "read": 3,
+      "url": "https://www.ifo.de/en/press-release/2026-08-25/ifo-business-climate-rises-august-2026",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "오늘 저녁 서부지역 뇌우경보",
+      "desc": "독일기상청이 27일 저녁부터 서부 지역에 강한 뇌우와 돌풍, 우박 가능성을 경보했습니다. 낮 최고 22~34도까지 오른 뒤 밤사이 한랭전선 유입으로 기온이 급변할 전망입니다. 지하실 침수와 가로수 낙지 위험에 주의가 필요합니다.",
+      "interp": "저녁 이후 서부 지역 이동 시 <b>돌풍·우박</b>에 대비하시기 바랍니다. 창문 단속과 실외 활동도 미리 점검하세요.",
+      "source": "wetter.com",
+      "read": 3,
+      "url": "https://www.wetter.com/news/wetterbericht-fuer-morgen-donnerstag-27-august-2026-kraeftige-gewitter-beenden-die-erneute-hitze_aid_6a8e8100a36b6a629302330c.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "general",
+      "head": "CIA국장, 모스크바서 나토경고",
+      "desc": "CIA 국장이 25일 모스크바를 전격 방문해 러시아에 나토 공격 자제를 경고했다고 외신이 전했습니다. 2021년 이후 첫 방문으로 발트해 연안 나토국 도발 우려가 배경으로 꼽힙니다. 나토 회원국인 독일도 안보 정세를 계속 지켜봐야 합니다.",
+      "interp": "미국 대통령은 방문을 통상적 성격이라 축소했습니다. <b>나토 정세</b> 관련 속보를 계속 주시하시기 바랍니다.",
+      "source": "CBS뉴스",
+      "read": 3,
+      "url": "https://www.cbsnews.com/news/cia-director-john-ratcliffe-russia-secret-trip/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "invest",
+      "head": "한은, 기준금리 3%로 인상",
+      "desc": "한국은행이 기준금리를 0.25%포인트 올려 연 3%로 결정했습니다. 두 달 연속 인상으로 2025년 1월 이후 가장 높은 수준입니다. 물가 상승 압력을 낮추기 위한 선제 조치라고 설명했습니다.",
+      "interp": "<b>기준금리 인상</b>은 대출이자와 예금금리에 함께 영향을 줍니다. 송금·환전 계획이 있다면 <b>환율 변동</b>도 살펴보시기 바랍니다.",
+      "source": "코리아헤럴드",
+      "read": 3,
+      "url": "https://www.koreaherald.com/article/10854054",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "제주 허위종결, 경찰청 감찰 착수",
+      "desc": "경찰청이 제주 실종 사건 허위 종결 의혹으로 27일 사건 처리·관리 체계 전반에 감찰을 착수했습니다. 해당 경찰관이 혼자 처리한 실종 신고는 1년5개월간 298건에 달합니다. 앞으로 실종 사건은 형사과장이 서면으로 확인하도록 바뀝니다.",
+      "interp": "한국 방문 중 <b>실종 신고</b> 처리에 대한 신뢰 문제로 번지고 있습니다. 경찰은 전국 단위로 <b>전수조사</b>를 확대하고 있습니다.",
+      "source": "MBC",
+      "read": 3,
+      "url": "https://imnews.imbc.com/news/2026/society/article/6846950_36918.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "tax",
+      "head": "비거주 1주택 종부세 공제 유지",
+      "desc": "정부와 여당이 비거주 1주택자 종부세 기본공제를 9억원으로 낮추려던 계획을 접고 현행 12억원 유지로 가닥을 잡았습니다. 실거주자 공제는 12억원에서 14억원으로 올리는 방안이 검토됩니다. 최종안은 9월1일 국무회의에서 확정됩니다.",
+      "interp": "해외에 살며 한국에 집을 둔 <b>비거주 1주택자</b>에게 유리한 방향입니다. 9월1일 <b>국무회의 확정안</b>을 꼭 확인하시기 바랍니다.",
+      "source": "서울경제",
+      "read": 3,
+      "url": "https://www.sedaily.com/article/20083666",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "labor",
+      "head": "기아 임단협 잠정합의, 오늘 투표",
+      "desc": "기아 노사가 기본급 10만원 인상과 성과금 400%에 1270만원을 더한 잠정합의안을 마련했습니다. 예고됐던 27일 부분파업은 철회되고 이날 부재자투표가 진행됩니다. 최종 찬반투표는 28일 실시되며 가결되면 6년 연속 무분규 타결입니다.",
+      "interp": "현대차에 이어 <b>기아도 임단협 타결</b>에 다가서며 생산 차질 우려가 줄었습니다. 최종 결과는 <b>28일 투표</b>로 확정됩니다.",
+      "source": "뉴스핌",
+      "read": 3,
+      "url": "https://www.newspim.com/news/view/20260825001163",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "policy",
+      "head": "정부, CPTPP 가입 논의 시작",
+      "desc": "정부가 27일 대외경제장관회의를 열고 환태평양경제동반자협정 가입 여부에 대한 사회적 논의를 시작한다고 밝혔습니다. 경제 효과와 산업별 영향을 분석해 국민에게 설명할 계획입니다. 개방에 민감한 농업·수산업계 우려도 함께 수렴하기로 했습니다.",
+      "interp": "가입이 현실화되면 <b>수출입과 물가</b>에 영향을 줄 수 있는 사안입니다. 아직은 <b>여론 수렴 초기 단계</b>로 확정된 내용은 아닙니다.",
+      "source": "뉴스핌",
+      "read": 3,
+      "url": "https://www.newspim.com/news/view/20260827000211",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "유럽 산불 63만헥타르 육박",
+      "desc": "올해 유럽연합 전역 산불 면적이 62만7천 헥타르를 넘었습니다. 벨기에는 역대 최대 산불, 세르비아는 수 주째 큰불과 씨름 중입니다. 루마니아·헝가리 등 발칸 지역도 위험 등급이 치솟았습니다.",
+      "interp": "<b>기후위기</b>로 남유럽 넘어 동유럽까지 산불 벨트가 확산되고 있습니다. 현지 교민은 대기질과 여행 경보를 계속 확인해야 합니다.",
+      "source": "EU 공동연구센터",
+      "read": 3,
+      "url": "https://joint-research-centre.ec.europa.eu/projects-and-activities/natural-and-man-made-hazards/forest-fires/current-wildfire-situation-europe_en",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "crypto",
+      "head": "USDT 유럽 퇴출, 유로코인 등장",
+      "desc": "테더 USDT가 EU 가상자산 규정 인가를 못 받아 8월31일 유럽에서 퇴출됩니다. 레볼루트는 규정을 준수한 유로 스테이블코인 EURR를 덴마크·폴란드 등에서 출시했습니다. 보유·송금 시 거래소 지원 종료 여부를 확인해야 합니다.",
+      "interp": "<b>MiCA 규정</b>을 지킨 코인만 유럽에서 살아남는 시대입니다. 거래소의 <b>USDT 지원 종료</b> 여부를 미리 확인하세요.",
+      "source": "The Block",
+      "read": 3,
+      "url": "https://www.theblock.co/news/business/2026-08-26-revolut-begins-phased-eurr-stablecoin-rollout-in-denmark-poland-and-portugal-412772",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "policy",
+      "head": "호르무즈 위기, EU 에너지비 급증",
+      "desc": "호르무즈 위기로 국제 유가와 가스값이 급등했습니다. 이탈리아·네덜란드 등 4개국은 3~8월 추가 에너지비로 약 410억 유로를 부담했습니다. 경유값 급등은 물류비와 생활 물가로도 번지고 있습니다.",
+      "interp": "<b>에너지 수입 의존</b>이 큰 유럽은 중동 정세에 그대로 노출됩니다. 난방비·기름값 상승은 겨울까지 이어질 가능성이 있습니다.",
+      "source": "Euronews",
+      "read": 3,
+      "url": "https://www.euronews.com/my-europe/2026/08/26/eu-countries-face-nearly-41bn-in-extra-fossil-fuel-costs-as-hormuz-crisis-exposes-energy-v",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "네바다 산불 진화율 85%로",
+      "desc": "레노 인근 호크 산불의 진화율이 27%에서 85%로 크게 올랐습니다. 주택 47채가 불에 탔고 대피 인원은 6만3천명 수준까지 줄었습니다. 소방당국은 불길 확산이 멈췄다고 밝혔습니다. 완전 진화까지는 시일이 더 걸립니다.",
+      "interp": "<b>진화율 85%</b> 도달은 산불의 큰 고비를 넘겼다는 신호입니다. 다만 완전 진화까지는 시일이 더 걸릴 전망입니다.",
+      "source": "KOLO8뉴스",
+      "read": 3,
+      "url": "https://www.kolotv.com/2026/08/26/hawk-fire-hits-85-containment/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "잭슨홀 개막, 금리 향방 촉각",
+      "desc": "연준이 주시하는 7월 PCE 물가지표가 3.7%로 예상보다 높게 나왔습니다. 같은 날 잭슨홀 회의가 열렸고 신임 연준의장은 28일 첫 연설을 합니다. 시장은 9월 금리 인상 가능성도 배제하지 않고 있습니다.",
+      "interp": "<b>물가 3.7%</b>는 금리 인하가 늦어질 수 있다는 신호입니다. 연준의장의 <b>28일 연설</b>이 향방을 가를 전망입니다.",
+      "source": "CNBC",
+      "read": 3,
+      "url": "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "엔비디아 2분기 실적 깜짝 호조",
+      "desc": "엔비디아가 2분기 매출 962억달러로 예상치를 크게 웃돌았습니다. 주당순이익도 예상보다 높은 2.22달러를 기록했습니다. 실적 발표 후 나스닥 선물이 오르며 시장 전반에 훈풍이 불었습니다. 반도체주 강세가 이어질 전망입니다.",
+      "interp": "<b>매출 962억달러</b>는 인공지능 반도체 수요가 여전히 강하다는 신호입니다. 관련 종목 투자 심리도 살아날 전망입니다.",
+      "source": "엔비디아 뉴스룸",
+      "read": 3,
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "그린카드 서식 9월18일 전면교체",
+      "desc": "미국 이민당국이 영주권 신청서 I-485 양식을 9월18일부터 새 판으로 바꿉니다. 유예기간이 없어 이날부터는 옛 양식이 곧바로 반려됩니다. 공적부조 수급 이력을 묻는 항목 범위도 더 넓어졌습니다.",
+      "interp": "<b>유예기간 없음</b>이 핵심이라 접수 시점을 놓치면 그대로 반려됩니다. 영주권 신청 예정자는 날짜를 반드시 확인해야 합니다.",
+      "source": "미국 이민국(USCIS)",
+      "read": 3,
+      "url": "https://www.uscis.gov/newsroom/alerts/uscis-to-publish-new-edition-of-form-i-485-older-editions-will-be-rejected-starting-sept-18",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "네팔 대홍수, 한국인 9명 연락두절",
+      "desc": "네팔·티베트 접경서 빙하 붕괴로 대홍수가 발생해 160명 넘게 숨지고 500명 가까이 실종됐습니다. 라수와 수력발전소 현장의 한국인 9명이 연락두절 상태입니다. 정부는 27일 신속대응팀을 급파했습니다.",
+      "interp": "네팔 라수와 등 홍수 지역은 <b>추가 산사태 위험</b>이 있어 방문을 자제해야 합니다. 현지 체류자는 <b>대사관 안전공지</b>를 수시로 확인하세요.",
+      "source": "뉴시스",
+      "read": 3,
+      "url": "https://www.newsis.com/view/NISX20260827_0003764318",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "태풍 사우델, 대만·중국 항공편 결항",
+      "desc": "태풍 사우델이 대만·오키나와 해상을 지나며 오늘 해상경보가 발령됐습니다. 대만 타오위안공항서 오키나와행 항공편이 잇따라 결항됐습니다. 중국 저장성은 경보 3단계로 올리고 관광객 4100명을 대피시켰습니다.",
+      "interp": "대만·오키나와·중국 항공편은 <b>결항 여부</b>를 재확인하세요. 태풍이 남쪽 해상을 지나는 28일까지 현지 특보에 유의하세요.",
+      "source": "SCMP",
+      "read": 3,
+      "url": "https://www.scmp.com/news/china/science/article/3365279/chinas-coastal-regions-high-alert-typhoon-saudel-cancels-flights-ferries",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "health",
+      "head": "에볼라 위기 100일, 검역강화 5개국",
+      "desc": "질병관리청이 에볼라 국제보건위기 선포 100일을 맞아 대응 현황을 발표했습니다. 콩고민주공화국·우간다 등 5개국을 검역강화 대상 국가로 지정했습니다. 국내 의심환자 3명은 모두 음성으로 확인돼 유입 사례는 없습니다.",
+      "interp": "에볼라 발생국 방문 후에는 <b>21일간 발열 등 증상</b>을 살펴야 합니다. 의심 증상이 있으면 즉시 1339로 상담하세요.",
+      "source": "서울신문",
+      "read": 3,
+      "url": "https://go.seoul.co.kr/news/prnewsView.php?id=444185",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
