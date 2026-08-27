@@ -137,33 +137,50 @@ def outro_slide():
 </section>"""
 
 
-def _slide_doc(inner):
+# 9:16 릴스(1080x1920). 인스타 릴스는 오른쪽 액션버튼·하단 캡션/오디오/네비 UI가
+# 화면을 가리므로, 그 '안전구역' 안에만 내용을 둔다:
+#   위 200 · 오른쪽 200(액션버튼) · 아래 460(캡션·오디오·네비) · 왼쪽 96
+# 페이지번호(.pg)는 릴스에선 빼고, 캔버스가 커서 글자를 키운다.
+REEL_CSS = """
+.slide{height:1920px;padding:200px 200px 460px 96px;justify-content:center;}
+.pg{display:none;}
+.pill .ko{font-size:34px;} .pill .en{font-size:20px;}
+.head{font-size:88px;line-height:1.12;margin:0 0 48px;}
+.desc{font-size:46px;line-height:1.62;}
+.interp{margin-top:54px;padding:40px 44px;} .interp p{font-size:42px;}
+.interp .lb{font-size:24px;margin-bottom:18px;}
+.foot .bn{font-size:30px;} .foot .u{font-size:28px;}
+.outro .s{font-size:44px;} .outro .big{font-size:116px;margin:34px 0 50px;}
+.outro .u{font-size:46px;} .outro .hint{font-size:34px;padding:24px 46px;}
+"""
+
+
+def _slide_doc(inner, extra_css=""):
     return (f'<!doctype html><html lang="ko"><head><meta charset="utf-8">'
-            f'<style>{CSS}</style></head><body>{inner}</body></html>')
+            f'<style>{CSS}{extra_css}</style></head><body>{inner}</body></html>')
 
 
-def render_images(slides):
-    """각 슬라이드를 Chrome 헤드리스로 1080x1350 렌더 후 JPG 로 저장. 실패 개수 반환.
-    Chrome 은 PNG 만 출력하므로 임시 PNG → sips(맥 기본)로 JPG 변환한다.
-    인스타/스레드는 JPG 가 표준이라 폰에서 바로 업로드된다(IG 게시 API 도 JPEG 요구)."""
+def render_set(slides, w, h, prefix, extra_css=""):
+    """슬라이드들을 w×h 로 렌더해 IMG/{prefix}-NN.jpg 로 저장. 실패 개수 반환.
+    Chrome 은 PNG 만 출력하므로 임시 PNG → sips 로 JPG(품질 92) 변환."""
     if not os.path.exists(CHROME):
         raise RuntimeError(f"Chrome 없음: {CHROME}")
     os.makedirs(IMG, exist_ok=True)
-    for old in glob.glob(os.path.join(IMG, "slide-*.png")) + glob.glob(os.path.join(IMG, "slide-*.jpg")):
+    for old in glob.glob(os.path.join(IMG, f"{prefix}-*.jpg")) + glob.glob(os.path.join(IMG, f"{prefix}-*.png")):
         os.remove(old)
     fail = 0
     with tempfile.TemporaryDirectory() as td:
         for n, s in enumerate(slides, start=1):
-            hp = os.path.join(td, f"s{n:02d}.html")
-            open(hp, "w", encoding="utf-8").write(_slide_doc(s))
-            png = os.path.join(td, f"s{n:02d}.png")   # 임시 PNG
+            hp = os.path.join(td, f"{prefix}{n:02d}.html")
+            open(hp, "w", encoding="utf-8").write(_slide_doc(s, extra_css))
+            png = os.path.join(td, f"{prefix}{n:02d}.png")
             subprocess.run([CHROME, "--headless=new", "--disable-gpu", "--hide-scrollbars",
                             "--no-first-run", "--no-default-browser-check",
-                            "--force-device-scale-factor=1", "--window-size=1080,1350",
+                            "--force-device-scale-factor=1", f"--window-size={w},{h}",
                             "--default-background-color=FFFFFFFF",
                             f"--screenshot={png}", f"file://{hp}"],
                            check=False, capture_output=True, text=True, timeout=60)
-            jpg = os.path.join(IMG, f"slide-{n:02d}.jpg")
+            jpg = os.path.join(IMG, f"{prefix}-{n:02d}.jpg")
             ok = os.path.exists(png) and os.path.getsize(png) > 2000
             if ok:
                 subprocess.run(["sips", "-s", "format", "jpeg", "-s", "formatOptions", "92",
@@ -221,11 +238,13 @@ a.dl{display:inline-block;margin-top:12px;font-size:13px;color:var(--soft)}
 
 
 def viewer_html(iss, picks, ig, th, nslides):
-    thumbs = "".join(
-        f'<a href="img/slide-{n:02d}.jpg" download="nachimban-{iss["date"]}-{n:02d}.jpg">'
-        f'<span class="i">{n:02d}</span>'
-        f'<img src="img/slide-{n:02d}.jpg" alt="slide {n}" loading="lazy"></a>'
-        for n in range(1, nslides + 1))
+    def thumbs(prefix):
+        return "".join(
+            f'<a href="img/{prefix}-{n:02d}.jpg" download="nachimban-{prefix}-{iss["date"]}-{n:02d}.jpg">'
+            f'<span class="i">{n:02d}</span>'
+            f'<img src="img/{prefix}-{n:02d}.jpg" alt="{prefix} {n}" loading="lazy"></a>'
+            for n in range(1, nslides + 1))
+    reels, cards = thumbs("reel"), thumbs("slide")
     igj = json.dumps(ig, ensure_ascii=False)
     thj = json.dumps(th, ensure_ascii=False)
     return f"""<!doctype html><html lang="ko"><head>
@@ -236,9 +255,13 @@ def viewer_html(iss, picks, ig, th, nslides):
 <div class="hd"><h1>나침반 소셜 · 제{iss['number']}호</h1>
 <div class="rom">{fmt_date(iss['date'])} · 인스타·스레드용</div></div>
 
-<h2>📸 캐러셀 이미지 ({nslides}장)</h2>
-<div class="note">이미지를 <b>길게 눌러 저장</b>하거나 번호를 눌러 내려받으세요. 순서대로 올리면 됩니다.</div>
-<div class="grid">{thumbs}</div>
+<h2>🎬 릴스용 · 세로 9:16 ({nslides}장)</h2>
+<div class="note">릴스가 <b>비팔로워에게 더 퍼집니다</b>. 앱에서 <b>릴스 → 이 이미지들 선택 → 시그니처 음악</b> 넣고 게시하세요. (오른쪽 버튼·하단 UI 안 가리게 만들었습니다)</div>
+<div class="grid reel">{reels}</div>
+
+<h2>🖼 캐러셀용 · 4:5 ({nslides}장)</h2>
+<div class="note">피드 게시물용. 길게 눌러 저장하거나 번호를 눌러 내려받으세요.</div>
+<div class="grid">{cards}</div>
 
 <h2>📝 인스타그램 캡션</h2>
 <div class="cap" id="ig"></div>
@@ -266,7 +289,8 @@ def build_all(n=7):
     slides = [news_slide(it, i, len(picks), iss["date"]) for i, it in enumerate(picks, start=1)] + \
              [outro_slide()]
     os.makedirs(SOCIAL, exist_ok=True)
-    fail = render_images(slides)
+    fail = render_set(slides, 1080, 1350, "slide")                 # 캐러셀 4:5
+    fail += render_set(slides, 1080, 1920, "reel", REEL_CSS)        # 릴스 9:16(안전구역)
     ig, th = captions(iss, picks)
     open(os.path.join(SOCIAL, "captions.txt"), "w", encoding="utf-8").write(
         f"===== INSTAGRAM =====\n\n{ig}\n\n\n===== THREADS =====\n\n{th}\n")
@@ -277,6 +301,7 @@ def build_all(n=7):
     manifest = {
         "number": iss["number"], "date": iss["date"], "slides": len(slides),
         "image_urls": [f"{base}/slide-{n:02d}.jpg" for n in range(1, len(slides) + 1)],
+        "reel_urls": [f"{base}/reel-{n:02d}.jpg" for n in range(1, len(slides) + 1)],
         "ig_caption": ig, "threads_text": th,
     }
     open(os.path.join(SOCIAL, "manifest.json"), "w", encoding="utf-8").write(
