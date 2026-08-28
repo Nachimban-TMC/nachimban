@@ -131,7 +131,16 @@
       "source_urls": [],
       "hot": false,
       "hotflag": null,
-      "terms": [],
+      "terms": [
+        {
+          "term": "잭슨홀",
+          "explain": "미국 연준이 매년 여는 세계 중앙은행 경제 심포지엄"
+        },
+        {
+          "term": "DAX지수",
+          "explain": "독일 대표 40개 상장기업으로 만든 주가지수"
+        }
+      ],
       "verdict": "PASS",
       "check_a": {
         "verdict": "PASS",
@@ -454,7 +463,12 @@
       "source_urls": [],
       "hot": false,
       "hotflag": null,
-      "terms": [],
+      "terms": [
+        {
+          "term": "잭슨홀",
+          "explain": "미국 연준이 매년 여는 세계 중앙은행 경제 심포지엄"
+        }
+      ],
       "verdict": "PASS",
       "check_a": {
         "verdict": "PASS",
@@ -482,7 +496,16 @@
       "source_urls": [],
       "hot": false,
       "hotflag": null,
-      "terms": [],
+      "terms": [
+        {
+          "term": "H-1B",
+          "explain": "미국의 전문직 취업비자"
+        },
+        {
+          "term": "스테이",
+          "explain": "법원이 결정의 효력을 임시로 멈추는 조치"
+        }
+      ],
       "verdict": "PASS",
       "check_a": {
         "verdict": "PASS",
