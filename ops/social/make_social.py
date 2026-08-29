@@ -139,10 +139,11 @@ def outro_slide():
 
 # 9:16 릴스(1080x1920). 인스타 릴스는 오른쪽 액션버튼·하단 캡션/오디오/네비 UI가
 # 화면을 가리므로, 그 '안전구역' 안에만 내용을 둔다:
-#   위 200 · 오른쪽 200(액션버튼) · 아래 460(캡션·오디오·네비) · 왼쪽 96
+#   위 300(상태바+릴스/친구 메뉴, 실측 화면 상단 12%) · 오른쪽 200(액션버튼)
+#   · 아래 440(계정·오디오·캡션·댓글창) · 왼쪽 96
 # 페이지번호(.pg)는 릴스에선 빼고, 캔버스가 커서 글자를 키운다.
 REEL_CSS = """
-.slide{height:1920px;padding:200px 200px 460px 96px;justify-content:center;}
+.slide{height:1920px;padding:300px 200px 440px 96px;justify-content:center;}
 .pg{display:none;}
 .pill .ko{font-size:34px;} .pill .en{font-size:20px;}
 .head{font-size:88px;line-height:1.12;margin:0 0 48px;}
