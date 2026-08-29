@@ -1,0 +1,401 @@
+{
+  "number": 28,
+  "date": "2026-08-29",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "베를린 시청 해킹, 5.79TB 유출",
+      "desc": "러시아계 해커조직이 베를린 시청 전산망에서 계약서 4만6500건 등 5.79테라바이트를 훔쳐갔습니다. 베를린시가 몸값 지급을 거부하자 해커들은 비트코인 30개에 자료를 경매로 내놨습니다. 9월20일 베를린 주의회 선거를 한 달도 안 남긴 시점이라 우려가 커지고 있습니다.",
+      "interp": "선거 인프라는 무사하다고 당국이 밝혔지만, <b>개인정보 유출</b> 우려가 있어 베를린시에 서류를 낸 적이 있다면 안내를 살펴봐 주세요.",
+      "source": "로이터",
+      "read": 4,
+      "url": "https://www.yahoo.com/news/world/articles/berlin-being-blackmailed-hackers-mayor-212905979.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "랜섬웨어",
+          "explain": "데이터를 암호화하거나 훔친 뒤 돈을 요구하는 악성 해킹 수법"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "labor",
+      "head": "독일, 하루 8시간제 없앤다",
+      "desc": "독일 연립정부가 하루 최대 8시간인 노동시간 규정을 주 48시간 기준으로 바꾸는 방안을 추진하기로 했습니다. 메르츠 총리는 여름휴가에서 복귀하며 더 효율적으로 일해야 한다고 강조했습니다. 노동계는 삶의 질 악화를 우려해 강하게 반발하고 있습니다.",
+      "interp": "시행되면 하루 근무시간이 늘어날 수 있으니, <b>근로계약서</b>의 노동시간 조항을 미리 확인해 두세요.",
+      "source": "The Local",
+      "read": 3,
+      "url": "https://www.thelocal.de/20260827/today-in-germany-a-roundup-of-the-latest-news-on-thursday-133",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "tax",
+      "head": "독일, 2자녀가정 연600유로 감면",
+      "desc": "독일 정부가 다음주 각료회의에 소득세 개혁안을 상정할 예정이며, 자녀 2명을 둔 가정은 연간 600유로를 감면받게 됩니다. 클링바일 재무장관은 500억유로 투자 프로그램과 함께 경기 회복을 이끌 조치라고 설명했습니다. 구체적 시행 시점은 각료회의 이후 확정될 전망입니다.",
+      "interp": "자녀가 있는 가정은 <b>소득세 감면</b>이 확정되면 신청 절차를 바로 챙겨보시면 좋습니다.",
+      "source": "The Local",
+      "read": 3,
+      "url": "https://www.thelocal.de/20260827/today-in-germany-a-roundup-of-the-latest-news-on-thursday-133",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "pension",
+      "head": "메르츠, 63세 연금폐지 재확인",
+      "desc": "메르츠 총리가 동부 지역 기민련 주지사들의 반대에도 63세 무감액 조기연금 폐지 방침을 재확인했습니다. 노동시간 개혁과 함께 연금개혁위원회 권고안을 그대로 입법 절차에 담겠다고 밝혔습니다. 세부 내용은 의회 협상 과정에서 달라질 수 있습니다.",
+      "interp": "63세 조기은퇴를 계획했던 분이라면 <b>연금개혁</b> 최종안이 확정될 때까지 시점을 서두르지 마세요.",
+      "source": "The Local",
+      "read": 3,
+      "url": "https://www.thelocal.de/20260827/today-in-germany-a-roundup-of-the-latest-news-on-thursday-133",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "기아 임단협 가결, 6년째 무파업",
+      "desc": "기아 노동조합 조합원 투표에서 임금협상안이 64.1%, 단체협약안이 63.1% 찬성으로 가결됐습니다. 기본급 10만원 인상과 성과격려금 400%+1270만원 지급 등이 담겼습니다. 이로써 기아는 2021년 이후 6년 연속 파업 없이 임단협을 마무리하게 됐습니다.",
+      "interp": "예정됐던 부분파업이 철회돼 <b>생산 정상화</b>로 이어질 전망이니, 신차 출고 지연 여부를 확인해 보세요.",
+      "source": "이데일리",
+      "read": 3,
+      "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=05261126645550928",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "정부, 계란·닭고기 할당관세 확대",
+      "desc": "정부가 비상경제 태스크포스 회의를 열어 계란·닭고기 등 체감물가가 높은 품목에 할당관세를 확대 적용하기로 했습니다. 신선란 추가 수입과 비축 수산물 할인 방출 등도 함께 추진합니다. 유통 단계를 줄이고 가격 정보 공개를 강화하는 방안도 포함됐습니다.",
+      "interp": "장바구니 물가가 부담됐다면 이달 안에 <b>할당관세</b> 적용 품목의 가격 변화를 살펴보세요.",
+      "source": "뉴스핌",
+      "read": 3,
+      "url": "https://www.newspim.com/news/view/20260828000185",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "할당관세",
+          "explain": "정해진 물량까지 세율을 낮춰주는 한시적 수입관세 제도"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "stocks",
+      "head": "코스피 1.79%↓, 6788선 마감",
+      "desc": "코스피가 전날보다 123.49포인트(1.79%) 내린 6788.88에 거래를 마쳤습니다. 외국인과 기관이 반도체주를 중심으로 동반 매도하며 지수를 끌어내렸습니다. 전날 6912.37까지 올랐던 것과 비교하면 하루 만에 상승분을 대부분 반납한 셈입니다.",
+      "interp": "국내 주식을 보유 중이라면 반도체 업종 위주로 <b>변동성</b> 확대에 대비해 두세요.",
+      "source": "아주경제",
+      "read": 3,
+      "url": "https://www.ajunews.com/view/20260828151435090",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "세우타 이주위기, EU 긴급자금",
+      "desc": "스페인이 세우타 이주민 위기 해결을 위해 유럽연합에 공식으로 긴급 재정 지원을 요청했습니다. 지난달 말 모로코에서 세우타로 7만2000명이 몰렸고 이 중 약 100명이 숨진 것으로 파악됐습니다. EU 22개 회원국은 공동 서한을 보내 외부 국경 보호 강화를 요구했습니다.",
+      "interp": "국경 통제가 강화될 수 있으니, <b>솅겐</b> 지역 남부 국경을 통한 이동 시 지연 가능성을 감안해 주세요.",
+      "source": "알자지라",
+      "read": 3,
+      "url": "https://www.aljazeera.com/news/2026/8/25/spain-requests-emergency-funding-from-the-eu-over-ceuta-migrants",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "솅겐",
+          "explain": "여권 검사 없이 자유롭게 오갈 수 있는 유럽 26개국 협정 지역"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "travel",
+      "head": "EES 생체인증 예외, 9월6일 종료",
+      "desc": "유럽연합 새 출입국시스템 EES의 지문·안면인식 임시 생략 조치가 9월6일 만료됩니다. 벨기에·프랑스·독일 등 9개국이 연장을 요청했지만 집행위원회는 예정대로 종료한다는 입장입니다. 조치가 끝나면 공항 입국심사 대기시간이 다시 늘어날 수 있습니다.",
+      "interp": "9월 유럽 여행을 계획 중이라면 <b>EES</b> 생체정보 등록으로 대기시간이 늘 수 있으니 공항에 여유 있게 도착하세요.",
+      "source": "조세금융신문",
+      "read": 3,
+      "url": "https://www.tfmedia.co.kr/news/article.html?no=205704",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "EES",
+          "explain": "솅겐 입국 시 지문과 얼굴 정보를 등록하는 유럽연합 출입국관리 시스템"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "visa",
+      "head": "미국 이민비자 면접 전면중단",
+      "desc": "미국 국무부가 전 세계 대사관·영사관의 이민비자 면접 예약을 일시 중단했습니다. 주한미국대사관도 8월31일까지 이민비자 면접을 중단한다고 밝혔습니다. 복지 의존 가능성이 있는 신청자를 걸러내기 위한 심사기준 재교육이 목적이라고 설명했습니다.",
+      "interp": "이민비자 면접이 이미 잡혀 있다면 예정대로 진행되는지 <b>대사관 공지</b>를 반드시 다시 확인하세요.",
+      "source": "인사이트",
+      "read": 4,
+      "url": "https://www.insight.co.kr/news/570499",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "엔비디아 급등, 나스닥 최고치",
+      "desc": "엔비디아가 2분기 매출 962억달러로 시장 예상을 웃돌자 주가가 하루 만에 8.7% 급등했습니다. 나스닥 지수는 1.6% 오른 2만6541.35로 마감해 사상 최고치를 다시 썼습니다. 회사는 내년 매출이 70% 성장할 것으로 내다봤습니다.",
+      "interp": "미국 주식을 보유하고 있다면 <b>양도소득세</b> 신고 때 이번 상승분도 함께 반영해 두세요.",
+      "source": "야후파이낸스",
+      "read": 3,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-28-133400922.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "양도소득세",
+          "explain": "주식을 팔아 얻은 차익에 매기는 세금"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "네팔·티베트 홍수, 실종 2400명",
+      "desc": "네팔과 티베트 접경의 빙하 붕괴로 인한 홍수로 사망자가 580명을 넘었고 실종자는 2400명을 웃돕니다. 수력발전소 공사 현장에서 일하던 한국인 근로자 9명도 연락이 끊긴 상태입니다. 네팔 당국은 외국 지원 없이 자체적으로 구조와 수색을 이어가고 있습니다.",
+      "interp": "네팔 현지에 체류 중인 가족이 있다면 <b>영사콜센터</b>(+82-2-3210-0404)로 연락해 안전을 확인해 주세요.",
+      "source": "코리아타임스",
+      "read": 4,
+      "url": "https://www.koreatimes.co.kr/world/20260829/death-toll-nears-600-as-missing-soar-over-2400-in-nepal-china-floods",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "영사콜센터",
+          "explain": "해외에서 사건·사고를 당한 국민을 돕는 외교부의 24시간 상담 전화"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "유럽 항공 파업 잇달아, 주의",
+      "desc": "이지젯 프랑스 승무원 노조가 8월7일부터 9월2일까지 파업을 예고해 유럽 각지 항공편 지연이 이어지고 있습니다. 유럽 전역에서 현재 항공사·공항 파업 3건이 진행 중이며 추가로 8건이 예정돼 있습니다. 유럽 경유 항공편을 이용할 계획이라면 일정 조정 가능성을 미리 확인해야 합니다.",
+      "interp": "9월 초 유럽을 경유한다면 <b>결항</b>에 대비해 여유 있는 환승 시간을 잡아 두세요.",
+      "source": "MyFlyRight",
+      "read": 3,
+      "url": "https://myflyright.com/blog/airline-airport-strikes-august-september-2026/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
