@@ -1,0 +1,377 @@
+{
+  "number": 29,
+  "date": "2026-08-30",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "프랑크푸르트공항 말라리아 사망",
+      "desc": "프랑크푸르트 공항에서 모기 매개 말라리아에 걸린 직원 2명이 숨졌습니다. 감염자는 모두 6명이며, 항공기를 타고 들어온 열대 모기가 원인으로 지목됩니다.",
+      "interp": "독일 내 <b>토착 감염</b>이 아니라 공항 특수 상황이니 과도한 불안은 필요 없습니다. 다만 프랑크푸르트공항 이용 뒤 고열 증상이 있으면 병원에서 알리세요.",
+      "source": "CNN",
+      "read": 3,
+      "url": "https://www.cnn.com/2026/08/27/europe/germany-frankfurt-airport-malaria-intl",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "말라리아",
+          "explain": "모기가 옮기는 열대성 감염병"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "policy",
+      "head": "작센안할트 선거 일주일 앞",
+      "desc": "9월 6일 작센안할트 주의회 선거를 앞두고 후보 TV토론이 열렸습니다. 여론조사에서 극우 성향 정당이 여전히 집권 여당을 20%포인트 가까이 앞서고 있습니다.",
+      "interp": "선거 결과에 따라 이민·복지 정책 기조가 바뀔 수 있어 <b>체류·비자</b> 관련 규정 변화를 지켜볼 필요가 있습니다. 큰 정책 변화는 선거 이후 뉴스로 다시 안내하겠습니다.",
+      "source": "dpa",
+      "read": 2,
+      "url": "https://www.yahoo.com/news/articles/merz-vows-cdu-wont-destroyed-135227293.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "immigration",
+      "head": "독일 등 5개국 르완다 송환센터",
+      "desc": "독일, 오스트리아, 덴마크, 그리스, 네덜란드 5개국이 르완다에 난민 송환센터 설립을 논의 중입니다. 정부 대표단이 최근 르완다를 방문해 실무 협의를 진행했습니다.",
+      "interp": "합법 체류자에게 <b>직접 영향은 없는</b> 불법체류자 송환 정책이지만, 독일 이민정책 강경화 흐름을 보여주는 사안입니다. 연내 시설 개설을 목표로 협의가 이어지고 있습니다.",
+      "source": "AFP",
+      "read": 2,
+      "url": "https://slguardian.org/germany-and-four-eu-states-eye-rwanda-deportation-hubs/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "전국 호우특보, 경상권 강한 비",
+      "desc": "일요일인 오늘 전국 대부분 지역에 비가 내리고 있습니다. 경상권을 중심으로 시간당 20~30mm의 강한 비가 예보돼 전남 장성군 등에 호우주의보가 발표됐습니다.",
+      "interp": "한국 방문·이동 계획이 있다면 <b>호우주의보</b> 발표 지역의 이동을 서두르지 마세요. 시설물 관리와 저지대 침수에도 유의해야 합니다.",
+      "source": "기상청",
+      "read": 2,
+      "url": "https://www.weather.go.kr/w/special-report/overall.do",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "호우주의보",
+          "explain": "일정 강수량을 넘길 것으로 예상될 때 기상청이 내리는 예비 경보"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "원화 강세, 환율 1380원대",
+      "desc": "원달러 환율이 1380원대에서 움직이며 지난해 9월 이후 가장 강한 원화 수준을 이어가고 있습니다. 한국은행이 최근 기준금리를 3%로 올린 영향이 크게 작용했습니다.",
+      "interp": "원화가 강할 때 한국으로 <b>송금</b>하면 상대적으로 불리하니, 급하지 않다면 환율 흐름을 지켜보고 시점을 정하세요. 반대로 원화를 외화로 바꿀 계획이라면 지금이 유리한 편입니다.",
+      "source": "연합인포맥스",
+      "read": 2,
+      "url": "https://www.mt.co.kr/stock/2026/08/25/2026082514535087413",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "아이슬란드, EU 가입협상 국민투표",
+      "desc": "아이슬란드가 EU 가입협상 재개 여부를 묻는 국민투표를 실시했습니다. 초기 개표에서 찬성이 51%대로 반대를 근소하게 앞서고 있습니다.",
+      "interp": "이 투표는 <b>가입 여부</b>가 아니라 협상 재개 여부만 묻는 것으로, 법적 구속력은 없습니다. 결과가 나오면 유럽 내 EU 확대 논의에 다시 불이 붙을 수 있습니다.",
+      "source": "Al Jazeera",
+      "read": 3,
+      "url": "https://www.rte.ie/news/world/2026/0830/1589694-iceland-eu-world/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "국민투표",
+          "explain": "중요 사안을 국민이 직접 투표로 결정하는 제도"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "트럼프, 베네수엘라 석유거래 발표",
+      "desc": "트럼프 대통령이 베네수엘라 원유 매장량 650억 배럴에 대한 지분을 확보하는 계약을 발표했습니다. 미국 정부가 합작 지분의 55%를 갖는 구조로 알려졌습니다.",
+      "interp": "실제 <b>기름값 하락</b>으로 이어질지는 계약 구조가 불투명해 지켜봐야 합니다. 세부 내용이 공개되지 않아 시장 반응은 아직 엇갈리고 있습니다.",
+      "source": "CNN",
+      "read": 3,
+      "url": "https://www.cnn.com/2026/08/28/politics/trump-venezuela-oil-deal",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "H-1B 비자 10만3천달러 수수료 재추진",
+      "desc": "법원이 지난 6월 10만달러짜리 H-1B 비자 수수료를 무효화하자, 정부가 10만3265달러 규모의 새 수수료를 규제 절차로 다시 추진하고 있습니다.",
+      "interp": "H-1B 소지자나 고용주라면 <b>규제 예고 절차</b> 진행 상황을 주시해야 합니다. 확정 전까지는 기존 수수료 체계가 유지되니 성급히 대응할 필요는 없습니다.",
+      "source": "Bloomberg",
+      "read": 3,
+      "url": "https://www.bloomberg.com/news/articles/2026-08-24/trump-devises-new-100-000-h-1b-fee-after-defeat-in-court",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "H-1B",
+          "explain": "미국의 전문직 취업비자"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "study",
+      "head": "미국 유학생 체류기간 4년 상한제",
+      "desc": "미국 국토안보부가 유학생(F-1) 체류를 '재학 기간 내내'에서 최대 4년 고정 기간으로 바꾸는 규정을 확정했습니다. 9월 15일부터 시행되며 이미 재학 중인 학생에게도 적용됩니다.",
+      "interp": "미국에서 학위과정 중인 유학생은 <b>체류연장 신청</b> 시점을 미리 계산해두는 것이 안전합니다. 특히 석박사 통합과정처럼 4년을 넘길 가능성이 있다면 학교 국제처와 미리 상담하세요.",
+      "source": "PBS",
+      "read": 3,
+      "url": "https://studyinthestates.dhs.gov/final-rule-establishing-a-fixed-time-period-of-admission-and-an-extension-of-stay-procedure-quick",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "F-1",
+          "explain": "미국의 유학생 비자"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "다우·나스닥 잭슨홀 이후 소폭 하락",
+      "desc": "지난 금요일 다우지수와 나스닥지수가 소폭 하락 마감했습니다. 워시 연준의장이 잭슨홀 회의에서 첫 연설을 했지만 금리 방향을 뚜렷이 제시하지 않은 영향입니다.",
+      "interp": "당장 <b>금리 인하</b> 신호를 기대했던 시장이 실망한 것으로, 다음 고용·물가 지표가 나올 때까지 변동성이 이어질 수 있습니다. 미국 주식 보유자는 단기 등락에 일희일비하지 않는 것이 좋습니다.",
+      "source": "Washington Post",
+      "read": 2,
+      "url": "https://www.washingtonpost.com/business/2026/08/28/wall-street-stocks-dow-nasdaq/f9585446-a31d-11f1-8606-1d40ad00172e_story.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "잭슨홀",
+          "explain": "미국 연준이 매년 여는 세계 중앙은행 경제 심포지엄"
+        },
+        {
+          "term": "나스닥",
+          "explain": "미국 기술주 중심의 주가지수"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "네팔 대홍수, 한국인 9명 나흘째 실종",
+      "desc": "네팔·티베트 접경의 빙하 붕괴로 시작된 대홍수 사망자가 600명을 넘었고 실종자는 2000명대에 달합니다. 수력발전소 건설 현장에 있던 한국인 9명이 나흘째 연락이 끊긴 상태입니다.",
+      "interp": "네팔·인근 지역 여행이나 출장 계획이 있다면 <b>영사콜센터</b>로 현지 상황을 미리 확인하세요. 도로·통신이 끊긴 지역이 많아 이동에 각별한 주의가 필요합니다.",
+      "source": "머니투데이",
+      "read": 3,
+      "url": "https://www.hankookilbo.com/news/article/A2026083001490001235",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "괌 동쪽 태풍 '돌핀' 초강력 발달",
+      "desc": "괌 동쪽 해상의 태풍 돌핀이 오늘 오후 최고 등급인 '초강력' 태풍으로 발달할 전망입니다. 현재는 일본이나 중국 방향으로 향할 가능성이 높게 점쳐지지만, 진로는 아직 유동적입니다.",
+      "interp": "일본·괌 등 서태평양 지역 여행을 앞두고 있다면 <b>항공편 변동</b> 가능성을 염두에 두고 예약 항공사 공지를 수시로 확인하세요. 한반도 영향 여부는 며칠 안에 더 뚜렷해질 전망입니다.",
+      "source": "기상청",
+      "read": 2,
+      "url": "https://www.weather.go.kr/weather/typoon/report.jsp",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
