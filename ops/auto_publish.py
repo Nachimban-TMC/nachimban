@@ -156,6 +156,7 @@ def main() -> int:
         _alert_failure("소셜 자동 게시", e, number, today)
 
     _archive_draft("published")
+    _archive_editor_note()
     _log(f"✅ 제{number}호 무인 발행 완료")
     _log("📱 인스타·스레드 소셜 자료: https://nachimban.pages.dev/social")
     return 0
@@ -165,7 +166,7 @@ def _wait_images_live(timeout: int = 180) -> None:
     """게시 API는 공개 이미지 URL을 가져가므로, Cloudflare 배포가 끝나 이미지가
     실제로 뜰 때까지 기다린다(최대 timeout초)."""
     import urllib.request
-    url = "https://nachimban.pages.dev/social/img/slide-01.png"
+    url = "https://nachimban.pages.dev/social/img/slide-01.jpg"
     deadline = dt.datetime.now() + dt.timedelta(seconds=timeout)
     while dt.datetime.now() < deadline:
         try:
@@ -177,6 +178,20 @@ def _wait_images_live(timeout: int = 180) -> None:
             pass
         time.sleep(10)
     _log("소셜 이미지 라이브 확인 시간초과 — 그래도 게시 시도")
+
+
+def _archive_editor_note() -> None:
+    """편집 메모(data/editor-note.md)를 발행 후 보관한다 — 다음 호에 또 실리지 않게."""
+    note = os.path.join(REPO, "data", "editor-note.md")
+    if not os.path.exists(note):
+        return
+    dst_dir = os.path.join(REPO, "data", "notes")
+    os.makedirs(dst_dir, exist_ok=True)
+    try:
+        shutil.move(note, os.path.join(dst_dir, f"{_today()}-editor-note.md"))
+        _log("편집 메모 반영 완료 → data/notes/ 로 보관")
+    except Exception as e:
+        _log(f"편집 메모 보관 실패(무시): {e}")
 
 
 def _alert_failure(stage: str, err: BaseException, number: int, date: str) -> None:
