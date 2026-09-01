@@ -1,0 +1,617 @@
+{
+  "number": 31,
+  "date": "2026-09-01",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "라이프치히 드론테러, 러시아 배후 지목 임박",
+      "desc": "지난 8월 라이프치히 공항에서 폭발물을 실은 드론이 발견돼 수사가 진행 중입니다. 메르츠 총리는 러시아를 배후로 지목하며 수일 내 제재 방침을 밝히겠다고 예고했습니다. 정부는 EU 외교장관회의와 발맞춰 대응 수위를 조율하고 있습니다.",
+      "interp": "독일 내 <b>대러 긴장</b>이 고조되는 국면이니 관련 뉴스를 주시하세요. 공항·기차역 등 보안 검색이 강화될 수 있어 여유 있게 이동하시길 권합니다.",
+      "source": "Tagesspiegel",
+      "read": 3,
+      "url": "https://www.tagesspiegel.de/politik/nach-drohnenattacke-in-leipzig-merz-will-offenbar-nationale-massnahmen-gegen-russland-verkunden-15995991.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "베를린 등 주요 기차역 오늘부터 금주",
+      "desc": "도이체반이 베를린 중앙역과 겐준트브루넨, 킬·브라운슈바이크역에서 오늘부터 음주를 금지합니다. 이후 전국 약 5400개 역으로 단계적으로 확대할 계획입니다. 위반 시 퇴거 조치나 과태료가 부과될 수 있습니다.",
+      "interp": "역 구내에서 <b>음주 금지</b> 표지판을 확인하시고 캔맥주 등은 삼가시길 바랍니다. 아직 전국 시행은 아니니 다른 지역은 별도 안내를 참고하세요.",
+      "source": "news.de",
+      "read": 2,
+      "url": "https://www.news.de/politik/859938658/neue-gesetze-im-september-2026-mit-aktuellen-gesetzesaenderungen-landtagswahlen-alkoholverbot-bahnhoefe-steuern-greenwashing/1/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "education",
+      "head": "노르트라인베스트팔렌 등 오늘 개학",
+      "desc": "노르트라인베스트팔렌주는 오늘이 여름방학 마지막 날로, 내일부터 새 학년이 시작됩니다. 바덴뷔르템베르크는 9월12일까지, 바이에른은 9월14일까지 방학이 이어집니다. 자녀가 있는 가정은 등교 준비물과 통학 일정을 미리 챙기시길 바랍니다.",
+      "interp": "주(州)마다 개학일이 달라 헷갈리기 쉬우니 우리 아이 학교의 <b>Ferienordnung</b>을 다시 확인하세요. 새 학년 등록서류 마감일도 함께 점검하시면 좋습니다.",
+      "source": "Ruhr Nachrichten",
+      "read": 2,
+      "url": "https://www.ruhrnachrichten.de/regionales/einschulung-nrw-2026-grundschule-1-klasse-datum-wann-erstklaessler-w1067926-2001774438/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "Ferienordnung",
+          "explain": "주(州)별로 정한 학사일정·방학 규정표"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "tax",
+      "head": "세무사법 개정, 세금환급회 지원 확대",
+      "desc": "오늘부터 개정 세무사법이 시행돼 임대·금융소득이 있는 사람도 세금환급회 상담을 받을 수 있습니다. 2008년 이후 가장 큰 폭의 개편으로, 상담 가능 범위가 넓어졌습니다. 비용 부담 없이 세금 신고를 도움받고 싶은 분들에게 유리해졌습니다.",
+      "interp": "그동안 상담 대상이 아니었다면 오늘부터 <b>세금환급회</b>에 문의해 보세요. 세무사보다 저렴한 비용으로 소득세 신고를 도와줍니다.",
+      "source": "Smartsteuer",
+      "read": 2,
+      "url": "https://www.smartsteuer.de/online/blog/das-aendert-sich-im-september-2026-neuigkeiten-gesetze-steuern/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "세금환급회",
+          "explain": "회원제로 저렴하게 소득세 신고를 대행해주는 독일의 비영리 상담 단체(Lohnsteuerhilfeverein)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "policy",
+      "head": "독일 8월 물가 2.9%↑, 에너지가 견인",
+      "desc": "독일의 8월 소비자물가 상승률이 전년 대비 2.9%로 7월(2.8%)보다 높아졌습니다. 에너지 가격 상승률이 8.3%에서 10.5%로 뛴 영향이 컸습니다. 식품과 에너지를 뺀 근원물가는 2.4%로 전달과 같았습니다.",
+      "interp": "당분간 <b>난방비·유가</b> 부담이 이어질 수 있으니 겨울 대비 에너지 계약을 미리 점검하세요. 근원물가는 안정적이라 급격한 추가 인상 가능성은 낮습니다.",
+      "source": "Investing.com",
+      "read": 2,
+      "url": "https://kr.investing.com/news/economy-news/article-93CH-2079594",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "근원물가",
+          "explain": "변동성이 큰 식품·에너지 가격을 뺀 기조적인 물가 흐름"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "전북 폭우, 고창·정읍서 2명 사망",
+      "desc": "지난달 28일부터 나흘간 전남 영광에 579㎜가 쏟아지는 등 남부지방에 집중호우가 이어졌습니다. 전북 고창·정읍에서 농사일을 나갔던 60·70대 남성이 실종됐다가 하천 인근에서 숨진 채 발견됐습니다. 군산엔 호우경보, 김제·전주 등엔 호우주의보가 내려져 있습니다.",
+      "interp": "해당 지역을 방문할 계획이라면 <b>하천·저지대</b> 접근을 피하고 특보 상황을 수시로 확인하세요. 위험지역 1900여곳의 출입이 통제된 상태입니다.",
+      "source": "경향신문",
+      "read": 3,
+      "url": "https://www.khan.co.kr/article/202609011153001/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "policy",
+      "head": "내년 예산, 재외국민 안전에 500억원",
+      "desc": "정부가 발표한 2027년 예산안에 재외국민 사건·사고 예방과 대응체계 구축 예산 500억원이 포함됐습니다. 재외공관 예산도 778억원에서 1177억원으로 늘어납니다. 해외에서 사건·사고를 당했을 때 영사 지원이 한층 강화될 전망입니다.",
+      "interp": "예산 확대로 <b>재외공관</b>의 사건 대응 인력이 늘어날 수 있으니 향후 안내를 참고하세요. 실제 서비스 개선은 내년 예산 집행 이후 체감될 전망입니다.",
+      "source": "아시아경제",
+      "read": 3,
+      "url": "https://view.asiae.co.kr/article/2026083117352114101",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "invest",
+      "head": "코스피 하락 출발, 환율은 13개월 최저",
+      "desc": "1일 코스피는 전날보다 35포인트 내린 6784로 출발했습니다. 원/달러 환율은 1360원대로 내려앉아 13개월 만에 최저 수준을 기록했습니다. 미국 연준의 매파적 발언과 국제유가 상승이 동시에 시장에 영향을 주고 있습니다.",
+      "interp": "환전 계획이 있다면 <b>환율 하락</b> 흐름을 지켜보며 시점을 저울질해 보세요. 다만 변동성이 커 급격한 반등 가능성도 열어두시길 바랍니다.",
+      "source": "머니투데이",
+      "read": 2,
+      "url": "https://www.mt.co.kr/economy/2026/08/31/2026083116405960524",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "경산 유학생 살해 피의자 신상공개",
+      "desc": "경북경찰청은 오늘 오전 경산 중국인 유학생 살해 사건 피의자 정창성(31)의 신상을 공개했습니다. 정씨는 지난달 20일 하양읍 자택에서 25세 여성 유학생을 살해하고 시신을 훼손한 혐의를 받습니다. 신상 정보는 다음달 1일까지 경찰 홈페이지에 게시됩니다.",
+      "interp": "국내 체류 중인 자녀나 지인이 있다면 <b>귀가 안전</b>에 유의하도록 안내해 주세요. 사건은 여전히 수사가 진행 중입니다.",
+      "source": "YTN",
+      "read": 2,
+      "url": "https://www.ytn.co.kr/_ln/0115_202609010914235782",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "policy",
+      "head": "내년 예산 821조원, 역대 최대폭 증가",
+      "desc": "정부가 올해보다 12.8% 늘어난 821조원 규모의 2027년 예산안을 편성했습니다. 반도체·AI 등 3대 메가프로젝트에 투입되는 예산이 두 배 가까이 늘었습니다. 국세수입이 반도체 호황에 힘입어 194조원 급증한 것이 배경입니다.",
+      "interp": "예산 증가율이 역대 최대라 <b>확장재정</b> 기조가 당분간 이어질 전망입니다. 세금·재정 관련 정책 발표를 눈여겨보시길 권합니다.",
+      "source": "아시아투데이",
+      "read": 2,
+      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260901010000150",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "확장재정",
+          "explain": "정부가 지출을 늘려 경기를 부양하는 재정운용 방식"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "EU, 챗GPT '초대형 검색엔진' 지정",
+      "desc": "유럽연합 집행위원회가 챗GPT를 디지털서비스법(DSA)상 '초대형 온라인 검색엔진'으로 지정했습니다. AI 챗봇으로는 처음 있는 일로, 월 이용자 4500만명이 넘는 서비스에 적용됩니다. 오픈AI는 4개월 안에 위험 평가 등 추가 의무를 이행해야 합니다.",
+      "interp": "이용자 보호가 강화되는 조치이니 이용 중인 AI 서비스의 <b>이용약관 변경</b> 안내를 챙겨보세요. 미성년자·개인정보 보호 관련 조치가 우선 시행될 전망입니다.",
+      "source": "Irish Times",
+      "read": 3,
+      "url": "https://www.irishtimes.com/business/2026/08/31/chatgpt-faces-tougher-rules-under-eu-online-safety-regime/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "디지털서비스법(DSA)",
+          "explain": "대형 온라인 플랫폼의 불법 콘텐츠·위험 관리 의무를 정한 EU 법"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "invest",
+      "head": "잭슨홀 이후 9월 금리인상 전망 확산",
+      "desc": "잭슨홀 회의에서 매파적 발언이 나온 뒤 연준의 9월 금리인상 확률이 35%에서 63%까지 치솟았습니다. 유럽중앙은행도 중동발 유가 상승을 이유로 9월 인상 가능성을 열어두고 있습니다. 미국 국채 금리가 한 달 만에 최고치로 오르는 등 시장이 출렁였습니다.",
+      "interp": "달러·유로 예금이나 투자 상품이 있다면 <b>금리 변동성</b> 확대에 대비해 포트폴리오를 점검해 보세요. 9월 중순 실제 결정 전까지는 시장이 계속 흔들릴 수 있습니다.",
+      "source": "머니투데이",
+      "read": 3,
+      "url": "https://www.mt.co.kr/world/2026/08/31/2026083115174150421",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "잭슨홀",
+          "explain": "미국 연방준비제도가 매년 여름 와이오밍주에서 여는 글로벌 경제 심포지엄"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "travel",
+      "head": "ETIAS 새 일정, 9월 EU서 재논의",
+      "desc": "유럽 입국허가제도 ETIAS는 애초 올해 4분기 도입이 목표였지만 시스템 시험 지연으로 무산됐습니다. EU는 홈페이지에서 '4분기 시행' 문구를 삭제하고 새 일정을 밝히지 않은 상태입니다. 담당 기관 eu-LISA는 이달 이사회에서 새 시행 시기를 다시 논의할 예정입니다.",
+      "interp": "당장은 <b>기존 무비자 입국</b> 방식이 그대로 유지되니 서두를 필요는 없습니다. 다만 이사회 논의 결과가 나오면 시행일을 다시 확인하시길 바랍니다.",
+      "source": "여행신문",
+      "read": 2,
+      "url": "https://www.traveltimes.co.kr/news/articleView.html?idxno=500219",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "ETIAS",
+          "explain": "셍겐 지역에 무비자로 입국하는 여행자가 사전에 온라인으로 받아야 하는 여행허가"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "트럼프, 베네수엘라 오일딜 발표",
+      "desc": "트럼프 대통령이 베네수엘라 원유 매장량 650억 배럴에 대한 통제권을 확보하는 협정을 발표했습니다. 마두로 전 대통령이 뉴욕에서 마약 혐의 재판을 앞둔 가운데 나온 결정입니다. 베네수엘라 과도정부는 자국이 자원 소유권을 유지한다고 밝혔습니다.",
+      "interp": "국제 유가나 에너지 관련 투자 상품을 보유했다면 <b>유가 변동성</b>에 유의해 흐름을 지켜보세요. 정치적 논란이 큰 사안이라 향후 정책이 바뀔 가능성도 있습니다.",
+      "source": "Euronews",
+      "read": 3,
+      "url": "https://www.euronews.com/business/2026/08/31/what-we-know-about-trumps-deal-giving-the-us-access-to-venezuelas-oil",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "9월 금리인상 전망에 뉴욕증시 출렁",
+      "desc": "케빈 워시 연준 의장이 잭슨홀에서 매파적 발언을 내놓은 뒤 9월 금리인상 가능성이 크게 높아졌습니다. 미국 국채 2년물 금리는 한 달 만에 최고치인 4.29%까지 올랐습니다. S&P500 지수는 전날보다 0.25% 내린 7711선에서 거래를 마쳤습니다.",
+      "interp": "미국 주식·채권에 투자 중이라면 <b>단기 변동성</b> 확대에 대비해 매매 시점을 신중히 고려하세요. 실제 결정은 9월 중순 연방공개시장위원회에서 나옵니다.",
+      "source": "머니투데이",
+      "read": 2,
+      "url": "https://www.mt.co.kr/world/2026/08/29/2026082900155840506",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "연방공개시장위원회",
+          "explain": "미국의 기준금리를 결정하는 연준 산하 회의체(FOMC)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "미국 국무부, B1·B2 비자 대량 취소 추진",
+      "desc": "미국 국무부가 2016년부터 2026년 사이 발급된 B-1·B-2 방문비자 가운데 망명을 신청했거나 신청 중인 사람들의 비자를 취소하는 방안을 추진 중입니다. 조만간 공식 발표가 있을 것으로 알려졌습니다. 이민정책 전반의 강경 기조 속에 나온 조치입니다.",
+      "interp": "과거 방문비자로 미국에 체류하며 <b>망명을 신청</b>한 적이 있다면 이민 변호사와 상황을 점검해 보세요. 아직 공식 발표 전이므로 확정 시 다시 확인이 필요합니다.",
+      "source": "Forbes",
+      "read": 2,
+      "url": "https://www.forbes.com/sites/stuartanderson/2026/08/17/trump-officials-now-restricting-all-legal-immigration-categories/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "H-1B 수수료 1억4천만원, 정식 규정안",
+      "desc": "국토안보부가 새 H-1B 비자 신청에 10만3265달러(약 1억4300만원) 수수료를 부과하는 규정안을 내놨습니다. 지난해 도입한 한시적 고액 수수료가 이달 만료를 앞두고 나온 후속 조치입니다. 30일간 의견 수렴을 거쳐 연말께 확정될 전망입니다.",
+      "interp": "H-1B 스폰서 기업에 다니고 있다면 <b>수수료 확정 시점</b>을 인사·법무팀에 확인해 보세요. 신청 건수가 이미 크게 줄어든 만큼 채용 계획에도 영향이 있을 수 있습니다.",
+      "source": "라디오코리아",
+      "read": 2,
+      "url": "https://www.radiokorea.com/news/article.php?uid=502311",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "태풍 '돌핀' 오키나와 방면 접근 중",
+      "desc": "제13호 태풍 돌핀이 강한 세력을 유지한 채 일본 오키나와 방면으로 북상하고 있습니다. 한반도에 직접 상륙할 가능성은 낮지만 동풍을 유입시켜 폭염을 부채질할 수 있습니다. 오키나와나 일본 남부 여행을 계획 중이라면 항공편 변동에 유의해야 합니다.",
+      "interp": "이번 주 오키나와·규슈 방면 항공편은 <b>결항·지연</b> 가능성이 있으니 여행 전 다시 확인하세요. 국내는 간접 영향으로 무더위가 이어질 수 있습니다.",
+      "source": "위키트리",
+      "read": 2,
+      "url": "https://www.wikitree.co.kr/articles/1150384",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "life",
+      "head": "영사콜센터 사칭 보이스피싱 주의",
+      "desc": "외교부 영사콜센터 번호(02-3210-0404)를 사기범이 발신번호로 위장해 전화하는 사례가 잇따르고 있습니다. 법원·검찰 서류를 확인하라며 여권번호나 생년월일을 요구하거나 링크 접속을 유도합니다. 재외공관 직원 이름을 사칭하기도 해 각별한 주의가 필요합니다.",
+      "interp": "외교부와 재외공관은 전화·문자로 <b>개인정보나 송금</b>을 요구하지 않습니다. 의심스러우면 즉시 끊고 영사콜센터나 관할 공관에 직접 전화해 확인하세요.",
+      "source": "외교부",
+      "read": 3,
+      "url": "https://0404.go.kr/bbs/embsyNtc/1331980/detail?ntnCd=366",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "영사콜센터",
+          "explain": "외교부가 24시간 운영하는 재외국민 상담·긴급지원 전화(02-3210-0404)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "라이언에어 조종사 파업, 5개국 확산",
+      "desc": "독일·스웨덴·아일랜드·벨기에·네덜란드의 라이언에어 조종사들이 24시간 파업에 나서 400여편이 결항했습니다. 임금과 근로조건을 둘러싼 파업 중 최대 규모로 꼽힙니다. 승객 5만5천여명이 일정에 불편을 겪었습니다.",
+      "interp": "라이언에어 이용 예정이라면 출발 전 <b>운항 여부</b>를 반드시 확인하세요. 결항 시 EU261 규정에 따른 보상·환불을 요청할 수 있습니다.",
+      "source": "SBS",
+      "read": 2,
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1004885909",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "EU261",
+          "explain": "항공편 지연·결항 시 승객에게 보상을 규정한 EU 항공여객 보호 규정"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
