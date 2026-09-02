@@ -21,7 +21,12 @@ export async function onRequestGet({ request, env }) {
     const list = await env.NB_KV.list({ prefix: 'push:', cursor });
     for (const k of list.keys) {
       const v = await env.NB_KV.get(k.name, { type: 'json' });
-      if (v && v.subscription) subs.push(v.subscription);
+      if (v && v.subscription) {
+        // created_at 을 함께 실어 보낸다 — 오래된(죽었을 가능성이 큰) 구독을
+        // 가려내려면 언제 등록됐는지가 필요하다. 발송 스크립트는 subscription
+        // 필드만 쓰므로 기존 동작에는 영향이 없다.
+        subs.push(Object.assign({}, v.subscription, { created_at: v.created_at || null }));
+      }
     }
     cursor = list.list_complete ? null : list.cursor;
   } while (cursor);
