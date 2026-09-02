@@ -101,7 +101,14 @@ def main() -> int:
             raise ValueError("초안에 뉴스 항목이 없습니다(items 비어 있음)")
 
         from schema import Issue, NewsItem, FactVerdict
-        from pipeline import publish
+        from pipeline import publish, sanitize
+
+        # 한자(신문식 약칭)는 SKILL 에서 금지했지만 반복해서 새므로 기계적으로 제거한다.
+        n_fixed, leftover = sanitize.clean_items(raw_items)
+        if n_fixed:
+            _log(f"한자 자동 치환: {n_fixed}곳")
+        if leftover:
+            _log(f"⚠️ 매핑에 없는 한자 잔존 {len(leftover)}건: {leftover[:3]}")
 
         items = [NewsItem(**d) for d in raw_items]
         v = FactVerdict(verdict="PASS", confidence=0.95, sources_count=2)
