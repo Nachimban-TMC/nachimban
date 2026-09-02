@@ -30,16 +30,28 @@ def latest_issue():
     return json.load(open(files[-1], encoding="utf-8"))
 
 
-def pick(items, n=7):
+# 소셜 카드 지역 배분 — 독자 대부분이 독일 거주자라 독일을 가장 많이 싣는다.
+QUOTA = {"de": 3, "kr": 2, "eu": 1, "us": 1, "wo": 1}   # 합계 8건
+
+
+def pick(items, n=8):
+    """지역별 정해진 몫만큼 뽑는다(독일 우선). 어떤 지역이 모자라면
+    남는 자리는 다른 지역에서 순서대로 채워 총 n건을 맞춘다."""
     order = ["de", "kr", "eu", "us", "wo"]
     by = {r: [it for it in items if it["region"] == r] for r in order}
-    out, i = [], 0
-    while len(out) < min(n, len(items)) and i < 200:
+    out = []
+    for r in order:                       # 1차: 지역별 몫만큼
+        out.extend(by[r][:QUOTA.get(r, 0)])
+        by[r] = by[r][QUOTA.get(r, 0):]
+    i = 0
+    while len(out) < min(n, len(items)) and i < 200:   # 2차: 남은 자리 채우기
         r = order[i % len(order)]
         if by[r]:
             out.append(by[r].pop(0))
         i += 1
-    return out
+    # 지역 순서(de→kr→eu→us→wo)대로 정렬해 보기 좋게
+    out.sort(key=lambda it: order.index(it["region"]) if it["region"] in order else 99)
+    return out[:n]
 
 
 def fmt_date(d):
@@ -282,7 +294,7 @@ function cp(t,b){{navigator.clipboard.writeText(t).then(function(){{
 </script></body></html>"""
 
 
-def build_all(n=7):
+def build_all(n=8):
     """이미지·캡션·뷰어를 site/social/ 에 만든다. 성공 요약(dict) 반환."""
     iss = latest_issue()
     picks = pick(iss["published"], n=n)
