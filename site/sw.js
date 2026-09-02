@@ -1,5 +1,5 @@
 /* 나침반 서비스워커 — 앱처럼 설치되고, 오프라인에서도 마지막 브리핑을 볼 수 있게. */
-const CACHE = 'nachimban-v6';
+const CACHE = 'nachimban-v7';
 // '.html' 주소는 넣지 않는다. Cloudflare Pages 가 확장자 없는 주소로
 // 308 리다이렉트하는데, 리다이렉트된 응답은 캐시에 넣을 수 없다.
 const CORE = ['/', '/thanks', '/manifest.json', '/icon-192.png', '/sw-register.js',
@@ -99,4 +99,27 @@ self.addEventListener('notificationclick', (e) => {
       return clients.openWindow(target.href);
     })
   );
+});
+
+/* 구독 회전 대응 — 브라우저가 구독을 갈아끼울 때 발생한다.
+   그냥 두면 사용자는 알림이 끊긴 줄도 모르고, 우리는 죽은 구독만 들고 있게 된다.
+   여기서 즉시 다시 구독해 서버에 저장하면 사용자는 아무것도 할 필요가 없다. */
+self.addEventListener('pushsubscriptionchange', (e) => {
+  e.waitUntil((async () => {
+    try {
+      const old = e.oldSubscription || null;
+      let key = e.newSubscription && e.newSubscription.options
+        ? e.newSubscription.options.applicationServerKey
+        : (old && old.options ? old.options.applicationServerKey : null);
+      const sub = e.newSubscription ||
+        await self.registration.pushManager.subscribe({
+          userVisibleOnly: true, applicationServerKey: key });
+      if (!sub) return;
+      await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ subscription: sub }),
+      });
+    } catch (_) { /* 실패해도 다음 앱 실행 때 push.js 가 복구한다 */ }
+  })());
 });

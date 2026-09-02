@@ -741,6 +741,58 @@
     el.innerHTML = html;
   }
 
+
+  // ── 자가 복구 ────────────────────────────────────────────────────────────
+  // 구독은 여러 이유로 조용히 끊긴다(브라우저의 구독 회전, 서버에서 만료 정리,
+  // iOS 재설치 등). 그때마다 사용자에게 "다시 구독을 눌러달라"고 할 수는 없다.
+  // 그래서 앱을 열 때마다 아래를 자동으로 한다 — 사용자는 아무것도 안 한다.
+  //   1) 알림이 이미 허용돼 있는데 구독이 없으면  → 조용히 다시 구독
+  //   2) 구독이 있으면                          → 서버에 다시 저장(있으면 갱신, 지워졌으면 복구)
+  //   3) 구독의 서버키가 현재 키와 다르면        → 해지 후 새로 구독
+  function u8ToB64url(buf) {
+    var b = new Uint8Array(buf), s = '';
+    for (var i = 0; i < b.length; i++) s += String.fromCharCode(b[i]);
+    return btoa(s).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+  }
+
+  function saveSub(sub) {
+    return fetch(API, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ subscription: sub })
+    }).catch(function () {});
+  }
+
+  function subscribeNow(reg) {
+    return reg.pushManager.subscribe({
+      userVisibleOnly: true,
+      applicationServerKey: b64ToU8(VAPID_PUBLIC)
+    }).then(saveSub);
+  }
+
+  window.nbPushHeal = function () {
+    if (!supported || !VAPID_PUBLIC) return;
+    if (isIOS && !standalone) return;                 // iOS 는 설치된 앱에서만
+    if (Notification.permission !== 'granted') return; // 허용 안 했으면 건드리지 않는다
+    navigator.serviceWorker.ready.then(function (reg) {
+      return reg.pushManager.getSubscription().then(function (sub) {
+        if (!sub) return subscribeNow(reg);           // 1) 끊겼으면 조용히 재구독
+        var key = sub.options && sub.options.applicationServerKey;
+        if (key && u8ToB64url(key) !== VAPID_PUBLIC) { // 3) 서버키가 바뀌었으면 갈아끼움
+          return sub.unsubscribe().then(function () { return subscribeNow(reg); });
+        }
+        return saveSub(sub);                          // 2) 살아있으면 서버에 재등록
+      });
+    }).catch(function () {});
+  };
+
+  // 앱을 열 때와 다시 앞으로 나올 때마다 점검한다.
+  if (document.readyState === 'complete') setTimeout(window.nbPushHeal, 1500);
+  else window.addEventListener('load', function () { setTimeout(window.nbPushHeal, 1500); });
+  document.addEventListener('visibilitychange', function () {
+    if (!document.hidden) window.nbPushHeal();
+  });
+
   window.nbPushInit = function () {
     var box = document.getElementById('pushbox');
     if (!box) return;
