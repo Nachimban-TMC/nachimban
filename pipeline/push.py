@@ -65,6 +65,22 @@ def _fetch_subscriptions() -> list[dict] | None:
         return []
 
 
+def _delete_subscription(sub: dict) -> bool:
+    """만료된 구독을 서버에서 지운다. 그대로 두면 매일 '성공'으로 집계돼
+    구독자 수가 부풀고, 어느 기기가 살아있는지 알 수 없게 된다."""
+    try:
+        req = urllib.request.Request(
+            config.SITE_URL.rstrip("/") + "/api/subscribe",
+            data=json.dumps({"subscription": sub}).encode(),
+            headers={"Content-Type": "application/json"},
+            method="DELETE",
+        )
+        urllib.request.urlopen(req, timeout=15)
+        return True
+    except Exception:
+        return False
+
+
 def send(issue: Issue) -> int:
     """오늘 호 알림을 모든 구독 기기에 발송. 보낸 수를 반환."""
     env.load()
@@ -98,6 +114,7 @@ def send(issue: Issue) -> int:
     }, ensure_ascii=False)
 
     sent = 0
+    expired = 0
     for sub in subs:
         try:
             webpush(
@@ -111,10 +128,13 @@ def send(issue: Issue) -> int:
         except WebPushException as e:
             code = getattr(getattr(e, "response", None), "status_code", None)
             if code in (404, 410):
-                print("   🔔 만료된 구독 1건 (기기에서 알림 해제됨)")
+                removed = _delete_subscription(sub)
+                print("   🔔 만료된 구독 1건 %s" % ("→ 정리함" if removed else "(정리 실패)"))
+                expired += 1
             else:
                 print(f"   🔔 발송 실패: {e}")
         except Exception as e:  # noqa: BLE001
             print(f"   🔔 발송 실패: {type(e).__name__}: {e}")
-    print(f"   🔔 푸시 발송 {sent}/{len(subs)}건")
+    print(f"   🔔 푸시 발송 {sent}/{len(subs)}건"
+          + (f" · 만료 {expired}건 정리" if expired else ""))
     return sent

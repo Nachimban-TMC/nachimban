@@ -1,5 +1,5 @@
 /* 나침반 서비스워커 — 앱처럼 설치되고, 오프라인에서도 마지막 브리핑을 볼 수 있게. */
-const CACHE = 'nachimban-v5';
+const CACHE = 'nachimban-v6';
 // '.html' 주소는 넣지 않는다. Cloudflare Pages 가 확장자 없는 주소로
 // 308 리다이렉트하는데, 리다이렉트된 응답은 캐시에 넣을 수 없다.
 const CORE = ['/', '/thanks', '/manifest.json', '/icon-192.png', '/sw-register.js',
@@ -60,12 +60,23 @@ self.addEventListener('fetch', (e) => {
 self.addEventListener('push', (e) => {
   let data = { title: '나침반', body: '오늘의 브리핑이 도착했습니다.' };
   try { if (e.data) data = Object.assign(data, e.data.json()); } catch (_) {}
-  e.waitUntil(self.registration.showNotification(data.title, {
+  // 알림을 띄우고, 동시에 '실제로 받았다'는 신호를 서버로 보낸다.
+  // 애플이 죽은 구독에도 접수(2xx)를 돌려주는 탓에 발송 로그만으로는
+  // 살아있는 구독을 알 수 없다. 이 신호가 유일한 확실한 근거다.
+  const shown = self.registration.showNotification(data.title, {
     body: data.body,
     icon: '/icon-192.png',
     badge: '/icon-192.png',
     data: { url: data.url || '/' },
-  }));
+  });
+  const pong = self.registration.pushManager.getSubscription()
+    .then((sub) => (sub ? fetch('/api/pong', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ endpoint: sub.endpoint }),
+    }) : null))
+    .catch(() => null);          // 실패해도 알림 표시는 영향받지 않는다
+  e.waitUntil(Promise.all([shown, pong]));
 });
 
 self.addEventListener('notificationclick', (e) => {
