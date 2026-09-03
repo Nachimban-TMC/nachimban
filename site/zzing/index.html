@@ -20,6 +20,9 @@ h2{font-size:15px;font-weight:800;margin:28px 0 5px}
 .grid a{display:block;position:relative;text-decoration:none}
 .grid img{width:100%;aspect-ratio:4/5;object-fit:cover;background:var(--paper);
   border:1px solid var(--line);border-radius:5px;display:block}
+.grid a.fallback{display:flex;align-items:center;justify-content:center;
+  aspect-ratio:4/5;background:var(--paper);border:1px dashed var(--line);border-radius:5px}
+.grid .fb{font-size:12px;font-weight:700;color:var(--soft);text-align:center;line-height:1.5}
 .grid .i{position:absolute;top:5px;left:5px;background:rgba(42,33,25,.85);color:#fff;
   font-size:11px;font-weight:700;padding:2px 7px;border-radius:99px}
 .cap{background:var(--panel);border:1px solid var(--line);border-radius:8px;
@@ -76,7 +79,7 @@ CUTS.forEach(function(c,i){
   var a=document.createElement('a');
   a.href=BASE+c[0]; a.target="_blank"; a.rel="noopener";
   a.setAttribute('download','EP13_'+n+'.png');
-  a.innerHTML='<span class="i">'+n+'</span><img src="'+BASE+c[0]+'" alt="'+c[1]+'" loading="lazy">';
+  a.innerHTML='<span class="i">'+n+'</span><img src="'+BASE+c[0]+'" alt="'+c[1]+'" onerror="this.style.display=\'none\';this.parentNode.classList.add(\'fallback\');this.parentNode.insertAdjacentHTML(\'beforeend\',\'<span class=&quot;fb&quot;>'+c[1]+'<br>열기 →</span>\')">';
   g.appendChild(a);
 });
 
