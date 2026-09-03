@@ -5,5 +5,6 @@ Allow: /
 Disallow: /api/
 Disallow: /thanks
 Disallow: /thanks-feedback
+Disallow: /zzing
 
 Sitemap: https://nachimban.pages.dev/sitemap.xml
