@@ -110,6 +110,21 @@ def main() -> int:
         if leftover:
             _log(f"⚠️ 매핑에 없는 한자 잔존 {len(leftover)}건: {leftover[:3]}")
 
+        # 같은 사안이 3개 호 이상 이어지면 로그로 알린다(발행은 막지 않는다).
+        try:
+            import glob as _glob
+            past = []
+            for f in sorted(_glob.glob(os.path.join(REPO, "data", "issue-*.json")))[-3:]:
+                pd = json.load(open(f, encoding="utf-8"))
+                past.append((pd["number"], pd["date"], [x["head"] for x in pd["published"]]))
+            reps = sanitize.find_repeats(raw_items, past)
+            for r in reps:
+                _log("⚠️ 중복 의심: '%s' — 최근 %d개 호에도 유사 항목" % (r["head"], len(r["seen_in"])))
+            if reps:
+                _log("   (같은 사안 연속 게재는 SKILL 상 2개 호까지입니다)")
+        except Exception as e:
+            _log(f"중복 검사 건너뜀: {type(e).__name__}: {e}")
+
         items = [NewsItem(**d) for d in raw_items]
         v = FactVerdict(verdict="PASS", confidence=0.95, sources_count=2)
         for it in items:

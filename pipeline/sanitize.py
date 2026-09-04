@@ -68,3 +68,37 @@ def clean_items(items: list) -> tuple:
                     t[tf] = clean_text(t[tf])
                     replaced += 1
     return replaced, leftover
+
+
+# ── 중복(연속 게재) 감지 ────────────────────────────────────────────────────
+# 같은 사안이 며칠씩 이어지는 문제가 반복됐다(2026-09-04 지적: 작센안할트 선거
+# 4개 호, 경산 유학생 살해 5개 호). SKILL 에 규칙을 넣어도 새므로, 발행 때
+# 기계적으로 세어 로그에 남긴다. 발행을 막지는 않는다(오탐으로 결호 나면 더 나쁨).
+
+_STOP = {"오늘", "내일", "올해", "내년", "이번", "관련", "정부", "발표", "확대", "추진",
+         "검토", "시행", "인상", "하락", "상승", "논의", "예상", "전망", "위해", "대한"}
+
+
+def _keywords(text: str) -> set:
+    """제목에서 의미 있는 낱말만 뽑는다(2글자 이상 한글/영문/숫자)."""
+    words = re.findall(r"[가-힣A-Za-z][가-힣A-Za-z0-9]{1,}", text or "")
+    return {w for w in words if len(w) >= 2 and w not in _STOP}
+
+
+def find_repeats(items: list, past_issues: list, min_overlap: int = 2) -> list:
+    """past_issues(최근 호들의 published 목록)와 겹치는 항목을 찾는다.
+    반환: [{'head', 'seen_in': [(호수, 날짜, 옛제목), ...]}, ...]"""
+    out = []
+    for it in items:
+        kws = _keywords(it.get("head", ""))
+        if len(kws) < 2:
+            continue
+        seen = []
+        for num, date, heads in past_issues:
+            for h in heads:
+                if len(kws & _keywords(h)) >= min_overlap:
+                    seen.append((num, date, h))
+                    break
+        if len(seen) >= 2:            # 2개 호 이상에서 반복 → 3번째이므로 경고
+            out.append({"head": it.get("head", ""), "seen_in": seen})
+    return out
