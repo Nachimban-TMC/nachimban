@@ -21,6 +21,11 @@ def _admin_email() -> str:
 
 
 def _mail(subject: str, body_html: str) -> bool:
+    # 상돈님 요청(2026-09-04): 사고 알림은 폰 푸시로만 받는다. 메일은 보내지 않는다.
+    # 다시 받고 싶으면 .env 에 NB_ADMIN_MAIL=1 을 넣으면 된다.
+    if os.getenv("NB_ADMIN_MAIL", "0").strip().lower() not in ("1", "true", "yes", "on"):
+        print("   🚨 관리자 메일 꺼짐(NB_ADMIN_MAIL 미설정) → 푸시로만 알림")
+        return False
     key = os.getenv("RESEND_API_KEY")
     if not key:
         print("   🚨 RESEND_API_KEY 없음 → 관리자 메일 건너뜀")
@@ -94,7 +99,7 @@ def _push(title: str, body: str) -> int:
 
 
 def failure(stage: str, err: BaseException, *, number: int | None = None,
-            date: str = "", push_too: bool = False) -> None:
+            date: str = "", push_too: bool = True) -> None:
     """발행이 실패했을 때. 조용히 지나가지 않게 하는 것이 목적이다."""
     env.load()
     what = f"제{number}호 · {date}" if number else (date or "오늘자")
@@ -121,6 +126,8 @@ def failure(stage: str, err: BaseException, *, number: int | None = None,
       </p>
     </div>"""
     _mail(subject, body)
+    # push_too 는 남겨두되 기본이 True 다. 메일을 끈 이상 푸시가 유일한 통로여서,
+    # 이 값이 False 로 넘어오면 그 실패는 아무에게도 알려지지 않는다.
     if push_too:
         _push("🚨 나침반 발행 실패", f"{stage} 단계에서 멈췄습니다")
 
