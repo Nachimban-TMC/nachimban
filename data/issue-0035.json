@@ -1,0 +1,500 @@
+{
+  "number": 35,
+  "date": "2026-09-05",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "선거 전날, 독일 전역 반극우 집회",
+      "desc": "내일 작센안할트 등 두 개 주에서 선거를 앞두고 오늘 뮌헨·베를린 등 독일 전역에서 반극우 집회가 열렸습니다. 여론조사에서 극우 정당 지지율이 크게 앞서며 시민사회 우려가 커지고 있습니다.",
+      "interp": "내일 선거 결과는 독일 전역 뉴스에 크게 보도됩니다. 교민 커뮤니티 공지와 현지 뉴스를 함께 확인하세요.",
+      "source": "news.de",
+      "read": 3,
+      "url": "https://www.news.de/politik/859921894/anti-afd-demos-gegen-rechts-september-heute-samstag-05-09-2026-demonstrationen-stuttgart-salzwedel-berlin-muenchen-husum-karlsruhe/1/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "welfare",
+      "head": "아동수당, 2027년 267유로로 인상",
+      "desc": "독일 정부가 9월 2일 각의에서 소득세개혁법안을 의결했습니다. 아동수당이 259유로에서 2027년 267유로, 2028년 272유로로 단계 인상됩니다. 자녀 세액공제도 300유로 늘어납니다.",
+      "interp": "아직 법안 단계로 국회 의결이 남아 있습니다. 자녀를 둔 가정은 <b>킨더겔트</b> 인상 확정 여부를 계속 확인하세요.",
+      "source": "t-online",
+      "read": 3,
+      "url": "https://www.t-online.de/finanzen/ratgeber/id_101324166/kindergeld-erhoehung-2027-das-sind-die-details-.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "킨더겔트",
+          "explain": "독일 정부가 자녀를 둔 가정에 매달 지급하는 아동수당"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "기차역 음주금지 확대, 반발도",
+      "desc": "도이체반이 9월 1일부터 전국 5,400개 역으로 음주 금지를 확대해 10월 15일까지 전면 시행합니다. 노숙인 지원단체는 취약계층 내몰기라 반발하고 범죄학자도 실효성에 의문을 제기합니다.",
+      "interp": "기차역 구내와 승강장에서 음주가 금지되니 주의하세요. 밀폐 용기에 담긴 술을 들고 지나가는 것은 괜찮습니다.",
+      "source": "Deutsche Bahn",
+      "read": 3,
+      "url": "https://www.deutschebahn.com/de/presse/pressestart_zentrales_uebersicht/Deutsche-Bahn-Alkoholkonsumverbot-an-allen-Bahnhoefen-13980686",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "9월10일, 전국 경보의날 사이렌",
+      "desc": "독일 전역에서 9월 10일 오전 11시 사이렌이 울리는 전국 경보의날이 실시됩니다. 경보 앱 니나(NINA)와 카트원, 셀브로드캐스트로도 동시에 훈련 경보가 전송됩니다.",
+      "interp": "당일 사이렌이 울려도 실제 위험 상황이 아니니 당황하지 마세요. <b>니나 앱</b>을 미리 설치해두면 도움이 됩니다.",
+      "source": "BBK",
+      "read": 3,
+      "url": "https://www.bbk.bund.de/DE/Warnung-Vorsorge/Bundesweiter-Warntag/bundesweiter-warntag_node.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "니나 앱",
+          "explain": "독일 연방재난방호청이 운영하는 재난 경보 알림 애플리케이션"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "tax",
+      "head": "방송수신료, 2027년 18.64유로로",
+      "desc": "방송수신료 산정 전문위원회가 2027년부터 월 수신료를 18.36유로에서 18.64유로로 올릴 것을 권고했습니다. 각 주는 연말까지 국가협약 개정으로 이를 확정해야 합니다.",
+      "interp": "수신료는 계좌 자동이체로 빠져나가니 인상 시점을 확인하세요. 저소득층은 <b>면제 신청</b> 대상인지 점검해볼 만합니다.",
+      "source": "Telepolis",
+      "read": 3,
+      "url": "https://www.telepolis.de/article/Rundfunkbeitrag-Ueberraschende-Kehrtwende-bei-der-Erhoehung-11110542.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "면제 신청",
+          "explain": "기초생활수급 등 일정 요건을 충족하면 방송수신료를 내지 않아도 되는 제도"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "스페인 폭염, 9월 역대 최고 타이",
+      "desc": "스페인 남서부에서 9월 3일 섭씨 45.7도가 관측돼 2016년 기록과 동률을 이뤘습니다. 스페인의 올해 온열질환 사망자는 5,232명으로 2015년 집계 이후 가장 많습니다.",
+      "interp": "남유럽 여행 중이라면 한낮 야외활동을 피하세요. 어지럼증 등 <b>온열질환</b> 증상이 있으면 즉시 그늘로 이동해야 합니다.",
+      "source": "Euronews",
+      "read": 3,
+      "url": "https://www.euronews.com/my-europe/2026/09/04/spain-matches-september-heat-record-at-457c-as-extreme-heat-grips-country",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "온열질환",
+          "explain": "더위에 몸이 노출돼 생기는 열사병, 열탈진 등 질환을 통틀어 이르는 말"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "invest",
+      "head": "유럽 증시, 채권금리 폭등에 출렁",
+      "desc": "유럽 증시가 국채금리 급등과 에너지 비용 상승 여파로 한 달 만에 최저 수준까지 밀렸습니다. 미국·이란 충돌로 국제유가가 배럴당 90달러를 넘으며 우려가 커졌습니다.",
+      "interp": "유럽 주식이나 펀드에 투자 중이라면 단기 변동성에 대비하세요. <b>장기 국채금리</b> 흐름이 당분간 증시를 좌우할 전망입니다.",
+      "source": "Investing.com",
+      "read": 3,
+      "url": "https://kr.investing.com/news/stock-market-news/article-2081646",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "장기 국채금리",
+          "explain": "만기가 긴 국채에 붙는 이자율로, 시장 전체 금리 수준을 가늠하는 지표"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "policy",
+      "head": "EU 데이터법, 9월12일부터 시행",
+      "desc": "EU 데이터법이 9월 12일부터 새로 출시되는 커넥티드 기기에 적용됩니다. 제조사는 이용자가 자신의 데이터에 쉽게 접근하고 제3자와 공유하도록 기기를 설계해야 합니다.",
+      "interp": "새로 스마트 기기를 산다면 데이터 접근 기능을 살펴보세요. 기존에 쓰던 기기에는 소급 적용되지 않습니다.",
+      "source": "Bundesregierung",
+      "read": 3,
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/gesetzliche-neuregelungen-september-2026-2450158",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "invest",
+      "head": "뉴욕증시 하락, 금리인상 우려",
+      "desc": "뉴욕증시가 9월 4일 다우 0.51%, 나스닥 0.29% 내리며 하락 마감했습니다. 강한 고용지표에 연방준비제도의 9월 추가 금리인상 가능성이 다시 부각됐습니다.",
+      "interp": "미국 주식이나 펀드 투자자는 단기 변동성에 대비하세요. <b>FOMC</b> 회의 결과가 나올 때까지 관망하는 전략도 있습니다.",
+      "source": "CNBC",
+      "read": 3,
+      "url": "https://www.cnbc.com/2026/09/03/stock-market-today-live-updates.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "FOMC",
+          "explain": "미국의 기준금리를 결정하는 연방준비제도의 회의체"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "study",
+      "head": "F·J비자 체류규정, 9월15일 변경",
+      "desc": "미국의 새 규정이 9월 15일부터 F-1·J-1 비자에 적용돼 자동 체류 대신 정해진 체류만료일이 부여됩니다. 이후 재입국하는 F-1 소지자의 유예기간도 60일에서 30일로 줄어듭니다.",
+      "interp": "유학생과 OPT 진행 중인 분들은 체류 신분 변경 시점을 확인하세요. 재입국 계획이 있다면 <b>유예기간</b> 단축을 염두에 둬야 합니다.",
+      "source": "이민케어(eminnara)",
+      "read": 3,
+      "url": "https://www.eminnara.com/news/ebafb820eb8c80ed9599eab0802c2020ec9ca0ed9599ec839dec979020229ec9b942015ec9dbc20eca08420ebb3b5eab7802220eab8b4eab88920eab68ceab3a0",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "유예기간",
+          "explain": "체류 신분이 끝난 뒤 출국이나 신분 변경을 위해 추가로 머물 수 있는 기간"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "공적부담 심사기준, 9월18일 강화",
+      "desc": "미국이 9월 18일부터 공적부담 심사기준을 강화하는 새 규정을 시행합니다. 2022년 완화됐던 기준을 되돌려 이민관에게 더 넓은 재량권을 부여하며, 영주권 등 각종 이민 심사에 영향을 줄 수 있습니다.",
+      "interp": "영주권이나 비자 연장을 준비 중이라면 복지 수급 이력을 미리 점검하세요. <b>공적부담</b> 판단은 이민관 재량이 크게 작용합니다.",
+      "source": "Newsweek",
+      "read": 3,
+      "url": "https://www.newsweek.com/green-card-update-visa-changes-happening-applications-september-2026-12355865",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "공적부담",
+          "explain": "정부 복지 지원에 의존할 가능성이 크다고 판단되는 경우를 가리키는 이민심사 기준"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "정기국회 개회, 100일 입법전쟁",
+      "desc": "22대 국회 후반기 정기국회가 9월 1일 개회해 100일 일정에 들어갔습니다. 9일부터 정치·외교안보·경제·사회 분야 대정부질문이 순차로 이어지고, 11월에는 800조원대 내년도 예산안 심사도 시작됩니다.",
+      "interp": "정기국회 기간 재외국민 관련 예산과 법안도 함께 논의됩니다. 관심 있는 법안은 국회 의사중계로 직접 확인할 수 있습니다.",
+      "source": "머니투데이",
+      "read": 3,
+      "url": "https://www.mt.co.kr/politics/2026/09/01/2026090114073780311",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "policy",
+      "head": "검찰청 10월2일 폐지, 공소청 출범",
+      "desc": "10월 2일부터 검찰청이 폐지되고 공소청 체제로 전환됩니다. 검찰의 보완수사권 폐지를 뒷받침할 형사소송법 추가 개정도 이번 정기국회에서 논의될 예정이라 진통이 예상됩니다.",
+      "interp": "영사관에 형사 관련 민원을 넣을 때는 바뀐 기관명을 참고하세요. 실제 절차는 시행 이후 다시 확인하는 것이 좋습니다.",
+      "source": "머니투데이",
+      "read": 3,
+      "url": "https://www.mt.co.kr/politics/2026/08/31/2026083015191690580",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "호르무즈 피격선박, 한국과 무관",
+      "desc": "지난달 31일 오만 인근에서 피격된 유조선은 한국 국적이 아니고 한국인 선원도 없는 것으로 확인됐습니다. 해양수산부는 선박이 라이베리아 국적이며 장금상선은 실소유권이 없다고 밝혔습니다.",
+      "interp": "호르무즈 관련 보도를 접했다면 이번 사건은 한국 선박과 무관하다는 점을 참고하세요. 다만 해협 정세는 계속 주시할 필요가 있습니다.",
+      "source": "아시아경제",
+      "read": 3,
+      "url": "https://view.asiae.co.kr/article/2026090209041239057",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "중동 공역 폐쇄로 국제선 대란",
+      "desc": "미국·이란 충돌 여파로 중동 일대 공역이 폐쇄되며 코로나19 이후 최악 수준의 국제선 운항 차질이 벌어지고 있습니다. 전 세계 공항에서 수십만 명의 승객 발이 묶인 것으로 전해집니다.",
+      "interp": "중동 경유편을 예약했다면 출발 전 운항 여부를 다시 확인하세요. 대체 노선이나 환불·변경 규정도 미리 알아두면 좋습니다.",
+      "source": "The Traveler",
+      "read": 3,
+      "url": "https://www.thetraveler.org/flight-disruptions-drag-on-as-airport-strikes-reshape-travel/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "유럽 항공 지상직 파업 지속",
+      "desc": "이탈리아·스페인 등 유럽 여러 공항에서 지상직 파업이 이어지고 있습니다. 9월 초 기준 진행 중인 파업이 3건, 예정된 파업은 10건이 넘어 항공편 지연이 잦아지고 있습니다.",
+      "interp": "유럽 내 이동 시 여유 있게 공항에 도착하세요. 항공사 앱으로 <b>결항·지연 알림</b>을 미리 설정해두면 도움이 됩니다.",
+      "source": "myflyright",
+      "read": 3,
+      "url": "https://myflyright.com/blog/airline-airport-strikes-august-september-2026/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "결항·지연 알림",
+          "explain": "항공편 취소나 지연 상황을 실시간으로 알려주는 항공사 앱의 알림 기능"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
