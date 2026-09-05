@@ -1,7 +1,7 @@
 <!doctype html><html lang="ko"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex">
-<title>찡곰툰 업로드 · EP14</title>
+<title>찡곰툰 업로드 · EP13</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box;-webkit-font-smoothing:antialiased}
 :root{
@@ -40,7 +40,7 @@ button:active{opacity:.7}
 
 <div class="hd">
   <h1>찡곰툰 업로드</h1>
-  <div class="sub">EP14 · 독일에서 빵 구매 꿀팁 · 15컷 (4:5)</div>
+  <div class="sub">EP13 · 태동이 느껴져요 · 12컷 (4:5)</div>
 </div>
 
 <h2>컷 이미지</h2>
@@ -55,61 +55,36 @@ button:active{opacity:.7}
 <div class="cap" id="tag"></div>
 <button onclick="cp(TAG,this)">해시태그 복사</button>
 
-<p class="tip">에피소드가 추가되면 이 페이지가 갱신됩니다. · <a href="./ep13/" style="color:inherit">EP13 보기</a></p>
+<p class="tip">에피소드가 추가되면 이 페이지가 갱신됩니다.</p>
 
 <script>
 var BASE="https://d8j0ntlcm91z4.cloudfront.net/user_3GECC5TtJ9AV8a30xaCCexmEilq/";
 var CUTS=[
- ["hf_20260904_133802_26150190-1bb8-44ab-91bb-498a960a5ed2.png","제목"],
- ["hf_20260904_133802_8ae774cc-c8a5-485a-bf81-60ad293e52f3.png","시큰둥"],
- ["hf_20260904_133802_c9b6fac6-6c5b-4989-9f1c-fe387bb3083a.png","예약"],
- ["hf_20260904_135136_39aa2b7e-4265-4731-8360-a63c1fcd2a5d.png","접선"],
- ["hf_20260904_200414_223d3af0-9032-4f94-8cc3-4aa111d94144.png","암구호"],
- ["hf_20260904_135135_2bc632aa-fd8d-4883-9bb0-2e444111ac5e.png","거래 완료"],
- ["hf_20260904_191448_12c0b715-8792-4888-90dd-1c1a10421342.png","쿵"],
- ["hf_20260904_195107_a55ab2c1-c045-4052-b4e9-ee5df67722e9.png","개봉"],
- ["hf_20260904_195337_f259e486-3077-482a-a47a-3ceb4a334dd1.png","물개 각성"],
- ["hf_20260904_200414_d4315ceb-097a-4ac9-8bab-f8d353aa4156.png","앱 설명"],
- ["hf_20260904_201651_3ec081b4-0654-4267-900d-ca0e14af0ec7.png","내 주변 지도"],
- ["hf_20260904_201905_42f662e3-2c3b-44eb-9d40-c68c1528115d.png","쓰는 법"],
- ["hf_20260904_211649_db5c4beb-1cb5-494d-845c-1800d2939249.png","꿀팁① 냉동"],
- ["hf_20260904_210759_76b3bd1b-98f1-4813-9a4a-3ddbf6b0f747.png","꿀팁② 토스터기"],
- ["hf_20260904_212112_63002792-c138-4282-bfe4-bf4c983e5d2e.png","엔딩"]
+ ["hf_20260902_112346_3395fe64-aaf0-4fe3-90ca-a4eb1e9f74eb.png","제목"],
+ ["hf_20260902_112346_d0cb4555-0e50-470e-a1f4-8a8920f43c3f.png","갸우뚱"],
+ ["hf_20260902_130337_85d3d444-8002-4726-9bf3-78682262a327.png","1차 호출"],
+ ["hf_20260902_150054_b09598a5-b68a-44d5-80e3-6ce5163acd5a.png","시도"],
+ ["hf_20260902_150952_a21c1be9-bac0-4209-9b7f-1b991b1c7acb.png","정적"],
+ ["hf_20260902_155828_1988b7b7-dffd-4406-bf20-ba1219b1aed4.png","머쓱"],
+ ["hf_20260902_155826_c5e3b2ff-ad0d-46e1-a8b1-9afd6c0fc6f5.png","2차 호출"],
+ ["hf_20260902_155827_eba60799-6b81-487b-a85a-ab079234593c.png","장운동"],
+ ["hf_20260902_160520_3946c69c-80de-45f6-90f5-3c43e1bad4a4.png","양치기 물개"],
+ ["hf_20260902_223018_ca6a251e-cc2c-48c1-86f6-4568623e90f0.png","톡"],
+ ["hf_20260902_223720_04acae1e-27f2-4983-a73f-c6d9a715b07b.png","슉슉아?"],
+ ["hf_20260902_160836_5c0d5cec-6a7e-43ff-9813-5023050406df.png","엔딩"]
 ];
 var g=document.getElementById('grid');
 CUTS.forEach(function(c,i){
   var n=String(i+1).padStart(2,'0');
   var a=document.createElement('a');
   a.href=BASE+c[0]; a.target="_blank"; a.rel="noopener";
-  a.setAttribute('download','EP14_'+n+'.png');
+  a.setAttribute('download','EP13_'+n+'.png');
   a.innerHTML='<span class="i">'+n+'</span><img src="'+BASE+c[0]+'" alt="'+c[1]+'" onerror="this.style.display=\'none\';this.parentNode.classList.add(\'fallback\');this.parentNode.insertAdjacentHTML(\'beforeend\',\'<span class=&quot;fb&quot;>'+c[1]+'<br>열기 →</span>\')">';
   g.appendChild(a);
 });
 
-var CAP="독일 사는 분들, 이거 안 쓰면 손해예요 🥖
-
-빵집에서 그날 안 팔린 빵을 봉지에 담아
-정가의 1/3 값에 파는 앱이 있어요. 저희 동네는 3.5유로.
-
-처음엔 아내가 \"에이~ 그게 되겠어\" 했는데
-집에 와서 봉지를 열자 표정이 바뀌더라고요.
-바게트에 프레첼에 캄파뉴까지 한가득. 세어보니 10유로는 넘었어요.
-
-쓰는 법은 간단해요 👇
-① 앱 켜면 내 주변 지도에 등록된 가게가 뜨고
-② 봉지를 미리 결제해두고
-③ 정해진 시간에 가서
-④ 앱 화면만 보여주면 끝.
-
-단점이라면 뭐가 들었는지는 열어봐야 안다는 것 정도 😆
-
-한 번에 다 못 먹으니까 남은 건 반 갈라서 냉동해둬요.
-먹을 때 토스터기에 넣으면 산 날이랑 똑같습니다.
-
-이번 주도 예약해뒀는데, 이번엔 아내가 먼저 하겠대요 ㅎㅎ
-
-#독일살이 #독일생활 #유럽생활 #부부툰 #생활꿀팁";
-var TAG="#독일유학 #독일교민 #자취꿀팁 #절약팁 #곰과물개 #donyfilm #손그림웹툰 #그림일기";
+var CAP="태동, 아빠는 언제부터 느낄 수 있을까요 🤰\n\n21주차. 아내는 \"이게 태동인가?\" 갸우뚱하는 단계였어요.\n\n어느 날 \"오빠!!!\" 하고 급하게 부르길래 뛰어갔더니\n배에 손을 얹고 한참… 정적.\n\n두 번째도 \"이번엔 진짜야!\" 하길래 달려갔는데\n이번엔 장운동이었고요. (지난 편에 이어 또)\n\n양치기 물개가 따로 없다 싶던 그때\n손바닥에 톡. 태명을 부르니 폭풍 태동 💓\n\n아내는 진작 느끼고 있었는데\n아빠 손까지 닿기엔 시간이 좀 걸리더라고요.\n\n여러분은 언제 처음 느끼셨나요? 👀\n\n#임신툰 #태동 #임신21주 #부부툰 #독일부부";
+var TAG="#임신일기 #예비아빠 #독일살이 #곰과물개 #donyfilm #손그림웹툰 #그림일기 #태동일기";
 document.getElementById('cap').textContent=CAP;
 document.getElementById('tag').textContent=TAG;
 function cp(t,b){navigator.clipboard.writeText(t).then(function(){
