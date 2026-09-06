@@ -1,0 +1,589 @@
+{
+  "number": 36,
+  "date": "2026-09-06",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "작센안할트, 오늘 선거 투표일",
+      "desc": "독일 작센안할트주 주의회 선거 투표가 오늘 실시됩니다. 사전 여론조사에서는 극우 성향 정당이 줄곧 1위를 달려 왔습니다. 개표 결과는 오늘 저녁 현지시간 발표될 예정입니다.",
+      "interp": "동유럽 접경 지역 정치 지형이 바뀔 수 있는 선거입니다. 결과는 <b>내일자 브리핑</b>에서 자세히 전해 드리겠습니다.",
+      "source": "dawum.de(여론조사 종합)",
+      "read": 3,
+      "url": "https://dawum.de/Sachsen-Anhalt/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "도이체반, 역 음주금지 확대 시작",
+      "desc": "도이체반이 9월1일부터 베를린중앙역 등 4개 역에서 음주금지를 시작했습니다. 쓰레기와 폭력 사건이 줄어든 시범 결과가 근거입니다. 10월15일까지 전국 모든 역으로 확대됩니다.",
+      "interp": "해당 역에서는 <b>플랫폼과 역사 내 음주</b>가 전면 금지됩니다. 위반 시 단속 대상이 될 수 있으니 유의하시기 바랍니다.",
+      "source": "도이체반(DB) 보도자료",
+      "read": 3,
+      "url": "https://www.deutschebahn.com/de/presse/pressestart_zentrales_uebersicht/Deutsche-Bahn-Alkoholkonsumverbot-an-allen-Bahnhoefen-13980686",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "9월10일 전국 경보의 날 사이렌",
+      "desc": "독일 전역에서 9월10일 오전 11시 재난 경보 점검이 실시됩니다. 사이렌과 재난문자 등 모든 경보 수단이 동시에 시험 가동됩니다. 11시45분쯤 해제되므로 실제 상황이 아닙니다.",
+      "interp": "이날 <b>재난문자</b>를 받아도 놀라지 않으셔도 됩니다. 매년 9월 둘째 목요일 전국에서 열리는 정기 훈련일 뿐입니다.",
+      "source": "연방재난관리청(BBK)",
+      "read": 3,
+      "url": "https://www.bbk.bund.de/DE/Warnung-Vorsorge/Bundesweiter-Warntag/bundesweiter-warntag_node.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "경보의 날",
+          "explain": "독일 정부가 재난 경보체계를 점검하는 연례 훈련일"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "도이칠란트티켓, 9월말 요금 결정",
+      "desc": "독일 정기권 도이칠란트티켓 2027년 요금이 9월말까지 확정됩니다. 현재 월 63유로에서 66~67유로로 오를 전망입니다. 두 자릿수 인상은 없다고 교통장관들이 밝혔습니다.",
+      "interp": "정기권을 쓰신다면 <b>내년 예산</b>에 인상분을 반영해 두시면 좋습니다. 정확한 금액은 9월 안에 공식 발표될 예정입니다.",
+      "source": "타게스슈피겔",
+      "read": 3,
+      "url": "https://www.tagesspiegel.de/politik/berechnung-nach-komplizierter-formel-verkehrsminister-einigen-sich-auf-preisindex-fur-deutschlandticket-15403318.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "labor",
+      "head": "파견 노동자 임금, 9월부터 인상",
+      "desc": "독일 파견 노동자의 시급이 9월1일부터 2.5퍼센트 인상됐습니다. 단체협약에 따른 정기 인상으로 전국 파견직에 적용됩니다. 정규직 전환 예정자도 새 시급 기준을 확인해야 합니다.",
+      "interp": "파견직으로 근무 중이시라면 <b>이번 달 급여명세서</b>를 확인해 보시기 바랍니다. 인상분이 제대로 반영됐는지 점검하는 것이 좋습니다.",
+      "source": "smartsteuer.de",
+      "read": 3,
+      "url": "https://www.smartsteuer.de/online/blog/das-aendert-sich-im-september-2026-neuigkeiten-gesetze-steuern/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "정부, 호르무즈 파병 검토",
+      "desc": "정부가 호르무즈 해협에 초계기·군수지원함 파병을 검토 중입니다. 미국·이란 충돌 격화로 원유 수송로 안전이 위협받는 데 따른 조치입니다. 국회 동의 거쳐 한두 달 안에 결정됩니다.",
+      "interp": "비전투 지원 성격이지만 <b>중동 정세</b>와 직결된 사안입니다. 관련 소식은 정부 발표를 통해 계속 확인하시기 바랍니다.",
+      "source": "MBC뉴스",
+      "read": 3,
+      "url": "https://imnews.imbc.com/news/2026/politics/article/6849480_36911.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [
+        {
+          "term": "호르무즈",
+          "explain": "페르시아만과 인도양을 잇는 원유 수송의 요충 해협"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "원화 환율, 14개월만에 1350원대",
+      "desc": "원달러 환율이 1년2개월 만에 1350원대까지 내려왔습니다. 반도체 수출 호조로 경상흑자가 쌓인 영향입니다. 연말엔 1300원까지 떨어질 수 있다는 전망도 나옵니다.",
+      "interp": "환율 하락은 <b>해외 송금·유학 자금</b> 마련에는 유리한 신호입니다. 반대로 해외에서 원화로 바꿀 때는 불리해질 수 있습니다.",
+      "source": "머니투데이",
+      "read": 3,
+      "url": "https://www.mt.co.kr/economy/2026/09/04/2026090416204785345",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "경상흑자",
+          "explain": "수출입 등 실물거래에서 벌어들인 돈이 나간 돈보다 많은 상태"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "invest",
+      "head": "서학개미, 미국 단기국채로 이동",
+      "desc": "국내 투자자들이 지난주 미국 초단기 국채 ETF SGOV에 1256억원 순매수했습니다. 개별 종목 제치고 순매수 1위였습니다. 고금리 장기화 우려 속 안전자산에 자금이 몰렸습니다.",
+      "interp": "<b>단기채 ETF</b>는 만기 3개월 이하 국채에 투자해 가격변동 위험이 적습니다. 미국 주식 투자자라면 참고할 만한 자금 흐름입니다.",
+      "source": "한국경제",
+      "read": 3,
+      "url": "https://www.hankyung.com/article/2026090556277",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "SGOV",
+          "explain": "3개월 이하 미국 단기 국채에 투자하는 상장지수펀드"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "stocks",
+      "head": "코스피·코스닥, 동반 강세 마감",
+      "desc": "지난 금요일 코스피가 1.64퍼센트 오른 6687.21로 마감했습니다. 코스닥도 2.95퍼센트 급등해 5거래일 만에 반등했습니다. 외국인·기관 매수세에 반도체주가 강세였습니다.",
+      "interp": "<b>반도체 관련주</b> 중심의 반등이 유독 두드러진 하루였습니다. 다음 거래일 흐름도 함께 지켜보시면 좋겠습니다.",
+      "source": "머니투데이",
+      "read": 3,
+      "url": "https://www.mt.co.kr/stock/2026/09/04/2026090415280697711",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "헝가리, EU 방침 거부하고 반발",
+      "desc": "헝가리가 우크라이나 징집연령 남성 임시보호를 제한하는 EU 규정을 안 따릅니다. 헝가리 총리는 자국 내 우크라이나계 보호를 이유로 들었습니다. EU 집행위는 재량을 인정합니다.",
+      "interp": "EU 회원국 간 <b>난민 정책 이견</b>이 다시 불거진 사례입니다. 우크라이나 관련 체류 문제가 있다면 거주국 규정을 개별 확인하시기 바랍니다.",
+      "source": "Kyiv Post",
+      "read": 3,
+      "url": "https://www.kyivpost.com/post/79343",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "travel",
+      "head": "EES 국경검사, 오늘부터 전면시행",
+      "desc": "유럽 입출국시스템 EES의 혼잡 완화용 유연조치가 오늘 종료됩니다. 대기줄이 길면 지문·안면 스캔을 잠시 중단할 수 있었습니다. 앞으로 예외 없이 생체정보 등록이 의무입니다.",
+      "interp": "기존 여권 심사보다 1인당 <b>90초가량</b> 더 걸립니다. 유럽 입국 항공편이라면 평소보다 여유 있게 도착하시기 바랍니다.",
+      "source": "Euronews",
+      "read": 3,
+      "url": "https://www.euronews.com/travel/2026/09/04/travelling-to-europe-ees-border-checks-are-changing-from-6-september",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "EES",
+          "explain": "여권 도장 대신 지문·안면 정보로 입출국을 기록하는 EU 국경관리 시스템"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "invest",
+      "head": "EU, 개인투자자 보호 개편 합의",
+      "desc": "EU 이사회와 의회가 개인투자자 보호를 강화하는 개편안에 합의했습니다. 수수료 표준화와 공시정보 통일, 이해상충 관리 강화가 핵심입니다. MiFID2 등 지침이 함께 개정됩니다.",
+      "interp": "유럽 증권사나 펀드를 이용 중이라면 <b>수수료 공시</b> 방식이 점차 표준화될 예정입니다. 시행 시점은 아직 확정되지 않았습니다.",
+      "source": "자본시장연구원",
+      "read": 3,
+      "url": "https://www.kcmi.re.kr/publications/pub_detail_view?syear=2026&zcd=002001016&zno=1902&cno=6725",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "MiFID2",
+          "explain": "EU의 금융상품 투자자 보호 관련 핵심 지침"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "미국·캐나다, 관세전쟁 격화",
+      "desc": "캐나다가 9월8일부터 미국산 화장지 원료 등 700개 품목에 보복관세를 부과합니다. 미국의 캐나다산 200억달러 관세 부과에 대한 대응입니다. 지난 금요일 협상도 결렬됐습니다.",
+      "interp": "생활용품 <b>공급망 차질</b>로 물가에 영향이 갈 수 있습니다. 미국 내 거주자라면 관련 품목 가격 변화를 눈여겨보시기 바랍니다.",
+      "source": "MBC뉴스",
+      "read": 3,
+      "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6846709_37004.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "미국·이란, 호르무즈서 재충돌",
+      "desc": "미군과 이란 혁명수비대가 호르무즈 해협에서 다시 충돌했습니다. 이란은 자국 함정이 공격받았다 주장했고, 미국은 유조선 공격 주장에 반박합니다. 확전 우려로 유가가 오름세입니다.",
+      "interp": "유가 상승은 <b>주유비와 난방비</b> 인상으로 이어질 수 있습니다. 확전 여부에 따라 물가 영향이 커질 수 있어 계속 주시할 필요가 있습니다.",
+      "source": "아시아경제",
+      "read": 3,
+      "url": "https://view.asiae.co.kr/article/2026090610113183966",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "혁명수비대",
+          "explain": "이란의 정예 군사조직"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "가족초청 영주권 문호, 큰 폭 전진",
+      "desc": "9월 미국 가족초청 영주권 비자 문호가 큰 폭 앞당겨졌습니다. 시민권자 성인 미혼자녀 순위 우선일자가 7개월 이상 진전됐습니다. 영주권자 자녀 순위도 최대 20개월 당겨졌습니다.",
+      "interp": "가족초청 이민을 신청해 두셨다면 <b>본인 우선일자</b>를 꼭 확인해 보시기 바랍니다. 국무부 비자 공고문에서 순위별 날짜를 볼 수 있습니다.",
+      "source": "미 국무부(travel.state.gov)",
+      "read": 3,
+      "url": "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin/2026/visa-bulletin-for-september-2026.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "우선일자",
+          "explain": "이민비자 신청자의 접수 순서를 정하는 기준일"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "invest",
+      "head": "미국 8월 고용 서프라이즈 증가",
+      "desc": "미국의 8월 비농업 고용이 16만2000명 늘어 예상치를 웃돌았습니다. 실업률은 4.1퍼센트로 전월과 같았습니다. 예상 밖 호조로 이달 중순 연준 금리 인상 가능성이 부각됩니다.",
+      "interp": "금리가 오르면 <b>주택담보대출과 예금 금리</b> 모두 영향을 받습니다. 9월15~16일 연준 회의 결과를 지켜보시기 바랍니다.",
+      "source": "CBC뉴스",
+      "read": 3,
+      "url": "https://www.cbci.co.kr/news/articleView.html?idxno=603963",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "중동 노선, 11월말까지 전면중단",
+      "desc": "캐세이퍼시픽이 두바이·리야드 여객편을 11월30일까지 취소했습니다. 2월28일 첫 중단 후 9개월째 운항이 끊기는 것입니다. 미국·이란 충돌이 다시 격화된 데 따른 조치입니다.",
+      "interp": "중동 경유나 직항 항공편을 예약하셨다면 <b>일정 변경</b>을 서둘러 확인하시기 바랍니다. 환불·노선 변경은 수수료 없이 가능합니다.",
+      "source": "Cathay Pacific 공지",
+      "read": 3,
+      "url": "https://www.cathaypacific.com/cx/en_SG/latest-news/flight-disruptions/middle-east-passenger-services.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "외교부, 여행경보 일부 하향 조정",
+      "desc": "외교부가 아제르바이잔·튀르키예 일부 지역 특별여행주의보를 해제했습니다. 3월 중동 정세 악화로 발령된 조치인데 추가 공격 없이 진정돼 조정됐습니다. 한 단계 낮은 등급이 됐습니다.",
+      "interp": "다만 <b>중동 전역</b>은 여전히 정세가 유동적인 상태입니다. 여행 전에는 외교부 해외안전여행 사이트에서 최신 등급을 확인하시기 바랍니다.",
+      "source": "외교부 해외안전여행",
+      "read": 3,
+      "url": "https://0404.go.kr",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "특별여행주의보",
+          "explain": "여행자제와 출국권고 사이에 있는 긴급 여행경보 단계"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "미국, 중동 5개국 경보 상향",
+      "desc": "미국 국무부가 중동 5개국 여행경보를 여행재고 단계로 상향했습니다. 이란 공습과 보복 공격이 이어지는 데 따른 조치입니다. 항공편 취소·영공 폐쇄 가능성이 있다고 안내했습니다.",
+      "interp": "한국 외교부 경보와는 별도 기준이지만 <b>참고할 가치</b>가 있는 정보입니다. 중동 체류 중이라면 높은 경각심을 유지하시기 바랍니다.",
+      "source": "WBIW",
+      "read": 3,
+      "url": "https://www.wbiw.com/2026/08/31/u-s-raises-travel-warnings-for-five-middle-eastern-nations-amid-regional-tensions/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "여행재고",
+          "explain": "가급적 여행을 다시 생각해 보라는 미국 국무부 여행경보 3단계"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
