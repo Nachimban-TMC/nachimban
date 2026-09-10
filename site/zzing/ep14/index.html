@@ -1,7 +1,7 @@
 <!doctype html><html lang="ko"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex">
-<title>찡곰툰 업로드 · EP15</title>
+<title>찡곰툰 업로드 · EP14</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box;-webkit-font-smoothing:antialiased}
 :root{
@@ -40,7 +40,7 @@ button:active{opacity:.7}
 
 <div class="hd">
   <h1>찡곰툰 업로드</h1>
-  <div class="sub">EP15 · 슉슉 타임을 가져요 · 12컷 (4:5)</div>
+  <div class="sub">EP14 · 독일에서 빵 구매 꿀팁 · 15컷 (4:5)</div>
 </div>
 
 <h2>컷 이미지</h2>
@@ -55,36 +55,39 @@ button:active{opacity:.7}
 <div class="cap" id="tag"></div>
 <button onclick="cp(TAG,this)">해시태그 복사</button>
 
-<p class="tip">에피소드가 추가되면 이 페이지가 갱신됩니다. · <a href="./ep14/" style="color:inherit">EP14 보기</a> · <a href="./ep13/" style="color:inherit">EP13</a></p>
+<p class="tip">에피소드가 추가되면 이 페이지가 갱신됩니다. · <a href="./ep13/" style="color:inherit">EP13 보기</a></p>
 
 <script>
 var BASE="https://d8j0ntlcm91z4.cloudfront.net/user_3GECC5TtJ9AV8a30xaCCexmEilq/";
 var CUTS=[
- ["hf_20260909_133905_8a883f2c-e515-4d68-8867-c32b888e702e.png","제목"],
- ["hf_20260909_134722_a90c1929-294c-46ba-9ed9-43eb11a908a6.png","톡톡"],
- ["hf_20260909_154330_c8e2bc44-a20a-4cd3-9229-d4a0cc615828.png","슉슉 타임!"],
- ["hf_20260909_155127_fb493553-4e2a-4b7c-9c0f-6c3fd9111872.png","슉슉 타임이란?"],
- ["hf_20260909_160124_54cb38f9-62a6-46c9-8bb1-981565bd8943.png","잘 지냈어?"],
- ["hf_20260909_160431_482f45f7-6c49-4ca6-884b-e0a298165a0a.png","할 말 떨어짐"],
- ["hf_20260909_161800_e6a810ae-d6ee-48ed-a767-380d0a710891.png","압박 시작"],
- ["hf_20260909_232450_ba058114-4c1f-4826-a50d-3986b87630ce.png","무슨 반찬"],
- ["hf_20260909_233756_5ebbb3b2-2279-4bb3-a833-b4927614253b.png","진땀"],
- ["hf_20260910_105203_7fb4ead6-81c2-4e20-ba8b-d6ecdfeabb23.png","꼭두각시"],
- ["hf_20260910_120003_73432fef-3689-4f98-9378-9fbed2a77d81.png","혼 빠짐"],
- ["hf_20260910_123133_f8e497a7-9083-4584-ae4a-5319c4c94af2.png","엔딩"]
+ ["hf_20260904_133802_26150190-1bb8-44ab-91bb-498a960a5ed2.png","제목"],
+ ["hf_20260904_133802_8ae774cc-c8a5-485a-bf81-60ad293e52f3.png","시큰둥"],
+ ["hf_20260904_133802_c9b6fac6-6c5b-4989-9f1c-fe387bb3083a.png","예약"],
+ ["hf_20260904_135136_39aa2b7e-4265-4731-8360-a63c1fcd2a5d.png","접선"],
+ ["hf_20260904_200414_223d3af0-9032-4f94-8cc3-4aa111d94144.png","암구호"],
+ ["hf_20260904_135135_2bc632aa-fd8d-4883-9bb0-2e444111ac5e.png","거래 완료"],
+ ["hf_20260904_191448_12c0b715-8792-4888-90dd-1c1a10421342.png","쿵"],
+ ["hf_20260904_195107_a55ab2c1-c045-4052-b4e9-ee5df67722e9.png","개봉"],
+ ["hf_20260904_195337_f259e486-3077-482a-a47a-3ceb4a334dd1.png","물개 각성"],
+ ["hf_20260904_200414_d4315ceb-097a-4ac9-8bab-f8d353aa4156.png","앱 설명"],
+ ["hf_20260904_201651_3ec081b4-0654-4267-900d-ca0e14af0ec7.png","내 주변 지도"],
+ ["hf_20260904_201905_42f662e3-2c3b-44eb-9d40-c68c1528115d.png","쓰는 법"],
+ ["hf_20260904_211649_db5c4beb-1cb5-494d-845c-1800d2939249.png","꿀팁① 냉동"],
+ ["hf_20260904_210759_76b3bd1b-98f1-4813-9a4a-3ddbf6b0f747.png","꿀팁② 토스터기"],
+ ["hf_20260904_212112_63002792-c138-4282-bfe4-bf4c983e5d2e.png","엔딩"]
 ];
 var g=document.getElementById('grid');
 CUTS.forEach(function(c,i){
   var n=String(i+1).padStart(2,'0');
   var a=document.createElement('a');
   a.href=BASE+c[0]; a.target="_blank"; a.rel="noopener";
-  a.setAttribute('download','EP15_'+n+'.png');
+  a.setAttribute('download','EP14_'+n+'.png');
   a.innerHTML='<span class="i">'+n+'</span><img src="'+BASE+c[0]+'" alt="'+c[1]+'" onerror="this.style.display=\'none\';this.parentNode.classList.add(\'fallback\');this.parentNode.insertAdjacentHTML(\'beforeend\',\'<span class=&quot;fb&quot;>'+c[1]+'<br>열기 →</span>\')">';
   g.appendChild(a);
 });
 
-var CAP="저희 집엔 매일 저녁 열리는 행사가 있습니다 🎙️\n\n태동이 부쩍 활발해지면서, 저녁만 되면 아내가 외칩니다.\n\"슉슉 타임!\"\n\n아빠 목소리 태교라고, 그날 하루를 아기한테 말해주는 시간이에요.\n배에 대고 \"오늘 나는~\" 하고 시작하는데\n(아직 '아빠는'이라는 말이 어색합니다 😅)\n\n문제는 별일 없는 날입니다. 할 말이 3분이면 바닥나요.\n슬슬 마무리하려고 하면 그때부터 엄마의 압박이 시작됩니다.\n\n\"그래서어? 밥을 먹었는데에? 무슨 반찬을 먹었을까아?\"\n\"아...아...수육도 먹고 콩자반도 먹었지...\"\n\n그러다 진짜 할 말이 떨어지면\n저는 아내 말을 그대로 옮기는 꼭두각시가 됩니다 🎭\n\n그렇게 20분을 채워야 풀려나요.\n그리고 오늘 저녁에도 또 찾아옵니다.\n\n여러분도 태교 하시나요? 👀\n\n#임신툰 #태교 #부부툰 #독일부부 #예비아빠";
-var TAG="#임신일기 #태동 #아빠목소리태교 #곰과물개 #donyfilm #손그림웹툰 #그림일기 #독일살이";
+var CAP="독일 사는 분들, 이거 안 쓰면 손해예요 🥖\n\n빵집에서 그날 안 팔린 빵을 봉지에 담아\n정가의 1/3 값에 파는 앱이 있어요. 저희 동네는 3.5유로.\n\n처음엔 아내가 \"에이~ 그게 되겠어\" 했는데\n집에 와서 봉지를 열자 표정이 바뀌더라고요.\n바게트에 프레첼에 캄파뉴까지 한가득. 세어보니 10유로는 넘었어요.\n\n쓰는 법은 간단해요 👇\n① 앱 켜면 내 주변 지도에 등록된 가게가 뜨고\n② 봉지를 미리 결제해두고\n③ 정해진 시간에 가서\n④ 앱 화면만 보여주면 끝.\n\n단점이라면 뭐가 들었는지는 열어봐야 안다는 것 정도 😆\n\n한 번에 다 못 먹으니까 남은 건 반 갈라서 냉동해둬요.\n먹을 때 토스터기에 넣으면 산 날이랑 똑같습니다.\n\n이번 주도 예약해뒀는데, 이번엔 아내가 먼저 하겠대요 ㅎㅎ\n\n#독일살이 #독일생활 #유럽생활 #부부툰 #생활꿀팁";
+var TAG="#독일유학 #독일교민 #자취꿀팁 #절약팁 #곰과물개 #donyfilm #손그림웹툰 #그림일기";
 document.getElementById('cap').textContent=CAP;
 document.getElementById('tag').textContent=TAG;
 function cp(t,b){navigator.clipboard.writeText(t).then(function(){
