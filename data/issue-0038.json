@@ -1,0 +1,612 @@
+{
+  "number": 38,
+  "date": "2026-09-10",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "메르츠-바이델 예산안 충돌",
+      "desc": "메르츠 총리와 바이델 대표가 9일 예산안 토론에서 정면충돌했습니다. 바이델은 작센안할트 선거를 앞세워 정권 교체를 요구했습니다. 메르츠는 극우 정당의 인종 정책을 비판했습니다.",
+      "interp": "정국 갈등이 커진 만큼 20일 메클렌부르크·베를린 선거 결과도 함께 지켜볼 필요가 있습니다. 정책 변화는 아직 없습니다.",
+      "source": "Euronews",
+      "read": 3,
+      "url": "https://de.euronews.com/my-europe/2026/09/09/schlagabtausch-weidel-merz-spd-gruene-linke",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "도이칠란트티켓 요금, 지수제로 전환",
+      "desc": "교통장관회의가 도이칠란트티켓 요금을 비용 지수로 정하기로 했습니다. 이대로면 내년 1월 월 66.80유로로 오를 것으로 추정됩니다. 확정 금액은 이달 말 나옵니다.",
+      "interp": "인상 폭이 크진 않지만 내년 교통비 예산에 미리 반영해 두면 좋습니다. 정확한 금액은 9월 말 발표를 확인하세요.",
+      "source": "ADAC",
+      "read": 3,
+      "url": "https://www.adac.de/news/deutschlandticket-2027/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "지수제",
+          "explain": "물가·비용 변동을 기준으로 요금을 자동 조정하는 방식"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "travel",
+      "head": "네덜란드 철도파업, 독일행 차질",
+      "desc": "9일 네덜란드 전역 철도 파업으로 암스테르담·베를린, 프랑크푸르트행 국제열차가 크게 차질을 빚었습니다. 9월3일 이전 구매한 승차권은 무료 취소·변경이 가능합니다.",
+      "interp": "이번 주 네덜란드 경유 열차를 예약했다면 운행 정보와 무료 취소 여부를 먼저 확인해 두세요. 여유 시간도 넉넉히 잡으세요.",
+      "source": "Verbraucherschutzforum Berlin",
+      "read": 3,
+      "url": "https://verbraucherschutzforum.berlin/2026-09-09/stillstand-auf-niederlaendischen-schienen-bahnstreik-trifft-auch-reisende-nach-deutschland-434162/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "welfare",
+      "head": "뷔르거겔트 산정방식 개편 착수",
+      "desc": "연방하원이 8일 예산부수법안 심의에서 뷔르거겔트 산정방식 개편을 논의했습니다. 내년부터 저소득 가구 지출을 반영하는 새 방식이 적용됩니다. 인상 여부는 4분기 확정입니다.",
+      "interp": "당장 금액이 바뀌진 않으니 4분기 확정 발표 전까지는 현재 수급액이 그대로 유지됩니다. 서두를 필요 없습니다.",
+      "source": "gegen-hartz.de",
+      "read": 3,
+      "url": "https://www.gegen-hartz.de/news/buergergeld-neue-regelsatz-formel-nimmt-naechste-huerde-im-bundestag",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "뷔르거겔트",
+          "explain": "독일의 실업자·저소득층 대상 기초생활보장 급여"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "health",
+      "head": "건강보험료, 내년 추가 인상 전망",
+      "desc": "독일의 2026년 평균 추가보험료는 2.9%로, 내년엔 0.6%포인트 오를 것이란 전망이 나옵니다. 정부는 절감안으로 인상 억제를 추진 중입니다. 확정 수치는 연말에 나옵니다.",
+      "interp": "가입 보험조합마다 인상 폭이 다르니 연말 고지서가 오면 보험료율을 꼭 비교해 보세요. 필요하면 조합 변경도 가능합니다.",
+      "source": "rentenbescheid24.de",
+      "read": 3,
+      "url": "https://rentenbescheid24.de/krankenkassenbeitraege-ab-2027-wer-mehr-zahlen-muss/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "추가보험료",
+          "explain": "공보험료 외에 보험조합이 별도로 매기는 추가 부담금"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "부산 예인선 사고, 사망 2명 확정",
+      "desc": "부산 앞바다에서 전복된 예인선 승선원 중 1명이 9일 포항 해변서 발견됐습니다. 이로써 인명피해는 사망 2명, 실종 5명으로 늘었습니다. 해경은 수색 범위를 넓히고 있습니다.",
+      "interp": "실종자 가족 등 관계자는 해양경찰청 상황실로 문의하면 수색 진행 상황을 안내받을 수 있습니다. 추가 소식도 계속 나올 예정입니다.",
+      "source": "헤럴드경제",
+      "read": 3,
+      "url": "https://biz.heraldcorp.com/article/10868295",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "stocks",
+      "head": "코스피 하락 출발, 환율 1339원대",
+      "desc": "10일 코스피는 미 연준의 9월 금리 인상 가능성이 불거지며 하락 출발했습니다. 원·달러 환율은 1339~1341원대에서 움직이고 있습니다. 외국인 매도세도 이어지고 있습니다.",
+      "interp": "환전·해외송금 계획이 있다면 당분간 환율 변동성을 감안해 시점을 나눠 처리하는 것이 안전합니다. 큰 금액은 특히 유의하세요.",
+      "source": "비즈니스코리아",
+      "read": 3,
+      "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=276607",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "health",
+      "head": "내년 건강보험료율 7.19% 동결",
+      "desc": "보건복지부가 8일 건강보험정책심의위원회를 열어 2027년도 건강보험료율을 올해와 같은 7.19%로 동결했습니다. 지역가입자 재산보험료 기준금액도 그대로 유지됩니다.",
+      "interp": "월급에서 떼는 건강보험료 공제 비율이 내년에도 그대로라는 뜻이니 따로 준비할 서류는 없습니다. 안심하고 넘어가도 됩니다.",
+      "source": "경향신문",
+      "read": 3,
+      "url": "https://www.khan.co.kr/article/202609081351011/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "tax",
+      "head": "해외금융계좌 신고액 107조 돌파",
+      "desc": "국세청이 2일 발표한 해외금융계좌 신고 실적에 따르면 신고금액은 107조1000억원으로 전년보다 13.3% 늘었습니다. 신고 인원도 늘었고 해외 주식이 절반 이상을 차지했습니다.",
+      "interp": "해외 계좌 잔액이 매월 말 기준 5억원을 넘긴 적이 있다면 내년 6월 신고 대상인지 미리 확인해 두세요.",
+      "source": "헤럴드경제",
+      "read": 3,
+      "url": "https://biz.heraldcorp.com/article/10860332",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "해외금융계좌 신고",
+          "explain": "거주자가 보유한 해외계좌 잔액이 기준을 넘으면 국세청에 알리는 제도"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "재외동포 상담센터, 공공혁신상",
+      "desc": "재외동포청의 24시간 카카오톡 상담 서비스가 2026 카카오 공공혁신 어워즈 우수사례로 선정됐습니다. 국적·병역·가족관계 민원을 5개 언어로 상담할 수 있습니다.",
+      "interp": "급한 민원이 생기면 '재외동포 365민원콜센터' 카카오톡 채널로 문의하면 시차 걱정 없이 상담받을 수 있습니다.",
+      "source": "재외동포신문",
+      "read": 3,
+      "url": "https://www.dongponews.net/news/articleView.html?idxno=60389",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "ECB, 오늘 금리 인상 전망",
+      "desc": "유럽중앙은행이 10일 예금금리를 2.25%에서 2.5%로 올릴 것으로 관측됩니다. 올해 두 번째 인상으로 15년 만에 가장 짧은 인상기가 될 전망입니다. 유가 상승이 배경입니다.",
+      "interp": "예금금리가 오르면 유로존 대출금리도 오를 수 있으니 변동금리 대출 이용자는 조건을 미리 확인해 보세요.",
+      "source": "RTE",
+      "read": 3,
+      "url": "https://www.rte.ie/news/business/2026/0903/1590203-ecb-to-raise-rates-a-second-time-this-month-economists/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "invest",
+      "head": "EU, 소액투자자 보호 개편 착수",
+      "desc": "EU 집행위원회가 8월24일 유럽증권시장감독청에 소매투자전략 세부 기준을 요청했습니다. 수수료가 투자자 이익에 반하지 않는지 따지는 기준과 SNS 투자 광고 규제안이 담겼습니다.",
+      "interp": "SNS의 '고수익 보장' 투자 광고는 규제 대상이 될 가능성이 큰 만큼 지금부터 신중히 판단해 보세요.",
+      "source": "Regulation Tomorrow",
+      "read": 3,
+      "url": "https://www.regulationtomorrow.com/2026/08/european-commission-publishes-request-to-esma-for-advice-on-the-retail-investment-strategy/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "소매투자전략",
+          "explain": "일반 개인투자자를 보호하기 위한 EU의 금융규제 개편 방안"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "travel",
+      "head": "ETIAS 도입 사실상 무산",
+      "desc": "EU가 연내 목표였던 ETIAS 시행이 사실상 무산됐습니다. 담당 기관이 시험 지연을 인정하며 '4분기 시행' 문구를 삭제했습니다. 새 시행은 빠르면 2027년으로 거론됩니다.",
+      "interp": "유럽 무비자 여행 시 추가 허가 신청은 당분간 필요 없다는 뜻이니 서두르지 않아도 됩니다. 일정만 챙기세요.",
+      "source": "여행신문",
+      "read": 3,
+      "url": "https://www.traveltimes.co.kr/news/articleView.html?idxno=500219",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "ETIAS",
+          "explain": "무비자로 유럽에 입국하는 외국인이 사전에 받아야 하는 여행허가제도"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "미주리 선거구 지도, 소송전 격화",
+      "desc": "캐버노 대법관이 9일 미주리 새 선거구 지도 사용을 불허했습니다. 몇 시간 뒤 연방판사는 그 지도를 되살리는 명령을 내렸습니다. 어느 지도가 쓰일지 아직 불확실합니다.",
+      "interp": "미주리 거주자라면 지역 뉴스로 최종 선거구 확정 여부를 계속 확인해 두는 게 좋습니다. 투표 안내도 챙기세요.",
+      "source": "Al Jazeera",
+      "read": 3,
+      "url": "https://www.aljazeera.com/news/2026/9/9/us-supreme-court-rejects-missouri-bid-to-reactivate-gop-backed-voting-map",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "H-1B 수수료 부담 잇달아 확대",
+      "desc": "9일부터 H-1B·L-1 인력 절반 넘는 기업은 연장 시 건당 4000~4500달러 생체인식 수수료를 냅니다. H-1B 신규 신청비도 10만3265달러로 영구화될 수 있습니다.",
+      "interp": "고용주 부담이 커지는 만큼 연장 신청 시기와 비용을 회사와 미리 상의해 두는 것이 좋습니다. 아직 확정 전입니다.",
+      "source": "Federal Register",
+      "read": 3,
+      "url": "https://www.federalregister.gov/documents/2026/08/10/2026-16231/9-11-response-and-biometric-entry-exit-fee-for-h-1b-and-l-1-visas",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "H-1B",
+          "explain": "미국에서 전문직 외국인을 고용할 때 쓰는 취업비자"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "invest",
+      "head": "9월 FOMC, 금리 인상 가능성 부상",
+      "desc": "16일 연방공개시장위원회 회의를 앞두고 시장은 금리 인상 가능성을 57%로 보고 있습니다. 우세했던 동결 전망이 물가 지표 상승으로 뒤집혔습니다. 뉴욕 증시도 최근 흔들렸습니다.",
+      "interp": "미국 주식·펀드 투자자는 16일 발표 전후 변동성이 커질 수 있으니 무리한 매매는 피하는 게 좋습니다.",
+      "source": "TradingEconomics",
+      "read": 3,
+      "url": "https://tradingeconomics.com/united-states/interest-rate/news/485858",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "연방공개시장위원회",
+          "explain": "미국의 기준금리를 결정하는 연준 내 회의체"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "tax",
+      "head": "FBAR 신고기한, 10월15일 자동연장",
+      "desc": "해외계좌 합산액이 연중 한 번이라도 1만달러를 넘은 미국 거주 재외동포는 FBAR 신고 대상입니다. 원래 기한은 4월15일이지만 신청 없이 10월15일까지 자동 연장됩니다.",
+      "interp": "아직 신고 전이라면 10월15일 전까지 FinCEN 114 양식으로 제출을 마쳐야 불이익을 피할 수 있습니다.",
+      "source": "Taxes for Expats",
+      "read": 3,
+      "url": "https://www.taxesforexpats.com/articles/fbar-fatca/a-detailed-look-at-the-foreign-bank-account-report-fbar-form.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "FBAR",
+          "explain": "미국 거주자가 해외 금융계좌 보유 현황을 미 재무부에 신고하는 제도"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "네팔 실종 한국인, 수색 종료 수순",
+      "desc": "네팔 홍수로 실종된 한국인 9명을 찾던 정부 구호대가 11일 복귀합니다. 네팔 당국이 대응을 수색에서 재건으로 전환한 데 따른 것입니다. 정부는 2차 구호대 파견을 검토 중입니다.",
+      "interp": "실종자 가족은 외교부 영사콜센터로 문의하면 최신 진행 상황을 안내받을 수 있습니다. 문의는 24시간 가능합니다.",
+      "source": "파이낸셜뉴스",
+      "read": 3,
+      "url": "https://www.fnnews.com/news/202609091752522279",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "태국·캄보디아 접경 경보 완화",
+      "desc": "외교부가 태국·캄보디아 접경 7개 주의 특별여행주의보를 해제하고 여행유의 단계로 낮췄습니다. 국경 50킬로미터 이내 지역은 출국권고 단계가 그대로 유지됩니다.",
+      "interp": "이 지역을 여행할 계획이라면 0404.go.kr에서 세부 경보 단계를 지역별로 확인하고 출발하세요. 안전이 최우선입니다.",
+      "source": "투어코리아",
+      "read": 3,
+      "url": "https://www.tournews21.com/news/articleView.html?idxno=142732",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "방글라데시 취업사기 주의보",
+      "desc": "방글라데시에서 외국인을 겨냥한 온라인 금융사기 조직이 적발돼 현지 경찰이 수사 중입니다. 고액 단기근무를 미끼로 외국인을 유인해 전화사기에 가담시키는 사례도 확인됐습니다.",
+      "interp": "'고수입 보장', '수수료 선입금' 조건을 내건 해외 채용 공고는 사기 가능성이 높으니 주의하세요. 지원 전 꼭 확인하세요.",
+      "source": "외교부 해외안전여행",
+      "read": 3,
+      "url": "https://overseas.mofa.go.kr/us-ko/brd/m_21341/view.do?seq=295",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
