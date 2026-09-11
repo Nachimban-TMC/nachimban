@@ -1,0 +1,604 @@
+{
+  "number": 39,
+  "date": "2026-09-11",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "베를린 SPD 후보 뇌물의혹 수사",
+      "desc": "하노버 검찰이 베를린 주총리 후보 크라흐를 뇌물 혐의로 수사 중입니다. 병원 부지 매각 입찰이 발단이며 본인은 부인했습니다. 9월20일 선거를 앞두고 정국이 흔들리고 있습니다.",
+      "interp": "<b>뇌물수사</b>는 확정된 혐의가 아니니 단정하지 마세요. 베를린 선거 결과에 따라 이후 독일 정치 지형이 크게 달라질 수 있습니다.",
+      "source": "베를리너차이퉁",
+      "read": 3,
+      "url": "https://www.berliner-zeitung.de/article/ermittlungen-gegen-berliner-spd-spitzenkandidaten-steffen-krach-durchsuchungen-in-berlin-und-hannover-10376889",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "EU 보증표시 라벨, 9월27일 시행",
+      "desc": "9월27일부터 EU 전역에서 통일된 보증표시 라벨이 도입됩니다. 결함 시 최소 2년간 무상 수리나 교환을 받을 권리가 생깁니다. 독일 거주자도 알아두세요.",
+      "interp": "<b>보증표시</b>는 새 유럽 공통 라벨입니다. 가전이나 전자제품을 살 때 이 라벨을 확인하면 하자 시 도움이 됩니다.",
+      "source": "비알로(Biallo)",
+      "read": 3,
+      "url": "https://www.biallo.de/verbraucherschutz/news/september-2026-diese-neuerungen-betreffen-ihr-geld-und-ihren-alltag/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "보증표시",
+          "explain": "구매 후 하자 시 무상수리·교환 권리를 표시하는 EU 공통 라벨"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "tax",
+      "head": "해외금융계좌 정보 자동교환, 9/30",
+      "desc": "9월30일부터 유럽 각국이 금융정보 자동교환에 나섭니다. 해외 계좌를 둔 거주자의 소득이 국세청에 그대로 통보됩니다. 신고 안 한 계좌가 있다면 지금 점검하세요.",
+      "interp": "<b>금융정보 자동교환</b>은 해외 계좌를 숨기기 어렵다는 뜻입니다. 독일 세무서에 신고 안 한 계좌가 있다면 세무사와 먼저 상담하세요.",
+      "source": "비알로(Biallo)",
+      "read": 3,
+      "url": "https://www.biallo.de/verbraucherschutz/news/september-2026-diese-neuerungen-betreffen-ihr-geld-und-ihren-alltag/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "금융정보 자동교환",
+          "explain": "각국 국세청이 해외 금융계좌 정보를 서로 통보하는 제도"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "study",
+      "head": "겨울학기 10월1일 개강, 건강보험 필수",
+      "desc": "독일 겨울학기가 10월1일 시작되며 건강보험 증명 없이는 등록할 수 없습니다. 30세 미만은 법정건강보험 가입이 원칙, 월 141유로입니다. 보험사에 증명서를 미리 요청하세요.",
+      "interp": "<b>건강보험 증명</b>이 없으면 등록 자체가 막힙니다. 학기 시작 전 보험사에 서둘러 재학증명·가입증명을 신청하세요.",
+      "source": "student-insurance.com",
+      "read": 3,
+      "url": "https://www.student-insurance.com/de/blog/wintersemester-2026-27-krankenversicherung-guide-deutschland/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "policy",
+      "head": "AfD 해산심리, 9월30일 청문회",
+      "desc": "AfD를 극우로 판정한 뒤 정당 해산 논의가 이어지고 있습니다. 튀링엔주에서 9월30일 전문가 청문회가 예정돼 있습니다. 메르츠 총리는 신중해 해산 신청은 아직 불투명합니다.",
+      "interp": "<b>정당해산심리</b>는 결론까지 오래 걸리는 절차입니다. 당장 선거나 생활에 영향은 없지만 정치 지형 변화는 계속 지켜볼 만합니다.",
+      "source": "ZDF",
+      "read": 3,
+      "url": "https://www.zdfheute.de/politik/afd-verbot-parteiverbot-gutachten-100.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "정당 해산",
+          "explain": "헌법재판소가 위헌 정당을 강제 해산하는 절차"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "코스피 3%대 급락, 환율 1348원",
+      "desc": "미국 국채금리가 19년만에 최고치로 치솟으며 코스피가 3%대 급락했습니다. 원달러 환율도 1348원까지 올라 1350원 재진입을 앞뒀습니다. 국제유가 급등이 겹친 결과입니다.",
+      "interp": "<b>환율 급등기</b>엔 유학비·송금 시점 조정이 유리할 수 있습니다. 변동성이 큰 만큼 여유자금 환전은 서두르지 마세요.",
+      "source": "비즈니스코리아",
+      "read": 3,
+      "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=276711",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "immigration",
+      "head": "영사민원24 앱, 9월15일 출시",
+      "desc": "외교부가 9월15일부터 영사민원24 모바일 앱 서비스를 시작합니다. 재외국민등록, 귀국신고, 민원처리현황 조회를 휴대폰으로 처리할 수 있습니다. 애플 앱은 10월 중 추가됩니다.",
+      "interp": "<b>영사민원24</b> 앱을 미리 설치해두면 재외국민등록이나 귀국신고가 훨씬 간편해집니다. 안드로이드는 15일부터 바로 이용 가능합니다.",
+      "source": "대한민국 정책브리핑",
+      "read": 3,
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156410698",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "policy",
+      "head": "개인정보 유출, 매출 10% 과징금",
+      "desc": "9월11일부터 개인정보를 반복·중대 유출한 기업에 매출액 10% 과징금이 부과됩니다. 1000만명 이상 유출·시정명령 불이행 시 적용됩니다. 사전투자 기업은 40%까지 감경됩니다.",
+      "interp": "<b>과징금 10%</b> 규정으로 기업 개인정보 관리가 엄격해질 전망입니다. 한국 서비스에서 유출 안내를 받으면 꼭 확인하세요.",
+      "source": "블로터",
+      "read": 3,
+      "url": "https://www.bloter.net/news/articleView.html?idxno=673291",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "과징금",
+          "explain": "법 위반 기업에 국가가 부과하는 행정상 제재금"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "travel",
+      "head": "추석 9월24일~27일, 대체휴일 없음",
+      "desc": "올해 추석 연휴는 9월24일부터 27일까지 나흘입니다. 25일이 금요일이라 대체공휴일은 없습니다. 귀국이나 가족 방문 계획이 있다면 항공권을 서둘러 예약하세요.",
+      "interp": "<b>대체공휴일</b>이 없어 연휴가 나흘로 끝납니다. 이 기간 재외공관 휴무 여부도 미리 확인해두세요.",
+      "source": "비건뉴스",
+      "read": 3,
+      "url": "https://www.vegannews.co.kr/news/article.html?no=385394",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "대체공휴일",
+          "explain": "공휴일이 주말과 겹칠 때 평일에 하루를 더 쉬게 해주는 제도"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "travel",
+      "head": "대한항공 조종사노조 파업 초읽기",
+      "desc": "대한항공 조종사노조가 9월7일 쟁의조정을 신청해 11년만에 파업 수순입니다. 12월 아시아나 통합 앞두고 조종사 서열 산정이 쟁점입니다. 결렬되면 추석 직후 파업권을 갖습니다.",
+      "interp": "<b>파업권</b>이 현실화되면 국제선 일정에 차질이 생길 수 있습니다. 추석 전후 대한항공 이용 예정이라면 운항 정보를 수시로 확인하세요.",
+      "source": "이데일리",
+      "read": 3,
+      "url": "https://www.edaily.co.kr/News/Read?newsId=03079926645578152",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "쟁의조정",
+          "explain": "파업 전 노사 갈등을 노동위원회가 중재하는 법적 절차"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "ECB 기준금리 인상, 9월16일부터",
+      "desc": "유럽중앙은행이 예금금리를 2.50%로 0.25%포인트 올리기로 했습니다. 중동 정세 불안으로 물가상승률이 목표치를 웃돌고 있기 때문입니다. 인상은 9월16일부터 적용됩니다.",
+      "interp": "<b>ECB 금리인상</b>으로 유로존 대출·주택담보대출 금리도 함께 오를 가능성이 큽니다. 변동금리 대출이 있다면 이자 부담 증가에 대비하세요.",
+      "source": "유럽중앙은행(ECB)",
+      "read": 3,
+      "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "예금금리",
+          "explain": "은행이 중앙은행에 맡긴 돈에 적용되는 기준금리"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "life",
+      "head": "EU, 9월27일부터 '그린워싱' 광고 금지",
+      "desc": "9월27일부터 EU 엠프코 지침 시행으로 그린워싱 광고가 금지됩니다. 탄소중립 문구를 쓰려면 공식 인증이 필요합니다. 위반 기업은 매출액 기준 과징금을 물 수 있습니다.",
+      "interp": "<b>그린워싱</b> 규제로 막연한 친환경 문구를 내건 제품이 줄어들 전망입니다. 소비자는 인증 마크를 확인하는 습관을 들이면 좋습니다.",
+      "source": "스마트슈토이어",
+      "read": 3,
+      "url": "https://www.smartsteuer.de/online/blog/das-aendert-sich-im-september-2026-neuigkeiten-gesetze-steuern/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "그린워싱",
+          "explain": "실제로는 친환경적이지 않으면서 친환경인 것처럼 꾸미는 광고·홍보"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "invest",
+      "head": "프랑스 국채금리, 2008년래 최고",
+      "desc": "프랑스 10년물 국채금리가 4.2%를 넘어 2008년래 최고 수준입니다. 정치 불안과 재정적자 우려로 독일과 금리차가 85bp까지 벌어졌습니다. 유럽 채권시장 불안 요인입니다.",
+      "interp": "<b>국채금리차</b> 확대는 프랑스의 재정 신뢰도 하락을 뜻합니다. 유럽 펀드나 유로화 자산에 투자 중이라면 변동성 확대에 유의하세요.",
+      "source": "CNBC",
+      "read": 3,
+      "url": "https://www.cnbc.com/2026/08/31/france-debt-bond-yields-budget.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "금리차",
+          "explain": "두 나라 국채 금리의 차이로, 클수록 신용 위험이 크다는 뜻"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "미국 9·11 테러 25주년 추모식",
+      "desc": "오늘 미국은 9·11 테러 25주년 추모행사를 엽니다. 트럼프 대통령은 펜타곤에, 뉴욕에서는 유가족이 희생자 이름을 낭독합니다. 25년 지난 오늘도 전역이 추모 분위기입니다.",
+      "interp": "<b>9·11 25주년</b>을 맞아 뉴욕·워싱턴 일대 교통·보안이 강화될 수 있습니다. 해당 지역 방문 예정이라면 이동 시간을 넉넉히 잡으세요.",
+      "source": "news.de",
+      "read": 3,
+      "url": "https://www.news.de/panorama/859982846/11-september-2026-news-themen-des-tages-was-passiert-heute-in-deutschland-und-der-welt-das-ist-heute-am-11-09-2026-wichtig-in-den-nachrichten-aus-politik-wirtschaft-sport-und-co/1/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "미국 국채금리 급등, FOMC 초읽기",
+      "desc": "미국 10년물 국채금리가 4.85%로 2023년 10월 이후 최고치입니다. 9월16일 FOMC 추가 인상 확률은 58%입니다. 중동발 유가 상승이 물가 우려를 키웠습니다.",
+      "interp": "<b>FOMC</b> 결과에 따라 환율과 해외 송금 비용이 출렁일 수 있습니다. 큰 금액 환전은 9월16일 발표를 본 뒤 결정하세요.",
+      "source": "CNBC",
+      "read": 3,
+      "url": "https://www.cnbc.com/2026/08/18/treasury-yields-.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "FOMC",
+          "explain": "미국의 기준금리를 정하는 연방준비제도의 정책회의"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "policy",
+      "head": "미국 셧다운 회피, 12월11일까지",
+      "desc": "미국 의회가 임시예산안을 통과시켜 10월1일 셧다운을 피했습니다. 예산은 12월11일까지 현 수준으로 유지됩니다. 비자·여권 등 영사 업무도 당분간 차질 없이 운영될 전망입니다.",
+      "interp": "<b>셧다운</b>이 벌어지면 비자 인터뷰나 여권 발급이 지연될 수 있었습니다. 12월11일 이후 예산안 논의를 다시 지켜봐야 합니다.",
+      "source": "NPR",
+      "read": 3,
+      "url": "https://www.npr.org/2026/09/01/nx-s1-5951536/house-government-funding-vote-midterms",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "셧다운",
+          "explain": "예산안 미통과로 정부 기관 업무가 일시 정지되는 상태"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "스위스서 관광버스 전복, 다수 사망",
+      "desc": "9월10일 스위스에서 네덜란드 관광객 48명을 태운 버스가 전복됐습니다. 다수의 사망자·부상자가 발생했으나 정확한 인원은 확인 중입니다. 유럽 단체여행 계획 시 주의가 필요합니다.",
+      "interp": "<b>단체여행버스</b> 사고는 가을 성수기에 늘어나는 경향이 있습니다. 유럽 단체여행을 계획한다면 안전벨트 착용 등 기본 수칙을 꼭 지키세요.",
+      "source": "ZDF",
+      "read": 3,
+      "url": "https://www.zdfheute.de/panorama/unfall-reisebus-schweiz-100.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "외교부, 태국·튀르키예 여행경보 완화",
+      "desc": "외교부가 9월 정기 조정에서 태국·튀르키예 등 4개국 일부지역 특별여행주의보를 해제했습니다. 엘살바도르·우간다·쿠바 등은 경보를 연장했습니다. 해외여행 전 최신 등급을 확인하세요.",
+      "interp": "<b>여행경보</b>는 수시로 바뀌므로 출국 직전 다시 확인하는 습관이 중요합니다. 경보가 연장된 지역은 여행 자제를 고려하세요.",
+      "source": "투어코리아",
+      "read": 3,
+      "url": "https://www.tournews21.com/news/articleView.html?idxno=142732",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "특별여행주의보",
+          "explain": "일반 경보보다 한 단계 위, 긴급한 위험이 있을 때 발령하는 여행경보"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "중동 갈등 격화, 유가 100달러 돌파",
+      "desc": "미국·이란 충돌이 격화되며 국제유가가 배럴당 100달러를 넘어섰습니다. 이란이 호르무즈해협서 선박 10척을 공격했다고 주장했습니다. 4개월만에 최고치로 유류할증료 인상 우려됩니다.",
+      "interp": "<b>호르무즈해협</b>은 세계 원유의 핵심 수송로입니다. 항공권 유류할증료 인상에 대비해 예약을 서두르는 것도 방법입니다.",
+      "source": "비즈니스포스트",
+      "read": 3,
+      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=446958",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "호르무즈해협",
+          "explain": "페르시아만과 인도양을 잇는, 세계 원유 수송의 핵심 길목"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
