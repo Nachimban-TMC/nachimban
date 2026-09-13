@@ -1,0 +1,345 @@
+{
+  "number": 41,
+  "date": "2026-09-13",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "메르츠, 작센안할트에 첫 연방강제 언급",
+      "desc": "메르츠 총리가 작센안할트 극우 사태를 두고 헌법상 '연방강제' 발동을 처음 언급했습니다. 원내대표 프라이도 같은 말을 썼습니다. 이 조항은 1949년 이후 쓰인 적이 없습니다.",
+      "interp": "총리가 직접 초헌법적 수단을 거론한 것은 매우 이례적입니다. 독일 정치를 지켜본다면 <b>연방강제</b> 후속 보도를 주시하세요.",
+      "source": "t-online",
+      "read": 3,
+      "url": "https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_101425758/afd-in-sachsen-anhalt-kanzler-merz-droht-erstmals-mit-bundeszwang.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "연방강제",
+          "explain": "기본법을 어긴 주정부에 연방정부가 개입할 수 있는 권한"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "health",
+      "head": "건보료 인상, 이제 알아서 확인해야",
+      "desc": "7월 말부터 건강보험조합은 추가보험료를 올려도 알릴 의무가 없어졌습니다. 특별해지권은 그대로지만 스스로 명세서를 확인해야 합니다. 시기를 놓치면 저렴한 조합으로 못 옮깁니다.",
+      "interp": "매달 보험료 명세서를 <b>직접 확인</b>하는 습관이 필요합니다. 인상됐다면 그달 말까지 새 조합에 신청해야 합니다.",
+      "source": "Verbraucherzentrale",
+      "read": 3,
+      "url": "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/krankenversicherung/zusatzbeitrag-der-krankenkasse-sonderkuendigung-und-wechsel-moeglich-10581",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "특별해지권",
+          "explain": "보험료가 오르면 계약기간과 상관없이 즉시 해지할 수 있는 권리"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "여름 마지막 귀성정체, 이번 주말 절정",
+      "desc": "바이에른·바덴뷔르템베르크 방학이 끝나 이번 주말이 올여름 마지막 귀성 정체로 꼽힙니다. A3·A8·A9 등과 순환도로에 공사구간도 약 1000곳입니다. 토·일 오후가 절정입니다.",
+      "interp": "이 구간을 지날 계획이라면 <b>토요일 오후·일요일 낮</b> 시간대를 피하는 게 좋습니다. 이른 출발도 고려해 보세요.",
+      "source": "ADAC/ACE",
+      "read": 2,
+      "url": "https://www.auto-motor-und-sport.de/verkehr/stau-wochenende-vom-11-bis-13-9-2026-meiden-sie-diese-autobahnen/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "labor",
+      "head": "자동차업계 감원 지속, 반년새 4만명↓",
+      "desc": "독일 자동차업계 종사자가 6월 기준 69만1500명, 1년 새 4만2300명 줄었습니다. 폭스바겐·BMW는 관리직까지 감원 중이며, 10년간 12만5000개 더 사라질 전망입니다.",
+      "interp": "완성차·부품업계에서 일한다면 <b>구조조정 동향</b>을 미리 살펴 두는 것이 좋습니다.",
+      "source": "라디오코리아 등 종합",
+      "read": 2,
+      "url": "https://radiokorea.com/news/article.php?uid=495197",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "용혜인 성평등부 장관후보 자진 사퇴",
+      "desc": "용혜인 성평등가족부 장관 후보자가 지명 14일 만인 13일 자진 사퇴했습니다. 기본소득당 의혹과 비례대표 겸직 논란이 이어지자 여당도 우려를 표했습니다. 의원직은 유지합니다.",
+      "interp": "재외국민 정책을 다룰 새 후보자 지명 여부를 <b>계속 지켜볼 필요</b>가 있습니다.",
+      "source": "경향신문",
+      "read": 3,
+      "url": "https://www.khan.co.kr/article/202609131145001",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "labor",
+      "head": "대한항공 노조, 14일부터 집회 예고",
+      "desc": "대한항공 조종사노조가 통합 후 서열 갈등으로 쟁의 조정을 신청했습니다. 노조는 14~20일 본사·인천공항 등에서 집회를 벌일 계획입니다. 불발되면 10년 만에 파업권을 얻습니다.",
+      "interp": "이 기간 <b>인천공항 이용</b> 시 집회로 인한 혼잡 가능성을 염두에 두는 게 좋습니다.",
+      "source": "뉴스토모",
+      "read": 3,
+      "url": "https://www.newstomato.com/ReadNews.aspx?no=1312918",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "policy",
+      "head": "재외동포청, 제도개선 과제 18일 제출",
+      "desc": "재외동포청이 받은 '국가정상화 프로젝트' 2차 과제를 검토해 18일 국무조정실에 제출합니다. 등록서류 간소화, 재외선거인 등록 연계 등이 대상입니다. 채택되면 행정이 간편해집니다.",
+      "interp": "평소 불편했던 절차가 있다면 <b>재외동포청 제안 창구</b>를 통해 의견을 낼 수 있습니다.",
+      "source": "정책브리핑",
+      "read": 2,
+      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156735958",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "travel",
+      "head": "EU 국경심사 완화 종료, 대기 급증",
+      "desc": "6일부터 EU 입출국시스템(EES)의 여름철 임시 유연조치가 끝나 생체인식 국경심사가 전면 적용됩니다. 프랑크푸르트 대기시간이 60분에서 120분으로 늘었습니다.",
+      "interp": "유럽 입국 시 여권심사에 <b>기존보다 넉넉한 시간</b>을 두고, 환승 일정도 여유 있게 짜는 게 안전합니다.",
+      "source": "Euronews",
+      "read": 3,
+      "url": "https://www.euronews.com/travel/2026/09/04/travelling-to-europe-ees-border-checks-are-changing-from-6-september",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "EES",
+          "explain": "입국 시 지문·얼굴 정보를 등록하는 EU의 출입국관리 시스템"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "H-1B·L-1 연장에도 생체정보 수수료",
+      "desc": "9일부터 H-1B·L-1 연장 신청에 미국 생체정보 수수료가 확대됩니다. H-1B 건당 4000달러, L-1 건당 4500달러를 더 냅니다. 전엔 최초 발급 때만 부과됐습니다.",
+      "interp": "해당 비자로 근무 중이라면 소속 회사가 <b>연장 신청 비용 증가</b>를 알고 있는지 확인해 보세요.",
+      "source": "Federal Register",
+      "read": 3,
+      "url": "https://www.federalregister.gov/documents/2026/08/10/2026-16231/9-11-response-and-biometric-entry-exit-fee-for-h-1b-and-l-1-visas",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "L-1 비자",
+          "explain": "다국적기업 주재원이 본사에서 미국 지사로 파견될 때 쓰는 취업비자"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "invest",
+      "head": "이번주 FOMC, 금리인상 가능성 부각",
+      "desc": "미국 연준이 15~16일(현지시간) FOMC를 열어 기준금리를 결정합니다. 물가가 예상보다 높아 시장은 인상 가능성을 60%대로 봅니다. 결과는 한국시간 17일 새벽 발표됩니다.",
+      "interp": "미국 주식·채권에 투자 중이라면 <b>발표 직후 변동성</b> 확대에 대비해 두는 것이 좋습니다.",
+      "source": "한국경제 등 종합",
+      "read": 3,
+      "url": "https://www.hankyung.com/article/202609130911i",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "FOMC",
+          "explain": "미국의 기준금리를 결정하는 연방준비제도 산하 위원회"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "사우디, 파이프라인 폐쇄로 유가 비상",
+      "desc": "사우디가 11일 드론 공격 뒤 호르무즈해협을 우회하는 핵심 송유관을 잠정 중단했습니다. 하루 500만 배럴을 나르던 대체로인데 호르무즈마저 막혀 유가 급등이 우려됩니다.",
+      "interp": "중동을 경유하는 항공편을 이용할 계획이라면 <b>운항 변경 여부</b>를 출발 전 다시 확인하세요.",
+      "source": "CNBC·Al Jazeera 등 종합",
+      "read": 3,
+      "url": "https://www.cnbc.com/2026/09/11/saudi-arabia-shut-down-east-west-crude-oil-pipeline.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "호르무즈해협",
+          "explain": "전 세계 원유 수송량의 상당량이 지나는 페르시아만 입구의 좁은 해협"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
