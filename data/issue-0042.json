@@ -1,0 +1,602 @@
+{
+  "number": 42,
+  "date": "2026-09-14",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "즈베레프, US오픈 첫 우승",
+      "desc": "즈베레프가 US오픈 남자단식에서 우승해 생애 첫 메이저 타이틀을 따냈습니다. 1989년 베커 이후 37년 만의 독일인 우승입니다. 독일 전역이 오늘 이 소식으로 떠들썩합니다.",
+      "interp": "실력으로 만들어낸 <b>독일 테니스 역사</b>이니 오늘 하루는 그냥 즐기시면 됩니다.",
+      "source": "news.de",
+      "read": 3,
+      "url": "https://www.news.de/panorama/859989575/14-september-2026-news-themen-des-tages-was-passiert-heute-in-deutschland-und-der-welt-das-ist-heute-am-14-09-2026-wichtig-in-den-nachrichten-aus-politik-wirtschaft-sport-und-co/1/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "health",
+      "head": "건보료 인상 시 해지권 챙기기",
+      "desc": "독일 건강보험 추가보험료가 2027년 3.3~3.5%까지 오를 전망입니다. 보험사가 인상을 알리지 않으니 직접 확인해야 합니다. 인상되면 특별해지로 보험사를 바꿀 수 있습니다.",
+      "interp": "매달 <b>추가보험료</b>를 직접 확인하세요. 오르면 그달 안에 신청해야 특별해지권을 쓸 수 있습니다.",
+      "source": "Krankenkasseninfo",
+      "read": 2,
+      "url": "https://www.krankenkasseninfo.de/ratgeber/nachrichten/zusatzbeitrag-2027-wird-es-trotz-guter-zahlen-teurer-62727.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "추가보험료",
+          "explain": "기본 보험료 외에 각 건강보험사가 별도로 매기는 부가 보험료"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "도이칠란트티켓 66.8유로로",
+      "desc": "도이칠란트티켓이 2027년 1월 63유로에서 66.8유로로 오를 전망입니다. 처음으로 인건비·에너지비 연동 계산식이 적용됐습니다. 디젤값과 인건비 상승이 주요 인상 요인입니다.",
+      "interp": "연간 정기권이나 선결제 상품을 쓴다면 <b>연말 전 갱신</b> 시점을 확인해 보세요.",
+      "source": "teltarif.de",
+      "read": 2,
+      "url": "https://www.teltarif.de/deutschlandticket-deutsche-bahn-zug-kosten/news/105782.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "policy",
+      "head": "니더작센 지방선거 개표결과",
+      "desc": "니더작센 지방선거 예비 개표에서 기민련이 27.7%로 1위했습니다. 사민당 24.5%, 독일대안당 16.5%로 지지세를 넓혔습니다. 서부 독일에서도 극우 강세가 확인됐습니다.",
+      "interp": "직접 영향받는 절차는 없지만 <b>독일 정치 지형 변화</b>를 보여주는 지표로 참고하시면 됩니다.",
+      "source": "news.de",
+      "read": 2,
+      "url": "https://www.news.de/panorama/859989575/14-september-2026-news-themen-des-tages-was-passiert-heute-in-deutschland-und-der-welt-das-ist-heute-am-14-09-2026-wichtig-in-den-nachrichten-aus-politik-wirtschaft-sport-und-co/1/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "브리치즈 리스테리아균 회수",
+      "desc": "독일 한 치즈업체의 브리토르테에서 리스테리아균이 검출됐습니다. 9월4일 회수 후 대상 제품이 늘었고 유통기한은 9월14·21일입니다. 임산부·고령자는 섭취를 피해야 합니다.",
+      "interp": "냉장고에 <b>해당 치즈</b>가 있다면 유통기한을 확인하고 바로 버리세요.",
+      "source": "produktwarnung.eu",
+      "read": 2,
+      "url": "https://www.produktwarnung.eu/rubrik/produktrueckrufe-und-verbraucherwarnungen/lebensmittel",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "리스테리아균",
+          "explain": "냉장 온도에서도 증식 가능한 식중독균으로 임산부·고령자에게 위험할 수 있음"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "코스피 3%대 급락, 6700붕괴",
+      "desc": "코스피가 오늘 3%대 급락, 6700선 아래로 내려앉았습니다. 유가 100달러 돌파와 미 국채금리 5% 육박에 투자심리가 얼어붙었습니다. 환율도 1380원대로 올라섰습니다.",
+      "interp": "해외송금이나 환전 계획이 있다면 <b>환율 변동</b>을 며칠 지켜보고 결정하세요.",
+      "source": "파이낸셜뉴스",
+      "read": 3,
+      "url": "https://www.fnnews.com/news/202609140938468413",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "policy",
+      "head": "호르무즈 파병, 정부 검토중",
+      "desc": "국방부가 미국의 호르무즈 파병 요청을 국익 차원에서 검토 중이라고 밝혔습니다. 결정된 바는 없고 실제 파병하려면 국회 동의가 필요합니다. 국방부는 이미 현지에 조사팀을 보냈습니다.",
+      "interp": "당장 달라지는 것은 없지만 <b>중동 정세</b>가 유가와 안전에 영향을 줄 수 있어 계속 지켜봐야 합니다.",
+      "source": "아시아경제",
+      "read": 2,
+      "url": "https://view.asiae.co.kr/article/2026091016305641254",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "labor",
+      "head": "대한항공 조종사, 오늘 집회",
+      "desc": "대한항공 조종사노조가 오늘부터 20일까지 본사·인천공항서 집회를 엽니다. 아시아나 통합 후 서열 결정이 핵심 쟁점입니다. 조정 불발 시 10년 만에 합법 파업권을 확보합니다.",
+      "interp": "이달 안에 대한항공을 이용할 계획이라면 <b>운항 지연</b> 가능성을 염두에 두세요.",
+      "source": "뉴스토마토",
+      "read": 2,
+      "url": "https://www.newstomato.com/ReadNews.aspx?no=1312918",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "health",
+      "head": "재외국민 건강보험 자격 주의",
+      "desc": "재외국민은 출국 후 한 달 지나면 건강보험 자격이 자동 상실됩니다. 재가입하려면 재입국 후 6개월 체류해야 합니다. 지역가입자 최저보험료는 15만8630원, 3.8% 올랐습니다.",
+      "interp": "일시 귀국 중 병원 이용 계획이 있다면 <b>출국일 기준 한 달</b>을 꼭 따져보세요.",
+      "source": "국민건강보험공단",
+      "read": 2,
+      "url": "https://www.nhis.or.kr/lm/lmxsrv/law/lawDetail.do?SEQ=41&LAWGROUP=1",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "지역가입자",
+          "explain": "회사 등에 소속되지 않고 개인 자격으로 건강보험료를 내는 가입자"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "환율 1380원대, 송금 유의",
+      "desc": "원/달러 환율이 1380원대로 올라 한 달 만에 최고치입니다. 유가 급등과 미 금리 인상 우려로 원화 약세가 가팔라졌습니다. 학비·생활비를 원화로 받는 재외한인은 부담이 커집니다.",
+      "interp": "송금 시점을 조절할 수 있다면 <b>환율 추이</b>를 며칠 더 지켜본 뒤 결정하세요.",
+      "source": "Businesskorea",
+      "read": 2,
+      "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=276835",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "폴란드 국경서 열차 드론피격",
+      "desc": "러시아 드론이 폴란드 국경 2km 앞 우크라이나 철도를 공격, 열차가 피격됐습니다. 200여명이 탔으나 인명피해는 없었습니다. 폴란드 총리는 긴급회의를 열고 확전을 경고했습니다.",
+      "interp": "폴란드나 발트 인접국을 여행 중이라면 <b>국경 지역 이동</b> 시 현지 안내에 더 주의하세요.",
+      "source": "Euronews",
+      "read": 3,
+      "url": "https://www.euronews.com/my-europe/2026/09/13/russian-drone-hits-train-two-km-from-polish-border-rail-operator-says",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "invest",
+      "head": "유럽증시, 국채금리 급등 여파",
+      "desc": "독일 DAX, 프랑스 CAC지수가 국채금리 급등에 최저치로 떨어졌습니다. 프랑스 30년물 금리는 2003년 이후 최고치입니다. 유로존 물가도 에너지값 상승으로 오르고 있습니다.",
+      "interp": "유럽 주식이나 펀드에 투자 중이라면 <b>금리 민감 종목</b>의 변동성 확대에 유의하세요.",
+      "source": "Investing.com",
+      "read": 2,
+      "url": "https://kr.investing.com/news/stock-market-news/article-2081646",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "policy",
+      "head": "EU 탄소국경세, 10월31일 신고",
+      "desc": "EU 탄소국경조정제도에 따라 기업은 10월31일까지 신고서를 내야 합니다. 수입 철강·시멘트에 탄소배출 비용을 매기는 제도입니다. 무역업 재외한인 사업체도 대상이 될 수 있습니다.",
+      "interp": "관련 업종에 종사한다면 <b>신고 대상 여부</b>를 세무·통관 담당자와 미리 확인하세요.",
+      "source": "IHK Cottbus",
+      "read": 2,
+      "url": "https://www.ihk.de/cottbus/service-und-beratung/recht/was-sich-2026-aendert-6816444",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "탄소국경조정제도",
+          "explain": "EU 역외에서 수입되는 제품에 탄소배출 비용을 부과하는 무역 제도(CBAM)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "미국 국채금리 5%육박, 증시↓",
+      "desc": "미 10년물 국채금리가 4.95%로 2년여 만에 최고치입니다. 30년물도 5.36%로 2004년 이후 최고치입니다. 유가·인플레 우려에 뉴욕증시도 나흘째 하락했습니다.",
+      "interp": "미국 자산에 투자 중이라면 <b>이번 주 금리 발표</b>까지 변동성을 감안하세요.",
+      "source": "국민일보",
+      "read": 3,
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000011120",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "영주권 심사 강화, 9월18일",
+      "desc": "미국의 강화된 공적부조 심사가 9월18일부터 새 영주권 신청에 적용됩니다. 가족초청·취업·투자이민 신청자 대부분이 대상입니다. 제출일이 9월18일 이후면 새 기준이 적용됩니다.",
+      "interp": "I-485 영주권 신청을 준비 중이라면 <b>9월18일 이전 제출</b> 가능 여부부터 확인하세요.",
+      "source": "iminlawyer.com",
+      "read": 2,
+      "url": "https://www.iminlawyer.com/board/news_insights/54",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "공적부조 심사",
+          "explain": "정부 지원에 의존할 가능성을 이유로 영주권 발급을 거부할 수 있는 심사 기준(Public Charge)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "H-1B 유예기간 폐지 추진",
+      "desc": "미 국토안보부가 H-1B 실직자의 60일 유예기간 폐지를 추진 중입니다. 새 H-1B엔 건당 10만3265달러 수수료안도 나왔습니다. 배우자 취업허가 폐지도 검토되고 있습니다.",
+      "interp": "H-1B로 근무 중이라면 <b>실직 시 대응 방안</b>을 미리 세워 두는 것이 안전합니다.",
+      "source": "콜로라도타임즈",
+      "read": 2,
+      "url": "https://www.coloradotimesnews.com/%EC%9D%B4%EB%AF%BC-%ED%8A%B8%EB%9F%BC%ED%94%84-%ED%96%89%EC%A0%95%EB%B6%80-h-1b-%ED%95%B4%EA%B3%A0-%EB%92%A4-60%EC%9D%BC-%EC%B2%B4%EB%A5%98-%EC%9C%A0%EC%98%88%EA%B8%B0%EA%B0%84/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "유예기간",
+          "explain": "비자 신분을 잃은 뒤에도 일정 기간 합법 체류를 인정해주는 기간"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "영주권 문호, 큰 폭 진전",
+      "desc": "9월 미국 영주권 문호가 여러 카테고리에서 크게 앞당겨졌습니다. 성년 미혼자녀 가족이민 1순위 우선일자가 1년1개월 넘게 진전됐습니다. 일부 항목은 최대 2년 넘게 당겨졌습니다.",
+      "interp": "가족초청 이민을 신청해 두었다면 <b>이번 달 문호표</b>에서 본인 순위를 확인해 보세요.",
+      "source": "koreanoregon.com",
+      "read": 2,
+      "url": "https://www.koreanoregon.com/blog/%EC%9D%B4%EB%AF%BC%EB%B2%95-2026%EB%85%84-9%EC%9B%94-%EC%98%81%EC%A3%BC%EA%B6%8C-%EB%AC%B8%ED%98%B8-%EA%B0%80%EC%A1%B1-%EC%B4%88%EC%B2%AD%EC%9D%98-%EC%A7%84%EC%A0%84/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "영주권 문호",
+          "explain": "매달 미국 국무부가 발표하는 이민비자 우선순위 처리 기준표(Visa Bulletin)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "호르무즈 회담 연기, 유가급등",
+      "desc": "이란·걸프국의 호르무즈 항로 협상이 이견 조율로 연기됐습니다. 바레인·사우디 불참으로 유가가 다시 105달러를 넘었습니다. 이란 등 10개국 여행금지는 내년 1월까지 유지됩니다.",
+      "interp": "이란 등 여행금지 국가는 <b>방문 계획을 세우지 마시고</b>, 인근 정세도 수시로 확인하세요.",
+      "source": "머니투데이",
+      "read": 3,
+      "url": "https://www.mt.co.kr/world/2026/09/14/2026091405482898061",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "인니 여객선 전복, 다수실종",
+      "desc": "인도네시아 자바해서 240여명 탄 여객선이 풍랑에 전복됐습니다. 현재 6명이 숨지고 130명 넘게 실종돼 구조가 이어지고 있습니다. 기상 악화 속 출항이 사고 원인으로 지목됩니다.",
+      "interp": "동남아 도서 지역 여행 중이라면 <b>선박 이용 전 기상특보</b>를 꼭 확인하세요.",
+      "source": "뉴시스",
+      "read": 2,
+      "url": "https://www.newsis.com/view/NISX20260913_0003787545",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "중국 무비자, 12월까지 연장",
+      "desc": "한국 여권 소지자용 중국 무비자 입국이 2026년 12월까지 연장됐습니다. 관광·사업 목적이면 최대 30일 비자 없이 머뭅니다. 종료 예정이던 조치가 수요 확대로 재연장됐습니다.",
+      "interp": "12월 이전 중국 방문을 계획한다면 <b>별도 비자 신청 없이</b> 여권만 유효하면 됩니다.",
+      "source": "오토카뉴스",
+      "read": 2,
+      "url": "https://v.daum.net/v/QOnThRe46p?f=p",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
