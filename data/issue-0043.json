@@ -1,0 +1,602 @@
+{
+  "number": 43,
+  "date": "2026-09-15",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "독일 조직범죄 보고서 발표",
+      "desc": "연방범죄수사청이 오늘 조직범죄 보고서를 냈습니다. 대도시에서 폭력 성향이 늘고 게임·메신저로 미성년자를 끌어들인 사례가 확인됐습니다. 피해액 절반은 사이버범죄였습니다.",
+      "interp": "자녀가 있다면 온라인 게임이나 메신저에서 낯선 사람이 접근하지 않는지 이번 기회에 한 번 들여다봐 주시면 좋습니다.",
+      "source": "news.de",
+      "read": 3,
+      "url": "https://www.news.de/panorama/859993034/lagebild-organisierte-kriminalitaet-was-sagt-die-polizei-kriminalitaet-news-der-dpa-aktuell-zu-drogen/1/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "health",
+      "head": "독감 백신, 10월부터 접종을",
+      "desc": "독일 예방접종위원회가 10월~12월 독감 백신 접종을 권고했습니다. 세계보건기구 권고에 따라 올해 균주 구성이 전면 교체됐습니다. 고령자·임산부는 보험이 비용을 전액 부담합니다.",
+      "interp": "위 대상에 해당한다면 10월 말에서 11월 중으로 주치의에게 미리 연락해 접종 예약을 잡아 두시길 권해 드립니다.",
+      "source": "RKI",
+      "read": 2,
+      "url": "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Influenza/FAQ_Liste_Impfempfehlung.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "education",
+      "head": "가을방학, 10월5일부터 순차 시작",
+      "desc": "독일 가을방학이 10월5일부터 11월6일까지 지역마다 다르게 진행됩니다. 헤센 등은 10월5일, 바이에른은 11월2일에 시작합니다. 16개 주가 동시에 쉬는 날은 없습니다.",
+      "interp": "자녀가 다니는 학교가 속한 주의 정확한 방학 날짜를 지금 확인해서 여행과 돌봄 계획을 여유 있게 세워 두세요.",
+      "source": "schulferien.org",
+      "read": 2,
+      "url": "https://www.schulferien.org/deutschland/ferien/herbst/2026/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "PFAS 함유 제품, 10월10일 판매금지",
+      "desc": "10월10일부터 PFAS를 포함한 일부 섬유·가죽제품·식품포장재·화장품 판매가 금지됩니다. 발수 아웃도어 의류나 코팅 프라이팬 등이 대상입니다. 기존 재고는 소진까지 판매됩니다.",
+      "interp": "아웃도어 의류나 조리기구를 새로 구입할 때는 포장에 적힌 PFAS 미포함 표시를 확인해 보시면 됩니다.",
+      "source": "IHK Rhein-Neckar",
+      "read": 2,
+      "url": "https://www.ihk.de/rhein-neckar/innovation/umweltberatung/umwelt-news/pfas-beschraenkungsvorschlag-5755210",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "PFAS",
+          "explain": "자연분해가 거의 안 되는 과불화화합물, 이른바 '영원한 화학물질'"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "policy",
+      "head": "코메르츠방크 인수, 조건부 협상",
+      "desc": "재무장관 클링바일이 유니크레딧의 코메르츠방크 인수에 상장 유지, 프랑크푸르트 본사, 중소기업 대출 지속을 조건으로 걸었습니다. 정부는 이사회 의석 2석도 요구했습니다.",
+      "interp": "코메르츠방크와 거래하는 중소기업이라면 이번 협상 결과에 따라 달라질 대출 조건 변화를 지켜보시면 좋습니다.",
+      "source": "Abendzeitung München",
+      "read": 2,
+      "url": "https://www.abendzeitung-muenchen.de/mehr/geld/klingbeil-pocht-auf-bedingungen-fuer-commerzbank-uebernahme-art-1158424",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "코스피 6700선 아래, 환율은 하락",
+      "desc": "코스피가 반도체주 급락 여파로 사흘째 밀리며 6700선 아래에 머물렀습니다. 미국 국채금리는 5%를 넘어섰습니다. 원달러 환율은 1347원대로 소폭 내렸습니다.",
+      "interp": "송금이나 환전 계획이 있다면 요즘처럼 변동폭이 큰 시기엔 여러 날에 나눠 진행해 보시는 것도 방법입니다.",
+      "source": "뉴시스",
+      "read": 3,
+      "url": "https://www.newsis.com/view/NISX20260915_0003789580",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "pension",
+      "head": "해외서도 국민연금 청구 가능해져",
+      "desc": "국민연금공단과 재외동포청이 재외동포 인증시스템을 연금 서비스와 연동하는 협약을 맺었습니다. 국내 인증수단이 없던 재외동포도 이제 해외에서 연금 청구와 수급권 확인이 가능해집니다.",
+      "interp": "연금 수급을 앞두고 있다면 재외동포 인증서 발급 방법을 미리 알아보시면 절차가 한결 수월해집니다.",
+      "source": "데일리안",
+      "read": 2,
+      "url": "https://www.dailian.co.kr/news/view/1642103/%ED%95%B4%EC%99%B8%EC%84%9C%EB%8F%84-%EA%B5%AD%EB%AF%BC%EC%97%B0%EA%B8%88-%EC%B2%AD%EA%B5%AC-%EA%B0%80%EB%8A%A5%EC%9E%AC%EC%99%B8%EB%8F%99%ED%8F%AC-2026",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "재외동포 인증서",
+          "explain": "국내 휴대전화 없이 해외에서 정부 서비스에 본인인증하는 수단"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "welfare",
+      "head": "기초연금에 국내거주 요건 검토",
+      "desc": "정부가 기초연금 지급에 국내 최소 거주기간 요건을 두는 방안을 검토하라고 지시했습니다. 아직 검토 단계이며 시행엔 국회 입법이 필요합니다. 해외 장기거주자에 영향줄 사안입니다.",
+      "interp": "확정된 사안은 아니지만 기초연금 대상자라면 앞으로 국회 논의 상황을 틈틈이 확인해 두시면 좋습니다.",
+      "source": "아시아경제",
+      "read": 2,
+      "url": "https://view.asiae.co.kr/article/2026090316191423766",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "health",
+      "head": "독감 유행주의보, 예년보다 조기 발령",
+      "desc": "한국에서 독감 유행주의보가 예년보다 이르게 발령됐습니다. 이에 따라 어린이 예방접종 권장 시기도 9월21일로 앞당겨졌습니다. 자녀와 한국을 방문할 계획이라면 참고할 소식입니다.",
+      "interp": "귀국이나 방문을 앞두고 있다면 자녀 예방접종 일정을 국내 병원 일정에 맞춰 미리 조율해 보시면 좋습니다.",
+      "source": "아주경제",
+      "read": 2,
+      "url": "https://www.ajunews.com/view/20260914090109181",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "education",
+      "head": "재외국민 특례입학, 서류심사 강화",
+      "desc": "2026학년도 재외국민 특별전형에서 출입국사실증명서 등 제출서류 검증이 엄격해졌습니다. 일부 대학은 9월 후기 입학도 새로 허용해 지원 선택지가 넓어졌습니다.",
+      "interp": "수시 지원을 준비 중이라면 지원하려는 대학별 제출서류 목록을 지금 미리 꼼꼼히 챙겨 두세요.",
+      "source": "에듀코리아뉴스",
+      "read": 2,
+      "url": "https://edukorea.news/archives/13989",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "나토, 리투아니아서 드론 격추",
+      "desc": "벨라루스에서 넘어온 드론을 나토 소속 전투기가 리투아니아 영공에서 격추했습니다. 발트 지역 영공에서 드론이 격추된 것은 이번이 처음입니다. 라트비아도 국경 영공을 폐쇄했습니다.",
+      "interp": "발트 지역에 거주 중이시라면 당국이 내는 안전 공지를 요즘엔 조금 더 자주 확인해 두시면 좋겠습니다. 국경 인근 이동은 특히 주의하세요.",
+      "source": "t-online.de",
+      "read": 3,
+      "url": "https://www.t-online.de/nachrichten/ukraine/id_101435468/ukraine-krieg-nato-kampfjets-schiessen-drohne-ueber-litauen-ab.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "invest",
+      "head": "ESMA, 투자자 낙관론에 경고",
+      "desc": "유럽증권시장감독청이 지정학적 위험에 비해 투자자 낙관론이 과도하다고 경고했습니다. 중동 갈등 이후 급락했던 주가가 이미 이전 수준을 넘어섰다고 지적하며 조정 가능성을 언급했습니다.",
+      "interp": "유럽 주식이나 펀드에 투자 중이시라면 이번 경고를 참고해 자산 배분과 현금 비중을 함께 점검해 보시면 좋습니다.",
+      "source": "ESMA",
+      "read": 2,
+      "url": "https://www.esma.europa.eu/sites/default/files/2026-09/ESMA71-545613100-2999_Ongoing_geopolitical_and_economic_vulnerabilities_masked_by_strong_investor_optimism_-_Press_release.pdf",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "ESMA",
+          "explain": "EU 회원국 증권시장을 감독하는 유럽증권시장감독청"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "travel",
+      "head": "솅겐 국경검문, 다수국 연장",
+      "desc": "독일·프랑스·이탈리아 등 8개 솅겐국이 국경 검문을 9월 이후까지 연장했습니다. 독일은 이달 중순까지였던 검문을 다시 늘릴 예정입니다. 밀입국과 테러 우려가 이유로 제시됐습니다.",
+      "interp": "육로로 국경을 넘을 계획이 있다면 여권을 반드시 챙기시고 검문으로 인한 지연 시간도 넉넉히 감안해 두시면 좋습니다.",
+      "source": "InfoMigrants",
+      "read": 2,
+      "url": "https://www.infomigrants.net/en/post/69883/germany-to-extend-border-checks-by-six-months",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "솅겐 국경검문",
+          "explain": "국경 없이 이동하는 솅겐조약의 예외로 일부 국가가 임시로 시행하는 신분 확인 절차"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "AI 대기업들, 개발속도 조절 합의",
+      "desc": "앤스로픽 CEO 아모데이가 AI 개발 속도를 늦추자고 제안했고 오픈AI 알트먼과 머스크가 동의했습니다. 위험한 자기개선 능력엔 국제적 한도를 두자는 구상도 나왔습니다.",
+      "interp": "당장 생활에 영향은 없지만 이런 AI 안전 논쟁이 실제 규제로 이어질지 한번 지켜보시면 좋겠습니다.",
+      "source": "Washington Post",
+      "read": 3,
+      "url": "https://www.washingtonpost.com/technology/2026/09/12/anthropic-ceo-dario-amodei-calls-ai-industry-slow-down/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "반도체주 급락, 국채금리 5%",
+      "desc": "미국 10년물 국채금리가 2023년 이후 처음 5%를 넘으며 뉴욕증시가 흔들렸습니다. 필라델피아 반도체지수는 하루 만에 5.9% 급락했습니다. 엔비디아·인텔도 함께 떨어졌습니다.",
+      "interp": "보유하신 반도체 종목 비중이 크시다면 당분간 변동성에 대비해 분할 매매를 고려해 보시면 좋습니다.",
+      "source": "Bloomberg",
+      "read": 2,
+      "url": "https://www.bloomberg.com/news/articles/2026-09-14/asian-stocks-to-fall-on-ai-key-us-yield-tops-5-markets-wrap",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "H-1B·L-1 연장에도 수수료 신설",
+      "desc": "9월9일부터 H-1B는 4천달러, L-1은 4천500달러의 생체인식 수수료가 동일 고용주 연장 신청에도 부과됩니다. 기존엔 최초 신청이나 고용주 변경 때만 적용됐습니다.",
+      "interp": "연장을 앞둔 H-1B나 L-1 근로자시라면 회사와 추가 비용 부담 여부를 미리 확인해 두시길 바랍니다.",
+      "source": "National Law Review",
+      "read": 2,
+      "url": "https://natlawreview.com/article/dhs-expands-biometric-fee-requirement-certain-h-1b-l-1-extensions-starting-sept",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "생체인식 수수료",
+          "explain": "지문 등 생체정보 수집 비용 명목으로 부과되는 미국 이민 수속 수수료"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "tax",
+      "head": "FBAR 신고, 10월15일까지 자동연장",
+      "desc": "해외금융계좌를 보유한 미국 납세자의 FBAR 신고 기한이 10월15일까지 자동 연장됩니다. 별도 신청 없이도 4월15일 기한이 6개월 늦춰지며, 그 이후엔 추가 연장이 없습니다.",
+      "interp": "한국 계좌 잔액 합계가 신고 기준을 넘으신다면 10월15일 전까지 잊지 말고 신고를 마쳐 두세요.",
+      "source": "SDO CPA",
+      "read": 2,
+      "url": "https://www.sdocpa.com/fbar-deadline/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "FBAR",
+          "explain": "해외금융계좌 잔액이 1만달러를 넘는 미국 납세자가 매년 신고해야 하는 미국 재무부 보고서"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "에트나 화산분화, 카타니아공항 마비",
+      "desc": "이탈리아 시칠리아 에트나 화산이 분화하며 화산재로 카타니아공항 운항이 중단됐습니다. 항공안전 경보가 주황에서 적색으로 격상됐습니다. 도착편은 팔레르모공항으로 우회했습니다.",
+      "interp": "시칠리아를 경유하거나 방문할 계획이시라면 출발 전 항공사 운항 상태를 꼭 확인해 보시면 좋습니다.",
+      "source": "Bloomberg",
+      "read": 2,
+      "url": "https://www.bloomberg.com/news/articles/2026-09-14/catania-airport-suspends-arrivals-due-to-volcanic-activity",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "특별여행주의보 4개국 해제",
+      "desc": "외교부가 태국·튀르키예·아제르바이잔·에티오피아 일부 지역의 특별여행주의보를 해제하고 낮은 단계로 낮췄습니다. 러시아·중국 등 12개국 일부 지역은 그대로 연장됐습니다.",
+      "interp": "해당 국가로 여행이나 출장을 계획 중이시라면 해외안전여행 사이트에서 최신 단계를 확인해 두세요.",
+      "source": "재외동포신문",
+      "read": 2,
+      "url": "https://www.dongponews.net/news/articleView.html?idxno=60352",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "특별여행주의보",
+          "explain": "일반 여행경보보다 강한 단계로, 발령 지역에선 신변안전에 특별히 유의해야 함"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "life",
+      "head": "한인 노린 보이스피싱, 123억 피해",
+      "desc": "미국·캐나다 한인 15명이 영사관과 검사를 사칭한 보이스피싱에 속아 총 123억원을 빼앗겼습니다. 마약 연루를 언급해 겁을 준 뒤 상품권으로 돈을 세탁하는 수법이 확인됐습니다.",
+      "interp": "영사관이나 검찰을 사칭한 전화를 받으면 바로 끊으시고 실제 기관에 직접 확인해 보시길 바랍니다.",
+      "source": "미주중앙일보",
+      "read": 2,
+      "url": "https://www.koreadaily.com/article/20260814172526824",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
