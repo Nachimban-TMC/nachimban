@@ -1,0 +1,495 @@
+{
+  "number": 44,
+  "date": "2026-09-16",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "코메르츠방크 인수전, 정부 개입",
+      "desc": "유니크레디트가 코메르츠방크 지분을 늘려 인수를 추진 중입니다. 독일 정부는 15일 본사를 프랑크푸르트에 유지하라 요구했습니다. 독일 2위 은행의 향방은 일자리와 직결됩니다.",
+      "interp": "은행 통합이 성사되면 지점 통폐합과 인력 조정이 뒤따를 수 있습니다. <b>코메르츠방크</b> 계좌 이용자는 앞으로 안내를 눈여겨보시기 바랍니다.",
+      "source": "네이트 뉴스",
+      "read": 3,
+      "url": "https://m.news.nate.com/view/20260915n31764",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "유니크레디트",
+          "explain": "이탈리아 최대 은행 중 하나로 유럽 은행권 통합을 주도하는 금융그룹"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "EU 보증 라벨, 9월27일 시행",
+      "desc": "유럽연합이 27일부터 전자제품에 새 보증 라벨을 통일 시행합니다. 구매 후 최소 2년간 무상 수리·교환을 보장한다는 표시입니다. 판매자 보증과 무관하게 소비자에게 자동 적용됩니다.",
+      "interp": "가전제품을 살 때 이 라벨이 붙어 있는지 확인하면 좋습니다. 문제가 생기면 <b>2년 무상 보증</b>을 근거로 수리·교환을 요구할 수 있습니다.",
+      "source": "smartsteuer",
+      "read": 3,
+      "url": "https://www.smartsteuer.de/online/blog/das-aendert-sich-im-september-2026-neuigkeiten-gesetze-steuern/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "보증 라벨",
+          "explain": "구매 시 법정 보증 기간을 소비자에게 알리는 유럽연합 공통 표시"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "tax",
+      "head": "임금세도움협회, 소득상한 폐지",
+      "desc": "9월1일부터 임금세도움협회의 소득 종류 제한이 사라졌습니다. 임대·이자 부수입이 있어도 가입만 하면 상담받을 수 있습니다. 세무사보다 저렴하게 세금 신고를 돕는 단체입니다.",
+      "interp": "부업이나 임대 수입이 있어 가입을 못 했던 분도 이제 <b>임금세도움협회</b>를 이용할 수 있습니다. 회비만 내면 세금 신고 상담이 가능합니다.",
+      "source": "smartsteuer",
+      "read": 3,
+      "url": "https://www.smartsteuer.de/online/blog/das-aendert-sich-im-september-2026-neuigkeiten-gesetze-steuern/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "임금세도움협회",
+          "explain": "회원제로 저렴하게 소득세 신고를 도와주는 독일의 비영리 단체"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "독일 한인 겨냥 보이스피싱 경보",
+      "desc": "독일 거주 한인 상대 영사관·검찰 사칭 보이스피싱이 이어지고 있습니다. 마약 연루, 계좌 범죄, 여권 제재를 언급해 송금을 유도합니다. 총영사관 경고에도 실제 피해가 발생했습니다.",
+      "interp": "정부 기관은 전화나 문자로 송금이나 개인정보를 절대 요구하지 않습니다. 수상한 연락을 받으면 <b>영사콜센터</b>로 직접 확인하시기 바랍니다.",
+      "source": "구텐탁 코리아",
+      "read": 3,
+      "url": "https://gutentagkorea.com/archives/101248",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "policy",
+      "head": "독일·미국 국방협력 확대",
+      "desc": "피스토리우스 독일 국방장관이 워싱턴서 미국과 방산 협력 의향서에 서명했습니다. F-35와 패트리엇 미사일의 독일 내 생산이 논의됐습니다. 양국이 방위산업 기반을 긴밀히 조율합니다.",
+      "interp": "이번 협력은 양국 군사·경제 관계에 장기 영향을 줄 사안입니다. 독일 방산업계 종사자는 <b>일자리</b> 변화를 지켜볼 필요가 있습니다.",
+      "source": "Werra Rundschau",
+      "read": 3,
+      "url": "https://www.werra-rundschau.de/politik/pistorius-in-den-usa-bundeswehr-muss-auf-tomahawk-raketen-warten-zr-94494120.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "서울 버스 파업 철회, 정상운행",
+      "desc": "서울 시내버스 노사가 16일 새벽 임금 3.2% 인상에 전격 합의했습니다. 노조는 예고한 첫차 파업을 철회했습니다. 서울에 계시다면 평소대로 버스를 이용하실 수 있습니다.",
+      "interp": "파업이 철회돼 대중교통이 오늘도 평소처럼 정상 운행됩니다. <b>등하교나 출퇴근길</b> 일정을 따로 바꾸실 필요는 없습니다.",
+      "source": "서울신문",
+      "read": 3,
+      "url": "https://www.seoul.co.kr/news/society/2026/09/16/20260916500002",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "invest",
+      "head": "미 국채금리 급등, 코스피 부담",
+      "desc": "미국 10년물 국채금리가 5%에 육박해 2007년 이후 최고치입니다. 연준 금리 인상 전망에 국내 증시도 부담을 받고 있습니다. 외국인 자금의 신흥국 이탈 우려도 커졌습니다.",
+      "interp": "해외 주식이나 펀드에 투자 중이라면 변동성 확대에 대비하시기 바랍니다. <b>국채금리</b> 추이를 당분간 주시할 필요가 있습니다.",
+      "source": "ZDNet Korea",
+      "read": 3,
+      "url": "https://zdnet.co.kr/view/?no=20260915081802",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "국채금리",
+          "explain": "정부가 발행한 채권의 시장 이자율로, 대출·예금 금리에도 영향을 주는 지표"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "환율 1365원대, 미 금리결정 촉각",
+      "desc": "16일 원달러 환율이 1365원대로 전날보다 소폭 올랐습니다. 미국이 이날 밤 기준금리를 발표해 시장이 관망 중입니다. 금리가 인상되면 달러 강세로 환율이 더 오를 수 있습니다.",
+      "interp": "송금이나 환전 계획이 있다면 발표 이후 환율 흐름을 확인하시기 바랍니다. <b>환율</b>이 오르면 해외 송금 비용도 늘어납니다.",
+      "source": "Investing.com",
+      "read": 3,
+      "url": "https://kr.investing.com/currencies/usd-krw",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "에티아스 도입, 2027년 재연기",
+      "desc": "유럽연합의 입국심사 시스템 에티아스 도입이 2027년으로 다시 미뤄졌습니다. 개발기관은 연내 출범이 사실상 불가능하다고 인정했습니다. 정확한 새 시행일은 아직 확정되지 않았습니다.",
+      "interp": "비자 없이 유럽을 방문하던 분은 당분간 <b>에티아스</b> 없이 입국할 수 있습니다. 정확한 시행일은 확정되는 대로 다시 안내해 드리겠습니다.",
+      "source": "Afar",
+      "read": 3,
+      "url": "https://www.afar.com/magazine/europe-delays-etias-travel-authorization-until-2027",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "에티아스",
+          "explain": "비자 면제 국가 국민이 유럽 입국 전 온라인으로 받아야 하는 여행 허가 제도"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "invest",
+      "head": "미카 규제 틈탄 가상자산 사기",
+      "desc": "유럽증권시장감독청이 미카 전환기를 틈탄 사기가 는다고 경보했습니다. 규제 승인을 내세워 가짜 플랫폼으로 투자자를 유인합니다. 미카 유예 조치가 7월1일 끝나며 혼란이 커졌습니다.",
+      "interp": "가상자산에 투자 중이라면 감독기관을 사칭한 연락은 의심하시기 바랍니다. <b>미카</b> 인가 여부는 공식 웹사이트에서 직접 확인해야 합니다.",
+      "source": "Coin Turk",
+      "read": 3,
+      "url": "https://en.coin-turk.com/esma-warns-of-mica-scam-surge-as-fraudsters-impersonate-eu-crypto-regulators/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "미카",
+          "explain": "유럽연합의 가상자산 시장 통합 규제법으로 정식 명칭은 MiCA"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "policy",
+      "head": "폴란드·독일 국경서 밀입국 34명",
+      "desc": "폴란드 국경수비대가 냉장 화물트럭서 밀입국자 34명을 발견했습니다. 냉동칸 특수 벽 뒤에 숨어 독일 방면으로 이동 중이었습니다. 라트비아 보호신청 서류를 소지하고 있었습니다.",
+      "interp": "국경 검문 강화로 폴란드·독일 구간 통행이 지연될 수 있습니다. 이 구간을 지나실 계획이라면 <b>시간</b>을 넉넉히 잡으시기 바랍니다.",
+      "source": "Tagesspiegel",
+      "read": 3,
+      "url": "https://www.tagesspiegel.de/internationales/dpa-polen-stoppt-transporter-mit-34-migranten-an-bord-16056468.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "미 기준금리 오늘 발표, 인상 유력",
+      "desc": "미국 연준이 16일 회의를 마치고 기준금리를 발표합니다. 시장은 0.25%p 인상, 2023년 이후 첫 인상을 90%대로 봅니다. 인상 시 금리는 연 3.75~4.00%가 됩니다.",
+      "interp": "대출이나 예금 금리에 영향을 줄 수 있는 결정입니다. <b>변동금리 주택담보대출</b>을 이용 중이라면 결과를 확인하시기 바랍니다.",
+      "source": "Yahoo Finance",
+      "read": 3,
+      "url": "https://finance.yahoo.com/economy/policy/articles/chances-first-fed-rate-hike-150301317.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "연준",
+          "explain": "미국의 중앙은행 역할을 하는 연방준비제도"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "마이애미 화물기 추락 여파 지속",
+      "desc": "지난 6일 마이애미공항서 아마존 화물기가 활주로를 이탈, 5명이 숨졌습니다. 착륙 속도가 과했다는 조종사 경고가 확인됐습니다. 아마존은 14일 해당 항공사와 계약을 중단했습니다.",
+      "interp": "해당 항공사를 이용한 화물·배송 일정이 지연될 수 있습니다. 급한 화물이 있다면 <b>배송 지연</b> 가능성을 미리 확인하시기 바랍니다.",
+      "source": "NPR",
+      "read": 3,
+      "url": "https://www.npr.org/2026/09/14/g-s1-143138/amazon-suspends-21-air-cargo-carrier",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "미 국채금리 5% 육박, 증시 흔들",
+      "desc": "미국 10년물 국채금리가 5.01%까지 올라 2007년 이후 최고 수준입니다. 성장주 중심 매물에 뉴욕증시가 흔들리고 있습니다. 금리 발표를 앞두고 투자심리가 위축됐습니다.",
+      "interp": "주식이나 펀드에 투자 중이라면 단기 변동성 확대에 대비하시기 바랍니다. <b>국채금리</b> 상승은 성장주에 특히 부담으로 작용합니다.",
+      "source": "ZDNet Korea",
+      "read": 3,
+      "url": "https://zdnet.co.kr/view/?no=20260915081802",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "보이스피싱 국제공조 연맹 출범",
+      "desc": "46개국이 참여하는 국제 사기 대응 연맹이 10일 출범했습니다. 캄보디아 거점 조직이 재외한인 15명에게 123억원을 가로챈 사건이 배경입니다. 각국이 수사정보를 공유합니다.",
+      "interp": "어느 나라에 거주하든 정부·영사관을 사칭한 연락은 일단 의심하시기 바랍니다. 송금을 요구받으면 <b>영사콜센터</b>로 사실 여부를 확인하세요.",
+      "source": "아시아투데이",
+      "read": 3,
+      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260911010004564",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "태국 등 4개국 여행주의보 해제",
+      "desc": "외교부가 태국·튀르키예·아제르바이잔·에티오피아 일부 지역의 특별여행주의보를 해제했습니다. 태국은 캄보디아 접경 7개주가 여행유의로 낮아졌습니다. 다른 나라 주의보는 연장됐습니다.",
+      "interp": "여행경보가 낮아진 지역도 출발 전 최신 정보를 다시 확인하시기 바랍니다. <b>해외안전여행</b> 사이트에서 지역별 단계를 확인할 수 있습니다.",
+      "source": "재외동포신문",
+      "read": 3,
+      "url": "https://www.dongponews.net/news/articleView.html?idxno=60352",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "특별여행주의보",
+          "explain": "여행경보 4단계 체계와 별도로, 긴급한 위험이 발생했을 때 상향 발령하는 조치"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
