@@ -98,6 +98,8 @@ _MARKET = re.compile(r"코스피|코스닥|환율|증시|뉴욕증시|다우|나
 _SPORTS = re.compile(r"우승|결승|리그|월드컵|올림픽|US오픈|그랜드슬램|국가대표|감독 선임")
 _INCIDENT = re.compile(r"전복|추락|사망|실종|화재|총격|흉기|살해|체포|구속|송치|뇌물|폭발|붕괴 사고")
 _FEUD = re.compile(r"사퇴|후보자|청문회|원내대표|탄핵|공천|대정부질문|개헌")
+# 반복 게재를 허용하는 주제 — 시즌 내내 독자에게 필요한 정보(2026-09-16 상돈님: 독감은 넣어도 됨)
+_REPEAT_OK = re.compile(r"독감|인플루엔자|Grippe")
 _PRACTICAL = {"life", "health", "housing", "travel", "tax", "welfare", "labor",
               "education", "study", "visa", "immigration", "pension", "citizenship"}
 
@@ -141,6 +143,8 @@ def review(items: list, past: list) -> tuple[list, list]:
     # 2) 재탕 · 연속 게재 — 최근 10개 호와 비교
     for it in items:
         tag = "[%s] %s" % (it.get("region"), it.get("head"))
+        if _REPEAT_OK.search(it.get("head", "")):
+            continue
         best = None
         for iss in past:
             for old in iss["published"]:
@@ -217,7 +221,8 @@ def print_recent(issues: dict) -> None:
         for it in iss["published"]:
             print("  [%s] %s" % (it["region"], it["head"]))
     # 이미 두 개 호 이상 실린 주제 — 오늘 새 진전이 없으면 싣지 않는다
-    items = [(iss["number"], it) for iss in past[-SERIES_WINDOW:] for it in iss["published"]]
+    items = [(iss["number"], it) for iss in past[-SERIES_WINDOW:] for it in iss["published"]
+             if not _REPEAT_OK.search(it["head"])]
     groups: list[list] = []
     for num, it in items:
         for g in groups:
