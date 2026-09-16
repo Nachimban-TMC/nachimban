@@ -110,20 +110,19 @@ def main() -> int:
         if leftover:
             _log(f"⚠️ 매핑에 없는 한자 잔존 {len(leftover)}건: {leftover[:3]}")
 
-        # 같은 사안이 3개 호 이상 이어지면 로그로 알린다(발행은 막지 않는다).
+        # 발행 세션이 저장 전에 같은 점검을 돌렸어야 한다. 여기서는 새어나온 것을
+        # 기록만 한다(발행은 막지 않는다 — 오탐 하나로 결호가 나는 게 더 나쁘다).
         try:
-            import glob as _glob
-            past = []
-            for f in sorted(_glob.glob(os.path.join(REPO, "data", "issue-*.json")))[-3:]:
-                pd = json.load(open(f, encoding="utf-8"))
-                past.append((pd["number"], pd["date"], [x["head"] for x in pd["published"]]))
-            reps = sanitize.find_repeats(raw_items, past)
-            for r in reps:
-                _log("⚠️ 중복 의심: '%s' — 최근 %d개 호에도 유사 항목" % (r["head"], len(r["seen_in"])))
-            if reps:
-                _log("   (같은 사안 연속 게재는 SKILL 상 2개 호까지입니다)")
+            from pipeline import draft_check
+            issues = draft_check.load_issues()
+            past = draft_check._past(issues, max(issues) + 1, draft_check.LOOKBACK)
+            errs, warns = draft_check.review(raw_items, past)
+            for m in errs:
+                _log("❌ 점검: " + m)
+            for m in warns:
+                _log("⚠️ 점검: " + m)
         except Exception as e:
-            _log(f"중복 검사 건너뜀: {type(e).__name__}: {e}")
+            _log(f"초안 점검 건너뜀: {type(e).__name__}: {e}")
 
         items = [NewsItem(**d) for d in raw_items]
         v = FactVerdict(verdict="PASS", confidence=0.95, sources_count=2)
