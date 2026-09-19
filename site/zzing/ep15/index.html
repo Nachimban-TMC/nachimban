@@ -1,7 +1,7 @@
 <!doctype html><html lang="ko"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex">
-<title>찡곰툰 업로드 · EP16</title>
+<title>찡곰툰 업로드 · EP15</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box;-webkit-font-smoothing:antialiased}
 :root{
@@ -40,7 +40,7 @@ button:active{opacity:.7}
 
 <div class="hd">
   <h1>찡곰툰 업로드</h1>
-  <div class="sub">EP16 · 다정하게 숨셔요 · 16컷 (4:5)</div>
+  <div class="sub">EP15 · 슉슉 타임을 가져요 · 12컷 (4:5)</div>
 </div>
 
 <h2>컷 이미지</h2>
@@ -55,40 +55,36 @@ button:active{opacity:.7}
 <div class="cap" id="tag"></div>
 <button onclick="cp(TAG,this)">해시태그 복사</button>
 
-<p class="tip">에피소드가 추가되면 이 페이지가 갱신됩니다. · <a href="./ep15/" style="color:inherit">EP15 보기</a> · <a href="./ep14/" style="color:inherit">EP14</a> · <a href="./ep13/" style="color:inherit">EP13</a></p>
+<p class="tip">에피소드가 추가되면 이 페이지가 갱신됩니다. · <a href="./ep14/" style="color:inherit">EP14 보기</a> · <a href="./ep13/" style="color:inherit">EP13</a></p>
 
 <script>
 var BASE="https://d8j0ntlcm91z4.cloudfront.net/user_3GECC5TtJ9AV8a30xaCCexmEilq/";
 var CUTS=[
- ["hf_20260918_115605_c152ff24-6474-43a7-8881-4323736570b7.png","제목"],
- ["hf_20260918_120043_a744ea73-d04e-4620-b3a3-6cc4e394d012.png","순둥순둥"],
- ["hf_20260918_120449_6a8251b8-9daf-4ec4-9ef3-bb6db5bca048.png","소노 중노 대노"],
- ["hf_20260918_120835_a4df9255-a7a9-4409-bf65-42c30bd48d21.png","뜬금없는 대노"],
- ["hf_20260918_122509_8713298c-aba5-43cc-a6ee-ed41e742691a.png","다정하게 말해"],
- ["hf_20260918_122731_60039fcd-0b05-4d99-b6bf-26365672ff48.png","다정하게 쳐다봐"],
- ["hf_20260918_124216_6aaad8ac-c0b2-4edc-b943-3b97cf09a7a4.png","다정하게 숨셔"],
- ["hf_20260918_124447_5f4b876e-4ac5-419b-b316-46e001fb31bb.png","T라서 이해는"],
- ["hf_20260918_125052_652f0b5d-efcb-4d51-a3ea-9ac76ba7bbd0.png","쒸익쒸익"],
- ["hf_20260918_164222_30ca4cea-520e-4efd-80d1-5d6f390fac71.png","이케아 입성"],
- ["hf_20260918_164458_e9475139-fb42-40df-be6b-88d44f1159bd.png","소노 발동"],
- ["hf_20260918_170146_b07648f1-241a-42fd-bde1-9cf829426afa.png","핫도그로 직행"],
- ["hf_20260918_180757_32b8ea97-ecf7-4eb9-97b7-3451ed4f8dd1.png","극대노"],
- ["hf_20260918_182253_4e42ff6d-9cda-4885-8395-d09c7edde56d.png","몸속 악마"],
- ["hf_20260918_184046_340cce05-a073-407e-91e1-a12e8f8961c7.png","퇴마"],
- ["hf_20260919_085950_409d9ab1-3ac4-4e75-be7a-a9bf554e315c.png","교훈"]
+ ["hf_20260909_133905_8a883f2c-e515-4d68-8867-c32b888e702e.png","제목"],
+ ["hf_20260909_134722_a90c1929-294c-46ba-9ed9-43eb11a908a6.png","톡톡"],
+ ["hf_20260909_154330_c8e2bc44-a20a-4cd3-9229-d4a0cc615828.png","슉슉 타임!"],
+ ["hf_20260909_155127_fb493553-4e2a-4b7c-9c0f-6c3fd9111872.png","슉슉 타임이란?"],
+ ["hf_20260909_160124_54cb38f9-62a6-46c9-8bb1-981565bd8943.png","잘 지냈어?"],
+ ["hf_20260909_160431_482f45f7-6c49-4ca6-884b-e0a298165a0a.png","할 말 떨어짐"],
+ ["hf_20260909_161800_e6a810ae-d6ee-48ed-a767-380d0a710891.png","압박 시작"],
+ ["hf_20260909_232450_ba058114-4c1f-4826-a50d-3986b87630ce.png","무슨 반찬"],
+ ["hf_20260909_233756_5ebbb3b2-2279-4bb3-a833-b4927614253b.png","진땀"],
+ ["hf_20260910_105203_7fb4ead6-81c2-4e20-ba8b-d6ecdfeabb23.png","꼭두각시"],
+ ["hf_20260910_120003_73432fef-3689-4f98-9378-9fbed2a77d81.png","혼 빠짐"],
+ ["hf_20260910_123133_f8e497a7-9083-4584-ae4a-5319c4c94af2.png","엔딩"]
 ];
 var g=document.getElementById('grid');
 CUTS.forEach(function(c,i){
   var n=String(i+1).padStart(2,'0');
   var a=document.createElement('a');
   a.href=BASE+c[0]; a.target="_blank"; a.rel="noopener";
-  a.setAttribute('download','EP16_'+n+'.png');
+  a.setAttribute('download','EP15_'+n+'.png');
   a.innerHTML='<span class="i">'+n+'</span><img src="'+BASE+c[0]+'" alt="'+c[1]+'" onerror="this.style.display=\'none\';this.parentNode.classList.add(\'fallback\');this.parentNode.insertAdjacentHTML(\'beforeend\',\'<span class=&quot;fb&quot;>'+c[1]+'<br>열기 →</span>\')">';
   g.appendChild(a);
 });
 
-var CAP="임신하고 나서 아내한테 새로 생긴 규칙이 있습니다 🫢\n\n원래는 아주 순한맛이었어요.\n고집은 부려도 늘 소노에서 끝나는 사람.\n\n그런데 임신 후엔 소노가 기본값이 되더니\n가끔 뜬금없는 데서 대노가 터집니다.\n\n\"다정하게 말해!\"\n\"다정하게 쳐다봐!\"\n\"다정하게 숨셔!\"\n\n...숨은 어떻게 다정하게 쉬는 걸까요 🤔\n\n다행히 T라서 설명하면 이해는 합니다.\n이해는... 근데 계속 쒸익쒸익거려요.\n\n지난주엔 이케아에서 사고가 났습니다.\n기분 좋게 들어갔다가 중간쯤 소노 발동,\n핫도그까지 가는 길이 너무 멀어서 극대노로 직행.\n몸속 악마와 싸우는 아내를 끌고 달렸습니다.\n\n핫도그 한 입에 퇴마 완료 🌭\n\n교훈: 이케아는 뭘 먹이고 들어가야 합니다.\n\n#임신툰 #부부툰 #이케아 #독일부부 #예비아빠";
-var TAG="#임신일기 #임신부부 #독일살이 #곰과물개 #donyfilm #손그림웹툰 #그림일기 #이케아핫도그";
+var CAP="저희 집엔 매일 저녁 열리는 행사가 있습니다 🎙️\n\n태동이 부쩍 활발해지면서, 저녁만 되면 아내가 외칩니다.\n\"슉슉 타임!\"\n\n아빠 목소리 태교라고, 그날 하루를 아기한테 말해주는 시간이에요.\n배에 대고 \"오늘 나는~\" 하고 시작하는데\n(아직 '아빠는'이라는 말이 어색합니다 😅)\n\n문제는 별일 없는 날입니다. 할 말이 3분이면 바닥나요.\n슬슬 마무리하려고 하면 그때부터 엄마의 압박이 시작됩니다.\n\n\"그래서어? 밥을 먹었는데에? 무슨 반찬을 먹었을까아?\"\n\"아...아...수육도 먹고 콩자반도 먹었지...\"\n\n그러다 진짜 할 말이 떨어지면\n저는 아내 말을 그대로 옮기는 꼭두각시가 됩니다 🎭\n\n그렇게 20분을 채워야 풀려나요.\n그리고 오늘 저녁에도 또 찾아옵니다.\n\n여러분도 태교 하시나요? 👀\n\n#임신툰 #태교 #부부툰 #독일부부 #예비아빠";
+var TAG="#임신일기 #태동 #아빠목소리태교 #곰과물개 #donyfilm #손그림웹툰 #그림일기 #독일살이";
 document.getElementById('cap').textContent=CAP;
 document.getElementById('tag').textContent=TAG;
 function cp(t,b){navigator.clipboard.writeText(t).then(function(){
