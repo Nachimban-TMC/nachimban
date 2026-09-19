@@ -1,0 +1,587 @@
+{
+  "number": 47,
+  "date": "2026-09-19",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "독일서 교회 테러 모의 적발",
+      "desc": "연방검찰이 브란덴부르크서 이라크인 24세 남성을 테러 혐의로 체포했습니다. IS를 추종하며 브레멘 교회 테러를 모의하고 총기까지 확보했습니다. 지난 8일 체포영장이 발부됐습니다.",
+      "interp": "<b>IS 추종 테러 모의</b>가 실제 무기 확보 단계까지 간 사례입니다. 독일 내 치안 경보 수준이 높아진 만큼 주변 상황에 유의하세요.",
+      "source": "타게스슈피겔",
+      "read": 3,
+      "url": "https://www.tagesspiegel.de/potsdam/brandenburg/dpa-berlin-brandenburg-anschlage-in-deutschland-geplant-festnahme-in-brandenburg-16066301.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "IS",
+          "explain": "이라크·시리아에서 세력을 키운 극단주의 무장조직"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "정부, 유류세 인하 잠정 합의",
+      "desc": "독일 연립정부가 유류세를 17센트 낮추는 할인에 잠정 합의했습니다. 25억 유로 규모로 연말까지 적용 후 가격상한제로 바뀝니다. 이란 사태로 치솟은 기름값에 대응한 조치입니다.",
+      "interp": "독일에서 차를 모는 분이라면 <b>유류세 인하</b> 시행 시점과 주유 타이밍을 챙겨보세요. 연말 전 급유가 유리할 수 있습니다.",
+      "source": "베를리너차이퉁",
+      "read": 3,
+      "url": "https://www.berliner-zeitung.de/article/bundesregierung-einigt-sich-auf-tankrabatt-und-spritpreisdeckel-10408026",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "대마 성분 진통제, 보험 적용",
+      "desc": "만성 요통 치료제 '엑실비'가 이달부터 건강보험 적용을 받습니다. 28ml 한 팩이 745유로, 하루 11~12유로입니다. 기존 대마 제제보다 훨씬 비싸다는 지적이 나옵니다.",
+      "interp": "만성 요통으로 고생해온 분이라면 <b>보험 적용 대마 진통제</b>를 주치의와 상담해보세요. 다만 가격 부담은 감안해야 합니다.",
+      "source": "아포테케아드혹",
+      "read": 2,
+      "url": "https://www.apotheke-adhoc.de/rubriken/detail/medizinisches-cannabis/exilby-das-kostet-das-neue-cannabis-medikament/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "labor",
+      "head": "미니잡 상한, 2027년 633유로로",
+      "desc": "미니잡 월 소득 상한이 2027년 1월부터 633유로로 오릅니다. 현재 603유로에서 30유로 늘어납니다. 최저임금이 시간당 14.60유로로 오르는 데 맞춘 인상입니다.",
+      "interp": "독일에서 미니잡으로 일한다면 <b>2027년 상한액 인상</b>에 맞춰 근무시간을 조정해보세요.",
+      "source": "gegen-hartz.de",
+      "read": 2,
+      "url": "https://www.gegen-hartz.de/news/neue-grenze-bei-minijobs-kommt-zum-1-januar-2027-viele-duerfen-dann-mehr",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "pension",
+      "head": "연금보험료율, 2027년도 유지",
+      "desc": "독일 연금보험료율이 2027년에도 18.6%로 유지될 전망입니다. 2028년엔 19.9%, 2029년부터 20%로 오를 전망입니다. 2027년 연금액은 4.4% 오를 전망입니다.",
+      "interp": "독일에서 연금을 붓고 있다면 <b>2028년 이후 보험료율 인상</b> 일정을 참고해 재정 계획을 세워보세요.",
+      "source": "슈투트가르터차이퉁",
+      "read": 2,
+      "url": "https://www.stuttgarter-zeitung.de/wirtschaft/rentenerhoehung-2027-2028-und-2029-so-sieht-die-prognose-aus-79429379.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "인천공항 노조, 추석 전 총파업 예고",
+      "desc": "인천·김포 등 공항 자회사 노조가 19일 경고파업을 벌였습니다. 대체 인력 투입에도 수속 지연이 일부 발생했습니다. 노조는 추석 연휴 전 무기한 총파업도 예고했습니다.",
+      "interp": "추석 전후 인천공항을 이용한다면 <b>무기한 총파업 가능성</b>을 감안해 일정을 여유 있게 잡으세요.",
+      "source": "경향신문",
+      "read": 3,
+      "url": "https://www.khan.co.kr/article/202509181407001",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "코스피 6894 마감, 반도체 랠리",
+      "desc": "코스피가 18일 반도체주 강세로 2.66% 오른 6894에 마감했습니다. 원/달러 환율은 1383원대로 7거래일 연속 올랐습니다. 환율 상승이 이어져 송금·환전 비용에 유의하세요.",
+      "interp": "국내 자산이 있다면 <b>급등한 증시</b> 흐름을, 송금 계획이 있다면 <b>환율</b>을 함께 확인하세요.",
+      "source": "아시아경제",
+      "read": 2,
+      "url": "https://view.asiae.co.kr/article/2026091815340598248",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "policy",
+      "head": "재외동포청 내년 예산 21%↑",
+      "desc": "재외동포청의 2027년도 예산안이 국회에 1369억원 규모로 편성됐습니다. 올해보다 21.4% 늘어난 규모입니다. 동포 청년 인재 유치 등 신규 사업에도 쓰입니다.",
+      "interp": "예산 증액으로 <b>동포 청년 정착 지원</b> 등 새 사업이 늘어날 전망이니 관심 있다면 확인해보세요.",
+      "source": "뉴스서울",
+      "read": 2,
+      "url": "https://newsseoul.co.kr/news/view/1065608415294345",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "health",
+      "head": "독감 무료접종, 9월21일 시작",
+      "desc": "올겨울 독감 무료접종이 9월21일부터 순차 시작됩니다. 무료 대상 어린이가 기존 13세에서 14세까지로 늘었습니다. 임신부와 65세 이상도 연령별로 순차 접종합니다.",
+      "interp": "자녀가 생후 6개월~14세라면 <b>9월21일부터</b> 무료접종 대상이니 미리 병원 일정을 잡아두세요.",
+      "source": "경향신문",
+      "read": 2,
+      "url": "https://www.khan.co.kr/article/202608251325001",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "국제우편 EMS 요금, 7월 인상",
+      "desc": "우체국 국제특급우편 EMS 요금이 지난 7월 32.2% 올랐습니다. 미국행 소포는 관세를 미리 내는 DDP 방식으로도 바뀌었습니다. 해외 발송 전 요금과 방식을 미리 확인하세요.",
+      "interp": "한국-해외 소포를 자주 보낸다면 <b>DDP 방식 전환</b>으로 달라진 절차를 미리 확인하세요.",
+      "source": "네이트뉴스",
+      "read": 2,
+      "url": "https://m.news.nate.com/view/20260419n06117",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "DDP",
+          "explain": "관세를 발송인이 미리 납부하는 배송 방식"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "EU, 청정에너지 투자 확대 선언",
+      "desc": "폰데어라이엔 집행위원장이 청정에너지 투자 확대를 선언했습니다. 2040년 화석연료 수입비용을 연 2600억유로 줄인다는 목표입니다. 원자력 포함 에너지 정책 중립을 강조했습니다.",
+      "interp": "<b>청정에너지 투자 확대</b> 방침은 전기·난방 요금 안정 신호가 될 수 있으니 흐름을 지켜보세요.",
+      "source": "EEAS(유럽대외관계청)",
+      "read": 3,
+      "url": "https://www.eeas.europa.eu/delegations/turkiye/2026-state-union-address-president-von-der-leyen_en",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "invest",
+      "head": "폭스바겐, 이익률 전망 급락",
+      "desc": "폭스바겐이 2026년 영업이익률 전망을 1%로 대폭 낮췄습니다. 우선주는 52주 신저가로 떨어지고 5만명 감원 계획도 나왔습니다. 미국 관세와 판매 부진이 겹친 결과입니다.",
+      "interp": "유럽 자동차주나 관련 펀드를 보유했다면 <b>폭스바겐발 업황 부진</b>을 참고해 점검해보세요.",
+      "source": "finanzen.ch",
+      "read": 2,
+      "url": "https://www.finanzen.ch/nachrichten/aktien/volkswagen-kappt-gewinnerwartung-fuer-2026-aktie-rauscht-ab-15942296",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "travel",
+      "head": "EU 로밍 무료지역, 확대",
+      "desc": "EU 로밍 무료지역이 우크라이나·몰도바까지 넓어집니다. EU·EEA 27개국은 국내 요금제 그대로 통화·데이터를 씁니다. 여행이나 출장 전 통신사에 적용 여부를 확인하세요.",
+      "interp": "유럽 내 여러 나라를 오간다면 <b>로밍 무료지역 확대</b> 소식을 미리 챙겨두면 유용합니다.",
+      "source": "EU 로밍 규정 안내",
+      "read": 2,
+      "url": "https://mybestsim.com/en/new-eu-roaming-regulations-2026-ghid-roaming-ue/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "미국 하원, 셧다운 임시예산 통과",
+      "desc": "미국 하원이 12월 초까지 정부 운영 자금을 대는 임시예산안을 통과시켰습니다. 중간선거를 앞두고 셧다운을 피하려는 조치입니다. 2027 회계연도 예산 합의까지 시간을 벌었습니다.",
+      "interp": "미국 내 행정 서비스 이용에 <b>당장의 셧다운 혼란</b>은 피했지만, 12월 예산안 협상을 지켜봐야 합니다.",
+      "source": "Government Executive",
+      "read": 2,
+      "url": "https://www.govexec.com/management/2026/09/shutdown-threat-lifted-house-passes-stopgap-spending-bill/415753/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "invest",
+      "head": "은퇴계좌 한도, 올해 더 늘어",
+      "desc": "미국 401(k) 연간 불입 한도가 올해 2만4500달러로 늘었습니다. IRA 한도도 7500달러까지 확대됐습니다. 50세 이상은 추가 불입 한도도 8000달러로 늘었습니다.",
+      "interp": "미국에서 은퇴계좌를 운용 중이라면 <b>연말 전 불입 한도</b>를 채웠는지 확인해보세요.",
+      "source": "애틀랜타K",
+      "read": 2,
+      "url": "https://atlantak.com/irs-2026%EB%85%84-401k%C2%B7ira-%EB%B6%88%EC%9E%85-%ED%95%9C%EB%8F%84-%EC%83%81%ED%96%A5/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "IRA",
+          "explain": "개인이 스스로 적립하는 미국 개인퇴직계좌"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "영주권 문호, 10월 새 회계연도",
+      "desc": "미국 회계연도가 10월 시작돼 영주권 쿼터도 새로 배정됩니다. 9월 비자게시판 기준 한국 출생자는 EB-1·EB-2가 진행 중입니다. 우선일자가 임박했다면 서류를 미리 준비하세요.",
+      "interp": "취업이민 영주권을 준비 중이라면 <b>10월 비자게시판</b> 발표를 확인해 접수 시점을 챙기세요.",
+      "source": "SHADED COMMUNITY",
+      "read": 2,
+      "url": "https://www.shadedcommunity.com/2026/09/10/10%EC%9B%94-%EC%98%81%EC%A3%BC%EA%B6%8C-%EB%AC%B8%ED%98%B8-%EC%97%B4%EB%A6%B4%EA%B9%8C%EC%9A%B0%EC%84%A0%EC%9D%BC%EC%9E%90-%EA%B0%80%EA%B9%8C%EC%9A%B0%EB%A9%B4-%EC%A7%80%EA%B8%88-%EC%A4%80/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "비자게시판",
+          "explain": "미 국무부가 매달 발표하는 영주권 우선순위 발급 기준표"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "invest",
+      "head": "한미 품목관세 연계표 공개",
+      "desc": "미국이 폴리실리콘·드론 부품 관세의 한미 연계표를 16일 공개했습니다. 공급망 요건을 채운 한국산 드론 관세는 15%를 넘지 않습니다. 투자자는 세부 품목을 확인하세요.",
+      "interp": "대미 수출 관련 업종에 투자했거나 종사한다면 <b>품목별 관세율</b>을 확인해두세요.",
+      "source": "일간NTN",
+      "read": 2,
+      "url": "https://www.intn.co.kr/news/articleView.html?idxno=2053373",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "재외국민 노린 기관사칭 보이스피싱",
+      "desc": "대사관·영사관을 사칭한 보이스피싱이 재외국민 사이에서 늘고 있습니다. 발신번호를 실제 기관 번호로 조작하는 수법이 확인됐습니다. 돈이나 개인정보를 요구하면 100% 사기입니다.",
+      "interp": "발신번호가 진짜처럼 떠도 <b>대사관·영사관은 전화로 돈·개인정보를 요구하지 않습니다</b>.",
+      "source": "주미국 대한민국 대사관",
+      "read": 3,
+      "url": "https://www.mofa.go.kr/us-ko/brd/m_27214/view.do?seq=1344178",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "life",
+      "head": "해외 카드결제, 현지통화로 하세요",
+      "desc": "해외에서 신용카드를 쓸 땐 원화가 아닌 현지통화로 결제해야 유리합니다. 원화 결제는 수수료가 추가로 붙어 더 비쌉니다. 환전 수수료가 없는 트래블카드를 쓰는 것도 방법입니다.",
+      "interp": "해외 여행이나 출장 중이라면 결제창에서 <b>현지통화(Local Currency)</b>를 선택하세요.",
+      "source": "생활경제 가이드",
+      "read": 2,
+      "url": "https://kbthink.com/card/overseas-payment.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "보조배터리, 위탁수하물 전면 금지",
+      "desc": "국제선에서 보조배터리는 예외 없이 기내 휴대만 가능합니다. 위탁 수하물로 부치는 건 전 세계 항공 안전 규정상 금지됩니다. 좌석 콘센트 충전도 금지하는 항공사가 늘었습니다.",
+      "interp": "보조배터리를 챙겨 해외로 나간다면 <b>반드시 기내 휴대</b>하고 위탁 수하물엔 절대 넣지 마세요.",
+      "source": "여행픽",
+      "read": 2,
+      "url": "https://www.thetrippick.com/news/articleView.html?idxno=3463",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
