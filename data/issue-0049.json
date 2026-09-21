@@ -1,0 +1,602 @@
+{
+  "number": 49,
+  "date": "2026-09-21",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "독일 지방선거, AfD 돌풍",
+      "desc": "메클렌부르크포어포메른 주선거에서 극우 AfD가 38.2%로 1위를 차지했습니다. 집권 기민련은 4.9%에 그쳐 1945년 이후 처음 주의회 진출에 실패했습니다. 베를린에서도 좌파당이 1위로 올라서며 정계 지형이 크게 흔들렸습니다.",
+      "interp": "옛 동독 지역에서 <b>극우 정당</b>이 처음으로 주정부 집권을 노리는 상황입니다. 앞으로 연립정부 구성과 정책 변화를 계속 지켜볼 필요가 있습니다.",
+      "source": "재경일보",
+      "read": 3,
+      "url": "https://news.jkn.co.kr/post/991656",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "AfD",
+          "explain": "독일의 극우 성향 정당인 독일대안당"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "health",
+      "head": "전자건강기록, 10월부터 약국도",
+      "desc": "전자건강기록(ePA) 이용이 10월1일부터 약국을 포함한 의료기관 전반에 의무화됩니다. 약사는 환자 동의 아래 복용약 정보를 조회해 약물 상호작용을 확인할 수 있게 됩니다. 건강보험 앱에서 거부 신청을 하지 않았다면 계좌가 자동으로 만들어집니다.",
+      "interp": "동의하지 않으려면 건강보험사 앱에서 <b>거부 신청</b>을 해야 합니다. 약국 방문 전 앱에서 내 계정 상태를 미리 확인해 두세요.",
+      "source": "aponet.de",
+      "read": 2,
+      "url": "https://www.aponet.de/artikel/digitale-aufgaben-fuer-apotheken-ab-2026-epa-und-telemedizin-32679",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "ePA",
+          "explain": "의료기관이 진료정보를 공유하는 전자건강기록"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "겨울철 타이어 규정, 벌금 주의",
+      "desc": "독일은 빙판길이나 눈길에서 계절 표시가 없는 타이어로 운행하면 단속 대상이 됩니다. 겨울용이나 3PMSF 표시가 있는 사계절 타이어만 인정되며 위반 시 최대 80유로 벌금이 부과됩니다. 교통 흐름을 방해하면 벌점까지 따라붙어 첫눈 전 점검이 필요합니다.",
+      "interp": "차량 타이어에 <b>3PMSF</b> 표시가 있는지 미리 확인해 두세요. 눈이 예보된 날은 출발 전 타이어 상태부터 점검하는 것이 안전합니다.",
+      "source": "Michelin",
+      "read": 2,
+      "url": "https://www.michelin.co.kr/auto/advice/winter-tyres-guide/winter-tyre-regulations-europe",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "3PMSF",
+          "explain": "눈길 주행 성능을 인증하는 삼봉설송이 마크"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "PFAS 함유 제품, 10월 판매금지",
+      "desc": "발암 우려 화학물질 PFAS를 포함한 일부 섬유·가죽제품과 화장품 판매가 10월10일부터 금지됩니다. 방수 재킷이나 프라이팬 코팅 등에 흔히 쓰이던 물질로 유럽연합 전역에 적용됩니다. 재고를 그대로 파는 매장도 있어 구매 전 성분 표시를 확인하는 것이 좋습니다.",
+      "interp": "제품 라벨에서 <b>PFAS</b> 표기를 확인하는 습관을 들이세요. 아이 용품이나 주방용품을 살 때 특히 주의가 필요합니다.",
+      "source": "IHK Cottbus",
+      "read": 2,
+      "url": "https://www.ihk.de/cottbus/service-und-beratung/recht/was-sich-2026-aendert-6816444",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "PFAS",
+          "explain": "자연분해가 거의 안 되는 과불화화합물"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "휴대폰 매장 부당계약 경보",
+      "desc": "함부르크 소비자단체가 휴대폰 매장에서 원치 않는 요금제 계약이 체결된 사례를 다수 확인했다고 밝혔습니다. 매장 방문 뒤 서명 기억이 없는 계약서가 우편으로 도착했다는 불만이 이어졌습니다. 서명 전 조건을 다시 확인하고 계약서 사본을 반드시 받아야 합니다.",
+      "interp": "매장 방문 뒤에는 계약서에서 <b>철회 기간</b>이 있는지 확인하세요. 애매하면 서명을 미루고 집에서 다시 검토하는 편이 안전합니다.",
+      "source": "Verbraucherschutzforum Berlin",
+      "read": 2,
+      "url": "https://verbraucherschutzforum.berlin/2026-09-02/verbraucherzentrale-warnt-vor-mobilfunkvertraegen-im-handy-shop-kunden-berichten-von-untergeschobenen-vertraegen-433127/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "북한, 단거리 미사일 2발 발사",
+      "desc": "북한이 지난 20일 원산 일대에서 동해상으로 단거리 탄도미사일 두 발을 세 시간 간격으로 발사했습니다. 각각 450킬로미터와 600킬로미터를 비행했으며 올해 들어 열네 번째 발사입니다. 한미일은 정밀 분석에 나섰고 정부는 긴급 안보상황 점검회의를 열었습니다.",
+      "interp": "한반도 정세가 다시 긴장되는 시점이니 <b>안전 공지</b>를 챙겨보시기 바랍니다. 큰 이동 계획이 있다면 영사관 공지도 함께 확인하세요.",
+      "source": "연합뉴스",
+      "read": 3,
+      "url": "https://www.koreaherald.com/article/10880253",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "tax",
+      "head": "해외금융계좌 신고, 역대 최대",
+      "desc": "국세청이 올해 해외금융계좌 신고액이 107조1천억원으로 역대 최대라고 9월2일 발표했습니다. 잔액 합계가 한 달이라도 5억원을 넘으면 다음해 6월까지 신고해야 하는 제도입니다. 신고 대상에는 현금과 주식은 물론 가상자산 계좌도 포함됩니다.",
+      "interp": "해외 계좌를 여러 개 보유했다면 <b>5억원</b> 기준을 넘는지 미리 계산해 두세요. 미신고가 적발되면 과태료 부담이 크므로 대상 여부를 확인하는 것이 안전합니다.",
+      "source": "국세청",
+      "read": 2,
+      "url": "https://dazabi.com/insurance_magazine/article.php?id=43237",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "pension",
+      "head": "국민연금 반환일시금, 청구 확인을",
+      "desc": "국민연금 가입 기간이 10년 미만인 채 해외로 이주했다면 반환일시금을 청구할 수 있습니다. 해외이주신고 확인서를 첨부해 대리인을 통하거나 우편으로도 신청이 가능합니다. 청구권은 일정 기간이 지나면 소멸되므로 이주 전후로 꼭 챙겨야 합니다.",
+      "interp": "이주 서류를 정리할 때 <b>반환일시금</b> 청구 여부도 함께 확인하세요. 국민연금공단 고객센터로 문의하면 대상 여부를 안내받을 수 있습니다.",
+      "source": "국민연금공단",
+      "read": 2,
+      "url": "https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0079M0.do",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "반환일시금",
+          "explain": "연금 수급 요건을 못 채우고 떠날 때 받는 일시금"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "travel",
+      "head": "제주항공 인천발 40여편 지연",
+      "desc": "21일 오전 제주항공 인천발 국제선 40여편이 낙뢰 관련 점검으로 서너 시간씩 지연됐습니다. 항공사는 안전 점검을 마친 뒤 순차적으로 운항을 재개한다고 밝혔습니다. 추석 연휴를 앞두고 이용객이 몰리는 시기라 다른 항공편도 지연될 수 있습니다.",
+      "interp": "오늘 제주항공을 이용한다면 출발 전 <b>운항 정보</b>를 다시 확인하세요. 공항에는 평소보다 여유 있게 도착하는 것이 좋습니다.",
+      "source": "경인방송",
+      "read": 2,
+      "url": "https://news.ifm.kr/news/articleView.html?idxno=479909",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "invest",
+      "head": "코스피, 6900선 넘어 사상 최고",
+      "desc": "코스피가 6938선에서 사상 최고치로 출발하며 상승 흐름을 이어가고 있습니다. 반도체 대형주 강세가 지수를 끌어올린 주요 요인으로 꼽힙니다. 원달러 환율은 1387원대에서 움직이며 큰 변동 없이 안정된 모습입니다.",
+      "interp": "국내 자산이 있다면 <b>사상 최고</b> 구간에서의 변동성도 함께 살펴보세요. 환전 계획이 있다면 환율 흐름을 참고하시기 바랍니다.",
+      "source": "뉴스핌",
+      "read": 2,
+      "url": "https://www.newspim.com/news/view/20260921000261",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "EU 정상연설, 에너지·안보 전환",
+      "desc": "폰데어라이엔 집행위원장이 9월16일 국정연설에서 원자력과 재생에너지 투자 확대 방침을 밝혔습니다. 화석연료 수입 비용 연간 260억유로를 줄이는 것이 목표라고 설명했습니다. 같은 시기 새 안보 전략도 함께 발표하며 유럽의 독자 노선을 강조했습니다.",
+      "interp": "에너지 정책 전환이 전기·난방 요금에 미칠 영향을 <b>중장기적으로</b> 지켜볼 필요가 있습니다. 세부 시행 계획은 앞으로 순차적으로 공개될 예정입니다.",
+      "source": "글로벌이코노믹",
+      "read": 2,
+      "url": "https://www.g-enews.com/article/Global-Biz/2026/09/202609180849013839fbbec65dfb_1",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "invest",
+      "head": "유럽증시 스톡스600, 올해 11%↑",
+      "desc": "범유럽 스톡스600 지수가 올해 들어 11퍼센트 오르며 사상 최고치 행진을 이어가고 있습니다. 독일 DAX와 프랑스 CAC40 등 주요 지수도 나란히 최고 기록을 경신했습니다. 국제 유가 흐름과 미국 금리 결정이 다음 변수로 꼽힙니다.",
+      "interp": "유럽 주식에 투자 중이라면 <b>환차익</b> 과세 여부를 함께 점검하세요. 국내 신고 대상인지는 금융소득 규모에 따라 달라집니다.",
+      "source": "뉴스핌",
+      "read": 2,
+      "url": "https://www.newspim.com/news/view/20260917000027",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "환차익",
+          "explain": "환율 변동으로 얻는 이익"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "health",
+      "head": "유럽서 독감·코로나 백신 통합",
+      "desc": "유럽의약품청이 인플루엔자와 코로나19를 함께 예방하는 백신 승인을 검토하고 있습니다. 올해 안에 결정될 가능성이 있는 신약 목록에 포함됐다고 밝혔습니다. 도입되면 한 번의 접종으로 두 감염병을 함께 예방할 수 있게 됩니다.",
+      "interp": "겨울철 접종 계획이 있다면 <b>승인 여부</b>를 계속 확인해 보세요. 거주국 보건당국 공지를 참고하는 것이 정확합니다.",
+      "source": "Apotheke Adhoc",
+      "read": 2,
+      "url": "https://www.apotheke-adhoc.de/nachrichten/detail/pharmazie/2026-neue-medikamente-gegen-krebs/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "미중 정상회담 24일, 반도체 주목",
+      "desc": "트럼프 대통령과 중국 정상의 회담이 9월24일로 예정되어 있습니다. 인공지능과 반도체 수출통제가 핵심 의제로 다뤄질 전망입니다. 결과에 따라 국내 반도체 기업의 공급망에도 영향이 미칠 수 있습니다.",
+      "interp": "반도체 관련 자산이 있다면 <b>회담 결과</b> 발표를 주시하세요. 관세나 수출규제 변화는 국내 산업에도 곧바로 영향을 줄 수 있습니다.",
+      "source": "firebat",
+      "read": 2,
+      "url": "https://firebat.co.kr/stock-blog/20260920-weekly",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "미 이민비자 인터뷰 중단 장기화",
+      "desc": "미국 국무부가 전 세계 이민비자 인터뷰 일정을 8월말부터 재교육을 이유로 잠정 중단했습니다. 헝가리와 폴란드 공관만 이달 초 재개했고 나머지는 정상화 시점이 불투명합니다. 가족초청이나 취업이민으로 대기 중인 신청자들의 불확실성이 이어지고 있습니다.",
+      "interp": "인터뷰 예약이 있다면 <b>영사관 공지</b>를 자주 확인해 보세요. 일정 변경 통보 없이 미뤄지는 경우도 있어 미리 대비가 필요합니다.",
+      "source": "뉴스핌",
+      "read": 3,
+      "url": "https://www.newspim.com/news/view/20260827000018",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "H-1B 10만달러 수수료, 항소심 중",
+      "desc": "H-1B 비자 신규 신청에 10만달러 수수료를 부과하려던 조치가 법원에서 제동이 걸렸습니다. 항소법원은 정부의 효력정지 요청을 기각했고 심리가 계속되고 있습니다. 정부는 정식 규정으로 만들어 연말까지 확정하려는 방침을 유지하고 있습니다.",
+      "interp": "관련 기업 소속이라면 <b>소송 결과</b>를 인사 담당 부서와 함께 확인하세요. 수수료가 확정되기 전까지는 기존 절차가 유지됩니다.",
+      "source": "헤럴드경제",
+      "read": 2,
+      "url": "https://biz.heraldcorp.com/article/10766642",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "뉴욕증시, 반도체 강세 나스닥 상승",
+      "desc": "다우지수는 소폭 하락했지만 나스닥과 S&P500은 반도체 강세에 힘입어 올랐습니다. 애플과 메타 등 대형 기술주가 강세를 보인 반면 테슬라는 약세를 이어갔습니다. 미국 10년물 국채금리는 4.95퍼센트 선에서 높은 수준을 유지했습니다.",
+      "interp": "미국 주식 보유자는 <b>국채금리</b> 흐름이 주가에 미치는 영향을 함께 살펴보세요. 배당소득이 있다면 세금 신고 자료도 미리 정리해 두면 좋습니다.",
+      "source": "파이낸스투데이",
+      "read": 2,
+      "url": "https://www.fntoday.co.kr/news/articleView.html?idxno=393538",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "예멘 내전 격화, 유가 들썩",
+      "desc": "예멘 후티 반군이 사우디 리야드 인근 공항 연료창고를 공습하며 확전 우려가 커지고 있습니다. 홍해 항로 안전이 다시 위협받으면서 국제 유가 변동성이 확대되고 있습니다. 에너지 자문업계는 최악의 경우 배럴당 120달러까지 오를 수 있다고 내다봤습니다.",
+      "interp": "유가 상승은 항공권과 생활물가로 이어질 수 있어 <b>비용 변화</b>를 살펴두세요. 중동 경유 노선을 이용한다면 항공사 공지를 확인하시기 바랍니다.",
+      "source": "서울신문",
+      "read": 3,
+      "url": "https://www.seoul.co.kr/news/international/2026/09/20/20260920500072",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "일본 면세, 11월부터 사후환급제",
+      "desc": "일본의 외국인 면세 쇼핑 방식이 11월1일부터 선결제 후 환급 방식으로 바뀝니다. 매장에서 세금 포함 금액을 낸 뒤 출국 시 단말기에 여권을 대면 소비세를 돌려받는 구조입니다. 백화점과 드럭스토어 등 대부분의 면세점에 새 방식이 적용됩니다.",
+      "interp": "영수증과 구매 물품을 <b>출국 전까지</b> 잘 보관해 두세요. 위탁수하물을 부치기 전에 반출 확인 절차부터 마쳐야 합니다.",
+      "source": "재팬코리아데일리",
+      "read": 2,
+      "url": "https://www.jk-daily.co.kr/news/articleView.html?idxno=41018",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "life",
+      "head": "해외 카드결제, 현지통화 선택을",
+      "desc": "해외에서 카드로 결제할 때 원화 대신 현지통화를 선택하면 이중환전 수수료를 피할 수 있습니다. 원화로 자동 청구되는 DCC 방식은 실제 금액보다 5에서 10퍼센트 더 나갈 수 있다고 알려졌습니다. 카드사마다 해외 원화결제 차단 서비스를 무료로 제공하고 있습니다.",
+      "interp": "해외여행을 앞두고 있다면 <b>원화결제 차단</b> 서비스를 미리 신청해 두세요. 결제 화면에 뜨는 통화 단위를 결제 전 반드시 확인하시기 바랍니다.",
+      "source": "뱅크샐러드",
+      "read": 2,
+      "url": "https://www.banksalad.com/articles/%ED%95%B4%EC%99%B8-%EC%B9%B4%EB%93%9C-%EA%B2%B0%EC%A0%9C-%EC%8B%9C-%EB%B0%98%EB%93%9C%EC%8B%9C-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%98%EB%8A%94-8%EA%B0%80%EC%A7%80-%EA%BF%80%ED%8C%81",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "DCC",
+          "explain": "해외 결제를 자동으로 원화로 환산해 청구하는 방식"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
