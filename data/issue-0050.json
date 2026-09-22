@@ -1,0 +1,503 @@
+{
+  "number": 50,
+  "date": "2026-09-22",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "메르츠, 참패 후 원내 대책회의",
+      "desc": "기민련이 오늘 오후 원내 대책회의를 열어 메르츠 총리와 정국 운영을 논의합니다. 작센안할트 선거 참패와 극우 정당 약진에 따른 것으로, 총리 리더십 압박이 커지고 있습니다.",
+      "interp": "총리 교체론까지 나올 수 있어 <b>독일 국내 정치 불확실성</b>이 커질 수 있으니 관련 정책 발표를 눈여겨보시기 바랍니다.",
+      "source": "news.de",
+      "read": 3,
+      "url": "https://www.news.de/panorama/860015960/22-september-2026-news-themen-des-tages-was-passiert-heute-in-deutschland-und-der-welt-das-ist-heute-am-22-09-2026-wichtig-in-den-nachrichten-aus-politik-wirtschaft-sport-und-co/1/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "health",
+      "head": "먹는 비만약 위고비, 독일 출시",
+      "desc": "먹는 비만약 위고비가 9월 1일부터 독일 약국에서 판매됩니다. 4mg 173유로, 9mg 233유로 수준이며, 2형 당뇨가 없으면 건강보험이 적용되지 않아 전액 본인부담입니다.",
+      "interp": "<b>건강보험 미적용</b>이 원칙이므로 처방 전 약국·의사에게 본인부담 여부를 꼭 확인하시기 바랍니다.",
+      "source": "Stuttgarter Nachrichten",
+      "read": 3,
+      "url": "https://www.stuttgarter-nachrichten.de/panorama/abnehmpille-ab-heute-erhaeltlich-so-viel-kosten-die-wegovy-tabletten-79430402.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "도이칠란트티켓, 2027년 자동인상",
+      "desc": "교통장관회의가 2027년부터 도이칠란트티켓 요금을 물가지수에 따라 자동 인상하기로 했습니다. 월 63유로에서 약 66.8유로로 오를 전망이며, 의회 의결 없이 지수로 정해집니다.",
+      "interp": "정기권을 <b>연간 결제</b>해 두면 인상 전 요금을 유지할 수 있는지 교통공사에 문의해 보시기 바랍니다.",
+      "source": "teltarif.de",
+      "read": 3,
+      "url": "https://www.teltarif.de/deutschlandticket-deutsche-bahn-zug-kosten/news/105782.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "policy",
+      "head": "PFAS 함유 제품, 10월부터 판매금지",
+      "desc": "10월 10일부터 유해물질 PFAS가 든 일부 섬유·가죽제품·식품포장재·화장품의 독일 내 판매가 금지됩니다. 잔류성 우려로 규제됐으며, 구매 전 성분표시 확인이 필요합니다.",
+      "interp": "야외용품이나 방수 제품을 살 때 <b>PFAS</b> 표기가 없는지 라벨을 한 번 더 확인하시기 바랍니다.",
+      "source": "buerger-geld.org",
+      "read": 3,
+      "url": "https://www.buerger-geld.org/news/finanzen/oktober-2026-diese-aenderungen-betreffen-verbraucher-rentner-und-familien",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "PFAS",
+          "explain": "자연분해가 거의 안 되는 과불화화합물 계열 화학물질"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "방송수신료, 2026년까지 동결",
+      "desc": "방송수신료는 올해까지 월 18.36유로로 유지되며, 산정위원회는 2027년부터 18.64유로로 인상하자고 권고했습니다. 각 주는 연말까지 인상 여부를 확정할 예정입니다.",
+      "interp": "거주지 등록(Anmeldung) 직후에는 <b>수신료 납부의무</b>가 자동 발생하니 자동이체 여부를 확인하시기 바랍니다.",
+      "source": "infranken.de",
+      "read": 3,
+      "url": "https://www.infranken.de/ratgeber/karriere-geld/rundfunkbeitrag-deutschland-erhoehung-2027-kef-bundesverfassungsgericht-politischer-druck-reformstaatsvertrag-tmr-1-art-6323289",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "이재명 대통령, 유엔총회 연설",
+      "desc": "이재명 대통령이 오늘 오후 뉴욕 유엔총회에서 기조연설을 하고, 정상 리셉션에서 트럼프 대통령과 만날 가능성이 있습니다. 파병·대미 투자 등 한미 현안이 논의될 것으로 전망됩니다.",
+      "interp": "한미 간 <b>관세·투자</b> 협상 결과에 따라 교민 사회·기업 관련 후속 발표가 나올 수 있어 주시할 필요가 있습니다.",
+      "source": "머니투데이",
+      "read": 3,
+      "url": "https://www.mt.co.kr/politics/2026/09/21/2026092111155099523",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "재외국민 모바일인증서 급증",
+      "desc": "국내 휴대전화 없이 본인인증하는 재외국민 인증서 발급이 올 상반기 1만1390건으로 지난해 같은 기간보다 1.7배 늘었습니다. 재외동포청이 국회에 제출한 자료로 확인됐습니다.",
+      "interp": "국내 서비스 이용에 어려움을 겪었다면 <b>모바일 신분증</b> 발급을 미리 받아두면 편리합니다.",
+      "source": "KoA Times",
+      "read": 3,
+      "url": "https://www.koatimes.net/2026/09/14/%EA%B5%AD%EB%82%B4%ED%8F%B0-%EC%97%86%EC%96%B4%EB%8F%84-%EB%B3%B8%EC%9D%B8%EC%9D%B8%EC%A6%9D-%EB%9A%9D%EB%94%B1%EC%9E%AC%EC%99%B8%EA%B5%AD%EB%AF%BC-%EC%9D%B8%EC%A6%9D/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "해외송금 수수료 면제 이벤트 확대",
+      "desc": "케이뱅크가 신규 고객 해외송금 수수료를 연말까지 최대 10회 면제하고, 토스뱅크도 건당 3900원 수수료를 12월 31일까지 무료로 제공합니다. 은행마다 조건이 달라 비교가 필요합니다.",
+      "interp": "정기적으로 <b>해외송금</b>을 한다면 앱별 면제 조건과 환율 우대율을 함께 비교해 보시기 바랍니다.",
+      "source": "뉴스핌",
+      "read": 3,
+      "url": "https://www.newspim.com/news/view/20260812000215",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "원달러 환율, 3분기 190원 급락",
+      "desc": "원달러 환율이 3분기 고점 1559원에서 1364원대까지 약 195원 떨어졌습니다. 2009년 4월 이후 최대 낙폭으로, 반도체 수출 호조와 외국인 자금 유입이 배경입니다.",
+      "interp": "송금·환전 계획이 있다면 <b>원화 강세</b> 국면인 지금 환율 추이를 살펴보고 시점을 조율해 보시기 바랍니다.",
+      "source": "글로벌이코노믹",
+      "read": 3,
+      "url": "https://www.g-enews.com/article/Finance/2026/09/20260901145241313bb91c46fcd_1",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "카드결제 정보 유출, 해외부정결제 주의",
+      "desc": "국내 결제대행사 두 곳이 해킹으로 카드번호와 비밀번호 일부가 유출돼 금융감독원이 현장검사에 나섰습니다. 해외 부정결제로 이어질 수 있어 이상거래 탐지가 강화됐습니다.",
+      "interp": "최근 결제 내역에 <b>낯선 해외 승인</b>이 있는지 카드 앱에서 바로 확인해 보시기 바랍니다.",
+      "source": "아시아경제",
+      "read": 3,
+      "url": "https://www.asiae.co.kr/article/2026090909553499830",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "결제대행사",
+          "explain": "카드결제 처리를 대행하는 전자지급업체(PG사)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "구글, EU서 6천억원대 벌금",
+      "desc": "아일랜드 데이터보호위원회가 위치정보 처리로 EU 개인정보 규정(GDPR)을 위반했다며 구글에 4억300만유로 벌금을 부과했습니다. 6개월 내 처리방식을 시정해야 합니다.",
+      "interp": "스마트폰 <b>위치기록</b> 설정을 이번 기회에 점검해 불필요한 수집을 꺼두는 것도 방법입니다.",
+      "source": "Irish Times",
+      "read": 3,
+      "url": "https://www.irishtimes.com/business/2026/09/21/irish-data-protection-watchdog-fines-google-403m-over-gdpr-breaches/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "GDPR",
+          "explain": "EU의 개인정보 보호에 관한 일반 규정"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "invest",
+      "head": "ECB, 기준금리 0.25%p 인상",
+      "desc": "유럽중앙은행이 예금금리를 2.50%, 주요 재융자금리를 2.65%로 각각 0.25%포인트 올렸습니다. 9월 16일부터 적용 중이며, 물가 상승 압력에 대응한 조치입니다.",
+      "interp": "유로존에 <b>예금·대출</b>이 있다면 금리 변동이 이자·상환액에 미치는 영향을 확인해 보시기 바랍니다.",
+      "source": "European Central Bank",
+      "read": 3,
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "visa",
+      "head": "미국 비자공고, 가족초청 대폭 전진",
+      "desc": "9월 비자공고에서 가족 초청 이민 순위가 크게 앞당겨졌습니다. F1은 7.5개월, F2B는 8개월, F3는 20개월, F4는 16개월 이상 전진했고, 취업 이민은 정체됐습니다.",
+      "interp": "가족초청 대기 중이라면 본인 <b>우선순위 날짜</b>가 앞당겨졌는지 국무부 공고에서 확인해 보시기 바랍니다.",
+      "source": "Murthy Law Firm",
+      "read": 3,
+      "url": "https://www.murthy.com/2026/08/22/september-2026-visa-bulletin/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "뉴욕증시, 유가·금리 하락에 급등",
+      "desc": "국제유가와 국채금리가 동반 하락하며 뉴욕증시 3대 지수가 일제히 올랐습니다. 나스닥은 2%대 급등했고 필라델피아 반도체지수는 5% 가까이 뛰며 강세를 보였습니다.",
+      "interp": "미국 <b>반도체 관련 자산</b>을 보유하고 있다면 단기 변동성이 커진 만큼 분산 여부를 점검해 보시기 바랍니다.",
+      "source": "아시아경제",
+      "read": 3,
+      "url": "https://view.asiae.co.kr/article/2026092205061678879",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "H-1B 10만달러 수수료, 새 규정 추진",
+      "desc": "전문직 취업비자 H-1B의 10만달러 수수료 행정명령이 9월 20일 만료됐습니다. 국토안보부는 10만3265달러 새 수수료를 규칙으로 추진 중이며, 이달 말까지 의견을 수렴합니다.",
+      "interp": "H-1B 신규·갱신 신청이 있다면 <b>수수료 확정 시점</b>을 고용주와 함께 계속 확인하시기 바랍니다.",
+      "source": "lawfold.com",
+      "read": 3,
+      "url": "https://lawfold.com/h1b-lawsuit/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "H-1B",
+          "explain": "미국의 대표적인 전문직 취업비자"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "미국·덴마크·그린란드, 안보협정 서명",
+      "desc": "미국과 덴마크, 그린란드 대표들이 오늘 북극 영토를 둘러싼 안보협정에 서명할 예정입니다. 그린란드를 향한 미국 관심이 커지며 논의돼 온 협정으로, 자원·항로 경쟁과 맞물립니다.",
+      "interp": "북극 항로·자원을 둘러싼 <b>미국·유럽 관계</b> 변화가 이어질 수 있어 관련 소식을 계속 지켜볼 만합니다.",
+      "source": "news.de",
+      "read": 3,
+      "url": "https://www.news.de/panorama/860015960/22-september-2026-news-themen-des-tages-was-passiert-heute-in-deutschland-und-der-welt-das-ist-heute-am-22-09-2026-wichtig-in-den-nachrichten-aus-politik-wirtschaft-sport-und-co/1/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "국제선 유류할증료, 9월 대폭 인상",
+      "desc": "중동 긴장 고조로 항공유 값이 한 달 새 25% 넘게 뛰며 9월 국제선 유류할증료가 14단계에서 21단계로 올랐습니다. 편도 최소 4만8000원, 최장거리는 35만4000원입니다.",
+      "interp": "해외 항공권을 예약할 계획이라면 <b>유류할증료 단계</b>를 확인해 발권 시점을 앞당기는 것도 방법입니다.",
+      "source": "녹색경제신문",
+      "read": 3,
+      "url": "https://www.greened.kr/news/articleView.html?idxno=348082",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
