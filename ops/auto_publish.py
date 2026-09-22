@@ -33,6 +33,7 @@ DRAFT = os.path.join(REPO, "data", "today-draft.json")
 INDEX = os.path.join(REPO, "data", "index.json")
 DRAFTS_DIR = os.path.join(REPO, "data", "drafts")
 LOG = os.path.join(REPO, "ops", "logs", "auto_publish.log")
+STABLE_SECS = 300      # 초안이 이만큼 조용해야 '다 쓴 것'으로 본다(세션 자가 수정 대기)
 
 
 def _log(msg: str) -> None:
@@ -65,7 +66,20 @@ def _next_number() -> int:
     return (max((x.get("number", 0) for x in idx), default=0)) + 1
 
 
-def _archive_draft(tag: str) -> None:
+def _archive_draft(tag: str, mtime: float | None = None) -> None:
+    """발행이 끝난 뒤 초안을 보관한다.
+
+    mtime 을 주면 '읽을 때와 같은 파일'일 때만 치운다. 발행하는 동안 세션이
+    초안을 고쳐 다시 저장했을 수 있는데, 그걸 그냥 옮기면 **고친 원고가 발행되지도
+    않고 보관함으로 사라진다**(2026-09-22 실제로 발생).
+    """
+    if mtime is not None and os.path.exists(DRAFT):
+        try:
+            if os.path.getmtime(DRAFT) != mtime:
+                _log("⚠️ 발행 중에 초안이 바뀌었습니다(세션 수정본) — 보관하지 않고 그대로 둡니다")
+                return
+        except Exception:
+            pass
     os.makedirs(DRAFTS_DIR, exist_ok=True)
     dst = os.path.join(DRAFTS_DIR, f"{_today()}-{tag}.json")
     try:
@@ -88,6 +102,16 @@ def main() -> int:
         _log("오늘 이미 발행됨 → 초안만 치우고 종료")
         _archive_draft("skipped")
         return 0
+
+    # 초안이 아직 고쳐지는 중일 수 있다. 발행 세션은 저장 뒤 자가 점검을 돌려
+    # 재탕을 빼고 다시 저장하는데, 그 사이에 읽어가면 '고치기 전 원고'가 나간다.
+    # (2026-09-22 제50호: 세션이 재탕 6건을 빼고 15건으로 고쳤지만 17건짜리가 발행됨)
+    age = time.time() - os.path.getmtime(DRAFT)
+    if age < STABLE_SECS:
+        _log("초안이 %d초 전에 저장됨 — 아직 수정 중일 수 있어 이번 회차는 건너뜁니다"
+             % int(age))
+        return 0
+    draft_mtime = os.path.getmtime(DRAFT)
 
     _log("초안 발견 — 무인 발행 시작")
     number = _next_number()
@@ -176,7 +200,7 @@ def main() -> int:
         _log(f"🚨 소셜 자동 게시 실패: {type(e).__name__}: {e}")
         _alert_failure("소셜 자동 게시", e, number, today)
 
-    _archive_draft("published")
+    _archive_draft("published", draft_mtime)
     _archive_editor_note()
     _log(f"✅ 제{number}호 무인 발행 완료")
     _log("📱 인스타·스레드 소셜 자료: https://nachimban.pages.dev/social")

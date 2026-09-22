@@ -157,7 +157,7 @@ def review(items: list, past: list) -> tuple[list, list]:
         series = [iss["number"] for iss in past[-SERIES_WINDOW:]
                   if any(similarity(it, old) >= RELATED for old in iss["published"])]
         if len(series) >= 2 and not repeat_ok:
-            warns.append("%s — 최근 %d개 호 중 %d개 호에 같은 주제(제%s호). 3번째는 결정적 전환일 때만"
+            warns.append("%s — 최근 %d개 호 중 %d개 호에 같은 주제(제%s호). 후속 보도면 괜찮습니다. 새 사실이 있는지만 확인하세요"
                          % (tag, SERIES_WINDOW, len(series), "·".join(map(str, series))))
 
     # 3) 한 주제는 한 호에 한 장
@@ -232,7 +232,7 @@ def print_recent(issues: dict) -> None:
         else:
             groups.append([(num, it)])
     repeated = [g for g in groups if len({n for n, _ in g}) >= 2]
-    print("\n⛔ 최근 %d개 호에 이미 2번 이상 실린 주제 — 오늘 결정적 전환이 없으면 싣지 마세요" % SERIES_WINDOW)
+    print("\n🔁 최근 %d개 호에서 이어 온 주제 — 후속은 계속 써도 됩니다. 단 어제와 같은 사실을 반복하지 마세요" % SERIES_WINDOW)
     for g in sorted(repeated, key=lambda g: -len({n for n, _ in g})):
         nums = sorted({n for n, _ in g})
         print("  · %s  (제%s호)" % (g[-1][1]["head"], "·".join(map(str, nums))))
