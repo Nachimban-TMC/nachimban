@@ -1,0 +1,642 @@
+{
+  "number": 52,
+  "date": "2026-09-24",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "사회보장 부정수급 10대 대책 의결",
+      "desc": "연방정부가 23일 사회보장 부정수급을 막는 10대 대책을 의결했습니다. 수배자 기초보장 지급 중단, 기관 간 정보 교환과 인공지능 분석이 핵심입니다. 연내 시행이 목표입니다.",
+      "interp": "정상 수급자는 달라질 것이 없지만 <b>기관 간 정보 대조</b>가 늘어납니다. 주소·소득·고용 변동은 제때 신고해 두세요.",
+      "source": "타게스슈피겔·한델스블라트",
+      "read": 3,
+      "url": "https://www.tagesspiegel.de/politik/dpa-regierung-beschliesst-zehn-punkte-plan-16086869.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "기초보장",
+          "explain": "생계가 어려운 구직자 등에게 주는 독일의 기본 생계급여"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "travel",
+      "head": "베를린~하노버 ICE, 2일부터 우회",
+      "desc": "10월 2일부터 베를린 슈판다우~팔러스레벤 구간이 막힙니다. ICE는 브라운슈바이크·마그데부르크로 돌아 60~80분 더 걸립니다. 공사는 2027년 12월까지 이어집니다.",
+      "interp": "이 구간 기차표는 <b>새 시간표</b>로 다시 조회하세요. 암스테르담~베를린 열차도 약 70분 늘어나니 환승 여유를 두세요.",
+      "source": "더로컬·티온라인",
+      "read": 3,
+      "url": "https://hannover.t-online.de/region/hannover/id_101301762/bahn-strecke-hannover-berlin-generalsanierung-ab-oktober-2026-sperrung.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "ICE",
+          "explain": "독일철도의 고속 장거리 열차"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "27일부터 '친환경' 광고 규제",
+      "desc": "27일부터 근거 없는 기후중립·친환경·지속가능 같은 포괄적 광고 문구가 금지됩니다. 탄소 상쇄만으로 기후중립이라 내세워도 안 됩니다. 유럽연합 지침을 독일법에 반영했습니다.",
+      "interp": "상품의 친환경 표시에 <b>구체적 근거</b>가 적혀 있는지 보세요. 소규모 사업자라면 매장·온라인 광고 문구를 미리 점검하세요.",
+      "source": "포룸 출판사·WBS 법률사무소",
+      "read": 3,
+      "url": "https://www.forum-verlag.com/fachwissen/energie-und-umwelt/empco-richtlinie/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "탄소 상쇄",
+          "explain": "다른 곳의 온실가스 감축 실적을 사서 자기 배출량을 메우는 방식"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "health",
+      "head": "사전의료지시서, 10월부터 전자 보관",
+      "desc": "10월 1일부터 연방공증인협회 중앙등록부에 사전의료지시서·위임장의 전자 사본을 맡길 수 있습니다. 응급 때 의사와 법원이 바로 내용을 봅니다. 등록은 공증인 등을 거칩니다.",
+      "interp": "이미 서류를 써 두었다면 <b>중앙등록부 등록</b> 여부를 확인하세요. 개인이 사본을 직접 올릴 수는 없으니 공증인에게 문의하세요.",
+      "source": "연방공증인협회·더로컬",
+      "read": 3,
+      "url": "https://www.bnotk.de/aktuelles/details/ausbau-des-zentralen-vorsorgeregisters-elektronische-abschriften-der-vorsorgedokumente-staerken-selbstbestimmung-und-entlasten-gerichte-und-aerzte",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "사전의료지시서",
+          "explain": "의식을 잃었을 때 받을 치료와 연명 여부를 미리 밝혀 둔 문서"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "policy",
+      "head": "약물 이용 성범죄, 최소 5년형 추진",
+      "desc": "연방의회가 물뽕 같은 약물로 성폭행·강도를 저지르면 최소 징역 5년에 처하는 형법 개정안 심의에 들어갔습니다. 지금은 최소 3년입니다. 약물을 흉기처럼 취급하는 게 핵심입니다.",
+      "interp": "술집·파티에서는 <b>음료를 자리에 두지 말고</b> 직접 챙기세요. 이상 증상이 있으면 즉시 110에 신고하고 검사를 받으세요.",
+      "source": "ZDF·LTO",
+      "read": 3,
+      "url": "https://www.zdfheute.de/politik/deutschland/ko-tropfen-strafen-taeter-hubig-100.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "물뽕",
+          "explain": "마시면 의식을 잃게 하는 약물(GHB)을 이르는 속칭"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "북한군 포로 2명 한국행 확인",
+      "desc": "젤렌스키 우크라이나 대통령이 23일 유엔총회에서 북한군 포로 2명을 한국에 보냈다고 밝혔습니다. 외교부는 사실상 확인했습니다. 이들은 지난해 1월 쿠르스크에서 붙잡혔습니다.",
+      "interp": "정부는 <b>신변 보호</b>를 이유로 시기·경로를 밝히지 않았습니다. 우크라이나 인근 방문 계획이 있다면 외교부 여행경보를 확인하세요.",
+      "source": "한국경제·이데일리",
+      "read": 3,
+      "url": "https://www.hankyung.com/article/2026092448777",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "쿠르스크",
+          "explain": "우크라이나와 맞닿은 러시아 서남부 지역"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "해외카드 취소 환차손, 자동 보상",
+      "desc": "금융감독원이 해외 카드결제 취소 때 생기는 환차손을 카드사가 자동 보상하도록 고칩니다. 이달부터 취소 시 원화 금액을 문자로 알리고, 2027년부터 전산 확인을 강화합니다.",
+      "interp": "한국 카드로 결제했다 취소했다면 <b>원화 환급액</b>을 꼭 확인하세요. 결제는 현지 통화로 하고 원화결제는 앱에서 막아 두세요.",
+      "source": "이투데이·한국정경신문",
+      "read": 3,
+      "url": "https://www.etoday.co.kr/news/view/2628401",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [
+        {
+          "term": "환차손",
+          "explain": "결제 때와 취소 때의 환율 차이로 생기는 손해"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "남은 외화 개인거래, 사기 연루 주의",
+      "desc": "금융당국이 추석을 앞두고 남은 외화를 중고거래로 팔다 보이스피싱 자금세탁에 휘말리는 피해를 경고했습니다. 시세보다 비싸게 사겠다는 제안이 대표적이며 계좌가 정지될 수 있습니다.",
+      "interp": "귀국 때 남은 유로는 <b>은행·환전소</b>에서만 바꾸세요. 입금자 이름이 거래 상대와 다르면 즉시 거래를 멈추세요.",
+      "source": "아시아경제·서울파이낸스",
+      "read": 3,
+      "url": "https://view.asiae.co.kr/article/2026092011374778257",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "자금세탁",
+          "explain": "범죄로 번 돈을 정상적인 돈처럼 보이게 옮기는 행위"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "policy",
+      "head": "OECD, 한국 성장률 3.7%로 상향",
+      "desc": "경제협력개발기구가 23일 한국의 올해 성장률 전망을 2.6%에서 3.7%로 올렸습니다. G20 중 상향 폭이 가장 큽니다. 반도체 수출 덕분이며 물가 전망도 3%로 높였습니다.",
+      "interp": "성장·물가 전망이 오르면 <b>금리 인하</b>는 늦어질 수 있습니다. 한국에 대출이나 예금이 있다면 금리 흐름을 함께 보세요.",
+      "source": "머니투데이·뉴스1",
+      "read": 3,
+      "url": "https://www.mt.co.kr/economy/2026/09/23/2026092314380155176",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "경제협력개발기구",
+          "explain": "선진국 중심 38개 나라가 모인 경제 협력 기구(OECD)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "이 대통령, 16년 만에 멕시코 국빈방문",
+      "desc": "이재명 대통령이 23일 밤 멕시코에 도착해 16년 만의 국빈방문을 시작했습니다. 24일 정상회담에서 공급망·AI·방산 협력을 논의합니다. 저녁에는 현지 동포 간담회도 엽니다.",
+      "interp": "중남미에 진출한 기업·동포에게 <b>협력 확대</b>의 기회가 될 수 있습니다. 구체적 합의는 회담 뒤 발표를 확인하세요.",
+      "source": "머니투데이·국제뉴스",
+      "read": 2,
+      "url": "https://www.mt.co.kr/politics/2026/09/24/2026092411105733572",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "국빈방문",
+          "explain": "상대국 정상의 공식 초청을 받아 최고 예우로 하는 방문"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "유럽 각국, 기름값 지원 잇따라",
+      "desc": "프랑스가 22일 4억5천만 유로 대책을 내 장거리 출퇴근자 550만 명에게 100유로를 줍니다. 슬로바키아·체코는 주유소 마진에 상한을 뒀습니다. 중동 사태로 뛴 유가 대응입니다.",
+      "interp": "사는 나라의 <b>연료비 지원</b> 대상인지 확인해 보세요. 독일도 10월 1일부터 연말까지 유류세 인하가 예정돼 있습니다.",
+      "source": "리우타임스·프리카뷔랑",
+      "read": 3,
+      "url": "https://prix-carburant.eu/article/aides-carburant-annonces-gouvernement-22-septembre-2026",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "invest",
+      "head": "유로존 경기, 3년여 만에 최고",
+      "desc": "9월 유로존 종합 구매관리자지수가 53.1로 2023년 4월 이후 최고였습니다. 예상치 51.7을 크게 웃돌았고 서비스업이 53.0으로 뛰었습니다. 수출 주문 회복 덕분입니다.",
+      "interp": "경기 호조는 유럽 주식에 긍정적이지만 <b>추가 금리 인상</b> 가능성도 키웁니다. 유럽 ETF 투자자는 다음 ECB 회의를 주목하세요.",
+      "source": "로이터·FX스트리트",
+      "read": 3,
+      "url": "https://www.fxstreet.com/news/eurozone-flash-manufacturing-pmi-remains-steady-at-527-in-september-202609230804",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "구매관리자지수",
+          "explain": "기업 구매 담당자 설문으로 본 경기 지표, 50을 넘으면 확장"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "policy",
+      "head": "EU, 헝가리 지원금 42억 유로 해제",
+      "desc": "유럽연합 집행위원회가 23일 헝가리에 묶인 지원금 42억 유로를 풀자고 제안했습니다. 마자르 정부의 반부패 개혁을 인정했습니다. 회원국들은 한 달 안에 승인 여부를 정합니다.",
+      "interp": "헝가리에는 한국 <b>배터리 기업</b>과 협력사가 많이 진출해 있습니다. 현지 투자·고용 환경 변화를 눈여겨보세요.",
+      "source": "벡악투엘·파이낸첸",
+      "read": 2,
+      "url": "https://www.beck-aktuell.de/heute-im-recht/rechtsgeschehen/eu-kommission-ungarn-sanktionen-freigabe-gelder-2026-09-23",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "시진핑 방미, 무역휴전 1월까지 연장",
+      "desc": "시진핑 중국 주석이 23일 워싱턴에 도착해 3일간 방미 일정을 시작했습니다. 미중은 무역휴전을 1월 10일까지 연장했습니다. 24일 백악관 회담에서 관세·AI를 논의합니다.",
+      "interp": "휴전 연장으로 <b>추가 관세</b> 우려는 당분간 줄었습니다. 중국산 제품 가격이나 관련 주식은 회담 결과를 보고 판단하세요.",
+      "source": "비즈니스스탠더드·NBC",
+      "read": 3,
+      "url": "https://www.business-standard.com/amp/world-news/trump-welcomes-xi-jinping-as-us-china-trade-truce-extended-by-2-months-126092400113_1.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "무역휴전",
+          "explain": "미국과 중국이 관세 인상을 일정 기간 멈추기로 한 합의"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "미 5년물 국채 금리 5% 돌파",
+      "desc": "23일 미국 5년물 국채 금리가 5.03%로 2007년 이후 처음 5%를 넘었습니다. 기업활동 지표가 2021년 이후 가장 강했고 입찰도 부진했습니다. 뉴욕증시는 약세였습니다.",
+      "interp": "금리가 오르면 <b>기술주</b> 변동성이 커집니다. 달러 예금·단기 국채 금리의 매력은 커졌으니 상품을 비교해 보세요.",
+      "source": "블룸버그·인베스팅닷컴",
+      "read": 3,
+      "url": "https://www.investing.com/news/economy-news/fiveyear-us-treasury-yield-tops-5-for-first-time-since-2007-4913665",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "5년물",
+          "explain": "만기가 5년인 미국 국채"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "life",
+      "head": "미 경유값 최고치, 수출금지 검토",
+      "desc": "트럼프 대통령이 22일 경유 수출 금지를 지지한다고 밝혀 정부가 검토에 들어갔습니다. 평균 경유값은 갤런당 6.52달러로 사상 최고입니다. 업계는 휘발유값 상승을 우려합니다.",
+      "interp": "경유차·배송비 부담이 더 커질 수 있습니다. 미국산 경유를 들여오는 <b>유럽 연료값</b>에도 영향이 있을지 지켜보세요.",
+      "source": "CNBC·악시오스",
+      "read": 3,
+      "url": "https://www.cnbc.com/2026/09/23/trump-diesel-export-ban-gas-prices.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "갤런",
+          "explain": "약 3.8리터에 해당하는 미국의 부피 단위"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "MS, 코파일럿 기업가 최대 50% 할인",
+      "desc": "마이크로소프트가 10월부터 기업용 코파일럿 대량 구매 시 30~50% 할인한다고 22일 전해졌습니다. 1만 석 이상은 50%입니다. 기업 도입이 더딘 데 대한 대응으로 보입니다.",
+      "interp": "<b>AI 수익화</b> 속도는 빅테크 주가의 핵심 변수입니다. 마이크로소프트 투자자는 다음 실적에서 코파일럿 성과를 확인하세요.",
+      "source": "구루포커스·기즈차이나",
+      "read": 2,
+      "url": "https://www.gurufocus.com/news/9092686/microsoft-boosts-copilot-discounts-to-3050-for-enterprise-customers",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "코파일럿",
+          "explain": "마이크로소프트의 업무용 AI 비서 서비스"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "두바이·아부다비 항공편 차질",
+      "desc": "23일 두바이·아부다비에서 결항과 최대 8시간 지연이 잇따랐습니다. 이란 항공 제한과 미국 제재 영향입니다. KLM은 10월 24일, 영국항공은 11월 초까지 두바이에 안 갑니다.",
+      "interp": "추석 귀국에 <b>중동 경유편</b>을 탄다면 출발 전 항공사에 운항 여부를 다시 확인하세요. 대체 경로도 미리 알아 두세요.",
+      "source": "걸프뉴스·더내셔널",
+      "read": 3,
+      "url": "https://gulfnews.com/business/aviation/uae-travellers-face-flight-delays-and-some-cancellations-1.500684682",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "visa",
+      "head": "호주 워홀 2·3년차, 추첨제로",
+      "desc": "호주가 17일 워킹홀리데이 2년차 비자를 4만5천 명으로 묶고 3년차는 5천 명 추첨제로 바꾼다고 밝혔습니다. 지방 근무를 채워도 연장이 보장되지 않습니다. 시행일은 미정입니다.",
+      "interp": "호주 워홀 중이라면 <b>연장 계획</b>을 다시 점검하세요. 세부 시행일과 경과 규정은 호주 내무부 공지로 확인하세요.",
+      "source": "ABC·인데일리",
+      "read": 3,
+      "url": "https://www.abc.net.au/news/2026-09-17/labor-immigration-crackdown-students-backpackers-overstay-visa/107164354",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "에콰도르 비상사태, 야간 통금",
+      "desc": "에콰도르가 조직범죄 탓에 8개 주에 60일 비상사태를 선포했습니다. 과야킬이 속한 과야스 등 4개 해안 주는 30일까지 0시~5시 통행이 금지됩니다. 영장 없는 수색도 허용됩니다.",
+      "interp": "현지에 머문다면 <b>통금 시간</b> 외출을 피하고 신분증을 지니세요. 방문 계획은 외교부 해외안전여행에서 확인하세요.",
+      "source": "베르나마·리우타임스",
+      "read": 2,
+      "url": "https://www.riotimesonline.com/ecuador-curfew-and-power-plan-2026/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
