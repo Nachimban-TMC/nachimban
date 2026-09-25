@@ -1,0 +1,589 @@
+{
+  "number": 53,
+  "date": "2026-09-25",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "경제연구소, 올해 성장률 1.3%로 상향",
+      "desc": "독일 주요 경제연구소들이 24일 공동전망에서 올해 성장률을 1.3%로 0.7%p 올렸습니다. 내년은 1.1%로 봤습니다. 에너지값과 인구 감소 탓에 회복세는 약하다고 평가했습니다.",
+      "interp": "경기는 나아지지만 <b>에너지값</b>이 발목을 잡는 흐름입니다. 연봉 협상이나 이직을 앞뒀다면 업종별 전망도 함께 확인하세요.",
+      "source": "Gemeinschaftsdiagnose",
+      "read": 3,
+      "url": "https://gemeinschaftsdiagnose.de/2026/09/24/gemeinschaftsdiagnose-herbst-2026-aufschwung-mit-strukturproblemen-finanzpolitik-auf-abwegen/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "공동전망",
+          "explain": "독일 주요 경제연구소들이 봄·가을에 함께 내는 경기 예측 보고서"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "welfare",
+      "head": "자녀수당, 신청 없이 자동 지급 추진",
+      "desc": "아이가 태어나 세금번호가 나오면 신청 없이 자녀수당이 지급되는 법안이 오늘 연방참사원 표결에 오릅니다. 2027년 3월 둘째부터 시작하고, 11월부터는 첫째에게도 적용됩니다.",
+      "interp": "시행 전 태어나는 아이는 지금처럼 <b>가족금고(Familienkasse)</b>에 직접 신청해야 합니다. 올해 출산 예정이면 서류를 미리 챙기세요.",
+      "source": "독일 연방하원·연방참사원",
+      "read": 3,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw28-de-antragsloses-kindergeld-1192542",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "연방참사원",
+          "explain": "각 주 정부 대표로 구성된 독일의 상원 격 의회(Bundesrat)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "housing",
+      "head": "주거보조금 삭감안, 오늘 참사원 심의",
+      "desc": "정부의 주거보조금 삭감안이 오늘 연방참사원 의견 심의에 오릅니다. 2027년 정기 인상 보류, 난방비 몫 절반 축소 등이 담겨 약 38만1천 가구가 수급 자격을 잃을 수 있습니다.",
+      "interp": "이미 받은 결정은 <b>지급 기간이 끝날 때까지</b> 그대로 유지됩니다. 수급 중이라면 다음 갱신 시점을 미리 확인해 두세요.",
+      "source": "wohngeld.org·Stuttgarter Zeitung",
+      "read": 3,
+      "url": "https://www.wohngeld.org/news/wohngeld-kuerzung-2027-381000-haushalte/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "주거보조금",
+          "explain": "저소득 가구의 월세·주거비 일부를 나라가 보태 주는 수당(Wohngeld)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "health",
+      "head": "약국 저녁 부분당번, 10월 신설",
+      "desc": "10월 1일부터 밤새 여는 약국 당번 외에 저녁 8시~10시만 여는 '부분 당번'도 지원금을 받습니다. 약국 개혁법에 따른 조치로, 저녁 시간 약국 선택지가 늘어날 수 있습니다.",
+      "interp": "당번 약국은 <b>aponet.de</b>에서 우편번호로 찾을 수 있습니다. 아이가 있다면 가까운 당번 약국을 미리 알아 두세요.",
+      "source": "Apotheke Adhoc·Gelbe Liste",
+      "read": 2,
+      "url": "https://www.apotheke-adhoc.de/nachrichten/detail/apothekenpraxis/teilnotdienste-ab-oktober/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "약국 당번",
+          "explain": "밤·휴일에 돌아가며 문을 여는 약국 비상 운영 제도(Notdienst)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "알디 노르트 칠면조 커틀릿 회수",
+      "desc": "하이데마르크가 알디 노르트에서 판 '마이네 메츠게라이' 칠면조 커틀릿을 회수합니다. 제조 중 날카로운 플라스틱 조각이 들어갔을 수 있으며, 소비기한 9월 28일 제품이 대상입니다.",
+      "interp": "냉장고에 있다면 <b>로트번호 062640</b>인지 확인하세요. 해당 제품은 영수증이 없어도 매장에서 환불받을 수 있습니다.",
+      "source": "Ruhr Nachrichten·produktwarnung.eu",
+      "read": 2,
+      "url": "https://www.ruhrnachrichten.de/service/rueckruf-aktuell-ticker-lebensmittel-produkt-warnungen-gesundheitsgefahren-24-september-2026-w1246296-2002227025/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "한·멕시코 투자보장협정 7년 만에 타결",
+      "desc": "이재명 대통령과 셰인바움 멕시코 대통령이 24일 정상회담에서 투자보장협정 개정을 타결했습니다. 무역협정 공동연구 착수와 1억 달러 규모 전대금융 신설에도 합의했습니다.",
+      "interp": "멕시코에 진출한 기업과 교민에게는 <b>투자 보호</b>가 강화되는 소식입니다. 현지 사업자는 세부 조항 발표를 지켜보세요.",
+      "source": "파이낸셜뉴스·이투데이",
+      "read": 3,
+      "url": "https://www.fnnews.com/news/202609250425233065",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "투자보장협정",
+          "explain": "상대국 투자자의 재산을 수용·차별로부터 보호하기로 한 국가 간 약속"
+        },
+        {
+          "term": "전대금융",
+          "explain": "국내 은행이 해외 은행에 자금을 빌려주고 그 은행이 한국 제품 수입업체에 다시 빌려주는 방식"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "travel",
+      "head": "기차표, 10월부터 두 달 전 예매",
+      "desc": "10월 1일부터 KTX 등 열차표를 출발 두 달 전부터 예매할 수 있습니다. 지금은 한 달 전입니다. 항공권은 일찍 사도 기차표는 늦게 사야 했던 불편을 덜기 위한 조치입니다.",
+      "interp": "연말 귀국 일정이 정해졌다면 <b>항공권과 기차표</b>를 함께 잡을 수 있습니다. 명절 예매 방식은 별도 공지를 확인하세요.",
+      "source": "머니투데이·파이낸셜뉴스",
+      "read": 2,
+      "url": "https://www.mt.co.kr/society/2026/09/20/2026092009594587971",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "travel",
+      "head": "고속·시외버스 요금, 10월부터 9%↑",
+      "desc": "10월 1일 첫차부터 고속·시외버스 운임 상한이 9% 오릅니다. 2023년 7월 이후 3년여 만입니다. 업계 요구는 17~20%였지만 정부가 이용자 부담을 고려해 줄였습니다.",
+      "interp": "귀국 후 지방 이동이 잦다면 <b>기차와 버스 요금</b>을 비교해 보세요. 실제 요금은 노선과 업체에 따라 조금씩 다를 수 있습니다.",
+      "source": "머니투데이·뉴스핌",
+      "read": 2,
+      "url": "https://www.mt.co.kr/estate/2026/08/26/2026082614412236109",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "운임 상한",
+          "explain": "정부가 정한 요금의 최고 한도로, 업체가 그 안에서 실제 요금을 정함"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "트럼프 ICC 탈퇴 압박, EU 반발",
+      "desc": "트럼프 대통령이 국제형사재판소 회원국들에 탈퇴를 촉구하고 재판관 제재를 준비 중입니다. 네덜란드는 미국 제재를 막을 EU 차단법 발동 준비를 집행위에 요청했습니다.",
+      "interp": "EU와 미국의 갈등이 <b>통상·금융</b>으로 번질 수 있는 사안입니다. 미국과 거래가 많은 사업자는 흐름을 지켜보세요.",
+      "source": "Euronews",
+      "read": 3,
+      "url": "https://www.euronews.com/2026/09/24/europe-today-trump-tells-countries-to-quit-icc-eu-defence-chief-speaks-to-euronews",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "국제형사재판소",
+          "explain": "전쟁범죄·집단학살 등을 저지른 개인을 처벌하는 헤이그의 국제 법원"
+        },
+        {
+          "term": "차단법",
+          "explain": "외국 제재를 EU 안에서 따르지 못하게 막는 EU 규정"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "travel",
+      "head": "이탈리아 관제 파업, 30일 오후 4시간",
+      "desc": "이탈리아 항공관제 인력이 30일 오후 1시부터 5시까지 전국 파업을 벌입니다. 로마·밀라노 리나테·나폴리·볼로냐·피사 등 공항에서 지연과 결항이 생길 수 있습니다.",
+      "interp": "오전 7~10시, 저녁 6~9시 출발편은 <b>운항 보장 시간대</b>입니다. 30일 이탈리아 항공편이 있다면 항공사 알림을 확인하세요.",
+      "source": "베네치아공항·Moveo",
+      "read": 2,
+      "url": "https://www.veneziaairport.it/en_gb/national-enav-strike-on-wednesday-30-september",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "stocks",
+      "head": "H&M 3분기 이익, 예상 크게 웃돌아",
+      "desc": "H&M의 3분기 영업이익이 60억4천만 크로나로 1년 전보다 23% 늘어 예상을 넘었습니다. 미국 관세 환급 효과가 컸고, 매출은 현지통화 기준 1% 느는 데 그쳤습니다.",
+      "interp": "이익은 늘었지만 <b>매출 정체</b>가 과제로 남았습니다. 유럽 소비재주 투자자는 일회성 요인을 빼고 실적을 보세요.",
+      "source": "Bloomberg·Investing.com",
+      "read": 2,
+      "url": "https://www.bloomberg.com/news/articles/2026-09-24/h-m-profit-beats-estimates-on-tariff-refunds-and-higher-margins",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "관세 환급",
+          "explain": "이미 낸 수입 관세를 나중에 돌려받는 것"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "미국 주택대출 금리, 20개월 만에 7%",
+      "desc": "프레디맥 집계 30년 고정 주택담보대출 금리가 7.03%로 전주 6.95%에서 올랐습니다. 7% 돌파는 20개월 만입니다. 10년물 국채금리가 2007년 이후 최고로 뛴 탓입니다.",
+      "interp": "집 구입이나 재융자를 준비 중이라면 <b>금리 고정 시점</b>을 은행과 상의하세요. 변동금리 대출자는 다음 조정일을 확인하세요.",
+      "source": "Fox Business·NPR",
+      "read": 3,
+      "url": "https://www.npr.org/2026/09/24/nx-s1-5977796/mortgage-rates-freddie-mac-homebuying",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "프레디맥",
+          "explain": "미국 주택담보대출을 사들여 시장에 자금을 공급하는 정부 후원 기관"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "life",
+      "head": "캘리포니아 중고차, 사흘 내 취소권",
+      "desc": "10월 1일부터 캘리포니아에서 5만 달러 이하 중고차를 사면 사흘 안에 계약을 취소할 수 있습니다. 판매점은 광고에 총가격을 밝혀야 하고, 쓸모없는 부가상품 판매도 금지됩니다.",
+      "interp": "계약 전 <b>총가격과 선택 항목</b>을 서면으로 받아 두세요. 취소 때 재입고 수수료가 붙을 수 있으니 조건도 확인하세요.",
+      "source": "Newsweek·Sonoma Index-Tribune",
+      "read": 2,
+      "url": "https://www.sonomanews.com/2026/09/24/california-car-law/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "부가상품",
+          "explain": "차량 가격 외에 판매점이 끼워 파는 보증·보험·코팅 등 추가 상품"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "오라클, 데이터센터 불가항력 통보",
+      "desc": "오라클이 뉴멕시코 데이터센터 사업자에 불가항력 통지를 보내 주가가 3% 넘게 빠졌습니다. 2028년 가동이 늦어지면 지급을 미루려는 것입니다. 회사는 일정대로라고 밝혔습니다.",
+      "interp": "AI 인프라 투자가 <b>인허가·전력</b> 문제로 늦어질 수 있다는 신호입니다. 관련 종목 투자자는 일정 변동을 확인하세요.",
+      "source": "CNBC·Yahoo Finance",
+      "read": 2,
+      "url": "https://www.cnbc.com/2026/09/24/oracle-data-center-force-majeure.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "불가항력",
+          "explain": "통제할 수 없는 사유로 계약 이행이 어려울 때 책임을 면해 주는 조항"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "life",
+      "head": "미국 택배비, 10월 4일부터 한시 인상",
+      "desc": "미국 우정청이 10월 4일부터 내년 1월 중순까지 연말 한시 택배 요금을 적용합니다. 그라운드 어드밴티지·프라이어리티 메일 등 국내 소포가 대상이고, 일반 우편은 그대로입니다.",
+      "interp": "가벼운 소포도 <b>0.5달러 안팎</b> 오르고 무겁고 멀수록 더 오릅니다. 연말 선물은 10월 3일 전에 부치면 아낄 수 있습니다.",
+      "source": "FP USA·USPS PostalPro",
+      "read": 2,
+      "url": "https://www.fp-usa.com/usps-temporary-price-change-for-2026-holiday-season",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "우정청",
+          "explain": "미국의 우편·택배를 맡는 연방 독립기관(USPS)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "사우디 메카·제다에 미사일 경보",
+      "desc": "예멘 후티 반군이 사우디 타이프·얀부를 겨냥해 미사일을 쏴 6발이 요격됐습니다. 민방위국은 메카·제다·타북에도 경보를 냈다가 해제했습니다. 제다에는 한인이 다수 삽니다.",
+      "interp": "사우디에 머문다면 <b>민방위 경보</b> 알림을 켜 두고 대피 장소를 확인하세요. 주제다 총영사관 공지도 챙겨 보세요.",
+      "source": "France 24·Gulf News",
+      "read": 3,
+      "url": "https://www.france24.com/en/middle-east/20260924-saudi-houthi-attacks-france-oil-port",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "후티 반군",
+          "explain": "예멘 북부를 장악한 이란 지원 무장세력"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "중국 입국 때 휴대폰 자료 요구 가능",
+      "desc": "중국이 9월 15일부터 새 규정으로 입국 심사 때 휴대폰 속 자료 등 전자데이터를 요구할 수 있게 했습니다. 무비자 한국인도 대상이며, 허위 제출 시 최장 5년 입국이 막힙니다.",
+      "interp": "모든 입국자를 검사하는 것은 아니고 <b>선별 확인</b>입니다. 방문 목적에 맞는 서류를 챙기고 질문에는 사실대로 답하세요.",
+      "source": "여행신문·세계일보",
+      "read": 2,
+      "url": "https://www.traveltimes.co.kr/news/articleView.html?idxno=500439",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "전자데이터",
+          "explain": "휴대폰·노트북 등에 저장된 사진·메시지·파일 같은 디지털 자료"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "visa",
+      "head": "일본 체류 수수료, 10월부터 대폭 인상",
+      "desc": "일본이 10월 1일 접수분부터 체류 수수료를 올립니다. 영주 허가는 1만 엔에서 20만 엔으로, 체류 갱신은 6천 엔에서 기간에 따라 최대 7만5천 엔이 됩니다.",
+      "interp": "일본 거주 중 갱신이 가깝다면 <b>9월 30일 전 접수</b>가 가능한지 알아보세요. 온라인으로 신청하면 조금 더 저렴합니다.",
+      "source": "지지통신·GaijinPot",
+      "read": 2,
+      "url": "https://www.jiji.com/jc/article?k=2026082500332&g=soc",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
