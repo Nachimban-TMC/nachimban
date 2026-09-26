@@ -285,6 +285,7 @@ def viewer_html(iss, picks, ig, th, nslides):
 <button onclick="cp(TH,this)">스레드 문구 복사</button>
 
 <p class="tip">매일 아침 발행과 함께 자동 갱신됩니다.</p>
+<a class="dl" href="deep/">📚 심층 캐러셀 모아보기 →</a>
 <script>
 var IG={igj}, TH={thj};
 document.getElementById('ig').textContent=IG;
