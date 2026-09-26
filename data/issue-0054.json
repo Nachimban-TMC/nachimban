@@ -1,0 +1,513 @@
+{
+  "number": 54,
+  "date": "2026-09-26",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "유류세 인하 확정, 10월1일부터",
+      "desc": "연방의회와 연방참사원이 25일 유류세 인하법을 통과시켰습니다. 10월 1일부터 연말까지 휘발유·경유 세금이 리터당 14.04센트 내립니다. 부가세 포함 약 16.7센트입니다.",
+      "interp": "세금 인하가 <b>주유소 가격</b>에 그대로 반영된다는 보장은 없습니다. 10월 초 가격을 앱으로 비교해 싼 곳에서 주유하세요.",
+      "source": "ZDF·연방참사원",
+      "read": 3,
+      "url": "https://www.zdfheute.de/politik/deutschland/tankrabatt-bundestag-bundesrat-steuern-benzin-diesel-entlastung-autofahrer-100.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "연방참사원",
+          "explain": "16개 주정부 대표로 구성된 독일의 상원 격 입법기관"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "VW·아우디 286만대 조향 리콜",
+      "desc": "폭스바겐이 조향장치 나사 부식 우려로 전 세계 286만 대를 리콜합니다. 2013~2024년식 골프·티구안·투란·카디와 아우디 Q3가 대상입니다. 독일에서만 약 95만 대입니다.",
+      "interp": "해당 차종이면 <b>차대번호</b>로 정비소에 대상 여부를 문의하세요. 연방자동차청은 아직 관련 사고 보고는 없다고 밝혔습니다.",
+      "source": "유로뉴스·연방자동차청",
+      "read": 3,
+      "url": "https://www.euronews.com/2026/09/25/over-28-million-audi-and-volkswagen-vehicles-face-recall-worldwide",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "오피스2021·윈도10, 13일 지원 끝",
+      "desc": "마이크로소프트가 10월 13일 오피스 2021 보안 업데이트를 끝냅니다. 같은 날 윈도10 개인용 연장 보안 지원도 끝납니다. 계속 쓸 수는 있지만 보안 위험이 커집니다.",
+      "interp": "인터넷 뱅킹이나 세금신고에 쓰는 PC라면 <b>보안 업데이트</b> 종료 전에 버전을 확인하세요. 필요하면 업그레이드를 검토하세요.",
+      "source": "하이제·마이크로소프트",
+      "read": 3,
+      "url": "https://www.heise.de/en/news/Microsoft-Office-2021-Support-ends-October-13-2026-11258302.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "welfare",
+      "head": "자녀수당 자동지급법, 참사원 통과",
+      "desc": "신청 없이 자녀수당을 주는 법이 25일 연방참사원을 통과했습니다. 2027년부터 둘째 이후 자녀에 먼저 적용하고 이어 첫째로 넓힙니다. 세금번호와 계좌 정보가 있어야 지급됩니다.",
+      "interp": "자동 지급은 행정기관이 <b>세금번호와 계좌</b>를 알고 있어야 가능합니다. 출산 뒤 세금번호 통지서가 오면 계좌 등록을 확인하세요.",
+      "source": "슈투트가르터 차이퉁·연방참사원",
+      "read": 3,
+      "url": "https://www.stuttgarter-zeitung.de/politik/entscheidung-im-bundesrat-eltern-sollen-leichter-an-kindergeld-kommen-79502997.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "연방참사원",
+          "explain": "16개 주정부 대표로 구성된 독일의 상원 격 입법기관"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "전동킥보드 사고, 대여업체도 배상",
+      "desc": "전동킥보드 사고 때 소유자도 과실과 관계없이 책임지는 법이 25일 통과했습니다. 공유 킥보드는 대여업체에 배상을 청구할 수 있습니다. 공포 시기에 따라 10월이나 1월 시행됩니다.",
+      "interp": "킥보드에 치여 다쳤다면 운전자뿐 아니라 <b>대여업체</b>에도 배상을 청구할 수 있게 됩니다. 현장 사진과 기기 번호를 꼭 남기세요.",
+      "source": "모비플립·연방참사원",
+      "read": 3,
+      "url": "https://www.mobiflip.de/bundesrat-beschliesst-neue-haftungsregeln-fuer-e-scooter/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "동포들, 귀국 건보 6개월 요건 개선 건의",
+      "desc": "이재명 대통령이 멕시코시티에서 동포 150여 명과 간담회를 했습니다. 동포들은 귀국 후 6개월 체류해야 건보가 되는 요건 완화를 건의했습니다. 한·중남미재단 설립도 요청했습니다.",
+      "interp": "지금은 재외국민이 귀국해도 <b>6개월 체류</b> 전에는 지역 건강보험 가입이 어렵습니다. 귀국 전 현지 보험의 해외 보장을 확인하세요.",
+      "source": "재외동포신문·머니투데이",
+      "read": 3,
+      "url": "https://www.dongponews.net/news/articleView.html?idxno=60758",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "재외국민 사기 피해 신고 역대 최다",
+      "desc": "지난해 재외공관에 접수된 재외국민 사기 피해 신고가 1376명으로 2015년 집계 이후 최다였습니다. 전년보다 41% 늘었고 유럽은 295명입니다. 올해 상반기는 504명입니다.",
+      "interp": "공관이나 경찰을 사칭해 <b>송금</b>이나 개인정보를 요구하면 일단 끊으세요. 공관 대표번호로 직접 확인하고 피해 시 바로 신고하세요.",
+      "source": "재외동포신문·연합뉴스",
+      "read": 3,
+      "url": "https://www.dongponews.net/news/articleView.html?idxno=60759",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "9월 1~20일 수출 역대 최대",
+      "desc": "관세청 집계로 9월 1~20일 수출이 714억 달러로 같은 기간 역대 최대였습니다. 반도체가 259% 늘어 전체의 47.8%를 차지했습니다. 무역흑자도 230억 달러로 최대입니다.",
+      "interp": "수출 호조로 <b>원화 강세</b>가 이어지면 유로를 원화로 바꿀 때 받는 금액이 줄어듭니다. 큰 금액 송금은 환율을 보며 나눠 보내세요.",
+      "source": "머니투데이·데일리안",
+      "read": 3,
+      "url": "https://www.mt.co.kr/economy/2026/09/21/2026092108492711766",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "폴란드, 독일 국경검문 내년 3월까지",
+      "desc": "폴란드가 독일·리투아니아 국경의 임시 검문을 10월 2일부터 내년 3월 30일까지 연장합니다. 유럽연합 집행위원회에 통보됐습니다. 벨라루스발 불법 이주 우려를 이유로 들었습니다.",
+      "interp": "차나 기차로 폴란드를 오갈 때는 <b>여권과 체류허가증</b>을 꼭 챙기세요. 검문으로 국경 통과 시간이 더 걸릴 수 있습니다.",
+      "source": "비자스업데이트·프라고먼",
+      "read": 3,
+      "url": "https://www.visasupdate.com/post/schengen-internal-border-controls-september-2026",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "travel",
+      "head": "이지젯 포르투갈 10월 2~6일 파업",
+      "desc": "이지젯 포르투갈 승무원들이 10월 2일부터 6일까지 파업합니다. 리스본·포르투·파루 기지에서 약 500편이 영향을 받을 수 있습니다. 12월 19~23일에도 파업이 예고됐습니다.",
+      "interp": "이 기간 포르투갈 여행 예약자는 <b>항공사 앱</b>에서 결항 여부를 확인하세요. 결항되면 대체편·환불과 유럽연합 보상 규정을 챙기세요.",
+      "source": "푸블리쿠·옵세르바도르",
+      "read": 3,
+      "url": "https://www.publico.pt/2026/09/17/economia/noticia/tripulantes-easyjet-greve-2-6-outubro-semana-natal-2188356",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "invest",
+      "head": "프랑스·독일 금리차, 14년 만에 최대",
+      "desc": "프랑스·독일 10년물 국채 금리차가 이번 주 1.1%포인트를 넘어 2012년 이후 최대였습니다. 스코프가 18일 프랑스 등급을 A+로 내린 영향입니다. 25일엔 소폭 좁혀졌습니다.",
+      "interp": "유럽 채권형 펀드나 <b>국채 ETF</b>를 갖고 있다면 국가별 비중을 확인하세요. 프랑스 정국과 재정 소식이 변동성을 키울 수 있습니다.",
+      "source": "유로뉴스·블룸버그",
+      "read": 3,
+      "url": "https://www.euronews.com/2026/09/25/european-bond-yields-ease-after-sell-off-as-us-mortgage-rates-hit-a-high-in-trumps-term",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "스코프",
+          "explain": "독일 베를린에 본사를 둔 유럽계 신용평가회사"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "허리케인 놀로, 하와이섬 폭우 비상",
+      "desc": "2등급 허리케인 놀로가 26일 하와이섬에 가장 가깝게 접근합니다. 상륙은 않지만 곳에 따라 380mm가 넘는 폭우로 큰 홍수가 우려됩니다. 힐로공항 항공편 21편이 결항했습니다.",
+      "interp": "하와이에 있다면 <b>저지대·계곡</b>을 피하고 카운티 재난 안내를 확인하세요. 주요 항공사 무료 일정 변경도 이용할 수 있습니다.",
+      "source": "하와이뉴스나우·CBS",
+      "read": 3,
+      "url": "https://www.hawaiinewsnow.com/2026/09/26/least-21-hilo-flights-cancelled-due-hurricane-nolo/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "visa",
+      "head": "H-1B, 감원 기업 심사 강화",
+      "desc": "트럼프 대통령이 H-1B 심사 때 고용주의 감원 여부를 따지라고 지시했습니다. 10만 달러 부과 조치도 2027년 9월까지 연장했습니다. 다만 법원 판결로 징수는 멈춘 상태입니다.",
+      "interp": "최근 <b>정리해고</b>를 한 회사에서 H-1B를 준비 중이면 심사가 까다로워질 수 있습니다. 이민 변호사와 서류를 미리 점검하세요.",
+      "source": "SHRM·비자스업데이트",
+      "read": 3,
+      "url": "https://www.shrm.org/topics-tools/news/100k-h-1b-fee-extended-through-2027",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "H-1B",
+          "explain": "미국 기업이 외국인 전문 인력을 고용할 때 쓰는 취업비자"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "이민서류 주말 마감 연장, 23일 축소",
+      "desc": "미국 이민국이 10월 23일부터 주말·공휴일 마감 연장을 좁힙니다. 21세 생일 전 접수처럼 자격 기준일이 걸린 서류는 다음 영업일로 미뤄지지 않습니다. 종이 접수분이 대상입니다.",
+      "interp": "자녀 <b>21세 전 접수</b>처럼 기한이 걸린 서류는 주말 전에 도착하도록 여유 있게 보내세요. 전자 접수는 원래 기한을 지켜야 합니다.",
+      "source": "미국 이민국·NEPYORK",
+      "read": 3,
+      "url": "https://www.uscis.gov/sites/default/files/document/policy-manual-updates/20260923-DefinitionOfDay.pdf",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "코스트코 4분기 순익, 예상 웃돌아",
+      "desc": "코스트코 4분기 매출이 939억 달러로 11.2% 늘었습니다. 주당순이익은 6.75달러로 예상치 6.53달러를 넘었습니다. 관세 환급 효과를 빼도 이익이 12% 넘게 늘었습니다.",
+      "interp": "유료 회원이 8410만 명으로 늘어 <b>회원제 수익</b>이 탄탄합니다. 회사는 관세 환급분을 가격 인하에 썼다고 밝혔습니다.",
+      "source": "코스트코 실적공시·야후파이낸스",
+      "read": 3,
+      "url": "https://www.sec.gov/Archives/edgar/data/0000909832/000090983226000084/costex9918-k92426.htm",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "주당순이익",
+          "explain": "회사 순이익을 발행 주식 수로 나눈 값"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "에볼라 사망 3700명 넘어, 확산 지속",
+      "desc": "민주콩고 에볼라 사망자가 3700명을 넘었다고 유엔이 23일 밝혔습니다. 북키부주는 최근 3주 새 환자가 73% 늘었습니다. 이번 분디부조 변종은 승인된 백신과 치료제가 없습니다.",
+      "interp": "민주콩고 3개 주는 <b>여행금지</b>, 우간다는 특별여행주의보입니다. 다녀온 뒤 21일 안에 열이 나면 검역 당국에 먼저 알리세요.",
+      "source": "유엔뉴스·외교부",
+      "read": 3,
+      "url": "https://news.un.org/en/story/2026/09/1168407",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "분디부조",
+          "explain": "기존 에볼라 백신이 듣지 않는 에볼라 바이러스의 한 종류"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "태풍 수리개, 27일 오키나와 접근",
+      "desc": "제26호 태풍 수리개가 27일 강한 세력으로 오키나와 남쪽 해상에 접근합니다. 최대풍속 초속 37m까지 커지고 느리게 움직여 영향이 길어질 수 있습니다. 주말 대비가 필요합니다.",
+      "interp": "추석 연휴 <b>오키나와</b> 여행객은 항공사 운항 공지를 수시로 확인하세요. 귀국편이 결항되면 숙박 연장 비용도 미리 따져 두세요.",
+      "source": "파이낸셜뉴스·일본기상협회",
+      "read": 3,
+      "url": "https://www.fnnews.com/news/202609260745274285",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
