@@ -47,8 +47,24 @@ def build_one(slug, title, date, region):
     os.makedirs(os.path.join(dst, "img"))
     for p in imgs:
         shutil.copy2(p, os.path.join(dst, "img", os.path.basename(p)))
+    # 2026-09-26부터: 인스타·스레드 공용 문구 하나(<슬러그>-post.txt, 스레드 규격 500자·태그 1개)
+    post = _read(os.path.join(HERE, f"{slug}-post.txt"))
     ig = _read(os.path.join(HERE, f"{slug}-caption-ig.txt")) or _read(os.path.join(HERE, f"{slug}-caption.txt"))
     th = _read(os.path.join(HERE, f"{slug}-threads.txt"))
+    if post:
+        texts = f"""<h2>📝 인스타·스레드 공용 문구 ({len(post)}자)</h2>
+<div class="note">인스타 캡션과 스레드에 똑같이 붙여 넣으세요.</div>
+<div class="cap" id="ig"></div>
+<button onclick="cp(IG,this)">문구 복사</button>"""
+        ig, th = post, ""
+    else:
+        texts = """<h2>📝 인스타그램 캡션</h2>
+<div class="cap" id="ig"></div>
+<button onclick="cp(IG,this)">캡션 복사</button>
+
+<h2>🧵 스레드 문구</h2>
+<div class="cap" id="th"></div>
+<button onclick="cp(TH,this)">스레드 문구 복사</button>"""
     n = len(imgs)
     thumbs = "".join(
         f'<a href="img/deep-{i:02d}.jpg" download="nachimban-deep-{slug}-{i:02d}.jpg">'
@@ -68,19 +84,13 @@ def build_one(slug, title, date, region):
 <div class="note">길게 눌러 저장하거나 번호를 눌러 내려받으세요. 인스타에는 순서대로 올리세요.</div>
 <div class="grid">{thumbs}</div>
 
-<h2>📝 인스타그램 캡션</h2>
-<div class="cap" id="ig"></div>
-<button onclick="cp(IG,this)">캡션 복사</button>
-
-<h2>🧵 스레드 문구</h2>
-<div class="cap" id="th"></div>
-<button onclick="cp(TH,this)">스레드 문구 복사</button>
+{texts}
 
 <p class="tip">이 페이지는 매일 자동 갱신되지 않습니다. 오늘의 소셜 자료는 <a href="/social/">/social</a> 에 있습니다.</p>
 <script>
 var IG={json.dumps(ig, ensure_ascii=False)}, TH={json.dumps(th, ensure_ascii=False)};
 document.getElementById('ig').textContent=IG||'(캡션 파일 없음)';
-document.getElementById('th').textContent=TH||'(스레드 파일 없음)';
+var thEl=document.getElementById('th'); if(thEl) thEl.textContent=TH||'(스레드 파일 없음)';
 function cp(t,b){{navigator.clipboard.writeText(t).then(function(){{
  var o=b.textContent;b.textContent='복사됨 ✓';setTimeout(function(){{b.textContent=o}},1500);}});}}
 </script></body></html>"""
