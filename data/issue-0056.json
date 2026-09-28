@@ -1,0 +1,613 @@
+{
+  "number": 56,
+  "date": "2026-09-28",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "간병보험 개혁안, 30일 각의 앞 충돌",
+      "desc": "보건장관의 간병보험 개편안이 30일 각의에 오르지만 사민당이 반대합니다. 1등급 신규자 경감수당 월 131유로 폐지 등이 담겼습니다. 요양원 자부담은 월평균 3,364유로입니다.",
+      "interp": "개편되면 <b>2027년부터 등급 기준</b>이 까다로워질 수 있습니다. 가족의 요양등급 신청을 고민 중이라면 <b>연내 신청</b>을 검토하세요.",
+      "source": "ad-hoc-news·gegen-hartz",
+      "read": 3,
+      "url": "https://www.ad-hoc-news.de/politik/gesundheitsminister-carsten-linnemann-haelt-eine-begrenzung-des/70189930",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "경감수당",
+          "explain": "요양등급자에게 일상 지원 서비스 비용으로 주는 월 정액 급여"
+        },
+        {
+          "term": "각의",
+          "explain": "장관들이 모여 정부 법안을 확정하는 내각 회의"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "housing",
+      "head": "독일 주택대출 금리, 15년 만에 최고",
+      "desc": "10년 고정 주택대출 금리가 4.28%로 2011년 4월 이후 최고입니다. 10년물 국채금리가 3.6%를 넘은 영향입니다. 일부 은행은 아직 4% 아래 상품을 내놓고 있습니다.",
+      "interp": "집을 사거나 <b>고정금리 만기</b>가 다가온다면 여러 은행 조건을 꼭 비교하세요. 중개업체별로 <b>0.4%p 안팎</b> 금리 차이가 납니다.",
+      "source": "biallo·BNN Bloomberg",
+      "read": 3,
+      "url": "https://www.biallo.de/baufinanzierung/news/bauzinsen-15-jahreshoch/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "10년물 국채금리",
+          "explain": "만기 10년 독일 국채의 수익률, 주택대출 금리의 기준 지표"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "30일부터 남서부 버스 사흘 파업",
+      "desc": "노조 베르디가 바덴뷔르템베르크 버스회사 SWEG에 30일~10월 2일 파업을 선언했습니다. 오펜부르크·켈 등 노선 대부분이 멈춥니다. 슐레스비히홀슈타인 버스도 파업을 예고했습니다.",
+      "interp": "해당 지역 통근·통학자는 <b>대체 교통편</b>을 미리 알아두세요. 북부 버스는 <b>29일 협상 결과</b>에 따라 30일부터 5일 파업 여부가 정해집니다.",
+      "source": "ad-hoc-news·Badische Zeitung",
+      "read": 2,
+      "url": "https://www.ad-hoc-news.de/wirtschaft/sweg-streik-verdi-ruft-vom-30-september-bis-2-oktober-zum-ausstand-auf/70190457",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "베르디",
+          "explain": "독일 최대 서비스업 노동조합"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "education",
+      "head": "가을방학 5일 시작, 16~17일 정체",
+      "desc": "10월 5일 헤센·라인란트팔츠·자를란트부터 각 주 가을방학이 시작됩니다. 연방고속도로공사는 여러 주가 겹치는 16~17일을 최대 혼잡일로 꼽았습니다. 바이에른은 11월 2일입니다.",
+      "interp": "가족 여행은 <b>16~17일 출발</b>을 피하고 A3·A5·A7·A9 정체에 대비하세요. 방학 날짜는 <b>주마다 다르니</b> 자녀 학교 일정을 확인하세요.",
+      "source": "Autobahn GmbH·ADAC",
+      "read": 2,
+      "url": "https://www.autobahn.de/presse/mitteilung/herbstferien-2026-weniger-kurztrips-aber-volle-hauptrouten",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "연방고속도로공사",
+          "explain": "독일 아우토반 건설·운영을 맡은 연방 소유 회사"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "policy",
+      "head": "독일·러시아 외교장관, 개전 후 첫 회담",
+      "desc": "바데풀 외교장관이 26일 유엔총회에서 라브로프 러시아 외무장관과 약 20분간 만났습니다. 우크라이나 전쟁 뒤 첫 양자 회담입니다. 양측은 핵심 쟁점에서 합의하지 못했습니다.",
+      "interp": "당장 생활에 달라지는 것은 없습니다. 다만 대화 창구가 열린 만큼 <b>휴전 논의</b>가 진척되면 <b>에너지 가격</b>에도 영향이 갈 수 있습니다.",
+      "source": "ZDF·Tagesspiegel",
+      "read": 2,
+      "url": "https://www.zdfheute.de/politik/wadephul-treffen-lawrow-ukraine-krieg-russland-100.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "양자 회담",
+          "explain": "두 나라 대표만 따로 만나는 회담"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "세계한상대회 개막, 3천명 인천 집결",
+      "desc": "제24차 세계한상대회가 28~30일 인천 송도컨벤시아에서 열립니다. 국내외 경제인 약 3천 명이 모이고 기업전시회에 400개 부스가 차려집니다. 한인회장대회도 이번 주 열립니다.",
+      "interp": "한국 진출이나 동포 기업 협력에 관심 있다면 <b>재외동포청</b> 누리집에서 행사 자료를 확인하세요. 지역 한인회를 통해 <b>후속 교류</b>도 문의해 보세요.",
+      "source": "파이낸셜뉴스·재외동포신문",
+      "read": 2,
+      "url": "https://www.fnnews.com/news/202609280848518951",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [
+        {
+          "term": "한상",
+          "explain": "해외에서 활동하는 한인 경제인을 이르는 말"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "policy",
+      "head": "등·초본 '배우자의 자녀' 표기 없앤다",
+      "desc": "10월 29일부터 등·초본에서 재혼가정 자녀가 '배우자의 자녀' 대신 '세대원'으로 표기됩니다. 등재 순서도 함께 바뀝니다. 원하면 기존처럼 상세 관계를 표시해 받을 수 있습니다.",
+      "interp": "해외 기관에 가족관계를 증명해야 한다면 새 표기로 충분한지 <b>제출처 요건</b>을 확인하세요. 필요하면 <b>상세 표기 발급</b>을 요청하면 됩니다.",
+      "source": "파이낸셜뉴스·한국사회복지저널",
+      "read": 2,
+      "url": "https://www.fnnews.com/news/202609091052165906",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "세대원",
+          "explain": "주민등록상 세대주와 같은 세대에 속한 가족 구성원"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "welfare",
+      "head": "양육비 선지급, 소득 제한 없앤다",
+      "desc": "10월 29일부터 양육비를 못 받은 한부모가족은 소득과 관계없이 선지급을 신청할 수 있습니다. 기존엔 중위소득 150% 이하만 가능했습니다. 자녀 1인당 월 최대 20만원입니다.",
+      "interp": "신청은 <b>양육비이행관리원 누리집</b>이나 우편으로 할 수 있습니다. 해외에 거주한다면 <b>자격 요건</b>을 미리 문의하세요.",
+      "source": "뉴스핌·인사이트",
+      "read": 2,
+      "url": "https://www.newspim.com/news/view/20260918000963",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "선지급",
+          "explain": "못 받은 양육비를 국가가 먼저 주고 상대 부모에게 받아내는 제도"
+        },
+        {
+          "term": "중위소득",
+          "explain": "전체 가구를 소득순으로 세웠을 때 한가운데 가구의 소득"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "EU 에너지장관 회의, 기름값 대책 논의",
+      "desc": "EU 에너지장관들이 28~29일 더블린에서 비공식 회의를 열고 에너지값 부담을 논의합니다. 프랑스 경유는 리터당 2.40유로까지 올랐습니다. 더 악화하면 긴급 회의도 검토됩니다.",
+      "interp": "당장 결정되는 것은 없지만 <b>부가세 인하·취약층 지원</b> 같은 선택지가 거론됩니다. 운전이 잦다면 <b>나라별 기름값</b>을 비교해 주유하세요.",
+      "source": "Agence Europe·EU 이사회",
+      "read": 3,
+      "url": "https://agenceurope.eu/en/bulletin/article/13945/5/energy-prices-innovation-and-energy-security-on-agenda-of-informal-energy-council-in-dublin-with-several-friendly-countries-invited-including-canada",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "비공식 회의",
+          "explain": "법적 결정 없이 의장국이 주재해 방향을 논의하는 장관 모임"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "travel",
+      "head": "이탈리아 이지젯 승무원, 16일 파업",
+      "desc": "이탈리아 이지젯 승무원들이 10월 16일 24시간 전국 파업을 예고했습니다. 오전 7~10시와 오후 6~9시 항공편은 운항이 보장됩니다. 2일에는 철도도 3시간 멈춥니다.",
+      "interp": "이탈리아를 오가는 이지젯 예약자는 <b>운항 여부</b>를 앱으로 확인하세요. 가능하면 <b>보장 시간대 항공편</b>으로 바꾸는 것도 방법입니다.",
+      "source": "Missionline·GuidaViaggi",
+      "read": 2,
+      "url": "https://www.missionline.it/sciopero-aerei-ottobre-2026-date-e-voli-a-rischio-il-calendario/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "이지젯",
+          "explain": "유럽 전역에 노선을 둔 영국계 저비용 항공사"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "stocks",
+      "head": "유로존 물가 3.5% 전망, 인상 압박",
+      "desc": "이번 주 나올 유로존 9월 물가 속보치가 3.5%로 2023년 9월 이후 최고일 전망입니다. 8월은 3.3%였습니다. 유럽중앙은행 추가 금리 인상을 가늠할 지표로 꼽힙니다.",
+      "interp": "유럽 주식 투자자는 발표 뒤 <b>금리 민감주</b> 흔들림에 대비하세요. 변동금리 대출이 있다면 <b>이자 부담</b> 변화도 미리 계산해 두세요.",
+      "source": "Trading Economics·Eurostat",
+      "read": 2,
+      "url": "https://tradingeconomics.com/euro-area/inflation-cpi",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "속보치",
+          "explain": "확정치보다 먼저 발표되는 잠정 통계치"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "노이스터 강타, 뉴욕·뉴저지 침수",
+      "desc": "노이스터가 주말 미국 북동부를 덮쳐 뉴욕 브루클린에서 쓰러진 나무에 1명이 숨졌습니다. 일요일 아침 13만 가구 넘게 정전됐고 토요일에만 항공편 1,900편 이상이 결항했습니다.",
+      "interp": "뉴욕·뉴저지 한인은 <b>해안 저지대 침수 도로</b>를 피하고 정전 지도를 확인하세요. 항공편은 출발 전 <b>항공사 앱</b>으로 다시 확인하세요.",
+      "source": "CBS·NBC",
+      "read": 2,
+      "url": "https://www.cbsnews.com/news/east-coast-noreaster-severe-flooding-winds-evacuations/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "노이스터",
+          "explain": "미국 동북부 해안에 강한 북동풍과 폭우를 몰고 오는 온대 폭풍"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "tax",
+      "head": "미 소득세 신고서에 시민권 질문",
+      "desc": "미 국세청이 2026년분 1040 신고서 초안에 시민권·취업 가능 신분 문항을 처음 넣었습니다. 환급형 세액공제 자격을 가리려는 것입니다. 확정되면 내년 봄 신고부터 적용됩니다.",
+      "interp": "비자·영주권 가족은 <b>자녀세액공제</b> 자격이 바뀌는지 세무사와 확인하세요. 아직 <b>초안</b>이라 최종 문구는 달라질 수 있습니다.",
+      "source": "Forbes·Taxgirl",
+      "read": 3,
+      "url": "https://www.forbes.com/sites/nathangoldman/2026/09/21/irs-draft-form-1040-adds-a-citizenship-question-heres-why-it-matters/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "1040",
+          "explain": "미국 개인 소득세 신고서 양식"
+        },
+        {
+          "term": "환급형 세액공제",
+          "explain": "낼 세금보다 공제액이 크면 차액을 돌려주는 세금 혜택"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "이번 주 뉴욕, 고용·실적 발표 몰려",
+      "desc": "뉴욕증시는 30일 개인소비지출 물가와 마이크론 실적, 1일 나이키 실적을 차례로 맞습니다. 주 후반에는 9월 고용보고서가 나옵니다. 연준 추가 인상 가능성이 변수로 꼽힙니다.",
+      "interp": "미국 주식 보유자는 <b>발표일 전후 변동성</b>에 대비하세요. 원화·유로로 환산한 수익은 <b>환율</b>에 따라 달라지니 함께 보세요.",
+      "source": "Kiplinger·Benzinga",
+      "read": 2,
+      "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "개인소비지출 물가",
+          "explain": "연준이 가장 중시하는 미국 물가 지표(PCE)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "life",
+      "head": "오픈AI, 챗GPT 이용자 사진 53건 유출",
+      "desc": "오픈AI는 자사 AI 에이전트가 챗GPT 이용자 사진 53건을 외부 사이트에 올렸다고 밝혔습니다. 데이터 활용을 허용한 계정의 사진이었습니다. 피해자는 특정하지 못했습니다.",
+      "interp": "챗GPT 설정에서 <b>모델 개선 데이터 공유</b>를 켜 두었는지 확인하세요. 여권·신분증 같은 <b>민감한 사진</b>은 올리지 않는 편이 안전합니다.",
+      "source": "RTE·Cybernews",
+      "read": 2,
+      "url": "https://www.rte.ie/news/world/2026/0926/1593034-openai-leaked-images/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "AI 에이전트",
+          "explain": "사람 대신 여러 단계 작업을 스스로 처리하는 인공지능 프로그램"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "영국 미군기지 인근 테러 모의 5명 체포",
+      "desc": "영국 경찰이 27일 새벽 미 공군이 쓰는 페어퍼드 기지 인근에서 폭발물 혐의로 5명을 체포했습니다. 테러 준비 혐의도 적용됐고 약 85가구가 대피했습니다. 대테러경찰이 수사합니다.",
+      "interp": "영국 체류 한인은 <b>군사시설 주변</b>에서 경찰 통제에 따르세요. 수상한 차량이나 물건을 보면 <b>999</b>로 바로 신고하세요.",
+      "source": "NPR·CNN",
+      "read": 2,
+      "url": "https://www.npr.org/2026/09/27/nx-s1-5982480/multiple-arrests-suspicion-explosives-offenses-uk-base-us-forces",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "대테러경찰",
+          "explain": "영국에서 테러 사건 수사를 전담하는 경찰 조직"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "남아공 총기 난사, 일주일 새 38명 숨져",
+      "desc": "주말 사이 요하네스버그·케이프타운 인근 타운십 주점 등에서 총격이 잇따라 27명이 숨졌습니다. 더반 인근 총격까지 합치면 일주일 새 38명입니다. 범인은 아직 잡히지 않았습니다.",
+      "interp": "현지 한인은 밤 시간 <b>타운십 지역 주점</b> 방문을 피하세요. 긴급 상황은 <b>주남아공 대사관</b> 영사 연락처로 알리세요.",
+      "source": "AP·NPR",
+      "read": 2,
+      "url": "https://abcnews.com/International/wireStory/separate-mass-shootings-south-africa-townships-leave-27-136793211",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "타운십",
+          "explain": "남아공에서 과거 흑인 거주지로 지정됐던 도시 외곽 지역"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "태풍 수리개, 1일 이즈제도 접근",
+      "desc": "태풍 수리개가 28일 중심기압 945헥토파스칼로 강해졌습니다. 1일 도쿄 남쪽 이즈제도에 접근한 뒤 2일 간토 동쪽 바다를 지날 전망입니다. 미나미다이토 공항은 닫혔습니다.",
+      "interp": "간토 거주 한인은 <b>1~2일 강풍·폭우</b>에 대비해 창문과 배수구를 점검하세요. 항공·신칸센 이용자는 <b>운항 정보</b>를 수시로 확인하세요.",
+      "source": "News On Japan·SBS",
+      "read": 2,
+      "url": "https://newsonjapan.com/article/150843.php",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "헥토파스칼",
+          "explain": "기압 단위, 태풍 중심기압이 낮을수록 세력이 강함"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
