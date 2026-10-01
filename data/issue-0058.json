@@ -1,0 +1,604 @@
+{
+  "number": 58,
+  "date": "2026-10-01",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "간병보험 개혁안, 각의 통과",
+      "desc": "독일 내각이 30일 간병보험 개혁안을 의결했습니다. 자녀 없는 가입자 추가 보험료가 2027년부터 0.6%에서 0.9%로 오릅니다. 기본 요율 3.6%는 그대로입니다.",
+      "interp": "자녀 없는 직장인은 <b>내년 1월 급여명세서</b>의 공제액을 확인하세요. 자녀가 있다면 <b>출생증명서</b>를 보험사에 냈는지 점검하세요.",
+      "source": "ZDF·타츠",
+      "read": 3,
+      "url": "https://www.zdfheute.de/politik/pflege-pflegereform-kabinett-cdu-spd-linnemann-faq-100.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "간병보험",
+          "explain": "돌봄이 필요할 때 비용을 지원하는 독일 공적 보험(Pflegeversicherung)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "아마존 프라임 인상, 연방대법원 심리",
+      "desc": "연방대법원이 1일 아마존 프라임 인상을 심리합니다. 연회비가 69유로에서 89.90유로로 올랐고 하급심은 인상 조항을 무효로 봤습니다. 이기면 최대 약 60유로를 돌려받습니다.",
+      "interp": "환급을 원하면 연방법무청 <b>집단소송 등록부</b>에 이름을 올려야 합니다. 등록은 <b>심리 종료 3주 후</b>까지 가능하니 서둘러 확인하세요.",
+      "source": "티온라인·한델스블라트",
+      "read": 3,
+      "url": "https://www.t-online.de/finanzen/aktuelles/id_101460588/der-amazon-fall-bgh-prueft-preiserhoehung-bei-prime.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "연방대법원",
+          "explain": "민사·형사 사건을 최종 판단하는 독일 최고법원(BGH)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "health",
+      "head": "독감 백신, 올해 세 종류 모두 교체",
+      "desc": "올해 독감 백신은 세 종류가 모두 새 균주로 바뀌었습니다. 시즌은 이번 주 시작되며 권장 접종 시기는 10~11월입니다. 파울에를리히연구소는 공급에 문제가 없다고 밝혔습니다.",
+      "interp": "60세 이상·임신부·만성질환자는 <b>공보험이 비용을 부담</b>합니다. 18세 이상은 <b>약국</b>에서도 맞을 수 있으니 예약 가능 여부를 물어보세요.",
+      "source": "약사신문·아포넷",
+      "read": 2,
+      "url": "https://www.pharmazeutische-zeitung.de/grippeimpfstoffe-20262027-mit-neuer-zusammensetzung-163506/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "균주",
+          "explain": "같은 바이러스 안에서 유전적으로 구분되는 갈래"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "미니 살라미, 금속 철사로 회수",
+      "desc": "프랑키 상표 미니 살라미에 철사 조각이 섞였을 수 있어 회수됩니다. 대상은 로트 1030, 유통기한 2027년 2월 15일 제품입니다. 작센·니더작센 등 4개 주에서 팔렸습니다.",
+      "interp": "해당 제품은 먹지 말고 <b>구입처</b>에 반납하면 값을 돌려받습니다. 주로 <b>건축자재 매장·온라인</b>에서 팔렸으니 구매 내역을 확인하세요.",
+      "source": "티온라인·푸드모니터",
+      "read": 2,
+      "url": "https://www.food-monitor.de/2026/09/rueckruf-moegliche-metallfremdkoerper-in-toskana-mini-salami-von-franchi/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "policy",
+      "head": "베를린, 좌파당 주도 연정 탐색",
+      "desc": "베를린 선거에서 25.7%로 1당이 된 좌파당이 1일 녹색당·사민당과 탐색 회담을 열었습니다. 첫 의제는 반유대주의·인종차별·조직범죄 대응입니다. 정식 연정 협상은 그 뒤입니다.",
+      "interp": "새 주정부 구성까지는 시간이 걸려 <b>주거·교통 정책</b>은 당분간 현행대로입니다. 월세 규제 변화는 <b>연정 합의문</b>이 나오면 확인하세요.",
+      "source": "타츠·뉴스데",
+      "read": 2,
+      "url": "https://taz.de/Sondierungen-in-Berlin/!6216437/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "탐색 회담",
+          "explain": "정식 연정 협상 전에 손잡을 가능성을 타진하는 예비 회담"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "policy",
+      "head": "코인 보이스피싱 피해도 환급",
+      "desc": "1일부터 보이스피싱 피해금이 가상자산으로 바뀌어도 지급정지와 환급이 됩니다. 거래소 계정이 없으면 전담기관이 팔아 현금으로 줍니다. 그동안 가상자산은 구제 대상이 아니었습니다.",
+      "interp": "피해를 알면 즉시 <b>한국 금융회사·경찰</b>에 지급정지를 요청하세요. 해외에서는 <b>영사콜센터</b>를 통해 신고 도움을 받을 수 있습니다.",
+      "source": "파이낸셜뉴스·데일리안",
+      "read": 3,
+      "url": "https://www.fnnews.com/news/202607151657505105",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [
+        {
+          "term": "지급정지",
+          "explain": "사기에 쓰인 계좌에서 돈이 빠져나가지 못하게 막는 조치"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "9월 수출 1209억달러 역대 최대",
+      "desc": "9월 수출이 1209억 달러로 작년보다 83.5% 늘어 월간 최대를 기록했습니다. 반도체가 603억 달러로 처음 600억 달러를 넘었습니다. 연간 1조 달러 가능성도 커졌습니다.",
+      "interp": "수출 호조는 <b>원화 강세</b> 요인이 될 수 있어 송금 시점에 영향을 줍니다. 큰돈을 보낼 계획이면 <b>환율 흐름</b>을 함께 확인하세요.",
+      "source": "파이낸셜뉴스·한국일보",
+      "read": 2,
+      "url": "https://www.fnnews.com/news/202610010917096745",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "tax",
+      "head": "일시적 2주택 처분기한 2년으로",
+      "desc": "1일부터 조정대상지역 일시적 2주택자의 양도세·종부세 특례 기간이 3년에서 2년으로 줄었습니다. 8월 3일 이전 취득·계약분은 종전 3년이 적용됩니다. 국무회의에서 의결됐습니다.",
+      "interp": "한국에 집을 두고 새 집을 산 경우 <b>기존 집 처분 기한</b>을 다시 계산하세요. 비거주자는 비과세 요건이 달라 <b>세무 상담</b>을 받아 보세요.",
+      "source": "헤럴드경제·뉴스핌",
+      "read": 3,
+      "url": "https://www.newspim.com/news/view/20260929000419",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "조정대상지역",
+          "explain": "집값 과열로 대출·세금 규제를 강하게 받는 지역"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "welfare",
+      "head": "건보 환급금, 체납액 빼고 지급",
+      "desc": "8일부터 건강보험료 체납자는 본인부담상한액 환급금에서 체납액을 뺀 금액만 받습니다. 환급액 100만 원에 체납액이 30만 원이면 70만 원을 받습니다. 형평성을 위한 조치입니다.",
+      "interp": "출국 뒤 <b>지역보험료</b>가 쌓였는지 건강보험공단에서 조회하세요. 해외 체류로 <b>급여정지</b>를 신청하지 않았다면 체납이 생겼을 수 있습니다.",
+      "source": "아시아경제·MBC",
+      "read": 2,
+      "url": "https://view.asiae.co.kr/article/2026031219130053002",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "본인부담상한액",
+          "explain": "1년 병원비 중 본인 부담의 상한선, 넘은 금액은 돌려받음"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "travel",
+      "head": "인천공항, 연휴 입국심사 47% 증원",
+      "desc": "중국 국경절과 겹친 3일까지 인천공항 입국심사 인력이 128명에서 188명으로 47% 늘어납니다. 한글날 연휴인 11일까지 일부 출국장은 30분 일찍 엽니다. 혼잡 대비책입니다.",
+      "interp": "이번 주 귀국한다면 <b>자동출입국심사대</b>로 대기를 줄일 수 있습니다. 출국 때 <b>2터미널 2번 출국장</b>은 새벽 5시부터 열립니다.",
+      "source": "이코리아·애드뉴스인천",
+      "read": 2,
+      "url": "https://www.ekoreanews.co.kr/news/articleView.html?idxno=88280",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "국경절",
+          "explain": "10월 1일 중국 건국 기념일, 일주일 안팎의 연휴"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "이탈리아, 스페인발 검문 또 연장",
+      "desc": "이탈리아가 스페인발 항공·해상 입국자 검문을 15일 더 연장했습니다. 7월 말 세우타 대량 이주민 유입 이후 세 번째 연장입니다. 스페인도 맞대응 검문을 유지하고 있습니다.",
+      "interp": "두 나라를 오가는 비행기·배를 탈 때는 <b>여권과 체류허가증</b>을 꼭 챙기세요. 수속이 길어질 수 있으니 <b>공항에 일찍</b> 도착하세요.",
+      "source": "신화통신·러스페인",
+      "read": 2,
+      "url": "https://english.news.cn/20261001/ef80993472804e9399bd9e2d5eb7177f/c.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "세우타",
+          "explain": "모로코와 맞닿은 북아프리카의 스페인 자치도시"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "stocks",
+      "head": "유럽 증시, 6개월 만에 월간 하락",
+      "desc": "스톡스600 지수가 9월 6개월 만에 첫 월간 하락을 기록했고 3분기엔 약 1% 내렸습니다. 세계 채권금리 상승과 유가 급등이 부담이 됐습니다. 보험·은행주가 약했습니다.",
+      "interp": "30일 오른 업종은 <b>유틸리티</b>뿐이었습니다. 유럽 상장지수펀드를 가진 분은 금리 상승기에 맞춰 <b>업종 비중</b>을 점검해 보세요.",
+      "source": "아이리시타임스·마켓스크리너",
+      "read": 2,
+      "url": "https://www.irishtimes.com/business/2026/09/30/european-shares-mark-first-monthly-loss-in-six/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "스톡스600",
+          "explain": "유럽 17개국 600개 종목으로 만든 대표 주가지수"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "미 대법원, 제3국 추방 재개 허용",
+      "desc": "연방대법원이 6대 3으로 트럼프 정부의 제3국 신속 추방을 일시 허용했습니다. 사전 통지를 요구한 하급심 결정은 효력을 잃었습니다. 대법원은 12월 변론 뒤 최종 판단합니다.",
+      "interp": "신분이 불안정하거나 <b>추방 명령</b>을 받은 지인이 있다면 이민 변호사 상담을 권하세요. 신분 서류 사본과 <b>영사관 연락처</b>를 지니세요.",
+      "source": "NBC·WBUR",
+      "read": 3,
+      "url": "https://www.nbcnews.com/politics/supreme-court/supreme-court-allows-trumps-third-country-deportation-policy-rcna599724",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "제3국",
+          "explain": "본인 국적국이 아닌, 연고 없는 다른 나라"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "health",
+      "head": "오바마케어 가입자에 500달러 환급",
+      "desc": "미 정부가 보조금 없이 오바마케어에 가입한 약 95만 명에게 500달러 환급을 시작했습니다. 30개 주가 대상이며 수표나 계좌이체로 줍니다. 대상 가족이 여럿이면 각각 받습니다.",
+      "interp": "소득이 빈곤선의 <b>400%를 넘어</b> 보조금 없이 가입한 자영업 한인이 주로 해당됩니다. 대통령 명의 <b>안내 편지</b>를 사칭 우편과 구분하세요.",
+      "source": "CBS·CNBC",
+      "read": 2,
+      "url": "https://www.cbsnews.com/news/trump-obamacare-500-refund-checks/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "오바마케어",
+          "explain": "건강보험개혁법(ACA)에 따른 미국 개인 건강보험 장터 제도"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "마이크론, 매출·전망 모두 예상 상회",
+      "desc": "마이크론의 회계 4분기 매출이 작년 113억 달러에서 542억 달러로 늘었습니다. 다음 분기 매출 전망도 615억 달러로 예상을 웃돌았습니다. 인공지능 메모리 수요 덕분입니다.",
+      "interp": "메모리 호황은 <b>삼성전자·SK하이닉스</b> 실적과도 맞물립니다. 미국 주식 매도 차익은 <b>세금 신고</b> 대상이니 매도 기록을 정리해 두세요.",
+      "source": "CNBC·미국 증권거래위원회",
+      "read": 2,
+      "url": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "회계 4분기",
+          "explain": "달력과 다른, 회사가 정한 회계연도 기준의 마지막 분기"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "life",
+      "head": "메릴랜드, 300달러 미만 현금 거부 금지",
+      "desc": "메릴랜드주에서 1일부터 300달러 미만 생필품을 매장에서 살 때 현금을 거부할 수 없습니다. 식품·위생용품·의약품·연료가 대상입니다. 위반하면 최대 500달러 벌금이 부과됩니다.",
+      "interp": "한인 마트·주유소 업주는 <b>현금 결제 안내</b>를 점검하세요. 20달러 초과 지폐는 거절할 수 있고, <b>현금→선불카드 기계</b>를 두면 예외입니다.",
+      "source": "모코쇼·더베이넷",
+      "read": 2,
+      "url": "https://mocoshow.com/2026/09/06/maryland-businesses-required-to-accept-cash-for-certain-essential-goods-beginning-october-1/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "플라이두바이 조종실 흉기 습격",
+      "desc": "30일 두바이발 텔아비브행 플라이두바이 여객기에서 부기장이 기장을 흉기로 찔러 사우디에 비상착륙했습니다. 이스라엘은 테러 시도로 봅니다. 이스라엘 운항은 6일간 멈춥니다.",
+      "interp": "이 노선을 예약했다면 항공사에 <b>환불·대체편</b>을 문의하세요. 중동 노선은 변경이 잦으니 <b>운항 상태</b>를 출발 당일 다시 확인하세요.",
+      "source": "워싱턴포스트·이스라엘하욤",
+      "read": 2,
+      "url": "https://www.israelhayom.com/2026/09/30/flydubai-flights-to-israel-suspended-for-6-days/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "중국 국경절 연휴, 7일까지",
+      "desc": "중국 국경절 연휴가 1일부터 7일까지 이어집니다. 철도 당국은 8일까지 특별수송을 운영하며 1일 이동객이 가장 많을 것으로 봤습니다. 주요 역·공항과 관광지 혼잡이 예상됩니다.",
+      "interp": "이 기간 중국에 간다면 <b>기차표·관광지 입장 예약</b>을 미리 마치세요. 관공서가 쉬니 <b>비자·서류 업무</b>는 연휴 뒤로 잡으세요.",
+      "source": "유스연합·베이징시",
+      "read": 2,
+      "url": "https://www.youthassembly.kr/news/1005572",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "유럽 항공사, 두바이 운항중단 연장",
+      "desc": "에어프랑스·KLM·싱가포르항공이 두바이 운항 중단을 10월 24일까지 늘렸습니다. 캐세이퍼시픽은 내년 1월 말, 에어캐나다는 3월 말까지 멈춥니다. 중동 영공 제한 탓입니다.",
+      "interp": "두바이·도하 경유 항공권이 있다면 <b>운항 여부</b>를 항공사 앱에서 확인하세요. 결항 시 <b>환불이나 무료 변경</b>이 되는지 약관을 보세요.",
+      "source": "더내셔널·걸프뉴스",
+      "read": 2,
+      "url": "https://www.thenationalnews.com/travel/2026/09/30/uae-dubai-abu-dhabi-flights-status/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
