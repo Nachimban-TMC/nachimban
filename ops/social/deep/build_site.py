@@ -67,6 +67,12 @@ def build_one(slug, title, date, region):
 <h2>🧵 스레드 문구</h2>
 <div class="cap" id="th"></div>
 <button onclick="cp(TH,this)">스레드 문구 복사</button>"""
+    # 2026-10-02부터: 참고 링크(<슬러그>-links.txt, 한 줄에 "이름|주소")가 있으면 페이지에 건다
+    links = [l.split("|", 1) for l in _read(os.path.join(HERE, f"{slug}-links.txt")).splitlines() if "|" in l]
+    if links:
+        texts += "\n\n<h2>🔗 참고 링크</h2>\n" + "".join(
+            f'<p><a href="{html.escape(u.strip())}" target="_blank" rel="noopener">{html.escape(n.strip())}</a></p>'
+            for n, u in links)
     n = len(imgs)
     thumbs = "".join(
         f'<a href="img/deep-{i:02d}.jpg" download="nachimban-deep-{slug}-{i:02d}.jpg">'
