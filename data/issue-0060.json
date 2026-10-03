@@ -1,0 +1,573 @@
+{
+  "number": 60,
+  "date": "2026-10-03",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "갈레리아 백화점, 네 번째 파산 신청",
+      "desc": "백화점 체인 갈레리아가 2일 뒤셀도르프 법원에 파산을 신청했습니다. 2020년 이후 네 번째입니다. 83개 매장은 당분간 문을 열지만 직원 약 1만2천 명의 앞날은 불투명합니다.",
+      "interp": "<b>상품권</b>은 아직 매장과 온라인에서 쓸 수 있지만, 절차가 개시되면 환급이 보장되지 않습니다. 갖고 계시다면 미루지 말고 일찍 쓰세요.",
+      "source": "ms-aktuell·ARIVA",
+      "read": 3,
+      "url": "https://ms-aktuell.de/welt/galeria-insolvenzantrag-02-10-2026/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "파산",
+          "explain": "빚을 갚지 못하게 된 회사가 법원 관리 아래 정리나 회생 절차에 들어가는 것"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "유류세 인하 첫날, 기름값 13센트↓",
+      "desc": "유류세 인하 첫날인 1일 기름값이 리터당 약 13센트 내렸습니다. ADAC 집계 하루 평균 E10은 2.114유로, 경유는 2.262유로였습니다. 인하 폭 17센트엔 못 미칩니다.",
+      "interp": "기름값은 하루에도 여러 번 바뀝니다. 주유 앱으로 <b>주변 주유소 가격</b>을 비교한 뒤 싼 곳에서 넣으세요.",
+      "source": "onvista·ad-hoc-news",
+      "read": 2,
+      "url": "https://www.onvista.de/news/2026/10-02-adac-spritpreise-zum-start-des-tankrabatts-rund-13-cent-niedriger-0-20-26559848",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "ADAC",
+          "explain": "회원 2천만 명이 넘는 독일 최대 자동차 운전자 단체"
+        },
+        {
+          "term": "E10",
+          "explain": "바이오 에탄올을 10%까지 섞은 독일의 일반 휘발유"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "올겨울 가스요금 인상 전망 우세",
+      "desc": "공공기업협회(VKU) 조사에서 지역 에너지공사 65%가 올겨울 가스요금 인상을 예상했습니다. 지역난방은 54%, 전기는 49%가 인상을 점쳤습니다. 9월 30일 나온 조사입니다.",
+      "interp": "요금 인상 통지를 받으면 <b>특별해지권</b>이 생깁니다. 통지서를 꼼꼼히 읽고 비교 사이트에서 다른 공급사 요금도 확인하세요.",
+      "source": "VKU·ad-hoc-news",
+      "read": 2,
+      "url": "https://www.vku.de/presse/pressemitteilungen/vku-umfrage-mehrheit-der-stadtwerke-erwartet-hoehere-energiepreise/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "지역난방",
+          "explain": "발전소 등에서 만든 열을 배관으로 여러 집에 보내는 난방 방식"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "health",
+      "head": "흰강낭콩 500g, 곰팡이로 회수",
+      "desc": "부르체너가 흰강낭콩 500g 제품을 곰팡이 때문에 회수합니다. 레베·에데카·글로부스에서 팔렸고 유통기한 2028년 2·4월 일부가 대상입니다. 곰팡이 독소는 익혀도 남습니다.",
+      "interp": "포장에 적힌 <b>묶음번호</b>를 확인하세요. 10월 15일까지 산 매장에 가져가면 영수증이 없어도 전액 환불됩니다.",
+      "source": "produktwarnung.eu·t-online",
+      "read": 2,
+      "url": "https://www.produktwarnung.eu/2026/10/02/rueckruf-schimmelspuren-in-weissen-bohnen-von-wurzener-moeglich/39005",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "travel",
+      "head": "통일의 날, 브레멘 대중교통 무료",
+      "desc": "통일 36주년 중앙 기념식이 오늘 브레멘에서 열립니다. 사흘간 40만 명이 찾을 것으로 보입니다. 브레멘 광역교통연합(VBN) 전역 버스·열차는 5일 새벽 3시까지 무료입니다.",
+      "interp": "브레멘 도심은 <b>도로 통제</b>와 혼잡이 예상됩니다. 인근에 사신다면 차 대신 무료 대중교통을 이용하세요.",
+      "source": "buten un binnen·nord24",
+      "read": 2,
+      "url": "https://www.butenunbinnen.de/nachrichten/tag-der-deutschen-einheit-bremen-kostenloser-nahverkehr-100.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "검찰청 78년 만에 폐지, 새 체제로",
+      "desc": "2일 검찰청이 문을 닫고 공소청과 중대범죄수사청(중수청)이 출범했습니다. 공소청은 기소, 중수청은 부패·마약 등 중대범죄 수사를 맡습니다. 중수청 정원은 2874명입니다.",
+      "interp": "한국에서 진행 중인 <b>고소·고발 사건</b>이 있다면 담당 기관이 바뀌었는지 확인하세요. 사건번호를 갖고 문의하면 빠릅니다.",
+      "source": "세계일보·재경일보",
+      "read": 3,
+      "url": "https://www.segye.com/newsView/20260928512081",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "공소청",
+          "explain": "범죄 사건을 재판에 넘기고 재판을 유지하는 일을 맡는 새 기관"
+        },
+        {
+          "term": "중대범죄수사청",
+          "explain": "부패·경제·마약 등 법이 정한 중대범죄 수사를 맡는 행정안전부 소속 기관"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "신한·국민·하나은행 해킹 유출",
+      "desc": "신한은행 고객 2만5천여 명, 국민은행 119명, 하나은행 89명의 개인정보가 해킹으로 유출됐습니다. 우리·농협은행도 공격을 받았습니다. 당국은 전 금융권 긴급 점검에 나섰습니다.",
+      "interp": "해당 은행 계좌가 있다면 <b>개별 통보 문자</b>를 확인하세요. 은행을 사칭한 링크나 전화는 열지 말고 앱에서 직접 확인하세요.",
+      "source": "서울신문·뉴스핌",
+      "read": 3,
+      "url": "https://www.seoul.co.kr/news/economy/finance/2026/10/02/20261002500271",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "북한, 동해로 탄도미사일 발사",
+      "desc": "북한이 3일 오전 6시 30분쯤 원산 일대에서 동해로 탄도미사일 1발을 쐈습니다. 미사일은 700km 넘게 날아갔습니다. 김여정 부부장이 남북대화를 거부한 다음 날입니다.",
+      "interp": "한반도 긴장이 다시 높아지고 있습니다. 한국 방문을 앞두셨다면 <b>외교부·합참 발표</b>를 챙겨 보세요.",
+      "source": "뉴스핌·헤럴드경제",
+      "read": 2,
+      "url": "https://www.newspim.com/news/view/20261003000021",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "유튜브 계정공유, 선결제 피해 주의",
+      "desc": "서울시가 유튜브 프리미엄 계정공유 피해 주의보를 냈습니다. 1~8월 상담이 202건이었고 20·30대가 75%였습니다. 1년치를 미리 받고 잠적하는 사례가 많습니다.",
+      "interp": "저렴한 <b>계정공유</b>는 구글 규정 위반이라 언제든 막힐 수 있습니다. 장기 선결제는 피하고 정식 요금제를 쓰세요.",
+      "source": "아주경제·서울시",
+      "read": 2,
+      "url": "https://www.ajunews.com/view/20261001094317533",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "유로존 9월 물가 3.8%, 3년 만에 최고",
+      "desc": "유로존 9월 물가상승률 속보치가 3.8%로 8월 3.2%에서 뛰었습니다. 2023년 9월 이후 가장 높습니다. 에너지가 18.8% 올랐고, 확정치는 16일 나옵니다.",
+      "interp": "난방비와 기름값 부담이 더 커질 수 있습니다. 대출이 있다면 <b>변동금리</b> 조건을 다시 확인해 두세요.",
+      "source": "유로스타트·유로뉴스",
+      "read": 2,
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-02102026-ap",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "속보치",
+          "explain": "월말 직후 먼저 내놓는 잠정 통계로 나중에 확정치로 바뀌는 값"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "travel",
+      "head": "그리스 크레타 폭우, 4일까지 적색경보",
+      "desc": "그리스 크레타섬 폭우로 레팀노에서 80대 농부가 숨졌습니다. 일부 지역에 150mm 넘는 비가 내려 다리가 무너지고 도로가 막혔습니다. 적색경보는 4일 일요일까지 이어집니다.",
+      "interp": "크레타 여행 중이라면 <b>계곡·하천 주변</b>을 피하고 숙소에 머무르세요. 페리와 항공편 운항 여부도 미리 확인하세요.",
+      "source": "Neos Kosmos·National Herald",
+      "read": 2,
+      "url": "https://neoskosmos.com/en/2026/10/02/news/greece/severe-storms-batter-crete-killing-80-year-old-farmer/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "stocks",
+      "head": "유럽 반도체주 급등, 인피니언 9%↑",
+      "desc": "2일 유럽 증시에서 인공지능 기대에 반도체주가 올랐습니다. 인피니언이 9%, 오스트리아 AT&S가 10% 뛰었습니다. 스톡스600은 0.8% 올랐지만 주간으로는 하락했습니다.",
+      "interp": "하루 급등만 보고 따라 사기보다 <b>실적 발표 일정</b>을 확인하세요. 은행주는 금리 우려로 4월 이후 가장 크게 빠졌습니다.",
+      "source": "로이터·야후 파이낸스",
+      "read": 2,
+      "url": "https://finance.yahoo.com/markets/world-indices/articles/european-shares-edge-higher-bonds-073730293.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "스톡스600",
+          "explain": "유럽 17개국 대형·중형주 600개로 만든 대표 주가지수"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "미 9월 고용 2.9만 그쳐, 실업률 4.2%",
+      "desc": "미국 9월 일자리가 2만9천 개 늘어 예상치 8만4천 개를 크게 밑돌았습니다. 실업률은 4.2%로 올랐습니다. 10월 금리 인상 기대가 꺾이며 나스닥은 사상 최고로 마감했습니다.",
+      "interp": "고용 둔화는 <b>달러 약세</b>로 이어질 수 있습니다. 한국으로 송금하거나 환전할 계획이라면 환율 흐름을 살피세요.",
+      "source": "미국 노동통계국·CNBC",
+      "read": 2,
+      "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "실업률",
+          "explain": "일할 뜻이 있는 사람 가운데 일자리가 없는 사람의 비율"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "취업이민 EB-2·EB-3, 10월 후퇴",
+      "desc": "10월 비자공고로 한국이 속한 '기타 국가'의 EB-2 최종조치일이 2025년 1월 1일로 밀렸습니다. 9월엔 대기가 없었습니다. EB-3도 2024년 5월 15일입니다.",
+      "interp": "영주권 신청을 준비 중이라면 내 <b>우선일자</b>가 기준일보다 앞서는지 확인하세요. 변호사와 접수 시기를 다시 상의하세요.",
+      "source": "T&S 로펌·뉴스위크",
+      "read": 3,
+      "url": "https://tandslaw.com/october-2026-visa-bulletin-issued-dates-for-filing-eb-cut-off-dates-will-apply-as-fy-2027-begins-rest-of-the-world-eb-2-and-eb-3-retrogress/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "EB-2",
+          "explain": "석사 이상 학위나 특별한 능력을 갖춘 사람을 위한 미국 취업이민 2순위"
+        },
+        {
+          "term": "최종조치일",
+          "explain": "이 날짜보다 우선일자가 앞선 신청자만 영주권 최종 승인을 받는 기준일"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "테슬라 3분기 인도, 예상 웃돌아",
+      "desc": "테슬라가 3분기 48만6532대를 인도했다고 2일 밝혔습니다. 작년보다 2.1% 줄었지만 시장 예상보다 약 2만5천 대 많았습니다. 발표 뒤 주가는 5% 넘게 올랐습니다.",
+      "interp": "인도량은 실적의 예고편입니다. 보유하고 계시다면 이달 하순 <b>3분기 실적 발표</b>에서 이익률을 확인하세요.",
+      "source": "일렉트렉·CNBC",
+      "read": 2,
+      "url": "https://electrek.co/2026/10/02/tesla-q3-2026-deliveries-486532/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "엔비디아 시가총액 5.7조 달러 돌파",
+      "desc": "엔비디아 주가가 2일 장중 237.88달러로 사상 최고를 찍었습니다. 시가총액은 처음으로 5조7천억 달러를 넘었습니다. 오픈AI에 약속한 300억 달러 투자도 모두 마쳤습니다.",
+      "interp": "한 종목 비중이 너무 커지지 않았는지 <b>계좌 비중</b>을 점검하세요. 사상 최고가 뒤에는 변동성도 커질 수 있습니다.",
+      "source": "야후 파이낸스·BigGo",
+      "read": 2,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-hits-record-high-market-173040132.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "시가총액",
+          "explain": "주가에 발행 주식 수를 곱한 회사 전체의 시장 가치"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "G7, 원유·경유 1억 배럴 방출",
+      "desc": "주요 7개국(G7)이 2일 원유와 경유 1억 배럴을 넉 달에 걸쳐 풀기로 했습니다. 국제에너지기구가 조율합니다. 미국이 꺼낸 경유 수출 제한 위협은 공동성명에서 접혔습니다.",
+      "interp": "유가가 진정되면 <b>항공권 유류할증료</b>도 내려갈 수 있습니다. 급하지 않은 장거리 항공권은 다음 달 할증료를 보고 사세요.",
+      "source": "GMX·뵈르젠차이퉁",
+      "read": 2,
+      "url": "https://www.gmx.at/magazine/politik/g7-beschliessen-freigabe-diesel-reserven-42794150",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "국제에너지기구",
+          "explain": "석유 위기 때 회원국의 비축유 방출을 조율하는 국제기구"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "타이항공, 서울·유럽 노선 잇단 결항",
+      "desc": "타이항공이 방콕 공항 혼잡과 수하물 적체로 1~3일 항공편을 줄줄이 취소했습니다. 2일 서울·코펜하겐, 3일 인천~방콕·암스테르담편이 결항됐습니다. 방콕 홍수 여파도 겹쳤습니다.",
+      "interp": "타이항공 예약이 있다면 <b>운항 공지</b>를 출발 전날 꼭 확인하세요. 결항 시 고객센터(+66 2 356 1111)로 재예약을 요청하세요.",
+      "source": "카오훈·타이항공",
+      "read": 2,
+      "url": "https://www.kaohooninternational.com/markets/591850",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
