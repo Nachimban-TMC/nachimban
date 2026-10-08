@@ -1,0 +1,564 @@
+{
+  "number": 63,
+  "date": "2026-10-08",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "전 연방정보국장, 간첩 혐의로 구속",
+      "desc": "전 연방정보국(BND) 국장 아우구스트 하닝(80)이 간첩 혐의로 구속됐습니다. 옛 비서실장에게 기밀 문서 약 2천 건을 받아 자문 일에 쓴 혐의로, 비서실장도 구속됐습니다.",
+      "interp": "생활에 바로 미치는 영향은 없습니다. 다만 정보기관 신뢰 문제로 <b>정치권 공방</b>이 이어질 수 있으니 후속 수사 소식을 지켜보세요.",
+      "source": "Handelsblatt·Tagesspiegel",
+      "read": 3,
+      "url": "https://www.handelsblatt.com/politik/deutschland/bundesanwaltschaft-ex-bnd-praesident-hanning-wegen-spionageverdachts-in-u-haft/100260262.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "BND",
+          "explain": "해외 정보 수집을 맡는 독일 연방정보국"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "labor",
+      "head": "고소득자 사회보험료 내년 오른다",
+      "desc": "정부가 7일 내년 사회보험 기준액을 의결했습니다. 건강보험 부과 상한은 월 6,375유로, 연금·실업보험은 8,850유로로 오릅니다. 올해보다 562.5유로, 400유로 높습니다.",
+      "interp": "월급이 상한을 넘는 분만 보험료가 늘어납니다. 내년 <b>실수령액</b>을 미리 계산해 보고 민간보험 전환 기준도 함께 확인하세요.",
+      "source": "독일 노동사회부",
+      "read": 3,
+      "url": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/2026/bundeskabinett-beschliesst-sozialversicherungsrechengroessen-2027.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "부과 상한",
+          "explain": "보험료를 매기는 월 소득의 최고 한도"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "범죄경력증명서, 온라인 PDF 발급",
+      "desc": "10월 1일부터 범죄경력증명서를 온라인 신청해 BundID 계정에서 PDF로 받을 수 있습니다. 전자체류허가증, NFC 휴대폰, 신용카드가 필요하고 수수료는 13유로로 같습니다.",
+      "interp": "PDF는 보통 몇 시간 안에 도착합니다. 다만 <b>관공서 제출용</b>은 여전히 종이 증명서가 필요하니 쓰임새를 먼저 확인하세요.",
+      "source": "iphone-ticker·연방정부",
+      "read": 3,
+      "url": "https://www.iphone-ticker.de/fuehrungszeugnis-ab-heute-digital-mit-zesi-app-und-bundid-287291/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "BundID",
+          "explain": "독일 연방 온라인 행정 서비스 통합 계정"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "텔레콤 옛 인터넷 요금, 11월 3유로↑",
+      "desc": "도이치텔레콤이 11월부터 일부 오래된 인터넷 요금제를 월 3유로 올립니다. 옛 전화 요금제도 10월부터 2.50~3유로 올랐고, 신규 DSL·광랜도 1~2유로 비싸졌습니다.",
+      "interp": "인상 통보를 받았다면 <b>특별해지권</b>으로 위약금 없이 해지할 수 있습니다. 통보 후 3개월 안에 다른 통신사 요금과 비교해 보세요.",
+      "source": "Netzwelt·Caschys Blog",
+      "read": 2,
+      "url": "https://www.netzwelt.de/news/247804-preiserhoehung-telekom-festnetz-tarife-teurer.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "labor",
+      "head": "금속노조 임금교섭 시작, 5% 요구",
+      "desc": "독일 금속·전기 산업 임금교섭이 7일 바덴뷔르템베르크와 노르트라인베스트팔렌에서 시작됐습니다. 노조는 12개월 5% 인상을 요구했지만 사용자 측은 인상 여력이 없다며 거부했습니다.",
+      "interp": "적용 대상은 370만 명이 넘습니다. 자동차·부품 업계에서 일한다면 <b>경고파업</b> 일정이 나올 수 있으니 회사 공지를 챙기세요.",
+      "source": "IG Metall·DGB",
+      "read": 2,
+      "url": "https://www.igmetall.de/tarif/tarifrunden/metall-und-elektro/tarifrunde-metall-und-elektro-2026",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "은행 해킹 2차 피해, 소비자경보 발령",
+      "desc": "금융당국이 6일 은행권 해킹에 소비자경보 주의를 발령하고 한 달간 2차 피해 특별대응에 들어갔습니다. 신한·국민·하나 등 7개사 정보가 샜지만 돈이 빠져나간 사례는 없습니다.",
+      "interp": "피해 보상·대출 상담을 미끼로 한 연락은 사기입니다. 금융거래 <b>안심차단서비스</b> 가입을 검토해 명의도용 대출을 막아 두세요.",
+      "source": "파이낸셜뉴스·아주경제",
+      "read": 3,
+      "url": "https://www.fnnews.com/news/202610061649447562",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [
+        {
+          "term": "소비자경보",
+          "explain": "금융 피해 우려가 커질 때 금융당국이 내는 단계별 주의 안내"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "crypto",
+      "head": "개인지갑 코인 이전도 외환 감시",
+      "desc": "재정경제부가 7일 외국환거래법 시행령 개정안을 입법예고했습니다. 해외 거래소·개인지갑으로 옮긴 코인 기록이 한국은행에 보고돼 세무당국과 공유됩니다. 12월 3일 시행 예정입니다.",
+      "interp": "해외로 <b>코인을 옮기는</b> 분은 기록이 남는다는 점을 기억하세요. 의견은 26일까지 입법예고 기간에 낼 수 있습니다.",
+      "source": "서울경제·재정경제부",
+      "read": 3,
+      "url": "https://m.sedaily.com/article/20098844",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "입법예고",
+          "explain": "법령을 바꾸기 전 내용을 미리 알리고 의견을 받는 절차"
+        },
+        {
+          "term": "개인지갑",
+          "explain": "거래소가 아닌 본인이 직접 관리하는 가상자산 지갑"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "policy",
+      "head": "동포청, 국감서 우편투표 2028 목표",
+      "desc": "김경협 재외동포청장이 6일 국감에서 재외선거 우편·전자투표 도입을 5대 과제로 보고했습니다. 2028년 총선 적용이 목표입니다. 동포 전담 영사 확충은 외교부와 엇갈렸습니다.",
+      "interp": "아직 <b>법 개정</b>이 필요한 단계라 확정은 아닙니다. 다음 선거 전까지 제도가 바뀌는지 재외동포청 공지를 지켜보세요.",
+      "source": "헤럴드경제·세계일보",
+      "read": 2,
+      "url": "https://biz.heraldcorp.com/article/10875208",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "EU, 역대 최대 대러 제재 합의",
+      "desc": "EU 대사들이 7일 러시아 군수산업 관련 743명과 826개 기관 제재에 합의했습니다. 한 번에 추가하는 명단으로 역대 최대이며, 12일 외교장관 회의에서 채택될 예정입니다.",
+      "interp": "러시아 쪽과 <b>거래·송금</b>하는 사업자는 명단 공개 후 상대방이 포함됐는지 확인하세요. 제재 위반은 처벌 대상이 됩니다.",
+      "source": "Euronews·Kyiv Post",
+      "read": 2,
+      "url": "https://www.euronews.com/2026/10/07/eu-agrees-to-sanction-over-1600-people-and-entities-linked-to-russias-war",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "policy",
+      "head": "경유 비축유 방출, 14~15일 세부 결정",
+      "desc": "국제에너지기구(IEA)와 EU 석유조정그룹이 7일 비축유 방출안을 논의했습니다. G7이 합의한 1억 배럴 가운데 경유·원유 비중과 참여국은 14~15일 이사회에서 정해집니다.",
+      "interp": "경유값이 높은 상태가 이어지고 있습니다. 방출 규모가 확정되기 전까지 <b>가격 비교 앱</b>으로 싼 주유소를 찾아 주유하세요.",
+      "source": "Reuters·Kuwait Times",
+      "read": 2,
+      "url": "https://boereport.com/2026/10/06/iea-to-decide-on-details-of-diesel-stocks-release-next-week-as-market-confusion-grows/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "IEA",
+          "explain": "석유 비축과 에너지 안보를 조율하는 국제기구"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "stocks",
+      "head": "유럽 실적 시즌, 14일 ASML부터",
+      "desc": "유럽 3분기 실적 발표가 14일 반도체 장비업체 ASML을 시작으로 본격화됩니다. 6일 ASML 주가는 1.4% 내렸지만, 뱅크오브아메리카는 목표주가를 2,557유로로 올렸습니다.",
+      "interp": "실적 발표 전후로 주가가 크게 움직일 수 있습니다. 유럽 반도체 <b>ETF</b>를 가진 분은 발표일을 달력에 적어 두세요.",
+      "source": "MarketBeat·Akrostec",
+      "read": 2,
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/ASML/news/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "목표주가",
+          "explain": "증권사가 예상하는 일정 기간 뒤 적정 주가"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "미 대출금리 3년 만에 최고, 7.28%",
+      "desc": "미국 30년 고정 주택담보대출 금리가 7.28%로 2023년 11월 이후 최고입니다. 국채 금리 급등에 자동차·학자금 대출 이자도 올랐고, 연준은 9월 올해 첫 인상을 했습니다.",
+      "interp": "변동금리 대출이 있다면 <b>고정금리 전환</b> 조건을 은행에 물어보세요. 집·차 구매가 급하지 않다면 금리 흐름을 지켜보세요.",
+      "source": "NPR·프레디맥",
+      "read": 3,
+      "url": "https://www.npr.org/2026/10/07/nx-s1-5991910/interest-rates-economy-inflation-bonds",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "citizenship",
+      "head": "시민권 박탈 소송 40건, 역대 최대",
+      "desc": "미국 법무부가 5일 귀화 시민 40명을 상대로 시민권 박탈 소송을 냈다고 밝혔습니다. 간첩·성범죄·이민 사기 등 혐의로 단일 기간 최대 규모입니다. 이달 목표는 250건입니다.",
+      "interp": "대상은 중범죄나 귀화 때 사실을 숨긴 경우입니다. 귀화 서류에 <b>누락한 내용</b>이 걱정된다면 이민 변호사와 상담하세요.",
+      "source": "미 법무부·Axios",
+      "read": 3,
+      "url": "https://www.justice.gov/opa/pr/justice-department-moves-strip-citizenship-40-criminals-largest-single-period",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "S&P500 사상 첫 7,800 돌파",
+      "desc": "6일 뉴욕증시에서 S&P500이 0.58% 오른 7,818.93으로 사상 최고치를 기록했습니다. 국채 금리와 유가가 내리자 마벨·AMD 등 반도체주가 상승을 이끌었습니다.",
+      "interp": "지수가 최고치일 때는 변동이 커질 수 있습니다. 한 번에 사기보다 <b>분할 매수</b>로 위험을 나누는 방법을 고려하세요.",
+      "source": "CNBC·Detroit News",
+      "read": 2,
+      "url": "https://www.cnbc.com/2026/10/05/stock-market-today-live-updates.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "S&P500",
+          "explain": "미국 대형주 500개로 만든 대표 주가지수"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "visa",
+      "head": "H-1B 10만 달러 수수료, 법원 또 제동",
+      "desc": "캘리포니아 연방법원이 9월 30일 신규 H-1B 비자 10만 달러 수수료 정책을 무효로 판결했습니다. 6월 매사추세츠에 이어 두 번째이며, 1년 연장한 9월 포고문에도 적용됩니다.",
+      "interp": "정부가 <b>항소</b>할 수 있어 최종 결론은 아닙니다. H-1B를 준비 중이라면 회사 이민 담당자와 신청 시기를 상의하세요.",
+      "source": "JURIST·Envoy Global",
+      "read": 3,
+      "url": "https://www.jurist.org/news/2026/10/second-federal-judge-blocks-president-trumps-100k-h-1b-visa-fee-and-orders-dhs-to-complete-proper-rulemaking/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "H-1B",
+          "explain": "미국 전문직 외국인 취업비자"
+        },
+        {
+          "term": "포고문",
+          "explain": "대통령이 공식적으로 내리는 행정 선언"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "케냐 첫 에볼라 사망, 공항 검역 강화",
+      "desc": "케냐에서 콩고민주공화국에 살던 남성이 에볼라로 숨져 첫 확진 사례가 나왔습니다. 케냐는 콩고·우간다 등 10개국발 항공편 승객을 나이로비 공항에서 따로 검역하기 시작했습니다.",
+      "interp": "동아프리카 출장·여행 때는 <b>건강 신고서</b> 작성과 검역을 예상하세요. 발열 등 증상이 생기면 의료기관에 먼저 연락하세요.",
+      "source": "Al Jazeera·Kenya Times",
+      "read": 3,
+      "url": "https://www.aljazeera.com/news/2026/10/6/kenya-confirms-first-ebola-case-after-patient-from-dr-congo-dies-in-nairobi",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "서태평양 태풍 셋, 일본 남쪽 주의",
+      "desc": "서태평양에 태풍 3개가 동시에 떠 10월로는 5년 만의 일입니다. 28호 놀로는 일본 남쪽 바다로 향하고, 29호 코구마는 사흘 안에 시속 220km 이상으로 강해질 전망입니다.",
+      "interp": "괌·사이판·일본 남부 여행이 있다면 <b>항공사 운항 공지</b>를 매일 확인하세요. 진로가 바뀔 수 있으니 예보도 계속 보세요.",
+      "source": "Japan Times·Weathernews",
+      "read": 2,
+      "url": "https://www.japantimes.co.jp/news/2026/10/06/japan/western-pacific-typhoons/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "visa",
+      "head": "호주 워홀, 현지서 학생비자 전환 금지",
+      "desc": "호주가 10월 2일부터 워킹홀리데이 비자 소지자의 현지 학생비자 신청을 막았습니다. 이제 호주 밖에서 신청하고 발급 때도 해외에 있어야 합니다. 학생비자 가족 동반도 제한됩니다.",
+      "interp": "워홀 뒤 유학을 계획했다면 <b>출국 후 신청</b> 일정과 비용을 다시 잡으세요. 대행사 안내만 믿지 말고 호주 내무부 공지를 확인하세요.",
+      "source": "One Planet Migration·Pathway",
+      "read": 3,
+      "url": "https://oneplanetmigrationlaw.com.au/immigration-blog/student-visa-changes-october-2026/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
