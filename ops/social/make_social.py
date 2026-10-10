@@ -270,10 +270,12 @@ def viewer_html(iss, picks, ig, th, nslides):
 
 <h2>🎬 릴스용 · 세로 9:16 ({nslides}장)</h2>
 <div class="note">릴스가 <b>비팔로워에게 더 퍼집니다</b>. 앱에서 <b>릴스 → 이 이미지들 선택 → 시그니처 음악</b> 넣고 게시하세요. (오른쪽 버튼·하단 UI 안 가리게 만들었습니다)</div>
+<button onclick="saveAll('reel',this)">📲 릴스 {nslides}장 한 번에 저장·인스타로</button>
 <div class="grid reel">{reels}</div>
 
 <h2>🖼 캐러셀용 · 4:5 ({nslides}장)</h2>
 <div class="note">피드 게시물용. 길게 눌러 저장하거나 번호를 눌러 내려받으세요.</div>
+<button onclick="saveAll('slide',this)">📲 캐러셀 {nslides}장 한 번에 저장·인스타로</button>
 <div class="grid">{cards}</div>
 
 <h2>📝 인스타그램 캡션</h2>
@@ -288,6 +290,24 @@ def viewer_html(iss, picks, ig, th, nslides):
 <a class="dl" href="deep/">📚 심층 캐러셀 모아보기 →</a>
 <script>
 var IG={igj}, TH={thj};
+// 한 번에 저장: 폰 공유 시트에 이미지 묶음을 넘긴다 → "이미지 N개 저장" 또는 인스타그램 선택.
+// 공유는 누른 순간에 바로 불러야 막히지 않아서(아이폰) 파일을 미리 받아 둔다.
+var READY={{}};
+['reel','slide'].forEach(function(p){{
+ Promise.all(Array.from({{length:{nslides}}},function(_,i){{
+  var n=String(i+1).padStart(2,'0'), name='nachimban-'+p+'-{iss["date"]}-'+n+'.jpg';
+  return fetch('img/'+p+'-'+n+'.jpg').then(function(r){{return r.blob()}})
+   .then(function(b){{return new File([b],name,{{type:'image/jpeg'}})}});
+ }})).then(function(f){{READY[p]=f}});
+}});
+function saveAll(p,b){{
+ var f=READY[p];
+ if(!f){{b.textContent='이미지 준비 중… 잠시 뒤 다시 눌러 주세요';return}}
+ if(navigator.canShare&&navigator.canShare({{files:f}})){{navigator.share({{files:f}}).catch(function(){{}});return}}
+ // 공유가 안 되는 브라우저(컴퓨터 등): 한 장씩 내려받기
+ f.forEach(function(x,i){{setTimeout(function(){{var a=document.createElement('a');
+  a.href=URL.createObjectURL(x);a.download=x.name;a.click()}},i*400)}});
+}}
 document.getElementById('ig').textContent=IG;
 document.getElementById('th').textContent=TH;
 function cp(t,b){{navigator.clipboard.writeText(t).then(function(){{
