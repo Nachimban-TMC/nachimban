@@ -1,0 +1,556 @@
+{
+  "number": 68,
+  "date": "2026-10-13",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "바스 노동장관 사임, 후임 슈바이처",
+      "desc": "바스 노동장관이 12일 가족상과 공개 공격을 이유로 장관·사민당 대표직에서 물러났습니다. 후임은 슈바이처 전 라인란트팔츠 주총리입니다. 연금·기본보장 개편 향방이 주목됩니다.",
+      "interp": "노동부는 <b>연금·실업급여·최저임금</b>을 맡는 부처입니다. 장관 교체로 개편 일정이 바뀔 수 있으니 관련 발표를 지켜보세요.",
+      "source": "ZDF·타게스슈피겔",
+      "read": 3,
+      "url": "https://www.zdfheute.de/politik/deutschland/baerbel-bas-spd-ruecktritt-100.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "기본보장",
+          "explain": "시민수당을 대신해 도입되는 독일의 생계 지원 제도"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "DB 연말·내년 열차표, 14일 예매 시작",
+      "desc": "도이체반이 14일부터 12월 13일 새 시간표 열차표를 팝니다. 성탄절·연말과 내년 여행표까지 살 수 있습니다. 가장 싼 슈파프라이스는 6.99유로부터로 유지됩니다.",
+      "interp": "명절 이동이나 여행 계획이 있다면 <b>14일 판매 첫날</b> 할인표를 확인하세요. 할인표는 열차마다 <b>수량이 정해져</b> 있어 빨리 사라집니다.",
+      "source": "티온라인·반담프",
+      "read": 3,
+      "url": "https://stuttgart.t-online.de/region/stuttgart/id_101478240/fahrplanwechsel-das-aendert-sich-bei-der-bahn-im-suedwesten.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "슈파프라이스",
+          "explain": "열차와 시간을 지정해 싸게 파는 도이체반 할인 승차권"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "카우프란트 할인, 월요일 시작으로",
+      "desc": "카우프란트가 12일부터 주간 할인을 월~토요일로 바꿨습니다. 300여 개 기본 할인이 한 주 내내 이어집니다. 목~토요일엔 특가가 더해지고 14일까지는 기존 할인과 겹칩니다.",
+      "interp": "전단지 날짜를 보고 <b>장보기 요일</b>을 조정해 보세요. 금·토요일에는 대량 구매용 <b>주말 할인</b>이 따로 열립니다.",
+      "source": "몬스터딜즈·에코24",
+      "read": 2,
+      "url": "https://www.monsterdealz.de/magazin/kaufland-angebote",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "travel",
+      "head": "라이언에어, 24일 베를린 기지 폐쇄",
+      "desc": "라이언에어가 24일 베를린 기지를 닫고 겨울철 베를린 운항을 절반으로 줄입니다. 팔레르모·피사 등 12개 노선이 없어집니다. 브레멘에서는 내년 여름 완전히 철수합니다.",
+      "interp": "겨울 여행표를 예약했다면 <b>노선 취소 안내</b>가 왔는지 확인하세요. 취소되면 <b>환불이나 대체편</b>을 요구할 수 있습니다.",
+      "source": "에어라이너스·아이엠엑스팻",
+      "read": 3,
+      "url": "https://www.airliners.de/ryanair-kuerzt-winter-angebot-bestaetigt-aus-berliner-basis/90689",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "policy",
+      "head": "소프트웨어도 제조물책임, 12월 시행",
+      "desc": "연방의회가 8일 제조물책임법 개정안을 통과시켰습니다. 12월 9일부터 나오는 제품은 소프트웨어 결함과 업데이트 누락 피해도 제조사가 책임집니다. 인공지능 제품도 포함됩니다.",
+      "interp": "새로 산 기기가 <b>업데이트 문제</b>로 손해를 내면 제조사에 배상을 청구할 수 있습니다. 구매일과 <b>업데이트 기록</b>을 남겨 두세요.",
+      "source": "연방의회·노이스",
+      "read": 3,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-produkthaftungsrecht-1222456",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "제조물책임법",
+          "explain": "제품 결함으로 생긴 피해를 제조사가 배상하도록 한 법"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "코스피 장중 6% 급락, 6000선 붕괴",
+      "desc": "코스피가 13일 장중 6% 넘게 떨어져 6000선 아래로 내려갔습니다. 오전 9시 47분 매도 사이드카가 발동됐습니다. 외국인이 2조 원가량 팔았고 반도체주 낙폭이 컸습니다.",
+      "interp": "한국 주식·펀드를 가진 분은 <b>급한 매도</b>보다 비중부터 점검하세요. 장 마감 수치는 <b>오후 늦게</b> 확정되니 함께 확인하세요.",
+      "source": "뉴스핌·SBS",
+      "read": 3,
+      "url": "https://www.newspim.com/news/view/20261013000430",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [
+        {
+          "term": "사이드카",
+          "explain": "주가 급변 시 프로그램 매매를 5분간 멈추는 제도"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "invest",
+      "head": "원·달러 1330원대, 2년 만에 최저",
+      "desc": "원·달러 환율이 12일 1335.1원에 마감해 2년 만에 가장 낮았습니다. 13일 오전에도 1336원대였습니다. 한국은행 총재는 국정감사에서 추가 하락 여지가 있다고 말했습니다.",
+      "interp": "원화가 강해지면 <b>한국으로 보내는 송금</b>은 불리하고 원화를 바꾸기는 유리합니다. 큰돈은 <b>시점을 나눠</b> 송금해 보세요.",
+      "source": "데일리안·서울경제",
+      "read": 2,
+      "url": "https://dailian.co.kr/news/view/1700698/%EC%9B%90%EB%8B%AC%EB%9F%AC-%ED%99%98%EC%9C%A8-%EC%98%A4%EC%A0%84-9%EC%8B%9C%EA%B2%BD-13367%EC%9B%90-2026",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "카카오뱅크 해외송금, 연말까지 무료",
+      "desc": "카카오뱅크가 외화통장에서 해외로 보내는 4900원 기본수수료를 연말까지 면제합니다. 금액·횟수 제한은 없습니다. 해외에서 받는 송금 수수료 면제도 내년 9월 말까지 늘었습니다.",
+      "interp": "한국과 해외 계좌 사이에 돈을 옮긴다면 <b>은행별 수수료</b>를 비교하세요. <b>환율 우대</b> 등 다른 비용은 따로 확인해야 합니다.",
+      "source": "글로벌이코노믹·경제타임스",
+      "read": 2,
+      "url": "https://www.g-enews.com/article/Finance/2026/10/202610061503565363bb91c46fcd_1",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "visa",
+      "head": "의원도 미국 비자 못 받아, 국감 도마",
+      "desc": "정청래 의원이 미국 비자를 받지 못해 12일 주미대사관 국정감사에 불참했습니다. 강경화 대사는 거부 사유는 비공개가 원칙이라고 답했습니다. 유학생 체류 제한 대응도 지적됐습니다.",
+      "interp": "미국 방문·유학 계획이 있다면 <b>비자 심사 기간</b>을 넉넉히 잡으세요. 거부돼도 <b>사유 설명</b>을 듣기는 어렵습니다.",
+      "source": "파이낸셜뉴스·미주한국일보",
+      "read": 3,
+      "url": "https://fnnews.com/news/202610130727415736",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "EU, 대러 제재 1600곳 추가 확정",
+      "desc": "EU 외교장관들이 12일 러시아 전쟁을 돕는 1600여 곳을 제재 명단에 올렸습니다. 역대 최대 규모이며 절반 이상이 탄도미사일 생산과 연관됐습니다. 제재는 계속 유지됩니다.",
+      "interp": "러시아와 거래하는 회사에서 일하거나 송금한다면 <b>제재 명단</b> 해당 여부를 확인하세요. 위반하면 <b>거래 차단</b>될 수 있습니다.",
+      "source": "유로뉴스·블룸버그",
+      "read": 3,
+      "url": "https://www.euronews.com/2026/10/12/eu-decries-concerning-trump-putin-deal-insists-sanctions-on-russia-will-continue",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "stocks",
+      "head": "LVMH 3분기 매출 1%↑, 패션 5%↓",
+      "desc": "LVMH의 3분기 매출이 약 185억 유로로 1% 늘었습니다. 주력 패션·가죽은 5% 줄었고 일본 제외 아시아도 5% 감소했습니다. 미국은 5%, 유럽은 4% 늘었습니다.",
+      "interp": "명품주는 <b>중국 소비</b>에 크게 흔들립니다. 유럽 명품주나 관련 ETF를 가졌다면 <b>지역별 매출</b> 흐름을 함께 보세요.",
+      "source": "LVMH·WWD",
+      "read": 3,
+      "url": "https://www.globenewswire.com/news-release/2026/10/12/3379064/0/en/lvmh-continued-growth-in-the-third-quarter-of-2026.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "LVMH",
+          "explain": "루이비통·디올 등을 거느린 프랑스 명품 기업"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "오마르 의원 자택, 이민사기 수사 수색",
+      "desc": "국토안보수사국이 12일 일한 오마르 하원의원의 워싱턴 자택을 수색했습니다. 어린 시절 이민 서류의 허위 진술 의혹 수사로, 기소는 없었습니다. 중간선거 22일 전입니다.",
+      "interp": "귀화자·영주권자도 <b>과거 이민 서류</b>가 다시 검토될 수 있습니다. 제출 서류 사본과 <b>신청 기록</b>을 보관해 두세요.",
+      "source": "CBS·NBC",
+      "read": 3,
+      "url": "https://www.cbsnews.com/news/ilhan-omar-immigration-raid-washington-dc/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "국토안보수사국",
+          "explain": "이민세관단속국 산하에서 범죄 수사를 맡는 조직"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "이민 서류 마감, 23일부터 엄격해져",
+      "desc": "USCIS가 23일 접수분부터 마감일 계산을 바꿉니다. 나이 기준 마감은 주말·공휴일이어도 다음 영업일로 안 미뤄집니다. 온라인도 연장이 없고 종이 접수 일수 기한만 예외입니다.",
+      "interp": "자녀 나이가 기준인 신청은 <b>생일 전 평일</b>에 미리 접수하세요. 온라인 제출은 <b>마감일 당일</b>까지 끝내야 합니다.",
+      "source": "비알토·RN법률그룹",
+      "read": 3,
+      "url": "https://vialtopartners.com/regional-alerts/united-states-immigration-services-uscis-to-change-how-certain-immigration-filing-deadlines-are-calculated-based-on-the-regulatory-definition-of-day",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "USCIS",
+          "explain": "영주권·시민권 등 이민 신청을 심사하는 미국 이민국"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "미 대형은행 3분기 실적 오늘 발표",
+      "desc": "JP모건·골드만삭스·웰스파고·씨티가 13일 개장 전 3분기 실적을 냅니다. JP모건 주당순이익 예상치는 5.90달러로 1년 전보다 높습니다. 트레이딩 수익이 관건입니다.",
+      "interp": "은행주는 <b>금리 흐름</b>에 민감합니다. 실적 발표 직후 <b>주가 변동</b>이 커질 수 있으니 서두른 매매는 피하세요.",
+      "source": "글로브뉴스와이어·벤징가",
+      "read": 3,
+      "url": "https://www.globenewswire.com/news-release/2026/10/12/3378822/0/en/five-big-banks-two-days-one-question-can-record-trading-offset-the-pressure-from-rising-yields.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "주당순이익",
+          "explain": "회사 순이익을 발행 주식 수로 나눈 값"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "life",
+      "head": "경유값 최고치서 하락, 러 거래 반발",
+      "desc": "미국 경유 평균값이 9월 22일 갤런당 6.53달러로 최고를 찍고 소폭 내렸습니다. 상원의원 6명은 러시아 경유 구매 철회를 요구했습니다. 가격 효과는 작다는 분석입니다.",
+      "interp": "트럭·디젤차를 쓴다면 <b>주유 앱</b>으로 주변 가격을 비교하세요. 러시아산 공급이 <b>값을 크게 낮추긴</b> 어렵다는 전망입니다.",
+      "source": "AAA·CNBC",
+      "read": 3,
+      "url": "https://www.cnbc.com/2026/10/12/russia-ukraine-energy-ceasefire-diesel-prices.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "리야드공항 폐쇄, 17일까지 연장",
+      "desc": "리야드 킹칼리드공항 폐쇄가 노탐 공지로 17일까지 늘었습니다. 11일에는 출발편 99.7%가 결항했습니다. KLM은 24일까지 리야드·담맘 운항을 멈췄고 재개일은 미정입니다.",
+      "interp": "중동 경유 항공권이 있다면 <b>항공사 공지</b>를 매일 확인하세요. 사우디는 <b>출국권고</b> 지역이라 방문을 미루는 것이 안전합니다.",
+      "source": "에어로스페이스글로벌·웨고",
+      "read": 3,
+      "url": "https://aerospaceglobalnews.com/news/when-will-riyadh-airport-reopen/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "노탐",
+          "explain": "공항·공역 운영 정보를 조종사와 항공사에 알리는 항공고시"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "visa",
+      "head": "네팔서 한국인 24명, 관광비자 선교로 체포",
+      "desc": "네팔 동부 모랑에서 관광비자로 들어간 한국인 24명이 종교 교육에 참여하다 체포됐습니다. 현지 규정은 관광객의 포교·종교 훈련을 금지합니다. 추방 절차가 진행될 수 있습니다.",
+      "interp": "해외 봉사·선교 일정은 <b>목적에 맞는 비자</b>로 가야 합니다. 출국 전 <b>현지 종교 관련 법</b>을 꼭 확인하세요.",
+      "source": "인사이트·라토파티",
+      "read": 2,
+      "url": "https://www.insight.co.kr/news/577468",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "루프트한자, 25일 두바이 운항 재개",
+      "desc": "루프트한자가 25일 뮌헨, 26일 프랑크푸르트발 두바이 노선을 재개할 계획입니다. 스위스항공은 27일, 유로윙스는 11월 1일 다시 띄웁니다. 재개 일정은 여러 번 미뤄졌습니다.",
+      "interp": "두바이 경유편을 찾는다면 <b>재개 일정</b>을 확인한 뒤 예약하세요. 중동 정세에 따라 <b>다시 연기</b>될 수 있습니다.",
+      "source": "트래블투모로우·로열티로비",
+      "read": 2,
+      "url": "https://traveltomorrow.com/lufthansa-group-to-resume-dubai-flights-from-late-october-as-middle-east-network-rebuilds/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
