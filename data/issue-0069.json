@@ -1,0 +1,456 @@
+{
+  "number": 69,
+  "date": "2026-10-14",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "설탕세, 2027년 7월부터 도입",
+      "desc": "독일 연정이 설탕세에 합의해 14일 내각 의결을 앞두고 있습니다. 2027년 7월부터 100밀리리터당 당 5그램 이상 음료는 리터당 26센트, 8그램 이상은 32센트입니다.",
+      "interp": "<b>설탕세</b>가 시행되면 탄산음료 값이 리터당 최대 32센트 오를 수 있습니다. 아직 연방의회 통과 전이니 최종안과 시행일을 확인하세요.",
+      "source": "ZDF",
+      "read": 3,
+      "url": "https://www.zdfheute.de/politik/deutschland/zuckersteuer-einigung-bundesregierung-100.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "전기업체 그륀, 31일 공급 종료",
+      "desc": "전기 공급사 그륀(grüüün)이 10월 31일로 가정용 전기 공급을 끝냅니다. 고객은 약 20만 명이며, 새 계약이 없으면 11월부터 더 비싼 지역 대체공급으로 넘어갑니다.",
+      "interp": "그륀 고객은 <b>지금 새 공급사</b>로 바꾸세요. 전환 신청 때 이전 공급사를 '뮌히 에너지'로 적고, 마지막 검침값도 꼭 제출하세요.",
+      "source": "inside digital",
+      "read": 3,
+      "url": "https://inside-digital.de/news/trotz-preisgarantie-stromanbieter-gibt-auf-kunden-muessen-handeln",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "대체공급",
+          "explain": "계약이 끊긴 가구에 지역 기본 공급사가 임시로 대는 비싼 전기 공급"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "우편요금, 2027년 최대 20% 인상안",
+      "desc": "연방네트워크청이 2027년 편지 요금 인상 한도를 20.35%로 하는 초안을 냈습니다. 95센트인 일반 편지에 고르게 적용하면 1.14유로입니다. 소포 한도는 10.72%입니다.",
+      "interp": "아직 초안이라 <b>실제 요금</b>은 포스트가 따로 정해 다시 심사받습니다. 관공서 서류를 자주 부친다면 내년 우편비를 미리 계산해 두세요.",
+      "source": "ZDF",
+      "read": 2,
+      "url": "https://www.zdfheute.de/wirtschaft/unternehmen/post-briefe-porto-preis-erhoehung-bundesnetzagentur-100.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "연방네트워크청",
+          "explain": "독일의 우편·통신·전력망 요금과 시장을 감독하는 정부 기관"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "health",
+      "head": "독감·코로나 증가세, 접종 시기",
+      "desc": "로베르트코흐연구소는 독감과 코로나 감염이 서서히 늘고 있다고 밝혔습니다. 아직 낮은 수준이지만, 상설예방접종위원회는 독감 접종을 10월부터 12월 중순 사이에 받으라고 권합니다.",
+      "interp": "<b>60세 이상</b>·임신부·만성질환자는 독감 접종 권고 대상입니다. 효과는 접종 뒤 2주쯤 지나야 생기니 가정의에게 미리 예약하세요.",
+      "source": "Ruhr Nachrichten",
+      "read": 2,
+      "url": "https://www.ruhrnachrichten.de/service/stiko-impfempfehlung-aktuell-2026-gegen-atemwegserreger-covid-19-corona-influenza-rsv-grippeimpfung-w1251331-2002240338/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "로베르트코흐연구소",
+          "explain": "감염병 감시를 맡는 독일 연방 질병관리 기관(RKI)"
+        },
+        {
+          "term": "상설예방접종위원회",
+          "explain": "독일의 공식 예방접종 권고를 정하는 전문가 위원회(STIKO)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "general",
+      "head": "노르트스트림 폭파 재판 시작",
+      "desc": "2022년 노르트스트림 폭파 사건 첫 재판이 14일 함부르크 고등법원에서 열립니다. 우크라이나인 피고인 세르히 K.는 혐의를 부인하며, 12월까지 공판 16차례가 잡혔습니다.",
+      "interp": "독일 에너지 안보와 <b>독일·우크라이나 관계</b>에 영향을 줄 수 있는 재판입니다. 공판은 내년 1~2월까지 이어질 예정입니다.",
+      "source": "Tagesspiegel",
+      "read": 2,
+      "url": "https://www.tagesspiegel.de/politik/dpa-prozesse-16014704.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "노르트스트림",
+          "explain": "러시아 가스를 발트해 해저로 독일에 보내던 가스관"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "새마을금고·OK저축은행도 해킹",
+      "desc": "새마을금고 공제 가입자 400여 명과 OK저축은행 고객 183명의 정보가 해킹으로 유출됐습니다. 이름·계좌번호·주소 등이 포함됐고, 금융권 누적 유출 피해는 6만 명을 넘었습니다.",
+      "interp": "<b>유출 여부</b>는 새마을금고 공제 홈페이지에서 해외에서도 조회할 수 있습니다. 보상을 미끼로 한 전화·문자는 의심하고 공식 대표번호로 확인하세요.",
+      "source": "SBS",
+      "read": 3,
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008796122",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "EU 정상회의 15~16일, 예산·중국",
+      "desc": "EU 정상들이 15~16일 브뤼셀에서 2028~2034년 장기예산과 대중국 무역 대응을 논의합니다. 13일엔 헝가리가 반대를 거둬 우크라이나 가입협상 분야 2개가 더 열렸습니다.",
+      "interp": "<b>장기예산</b> 합의는 유학·연구 지원 같은 EU 사업 규모를 좌우합니다. 대중국 무역 조치 구체안은 12월에 나올 예정이니 그때 다시 확인하세요.",
+      "source": "EU 이사회",
+      "read": 3,
+      "url": "https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15-16/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "장기예산",
+          "explain": "EU가 7년 단위로 짜는 다년도 재정 계획(MFF)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "travel",
+      "head": "이탈리아 16일 이지젯 24시간 파업",
+      "desc": "16일 이탈리아에서 이지젯 승무원이 24시간 파업합니다. 같은 날 피사·피렌체 공항 직원도 일을 멈춥니다. 다만 오전 7~10시, 오후 6~9시 항공편은 규정상 보호됩니다.",
+      "interp": "16일 이탈리아 <b>이지젯</b> 항공편이 있다면 앱에서 운항 여부를 확인하세요. 항공사 자체 파업이라 결항 때 EU 보상 대상이 될 수 있습니다.",
+      "source": "Wanted in Rome",
+      "read": 2,
+      "url": "https://www.wantedinrome.com/news/strikes-to-disrupt-air-travel-in-italy-on-16-october.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "뱅크오브아메리카, 12억 달러 제재",
+      "desc": "미국 재무부가 13일 뱅크오브아메리카에 자금세탁 방지·제재 위반으로 약 12억 달러를 부과했습니다. 의심 거래를 제대로 보고하지 않은 탓으로, 재무부 역사상 세 번째 규모입니다.",
+      "interp": "고객 예금이 아닌 <b>은행 내부 통제</b>에 대한 제재입니다. 감시가 세지면 큰 금액 송금 때 자금 출처 자료를 요구받을 수 있으니 준비해 두세요.",
+      "source": "Al Jazeera",
+      "read": 3,
+      "url": "https://www.aljazeera.com/news/2026/10/14/us-fines-bank-of-america-1-2bn-for-money-laundering-sanctions-violations",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "자금세탁 방지",
+          "explain": "범죄 수익이 정상 자금처럼 둔갑하는 것을 막는 금융 규제"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "visa",
+      "head": "H-1B·L-1 연장 심사 깐깐해진다",
+      "desc": "미국 국토안보부가 취업비자 연장 때 이전 승인 판단을 존중하던 원칙을 없애는 규정안을 14일 관보에 싣습니다. H-1B·L-1 등 연장이 대상이며 의견 수렴은 30일입니다.",
+      "interp": "확정 전 <b>규정안</b>이지만 연장 때 추가 서류 요청이 늘 수 있습니다. 연장을 앞둔 분은 고용주·변호사와 서류를 미리 넉넉히 준비하세요.",
+      "source": "Envoy Global",
+      "read": 3,
+      "url": "https://envoyglobal.com/news-alert/uscis-proposes-ending-deference-for-nonimmigrant-worker-extension-petitions",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "H-1B",
+          "explain": "미국 기업이 외국인 전문직을 고용할 때 쓰는 취업비자"
+        },
+        {
+          "term": "L-1",
+          "explain": "다국적 기업이 해외 직원을 미국 지사로 보낼 때 쓰는 주재원 비자"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "policy",
+      "head": "캘리포니아 유권자 등록 19일 마감",
+      "desc": "11월 3일 미국 중간선거를 앞두고 캘리포니아 유권자 등록이 19일 마감됩니다. 이후엔 카운티 선거사무소에서 조건부 등록으로 투표할 수 있고, 뉴저지는 이미 마감됐습니다.",
+      "interp": "시민권을 딴 한인이라면 <b>등록 여부</b>를 캘리포니아 국무장관실 사이트에서 확인하세요. 주마다 마감일이 다르니 거주 주 선거 사이트를 꼭 보세요.",
+      "source": "California Secretary of State",
+      "read": 2,
+      "url": "https://www.sos.ca.gov/elections",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "중간선거",
+          "explain": "대통령 임기 중간에 치르는 미국 연방 의회 선거"
+        },
+        {
+          "term": "조건부 등록",
+          "explain": "마감 뒤 당일 등록하고 확인을 거쳐 표가 집계되는 캘리포니아 제도"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "뉴욕 연은 총재 '내년엔 인상 불필요'",
+      "desc": "존 윌리엄스 뉴욕 연방준비은행 총재가 13일 2027년엔 금리 인상이 필요 없다고 밝혔습니다. 올해 한 차례 인상은 적절하다는 입장을 유지했고, 연준 회의는 27~28일입니다.",
+      "interp": "<b>금리 고점</b>이 가까워졌다는 신호로 읽힐 수 있습니다. 예금·채권 금리를 고정할지, 대출 갈아타기를 미룰지 판단할 때 참고하세요.",
+      "source": "Bloomberg",
+      "read": 2,
+      "url": "https://www.bloomberg.com/news/articles/2026-10-13/fed-s-williams-currently-sees-no-need-for-rate-hike-in-2027",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "KLM, 리야드 31일까지 운항 중단",
+      "desc": "KLM이 두바이 노선을 24일까지, 리야드·담맘 노선을 31일까지 운항 중단합니다. 리야드 공항은 후티 공격으로 17일까지 닫혀 있고, 걸프 항공사도 사우디 노선을 취소했습니다.",
+      "interp": "중동을 거치는 항공권이 있다면 <b>예약 앱</b>에서 운항 여부를 확인하세요. KLM 결항 승객은 무료 변경이나 환불을 신청할 수 있습니다.",
+      "source": "KLM",
+      "read": 2,
+      "url": "https://news.klm.com/statement-situation-middle-east/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "후티",
+          "explain": "예멘 북부를 장악한 친이란 무장 세력"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "콜롬비아 14일 전국 파업·시위",
+      "desc": "콜롬비아에서 14일 노조·교사·학생이 참여하는 전국 파업과 행진이 열립니다. 보고타는 국립공원에서 볼리바르 광장까지 행진이 예정됐고, 외교부도 안전 유의 공지를 냈습니다.",
+      "interp": "보고타에 머문다면 <b>도심 행진 구간</b>을 피하세요. 시내버스 노선이 바뀔 수 있으니 이동 전에 운행 정보를 확인하세요.",
+      "source": "보고타시청",
+      "read": 2,
+      "url": "https://bogota.gov.co/mi-ciudad/gobierno/marchas-y-manifestaciones-paro-nacional-bogota-14-de-octubre-de-2026",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
