@@ -1,0 +1,96 @@
+<!doctype html><html lang="ko"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>찡곰툰 업로드 · EP17</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-font-smoothing:antialiased}
+:root{
+  --kr:"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --paper:#F0DDC6; --ink:#2A2119; --soft:#6B5B49; --faint:#9C8B76;
+  --line:#D8C4A8; --panel:#F7EEE0; --bg:#FBF6EE;
+}
+body{font-family:var(--kr);color:var(--ink);background:var(--bg);line-height:1.6;
+  max-width:660px;margin:0 auto;padding:20px 16px 70px}
+.hd{border-bottom:3px solid var(--ink);padding-bottom:12px;margin-bottom:6px}
+.hd h1{font-size:23px;font-weight:800;letter-spacing:-.02em}
+.hd .sub{color:var(--faint);font-size:13px;margin-top:3px}
+h2{font-size:15px;font-weight:800;margin:28px 0 5px}
+.note{font-size:13px;color:var(--soft);margin-bottom:11px}
+.grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}
+.grid a{display:block;position:relative;text-decoration:none}
+.grid img{width:100%;aspect-ratio:4/5;object-fit:cover;background:var(--paper);
+  border:1px solid var(--line);border-radius:5px;display:block}
+.grid a.fallback{display:flex;align-items:center;justify-content:center;
+  aspect-ratio:4/5;background:var(--paper);border:1px dashed var(--line);border-radius:5px}
+.grid .fb{font-size:12px;font-weight:700;color:var(--soft);text-align:center;line-height:1.5}
+.grid .i{position:absolute;top:5px;left:5px;background:rgba(42,33,25,.85);color:#fff;
+  font-size:11px;font-weight:700;padding:2px 7px;border-radius:99px}
+.cap{background:var(--panel);border:1px solid var(--line);border-radius:8px;
+  padding:14px;font-size:14px;white-space:pre-wrap;word-break:break-word;margin-top:8px}
+button{font-family:inherit;font-size:14px;font-weight:700;border:0;border-radius:99px;
+  background:var(--ink);color:var(--bg);padding:11px 18px;margin-top:10px;cursor:pointer}
+button:active{opacity:.7}
+.tip{font-size:12px;color:var(--faint);margin-top:10px}
+.ep{margin-top:34px;padding-top:16px;border-top:1px solid var(--line)}
+.ep h3{font-size:14px;font-weight:800;margin-bottom:8px}
+@media(prefers-color-scheme:dark){
+  :root{--bg:#141210;--panel:#1e1b18;--line:#3a332c;--ink:#EFE7DA;--soft:#B5A794;--faint:#8B7F6E}
+}
+</style></head><body>
+
+<div class="hd">
+  <h1>찡곰툰 업로드</h1>
+  <div class="sub">EP17 · 아기방을 꾸며요 · 15컷 (4:5)</div>
+</div>
+
+<h2>컷 이미지</h2>
+<div class="note">이미지를 <b>길게 눌러 저장</b>하세요. 번호 순서대로 저장하면 캐러셀 순서가 맞습니다.</div>
+<div class="grid" id="grid"></div>
+
+<h2>캡션</h2>
+<div class="cap" id="cap"></div>
+<button onclick="cp(CAP,this)">캡션 복사</button>
+
+<h2>첫 댓글용 해시태그</h2>
+<div class="cap" id="tag"></div>
+<button onclick="cp(TAG,this)">해시태그 복사</button>
+
+<p class="tip">에피소드가 추가되면 이 페이지가 갱신됩니다. · <a href="../" style="color:inherit">최신 편</a> · <a href="../ep16/" style="color:inherit">EP16</a> · <a href="../ep15/" style="color:inherit">EP15</a> · <a href="../ep14/" style="color:inherit">EP14</a> · <a href="../ep13/" style="color:inherit">EP13</a></p>
+
+<script>
+var BASE="https://d8j0ntlcm91z4.cloudfront.net/user_3GECC5TtJ9AV8a30xaCCexmEilq/";
+var CUTS=[
+ ["../ep17_01.png","제목"],
+ ["hf_20260926_191019_a6a5caf6-3b6c-481d-ada1-3b47b842c9fe.png","대청소 시작"],
+ ["hf_20260926_194611_418b69cc-80c9-4c0f-952d-0e690c1af8e1.png","전등부터 달자"],
+ ["hf_20260926_195812_4704fcfb-394f-4536-a1fa-0a32e8de00fd.png","전등 설치"],
+ ["hf_20260926_201401_e3936e15-98d9-4641-847f-09ec83c2e578.png","가구 재배치 ㅇㅇ2"],
+ ["hf_20260926_202309_b051648d-df9a-4cf6-9da8-a513f4e83782.png","끙끙"],
+ ["hf_20260926_202717_6f9a1ee1-d2c3-471d-9795-b2ecc5eddbde.png","커튼 ㅇㅇ3"],
+ ["hf_20260926_203652_422478d9-3efa-4f44-91bb-493a2d9932e6.png","커튼 교체할 차례"],
+ ["hf_20260926_204421_b1fb5f95-9b7c-4f77-96bb-bdfb83cea242.png","고리 끼우기"],
+ ["hf_20260926_205150_1b8cd451-225d-40c5-8a1a-f3424330c28a.png","이건 마치"],
+ ["hf_20260926_205837_d9f234d2-488f-4506-b05e-63cb6443f182.png","아이 힘들다 휴"],
+ ["hf_20260926_211411_fb6d4195-6449-4eda-854b-237bae0e5fab.png","물음표"],
+ ["hf_20260926_213309_45175b00-e7d9-4629-a320-30a81d3db1ff.png","버릇이 잘못 들겠어"],
+ ["hf_20260926_213617_6bfde48c-0c18-4814-b609-1438493e38cd.png","이게 커튼 고리야"],
+ ["hf_20260926_214218_7b1d9539-d811-46e8-96ad-7ba46ba7ab9d.png","같이 걸었다"]
+];
+var g=document.getElementById('grid');
+function U(f){return f.indexOf('/')>=0?f:BASE+f;}
+CUTS.forEach(function(c,i){
+  var n=String(i+1).padStart(2,'0');
+  var a=document.createElement('a');
+  a.href=U(c[0]); a.target="_blank"; a.rel="noopener";
+  a.setAttribute('download','EP17_'+n+'.png');
+  a.innerHTML='<span class="i">'+n+'</span><img src="'+U(c[0])+'" alt="'+c[1]+'" onerror="this.style.display=\'none\';this.parentNode.classList.add(\'fallback\');this.parentNode.insertAdjacentHTML(\'beforeend\',\'<span class=&quot;fb&quot;>'+c[1]+'<br>열기 →</span>\')">';
+  g.appendChild(a);
+});
+
+var CAP="한국 가기 전에 아기방을 마무리하기로 했습니다 🧸\n\n\"그럼 먼저 전등부터 달자!\" ㅇㅇ\n\"자! 다음은 가구를 재배치하자!\" ㅇㅇ2\n\"자 다음은 커튼을 새로 달자!\" ㅇㅇ3\n\n전등 달고, 서랍장 옮기고, 커튼 고리 끼우는 동안\n아내는 옆에서 내내 쫑알쫑알 현장 감독 중이었어요.\n\n그러다 들려온 한마디.\n\"아이 힘들다 휴\"\n\n...????\n\n이래선 버릇이 잘못 들겠다 싶어서\n친절하게 알려줬습니다.\n\"자, 이게 커튼 고리야\"\n\n입은 삐죽 나왔지만 결국 커튼은 같이 걸었어요 😆\n\n#임신툰 #부부툰 #아기방꾸미기 #독일부부 #예비아빠";
+var TAG="#임신일기 #출산준비 #독일살이 #곰과물개 #donyfilm #손그림웹툰 #그림일기 #무한도전패러디";
+document.getElementById('cap').textContent=CAP;
+document.getElementById('tag').textContent=TAG;
+function cp(t,b){navigator.clipboard.writeText(t).then(function(){
+  var o=b.textContent;b.textContent='복사됨 ✓';setTimeout(function(){b.textContent=o},1500);});}
+</script></body></html>
