@@ -44,8 +44,9 @@ button:active{opacity:.7}
 </div>
 
 <h2>컷 이미지</h2>
-<div class="note">이미지를 <b>길게 눌러 저장</b>하세요. 번호 순서대로 저장하면 캐러셀 순서가 맞습니다.</div>
+<div class="note">이미지를 <b>길게 눌러 저장</b>하거나 아래 <b>전체 한번에 저장</b> 버튼을 누르세요. 번호 순서대로 저장하면 캐러셀 순서가 맞습니다.</div>
 <div class="grid" id="grid"></div>
+<button id="all" onclick="saveAll(this)">전체 한번에 저장</button>
 
 <h2>캡션</h2>
 <div class="cap" id="cap"></div>
@@ -92,6 +93,27 @@ var CAP="임신 30주, 비행기 타기 전에 챙긴 것들 ✈️\n\n✔️ �
 var TAG="#임신30주 #임신일기 #출산준비 #독일살이 #곰과물개 #donyfilm #손그림웹툰 #그림일기 #인천공항";
 document.getElementById('cap').textContent=CAP;
 document.getElementById('tag').textContent=TAG;
+
+var EP='EP18', FILES=null;
+async function saveAll(b){
+  if(!FILES){ // 1단계: 다 받아두기 (아이폰은 공유창을 바로 띄워야 해서 미리 받는다)
+    b.disabled=true; var done=0;
+    FILES=await Promise.all(CUTS.map(function(c,i){
+      return fetch(U(c[0])).then(function(r){return r.blob();}).then(function(bl){
+        b.textContent='받는 중 '+(++done)+'/'+CUTS.length;
+        return new File([bl],EP+'_'+String(i+1).padStart(2,'0')+'.png',{type:'image/png'});});
+    }));
+    b.disabled=false;
+  }
+  if(navigator.canShare&&navigator.canShare({files:FILES})){
+    b.textContent='눌러서 사진에 저장';
+    if(b.dataset.ready){ try{await navigator.share({files:FILES});}catch(e){} }
+    b.dataset.ready=1; return;
+  }
+  // 컴퓨터: 한 장씩 연속 다운로드
+  for(var f of FILES){var a=document.createElement('a');a.href=URL.createObjectURL(f);a.download=f.name;a.click();await new Promise(function(r){setTimeout(r,300);});}
+  b.textContent='저장 완료 ✓';
+}
 function cp(t,b){navigator.clipboard.writeText(t).then(function(){
   var o=b.textContent;b.textContent='복사됨 ✓';setTimeout(function(){b.textContent=o},1500);});}
 </script></body></html>
