@@ -1,0 +1,537 @@
+{
+  "number": 74,
+  "date": "2026-10-19",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "메르츠·엔비디아, 오늘 베를린서 AI 협력",
+      "desc": "19일 저녁 베를린 투자 정상회의에서 메르츠 총리와 젠슨 황 엔비디아 대표가 인공지능 협력을 발표합니다. 연방정부가 수억 유로를 대고 지멘스·아우디 등 10여 곳이 참여합니다.",
+      "interp": "독일 정부가 <b>산업용 인공지능</b>에 돈을 붓는 신호입니다. 제조·자동차·IT 분야에서 일하거나 구직 중이라면 참여 기업 채용을 눈여겨보세요.",
+      "source": "ZDF·한델스블라트",
+      "read": 3,
+      "url": "https://www.zdfheute.de/wirtschaft/unternehmen/nvidia-usa-ki-bundesregierung-deutschland-kooperation-100.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "네슬레 베바 분유, 카우프란트 또 회수",
+      "desc": "카우프란트가 13일 네슬레 베바 분유 일부를 다시 회수했습니다. 1월 회수 대상 제품이 일부 매장에서 계속 팔렸기 때문입니다. 세레울리드는 아기에게 구토를 일으킬 수 있습니다.",
+      "interp": "집에 있는 베바 프레·1단계·HA 분유의 <b>유통기한과 로트 번호</b>를 공지와 대조하세요. 해당 제품은 영수증 없이도 매장에서 환불됩니다.",
+      "source": "레벤스미텔바르눙·슈투트가르터 차이퉁",
+      "read": 2,
+      "url": "https://www.stuttgarter-zeitung.de/lokales/baden-wuerttemberg/saeuglingsnahrung-kaufland-ruft-beba-und-alfamino-erneut-zurueck-79571250.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "세레울리드",
+          "explain": "일부 세균이 만들어 구토를 일으키는 열에 강한 독소"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "tax",
+      "head": "내년 소득세 공제, 11월 1일부터 신청",
+      "desc": "내년 월급에서 원천징수되는 소득세를 줄이는 공제를 11월 1일부터 신청할 수 있습니다. 대부분 비용이 600유로를 넘어야 합니다. 통근이 길거나 보육비가 큰 직장인에게 유리합니다.",
+      "interp": "신청은 세무서 온라인 창구 <b>엘스터</b>로 할 수 있습니다. 공제를 받으면 이듬해 세금신고가 사실상 의무가 되니 함께 챙기세요.",
+      "source": "피난츠팁·게겐하르츠",
+      "read": 3,
+      "url": "https://www.finanztip.de/lohnsteuerermaessigung/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "원천징수",
+          "explain": "회사가 월급에서 세금을 미리 떼어 세무서에 내는 방식"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "자동차보험 갈아타기, 11월 30일까지",
+      "desc": "독일 자동차보험은 대부분 12월 31일에 계약 연도가 끝납니다. 보험사를 바꾸려면 11월 30일까지 해지 통지가 도착해야 합니다. 이 날을 놓치면 계약이 1년 자동 연장됩니다.",
+      "interp": "지금 <b>비교 사이트</b>로 내년 보험료를 견줘 보세요. 보험료 인상 통지를 받았다면 통지 후 한 달 안에 특별 해지도 할 수 있습니다.",
+      "source": "페어지혀룽스보테·게겐하르츠",
+      "read": 2,
+      "url": "https://www.versicherungsbote.de/id/4827905/Kfz-Versicherung--Wechsel--Stichtag-30-November/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "케냐, 20일부터 에볼라 중점검역지역",
+      "desc": "질병관리청이 20일부터 케냐를 에볼라 중점검역관리지역으로 지정합니다. 케냐 확진자가 8명으로 늘고 1명이 숨졌습니다. 케냐를 다녀와 한국에 오는 사람은 건강상태를 신고해야 합니다.",
+      "interp": "케냐를 다녀왔다면 입국 전 <b>큐코드</b>에 방문국과 건강상태를 입력하세요. 귀국 후 21일 안에 열이 나면 1339에 먼저 전화하세요.",
+      "source": "KBS·뉴스1",
+      "read": 2,
+      "url": "https://www.kdca.go.kr/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [
+        {
+          "term": "중점검역관리지역",
+          "explain": "감염병 위험이 커 입국자 검역을 한층 강화하는 국가·지역"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "항공 마일리지 분쟁, 3년 새 3.9배",
+      "desc": "항공 마일리지 피해구제 신청이 2022년 7건에서 지난해 27건으로 3.9배 늘었습니다. 증빙을 내고도 적립을 거부당한 사례도 있습니다. 국감에서 국토부 감독 요구가 나왔습니다.",
+      "interp": "비행이 잦다면 탑승 뒤 <b>보딩패스와 전자항공권</b>을 보관하세요. 적립이 빠지면 항공사에 바로 정정을 요청하고, 안 되면 소비자원에 문의하세요.",
+      "source": "연합뉴스·월요신문",
+      "read": 2,
+      "url": "https://www.wolyo.co.kr/news/articleView.html?idxno=319242",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "피해구제",
+          "explain": "한국소비자원이 소비자와 업체 사이 분쟁을 조정하는 절차"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "모르는 입금 뒤 계좌정지, 통장묶기 주의",
+      "desc": "올해 상반기 5대 은행에서 이의제기로 지급정지가 풀린 계좌가 6515건으로 지난해 전체의 93%입니다. 남의 계좌에 소액을 넣고 허위 신고해 돈을 뜯는 통장묶기가 늘었습니다.",
+      "interp": "모르는 돈이 한국 계좌에 들어오면 <b>쓰지 말고</b> 바로 은행에 알리세요. 억울하게 정지됐다면 소명 자료를 내면 5영업일 안에 처리됩니다.",
+      "source": "브릿지경제·SBS Biz",
+      "read": 2,
+      "url": "https://www.viva100.com/article/20261019500410",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "지급정지",
+          "explain": "보이스피싱 신고가 들어온 계좌의 출금과 이체를 막는 조치"
+        },
+        {
+          "term": "통장묶기",
+          "explain": "허위 피해 신고로 남의 계좌를 묶은 뒤 해제 대가를 요구하는 수법"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "education",
+      "head": "동포 청년, 제주서 배우고 취업까지",
+      "desc": "재외동포청이 17일 제주한라대와 재외동포 청년 정착 협약을 맺었습니다. 지역 기업 현장실습과 인턴십을 거쳐 한국 취업까지 잇습니다. 동포 2세의 한국 진로 선택지가 넓어집니다.",
+      "interp": "한국 취업을 고민하는 <b>동포 자녀</b>가 있다면 재외동포청 누리집에서 모집 공고를 확인하세요. 한국어 능력 요건도 함께 살펴보세요.",
+      "source": "재외동포신문·재경일보",
+      "read": 2,
+      "url": "https://www.oka.go.kr/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "프랑스 시위 격화, 1800명 넘게 체포",
+      "desc": "프랑스 생활고 시위가 약탈·방화로 번져 1800명 넘게 체포됐습니다. 시위는 벨기에·이탈리아로도 퍼졌습니다. 마크롱 대통령은 원탁회의를 약속하며 시위 금지 가능성도 밝혔습니다.",
+      "interp": "프랑스·벨기에로 갈 계획이면 <b>시위 예고 장소</b>를 피해 동선을 짜세요. 대중교통 운행이 바뀔 수 있으니 출발 전 운영사 공지를 확인하세요.",
+      "source": "뉴욕타임스·ZDF",
+      "read": 3,
+      "url": "https://www.zdfheute.de/politik/ausland/frankreich-ausschreitungen-proteste-macron-100.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "health",
+      "head": "먹는 비만약 파운다요, EU 승인 권고",
+      "desc": "유럽의약품청 위원회가 15일 일라이 릴리의 먹는 비만약 파운다요 승인을 권고했습니다. 임상에서 체중이 최대 11% 줄었습니다. 집행위 최종 결정은 보통 67일 안에 나옵니다.",
+      "interp": "유럽 출시는 <b>연말 이후</b>가 될 전망입니다. 독일 공보험은 체중 감량 목적 약을 보장하지 않아 왔으니 처방 전 비용을 의사와 확인하세요.",
+      "source": "유럽의약품청·벤징가",
+      "read": 2,
+      "url": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-12-15-october-2026",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "유럽의약품청",
+          "explain": "유럽연합에서 새 의약품의 허가 심사를 맡는 기관"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "stocks",
+      "head": "네슬레 22일·유니레버 28일 실적",
+      "desc": "네슬레가 22일 3분기·9개월 매출을 발표합니다. 유니레버는 28일 3분기 실적을 냅니다. 유럽 식품·생활용품 대형주의 가격 인상 효과와 수요를 가늠할 첫 성적표입니다.",
+      "interp": "유럽 <b>경기방어주</b>를 보유했다면 매출 증가율과 연간 전망 변경 여부를 확인하세요. 발표 당일엔 주가가 크게 흔들릴 수 있습니다.",
+      "source": "네슬레·유니레버",
+      "read": 2,
+      "url": "https://www.nestle.com/media/mediaeventscalendar/allevents/2026-third-quarter-nine-month-sales",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "미국 합법 이민 반토막, 한국도 19%↓",
+      "desc": "트럼프 정부 들어 미국 합법 이민이 절반 가까이 줄었다고 뉴욕타임스가 분석했습니다. 한국인 이민비자 발급도 19% 감소했습니다. 91개국 출신은 이민이 사실상 막힌 상태입니다.",
+      "interp": "가족초청·취업이민을 기다린다면 <b>대기 일정과 서류</b>를 변호사와 다시 점검하세요. 체류 신분이 끊기지 않게 연장 기한도 미리 챙기세요.",
+      "source": "뉴욕타임스·연합뉴스",
+      "read": 3,
+      "url": "https://www.mediaite.com/media/trump-white-house-celebrates-ny-times-report-on-admin-slashing-legal-immigration-in-half/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "이민비자",
+          "explain": "미국 영주권을 받기 위해 해외 공관에서 발급받는 비자"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "tax",
+      "head": "플로리다 허리케인 피해, 세금기한 2월로",
+      "desc": "국세청이 허리케인 이사이아스 피해지역의 신고·납부 기한을 2027년 2월 8일로 미뤘습니다. 플로리다 27개 카운티가 대상입니다. 연장 신청한 2025년 소득세 신고도 포함됩니다.",
+      "interp": "피해 카운티에 살면 <b>별도 신청 없이</b> 기한이 연장됩니다. 다만 4월 15일이 기한이던 2025년분 세금 납부는 연장 대상이 아니니 유의하세요.",
+      "source": "미국 국세청·저널오브어카운턴시",
+      "read": 2,
+      "url": "https://www.irs.gov/newsroom/irs-announces-tax-relief-for-taxpayers-impacted-by-hurricane-isaias-in-florida-various-deadlines-postponed-to-feb-8-2027",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "tax",
+      "head": "국세청 새 앱, 환급 조회·납부 한 번에",
+      "desc": "국세청이 기존 IRS2Go를 대신할 새 모바일 앱을 내놨습니다. 로그인하면 환급 조회, 잔액 확인, 세금 납부, 일부 통지서 열람이 됩니다. 신원보호 PIN도 앱에서 받습니다.",
+      "interp": "앱은 반드시 <b>공식 앱스토어</b>에서만 받으세요. 국세청은 문자·이메일로 개인정보를 묻지 않으니 비슷한 사칭 링크는 누르지 마세요.",
+      "source": "미국 국세청·CPA 프랙티스 어드바이저",
+      "read": 2,
+      "url": "https://www.cpapracticeadvisor.com/2026/09/25/irs-launches-new-mobile-app-that-replaces-irs2go/190606/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "신원보호 PIN",
+          "explain": "남이 내 이름으로 세금신고하는 것을 막는 국세청 발급 6자리 번호"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "반도체지수 8일째 하락, 2008년 이후 최장",
+      "desc": "필라델피아 반도체지수가 16일까지 8거래일 연속 떨어져 2008년 이후 최장 하락을 기록했습니다. 나스닥은 이날 2.15% 내렸습니다. 인공지능 기업 빚 부담 우려가 원인입니다.",
+      "interp": "반도체 비중이 큰 <b>ETF</b>를 들고 있다면 한 업종 쏠림을 점검하세요. 이번 주 빅테크 실적 발표 전후로 변동성이 커질 수 있습니다.",
+      "source": "로이터·크립토브리핑",
+      "read": 2,
+      "url": "https://www.kitco.com/news/off-the-wire/2026-10-16/wall-street-tumbles-worries-about-ai-trade-and-high-oil-prices-weigh",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "필라델피아 반도체지수",
+          "explain": "미국 주요 반도체 기업 주가를 묶어 만든 지수"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "캐나다 앨버타, 오늘 분리독립 주민투표",
+      "desc": "캐나다 앨버타주가 19일 분리 독립 절차 착수 여부 등 10개 안건을 주민투표에 부칩니다. 임시체류자에게 의료·교육 이용료를 물리는 안건도 있습니다. 결과에 구속력은 없습니다.",
+      "interp": "앨버타의 <b>워크퍼밋·유학생</b>이라면 결과 뒤 주정부 후속 입법을 지켜보세요. 당장 의료보험 자격이 바뀌지는 않습니다.",
+      "source": "무빙투캐나다·앨버타 선관위",
+      "read": 3,
+      "url": "https://moving2canada.com/features/alberta-separation-referendum-immigration-questions/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "임시체류자",
+          "explain": "워크퍼밋·학생비자처럼 영주권 없이 머무는 외국인"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "일본서 연락 끊긴 한국인, 2년 새 3.7배",
+      "desc": "일본에서 연락이 끊긴 한국인 사건이 2023년 66건에서 지난해 246건으로 늘었습니다. 일본 내 한국인 사건·사고 피해자는 2022년 348명에서 지난해 3090명이 됐습니다.",
+      "interp": "일본 여행 땐 가족에게 <b>숙소와 일정</b>을 공유해 두세요. 급한 일이 생기면 영사콜센터 +82-2-3210-0404로 연락하세요.",
+      "source": "매일신문·매일경제",
+      "read": 2,
+      "url": "https://www.imaeil.com/page/view/2026101617312712465",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
