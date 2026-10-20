@@ -1,0 +1,447 @@
+{
+  "number": 75,
+  "date": "2026-10-20",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "로슈, 독일 신규 투자 결정 보류",
+      "desc": "베를린 투자정상회의가 열린 20일, 제약사 로슈가 독일 신규 투자 결정을 당분간 보류한다고 밝혔습니다. 약값 할인 의무를 키운 건보 재정법 탓입니다. 업계 반발이 커집니다.",
+      "interp": "정부는 보험료 안정을 위해 필요한 조치라는 입장입니다. 당장 처방이 바뀌지는 않으니 <b>11월 1일 추가보험료 고시</b>를 함께 확인하세요.",
+      "source": "Euronews·ZDF",
+      "read": 3,
+      "url": "https://www.euronews.com/2026/10/20/why-pharma-giant-roche-is-putting-german-investments-on-hold",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "가스요금 1월 최대 20%↑ 전망",
+      "desc": "페리복스는 새해 가스요금이 요금제에 따라 10~20% 오를 것으로 봤습니다. 연 2만kWh 가구는 250~500유로를 더 낼 수 있습니다. 이란 전쟁 뒤 도매가 상승 탓입니다.",
+      "interp": "기본공급 요금은 인상 6주 전인 <b>11월 20일께까지 통지</b>가 와야 합니다. 통지서를 받으면 새 계약부터 맺고 특별해지권을 쓰세요.",
+      "source": "Berliner Zeitung·Verivox",
+      "read": 3,
+      "url": "https://www.berliner-zeitung.de/article/ab-januar-2027-bis-zu-20-prozent-mehr-fuers-gas-was-strom-und-gaskunden-bis-jahresende-erledigen-sollten-10504650",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "페리복스",
+          "explain": "독일의 대표적인 전기·가스 요금 비교 사이트"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "하맥스 자전거 유아시트 회수",
+      "desc": "데카트론이 판 하맥스 자전거 유아시트 '버디'(품목코드 4091054)가 회수됩니다. 벨트의 천 라벨이 떨어져 아이가 삼킬 위험이 있습니다. 8월 6일까지 판매분이 대상입니다.",
+      "interp": "시트에 붙은 <b>품목코드와 모델번호</b>를 확인하세요. 해당하면 아이를 태우지 말고 가까운 데카트론 매장에 반품하면 됩니다.",
+      "source": "Ruhr Nachrichten·Decathlon",
+      "read": 2,
+      "url": "https://www.ruhrnachrichten.de/service/rueckruf-aktuell-ticker-lebensmittel-produkt-warnungen-gesundheitsgefahren-20-oktober-2026-w1246296-2002227025",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "health",
+      "head": "내년 병원 예약, 더 어려워질 듯",
+      "desc": "독일 보험의사협회가 내년부터 공보험 환자의 진료 예약 대기가 길어진다고 경고했습니다. 외래 진료비 삭감으로 수천만 건의 진료가 준다는 주장입니다. 예약 보고 의무도 늘어납니다.",
+      "interp": "전문의 진료가 필요하면 <b>연내 예약</b>을 서두르는 편이 낫습니다. 예약이 급하면 공보험 예약 서비스 <b>116117</b>을 이용하세요.",
+      "source": "ZDF·KBV",
+      "read": 3,
+      "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "보험의사협회",
+          "explain": "공보험 환자를 진료하는 개업의들을 대표하는 연방 단체"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "김여정, 대남 확성기 재개 검토",
+      "desc": "북한 김여정이 19일 담화에서 대남 확성기 방송 재개와 타격수단 증강을 검토한다고 밝혔습니다. 국방부는 엄중 우려를 표했습니다. 지난달 지뢰 폭발 뒤 긴장이 이어집니다.",
+      "interp": "실제 방송 재개는 아직 확인되지 않았습니다. 한국 방문을 앞두고 있다면 <b>접경지역 방문 일정</b>은 현지 공지를 먼저 확인하세요.",
+      "source": "뉴시스·경향신문",
+      "read": 2,
+      "url": "https://www.newsis.com/view/NISX20261020_0003832984",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "policy",
+      "head": "해외 한식당 1000곳, 등급 매긴다",
+      "desc": "농식품부가 해외 한식당 지정을 '추천·우수' 2단계 등급제로 바꿔 5년간 1000곳을 뽑습니다. 대중 식당도 대상이고 영업기간 요건은 1년으로 줄었습니다. 현지 기관이 심사합니다.",
+      "interp": "해외에서 한식당을 운영한다면 <b>aT 현지 지사 공고</b>를 지켜보세요. 지정되면 식재료 조달 정보와 교육 지원을 받을 수 있습니다.",
+      "source": "뉴스핌·이투데이",
+      "read": 3,
+      "url": "https://www.newspim.com/news/view/20261020000319",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "해킹 은행장들 국감, 신한 전액 보상",
+      "desc": "금융권 해킹으로 5대 은행장이 19일 국감에 나왔습니다. 고객 약 2만5천 명 정보가 샌 신한은 전액 보상 방침을 밝혔습니다. 유출 정보가 온라인에서 팔린다는 지적도 나왔습니다.",
+      "interp": "한국 은행 계좌를 쓴다면 <b>앱 공지에서 유출 여부</b>를 확인하세요. 낯선 대출 안내 문자는 열지 말고 비밀번호도 바꾸세요.",
+      "source": "뉴스핌·YTN",
+      "read": 3,
+      "url": "https://www.newspim.com/news/view/20261019001473",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "스페인 동부 폭우, 최소 4명 사망",
+      "desc": "폭풍 '아담'이 스페인 동부를 덮쳐 최소 4명이 숨졌습니다. 발렌시아는 두 번째로 높은 비상단계를 내렸고 마요르카·이비사 공항은 결항·회항이 잇따랐습니다. 고립된 마을도 있습니다.",
+      "interp": "발렌시아·발레아레스 여행 예정이면 <b>항공편 운항 여부</b>를 앱으로 먼저 확인하세요. 현지에선 지자체의 외출 자제 명령을 따르세요.",
+      "source": "ZDF·Euronews",
+      "read": 2,
+      "url": "https://www.zdfheute.de/panorama/spanien-valencia-mallorca-unwetter-starkregen-warnstufe-100.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "stocks",
+      "head": "프랑스 시위에 은행주 3%대 급락",
+      "desc": "프랑스 시위 여파로 19일 유럽 증시가 내렸고 스톡스600은 0.9% 떨어졌습니다. 비엔피파리바 등 프랑스 은행주는 2.5~3.4% 급락했습니다. 까르푸도 2.2% 내렸습니다.",
+      "interp": "유럽 상장지수펀드에 투자했다면 <b>국가·업종 비중</b>을 점검하세요. 프랑스 정치 불안은 2027년 대선까지 변수로 남을 수 있습니다.",
+      "source": "Irish Times·RTTNews",
+      "read": 2,
+      "url": "https://www.irishtimes.com/business/2026/10/19/european-shares-dip-despite-tech-rebound",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "스톡스600",
+          "explain": "유럽 17개국 대형·중형주 600곳으로 구성된 대표 주가지수"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "travel",
+      "head": "스페인 우이고 열차, 30일부터 파업",
+      "desc": "스페인 고속열차 우이고 기관사가 10월 30일·11월 2일 종일 파업을 예고했습니다. 11월 6·9일, 12월 4·8일엔 부분 파업입니다. 마드리드·바르셀로나발 노선이 대상입니다.",
+      "interp": "연휴에 스페인 기차 여행을 계획했다면 <b>예약 변경·환불 조건</b>을 확인하세요. 국영 렌페도 29일 별도 파업이 예정돼 있습니다.",
+      "source": "Euro Weekly News",
+      "read": 2,
+      "url": "https://euroweeklynews.com/2026/10/12/train-strikes-in-spain-threaten-holiday-getaways-as-ouigo-drivers-call-six-days-of-walkouts/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "머스크, 미국 아이마다 스페이스X 1주",
+      "desc": "머스크가 19일 미국 모든 아이에게 스페이스X 주식을 1주씩 준다고 밝혔습니다. 트럼프 대통령은 '트럼프 계좌'로 기부된다고 했습니다. 주가 149달러면 100억 달러가 넘습니다.",
+      "interp": "<b>사회보장번호</b>가 있는 18세 미만 자녀는 트럼프 계좌를 만들 수 있습니다. 지급 방법은 아직 발표 전이니 국세청 공지를 지켜보세요.",
+      "source": "CBS News·Euronews",
+      "read": 2,
+      "url": "https://www.cbsnews.com/news/elon-musk-spacex-shares-us-children/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "트럼프 계좌",
+          "explain": "미국 정부가 아이 명의로 열어 주는 세제 혜택 투자계좌"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "넷플릭스 오늘 실적, 올해 20%↓",
+      "desc": "넷플릭스가 20일 장 마감 뒤 3분기 실적을 발표합니다. 주가는 올해 20% 내렸고 14일엔 직원 약 1천 명을 줄였습니다. 콘텐츠 총괄도 물러나 성장 둔화 해법이 관심입니다.",
+      "interp": "넷플릭스를 보유했다면 <b>북미 가입자 성장률</b>과 4분기 전망을 확인하세요. 실적 발표 직후 주가가 크게 출렁일 수 있습니다.",
+      "source": "24/7 Wall St.·BriefGlance",
+      "read": 2,
+      "url": "https://247wallst.com/investing/2026/10/16/netflix-is-cutting-about-1000-jobs-and-its-content-chief-is-out-days-before-earnings/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "life",
+      "head": "LA 빈센트 토머스 다리, 16개월 폐쇄",
+      "desc": "LA 항만의 빈센트 토머스 다리가 11월 7일부터 전면 폐쇄됩니다. 상판 교체 공사로 2028년 3월 초 재개통이 목표입니다. 하루 5만3천 대가 지나는 다리라 정체가 예상됩니다.",
+      "interp": "롱비치·샌피드로로 출퇴근한다면 <b>I-110·I-710 우회로</b>를 미리 익혀 두세요. 출발 전 칼트랜스 교통지도로 정체를 확인하세요.",
+      "source": "Caltrans·미주중앙일보",
+      "read": 2,
+      "url": "https://dot.ca.gov/caltrans-near-me/district-7/district-7-projects/d7-overnight-and-daytime-closures-of-vincent-thomas-bridge-5_7/vtb-full-closure-new-date",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "사우디 노선 결항, 24일까지 연장",
+      "desc": "카타르항공·에티하드·플라이두바이가 리야드·담맘 결항을 24일까지 늘렸습니다. 에어프랑스는 11월 7일까지 리야드 운항을 멈춥니다. 리야드 공항 재개 여부는 보도가 엇갈립니다.",
+      "interp": "사우디 전역은 <b>여행경보 3단계(출국 권고)</b>입니다. 경유편을 포함해 예약이 있다면 항공사에 운항 여부를 직접 확인하세요.",
+      "source": "Arabian Business·Time Out Riyadh",
+      "read": 2,
+      "url": "https://arabianbusiness.com/business/transport/etihad-qatar-airways-saudi-arabia-flights-cancelled-october-24",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "health",
+      "head": "케냐 에볼라 8명, 콩고는 새 지역 확산",
+      "desc": "케냐에서 첫 환자를 돌본 49세 남성이 8번째로 확진됐습니다. 콩고민주공화국에선 북우방기주에서 환자가 나와 발병 지역이 8개 주로 늘었습니다. 이 바이러스엔 승인 백신이 없습니다.",
+      "interp": "동아프리카를 다녀온 뒤 <b>21일 안에 열</b>이 나면 의료기관에 여행력을 알리세요. 한국 입국 때는 검역 신고를 꼭 하세요.",
+      "source": "Euronews·케냐 보건부",
+      "read": 2,
+      "url": "https://www.euronews.com/2026/10/19/ebola-kenya-confirms-eighth-case-as-drc-outbreak-reaches-new-province",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
