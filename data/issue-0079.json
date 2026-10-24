@@ -1,0 +1,565 @@
+{
+  "number": 79,
+  "date": "2026-10-24",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "폭풍 루이제, 2명 중상·철도 차질",
+      "desc": "23일 폭풍 루이제로 나스테텐 축제장 구조물이 무너져 2명이 크게 다쳤습니다. 아헨·카를스루에 철도도 한때 끊겼습니다. 25일엔 북해 해안에 시속 100km 돌풍이 예보됐습니다.",
+      "interp": "일요일 북해 섬 <b>페리 결항</b> 가능성이 있으니 출발 전 운항 정보를 확인하세요. 강풍 때는 숲·공원·가로수길을 피하세요.",
+      "source": "ZDF·노이에 베스트팔리셰",
+      "read": 2,
+      "url": "https://www.zdfheute.de/panorama/herbststurm-verletzte-bahnverkehr-wetter-100.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "DB 도이칠란트티켓, 11월 30일까지 동의",
+      "desc": "DB 도이칠란트티켓 구독자는 11월 30일까지 인상에 직접 동의해야 합니다. 답이 없으면 12월 31일 자로 해지됩니다. 내년 1월부터 월 63유로에서 66.80유로로 오릅니다.",
+      "interp": "bahn.de 계정이나 <b>DB 내비게이터 앱</b>에서 '계약 변경 동의'를 누르세요. 10월 15일 이후 새로 산 분은 따로 할 일이 없습니다.",
+      "source": "베를리너 차이퉁·도이체반",
+      "read": 2,
+      "url": "https://www.berliner-zeitung.de/article/10511777",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "테구트 철수 할인, 점포 주인 바뀐다",
+      "desc": "테구트가 독일에서 철수하며 일부 매장에서 최대 50% 할인 판매를 합니다. 헤센주 160곳은 에데카 100곳, 레베 26곳 등으로 넘어갑니다. 18곳은 아직 새 주인이 없습니다.",
+      "interp": "할인 여부는 매장마다 다르니 <b>테구트 매장 목록</b>을 먼저 확인하세요. 자체 상품은 단종되니 자주 쓰던 제품은 대체품을 미리 찾아 두세요.",
+      "source": "헤센샤우·GIGA",
+      "read": 2,
+      "url": "https://www.hessenschau.de/wirtschaft/halbe-preise-volle-laeden-ansturm-bei-tegut-ausverkauf-v1,tegut-ausverkauf-106.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "housing",
+      "head": "스마트미터 안내문, 당장 답할 필요 없어",
+      "desc": "스마트미터 안내 편지가 잇따르자 소비자센터가 대부분 안내문이라고 밝혔습니다. 설치 의무는 계량 사업자에게 있습니다. 연 6000kWh 이상이나 월박스 보유 가구가 의무 대상입니다.",
+      "interp": "편지만 보고 <b>예약이나 계약</b>을 서두르지 마세요. 의무 대상이라면 비용 상한이 있으니 청구액이 과하지 않은지 확인하세요.",
+      "source": "니더작센 소비자센터·티온라인",
+      "read": 2,
+      "url": "https://www.t-online.de/finanzen/aktuelles/id_101245684/smart-meter-verbraucherschuetzer-warnen-vor-infobriefen.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "스마트미터",
+          "explain": "전력 사용량을 원격으로 보내는 지능형 전기 계량기"
+        },
+        {
+          "term": "월박스",
+          "explain": "집이나 차고 벽에 설치하는 전기차 충전 장치"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "policy",
+      "head": "가정 전기세 인하, 재원 없어 불투명",
+      "desc": "23일 세수 추계 발표 뒤 가정용 전기세 인하 요구가 다시 커졌습니다. 클링바일 재무장관은 여유 재원이 없다는 입장입니다. 가정은 지금도 1kWh당 2.05센트를 냅니다.",
+      "interp": "당장 바뀌는 것은 없으니 <b>전기 요금제 비교</b>로 아끼는 편이 현실적입니다. 연말 인상 통지를 받으면 특별 해지권을 확인하세요.",
+      "source": "독일 수공업신문·도이칠란트풍크",
+      "read": 2,
+      "url": "https://www.deutsche-handwerks-zeitung.de/klingbeil-sieht-keinen-spielraum-fuer-stromsteuersenkung-385439/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "세수 추계",
+          "explain": "정부가 앞으로 걷힐 세금을 해마다 미리 계산하는 전망"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "대한항공·아시아나 고객정보 유출",
+      "desc": "대한항공·아시아나항공이 협력사 아마데우스 계정이 악용돼 예약 정보가 유출됐다고 23일 알렸습니다. 유출 시기는 2023년 8월~올해 9월로 추정됩니다. 결제 정보는 빠졌습니다.",
+      "interp": "항공사를 사칭한 <b>예약 확인 메일·문자</b>의 링크와 첨부파일은 열지 마세요. 개인정보를 묻는 연락에는 응하지 마세요.",
+      "source": "전자신문·아시아경제",
+      "read": 2,
+      "url": "https://www.etnews.com/20261023000363",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [
+        {
+          "term": "아마데우스",
+          "explain": "전 세계 항공사가 쓰는 예약·발권 시스템 회사"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "crypto",
+      "head": "코인 해외 이전 이력, 잔액 매달 보고",
+      "desc": "한국은행이 코인을 한 번이라도 해외로 옮긴 이용자의 잔액과 주민번호를 매달 보고받는 방안을 추진합니다. 대상은 약 127만 명입니다. 한은은 아직 초안이라고 밝혔습니다.",
+      "interp": "근거가 되는 개정 외국환거래법은 <b>12월 시행</b> 예정입니다. 해외 거래소로 코인을 옮길 때 기록이 남는다는 점을 기억하세요.",
+      "source": "국제뉴스·디지털타임스",
+      "read": 2,
+      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3730602",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "invest",
+      "head": "원화 실질가치, 석 달 새 11.7% 상승",
+      "desc": "원화 실질실효환율이 9월 92.73으로 6월보다 11.7% 올랐다고 국제결제은행이 밝혔습니다. 금융위기 이후 석 달 새 최대폭입니다. 반도체 수출대금 환전이 원화를 끌어올렸습니다.",
+      "interp": "원화가 강해지면 <b>한국으로 송금</b>할 때 받는 원화가 줄어듭니다. 큰돈은 나눠 보내며 환율 흐름을 살피세요.",
+      "source": "매일경제·컨슈머타임스",
+      "read": 2,
+      "url": "https://m.news.nate.com/view/20261023n21272",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "실질실효환율",
+          "explain": "물가를 반영해 여러 교역국 통화와 견준 통화의 실제 가치"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "travel",
+      "head": "베트남 서버서 승객 기록 2480만 건 노출",
+      "desc": "2017년~올해 4월 베트남 공항을 오간 국내 항공사 5곳 승객 기록 2480만 건이 외부에 노출됐던 것으로 드러났습니다. 여권번호·좌석도 담겼습니다. 서버는 6월 차단됐습니다.",
+      "interp": "개인정보보호위원회는 <b>실제 유출 정황은 아직 없다</b>고 밝혔습니다. 여권번호를 아는 척하는 연락은 피싱일 수 있으니 주의하세요.",
+      "source": "한겨레·노컷뉴스",
+      "read": 2,
+      "url": "https://nocutnews.co.kr/news/6595426",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "24일 이탈리아·프랑스 시위, 테러 선동도",
+      "desc": "생활비 항의 시위가 24일 이탈리아 6개 도시와 프랑스에서 열려 밀라노에만 군인 500명이 배치됐습니다. 스페인 언론은 IS 연계 세력이 시위 중 공격을 부추긴다고 보도했습니다.",
+      "interp": "시위 장소와 <b>기차역 주변</b>은 피하고 현지 공관 안전 공지를 확인하세요. 리스본·포르투·마드리드 집회 현장도 멀리하세요.",
+      "source": "유로뉴스·엘파이스",
+      "read": 2,
+      "url": "https://www.euronews.com/2026/10/23/jihadists-reportedly-urge-attacks-during-protests-in-portugal-and-spain",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "IS",
+          "explain": "이슬람국가, 중동에서 생겨난 극단주의 무장 조직"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "health",
+      "head": "샤몬다 바이러스, 첫 인체 감염 확인",
+      "desc": "프랑스 리옹에서 가축에만 있던 샤몬다 바이러스의 첫 인체 감염이 확인됐습니다. 면역력이 크게 떨어진 환자로 10월 초 숨졌습니다. 올여름 독일 등 13곳 가축에서 검출됐습니다.",
+      "interp": "유럽질병예방통제센터는 <b>경계할 일이지 공포할 일은 아니다</b>라고 밝혔습니다. 농장·축사에 갈 때는 벌레 물림을 막는 옷을 입으세요.",
+      "source": "유로뉴스·ZDF",
+      "read": 2,
+      "url": "https://www.euronews.com/2026/10/23/shamonda-virus-first-human-case-is-an-alert-not-a-reason-to-panic-says-eu-health-agency",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "샤몬다 바이러스",
+          "explain": "흡혈 깔따구가 옮기며 주로 소에서 발견되던 바이러스"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "stocks",
+      "head": "구찌 매출 부진, 케링 주가 10% 급락",
+      "desc": "구찌 3분기 매출이 줄면서 모회사 케링 주가가 23일 10.4% 떨어졌습니다. 유가 상승까지 겹쳐 스톡스600 지수도 0.5% 넘게 내렸습니다. 명품주 회복 기대가 꺾였습니다.",
+      "interp": "명품주는 실적 발표 때마다 크게 출렁입니다. 유럽 상장지수펀드에 투자 중이라면 <b>업종 비중</b>을 확인해 보세요.",
+      "source": "로이터·야후 파이낸스",
+      "read": 2,
+      "url": "https://money.usnews.com/investing/news/articles/2026-10-23/stoxx-600-extends-fall-as-kering-slumps-oil-climbs",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "스톡스600",
+          "explain": "유럽 17개국 대형·중형주 600개로 구성된 대표 주가지수"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "미국, 캐나다산 일부 관세 철회·교체",
+      "desc": "백악관이 캐나다산 합판·일부 종이제품을 50% 관세 대상에서 빼고 밸브·카펫 등을 넣기로 했습니다. 30일부터 적용됩니다. 중간선거를 앞둔 콜린스 의원 지원이란 해석이 나옵니다.",
+      "interp": "전체 관세 부담은 <b>그대로 유지</b>된다는 게 정부 설명입니다. 캐나다산 자재·포장재를 쓰는 한인 업체는 품목 목록을 확인하세요.",
+      "source": "백악관·BBC",
+      "read": 2,
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-president-donald-j-trump-further-modifies-canadian-products-subject-to-tariffs-under-section-338/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "다우 1.2% 하락, 유가 100달러 넘어",
+      "desc": "23일 다우지수가 1.2% 내린 52,215로 마감했습니다. 이란 충돌 우려에 미국 유가가 배럴당 100달러를 넘었습니다. S&P500은 0.5%, 나스닥은 0.2% 내렸습니다.",
+      "interp": "유가가 오르면 <b>에너지주</b>와 항공·운송주가 반대로 움직이기 쉽습니다. 한쪽에 쏠린 종목은 비중을 점검해 보세요.",
+      "source": "AP·월스트리트저널",
+      "read": 2,
+      "url": "https://wtop.com/national/2026/10/how-major-us-stock-indexes-fared-friday-10-23-2026",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "USCIS 마감일 계산, 23일부터 바뀌어",
+      "desc": "USCIS가 서류 마감일 계산 지침을 23일부터 적용했습니다. 종이 서류는 마감일이 주말·공휴일이면 다음 영업일 도착도 인정됩니다. 온라인 접수와 나이 기준은 예외입니다.",
+      "interp": "종이 서류는 <b>발송일이 아닌 도착일</b>이 기준입니다. 21세 등 나이 제한이 걸린 신청은 생일 전에 도착하도록 서두르세요.",
+      "source": "USCIS·이민 법률사무소",
+      "read": 2,
+      "url": "https://www.uscis.gov/policy-manual/updates",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "USCIS",
+          "explain": "영주권·비자 연장 등 이민 업무를 맡는 미국 이민서비스국"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "미국, 중동 대사관 4곳 인력 감축",
+      "desc": "미 국무부가 이란의 위협 증가를 이유로 요르단·레바논·카타르·아랍에미리트 대사관 인력을 줄입니다. 대사관 문은 계속 엽니다. 사우디에서는 이번 주 비필수 인력이 이미 철수했습니다.",
+      "interp": "중동에 머문다면 <b>해외안전여행 누리집</b> 경보 단계를 수시로 확인하세요. 영사콜센터 번호를 저장하고 동선을 가족과 공유하세요.",
+      "source": "AP·CNN",
+      "read": 2,
+      "url": "https://wtop.com/us-politics/2026/10/us-is-reducing-staffing-at-4-middle-east-embassies-over-increased-threats-from-iran/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "인도네시아 중부칼리만탄, 특별여행주의보",
+      "desc": "외교부가 23일 인도네시아 중부칼리만탄주에 특별여행주의보를 발령했습니다. 들불 확산에 따른 조치입니다. 칼리만탄 산불 연기는 올여름 말레이시아 학교 수백 곳도 문 닫게 했습니다.",
+      "interp": "현지에 있다면 <b>마스크와 실내 대피</b>를 챙기고 일정 조정을 검토하세요. 발령 기간은 해외안전여행 누리집에서 확인하세요.",
+      "source": "뉴스1·자유방송",
+      "read": 2,
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4zM19hRGJQVnhYcWphWkRJTlJVaXZIVmhKTFUzMHhndWZvSlhwMHh6VDNESDJIZkNqTEdvLXVYcnd4d1NSRGlORGo1NUM2YVFzdU1YaW80ZWRvTThiVGk3VzlKcDhxWVU?oc=5",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "특별여행주의보",
+          "explain": "단기간 위험이 클 때 외교부가 내리는 여행 취소·연기 권고"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "영국 ETA, 대행 사이트 바가지 주의",
+      "desc": "영국 전자여행허가 ETA를 비싸게 대신 받아 주는 사이트 피해가 이어지고 있습니다. 공식 수수료는 4월부터 20파운드입니다. 일부 사이트는 수백 유로까지 받았습니다.",
+      "interp": "신청은 <b>gov.uk 누리집이나 공식 UK ETA 앱</b>에서만 하세요. 이미 대행 사이트에 결제했다면 카드사에 취소를 요청하세요.",
+      "source": "트립프로프·노르트라인베스트팔렌 소비자센터",
+      "read": 2,
+      "url": "https://www.verbraucherzentrale.nrw/aktuelle-meldungen/vertraege-reklamation/eta-fuer-grossbritannien-beantragen-wie-erkenne-ich-betruegerische-seiten-106439",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "ETA",
+          "explain": "영국에 비자 없이 가는 방문객이 미리 받는 전자여행허가"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
