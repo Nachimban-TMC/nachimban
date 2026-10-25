@@ -1,0 +1,533 @@
+{
+  "number": 80,
+  "date": "2026-10-25",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "오늘 북부 강풍 경보, 해안 해일 우려",
+      "desc": "독일기상청이 25일 헬골란트·북프리슬란트 해안에 시속 90~110km 돌풍 경보를 냈습니다. 함부르크·브레멘·킬도 강풍이 예상됩니다. 슐레스비히홀슈타인 서해안은 해일도 우려됩니다.",
+      "interp": "북부로 이동한다면 출발 전 <b>철도 운행 정보</b>를 확인하세요. 헬골란트 배편은 이미 크게 줄었으니 일정을 미루는 편이 안전합니다.",
+      "source": "독일기상청·wetter.com",
+      "read": 3,
+      "url": "https://www.wetter.com/news/wetterbericht-fuer-morgen-sonntag-25-oktober-2026-orkanartige-boeen-an-nordsee-alpen-und-mittelgebirgen-an-schleswig-holsteins-westkueste-drohen-sturmfluten_aid_6adc4c19a8d87b00060a82dd.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "헬골란트",
+          "explain": "북해에 있는 독일 섬, 본토와 배편으로 연결"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "health",
+      "head": "리들 훈제송어 리스테리아 회수 확대",
+      "desc": "리들이 판 '나우티카 무지개송어 필레' 125g 두 종에서 리스테리아균이 나왔습니다. 23일 회수 대상이 유통기한 10월 31일·11월 1·3일 제품까지 늘었습니다.",
+      "interp": "해당 제품은 먹지 말고 리들 매장에 반품하세요. <b>영수증 없이도 환불</b>됩니다. 임신부는 먹었다면 증상이 없어도 진료를 받으세요.",
+      "source": "루르나흐리히텐·잘츠부르크24",
+      "read": 3,
+      "url": "https://www.ruhrnachrichten.de/service/rueckruf-aktuell-ticker-lebensmittel-produkt-warnungen-gesundheitsgefahren-24-oktober-2026-w1246296-2002227025",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "리스테리아",
+          "explain": "식중독을 일으키는 세균, 임신부·노약자에게 특히 위험"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "travel",
+      "head": "BER 겨울 시간표, 라이언 빈자리 메워",
+      "desc": "베를린 공항 겨울 시간표가 25일 시작돼 약 140곳을 잇습니다. 라이언에어가 12개 노선을 접었고, 위즈에어는 26일 빌뉴스, 유로윙스는 11월 2일 로마 노선을 엽니다.",
+      "interp": "라이언에어 노선을 예약해 둔 분은 <b>취소·환불 안내</b>를 확인하세요. 없어진 노선은 다른 항공사 대체편을 다시 찾아보는 편이 좋습니다.",
+      "source": "에어라이너스·타게스슈피겔",
+      "read": 3,
+      "url": "https://www.airliners.de/flughafen-ber-zusaetzlichen-zielen-winter/90972",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "31일 전국 청년 시위, 21개 도시서",
+      "desc": "학생 단체 'Gen Z 일어나라'가 31일 오후 2시 베를린·뮌헨 등 21개 도시에서 시위를 엽니다. 교육·복지 삭감에 항의하며 1만 명 넘게 등록했습니다. 경찰이 대비 중입니다.",
+      "interp": "31일 오후 <b>도심 집회 장소</b> 주변은 교통 통제가 있을 수 있습니다. 핼러윈과 겹치니 아이와 외출한다면 동선을 미리 확인하세요.",
+      "source": "아나돌루·베를린스펙테이터",
+      "read": 3,
+      "url": "https://www.aa.com.tr/en/europe/german-student-initiative-calls-for-nationwide-protests-as-police-warn-of-radicals/4095528",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "김정은, 새 압록강대교로 깜짝 방중",
+      "desc": "김정은 국무위원장이 24일 새로 개통한 신압록강대교를 건너 중국 단둥을 찾았습니다. 중국 고위 인사와 협력 확대를 다짐했습니다. 약 1년 만의 방중으로 당일 귀국했습니다.",
+      "interp": "북한이 러시아에 이어 <b>중국과의 관계</b>도 다지는 모습입니다. 한반도 정세 변화는 외교부 해외안전여행 공지로 확인하세요.",
+      "source": "AP·코리아타임스",
+      "read": 3,
+      "url": "https://www.cnn.com/2026/10/24/china/north-koreas-kim-crosses-china-bridge-intl",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "신압록강대교",
+          "explain": "북한 신의주와 중국 단둥을 잇는 새 다리"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "travel",
+      "head": "겨울 국제선 주 5353회, 코로나 전 넘어",
+      "desc": "국토교통부가 25일부터 내년 3월 27일까지 국제선을 주 5353회 운항합니다. 지난겨울보다 7.6% 늘어 2019년 수준을 넘었습니다. 일본·중국 노선이 크게 늘었습니다.",
+      "interp": "연말 귀국 항공권은 <b>노선이 늘어난 지금</b> 비교해 보세요. 대한항공·아시아나는 12월 17일 통합되니 예약 내역도 확인하세요.",
+      "source": "국토교통부·코리아타임스",
+      "read": 3,
+      "url": "https://www.koreatimes.co.kr/southkorea/20261025/korea-to-expand-intl-flights-in-winter-season",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "travel",
+      "head": "태풍 참피, 제주 결항·26일까지 비바람",
+      "desc": "태풍 참피로 24일 제주공항에서 25편이 결항하고 218편이 지연됐습니다. 26일 오전까지 최대 120mm 비와 초속 20m 강풍이 예상됩니다. 한라산 탐방로도 통제됐습니다.",
+      "interp": "제주 일정이 있다면 <b>항공사 앱 운항 정보</b>를 수시로 확인하세요. 26일부터 바닷물이 높아지는 시기라 해안 산책은 피하세요.",
+      "source": "중앙데일리·제주교통복지신문",
+      "read": 3,
+      "url": "https://www.koreajoongangdaily.com/korea/typhoon-champi-brings-heavy-rain-strong-winds-and-travel-disruptions-to-jeju/12936570",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "health",
+      "head": "외국인 건보 첫 1조 흑자, 중국만 적자",
+      "desc": "지난해 외국인 건강보험 흑자가 1조128억 원으로 처음 1조 원을 넘었습니다. 중국 국적만 409억 원 적자로 돌아서 국적별 상호주의 논쟁이 다시 일고 있습니다.",
+      "interp": "재외국민이 직장가입자 <b>피부양자</b>가 되려면 국내에 6개월 이상 살아야 합니다. 귀국 계획이 있다면 가입 요건을 미리 확인하세요.",
+      "source": "뉴스1·머니투데이",
+      "read": 3,
+      "url": "https://www.news1.kr/bio/welfare-medical/6330902",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "상호주의",
+          "explain": "상대국이 우리 국민에게 주는 만큼 똑같이 대우하는 원칙"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "파리 근교 인종 혐오 총격, 1명 사망",
+      "desc": "23일 파리 서쪽 트라프 일대에서 차를 탄 남성이 총을 쏴 1명이 숨지고 12세 소녀 등 5명 이상이 다쳤습니다. 마크롱 대통령은 인종차별 테러로 규정했습니다.",
+      "interp": "프랑스는 테러 경계와 시위가 겹쳐 <b>경비가 강화</b>된 상태입니다. 여행·출장 중엔 현지 경찰 안내를 따르고 대사관 공지를 확인하세요.",
+      "source": "AP·프랑스24",
+      "read": 3,
+      "url": "https://www.france24.com/en/france/20261023-french-prosecutors-investigate-paris-shooting-as-suspected-terror-attack",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "프랑스 시위 41만 명, 11월 5일 총파업",
+      "desc": "24일 프랑스 시위에 내무부 추산 41만 명이 모였고 약 1000명이 구금됐습니다. 마르세유는 집회를 금지하고 통행금지를 내렸습니다. 노조는 11월 5일 총파업을 예고했습니다.",
+      "interp": "31일에도 시위가 예정돼 있습니다. 프랑스 여행은 <b>집회 일정</b>을 피하고, 11월 5일 전후 열차·항공편 변동을 확인하세요.",
+      "source": "CNN·유로뉴스",
+      "read": 3,
+      "url": "https://www.cnn.com/2026/10/24/world/live-news/france-protests-paris-europe-intl",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "stocks",
+      "head": "28일 도이체방크·벤츠·에어버스 실적",
+      "desc": "도이체방크·메르세데스벤츠·에어버스가 28일 3분기 실적을 냅니다. 스톡스600 지수는 지난주 9월 초 이후 가장 큰 주간 하락을 기록했습니다. 중국 부진 영향이 관심입니다.",
+      "interp": "독일 대형주에 투자했다면 <b>실적 발표일 전후</b> 변동성에 대비하세요. 벤츠는 중국 판매 회복 여부가 주가를 가를 수 있습니다.",
+      "source": "아드혹뉴스·인베즈",
+      "read": 3,
+      "url": "https://invezz.com/news/2026/10/23/top-dax-index-shares-to-watch-next-week-deutsche-bank-basf-mercedes/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "스톡스600",
+          "explain": "유럽 17개국 대표 기업 600곳 주가로 만든 지수"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "트럼프 '내일 이란 공격 또는 합의'",
+      "desc": "트럼프 대통령이 24일 이란을 이르면 25일 공격하거나 큰 합의를 할 수 있다고 말했습니다. 브렌트유는 23일 배럴당 116달러를 넘어 반년 만에 최고로 마감했습니다.",
+      "interp": "공격이 현실화되면 <b>유가와 중동 항공편</b>이 다시 흔들릴 수 있습니다. 중동 경유 항공권은 일정 변경 조건을 미리 확인하세요.",
+      "source": "아나돌루·알자지라",
+      "read": 3,
+      "url": "https://www.aa.com.tr/en/world/trump-says-us-could-strike-iran-tomorrow-or-reach-big-beautiful-deal/4099883",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "브렌트유",
+          "explain": "북해산 원유, 국제 유가의 대표 기준"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "연준 28일 금리 결정, 동결 우세",
+      "desc": "미국 연준이 28일 금리를 결정합니다. 로이터 조사에서 경제학자 100명 중 94명이 3.75~4.00% 동결을 예상했습니다. 유럽중앙은행도 29일 금리를 결정합니다.",
+      "interp": "결과는 독일 시간 28일 저녁 7시, 한국 시간 29일 새벽 3시에 나옵니다. <b>의장 기자회견</b>에 따라 달러 환율이 움직일 수 있습니다.",
+      "source": "로이터·퓨추",
+      "read": 3,
+      "url": "https://news.futunn.com/en/post/1002199283/no-rate-hike-in-october-will-the-fed-act-again",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "연준",
+          "explain": "미국의 중앙은행인 연방준비제도"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "이번 주 알파벳·MS·아마존 실적",
+      "desc": "알파벳과 마이크로소프트가 28일, 아마존이 29일 장 마감 뒤 3분기 실적을 냅니다. 연준 결정과 같은 주라 변동성이 커질 수 있습니다. 인공지능 투자가 관심사입니다.",
+      "interp": "미국 기술주 비중이 크다면 <b>시간외 거래</b> 움직임을 확인하세요. 실적 직후 급등락이 잦으니 추격 매수는 신중히 하세요.",
+      "source": "스톡타이탄·오프닝벨",
+      "read": 3,
+      "url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-october-26-2026",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "알파벳",
+          "explain": "구글을 거느린 미국 지주회사"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "life",
+      "head": "미국 휘발유 4.27달러, 10월 최고가",
+      "desc": "미국 휘발유 평균값이 갤런당 4.27달러로 1년 전 3.12달러보다 크게 올랐습니다. 이달은 역대 가장 비싼 10월이 될 전망입니다. 경유값은 더 가파르게 올랐습니다.",
+      "interp": "겨울용 휘발유로 바뀌며 값이 조금씩 내려가는 추세입니다. 장거리 운전이 잦다면 <b>주유소 가격 비교 앱</b>을 활용하세요.",
+      "source": "전미자동차협회·오일프라이스",
+      "read": 3,
+      "url": "https://www.clarksvilleonline.com/2026/10/23/national-gas-prices-fall-to-4-27-as-crude-oil-climbs-toward-100/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "갤런",
+          "explain": "약 3.8리터에 해당하는 미국 부피 단위"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "요르단 교회 장례식 총격, 7명 숨져",
+      "desc": "23일 요르단 남부 카라크의 그리스정교회 장례식에 괴한들이 총을 쏴 최소 7명이 숨지고 수십 명이 다쳤습니다. 범인들은 아직 잡히지 않았고 정부는 사흘간 애도 기간을 정했습니다.",
+      "interp": "요르단 당국은 쇼핑몰·대사관 등 <b>다중이용시설 경비</b>를 강화했습니다. 페트라 등 여행 예정이면 외교부 안전공지를 확인하세요.",
+      "source": "CBS·NBC",
+      "read": 3,
+      "url": "https://www.cbsnews.com/news/jordan-shooting-greek-orthodox-church-karak/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "에티하드 사우디 결항, 11월 5일까지",
+      "desc": "에티하드항공이 리야드·담맘 노선 중단을 11월 5일까지 늘리고 제다 야간편도 취소했습니다. KLM은 이 노선을 31일까지 멈춥니다. 후티 반군의 공격이 이어집니다.",
+      "interp": "사우디는 <b>출국 권고</b> 단계입니다. 아부다비·두바이 경유 일정이 있다면 항공사 앱에서 운항 여부를 다시 확인하세요.",
+      "source": "말레이메일·더내셔널",
+      "read": 3,
+      "url": "https://www.malaymail.com/news/money/2026/10/23/following-strikes-etihad-extends-saudi-flights-suspension-until-nov-5/240349",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "후티 반군",
+          "explain": "예멘 북부를 장악한 친이란 무장 세력"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
