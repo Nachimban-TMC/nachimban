@@ -1,0 +1,565 @@
+{
+  "number": 81,
+  "date": "2026-10-26",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "메르츠 총리 아시아 순방, 29일 방한",
+      "desc": "메르츠 총리가 26일부터 5일간 싱가포르·일본·한국을 순방합니다. 29일 서울 독일 아시아태평양 경제회의를 열고 이재명 대통령과 회담합니다. 슈타인마이어 대통령은 중국에 갑니다.",
+      "interp": "배터리·반도체·방산 협력이 주요 의제라 <b>한독 기업 취업·사업</b>에 영향이 있을 수 있습니다. 29일 회담 뒤 나오는 공동 발표를 확인하세요.",
+      "source": "타게스샤우·경향신문",
+      "read": 3,
+      "url": "https://www.tagesschau.de/ausland/asien/asien-reise-merz-steinmeier-100.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "독일 아시아태평양 경제회의",
+          "explain": "독일 경제계가 아시아에서 여는 최대 민관 경제 회의"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "pension",
+      "head": "새 노후 투자계좌, 서둘러 가입할 필요 없어",
+      "desc": "리스터 연금을 대신할 노후 투자계좌가 내년 1월 시작됩니다. 올해 광고는 예약일 뿐이고 보조금은 2027년 말까지 소급 신청됩니다. 표준 상품 비용 상한은 연 1%입니다.",
+      "interp": "초기 0% 수수료는 나중에 오를 수 있으니 <b>총비용</b>을 비교하세요. 독일에서 일하는 분이면 보조금 대상인지 먼저 확인하세요.",
+      "source": "타게스샤우·슈티프퉁 바렌테스트",
+      "read": 3,
+      "url": "https://www.tagesschau.de/wirtschaft/verbraucher/altersvorsorgedepot-100.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "리스터 연금",
+          "explain": "독일 정부가 보조금을 얹어 주는 개인연금 제도"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "'24시간 내 확인' 페이팔 사칭 메일 주의",
+      "desc": "'24시간 안에 확인 안 하면 계정 삭제'라는 페이팔 사칭 메일이 대량으로 돌고 있습니다. 노르트라인베스트팔렌 소비자센터가 경고했습니다. 링크를 누르면 로그인 정보를 빼앗깁니다.",
+      "interp": "페이팔 공식 메일은 <b>실명</b>으로 부르니 이름 없는 메일은 의심하세요. 링크 대신 앱에서 직접 계정 상태를 확인하세요.",
+      "source": "메르쿠어·PC벨트",
+      "read": 3,
+      "url": "https://www.merkur.de/verbraucher/paypal-phishing-verbraucherzentrale-warnt-vor-24-stunden-frist-zr-94557873.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "housing",
+      "head": "주택보험에 홍수 보장 기본 포함 추진",
+      "desc": "법무·재무부가 21일 신규 주택보험에 홍수·폭우·눈 피해 보장을 넣는 안을 냈습니다. 자기부담은 최대 2만 유로입니다. 기존 가입자도 답이 없으면 시행 1년 뒤 자동 추가됩니다.",
+      "interp": "아직 확정 전이며 <b>12월 2일</b>까지 의견을 받습니다. 집을 가진 분은 보험사 안내문을 넘기지 말고 보험료 변화를 확인하세요.",
+      "source": "메르쿠어·뵈르젠차이퉁",
+      "read": 3,
+      "url": "https://www.merkur.de/verbraucher/elementarversicherung-wird-pflicht-wer-schweigt-zahlt-drauf-zr-94556871.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "자기부담",
+          "explain": "보험금이 나와도 가입자가 직접 내야 하는 손해 금액"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "housing",
+      "head": "주택대출 금리 4.5%, 2009년 이후 최고",
+      "desc": "10년 고정 주택대출 금리가 평균 4.5%에 육박해 2009년 이후 최고라고 인터하이프가 밝혔습니다. 3월엔 3.6%였습니다. 평균 대출의 월 상환액이 약 200유로 늘었습니다.",
+      "interp": "집을 살 계획이면 매도자와 <b>가격 협상</b> 여지가 커진 점을 활용하세요. 고정금리 만료가 다가오면 은행 조건을 미리 비교하세요.",
+      "source": "타게스샤우·n-tv",
+      "read": 3,
+      "url": "https://www.tagesschau.de/wirtschaft/verbraucher/immobilienkredite-zinsen-darlehen-100.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "인터하이프",
+          "explain": "독일의 주택담보대출 중개 회사"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "이주배경인구 281만 명, 총인구 5.4%",
+      "desc": "이주배경인구가 지난해 281만 명으로 총인구의 5.4%라고 국가데이터처가 밝혔습니다. 1년 새 9만5천 명 늘었습니다. 20·30대는 10명 중 1명꼴입니다.",
+      "interp": "귀화자와 <b>이민자 2세</b>도 내국인으로 함께 집계됩니다. 국제결혼 가정이 귀국을 고민한다면 지역별 다문화 지원 제도를 확인하세요.",
+      "source": "연합뉴스·뉴시스",
+      "read": 3,
+      "url": "https://www.yna.co.kr/view/AKR20261026078900002",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "이주배경인구",
+          "explain": "본인이나 부모 중 한 명 이상이 이주 배경을 가진 사람"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "travel",
+      "head": "해외 세관 적발 재외국민, 3년간 263명",
+      "desc": "해외 세관에 적발돼 공관에 도움을 청한 재외국민이 2024년부터 올해 상반기까지 263명입니다. 전자담배·드론 소지가 66명으로 가장 많았습니다. 면세한도 초과가 뒤를 이었습니다.",
+      "interp": "나라마다 <b>전자담배·드론</b>과 외화 반입 한도가 다르니 출국 전 확인하세요. 외교부 해외안전여행 누리집에 나라별 통관 규정이 있습니다.",
+      "source": "연합뉴스(외교부 자료)",
+      "read": 3,
+      "url": "https://www.yna.co.kr/view/AKR20261024049700001",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [
+        {
+          "term": "면세한도",
+          "explain": "세금을 내지 않고 들여올 수 있는 물품 가격의 상한"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "구 인터파크투어 숙소 예약자 정보 유출",
+      "desc": "놀유니버스가 22일 해킹으로 구 인터파크투어 국내 숙소 예약자 정보가 유출됐다고 밝혔습니다. 대상은 올해 2월 15일~9월 8일 이용자입니다. 항공·해외숙소 예약은 빠졌습니다.",
+      "interp": "아이디·전화번호·이메일이 빠져나가 <b>예약 확인 사칭 문자</b>가 올 수 있습니다. 출처 모를 링크는 누르지 말고 비밀번호를 바꾸세요.",
+      "source": "연합뉴스·놀유니버스 공지",
+      "read": 3,
+      "url": "https://www.yna.co.kr/view/AKR20261026096800030",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "stocks",
+      "head": "골드만, 코스피 목표 1만2천→9천 하향",
+      "desc": "골드만삭스가 코스피 12개월 목표를 1만2천에서 9천으로 낮췄습니다. 6월 고점보다 35% 넘게 떨어진 데 따른 조정입니다. 그래도 60% 넘게 오를 여력이 있다고 봤습니다.",
+      "interp": "코스피 예상 주가수익비율은 약 4배로 <b>2006년 이후 최저</b>입니다. 한국 주식 투자자는 반도체 비중과 환율 영향을 함께 보세요.",
+      "source": "연합뉴스·뉴시스(블룸버그 인용)",
+      "read": 3,
+      "url": "https://www.yna.co.kr/view/AKR20261025048500009",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "세르비아 부치치, 총선 패배 인정",
+      "desc": "25일 세르비아 조기 총선에서 부치치 대통령이 집권당 패배를 인정했습니다. 2년 가까이 반부패 시위를 이끈 학생 진영이 앞섰습니다. 12년 부치치 체제가 바뀌는 전환점입니다.",
+      "interp": "베오그라드에 축하 인파가 몰리고 있어 <b>도심 집회</b> 지역은 피하는 게 좋습니다. 유럽연합 가입 협상 속도에도 변화가 생길 수 있습니다.",
+      "source": "BBC·유로뉴스",
+      "read": 3,
+      "url": "https://www.euronews.com/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "invest",
+      "head": "유럽중앙은행 29일 금리 결정, 동결 우세",
+      "desc": "유럽중앙은행이 29일 오후 2시15분 금리를 발표합니다. 로이터 조사에서 경제학자 73명 중 70명이 예금금리 2.50% 동결을 예상했습니다. 64명은 12월 인상을 내다봤습니다.",
+      "interp": "동결되더라도 <b>12월 인상</b> 신호가 나오면 대출 금리가 더 오를 수 있습니다. 오후 2시45분 라가르드 총재 회견 표현을 확인하세요.",
+      "source": "로이터 조사·애드미럴마켓",
+      "read": 3,
+      "url": "https://admiralmarkets.com/analytics/traders-blog/ecb-meeting-october-2026",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "예금금리",
+          "explain": "시중은행이 유럽중앙은행에 돈을 맡길 때 받는 기준 금리"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "트럼프 '오늘은 이란 공격 없다'",
+      "desc": "트럼프 대통령이 25일 '오늘은 이란을 공격하지 않는다'고 밝혔습니다. 합의와 공격 중 결정은 아직입니다. 미국 정보당국 수장은 이란이 해외 미국 인력을 노린다고 경고했습니다.",
+      "interp": "중동의 미국 대사관들이 보안을 강화하고 있습니다. 중동 출장·여행 계획이 있다면 <b>국무부 여행경보</b>를 다시 확인하세요.",
+      "source": "더내셔널·CNBC",
+      "read": 3,
+      "url": "https://www.thenationalnews.com/news/us/2026/10/25/trump-iran-strike/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "health",
+      "head": "미국 홍역 4580명, 지난해의 두 배",
+      "desc": "미국 올해 홍역 환자가 22일 기준 4580명을 넘어 지난해 전체의 두 배가 됐습니다. 환자 96%는 미접종이거나 접종 여부를 모릅니다. 펜실베이니아에서만 1338명입니다.",
+      "interp": "자녀의 <b>홍역 백신 2회 접종</b> 기록을 확인하세요. 발열·발진이 생기면 병원에 가기 전에 먼저 전화로 알리세요.",
+      "source": "NPR·컨테이전 라이브",
+      "read": 3,
+      "url": "https://www.npr.org/2026/10/25/nx-s1-6016205/measles-outbreak-pennsylvania",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "엔비디아, 네오클라우드 보증 시험대",
+      "desc": "엔비디아가 투자한 네오클라우드 코어위브·네비우스·아이렌 주가가 이달 30% 넘게 빠졌습니다. 엔비디아의 이들 지급보증은 360억 달러입니다. 엔비디아 주가도 3주 연속 내렸습니다.",
+      "interp": "인공지능 관련 상장지수펀드에 이들 종목이 함께 담긴 경우가 많습니다. 보유 상품의 <b>구성 종목</b>과 비중을 확인해 보세요.",
+      "source": "CNBC·24/7 월스트리트",
+      "read": 3,
+      "url": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "네오클라우드",
+          "explain": "인공지능용 칩 연산 능력을 빌려주는 신생 클라우드 업체"
+        },
+        {
+          "term": "지급보증",
+          "explain": "빌린 쪽이 못 갚으면 대신 갚겠다는 약속"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "labor",
+      "head": "아우디 첫 미국 공장, 조지아에 짓는다",
+      "desc": "아우디가 조지아주에 40억 달러를 들여 첫 미국 공장을 짓습니다. 2027년 착공해 2030년대 초 SUV를 만들고 일자리 4500개가 생깁니다. 15% 관세를 피하려는 뜻입니다.",
+      "interp": "조지아에는 현대차 공장도 있어 <b>자동차 부품·협력사</b> 일자리가 늘 수 있습니다. 채용은 생산이 가까워질 때 확인하세요.",
+      "source": "CNBC·타게스샤우",
+      "read": 3,
+      "url": "https://www.cnbc.com/2026/10/25/audi-georgia-us-plant-tariffs-volkswagen.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "리야드 공항 2주 만에 일부 재개",
+      "desc": "후티 공격으로 닫혔던 사우디 리야드 공항이 25일 국제선 일부를 재개했습니다. 국적사 위주로 뜨고 외국 항공사 다수는 아직 중단 중입니다. 후티는 공항을 계속 노리겠다고 했습니다.",
+      "interp": "항공편이 잡혀 있어도 <b>당일 취소</b>가 많습니다. 출발 직전 항공사에 운항 여부를 묻고 외교부 여행경보 단계도 확인하세요.",
+      "source": "연합뉴스(블룸버그·AFP)·CNBC",
+      "read": 3,
+      "url": "https://www.yna.co.kr/view/AKR20261026000300099",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "후티",
+          "explain": "예멘의 친이란 반군 세력"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "이스라엘 27일 총선, 서안 검문소 폐쇄",
+      "desc": "이스라엘이 27일 총선 당일 요르단강 서안지구로 통하는 검문소를 모두 닫습니다. 헤브론에서 군인 2명이 숨진 뒤 군 작전도 강화됐습니다. 선거 전후 서안 출입이 크게 제한됩니다.",
+      "interp": "이스라엘·팔레스타인 방문 예정이면 <b>선거일 전후</b> 일정은 피하는 게 좋습니다. 외교부 여행경보와 현지 공관 공지를 확인하세요.",
+      "source": "유로뉴스·BBC",
+      "read": 3,
+      "url": "https://www.euronews.com/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "서안지구",
+          "explain": "요르단강 서쪽의 팔레스타인 자치 지역"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "시드니 제2공항 개항, 24시간 운영",
+      "desc": "웨스턴 시드니 국제공항이 착공 8년 만인 25일 문을 열었습니다. 첫 국제선은 26일 오클랜드행이고 싱가포르행은 다음 달입니다. 기존 공항과 달리 밤에도 뜨는 24시간 공항입니다.",
+      "interp": "도심에서 45km 떨어져 있고 <b>직통 철도</b>는 아직 없습니다. 시드니행 항공권을 살 때 도착 공항이 어디인지 꼭 확인하세요.",
+      "source": "연합뉴스(로이터·AFP)·에어웨이즈",
+      "read": 3,
+      "url": "https://www.yna.co.kr/view/AKR20261026081300104",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
