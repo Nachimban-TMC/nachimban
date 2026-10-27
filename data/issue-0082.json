@@ -1,0 +1,571 @@
+{
+  "number": 82,
+  "date": "2026-10-27",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "싸게 짓는 '건물유형 E' 법안 초안",
+      "desc": "법무부가 26일 천장 두께·방음·콘센트 수 등 편의 기준을 낮춘 '건물유형 E' 법안 초안을 냈습니다. 건축비가 10~15% 줄 전망입니다. 화재·구조 안전 기준은 그대로입니다.",
+      "interp": "당장 바뀌는 것은 없고 <b>빨라야 2027년 중반</b> 시행됩니다. 새집 계약서에 이 유형이 적혀 있으면 어떤 기준을 뺐는지 꼭 확인하세요.",
+      "source": "한델스블라트·타게스슈피겔",
+      "read": 3,
+      "url": "https://www.handelsblatt.com/politik/deutschland/gebaeudetyp-e-regierung-bringt-einfachen-baustandard-auf-den-weg/100264888.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "건물유형 E",
+          "explain": "건축주와 시공사가 합의하면 편의 기준을 낮춰 지을 수 있게 한 기본 건축 기준"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "labor",
+      "head": "제3국 의사·약사, 11월부터 시험이 원칙",
+      "desc": "11월 1일부터 유럽연합 밖에서 딴 의사·치과의사·약사 자격은 지식시험으로 인정받는 게 원칙입니다. 서류 심사는 신청할 때만 합니다. 주정부는 독일어 능력을 먼저 볼 수 있습니다.",
+      "interp": "한국 면허로 독일 면허를 준비 중이면 <b>지식시험 일정</b>을 주 담당 관청에 확인하세요. 이미 신청했다면 어느 규정이 적용되는지도 물어보세요.",
+      "source": "연방보건부·파르마도이칠란트",
+      "read": 3,
+      "url": "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/berufsanerkennung-heilberufe-bundestag-26-03-26",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "지식시험",
+          "explain": "외국 의료 자격자가 독일 면허를 받으려고 치르는 실력 확인 시험(Kenntnisprüfung)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "아이폰 듀오, 접히는 부분 균열 신고",
+      "desc": "애플의 첫 접는 아이폰 듀오에서 안쪽 화면이 접히는 선을 따라 갈라졌다는 신고가 잇따릅니다. 애플은 아직 입장이 없습니다. 보증이 안 되면 수리비가 1천 유로를 넘습니다.",
+      "interp": "균열이 보이면 바로 사진을 남기고 <b>애플스토어나 구매처</b>에 점검을 요청하세요. 판매처의 2년 하자 보증도 함께 확인하세요.",
+      "source": "가디언·넷츠벨트",
+      "read": 2,
+      "url": "https://www.gizchina.com/apple/iphone-duo-screens-are-cracking-along-the-hinge-as-early-owners-report-problems",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "travel",
+      "head": "1월부터 BER서 베를린 택시 바로 못 타",
+      "desc": "내년 1월 1일부터 베를린 택시는 BER 공항에서 바로 손님을 태울 수 없습니다. 공항 쪽 군이 협약을 해지해 쇤펠트 택시만 대기합니다. 미리 부른 베를린 택시는 됩니다.",
+      "interp": "공항 대기 택시가 줄어 기다림이 길어질 수 있습니다. 늦게 도착한다면 <b>공항특급 열차</b>나 미리 예약한 택시를 이용하세요.",
+      "source": "타게스슈피겔·rbb",
+      "read": 2,
+      "url": "https://www.tagesspiegel.de/berlin/nachfrage-gesunken-berliner-taxen-durfen-nicht-mehr-am-flughafen-ber-auf-fahrgaste-warten-16202317.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "policy",
+      "head": "독일 기업 체감경기, 여섯 달째 개선",
+      "desc": "이포연구소 기업경기지수가 10월 90.2로 전달 89.9보다 올라 여섯 달 연속 상승했습니다. 앞날 기대는 좋아졌지만 현재 평가는 조금 나빠졌습니다. 회복 흐름은 이어집니다.",
+      "interp": "기업 기대가 살아나면 <b>채용·임금 협상</b> 분위기에도 영향이 갑니다. 이직이나 연봉 협상을 앞뒀다면 업종별 흐름을 함께 살펴보세요.",
+      "source": "이포연구소·벨트",
+      "read": 2,
+      "url": "https://www.ifo.de/umfrage/ifo-geschaeftsklima-deutschland",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "기업경기지수",
+          "explain": "독일 이포연구소가 기업 설문으로 매달 내는 경기 체감 지표"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "3분기 성장률 1.0%, 전망 세 배",
+      "desc": "한국은행이 27일 3분기 성장률이 전 분기 대비 1.0%라고 밝혔습니다. 8월 전망치 0.3%의 세 배로 반도체 수출과 설비투자가 이끌었습니다. 민간소비는 0.2% 줄었습니다.",
+      "interp": "성장세와 반도체 호황이 <b>원화 강세</b>로 이어지고 있습니다. 한국으로 돈을 보내거나 받을 계획이면 환율 흐름을 함께 보세요.",
+      "source": "한국은행·한국경제",
+      "read": 3,
+      "url": "https://www.hankyung.com/article/2026102766677",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "visa",
+      "head": "미국 방문비자 거절률 24.7%로 급등",
+      "desc": "2025 회계연도 한국인 미국 방문비자 거절률이 24.73%로 9.76%포인트 올랐습니다. 2020년 이후 최고로 중국보다 높습니다. 무비자 전자여행허가 이용자는 집계에 없습니다.",
+      "interp": "전자여행허가가 안 돼 비자를 신청한다면 <b>재직·귀국 증빙</b>을 꼼꼼히 준비하세요. 거절 기록은 다음 신청에도 남으니 서두르지 마세요.",
+      "source": "외교부 자료·코리아헤럴드",
+      "read": 3,
+      "url": "https://www.koreaherald.com/article/10915315",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [
+        {
+          "term": "전자여행허가",
+          "explain": "비자 없이 미국에 90일까지 머물도록 미리 받는 온라인 입국 허가(ESTA)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "stocks",
+      "head": "코스피 4%대 급등, 매수 사이드카",
+      "desc": "27일 코스피가 장중 4% 넘게 올라 오전 10시 13분 매수 사이드카가 발동됐습니다. 4거래일 만입니다. 앤트로픽 상장 신청으로 인공지능 우려가 줄며 반도체주가 뛰었습니다.",
+      "interp": "이달 들어 하루 3~4%씩 오르내리는 장이 이어지고 있습니다. 해외에서 <b>한국 주식</b>을 가졌다면 급등락에 휩쓸리지 말고 비중을 점검하세요.",
+      "source": "한국거래소·아시아경제",
+      "read": 2,
+      "url": "https://view.asiae.co.kr/article/2026102710283375192",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "사이드카",
+          "explain": "주가 급등락 때 프로그램 매매를 5분간 멈추는 제도"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "원·달러 1323원, 2년 만에 최저",
+      "desc": "26일 원·달러 환율이 1323.1원으로 마감해 연중 최저를 다시 썼습니다. 2024년 10월 초 이후 가장 낮습니다. 월말 수출업체 달러 매도와 엔화 강세가 겹쳤습니다.",
+      "interp": "달러·유로를 원화로 바꾸면 받는 금액이 줄어듭니다. 한국 송금 계획이 있다면 <b>나눠서 환전</b>하는 방법도 검토하세요.",
+      "source": "뉴스1·연합뉴스",
+      "read": 2,
+      "url": "https://www.news1.kr/finance/market-exr/6332205",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "무디스, 프랑스 등급 Aa3 유지",
+      "desc": "무디스가 23일 프랑스 신용등급을 Aa3로 유지하고 부정적 전망도 그대로 뒀습니다. 피치와 S&P는 A+로 내렸습니다. 2027년 예산 통과가 전제라 강등 위험은 남았습니다.",
+      "interp": "등급 유지로 <b>프랑스 국채 금리</b> 급등은 한숨 돌렸습니다. 유로 채권형 상품을 가졌다면 프랑스 예산안 표결 일정을 지켜보세요.",
+      "source": "유로뉴스·데모크라타",
+      "read": 2,
+      "url": "https://www.democrata.es/en/economy/moody-s-confirms-france-s-aa3-rating-and-maintains-the-negative-outlook/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "부정적 전망",
+          "explain": "앞으로 신용등급이 내려갈 가능성이 크다는 신용평가사의 판단"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "life",
+      "head": "11월부터 EU 밖 소포에 처리 수수료",
+      "desc": "11월 1일부터 유럽연합 밖에서 온 소액 소포에 품목 종류마다 처리 수수료가 붙습니다. 독일 세관 예시는 품목당 2유로입니다. 7월부터 매긴 3유로 정액 관세와는 별도입니다.",
+      "interp": "한국 쇼핑몰 직구도 대상입니다. 결제 화면에 <b>관세·수수료 포함</b> 여부가 나오는지 보고, 아니면 받을 때 낼 돈을 계산하세요.",
+      "source": "독일 세관·호이테",
+      "read": 3,
+      "url": "https://www.zoll.de/DE/Privatpersonen/Postsendungen-Internetbestellungen/Sendungen-aus-einem-Nicht-EU-Staat/Zoll-und-Steuern/Internetbestellungen/internetbestellungen_node.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "정액 관세",
+          "explain": "물건값과 상관없이 품목 종류마다 같은 금액을 매기는 관세"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "stocks",
+      "head": "바스프, 에보닉 인수가 24유로로 올려",
+      "desc": "로이터에 따르면 바스프가 23일 에보닉 인수 제안가를 주당 22.15유로에서 24유로로 올렸습니다. 약 112억 유로 전액 현금입니다. 지분 43%의 라그재단 동의가 관건입니다.",
+      "interp": "확정 거래가 아니라 <b>제안 단계</b>라 소식마다 주가가 크게 출렁일 수 있습니다. 두 종목을 가졌다면 회사 공식 발표를 확인하세요.",
+      "source": "로이터·한델스블라트",
+      "read": 2,
+      "url": "https://www.handelsblatt.com/unternehmen/industrie/uebernahme-basf-bietet-jetzt-mehr-als-elf-milliarden-euro-fuer-evonik/100264522.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "라그재단",
+          "explain": "루르 탄광 정리를 위해 세운 재단이자 에보닉의 최대주주"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "MS, 직원 4분의 1에 희망퇴직 제안",
+      "desc": "마이크로소프트가 26일 전 세계 직원 약 6만 명에게 희망퇴직을 제안했습니다. 미국·영국·캐나다·인도 직원이 대상이며 12월 첫 주까지 정합니다. 인공지능 투자 부담 때문입니다.",
+      "interp": "취업비자로 일한다면 퇴사 뒤 <b>체류 신분 유예 기간</b>부터 확인하세요. 수락 전 영주권 진행 상황도 이민 변호사와 점검하세요.",
+      "source": "CBS·포춘",
+      "read": 3,
+      "url": "https://www.cbsnews.com/news/microsoft-buyouts-60000-workers-artificial-intelligence-layoffs/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "life",
+      "head": "달러제너럴, 계산대 과다 청구로 피소",
+      "desc": "연방거래위원회와 20개 주가 26일 할인점 달러제너럴을 고소했습니다. 진열 가격보다 계산대에서 더 받았다는 혐의로 불만이 약 3만 건입니다. 주가는 이날 4% 넘게 내렸습니다.",
+      "interp": "할인점에서는 <b>영수증과 진열 가격</b>을 비교하세요. 차액이 있으면 매장에 정정을 요구하고 주 검찰총장실에 신고할 수 있습니다.",
+      "source": "스크립스뉴스·CBS",
+      "read": 2,
+      "url": "https://www.scrippsnews.com/us-news/ftc-sues-dollar-general-alleging-customers-were-charged-more-than-listed-prices",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "연방거래위원회",
+          "explain": "미국에서 공정거래와 소비자 보호를 맡는 정부 기관(FTC)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "앤트로픽 상장 신청, 반도체주 강세",
+      "desc": "인공지능 기업 앤트로픽이 26일 미국 상장 신청서를 공개했습니다. 매출 급증과 막대한 비용이 함께 드러났습니다. 인공지능 수익성 우려가 줄면서 이날 뉴욕증시 반도체주가 올랐습니다.",
+      "interp": "상장 일정·공모가가 정해지면 <b>관련 종목 변동성</b>이 커질 수 있습니다. 공모주에 관심 있다면 증권사 청약 조건과 수수료부터 확인하세요.",
+      "source": "CBS·유로뉴스",
+      "read": 2,
+      "url": "https://www.euronews.com/business",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "상장 신청서",
+          "explain": "미국 증권거래위원회에 내는 기업공개 신고 서류(S-1)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "이스라엘 오늘 총선, 네타냐후 운명은",
+      "desc": "이스라엘이 27일 총선을 치릅니다. 네타냐후 총리의 리쿠드와 아이젠코트 전 참모총장 신당이 접전입니다. 크네세트 120석 중 과반 진영이 없으면 연정 협상이 길어질 수 있습니다.",
+      "interp": "선거 전후 <b>서안지구 출입</b>이 막히고 집회가 열릴 수 있습니다. 현지에 있다면 대사관 공지를 확인하고 집회 장소를 피하세요.",
+      "source": "로이터·타임스오브이스라엘",
+      "read": 2,
+      "url": "https://www.timesofisrael.com/liveblog_entry/toi-poll-anti-netanyahu-bloc-regains-lead-eisenkots-yashar-comes-1st-with-likud-in-2nd-place/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "크네세트",
+          "explain": "이스라엘의 단원제 국회"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "health",
+      "head": "케냐 에볼라 두 번째 사망, 확진 멈춰",
+      "desc": "케냐 보건부가 23일 격리 중이던 65세 여성이 숨져 분디부교형 에볼라 사망자가 2명이라고 밝혔습니다. 확진자는 20일 이후 9명 그대로입니다. 접촉자 135명은 다 추적됐습니다.",
+      "interp": "이 유형은 <b>승인 백신이 없습니다</b>. 케냐·콩고를 다녀오면 한국 입국 때 건강상태를 신고하고 21일간 발열을 살피세요.",
+      "source": "케냐 보건부·시티즌디지털",
+      "read": 2,
+      "url": "https://citizen.digital/article/ministry-of-health-announces-second-ebola-death-in-kenya-n392642",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "분디부교형",
+          "explain": "에볼라 바이러스의 한 종류로 승인된 백신과 치료제가 없는 유형"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "에어비앤비, 퇴실 때 설거지 요구 금지",
+      "desc": "에어비앤비가 11월 20일부터 호스트가 손님에게 설거지·침구 벗기기·쓰레기 버리기를 요구하지 못하게 합니다. 그릇을 싱크대에 두는 정도만 됩니다. 규칙은 예약 전에 밝혀야 합니다.",
+      "interp": "20일 이후 예약분부터라는 보도도 있어 <b>예약 날짜</b>를 확인하세요. 메시지로 추가 청소를 요구받으면 고객센터에 알리세요.",
+      "source": "AP·사이버뉴스",
+      "read": 2,
+      "url": "https://ktar.com/national-news/airbnb-guests-no-longer-have-to-wash-the-dishes-or-strip-the-beds-at-checkout",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
