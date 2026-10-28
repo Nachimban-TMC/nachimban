@@ -1,0 +1,508 @@
+{
+  "number": 83,
+  "date": "2026-10-28",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "핵폐기물 처분장 후보, 국토 5% 미만으로",
+      "desc": "연방처분장회사가 고준위 핵폐기물 처분장 후보지를 국토의 5% 미만으로 좁혔습니다. 베를린·헤센·작센·라인란트팔츠·자를란트는 빠졌습니다. 최종 후보는 2027년 말 정해집니다.",
+      "interp": "니더작센·바이에른·바덴뷔르템베르크 일부는 계속 조사 대상입니다. 사는 곳이 포함되는지는 <b>BGE 누리집 지도</b>에서 확인할 수 있습니다.",
+      "source": "베를리너차이퉁·벨트",
+      "read": 3,
+      "url": "https://www.berliner-zeitung.de/article/bge-schliesst-fuenf-bundeslaender-von-endlager-suche-aus-10535353",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "연방처분장회사",
+          "explain": "독일 핵폐기물 처분장 부지 선정을 맡은 연방 소유 회사(BGE)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "냉동 라즈베리 회수, 유리 조각 우려",
+      "desc": "에데카·마르크트카우프의 '구트&귄스티히' 냉동 라즈베리 500g이 회수됩니다. 유통기한 2028년 8월 5일 제품에 유리 조각 우려가 있습니다. 북부 3개 주 외 전국 판매입니다.",
+      "interp": "냉동실 라즈베리 포장의 <b>유통기한 05.08.2028</b>을 확인하세요. 해당 제품은 먹지 말고 매장에 가져가면 영수증 없이도 환불됩니다.",
+      "source": "인프랑켄·베를리너쿠리어",
+      "read": 2,
+      "url": "https://www.infranken.de/ratgeber/verbraucher/rueckruf-edeka-himbeeren-glasstuecke-tiefgekuehlt-verletzungsgefahr-art-6406586",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "welfare",
+      "head": "무자녀 요양보험료, 내년 4.5%로 인상 추진",
+      "desc": "자녀 없는 직장인의 요양보험료율을 내년 1월 4.2%에서 4.5%로 올리는 법안이 다음 주 연방의회 심의에 들어갑니다. 일반 요율 3.6%는 그대로이며 인상분은 근로자 몫입니다.",
+      "interp": "자녀가 있다면 <b>출생증명서</b>를 회사나 보험사에 냈는지 확인하세요. 제출하지 않으면 무자녀 요율이 적용될 수 있습니다.",
+      "source": "외코테스트·알고이어차이퉁",
+      "read": 3,
+      "url": "https://www.oekotest.de/gesundheit-medikamente/steigende-pflegebeitraege-ab-2027-wie-viel-macht-das-aus_601974_1.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "요양보험료율",
+          "explain": "노인·장애인 돌봄 비용을 대는 독일 공적 요양보험의 보험료 비율"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "집 구할 때 '포스트이덴트' 요구 사기 주의",
+      "desc": "슈티프퉁 바렌테스트가 포스트이덴트 신원확인을 악용한 사기를 경고했습니다. 가짜 집주인·고용주가 인증을 요구한 뒤 피해자 명의로 대출을 받습니다. 피해액은 수만 유로에 이릅니다.",
+      "interp": "집 보기 전이나 채용 전에 <b>신원 인증</b>을 요구하면 의심하세요. 이미 응했다면 곧바로 은행과 경찰에 알리고 신용기록을 확인하세요.",
+      "source": "슈티프퉁 바렌테스트·웹데",
+      "read": 3,
+      "url": "https://www.test.de/Betrug-mit-Postident-6337859-0/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "포스트이덴트",
+          "explain": "우체국 창구나 영상통화로 신분증을 확인하는 독일 본인인증 방식"
+        },
+        {
+          "term": "슈티프퉁 바렌테스트",
+          "explain": "독일의 대표적인 비영리 소비자 상품 시험 기관"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "대신증권 3만8천 명 정보 유출, 빗썸도 해킹",
+      "desc": "대신증권에서 고객 3만8490명의 개인정보가 유출됐고 미래에셋자산운용·빗썸도 해킹 피해를 확인했습니다. 금융감독원은 현장점검에 들어갔습니다. 해킹이 증권·코인으로 번졌습니다.",
+      "interp": "해당 회사 계좌가 있다면 <b>유출 안내 문자·메일</b>을 확인하고 비밀번호를 바꾸세요. 해외에서는 회사 사칭 연락에 특히 주의하세요.",
+      "source": "뉴시스·녹색경제신문",
+      "read": 3,
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9lSFV0RjBpbldHVk9La2QwbWtuc1NUaGpWZEo3c3VIb1RNLTZZZnp6UEE1ckd2RHh3VnZVZUxpRUMtZ0NRbzNJa2tkMjZaZlJobFYtV3hkbFo2T2pmUUsweWhBVTNGOWszcy0wbDY2VXZWZVRCaGdSONIBeEFVX3lxTE9lSFV0RjBpbldHVk9La2QwbWtuc1NUaGpWZEo3c3VIb1RNLTZZZnp6UEE1ckd2RHh3VnZVZUxpRUMtZ0NRbzNJa2tkMjZaZlJobFYtV3hkbFo2T2pmUUsweWhBVTNGOWszcy0wbDY2VXZWZVRCaGdSOA?oc=5",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "policy",
+      "head": "전역증, 내일부터 재외공관서 재발급",
+      "desc": "29일부터 해외에 사는 재외국민도 가까운 대사관·총영사관에서 전역증을 다시 받을 수 있습니다. 그동안은 대리인을 세워야 했습니다. 공관 신청 뒤 지방병무청 확인을 거쳐 발급됩니다.",
+      "interp": "잃어버린 전역증이 필요하면 <b>관할 공관 영사민원</b> 안내에서 서류와 수수료를 확인하세요. 일부 공관은 우편으로도 받을 수 있습니다.",
+      "source": "뉴스서울·외교저널",
+      "read": 2,
+      "url": "https://newsseoul.co.kr/news/view/1065589220028445",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [
+        {
+          "term": "전역증",
+          "explain": "군 복무를 마쳤음을 증명하는 카드 형태의 증서"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "stocks",
+      "head": "하이닉스 영업익 83조, 코스피 6000 터치",
+      "desc": "SK하이닉스가 3분기 영업이익 83조 원과 60조 원 추가 주주환원을 발표했습니다. 코스피는 장중 6% 넘게 뛰어 6000선을 찍었고 이틀 연속 매수 사이드카가 나왔습니다.",
+      "interp": "급등 뒤에는 변동성이 커집니다. 국내 주식을 사려면 <b>원·달러 환율</b>이 1330원대로 다시 오른 점도 함께 확인하세요.",
+      "source": "연합뉴스·KBS",
+      "read": 3,
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE56aTRlYWdCbmRrYkQ1czlydm9JbWx2QUEzRU5obmlsQWIyOEdBZWZRdVVLbjJXemxKZzRISTF3SkcxbjliWVpQZUFEUVA0ZVBCTmZBUVBFSXRRdDNXbVY2N9IBYEFVX3lxTE56aTRlYWdCbmRrYkQ1czlydm9JbWx2QUEzRU5obmlsQWIyOEdBZWZRdVVLbjJXemxKZzRISTF3SkcxbjliWVpQZUFEUVA0ZVBCTmZBUVBFSXRRdDNXbVY2Nw?oc=5",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "주주환원",
+          "explain": "배당·자사주 매입으로 회사 이익을 주주에게 돌려주는 것"
+        },
+        {
+          "term": "사이드카",
+          "explain": "주가 급등락 때 프로그램 매매를 5분간 멈추는 제도"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "프랑스, SNS 차단 권한 법안 추진",
+      "desc": "프랑스 정부가 폭동 선동 게시물을 1시간 안에 지우지 않는 틱톡·인스타그램·엑스를 차단할 수 있게 하는 수정안을 냈습니다. 시위 때 SNS 차단 계획도 있었던 것으로 드러났습니다.",
+      "interp": "프랑스 체류·여행 중에는 SNS·지도 앱이 <b>일시 제한</b>될 수 있습니다. 대사관 공지와 숙소 주변 시위 일정을 미리 확인하세요.",
+      "source": "BFM·라프로방스",
+      "read": 3,
+      "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxOdWNZdXlxMW15a1FQamtXVTlUN2p1ODV5eUVPNExmaEtmQlJqTTFKRldPYkxsVFh0bHJmUzNRUS1FV3hYY04yR2RtSWV6UnBlZ3FIWE9zUU84a3JOcDd3dE9SVHN0dWJOT0NRSGRLU3AxZV9xQVZfei1KWG41UXZ5YjNFbmhHemg0RjdDWUxEa0pVY1VjYkI1eUtzZENzQlRqazkxbXo4NzZyUjVJODJZNkRqV0lqTDkwUXhVOUszTjlnTVJDMjFMMlAxUXpvQmdHeXFqbExkMU54S1lka01EYUdVV3FaWUs4NFpBN0dwdnMxZ09Vd1BLWVliekhBZTJkMVJOa1dWa2dlWHdkRk9jeXdyc3dPbHlRRGtPaWF3YVU5WWs5dENKbjROc1pKTVJicS1LNDVKbXpyN19jNjEzQVhmc0dYTFVpZFY1YQ?oc=5",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "life",
+      "head": "피싱 피해, 은행이 먼저 돌려줘야",
+      "desc": "유럽사법재판소가 은행은 고객 과실을 이유로 피싱 피해 환급을 거부할 수 없다고 판결했습니다. 신고 다음 영업일까지 먼저 돌려주고 과실은 은행이 입증해야 합니다. 독일도 해당됩니다.",
+      "interp": "내가 하지 않은 이체를 발견하면 즉시 은행에 <b>서면으로 신고</b>하고 환급을 요구하세요. 거절당하면 소비자센터에 상담할 수 있습니다.",
+      "source": "LTO·안발트데",
+      "read": 3,
+      "url": "https://www.lto.de/recht/nachrichten/n/eugh-c7025-erstattungsanspruch-bank-phishing-grobe-fahrlaessigkeit",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "유럽사법재판소",
+          "explain": "EU 법의 해석을 최종 판단하는 EU 최고 법원"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "stocks",
+      "head": "HSBC 6% 급락, 매출 기대 못 미쳐",
+      "desc": "HSBC 주가가 3분기 매출 부진과 자산관리 성장 둔화로 6% 넘게 떨어졌습니다. 은행주 약세에도 유가 진정에 유로스톡스50은 48포인트 올랐습니다. 오늘은 도이체방크 실적입니다.",
+      "interp": "은행주는 실적 발표 날 하루 변동이 큽니다. 유럽 은행 상품을 갖고 있다면 <b>29일 유럽중앙은행 결정</b> 뒤 흐름까지 지켜보세요.",
+      "source": "로이터·블룸버그",
+      "read": 2,
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcVZVOUw4UjhITVVsZ1psYmQ4Tkwta1lJSGl1OVRkemlLQzJZZWNRXzBEV1NDU0FNR3VyWGh5eE1SR1QyOUlKcWJpSHdRdDltYmxzc0NUX3dEZktFWVY2eUhWcDl4Y2JLUDhtdTJwbUFIckNnUjhiTDR3ZGVBS2VmZXFrenQ5SW1QOTFNUUVhaEdOck9fNml1R05HRkJiOVppV2cxWWxjX21wM2hr?oc=5",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "유로스톡스50",
+          "explain": "유로존 대표 기업 50곳으로 만든 주가지수"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "연준 오늘 금리 결정, 12월 인상 신호 주목",
+      "desc": "연준이 한국시간 29일 새벽 금리를 발표합니다. 3.75~4.00% 동결이 유력하지만 9월 물가가 3.7%라 12월 인상 신호가 나올지 관심입니다. 워시 의장 발언이 핵심입니다.",
+      "interp": "변동금리 대출이 있다면 <b>12월 인상</b> 가능성에 대비해 상환 계획을 점검하세요. 달러 환전도 발표 뒤 흐름을 보고 정하는 편이 안전합니다.",
+      "source": "CNBC·블룸버그",
+      "read": 3,
+      "url": "https://www.cnbc.com/2026/10/27/federal-reserve-rates-kevin-warsh.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "연준",
+          "explain": "미국의 중앙은행인 연방준비제도"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "취업이민 노동인증 개편안, 백악관 통과",
+      "desc": "노동부의 취업이민 노동인증(PERM) 개편안이 백악관 심사를 마쳤습니다. 구인 절차를 바꾸는 내용이며 세부안은 곧 공개됩니다. 영주권 일정이 늦어질 수 있다는 우려가 나옵니다.",
+      "interp": "회사 후원 영주권을 준비 중이라면 <b>PERM 신청 시점</b>을 이민 변호사와 상의하세요. 개정 전 접수분을 어떻게 처리하는지도 확인하세요.",
+      "source": "블룸버그로·이코노믹타임스",
+      "read": 3,
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMHJhSWRmalJsRjRoYkFGVHpRS0lvcFFFeXlxOWd2ZzI5S3VnWmtIRXBQcDh2TFYwb3FrNnJXN0lwMEhDT0N0MjJpTUFKbHBpNk9HSjVXTkxpQ0VIS0lpdXlpemJjOElwYlhOTzcyVHdpUVRHVXcwYnBVZzhJaGUtYTlKR1FCck5FTTkwOGV0cTdWbUx6LWVQNFpWSTJhUGJLbXNubXl2QnVoR1pBczExQ01kMA?oc=5",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "PERM",
+          "explain": "미국 기업이 외국인을 영구 고용하기 전에 받는 노동부 인증"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "보잉 10% 급락, 737 맥스 증산 늦춰",
+      "desc": "보잉 주가가 27일 10% 넘게 떨어졌습니다. 737 맥스 생산을 2027년 말까지 크게 못 늘린다고 밝혀 현금흐름 우려가 커졌습니다. 반도체 강세로 나스닥은 1.3% 올랐습니다.",
+      "interp": "보잉 비중이 큰 <b>항공·방산 ETF</b>를 갖고 있다면 구성 종목을 확인하세요. 오늘 밤 MS·알파벳 실적도 기술주 흐름을 가를 변수입니다.",
+      "source": "CNBC·트레이딩뷰",
+      "read": 2,
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAtSHVrTHRkamp0ZWk4ZGFXeTZnbUl0a3AyZFAyWnh3UkRjcHZORHJLN0NKUkxQdE5xOUNhZk9UYnlMQXIyclNvWmFGMUduNS1CODVsemtZaDJaWms0UVpPRkZ6UkJKTkVocjJRNEM1Y2dRd9IBd0FVX3lxTE54endDcUxXNk1haFRVYTNjNTFwUDhXLXVKRDR6NHNsczlGTGVEcGdfeEtKVW1IMU8yLW8tNW14YUprQlJ6SWhZSVVkYzNsdGNoZ2JxSEhBV0FKSWhXVGJpQmJhSlRLTkl1N2RlUzVFVm5NZDB5Umxr?oc=5",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "미국, 걸프국에 '선거 뒤 이란 공격 대비'",
+      "desc": "미국이 걸프 국가들에 다음 달 3일 중간선거 뒤 이란을 단기·고강도로 공격할 수 있으니 대비하라고 통보했다고 월스트리트저널이 보도했습니다. 걸프도 보복 대상이 될 수 있습니다.",
+      "interp": "중동에 머문다면 <b>재외국민 등록</b>과 대사관 비상연락망을 점검하세요. 11월 초 중동 경유 항공편은 결항 가능성도 염두에 두세요.",
+      "source": "연합뉴스·뉴스1",
+      "read": 3,
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9qUXNBdHU1OElKcWtMQzg4cVRpRXBYeXdxTGZWaWpiRHllNjFkeG13cTRHMlRDcTNNSkpkakdZanhnTzQ2Y195VHJaOURUUzFPdHEzUVRRQmN6YlnSAWBBVV95cUxPbHE1ZUNscVcwb255eHRVa1ZkemtESm1JVmFzU2I1d2dGRkMwWS12WF8wc0ZUTzJ6UEJVSEVPVzZXTGFmeWIzU3kxQjNSYnlwcnduSW1CQmZhSGlRRFV6djg?oc=5",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "사이클론 아르나브, 인도 동부 상륙",
+      "desc": "사이클론 아르나브가 인도 안드라프라데시주에 상륙해 약 10만 명이 대피했습니다. 오디샤주에도 폭우가 쏟아지고 스리랑카는 전국에 휴교령을 내렸습니다. 강풍 피해가 이어집니다.",
+      "interp": "인도 동부·스리랑카 여행 예정이면 <b>항공편 운항 여부</b>를 미리 확인하세요. 현지 체류자는 외교부 해외안전여행 공지를 확인하세요.",
+      "source": "사우스차이나모닝포스트·연합뉴스",
+      "read": 2,
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNDZXVXNtZUlicHdvMFFsOTc2S1VCamFWaWZTSFRabHFvaS1WdFNBeWxBX1ZOLW5TWTNvYWtibENFV05hVlEwMGItN3pzVkRSSUxBM0dzeEZuS01odGh5cGRVaEV3QlZPU1RtRXZiWExhdXQ4RFRSdVc0OURaMjJ4eUlWeVRpRGIxcXVTNXlGLW85TDhSMzhNcURCNDBLRk1QV2pBMUpaWmRyalBPbFVzNkRfWVRIc003ZnhCcDVrM2JFWkU?oc=5",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "이스라엘 총선, 양 진영 모두 과반 실패",
+      "desc": "27일 이스라엘 총선 출구조사에서 반네타냐후 진영 52석, 네타냐후 진영 50석으로 양쪽 다 과반 61석에 못 미쳤습니다. 투표율은 77%를 넘었고 연정 협상이 길어질 전망입니다.",
+      "interp": "정국 공백 속에 <b>가자·서안 긴장</b>이 커질 수 있습니다. 이스라엘 방문 예정이면 외교부 여행경보와 검문소 운영을 확인하세요.",
+      "source": "조선일보·KBS",
+      "read": 2,
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONUprWjRSanlpYTlkalNVSHNXMWl4cUtEVjQzUDhWMmFEb2toajNuQ0xnVnltb0UtV081NmJGY2NQV2pGUzZsQ2JNa0drZzg5bzlDWFgxb1BlR1d5U1JGc25DdXJNTXJlalA3d0NHUWZuWWdWc3ctTDNvMkFCVS1UUzRvbTFIXzVfclozeV90OEFCNFJyZjh0NWV3WkUwZw?oc=5",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
