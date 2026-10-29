@@ -1,0 +1,448 @@
+{
+  "number": 84,
+  "date": "2026-10-29",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "메르츠 총리 오늘 방한, 정상회담",
+      "desc": "메르츠 독일 총리가 오늘 서울에서 이재명 대통령과 정상회담을 엽니다. 반도체·인공지능·방산 협력이 의제입니다. 30일엔 경제회의 연설 뒤 비무장지대를 찾습니다.",
+      "interp": "합의 내용은 오늘 저녁 <b>공동언론발표</b>로 나옵니다. 한독 기업에서 일하거나 사업하는 분은 <b>협력 분야</b>를 눈여겨보세요.",
+      "source": "독일 연방정부·뉴스1",
+      "read": 3,
+      "url": "https://www.bundesregierung.de/breg-de/suche/bundeskanzler-merz-reist-nach-singapur-japan-und-in-die-republik-korea-2458120",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "경유 2.29유로, 정오 전에 넣으세요",
+      "desc": "28일 전국 평균 경유값은 리터당 2.289유로로 한 주 새 3.4센트 올랐습니다. E10 휘발유는 2.084유로로 내렸습니다. 12월까지 유류세 인하가 이어집니다.",
+      "interp": "주유소는 하루 한 번 <b>정오</b>에만 값을 올릴 수 있어 그 직전이 유리합니다. 앱으로 근처 <b>최저가</b>를 비교하고 넣으세요.",
+      "source": "ADAC·비르트샤프츠보헤",
+      "read": 3,
+      "url": "https://www.adac.de/news/aktueller-spritpreis/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "E10",
+          "explain": "에탄올을 10%까지 섞은 독일의 일반 휘발유"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "11월 20일부터 '나중 결제'도 심사",
+      "desc": "11월 20일부터 200유로 미만 소액대출과 나중 결제 서비스도 소비자대출 규정을 따릅니다. 업체는 상환 능력을 먼저 심사해야 합니다. 기존 계약은 예외입니다.",
+      "interp": "연말 쇼핑 때 <b>할부 결제</b> 승인이 늦어지거나 거절될 수 있습니다. 자동 심사 결과에 이의가 있으면 <b>사람의 재검토</b>를 요구하세요.",
+      "source": "독일 연방정부·더로컬",
+      "read": 3,
+      "url": "https://www.thelocal.de/20261026/everything-that-changes-in-germany-in-november-2026",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "나중 결제",
+          "explain": "물건을 먼저 받고 대금은 나중에 내는 후불 결제 방식"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "policy",
+      "head": "전력·수도 시설 직원, 보안심사 확대",
+      "desc": "독일 내각이 28일 핵심기반시설 직원의 보안심사를 넓히는 시행령을 의결했습니다. 전력·식수·댐·가스 터미널 인력이 대상입니다. 러시아발 파괴 공작 우려 때문입니다.",
+      "interp": "이 분야 회사에 다니거나 지원할 계획이면 <b>신원 확인 서류</b> 요구가 늘 수 있습니다. 시행 시기와 대상 직무는 <b>회사 공지</b>를 확인하세요.",
+      "source": "독일 연방정부·아드혹뉴스",
+      "read": 3,
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/bundeskabinett-ergebnisse-2458340",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "핵심기반시설",
+          "explain": "전기·물·통신처럼 멈추면 사회가 마비되는 필수 시설"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "코스피 6.63% 급등, 6000선 회복",
+      "desc": "28일 코스피가 6.63% 오른 6012.44로 마감해 6000선을 되찾았습니다. 하이닉스 10.89%, 삼성전자 9.01%가 뛰었습니다. 환율은 14원 오른 1337.7원입니다.",
+      "interp": "하루 변동폭이 커서 <b>한국 주식</b>은 나눠 사고파는 편이 안전합니다. 원화 송금 계획이 있다면 <b>환율</b> 흐름도 함께 보세요.",
+      "source": "뉴시스",
+      "read": 3,
+      "url": "https://www.newsis.com/view/NISX20261028_0003844335",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "등·초본 가족 표기, 오늘부터 변경",
+      "desc": "오늘부터 주민등록 등·초본의 계부·계모 같은 표기가 '세대원'으로 바뀝니다. 외국인 가족은 한글과 로마자 이름을 함께 적습니다. 기본 발급은 '일반' 양식입니다.",
+      "interp": "외국 국적 배우자나 자녀가 있으면 <b>로마자 병기</b>로 동일인 증명이 쉬워집니다. 가족관계를 보여야 하는 곳에는 <b>상세</b> 양식을 고르세요.",
+      "source": "행정안전부·외교저널",
+      "read": 3,
+      "url": "https://www.djournal.co.kr/news/article.html?no=132836",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "로마자",
+          "explain": "영어 알파벳으로 적는 이름 표기 방식"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "pension",
+      "head": "퇴직금 사외적립, 2028년부터 의무화",
+      "desc": "정부가 100인 이상 사업장의 퇴직금 사외적립을 2028년부터 단계적으로 의무화합니다. 퇴직금을 외부 금융기관에 미리 쌓아 체불을 막는 취지입니다. 세부안은 곧 나옵니다.",
+      "interp": "한국 회사에서 일하다 출국을 앞두고 있다면 <b>퇴직연금</b> 가입 여부를 확인하세요. 세부안이 나오면 내 회사가 <b>적립 대상</b>인지 살펴보세요.",
+      "source": "뉴스핌",
+      "read": 3,
+      "url": "https://www.newspim.com/news/view/20261028000335",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "사외적립",
+          "explain": "퇴직금 재원을 회사 밖 금융기관에 쌓아 두는 방식"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "스페인 고속열차 추돌, 최소 68명 사망",
+      "desc": "28일 스페인 톨레도 인근에서 고속열차가 멈춰 선 열차를 들이받아 최소 68명이 숨졌습니다. 신호 장애 중 운행 재개 지시가 원인으로 꼽힙니다. 남부행 운행이 멈췄습니다.",
+      "interp": "마드리드~세비야 열차를 예약했다면 <b>운행 재개</b> 일정과 환불을 꼭 확인하세요. 스페인은 31일까지 <b>국가 애도 기간</b>입니다.",
+      "source": "CBS·CNN",
+      "read": 3,
+      "url": "https://www.cbsnews.com/news/spain-train-crash-toledo-urda/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "immigration",
+      "head": "프론텍스, 추방 업무 중심 기관으로",
+      "desc": "EU 집행위원회가 27일 프론텍스가 불법 체류자 송환을 총괄하는 개편안을 냈습니다. 상비 인력은 약 3만 명으로 세 배 늘립니다. 회원국 논의를 거쳐야 확정됩니다.",
+      "interp": "당장 바뀌는 체류 규정은 없습니다. 다만 <b>체류허가</b> 만료일을 넘기지 않도록 연장 신청을 <b>미리</b> 챙기세요.",
+      "source": "더로컬·유로뉴스",
+      "read": 3,
+      "url": "https://www.euronews.com/2026/10/26/exclusive-eu-to-give-frontex-new-powers-to-deport-migrants-from-outside-europe",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "프론텍스",
+          "explain": "EU 회원국 국경 관리를 돕는 유럽 국경해안경비청"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "stocks",
+      "head": "도이체방크 4%↑, 아디옌 13% 급락",
+      "desc": "28일 스톡스600 지수는 0.07% 오른 644.14로 마감했습니다. 도이체방크는 깜짝 이익에 3.97% 올랐습니다. 아디옌은 13.35%, 산탄데르는 5.59% 내렸습니다.",
+      "interp": "오늘 <b>유럽중앙은행 금리 결정</b>이 나와 은행주가 또 흔들릴 수 있습니다. 개별 종목은 <b>실적 발표일</b>을 확인하고 매매하세요.",
+      "source": "마켓스크리너·로이터",
+      "read": 3,
+      "url": "https://www.marketscreener.com/news/stoxx-600-inches-lower-as-investors-sift-through-earnings-higher-oil-prices-ce785cd2da8af326",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "스톡스600",
+          "explain": "유럽 17개국 대형·중형주 600개로 만든 대표 주가지수"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "연준 금리 동결, 2명은 인상 주장",
+      "desc": "미국 연준이 28일 기준금리를 연 3.75~4.00%로 동결했습니다. 표결은 10대 2로 쿡 이사와 해맥 총재가 인상을 주장했습니다. 이런 동반 반대는 1992년 이후 처음입니다.",
+      "interp": "추가 인상 여지가 남아 <b>변동금리 대출</b>이 있다면 고정 전환을 따져 보세요. 다음 결정은 <b>12월 회의</b>에서 나옵니다.",
+      "source": "포천·웰스매니지먼트",
+      "read": 3,
+      "url": "https://fortune.com/2026/10/28/fed-rates-steady-kevin-warsh-president-governor-laura-ullrich/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "MS 시간외 3%↑, 알파벳 9%↓",
+      "desc": "28일 실적 발표 뒤 마이크로소프트는 시간외거래에서 약 3% 올랐습니다. 알파벳은 9% 안팎 떨어졌습니다. 설비투자가 114% 늘어 잉여현금흐름이 적자로 돌아섰습니다.",
+      "interp": "인공지능 투자 <b>비용</b>이 주가를 가르는 흐름입니다. 미국 빅테크 비중이 크다면 <b>분산</b> 상태를 점검하세요.",
+      "source": "모틀리풀·CNBC",
+      "read": 3,
+      "url": "https://www.fool.com/investing/2026/10/28/microsoft-and-alphabet-just-reported-earnings-putting-the-ai-boom-to-the-test/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "잉여현금흐름",
+          "explain": "영업으로 번 돈에서 설비투자를 뺀 실제 남는 현금"
+        },
+        {
+          "term": "시간외거래",
+          "explain": "정규장 마감 뒤 열리는 추가 거래 시간"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "health",
+      "head": "오바마케어 가입, 11월 1일 시작",
+      "desc": "2027년 건강보험 마켓플레이스 가입이 11월 1일부터 1월 15일까지 열립니다. 12월 15일까지 가입해야 1월 1일부터 보장됩니다. 신청 보험료는 중간값 15% 올랐습니다.",
+      "interp": "소득이 빈곤선의 <b>400%</b>를 넘으면 보조금이 없어 부담이 큽니다. 지금 플랜을 그대로 두지 말고 <b>새 요금</b>을 비교하세요.",
+      "source": "KFF·헬스너드",
+      "read": 3,
+      "url": "https://www.healthnerd.net/blog/2027-health-insurance-open-enrollment-guide",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "마켓플레이스",
+          "explain": "오바마케어 개인 건강보험을 비교·가입하는 정부 장터"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "영국, 중동 16개국 '급격한 확전' 경고",
+      "desc": "영국 외무부가 27일 아랍에미리트·튀르키예 등 중동 16개국 안내를 고쳐 확전 위험이 높다고 밝혔습니다. 경유 승객도 결항에 대비하라고 했습니다. 여행 자제 권고는 아닙니다.",
+      "interp": "두바이·도하 <b>경유편</b>을 예약했다면 출발 전 항공사 앱으로 운항을 확인하세요. 여행자보험의 <b>결항 보장</b> 범위도 챙기세요.",
+      "source": "트래블가십·걸프뉴스",
+      "read": 3,
+      "url": "https://travelgossip.co.uk/latestnews/foreign-office-issues-warning-for-16-countries-across-middle-east-region/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
