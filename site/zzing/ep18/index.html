@@ -1,0 +1,119 @@
+<!doctype html><html lang="ko"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>찡곰툰 업로드 · EP18</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-font-smoothing:antialiased}
+:root{
+  --kr:"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --paper:#F0DDC6; --ink:#2A2119; --soft:#6B5B49; --faint:#9C8B76;
+  --line:#D8C4A8; --panel:#F7EEE0; --bg:#FBF6EE;
+}
+body{font-family:var(--kr);color:var(--ink);background:var(--bg);line-height:1.6;
+  max-width:660px;margin:0 auto;padding:20px 16px 70px}
+.hd{border-bottom:3px solid var(--ink);padding-bottom:12px;margin-bottom:6px}
+.hd h1{font-size:23px;font-weight:800;letter-spacing:-.02em}
+.hd .sub{color:var(--faint);font-size:13px;margin-top:3px}
+h2{font-size:15px;font-weight:800;margin:28px 0 5px}
+.note{font-size:13px;color:var(--soft);margin-bottom:11px}
+.grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}
+.grid a{display:block;position:relative;text-decoration:none}
+.grid img{width:100%;aspect-ratio:4/5;object-fit:cover;background:var(--paper);
+  border:1px solid var(--line);border-radius:5px;display:block}
+.grid a.fallback{display:flex;align-items:center;justify-content:center;
+  aspect-ratio:4/5;background:var(--paper);border:1px dashed var(--line);border-radius:5px}
+.grid .fb{font-size:12px;font-weight:700;color:var(--soft);text-align:center;line-height:1.5}
+.grid .i{position:absolute;top:5px;left:5px;background:rgba(42,33,25,.85);color:#fff;
+  font-size:11px;font-weight:700;padding:2px 7px;border-radius:99px}
+.cap{background:var(--panel);border:1px solid var(--line);border-radius:8px;
+  padding:14px;font-size:14px;white-space:pre-wrap;word-break:break-word;margin-top:8px}
+button{font-family:inherit;font-size:14px;font-weight:700;border:0;border-radius:99px;
+  background:var(--ink);color:var(--bg);padding:11px 18px;margin-top:10px;cursor:pointer}
+button:active{opacity:.7}
+.tip{font-size:12px;color:var(--faint);margin-top:10px}
+.ep{margin-top:34px;padding-top:16px;border-top:1px solid var(--line)}
+.ep h3{font-size:14px;font-weight:800;margin-bottom:8px}
+@media(prefers-color-scheme:dark){
+  :root{--bg:#141210;--panel:#1e1b18;--line:#3a332c;--ink:#EFE7DA;--soft:#B5A794;--faint:#8B7F6E}
+}
+</style></head><body>
+
+<div class="hd">
+  <h1>찡곰툰 업로드</h1>
+  <div class="sub">EP18 · 한국으로 가요 · 16컷 (4:5)</div>
+</div>
+
+<h2>컷 이미지</h2>
+<div class="note">이미지를 <b>길게 눌러 저장</b>하거나 아래 <b>전체 한번에 저장</b> 버튼을 누르세요. 번호 순서대로 저장하면 캐러셀 순서가 맞습니다.</div>
+<div class="grid" id="grid"></div>
+<button id="all" onclick="saveAll(this)">전체 한번에 저장</button>
+
+<h2>캡션</h2>
+<div class="cap" id="cap"></div>
+<button onclick="cp(CAP,this)">캡션 복사</button>
+
+<h2>첫 댓글용 해시태그</h2>
+<div class="cap" id="tag"></div>
+<button onclick="cp(TAG,this)">해시태그 복사</button>
+
+<p class="tip">에피소드가 추가되면 이 페이지가 갱신됩니다. · <a href="../" style="color:inherit">최신 편</a> · <a href="../ep17/" style="color:inherit">EP17</a> · <a href="../ep16/" style="color:inherit">EP16</a> · <a href="../ep15/" style="color:inherit">EP15</a> · <a href="../ep14/" style="color:inherit">EP14</a> · <a href="../ep13/" style="color:inherit">EP13</a></p>
+
+<script>
+var BASE="https://d8j0ntlcm91z4.cloudfront.net/user_3GECC5TtJ9AV8a30xaCCexmEilq/";
+var CUTS=[
+ ["hf_20261017_133949_fb1b743f-0978-4fe1-a76b-d751dd2e5c50.png","제목"],
+ ["hf_20261017_133955_d7a3b9b6-92f4-4373-b5c6-2bedb10ce7a8.png","소견서"],
+ ["hf_20261017_134001_9d95eadf-9a32-4e86-8a5b-b602fe7c11ab.png","처방"],
+ ["hf_20261017_141619_5c21f275-49c6-4165-a9ed-4cfb233180b9.png","가성비"],
+ ["hf_20261017_141628_074a873b-35e2-4baa-8560-d698ca9398a7.png","압박스타킹 장착"],
+ ["hf_20261017_141914_e03fb7c0-8c73-4a7f-90ce-a591e6ca39db.png","복대 장착"],
+ ["hf_20261017_143504_7afb3041-58e3-4680-a484-7385bab3b7e7.png","현실"],
+ ["hf_20261017_141928_361847b8-5f05-437d-9d47-5dc9213b4527.png","공항으로 출발"],
+ ["hf_20261017_141936_d9332141-3ebb-411e-bc04-d1f54fb16506.png","서류 있으세요"],
+ ["hf_20261018_013501_5db75af9-f0ab-4e16-928b-cc44c71aa656.png","소견서 여기 있습니다"],
+ ["hf_20261018_013508_c3e94e1e-6dab-4dd3-a5e5-321378d7b58f.png","괜찮을까"],
+ ["hf_20261018_013735_36190a9b-6f15-4b0e-b98d-6dd5d34738ce.png","먹고"],
+ ["hf_20261018_013740_bc5e891c-0b93-4e80-b17c-7466f3703817.png","자고"],
+ ["hf_20261018_013746_b875fea3-5d4e-4edf-84d4-76b39dbd83f5.png","먹고"],
+ ["hf_20261018_013751_69c6b036-a79b-4d19-92ee-5fcb9ac9dd72.png","자고"],
+ ["../ep18_16.png","얏호"]
+];
+var g=document.getElementById('grid');
+function U(f){return f.indexOf('/')>=0?f:BASE+f;}
+CUTS.forEach(function(c,i){
+  var n=String(i+1).padStart(2,'0');
+  var a=document.createElement('a');
+  a.href=U(c[0]); a.target="_blank"; a.rel="noopener";
+  a.setAttribute('download','EP18_'+n+'.png');
+  a.innerHTML='<span class="i">'+n+'</span><img src="'+U(c[0])+'" alt="'+c[1]+'" onerror="this.style.display=\'none\';this.parentNode.classList.add(\'fallback\');this.parentNode.insertAdjacentHTML(\'beforeend\',\'<span class=&quot;fb&quot;>'+c[1]+'<br>열기 →</span>\')">';
+  g.appendChild(a);
+});
+
+var CAP="임신 30주, 비행기 타기 전에 챙긴 것들 ✈️\n\n✔️ 의사 소견서\n규정상 32주 전에는 필요 없다고 했는데\n카운터에서 서류를 요구하더라고요.\n미리 받아두길 정말 잘했어요.\n(항공사마다 규정이 달라서 꼭 확인하세요)\n\n✔️ 임산부 체크인은 카운터에서 따로\n\n✔️ 복대 · 압박 스타킹\n산부인과에서 처방받으니\n보험 없이 200~300유로 하는 걸 30~50유로에 샀어요.\n\n그렇게 걱정 한가득 안고 탔는데…\n와이프는 먹고, 자고, 먹고, 자고 😴\n아무 문제 없이 한국 도착! 감사감사 🙏\n\n이제 한국 생활 시작입니다 🇰🇷\n\n#임신툰 #부부툰 #임산부비행기 #독일부부 #예비아빠";
+var TAG="#임신30주 #임신일기 #출산준비 #독일살이 #곰과물개 #donyfilm #손그림웹툰 #그림일기 #인천공항";
+document.getElementById('cap').textContent=CAP;
+document.getElementById('tag').textContent=TAG;
+
+var EP='EP18', FILES=null;
+async function saveAll(b){
+  if(!FILES){ // 1단계: 다 받아두기 (아이폰은 공유창을 바로 띄워야 해서 미리 받는다)
+    b.disabled=true; var done=0;
+    FILES=await Promise.all(CUTS.map(function(c,i){
+      return fetch(U(c[0])).then(function(r){return r.blob();}).then(function(bl){
+        b.textContent='받는 중 '+(++done)+'/'+CUTS.length;
+        return new File([bl],EP+'_'+String(i+1).padStart(2,'0')+'.png',{type:'image/png'});});
+    }));
+    b.disabled=false;
+  }
+  if(navigator.canShare&&navigator.canShare({files:FILES})){
+    b.textContent='눌러서 사진에 저장';
+    if(b.dataset.ready){ try{await navigator.share({files:FILES});}catch(e){} }
+    b.dataset.ready=1; return;
+  }
+  // 컴퓨터: 한 장씩 연속 다운로드
+  for(var f of FILES){var a=document.createElement('a');a.href=URL.createObjectURL(f);a.download=f.name;a.click();await new Promise(function(r){setTimeout(r,300);});}
+  b.textContent='저장 완료 ✓';
+}
+function cp(t,b){navigator.clipboard.writeText(t).then(function(){
+  var o=b.textContent;b.textContent='복사됨 ✓';setTimeout(function(){b.textContent=o},1500);});}
+</script></body></html>
