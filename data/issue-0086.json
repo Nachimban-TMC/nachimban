@@ -1,0 +1,571 @@
+{
+  "number": 86,
+  "date": "2026-10-31",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "오늘 청년 시위, 전국 20곳 넘는 도시서",
+      "desc": "징병제·생활비에 항의하는 'Gen Z regelt' 시위가 오늘 베를린·뮌헨 등 20곳 넘는 도시에서 열립니다. 주최 측은 비폭력을 내세웠고, 경찰은 과격 세력 개입에 대비합니다.",
+      "interp": "도심 집회는 대부분 <b>오후 2시</b>쯤 시작합니다. 시내 볼일은 오전에 마치고, 대중교통 우회 공지를 확인하세요.",
+      "source": "The Local · Stuttgarter Zeitung",
+      "read": 3,
+      "url": "https://www.thelocal.de/20261030/today-in-germany-a-roundup-of-the-latest-news-on-friday-146",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "징병제",
+          "explain": "일정 나이의 국민을 의무적으로 군에 복무시키는 제도"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "tax",
+      "head": "내년 세금 공제 신청, 내일부터 가능",
+      "desc": "2027년분 근로소득세 공제(Freibetrag) 신청이 11월 1일 시작되고, 올해분은 11월 30일 마감입니다. 통근비가 많은 직장인은 월급 원천세를 미리 줄일 수 있습니다.",
+      "interp": "세무 포털 <b>ELSTER</b>에서 온라인으로 신청할 수 있습니다. 1월 31일까지 내면 1월 월급부터 거슬러 반영됩니다.",
+      "source": "Finanztip · Steuertipps",
+      "read": 3,
+      "url": "https://www.finanztip.de/lohnsteuerermaessigung/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "Freibetrag",
+          "explain": "월급에서 세금을 떼기 전에 미리 빼 주는 공제 금액"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "travel",
+      "head": "뉘른베르크~잉골슈타트 철도 6주 중단",
+      "desc": "뉘른베르크~잉골슈타트 고속철도가 30일 밤부터 12월 12일까지 막힙니다. 뮌헨~베를린 고속열차는 약 45분 더 걸립니다. 뮌헨~프랑크푸르트는 슈투트가르트 경유를 권합니다.",
+      "interp": "기차표가 있다면 <b>DB 내비게이터</b> 앱에서 바뀐 경로를 확인하세요. 대체버스는 기차보다 두 배쯤 오래 걸립니다.",
+      "source": "독일철도(DB) · The Local",
+      "read": 3,
+      "url": "https://www.deutschebahn.com/de/presse/presse-regional/pr-muenchen-de/aktuell/presseinformationen/DB-InfraGO-modernisiert-Schnellfahrstrecke-zwischen-Nuernberg-und-Ingolstadt-14064532",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "health",
+      "head": "코로나 추가접종, 75세 이상만 권고",
+      "desc": "예방접종위원회(STIKO)가 코로나 정기 추가접종 권고 나이를 75세 이상으로 올렸습니다. 독감은 60세 이상·만성질환자·임신부에게 계속 권고합니다. 노인 접종률은 34%입니다.",
+      "interp": "권고 대상이 아닌데 코로나 접종을 원하면 <b>보험사에 비용</b>을 먼저 물어보세요. 독감은 12월 중순 전에 맞으세요.",
+      "source": "Euronews · ms-aktuell",
+      "read": 3,
+      "url": "https://www.euronews.com/2026/10/30/which-vaccinations-should-you-have-this-autumn-and-which-are-recommended-in-germany",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "STIKO",
+          "explain": "독일 로베르트코흐연구소 산하 상설 예방접종위원회"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "할로윈 나치 복장·모형총은 처벌 대상",
+      "desc": "할로윈 복장에 나치 상징을 넣으면 형사처벌을 받을 수 있습니다. 진짜처럼 보이는 모형총을 들고 다니면 무기법 위반입니다. 경찰 제복·휘장을 함부로 입는 것도 금지됩니다.",
+      "interp": "아이 소품 총은 <b>밝은 색 장난감</b>으로 고르세요. 운전할 때는 얼굴을 가리는 가면을 벗어야 합니다.",
+      "source": "The Local",
+      "read": 2,
+      "url": "https://www.thelocal.de/20261030/no-nazis-no-fake-guns-the-halloween-costumes-that-are-illegal-in-germany",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "무기법",
+          "explain": "총기·흉기 소지와 휴대를 규제하는 독일 법률"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "바이낸스 해킹 8조 원대, 북한 소행 추정",
+      "desc": "세계 최대 가상자산 거래소 바이낸스에서 30일 새벽 약 63억 달러가 빠져나갔습니다. 분석업체는 북한 해커를 지목했습니다. 바이낸스는 전액 보상과 단계적 출금 재개를 약속했습니다.",
+      "interp": "바이낸스를 쓴다면 <b>보상·출금 공지</b>를 공식 채널에서만 확인하세요. 보상을 미끼로 한 피싱 문자·메일을 조심하세요.",
+      "source": "경향신문 · 뉴스1",
+      "read": 3,
+      "url": "https://www.khan.co.kr/article/202610301535011",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [
+        {
+          "term": "가상자산 거래소",
+          "explain": "비트코인 같은 암호화폐를 사고파는 중개 플랫폼"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "health",
+      "head": "국산 비만약 '에페' 처방 시작",
+      "desc": "한미약품의 국산 첫 GLP-1 비만치료제 '에페'가 29일 처방을 시작했습니다. 첫 달 공급가는 12만 9800원으로 위고비·마운자로보다 쌉니다. 건강보험은 적용되지 않습니다.",
+      "interp": "한국 방문 때 처방받으려면 <b>약값 전액 부담</b>을 감안하세요. 공급가 기준이라 병원마다 실제 가격은 다를 수 있습니다.",
+      "source": "뉴시스 · 비즈워치",
+      "read": 3,
+      "url": "https://www.newsis.com/view/NISX20261029_0003846391",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "GLP-1",
+          "explain": "식욕을 줄이고 혈당을 낮추는 장 호르몬, 또는 이를 흉내 낸 약"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "policy",
+      "head": "영사서비스 만족도 조사, 12월 7일까지",
+      "desc": "재외동포청이 공관 영사서비스를 이용한 재외국민 대상 만족도 조사를 12월 7일까지 합니다. 참여자 중 추첨으로 아이패드·에어팟, 10달러 상당 상품권 600명분을 줍니다.",
+      "interp": "최근 공관에서 여권·증명서를 받았다면 <b>불편했던 점</b>을 적어 보세요. 당첨자는 12월 17일에 발표됩니다.",
+      "source": "재외동포신문",
+      "read": 2,
+      "url": "https://www.dongponews.net/news/articleView.html?idxno=61386",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "citizenship",
+      "head": "파독 60년, '국적회복 간소화' 요청",
+      "desc": "재외동포청이 29일 파독 광부·간호사 초청 간담회를 열었습니다. 참석자들은 국적회복 절차 간소화와 재외선거 개선을 요청했습니다. 동포청은 관계 부처와 검토하겠다고 밝혔습니다.",
+      "interp": "아직 정해진 것은 없습니다. 독일 국적을 딴 뒤 <b>국적회복</b>을 생각한다면 공관에 현재 요건을 먼저 물어보세요.",
+      "source": "재외동포신문",
+      "read": 2,
+      "url": "https://www.dongponews.net/news/articleView.html?idxno=61368",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "국적회복",
+          "explain": "외국 국적을 얻으며 잃은 한국 국적을 다시 찾는 절차"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "나폴리 공항, 11월 한 달 전면 폐쇄",
+      "desc": "이탈리아 나폴리 공항이 활주로 공사로 11월 1일부터 30일까지 닫힙니다. 루프트한자는 나폴리 노선을 모두 취소했습니다. 유로윙스·이지젯 일부 항공편은 살레르노 공항으로 옮깁니다.",
+      "interp": "예약 확인서의 <b>공항 코드(NAP·QSR)</b>를 확인하세요. 루프트한자 승객은 로마행 자동 변경 여부를 앱에서 보세요.",
+      "source": "ADAC · Travel Extra",
+      "read": 3,
+      "url": "https://www.adac.de/news/reise-flughafen-neapel-geschlossen/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "travel",
+      "head": "브뤼셀·리에주 오늘 학생 시위, 도심 주의",
+      "desc": "주벨기에대사관이 31일 브뤼셀·리에주에서 교육 개혁 반대 학생 시위가 예정돼 있다고 알렸습니다. 도심 방문을 자제하고 군중·경찰과 거리를 두라고 당부했습니다.",
+      "interp": "벨기에에 있다면 <b>도심 일정</b>을 미루세요. 긴급 시 112, 대사관 근무시간 외 +32 476 45 75 06으로 연락하세요.",
+      "source": "외교부 해외안전여행",
+      "read": 2,
+      "url": "https://www.0404.go.kr/bbs/safetyNtc/518/detail2?ntnCd=87",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "stocks",
+      "head": "아스트라제네카 3분기 주당순이익 23%↑",
+      "desc": "아스트라제네카의 3분기 주당순이익이 1년 전보다 23% 늘었습니다. 매출은 7% 증가한 162억 달러로 항암제가 성장을 이끌었습니다. 대규모 비용 절감 계획도 함께 내놨습니다.",
+      "interp": "제약주는 경기 영향을 덜 받는 <b>방어주</b>로 꼽힙니다. 기술주 급락기에 업종을 나눠 담았는지 점검해 보세요.",
+      "source": "Euronews · 미국 증권거래위원회 공시",
+      "read": 3,
+      "url": "https://www.euronews.com/2026/10/30/astrazeneca-profit-jumps-23-on-cancer-drugs-as-it-unveils-major-savings-plan",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "주당순이익",
+          "explain": "회사 순이익을 발행 주식 수로 나눈 값"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "AI 기술주 폭락, 인텔 하루 29%↓",
+      "desc": "30일 나스닥지수가 2.86% 내렸고, 인텔은 실적 전망 실망에 29% 폭락해 사상 최악의 하루를 보냈습니다. 반도체지수도 7.2% 빠졌고 코스피는 3.48% 급락했습니다.",
+      "interp": "해외주식 계좌의 <b>반도체 비중</b>을 점검하세요. 변동성이 큰 시기라 원화 환산 손익도 함께 보세요.",
+      "source": "NBC News · 뉴시스",
+      "read": 3,
+      "url": "https://www.nbcnews.com/business/markets/tech-stocks-nasdaq-ai-boom-fears-deepen-rcna606512",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "반도체지수",
+          "explain": "미국 필라델피아 증시의 반도체 기업 30곳 주가 지수"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "고유가에 엑손·셰브런 이익 급증",
+      "desc": "브렌트유가 118달러에 육박하며 셰브런 3분기 순이익이 99억 달러로 180% 넘게 늘었습니다. 엑손모빌 이익도 두 배가 됐습니다. 두 회사 주가는 올해 50% 넘게 올랐습니다.",
+      "interp": "에너지주는 <b>유가에 따라</b> 크게 흔들립니다. 휘발유값도 전쟁 전보다 40% 올라 차 유지비를 점검하세요.",
+      "source": "NBC News · 셰브런 공시",
+      "read": 3,
+      "url": "https://www.nbcnews.com/business/energy/exxonmobil-chevron-profits-trump-high-oil-prices-rcna606524",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "브렌트유",
+          "explain": "북해에서 나는 원유로, 국제 유가의 기준"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "ICE 구금시설 두 배, 위치 비공개 소송",
+      "desc": "트럼프 정부 복귀 뒤 ICE 구금시설이 두 배 넘게 늘었습니다. GEO그룹은 타코마 구금소를 10년 더 맡는 15억 달러 계약을 맺었습니다. 인권단체는 위치 비공개에 소송했습니다.",
+      "interp": "체류 신분이 불안정한 가족이 있다면 <b>변호사·공관 연락처</b>를 미리 공유하세요. 비상시 관할 총영사관에 도움을 청할 수 있습니다.",
+      "source": "Democracy Now · NBC News",
+      "read": 3,
+      "url": "https://www.democracynow.org/2026/10/30/headlines/geo_group_signs_10_year_contract_to_continue_operating_notorious_tacoma_ice_jail",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "ICE",
+          "explain": "미국 국토안보부 산하 이민 단속·추방 담당 기관"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "일본 면세, 내일부터 출국 때 환급",
+      "desc": "일본이 11월 1일 구매분부터 면세를 출국 때 환급하는 방식으로 바꿉니다. 매장에선 소비세를 포함해 내고, 공항 세관 확인 뒤 돌려받습니다. 5000엔 이상 기준은 그대로입니다.",
+      "interp": "출국일엔 <b>체크인 전에</b> 세관 단말기에서 확인을 받으세요. 한 영수증 물건 중 하나라도 빠지면 전부 환급되지 않습니다.",
+      "source": "Japan Guide · 일본정부관광국",
+      "read": 3,
+      "url": "https://www.japan-guide.com/news/tax-free-shopping.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "소비세",
+          "explain": "일본에서 물건값에 붙는 부가가치세에 해당하는 세금"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "외교부, 중동 12개국 여행 취소 권고",
+      "desc": "외교부가 30일 아랍에미리트·카타르·사우디 등 중동 12개국 출국과 여행 취소·연기를 권고했습니다. 이 나라를 거치는 환승 관광도 삼가라고 했습니다. 사우디 공항 피격 탓입니다.",
+      "interp": "두바이·도하를 <b>경유하는 항공권</b>이 있다면 항공사와 경로 변경을 상의하세요. 대부분 지역이 3단계 이상입니다.",
+      "source": "외교부 해외안전여행",
+      "read": 3,
+      "url": "https://www.0404.go.kr/bbs/safetyNtc/ATC0000000048676/detail",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "health",
+      "head": "남수단 에볼라 유입 우려, 입국 검역",
+      "desc": "주우간다대사관이 남수단 에볼라 유입 위험을 알렸습니다. 남수단 확진자는 없지만 콩고민주공화국 전파가 이어지고 케냐·나이지리아에서도 확진됐습니다. 주바공항 등에서 검역합니다.",
+      "interp": "동아프리카 방문 뒤 <b>21일 안에</b> 열·구토가 나면 병원에 가기 전 보건당국에 먼저 전화하세요.",
+      "source": "외교부 해외안전여행",
+      "read": 2,
+      "url": "https://www.0404.go.kr/bbs/safetyNtc/81/detail2?ntnCd=373",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
