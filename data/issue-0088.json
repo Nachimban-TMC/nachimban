@@ -1,0 +1,508 @@
+{
+  "number": 88,
+  "date": "2026-11-02",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "가스 저장률 61%, 겨울 앞 법정 목표 미달",
+      "desc": "1일 기준 독일 가스 저장률이 약 61%로 법정 목표(평균 약 70%)에 못 미쳤습니다. 정부는 공급에 문제가 없다는 입장이지만, 추운 겨울이면 가격 부담이 커질 수 있습니다.",
+      "interp": "당장 가스가 끊기는 것은 아니지만 <b>난방비</b> 부담은 커질 수 있습니다. 요금 인상 통지를 받으면 특별해지가 가능한지 확인하세요.",
+      "source": "dpa·바이에른방송",
+      "read": 3,
+      "url": "https://www.ariva.de/news/roundup-vorgaben-bei-gasspeichern-verfehlt-was-bedeutet-12189888",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "저장률",
+          "explain": "가스 저장시설이 채워진 비율"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "전기회사 그뤼운 공급 중단, 20만 명 영향",
+      "desc": "전기회사 그뤼운이 10월 31일로 가정용 공급을 끊어 약 20만 명이 지역 기본공급으로 넘어갔습니다. 기본공급은 대개 더 비쌉니다. 소비자연맹은 집단소송을 검토하고 있습니다.",
+      "interp": "전기는 끊기지 않지만 <b>기본공급</b> 요금은 비싼 편입니다. 10월 31일 계량기 수치를 사진으로 남기고 더 싼 요금제로 옮기세요.",
+      "source": "독일 소비자센터·preisvergleich.de",
+      "read": 3,
+      "url": "https://www.verbraucherzentrale.de/node/126671",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "기본공급",
+          "explain": "계약이 없을 때 지역 전력회사가 자동으로 공급하는 기본 요금제"
+        },
+        {
+          "term": "집단소송",
+          "explain": "여러 피해자를 대신해 단체가 함께 내는 소송"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "블랙프라이데이 앞두고 가짜 쇼핑몰 주의",
+      "desc": "올해 블랙프라이데이는 11월 27일입니다. 소비자센터는 지나치게 싼 가격을 내건 가짜 쇼핑몰이 늘고 있다며, 결제 전에 가격 비교 사이트 두 곳 이상에서 확인하라고 권했습니다.",
+      "interp": "선불 송금만 받는 곳은 피하고 <b>환불이 쉬운 결제수단</b>을 쓰세요. 처음 보는 쇼핑몰은 소비자센터의 가짜 쇼핑몰 판별기로 먼저 확인하세요.",
+      "source": "독일 소비자센터·MS Aktuell",
+      "read": 3,
+      "url": "https://ms-aktuell.de/welt/black-friday-rabatte-01-11-2026",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "health",
+      "head": "SKD BKK 추가보험료 3.65%로 인상",
+      "desc": "보험조합 SKD BKK가 1일부터 추가보험료를 2.98%에서 3.65%로 올렸습니다. 전체 요율은 18.25%입니다. 가입자는 가입 기간과 상관없이 특별해지할 수 있습니다.",
+      "interp": "가입자라면 다른 조합 요율과 비교해 보세요. 옮길 때는 <b>새 조합에 가입 신청</b>만 하면 해지는 새 조합이 대신 처리합니다.",
+      "source": "krankenkasseninfo.de·biallo",
+      "read": 3,
+      "url": "https://www.krankenkasseninfo.de/ratgeber/nachrichten/skd-bkk-erhoeht-zusatzbeitrag-ab-november-62788.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "추가보험료",
+          "explain": "공보험 기본 보험료에 조합마다 따로 더 붙이는 보험료(Zusatzbeitrag)"
+        },
+        {
+          "term": "특별해지",
+          "explain": "요금이 오를 때 계약 기간과 상관없이 해지할 수 있는 권리"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "내년 예산 820.9조 원, 대통령 시정연설",
+      "desc": "이재명 대통령이 2일 국회 시정연설에서 2027년 예산안 820.9조 원 처리를 요청했습니다. 올해보다 12.8% 늘어난 역대 최대이며, 법정 처리 시한은 12월 2일입니다.",
+      "interp": "예산안은 국회 심사에서 금액이 바뀔 수 있습니다. 재외동포·영사 관련 예산이 어떻게 정해지는지 <b>12월 확정안</b>을 확인하세요.",
+      "source": "뉴스핌·파이낸셜뉴스",
+      "read": 3,
+      "url": "https://www.newspim.com/news/view/20261102000529",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "시정연설",
+          "explain": "대통령이 국회에서 예산안과 국정 방향을 설명하는 연설"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "policy",
+      "head": "해외 공관서 1종 면허 갱신, 오늘부터",
+      "desc": "2일부터 전 세계 188개 재외공관에서 1종 보통 운전면허 갱신과 국제운전면허증 신청을 받습니다. 그동안은 2종만 가능했습니다. 면허증은 국내에서 만들어 공관으로 보냅니다.",
+      "interp": "1종 갱신은 신청일 기준 <b>2년 이내 국내 건강검진</b> 기록이 있어야 합니다. 필요 서류는 재외동포365민원포털에서 먼저 확인하세요.",
+      "source": "파이낸셜뉴스·서울경제",
+      "read": 3,
+      "url": "https://www.fnnews.com/news/202611010231505909",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [
+        {
+          "term": "재외공관",
+          "explain": "해외에 있는 대한민국 대사관과 총영사관"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "travel",
+      "head": "미신고 숙소 중개 금지, 12일부터 과태료",
+      "desc": "12일부터 숙박 예약 플랫폼은 숙소의 영업신고증을 확인해야 중개할 수 있습니다. 확인 없이 중개하면 과태료 500만 원을 냅니다. 이미 올라온 숙소도 다시 확인해야 합니다.",
+      "interp": "한국 방문 때 공유숙소를 예약했다면 <b>영업신고</b> 여부를 확인하세요. 미신고 숙소는 예약이 취소될 가능성이 있습니다.",
+      "source": "헤럴드경제·SBS Biz",
+      "read": 3,
+      "url": "https://www.heraldk.com/article/2026070519344460186",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "영업신고증",
+          "explain": "숙박업을 하겠다고 지자체에 신고해 받는 증명서"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "housing",
+      "head": "전세사기 피해, 보증금 3분의 1 보장",
+      "desc": "13일부터 전세사기 피해자가 경매 등으로 돌려받은 돈이 보증금의 3분의 1에 못 미치면 정부가 부족분을 채웁니다. 시행 전 피해자로 결정된 사람도 대상이며 지급은 LH가 맡습니다.",
+      "interp": "한국에서 전세를 살다 피해를 본 분은 <b>피해자 결정</b>을 받았는지부터 확인하세요. 신청 기간은 13일부터 계산됩니다.",
+      "source": "SBS Biz·데일리안",
+      "read": 3,
+      "url": "https://biz.sbs.co.kr/amp/article/20000338417",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "LH",
+          "explain": "공공주택을 짓고 관리하는 한국토지주택공사"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "유럽 11월 파업, 프랑스 5일·스페인 11일",
+      "desc": "스페인 양대 노총이 11일 24시간 총파업을 열어 항공·철도 차질이 예상됩니다. 프랑스는 5일, 이탈리아는 20~21일 철도 파업이 예고됐습니다. 최소 운행 계획은 아직 없습니다.",
+      "interp": "이 날짜에 유럽 이동이 있다면 <b>항공사·철도 공지</b>를 전날 다시 확인하세요. 결항 통보 시점에 따라 보상 여부가 달라집니다.",
+      "source": "Madrid Authority·Deep Arrival",
+      "read": 3,
+      "url": "https://madridauthority.com/es/articles/spain-general-strike-11-november-2026",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "최소 운행",
+          "explain": "파업 중에도 법으로 유지해야 하는 최소한의 교통 운행"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "stocks",
+      "head": "노보 4일·머스크 5일 실적 발표",
+      "desc": "위고비 제조사 노보노디스크가 4일 1~9월 실적을, 해운사 머스크가 5일 실적을 발표합니다. 비만약 경쟁과 해상 운임 흐름이 관심사입니다. 지멘스·알리안츠는 12일 발표합니다.",
+      "interp": "노보 실적은 장 시작 전에 나와 <b>개장 직후</b> 주가가 크게 움직일 수 있습니다. 급한 매매보다 실적 내용부터 확인하세요.",
+      "source": "노보노디스크·Finimize",
+      "read": 3,
+      "url": "https://www.novonordisk.com/investors/financial-results.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "위고비",
+          "explain": "노보노디스크가 만든 주사형 비만 치료제"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "내일 미국 중간선거, 한국계 5명 주목",
+      "desc": "3일 미국 중간선거에서 연방하원 435석 전체와 상원 35석, 주지사 36곳을 뽑습니다. 한국계 연방의원이 사상 처음 5명이 될지 주목됩니다. 투표 방식은 주마다 다릅니다.",
+      "interp": "시민권자는 <b>내 투표소</b>를 주 선거관리 누리집에서 확인하세요. 결과 발표 전후로 증시와 환율 변동이 클 수 있습니다.",
+      "source": "뉴스1·브리태니커",
+      "read": 3,
+      "url": "https://www.news1.kr/world/usa-canada/6338613",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "중간선거",
+          "explain": "대통령 임기 중간에 치르는 미국 연방의회·주지사 선거"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "11월 영주권 문호, 가족이민 약 1년 진전",
+      "desc": "미국 국무부 11월 영주권 문호에서 가족이민 1·2B·3·4순위가 대부분 약 1년씩 앞당겨졌습니다. 취업이민은 일부만 움직였습니다. 이민국은 접수 가능일 표를 적용합니다.",
+      "interp": "한국 출생자는 '그 밖의 모든 국가' 칸을 봅니다. 내 <b>우선일자</b>가 접수 가능일보다 빠르면 서류 준비를 시작하세요.",
+      "source": "미국 국무부·Immiva",
+      "read": 3,
+      "url": "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin/2027/visa-bulletin-for-november-2026.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "영주권 문호",
+          "explain": "영주권 신청·승인이 가능한 기준 날짜를 매달 알리는 국무부 공지"
+        },
+        {
+          "term": "접수 가능일",
+          "explain": "영주권 서류를 미리 낼 수 있는 기준 날짜"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "나스닥 10월 5%↓, 오늘 팔란티어 실적",
+      "desc": "나스닥지수가 10월 한 달 5% 넘게 떨어졌습니다. 2일 장 마감 뒤 팔란티어, 3일 AMD가 실적을 냅니다. 옵션 시장은 팔란티어 주가가 13% 안팎 움직일 것으로 봅니다.",
+      "interp": "인공지능 종목 비중이 크다면 <b>실적 다음 날</b> 급등락에 대비하세요. 선거와 고용지표까지 겹쳐 변동성이 큰 한 주입니다.",
+      "source": "야후파이낸스·스톡타이탄",
+      "read": 3,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-edge-high-010138847.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "옵션 시장",
+          "explain": "주식을 미리 정한 값에 사고팔 권리를 거래하는 시장"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "이란·카타르 협상, 유가 1% 넘게 하락",
+      "desc": "이란과 카타르가 사흘째 협상하며, 미국이 조건을 받으면 이틀 안에 호르무즈 해협을 열겠다는 안을 냈습니다. 2일 브렌트유는 배럴당 111달러대로 1% 넘게 내렸습니다.",
+      "interp": "합의되면 <b>유류할증료</b>와 기름값 부담이 줄 수 있지만 아직 불확실합니다. 중동을 지나는 항공편은 출발 전 운항 여부를 확인하세요.",
+      "source": "로이터·Business Recorder",
+      "read": 3,
+      "url": "https://finance.yahoo.com/energy/articles/oil-slips-more-1-talks-231257365.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "호르무즈 해협",
+          "explain": "페르시아만 입구의 좁은 바닷길, 세계 원유 수송 요충지"
+        },
+        {
+          "term": "브렌트유",
+          "explain": "국제 유가의 기준이 되는 북해산 원유"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "두바이 노선, 영국항공 재개·KLM 중단 연장",
+      "desc": "영국항공이 3일 두바이 운항을 재개합니다. KLM은 두바이 운항 중단을 내년 3월까지, 싱가포르항공은 2월 28일까지 늘렸습니다. 대한항공 인천~두바이는 재개일이 미정입니다.",
+      "interp": "중동 경유 일정이 있다면 <b>항공사별 공지</b>를 따로 확인하세요. 같은 공항이라도 항공사마다 재개 시점이 다릅니다.",
+      "source": "더 내셔널·걸프뉴스",
+      "read": 3,
+      "url": "https://www.thenationalnews.com/travel/2026/10/30/uae-dubai-abu-dhabi-flights-status/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
