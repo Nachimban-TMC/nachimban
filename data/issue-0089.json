@@ -1,0 +1,622 @@
+{
+  "number": 89,
+  "date": "2026-11-03",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "기름값 상한제 초안, 발동 조건 까다로워",
+      "desc": "경제부가 기름값 상한제 법안 초안을 내놨습니다. 독일 기름값이 3주 연속 EU 평균보다 5%포인트 넘게 더 오를 때만 석 달간 상한을 둡니다. 목표 시행은 내년 1월입니다.",
+      "interp": "초안대로면 <b>상한제가 곧바로 발동되지는 않습니다</b>. 당분간은 앱으로 주유소 가격을 비교하고 싼 시간대에 넣는 편이 낫습니다.",
+      "source": "WirtschaftsWoche·taz",
+      "read": 3,
+      "url": "https://www.wiwo.de/politik/deutschland/spritpreise-erster-entwurf-fuer-spritpreisdeckel-sieht-einschraenkungen-vor/100266564.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "상한제",
+          "explain": "정부가 정한 값보다 비싸게 팔지 못하게 하는 제도"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "가족 기차표 99.99유로, 상시 판매",
+      "desc": "도이체반이 ICE·IC 2등석 가족 왕복권을 99.99유로에 상시 판매합니다. 어른 1명과 아이 4명, 또는 어른 2명과 아이 3명까지 탑니다. 11월 1일 출발분부터입니다.",
+      "interp": "친척 관계가 아니어도 함께 쓸 수 있습니다. 인기 노선은 <b>매진될 수 있으니</b> 연말 여행이라면 일찍 예약하세요.",
+      "source": "ZDFheute",
+      "read": 2,
+      "url": "https://www.zdfheute.de/panorama/familienticket-start-deutsche-bahn-100.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "ICE",
+          "explain": "독일철도가 운행하는 고속열차"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "편지 요금 내년 1.15유로로 인상",
+      "desc": "도이체포스트가 내년 1월부터 일반 편지와 엽서 요금을 0.95유로에서 1.15유로로 올립니다. 해외 일반 편지는 1.45유로가 됩니다. 연방망청 최종 승인은 이달 나옵니다.",
+      "interp": "한국으로 보내는 편지도 <b>1.45유로</b>로 오릅니다. 연말 카드는 올해 안에 부치면 지금 요금으로 보낼 수 있습니다.",
+      "source": "PC-Welt·ZDFheute",
+      "read": 2,
+      "url": "https://www.pcwelt.de/article/3258319/deutsche-post-erhoeht-porto-fuer-briefe-postkarten-januar-2027.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "연방망청",
+          "explain": "전기·통신·우편 요금을 감독하는 독일 정부 기관"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "전기차 보상금, 15일 신청 마감",
+      "desc": "순수 전기차 소유자의 올해분 온실가스 감축 보상금은 11월 15일이 환경청 제출 기한입니다. 대행업체 마감은 이보다 이른 곳이 많습니다. 플러그인 하이브리드는 대상이 아닙니다.",
+      "interp": "차량 등록증에 적힌 명의자만 받을 수 있습니다. 아직 신청하지 않았다면 <b>대행업체 자체 마감일</b>부터 확인하세요.",
+      "source": "GIGA·techzeitgeist",
+      "read": 2,
+      "url": "https://www.giga.de/tech/thg-praemie-2026-einfach-400-euro-fuers-e-auto-einsacken-aber-die-zeit-wird-knapp--01M63GX8SF7Z0N299E9D43Q7NY",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "플러그인 하이브리드",
+          "explain": "충전식 배터리와 엔진을 함께 쓰는 자동차"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "policy",
+      "head": "독일 AI 계산능력, 2030년까지 4배로",
+      "desc": "메르츠 총리가 베를린 디지털 정상회의에서 AI 기반시설 확대를 약속했습니다. 2030년까지 AI 계산능력을 4배로 늘리고 캐나다와 AI 안전연구소를 독일에 세우기로 했습니다.",
+      "interp": "기업 지원과 규제 방향이 함께 논의됩니다. 독일 IT·연구 분야에서 일한다면 <b>AI 채용·지원 사업</b> 소식을 지켜보세요.",
+      "source": "Handelsblatt·IT-Journal",
+      "read": 2,
+      "url": "https://www.handelsblatt.com/politik/deutschland/digitalgipfel-deutschland-wird-teil-einer-internationalen-kiallianz/100265528.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "전용기 탑승자 여권정보 유출",
+      "desc": "대통령 부부 등 전용기 탑승자 168명의 생년월일과 여권번호가 6월부터 한 유료 보안 사이트에 올라 있었습니다. 외교부는 유출로 보고 168명 전원의 여권을 재발급합니다.",
+      "interp": "여권번호는 사칭 예약·사기에 쓰일 수 있습니다. 여권 사본을 <b>보낸 곳을 점검</b>하고 도용이 의심되면 재외공관에 알리세요.",
+      "source": "파이낸셜뉴스·강원일보",
+      "read": 2,
+      "url": "https://www.fnnews.com/news/202611031132270190",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "policy",
+      "head": "국정원, 공공기관 2100곳 보안 점검",
+      "desc": "금융권 해킹이 이어지자 국정원이 3일 중앙부처와 지자체 등 2100여 곳에 긴급 보안 점검을 요청했습니다. 외부 연결 시스템과 보안 패치를 보고 11월 중순까지 마칩니다.",
+      "interp": "해외에서 한국 정부·금융 사이트를 쓸 때 <b>공식 주소인지</b> 확인하세요. 점검을 핑계로 한 사칭 문자도 조심해야 합니다.",
+      "source": "아시아투데이·강원도민일보",
+      "read": 2,
+      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261103010001031",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "보안 패치",
+          "explain": "프로그램의 보안 허점을 고치는 수정 파일"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "한국 10월 물가 2.8%, 기름값 급등",
+      "desc": "국가데이터처가 3일 10월 소비자물가가 1년 전보다 2.8% 올랐다고 밝혔습니다. 석유류가 14.9% 뛰었고 가공식품과 외식도 2.9%씩 올랐습니다. 농산물은 7.5% 내렸습니다.",
+      "interp": "한국 가족에게 생활비를 보내고 있다면 <b>체감 물가</b>는 더 높을 수 있습니다. 송금액을 정할 때 기름값·외식비 상승을 감안하세요.",
+      "source": "뉴스1·뉴스핌",
+      "read": 2,
+      "url": "https://www.news1.kr/economy/trend/6340644",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "stocks",
+      "head": "코스피 3%대 급락 출발",
+      "desc": "3일 코스피가 미국 반도체주 약세로 2.46% 내린 5715에 개장한 뒤 장 초반 3%대까지 밀렸습니다. 전날 2.24% 오른 지수가 되돌아갔고 환율은 1346원대였습니다.",
+      "interp": "하루 2~3%씩 오르내리는 장이 이어지고 있습니다. 한국 주식을 가진 재외국민은 <b>환율 변동</b>까지 함께 따져 보세요.",
+      "source": "뉴시스·뉴스핌",
+      "read": 2,
+      "url": "https://www.newsis.com/view/NISI20261103_0021516121",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "해외직구 악용 특별단속, 12월 27일까지",
+      "desc": "관세청이 2일부터 8주간 해외직구 악용 특별단속에 들어갔습니다. 자가사용으로 꾸민 밀수와 개인통관고유부호 도용이 대상입니다. 면세는 150달러(미국발 200달러) 이하입니다.",
+      "interp": "한국 가족에게 물건을 보낼 때 <b>남의 통관부호</b>를 빌려 쓰면 안 됩니다. 받는 사람 본인의 부호로 보내세요.",
+      "source": "머니투데이·뉴스1",
+      "read": 2,
+      "url": "https://www.mt.co.kr/policy/2026/11/02/2026110213365951937",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "개인통관고유부호",
+          "explain": "해외 물품을 들여올 때 주민번호 대신 쓰는 개인 식별번호"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "벨기에 총리 사의, 국왕은 결정 보류",
+      "desc": "벨기에 드 베버 총리가 내년 예산 협상이 결렬되자 2일 국왕에게 사의를 밝혔습니다. 국왕은 결정을 미루고 타협을 주문했습니다. 정부는 약 100억 유로 절감안을 두고 갈라졌습니다.",
+      "interp": "사의가 수리되면 조기 총선 가능성이 커집니다. 벨기에에 산다면 <b>파업·시위 일정</b>을 확인하고 이동 계획을 세우세요.",
+      "source": "SRF·taz",
+      "read": 2,
+      "url": "https://www.srf.ch/news/international/belgien-premierminister-de-wever-bietet-koenig-philippe-ruecktritt-an",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "life",
+      "head": "마트 냉장고 해킹, 벨기에서 또 피해",
+      "desc": "2일 벨기에 델레즈 수십 개 매장과 까르푸 약 15곳에서 해커가 냉장 설비를 해동 모드로 바꿔 냉장·냉동 칸이 비었습니다. 아일랜드 등에서도 피해가 났고 한 달 새 두 번째입니다.",
+      "interp": "냉장 상품이 높은 온도에 노출됐을 수 있습니다. 유제품·육류는 <b>상태를 확인</b>하고 이상하면 영수증과 함께 교환을 요청하세요.",
+      "source": "CNBC·TechCrunch",
+      "read": 2,
+      "url": "https://www.cnbc.com/2026/11/02/cyberattack-on-fridges-hits-supermarkets-across-europe.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "stocks",
+      "head": "유가 급락에 유럽증시 두 달 최고",
+      "desc": "미국·이란 협상 기대로 2일 유가가 7% 넘게 떨어져 석 달 새 최대 낙폭이었습니다. 스톡스600 지수는 0.42% 오른 649.44로 두 달 새 최고였고 에너지주는 약세였습니다.",
+      "interp": "유가 하락은 <b>항공·화학주</b>에는 유리하고 정유주에는 불리합니다. 유럽 ETF를 가졌다면 업종 비중을 점검해 보세요.",
+      "source": "France24·Investing.com",
+      "read": 2,
+      "url": "https://www.investing.com/indices/stoxx-600-historical-data",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "스톡스600",
+          "explain": "유럽 주요국 상장사 600곳으로 만든 대표 주가지수"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "오늘 미국 중간선거, 결과는 밤부터",
+      "desc": "미국 중간선거 투표가 오늘 치러집니다. 하원 435석 전부와 상원 약 3분의 1, 여러 주지사를 뽑습니다. 캘리포니아는 오늘 소인이 찍힌 우편투표를 10일 도착분까지 집계합니다.",
+      "interp": "접전 지역은 <b>결과 확정에 며칠</b> 걸릴 수 있습니다. 시민권자는 투표소 위치와 운영 시간을 주 선관위 사이트에서 확인하세요.",
+      "source": "Khaleej Times·news.de",
+      "read": 2,
+      "url": "https://www.khaleejtimes.com/world/americas/us-midterm-elections-2026-voting-explainer",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "영주권 신청서, 옛 주소는 9일까지",
+      "desc": "이민국이 10월 7일 영주권 신청서 I-485의 접수 주소를 바꿨습니다. 옛 주소로 보낸 서류는 11월 9일 소인분까지만 받습니다. 서식은 2026년 9월 18일 판만 인정됩니다.",
+      "interp": "서식 판본에는 <b>유예기간이 없습니다</b>. 우편 발송 전 주소와 양식 날짜를 이민국 사이트에서 다시 확인하세요.",
+      "source": "VisaVerge·Newsweek",
+      "read": 2,
+      "url": "https://www.visaverge.com/greencard/uscis-november-green-card-changes-could-affect-form-i-485-grace-period/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "I-485",
+          "explain": "미국 안에서 영주권자로 신분을 바꿀 때 내는 신청서"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "visa",
+      "head": "H-1B 연장 심사 강화안, 13일 의견 마감",
+      "desc": "국토안보부가 이전 승인 결과를 존중하던 규정을 없애는 개정안을 냈습니다. 같은 고용주와 직원이라도 H-1B 연장을 다시 심사받게 됩니다. 의견 제출은 11월 13일까지입니다.",
+      "interp": "아직 <b>시행 전 제안</b>이라 현행 규정이 유지됩니다. 연장을 앞뒀다면 서류를 꼼꼼히 준비하고 고용주와 일정을 상의하세요.",
+      "source": "VisaVerge·Newsweek",
+      "read": 2,
+      "url": "https://www.visaverge.com/h1b/employers-can-comment-on-uscis-deference-proposal-by-november-13/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "H-1B",
+          "explain": "미국 기업이 외국인 전문 인력을 고용할 때 쓰는 취업비자"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "팔란티어 매출 96% 늘었지만 주가 하락",
+      "desc": "팔란티어가 2일 3분기 매출이 23억1300만 달러로 96% 늘었다고 밝혔습니다. 주당순이익도 예상을 넘었고 4분기 매출 전망은 약 26억5천만 달러입니다. 주가는 내렸습니다.",
+      "interp": "실적이 좋아도 <b>높은 몸값 부담</b>에 주가가 흔들리고 있습니다. AI 종목 비중이 크다면 분산 투자 여부를 점검하세요.",
+      "source": "Fortune·Investing.com",
+      "read": 2,
+      "url": "https://fortune.com/2026/11/02/palantir-q3-results-stock-ai-trade-selloff/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "주당순이익",
+          "explain": "회사가 번 순이익을 주식 수로 나눈 값"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "미국, 이란 케슘섬 제한 공습",
+      "desc": "미국이 2일 호르무즈 해협 최대 섬인 이란 케슘섬을 공습했다고 미국 언론이 전했습니다. 미국 관리들은 상선 보호용 방어 공격이라 했고 밴스 부통령은 협상 진전을 언급했습니다.",
+      "interp": "협상과 공격이 함께 이어져 상황이 빠르게 바뀝니다. 중동을 여행하거나 경유한다면 <b>외교부 여행경보</b>를 출발 전 확인하세요.",
+      "source": "France24·CNN",
+      "read": 2,
+      "url": "https://www.france24.com/en/middle-east/20261103-us-strikes-iran-qeshm-island-as-trump-signals-progress-in-talks",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "호르무즈 해협",
+          "explain": "페르시아만 입구의 좁은 바다로 원유 수송의 핵심 길목"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "immigration",
+      "head": "영국 영주권 대기, 5년에서 10년으로",
+      "desc": "영국 정부가 2일 대부분의 외국인 근로자가 영주권을 받기까지 기간을 5년에서 10년으로 늘리는 안을 내놨습니다. 연봉 5만271파운드 이상과 의사·간호사·교사 등은 5년입니다.",
+      "interp": "이미 <b>영주 자격을 받은 사람</b>은 영향이 없습니다. 영국 비자로 체류 중이라면 새 규정 시행일과 경과 조치를 확인하세요.",
+      "source": "Euronews·Bloomberg",
+      "read": 2,
+      "url": "https://www.euronews.com/2026/11/02/british-government-sets-out-tougher-rules-for-migrants-looking-to-settle-in-the-uk",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "루프트한자 두바이 운항, 25일까지 중단",
+      "desc": "루프트한자 그룹이 두바이 노선 운항 중단을 11월 25일까지 이어갑니다. 스위스항공과 유로윙스도 포함됩니다. 텔아비브 노선은 재개했지만 리야드 노선은 아직 중단 상태입니다.",
+      "interp": "독일에서 두바이를 거쳐 한국에 가려던 분은 <b>예약 변경·환불 조건</b>을 항공사에 확인하세요. 다른 경유 노선도 비교해 보세요.",
+      "source": "Gulf News·The National",
+      "read": 2,
+      "url": "https://gulfnews.com/business/aviation/uae-flight-updates-today-latest-cancellations-delays-and-dubai-tourism-plans-1.500732183",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
