@@ -1,0 +1,443 @@
+{
+  "number": 91,
+  "date": "2026-11-05",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "요양보험 개편 첫 심의, 대체돌봄 폐지",
+      "desc": "연방의회가 오늘 요양보험 개편안을 처음 심의합니다. 2027년부터 대체돌봄을 없애고 생활지원비를 월 최대 175유로로 묶는 안입니다. 가족을 돌보는 한인 가정에 영향이 큽니다.",
+      "interp": "확정 전까지는 지금 제도가 그대로입니다. 올해 남은 <b>대체돌봄 예산</b>을 연말 전에 써야 하는지 요양금고에 확인하세요.",
+      "source": "Tagesspiegel(dpa)",
+      "read": 3,
+      "url": "https://www.tagesspiegel.de/politik/dpa-versorgung-pflegereform-im-bundestag-was-soll-kommen-16243320.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "대체돌봄",
+          "explain": "가족 간병인이 쉬는 동안 다른 사람의 돌봄 비용을 지원하는 요양보험 급여"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "기름값 내림세, 휘발유 2.04유로",
+      "desc": "독일자동차클럽 집계로 휘발유(E10)가 리터당 2.041유로로 한 주 새 4.3센트 내렸습니다. 경유는 2.260유로입니다. 국제유가 급락으로 더 내릴 여지가 있다는 분석입니다.",
+      "interp": "급하지 않다면 며칠 지켜본 뒤 넣는 것도 방법입니다. 하루 중에는 <b>정오 직전</b>이 가장 싸니 주유 앱으로 비교하세요.",
+      "source": "ADAC",
+      "read": 2,
+      "url": "https://www.presseportal.de/pm/7849/6384036",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "E10",
+          "explain": "에탄올을 최대 10% 섞은 독일의 일반 휘발유"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "tax",
+      "head": "'엘스터' 사칭 메일, 기한 압박 주의",
+      "desc": "세무 포털 엘스터를 사칭해 정보 갱신을 요구하는 가짜 메일이 돈다고 소비자센터가 4일 경고했습니다. 기한을 정해 압박하는 것이 특징입니다. 세금 신고를 하는 한인도 주의하세요.",
+      "interp": "메일 속 링크는 누르지 말고 스팸함으로 옮기세요. 확인이 필요하면 <b>공식 주소나 앱</b>으로 직접 로그인하는 것이 안전합니다.",
+      "source": "Verbraucherzentrale NRW",
+      "read": 2,
+      "url": "https://www.verbraucherzentrale.nrw/wissen/digitale-welt/phishingradar/phishingradar-aktuelle-warnungen-6059",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "엘스터",
+          "explain": "독일 국세청의 온라인 세금 신고 시스템(ELSTER)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "네토 달걀 와플 회수, 금속 조각 우려",
+      "desc": "할인마트 네토가 '핀톤스' 달걀 와플 250g을 금속 조각이 섞였을 가능성으로 회수합니다. 유통기한 표시가 2026년 11월 4일인 제품입니다. 집에 있다면 먹지 마세요.",
+      "interp": "포장의 유통기한과 제조번호를 확인하세요. <b>영수증 없이도</b> 매장에서 환불이나 교환을 받을 수 있습니다.",
+      "source": "Wochenblatt Reporter",
+      "read": 2,
+      "url": "https://verbraucherschutzforum.berlin/2026-11-03/rueckruf-bei-netto-metallteile-in-fintons-frischeiwaffeln-moeglich-verletzungsgefahr-444646/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "감사원 '캄보디아 경보 2년 지연'",
+      "desc": "감사원은 5일 외교부가 2023년부터 캄보디아에서 피해가 났는데도 2025년 9월까지 여행경보 1단계를 유지했다고 밝혔습니다. 담당자 3명 징계와 조정 기한 마련을 요구했습니다.",
+      "interp": "여행경보는 늦게 바뀔 수 있습니다. 동남아 고수익 취업 제안은 <b>해외안전여행 누리집</b>과 현지 대사관 공지로 먼저 확인하세요.",
+      "source": "아시아경제",
+      "read": 3,
+      "url": "https://view.asiae.co.kr/article/2026110509534581663",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "health",
+      "head": "희귀질환 본인부담, 12월부터 7%",
+      "desc": "보건복지부가 희귀·중증난치질환자 본인부담률을 10%에서 7%로 낮추는 시행령을 입법예고했습니다. 12월 1일 진료분부터 적용됩니다. 대상은 산정특례 등록자 약 136만 명입니다.",
+      "interp": "한국에서 치료받는 가족이 있다면 <b>산정특례 등록</b> 여부를 확인하세요. 의견은 16일까지 국민참여입법센터에 낼 수 있습니다.",
+      "source": "뉴스핌",
+      "read": 2,
+      "url": "https://www.newspim.com/news/view/20261104000381",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "산정특례",
+          "explain": "중증 환자의 건강보험 본인부담을 낮춰 주는 제도"
+        },
+        {
+          "term": "입법예고",
+          "explain": "법령 개정안을 미리 알리고 국민 의견을 받는 절차"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "policy",
+      "head": "금융권 해킹 47만 건, 580곳 전수점검",
+      "desc": "금융위원회는 5일 한 달 새 금융사 37곳이 해킹돼 정보 47만3천 건이 유출됐다고 밝혔습니다. 580여 곳을 연말까지 점검합니다. 비밀번호 유출이나 고객 돈 손실은 없었습니다.",
+      "interp": "유출 정보를 노린 <b>보이스피싱</b>이 늘 수 있습니다. 한국 금융사를 사칭한 문자·전화는 끊고 대표번호로 직접 확인하세요.",
+      "source": "파이낸셜뉴스",
+      "read": 2,
+      "url": "https://fnnews.com/news/202611050957233290",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "EU 확대 보고서, 4개국 가입 일정표",
+      "desc": "EU 집행위원회가 4일 확대 보고서에서 몬테네그로·알바니아·몰도바·우크라이나의 가입 일정표를 제시했습니다. 몬테네그로는 2028년 가입이 목표입니다. 단계적 통합 틀도 내놨습니다.",
+      "interp": "당장 바뀌는 것은 없습니다. 다만 <b>발칸 지역</b>은 가입이 가까워질수록 입국 규정이 EU 기준에 맞춰질 수 있으니 여행 전 확인하세요.",
+      "source": "European Commission",
+      "read": 2,
+      "url": "https://enlargement.ec.europa.eu/news/2026-enlargement-package-shows-reform-commitment-delivers-progress-towards-eu-membership-2026-11-04_en",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "stocks",
+      "head": "노보 실적 호조, 연간 전망 세 번째 상향",
+      "desc": "노보 노디스크가 4일 3분기 실적을 내고 올해 전망을 세 번째로 올렸습니다. 먹는 위고비 매출이 53억9천만 크로네로 예상을 웃돌았습니다. 주가는 장중 최대 6% 올랐습니다.",
+      "interp": "비만약 경쟁이 치열해 가격 하락 위험도 함께 거론됩니다. 유럽 제약주 투자자는 원화 기준 <b>환율 영향</b>까지 따져 보세요.",
+      "source": "CNBC·Reuters",
+      "read": 2,
+      "url": "https://www.cnbc.com/2026/11/04/novo-q3-earnings-wegovy-sales.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "크로네",
+          "explain": "덴마크의 화폐 단위"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "travel",
+      "head": "이탈리아 21일 전국 항공관제 파업",
+      "desc": "이탈리아 항공관제 노조가 21일 오후 1~5시 전국 파업을 예고했습니다. 6일에는 바리 공항, 22일에는 밀라노 말펜사 공항에서도 파업이 잡혀 있습니다. 결항이 생길 수 있습니다.",
+      "interp": "오전 7~10시와 오후 6~9시 출발편은 <b>보장 운항</b> 시간대입니다. 그 사이 항공편이면 항공사 공지를 미리 확인하세요.",
+      "source": "Missionline·Today.it",
+      "read": 2,
+      "url": "https://www.missionline.it/sciopero-aerei-novembre-2026-si-parte-il-6-da-bari-tutte-le-date-e-gli-orari/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "민주당 상·하원 장악, 트럼프 '거부권'",
+      "desc": "3일 중간선거에서 민주당이 하원 과반을 확보하고 상원도 최소 54석을 얻어 의회를 장악했습니다. 트럼프 대통령은 결과를 받아들인다면서도 거부권 행사를 예고했습니다.",
+      "interp": "이민·관세 정책은 대통령 권한이 커 당장 바뀌지 않습니다. 비자·영주권 절차는 <b>현행 규정</b> 기준으로 계속 준비하세요.",
+      "source": "CBS·NBC",
+      "read": 3,
+      "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "거부권",
+          "explain": "의회가 통과시킨 법안을 대통령이 되돌려 보내는 권한"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "policy",
+      "head": "한국계 댄 고 첫 당선, 스트릭랜드 4선",
+      "desc": "매사추세츠 6지구에서 민주당 댄 고 후보가 당선돼 역대 7번째 한국계 연방의원이 됐습니다. 워싱턴주 10지구 스트릭랜드 의원은 4선에 성공했고 데이브 민 의원도 재선했습니다.",
+      "interp": "한인 의원은 이민 법안에서 동포 목소리를 전하는 통로입니다. 비자 문제로 막히면 지역구 의원 사무실 <b>민원 창구</b>도 활용하세요.",
+      "source": "코리아타임스·파이낸셜뉴스",
+      "read": 2,
+      "url": "https://www.koreatimes.co.kr/world/20261104/koh-becomes-7th-korean-american-elected-to-us-congress-strickland-secures-4th-term",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "다우 3% 급등, 지난해 4월 이후 최대",
+      "desc": "4일 다우지수가 1,569포인트(3.03%) 올라 53,356에 마감했습니다. 유가 급락과 분점정부 기대가 겹쳤습니다. 다만 12월 금리 인상 확률은 80% 안팎으로 높습니다.",
+      "interp": "급등 뒤에는 변동성이 커질 수 있습니다. 금요일 <b>고용지표</b>가 12월 금리 결정의 변수이니 일정을 확인해 두세요.",
+      "source": "CNBC·AP",
+      "read": 2,
+      "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "분점정부",
+          "explain": "대통령과 의회 다수당이 서로 다른 정당인 상태"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "유가 8% 급락, 100달러 아래로",
+      "desc": "4일 브렌트유가 8.5% 내린 배럴당 94.84달러에 마감했습니다. 미국 여당 참패로 이란 전쟁이 빨리 끝날 것이란 기대가 커졌습니다. 이번 주 유가는 14% 넘게 떨어졌습니다.",
+      "interp": "항공권 유류할증료는 유가를 한두 달 늦게 반영합니다. 급하지 않은 <b>항공권 결제</b>는 다음 달 할증료 발표를 보고 정해도 됩니다.",
+      "source": "CNBC·AP",
+      "read": 2,
+      "url": "https://www.cnbc.com/2026/11/04/oil-price-iran-war-us-election-strait-hormuz.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "브렌트유",
+          "explain": "북해산 원유로, 유럽과 국제 유가의 기준"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
