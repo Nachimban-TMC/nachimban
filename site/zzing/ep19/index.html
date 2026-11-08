@@ -1,0 +1,121 @@
+<!doctype html><html lang="ko"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>찡곰툰 업로드 · EP19</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-font-smoothing:antialiased}
+:root{
+  --kr:"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --paper:#F0DDC6; --ink:#2A2119; --soft:#6B5B49; --faint:#9C8B76;
+  --line:#D8C4A8; --panel:#F7EEE0; --bg:#FBF6EE;
+}
+body{font-family:var(--kr);color:var(--ink);background:var(--bg);line-height:1.6;
+  max-width:660px;margin:0 auto;padding:20px 16px 70px}
+.hd{border-bottom:3px solid var(--ink);padding-bottom:12px;margin-bottom:6px}
+.hd h1{font-size:23px;font-weight:800;letter-spacing:-.02em}
+.hd .sub{color:var(--faint);font-size:13px;margin-top:3px}
+h2{font-size:15px;font-weight:800;margin:28px 0 5px}
+.note{font-size:13px;color:var(--soft);margin-bottom:11px}
+.grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}
+.grid a{display:block;position:relative;text-decoration:none}
+.grid img{width:100%;aspect-ratio:4/5;object-fit:cover;background:var(--paper);
+  border:1px solid var(--line);border-radius:5px;display:block}
+.grid a.fallback{display:flex;align-items:center;justify-content:center;
+  aspect-ratio:4/5;background:var(--paper);border:1px dashed var(--line);border-radius:5px}
+.grid .fb{font-size:12px;font-weight:700;color:var(--soft);text-align:center;line-height:1.5}
+.grid .i{position:absolute;top:5px;left:5px;background:rgba(42,33,25,.85);color:#fff;
+  font-size:11px;font-weight:700;padding:2px 7px;border-radius:99px}
+.cap{background:var(--panel);border:1px solid var(--line);border-radius:8px;
+  padding:14px;font-size:14px;white-space:pre-wrap;word-break:break-word;margin-top:8px}
+button{font-family:inherit;font-size:14px;font-weight:700;border:0;border-radius:99px;
+  background:var(--ink);color:var(--bg);padding:11px 18px;margin-top:10px;cursor:pointer}
+button:active{opacity:.7}
+.tip{font-size:12px;color:var(--faint);margin-top:10px}
+.ep{margin-top:34px;padding-top:16px;border-top:1px solid var(--line)}
+.ep h3{font-size:14px;font-weight:800;margin-bottom:8px}
+@media(prefers-color-scheme:dark){
+  :root{--bg:#141210;--panel:#1e1b18;--line:#3a332c;--ink:#EFE7DA;--soft:#B5A794;--faint:#8B7F6E}
+}
+</style></head><body>
+
+<div class="hd">
+  <h1>찡곰툰 업로드</h1>
+  <div class="sub">EP19 · 태교여행을 떠나요 (1) · 18컷 (4:5)</div>
+</div>
+
+<h2>컷 이미지</h2>
+<div class="note">이미지를 <b>길게 눌러 저장</b>하거나 아래 <b>전체 한번에 저장</b> 버튼을 누르세요. 번호 순서대로 저장하면 캐러셀 순서가 맞습니다.</div>
+<div class="grid" id="grid"></div>
+<button id="all" onclick="saveAll(this)">전체 한번에 저장</button>
+
+<h2>캡션</h2>
+<div class="cap" id="cap"></div>
+<button onclick="cp(CAP,this)">캡션 복사</button>
+
+<h2>첫 댓글용 해시태그</h2>
+<div class="cap" id="tag"></div>
+<button onclick="cp(TAG,this)">해시태그 복사</button>
+
+<p class="tip">에피소드가 추가되면 이 페이지가 갱신됩니다. · <a href="../" style="color:inherit">최신 편</a> · <a href="../ep18/" style="color:inherit">EP18</a> · <a href="../ep17/" style="color:inherit">EP17</a> · <a href="../ep16/" style="color:inherit">EP16</a> · <a href="../ep15/" style="color:inherit">EP15</a> · <a href="../ep14/" style="color:inherit">EP14</a> · <a href="../ep13/" style="color:inherit">EP13</a></p>
+
+<script>
+var BASE="https://d8j0ntlcm91z4.cloudfront.net/user_3GECC5TtJ9AV8a30xaCCexmEilq/";
+var CUTS=[
+ ["hf_20261029_143526_568c61ef-c0d9-4aa1-94b0-9d0686939692.png","제목"],
+ ["hf_20261029_144758_b8b45313-a514-4f02-b471-7813365a9373.png","뭐 먹으러 가지"],
+ ["hf_20261029_143541_88967a69-02ae-4dd4-91bf-2744101ec273.png","후후후"],
+ ["hf_20261029_145125_e02ac53e-7d2a-4cfe-83f4-e5b3038302f3.png","맨 앞 넓은 자리"],
+ ["hf_20261029_145543_e2d7f2dd-9a4b-4db9-a011-827cec4d1d49.png","짐도 1등"],
+ ["hf_20261030_072210_3b0074e0-2465-41e2-958f-6476dbe9cef6.png","551 만두"],
+ ["hf_20261030_125826_608ef636-84ee-4a6f-b92f-b76c14704e2a.png","뛰쳐나감"],
+ ["hf_20261030_125230_21f88d1d-4813-4306-9cc0-92bf775b3842.png","집밥"],
+ ["hf_20261030_125236_3a194905-bbdf-47eb-bfe5-158debc1a408.png","작전 브리핑"],
+ ["hf_20261030_131526_55a8e17c-5326-433b-979f-2382a2a5839e.png","간과한 게 하나"],
+ ["hf_20261030_131535_7ec338fc-5adc-49c2-a573-ff495b0410e6.png","계획 짤 때"],
+ ["hf_20261030_132951_86d7485d-7a87-4c39-9472-a7998e1c8d24.png","실제"],
+ ["hf_20261030_135944_2742b961-6ff6-4d55-8e19-59b60581d4a4.png","글리코상"],
+ ["hf_20261030_135956_53d9ebc0-b21a-4af6-9f83-b1023b29c106.png","하후하후"],
+ ["hf_20261030_140003_c2505055-b9c6-4868-83b4-6da8b0ceb531.png","이게 맞나"],
+ ["hf_20261030_141436_458dfcab-c18d-4f20-b094-9ce886a22bdc.png","로손"],
+ ["hf_20261030_140650_711a2b5e-89e2-4412-a1a5-57305c7edd7d.png","기절"],
+ ["hf_20261030_141443_6ef4fab2-7381-4e77-8a1f-a1df29ff62df.png","2편에 계속"]
+];
+var g=document.getElementById('grid');
+function U(f){return f.indexOf('/')>=0?f:BASE+f;}
+CUTS.forEach(function(c,i){
+  var n=String(i+1).padStart(2,'0');
+  var a=document.createElement('a');
+  a.href=U(c[0]); a.target="_blank"; a.rel="noopener";
+  a.setAttribute('download','EP19_'+n+'.png');
+  a.innerHTML='<span class="i">'+n+'</span><img src="'+U(c[0])+'" alt="'+c[1]+'" onerror="this.style.display=\'none\';this.parentNode.classList.add(\'fallback\');this.parentNode.insertAdjacentHTML(\'beforeend\',\'<span class=&quot;fb&quot;>'+c[1]+'<br>열기 →</span>\')">';
+  g.appendChild(a);
+});
+
+var CAP="태교여행 1일차, 오사카 🇯🇵\n\n✔️ 교통약자석(임산부) 요청했더니\n왕복 모두 맨 앞 넓은 자리!\n짐도 가장 먼저 나왔어요 🥇\n\n✔️ 간사이공항 내리자마자 551 호라이 만두부터 🥟\n공항버스 타고 도톤보리 옆 숙소로 바로 갔어요\n\n✔️ 파워J답게 임산부 맞춤 여유 일정을 짰는데…\n지도로 볼 때랑 실제 오사카는 완전 달랐어요\n생각보다 너무 넓고 컸다…\n\n그래도 쇼핑하고, 글리코상 앞에서 사진 찍고\n타코야끼에 로손까지 알차게 다녔어요\n짐은 곰이 다 들었습니다 🐻\n\n임산부 여행이라면 이동 거리는 꼭 넉넉하게!\n\n2편에 계속 ✈️\n\n#임신툰 #부부툰 #태교여행 #오사카여행 #예비아빠";
+var TAG="#임신일기 #태교 #오사카 #도톤보리 #551호라이 #곰과물개 #donyfilm #손그림웹툰 #그림일기";
+document.getElementById('cap').textContent=CAP;
+document.getElementById('tag').textContent=TAG;
+
+var EP='EP19', FILES=null;
+async function saveAll(b){
+  if(!FILES){ // 1단계: 다 받아두기 (아이폰은 공유창을 바로 띄워야 해서 미리 받는다)
+    b.disabled=true; var done=0;
+    FILES=await Promise.all(CUTS.map(function(c,i){
+      return fetch(U(c[0])).then(function(r){return r.blob();}).then(function(bl){
+        b.textContent='받는 중 '+(++done)+'/'+CUTS.length;
+        return new File([bl],EP+'_'+String(i+1).padStart(2,'0')+'.png',{type:'image/png'});});
+    }));
+    b.disabled=false;
+  }
+  if(navigator.canShare&&navigator.canShare({files:FILES})){
+    b.textContent='눌러서 사진에 저장';
+    if(b.dataset.ready){ try{await navigator.share({files:FILES});}catch(e){} }
+    b.dataset.ready=1; return;
+  }
+  // 컴퓨터: 한 장씩 연속 다운로드
+  for(var f of FILES){var a=document.createElement('a');a.href=URL.createObjectURL(f);a.download=f.name;a.click();await new Promise(function(r){setTimeout(r,300);});}
+  b.textContent='저장 완료 ✓';
+}
+function cp(t,b){navigator.clipboard.writeText(t).then(function(){
+  var o=b.textContent;b.textContent='복사됨 ✓';setTimeout(function(){b.textContent=o},1500);});}
+</script></body></html>
