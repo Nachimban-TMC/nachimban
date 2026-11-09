@@ -1,0 +1,411 @@
+{
+  "number": 94,
+  "date": "2026-11-09",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "첫 여성 대통령 후보, 아이그너 추대",
+      "desc": "기민·기사련 연합이 오늘 바이에른주 의회 의장 일제 아이그너(61)를 차기 연방대통령 후보로 공식 추천합니다. 사민당도 지지 뜻을 밝혔습니다. 당선되면 첫 여성 국가원수입니다.",
+      "interp": "연방대통령은 국민 직접투표가 아니라 <b>연방회의</b>에서 뽑힙니다. 실권은 총리에게 있어 체류·세금 같은 일상 행정은 바로 바뀌지 않습니다.",
+      "source": "ZDF·타게스슈피겔",
+      "read": 3,
+      "url": "https://www.zdfheute.de/politik/bundespraesidentin-aigner-koalition-merz-100.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "연방대통령",
+          "explain": "의회 대표들이 뽑는 독일의 국가원수, 정치 실권은 총리에게 있음"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "tax",
+      "head": "세금등급 변경, 30일까지 내야 올해 반영",
+      "desc": "부부의 세금등급(슈토이어클라세) 변경은 30일까지 신청해야 올해 월급에 반영됩니다. 신청 다음 달 1일부터 적용되고, 늦으면 내년 1월부터입니다. 엘스터로 낼 수 있습니다.",
+      "interp": "맞벌이 부부는 등급 조합에 따라 <b>매달 실수령액</b>이 달라집니다. 올해분 소득세 공제 신청도 30일 마감이니 함께 확인하세요.",
+      "source": "독일 소득세법·슈토이어팁스",
+      "read": 3,
+      "url": "https://www.steuertipps.de/finanzamt-formalitaeten/so-funktioniert-der-steuerklassenwechsel",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "슈토이어클라세",
+          "explain": "독일에서 월급의 원천징수액을 정하는 1~6단계 세금 등급"
+        },
+        {
+          "term": "엘스터",
+          "explain": "독일 세무서의 온라인 신고·신청 시스템"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "유럽연합 밖 소포, 품목군당 2유로 추가",
+      "desc": "이달 1일부터 유럽연합 밖에서 온라인으로 산 물건에 품목군마다 2유로 처리 수수료가 붙습니다. 150유로 이하 소포의 3유로 관세와는 별도입니다. 한국 쇼핑몰 주문도 해당됩니다.",
+      "interp": "한국 온라인몰에서 <b>여러 종류</b>를 한 번에 사면 수수료가 품목군 수만큼 늘 수 있습니다. 결제 전 관세·수수료 포함 여부를 확인하세요.",
+      "source": "에브너슈톨츠·소비자센터",
+      "read": 3,
+      "url": "https://www.ebnerstolz.de/de/unser-angebot/leistungen/steuerberatung/zollrecht-energiesteuer-aussenwirtschaft/2-euro-bearbeitungsgebuehr-und-produktkennungspflicht-ab-01.11.2026-114754.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "품목군",
+          "explain": "세관이 관세를 매길 때 쓰는 물품 분류 단위"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "policy",
+      "head": "플라스틱 포장세 '시행 안 한다'",
+      "desc": "기민당 토르스텐 프라이는 8일 플라스틱세가 시행되지 않을 것이라고 말했습니다. 2027년 7월 도입 계획이었지만 연합 의원 반대로 내각 의결이 미뤄져 왔습니다. 포장재 세금입니다.",
+      "interp": "정부의 공식 폐기 발표는 아직입니다. 식품·생필품 <b>포장 비용</b>이 오를 요인 하나가 줄어든 정도로 이해하면 됩니다.",
+      "source": "ZDF·하이델베르크24",
+      "read": 2,
+      "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "내각 의결",
+          "explain": "법안을 의회에 내기 전 장관들이 모여 정부안으로 확정하는 절차"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "전세사기 최소보장제, 13일 시행",
+      "desc": "전세사기 피해자가 되찾은 보증금이 3분의 1에 못 미치면 차액을 현금으로 주는 최소보장제가 13일 시행됩니다. 신청은 한국토지주택공사(LH)가 받고 90일 안에 지급을 정합니다.",
+      "interp": "한국에 전세를 둔 채 출국했다면 <b>피해자 결정문</b>부터 챙기세요. 최소지원금을 받으면 공공임대 지원은 못 받으니 비교 후 신청하세요.",
+      "source": "데일리안·메가충청뉴스",
+      "read": 3,
+      "url": "https://www.dailian.co.kr/news/view/1698086",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "최소보장제",
+          "explain": "전세사기 피해자에게 보증금의 3분의 1까지는 돌려받도록 보장하는 제도"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "stocks",
+      "head": "반대매매 완화 시행, 증권사별 날짜 달라",
+      "desc": "반대매매를 줄이려 신용융자 담보비율 140% 유지 의무를 3개월 면제하는 조치가 오늘 시행됐지만, NH투자증권 일부 지점은 10일부터라고 안내해 혼선이 생겼습니다.",
+      "interp": "해외에서 한국 증권 계좌로 <b>신용거래</b>를 한다면 내 증권사의 적용일을 앱 공지로 확인하세요. 담보 부족 문자도 놓치지 마세요.",
+      "source": "아시아경제·파이낸셜뉴스",
+      "read": 3,
+      "url": "https://view.asiae.co.kr/article/2026110710061020851",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [
+        {
+          "term": "반대매매",
+          "explain": "빌린 돈으로 산 주식을 담보가 모자랄 때 증권사가 강제로 파는 것"
+        },
+        {
+          "term": "담보비율",
+          "explain": "빌린 돈 대비 계좌에 남아 있어야 하는 주식·현금의 비율"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "크라쿠프 광장 총격, 6명 숨져",
+      "desc": "7일 폴란드 크라쿠프 중앙시장광장에서 차를 탄 남성이 총을 쏴 6명이 숨지고 10여 명이 다쳤습니다. 경찰은 20대 용의자를 체포했고, 희생자 중엔 영국·오스트리아인도 있습니다.",
+      "interp": "크라쿠프 여행을 앞뒀다면 <b>현지 경찰 안내</b>와 행사 취소 여부를 확인하세요. 외교부 해외안전여행 앱의 공지도 함께 보세요.",
+      "source": "TVN24·유로뉴스",
+      "read": 3,
+      "url": "https://tvn24.pl/krakow/krakow-strzelanina-na-rynku-glownym-najwazniejsze-fakty-st9328267",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "중앙시장광장",
+          "explain": "크라쿠프 구시가지 한가운데 있는 대표 관광 광장"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "stocks",
+      "head": "알리안츠 12일 실적, 유럽 실적 몰린 주",
+      "desc": "알리안츠가 12일 3분기 실적을 내고, 이번 주 지멘스에너지·뮌헨재보험·RWE·에온도 발표합니다. 보험·에너지 대형주가 몰려 있어 연말 유럽 증시 방향을 가늠할 한 주입니다.",
+      "interp": "유럽 보험주를 배당용으로 갖고 있다면 <b>연간 전망</b> 수정 여부를 확인하세요. 실적 발표 당일은 주가가 크게 움직일 수 있습니다.",
+      "source": "피니마이즈·피난첸",
+      "read": 2,
+      "url": "https://finimize.com/content/europes-stoxx-600-heads-into-a-packed-earnings-week",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "뮌헨재보험",
+          "explain": "보험사가 진 위험을 다시 넘겨받는 독일의 대형 재보험 회사"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "스티븐 밀러, 오늘부터 비서실장",
+      "desc": "트럼프 대통령이 수지 와일스 비서실장을 교체하고 이민 강경파 스티븐 밀러를 후임으로 앉혔습니다. 밀러는 오늘부터 일하며, 중간선거에서 공화당이 의회 다수당을 잃은 직후 결정입니다.",
+      "interp": "밀러는 이민 단속을 주도해 온 인물입니다. 비자·영주권 심사가 바로 바뀌지는 않지만 <b>새 행정명령</b> 소식은 계속 확인하세요.",
+      "source": "AP·백악관",
+      "read": 3,
+      "url": "https://www.whitehouse.gov/releases/2026/11/president-trump-names-stephen-miller-as-33rd-white-house-chief-of-staff/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "비서실장",
+          "explain": "백악관 참모진을 총괄하는 대통령의 최측근 자리"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "life",
+      "head": "11일 재향군인의 날, 우체국 휴무",
+      "desc": "11일 수요일은 연방 공휴일인 재향군인의 날이라 우체국이 문을 닫고 우편 배달도 없습니다. 연방준비은행도 쉬어 계좌이체가 하루 늦어질 수 있고, 주식시장은 정상 거래합니다.",
+      "interp": "이민국 등 <b>연방기관 예약</b>이 이날이면 일정을 다시 확인하세요. 은행 지점 운영은 은행마다 달라 미리 알아보세요.",
+      "source": "폭스뉴스·연방인사관리처",
+      "read": 2,
+      "url": "https://www.fox26houston.com/news/veterans-day-open-closed-2026",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "연방준비은행",
+          "explain": "미국 중앙은행 체계를 이루는 지역 은행, 은행 간 이체를 처리함"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "10일 소비자물가 발표, 시스코 실적도",
+      "desc": "미국 10월 소비자물가지수가 10일 발표되고, 같은 주 시스코와 어플라이드머티리얼즈가 실적을 냅니다. 인공지능 관련주 급락 뒤라 물가와 기술주 실적에 시장 관심이 쏠려 있습니다.",
+      "interp": "물가가 예상보다 높으면 <b>금리 인하 기대</b>가 줄어 주가가 흔들릴 수 있습니다. 미국 주식을 가졌다면 발표 당일 변동에 대비하세요.",
+      "source": "로이터·더스트리트",
+      "read": 2,
+      "url": "https://www.kitco.com/news/off-the-wire/2026-11-06/wall-st-week-ahead-tech-swoon-roils-market-us-inflation-data-tap",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "어플라이드머티리얼즈",
+          "explain": "반도체 제조 장비를 만드는 미국 기업"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "시즈오카 서부 규모 5.7 지진",
+      "desc": "8일 새벽 일본 시즈오카현 서부에서 규모 5.7 지진이 나 아이치현 지타시에서 진도 5강이 관측됐습니다. 쓰나미 우려는 없고, 일본 기상청은 낙석·산사태 위험을 경고했습니다.",
+      "interp": "도카이 지역에 머문다면 <b>흔들린 지역</b>의 비탈길과 절벽 근처를 피하세요. 최근 지바·미에 지진도 있어 비상 연락처를 다시 확인해 두세요.",
+      "source": "일본 기상청·웨더뉴스",
+      "read": 2,
+      "url": "https://www.jma.go.jp/jma/press/2611/08a/202611080305.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "진도 5강",
+          "explain": "일본 기상청 흔들림 단계 중 고정 안 된 가구가 넘어질 수 있는 수준"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
