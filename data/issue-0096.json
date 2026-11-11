@@ -1,0 +1,401 @@
+{
+  "number": 96,
+  "date": "2026-11-11",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "메르츠, EU 예산에 우크라이나 지원 연계",
+      "desc": "메르츠 총리가 우크라이나 추가 지원 약 450억 유로를 EU 장기예산 승인 조건으로 걸었습니다. 슬로바키아·체코·헝가리·불가리아가 반발했습니다. 피초 총리는 거부권을 시사했습니다.",
+      "interp": "당장 생활이 바뀌는 일은 아니지만 <b>EU 예산 협상</b>이 길어질 수 있습니다. EU 재원으로 받는 장학금·연구비가 있다면 일정 공지를 확인하세요.",
+      "source": "Euronews",
+      "read": 3,
+      "url": "https://www.euronews.com/2026/11/10/eu-budget-battle-erupts-as-four-countries-defy-merz-over-ukraine-aid",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "EU 장기예산",
+          "explain": "7년 단위로 짜는 EU의 다년도 재정계획(MFF)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "전입신고, 12월부터 전국 온라인",
+      "desc": "연방 내각이 모든 주민관청에 온라인 전입신고 제공을 의무화하는 규정을 의결했습니다. 12월 1일 시행 예정입니다. 함부르크 방식을 전국에 적용해 관청 방문 없이 등록하게 됩니다.",
+      "interp": "이사 예정이라면 집주인에게 <b>입주확인서</b>를 미리 받아 두세요. 시행 뒤 사는 도시에서 온라인 신청이 열렸는지 확인하세요.",
+      "source": "연방정부·ZDF",
+      "read": 3,
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/digitale-wohnsitz-anmeldung-2459770",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "주민관청",
+          "explain": "거주 등록을 맡는 시청 부서(Bürgeramt·Meldebehörde)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "내년 1월 전기·가스 인상 통지 잇따라",
+      "desc": "EnBW가 1월부터 전기 3.3%, 가스 8.4% 인상을 알렸습니다. EWE는 기본공급 전기를 kWh당 34.58센트로 올립니다. 기본공급사는 20일까지 인상을 공지해야 합니다.",
+      "interp": "인상 편지를 받으면 <b>특별해지권</b>으로 위약금 없이 업체를 바꿀 수 있습니다. 비교 사이트로 다른 요금을 확인하고 기한 안에 해지하세요.",
+      "source": "EnBW·leinetal24",
+      "read": 3,
+      "url": "https://www.enbw.com/presse/enbw-strompreis-gaspreis-anpassung-2027.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "기본공급",
+          "explain": "별도 계약 없이 자동 적용되는 지역 기본 전기·가스 요금제(Grundversorgung)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "금융보안원도 해킹, 개인정보 유출",
+      "desc": "금융권 보안을 맡는 금융보안원이 해킹돼 개인정보 300여 건과 이용자 정보 350여 건이 유출됐습니다. 고객 신용정보는 빠졌다고 밝혔습니다. 금융위는 14일 점검회의를 엽니다.",
+      "interp": "한국 은행·증권 계좌를 쓰는 분은 <b>문자·메일 사칭</b>에 특히 주의하세요. 출처가 불분명한 링크는 누르지 말고 은행 앱에서 직접 확인하세요.",
+      "source": "서울신문·한국금융신문",
+      "read": 2,
+      "url": "https://www.seoul.co.kr/news/economy/finance/2026/11/11/20261111029006",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [
+        {
+          "term": "금융보안원",
+          "explain": "금융회사 전산 보안을 감시·지원하는 공공기관"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "스페인 오늘 총파업, 공항 감편 우려",
+      "desc": "스페인 양대 노조가 11일 24시간 전국 총파업에 들어갑니다. 주거비·임금·노동시간 단축이 요구 사항입니다. 마드리드·바르셀로나 공항은 최소 운항만 유지해 결항이 예상됩니다.",
+      "interp": "오늘 스페인 항공편이나 열차를 탄다면 <b>항공사 앱</b>에서 운항 여부를 확인하세요. 결항되면 대체편이나 환불을 요구할 수 있습니다.",
+      "source": "AeroCorner·TheTravel",
+      "read": 2,
+      "url": "https://aerocorner.com/news/spain-general-strike-november-11-flights/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "stocks",
+      "head": "지멘스에너지·RWE·에온 오늘 실적",
+      "desc": "지멘스에너지가 11일 연간 실적과 2027년 전망을 내놓습니다. 2030년 목표와 자본 배분 계획도 공개합니다. 같은 날 RWE·에온도 실적을 발표해 유럽 에너지주가 주목됩니다.",
+      "interp": "에너지주를 가진 분은 <b>연간 전망치</b>가 시장 기대와 맞는지 보세요. 발표 직후에는 주가 변동이 커 서두른 매매는 피하는 편이 안전합니다.",
+      "source": "dpa-AFX·Börse Express",
+      "read": 2,
+      "url": "https://www.finanzen.net/nachricht/aktien/tagesvorschau-termine-am-11-november-2026-16053672",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "자본 배분",
+          "explain": "번 돈을 투자·배당·자사주 매입에 어떻게 나눌지 정한 계획"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "미국 물가 0.4%↑, 12월 인상 유력",
+      "desc": "미국 10월 소비자물가가 전월보다 0.4% 올라 예상치 0.3%를 넘었습니다. 근원물가도 0.3% 올랐습니다. 시장은 12월 연준의 0.25%포인트 인상을 기정사실로 봅니다.",
+      "interp": "변동금리 대출이 있다면 <b>금리 인상</b>에 대비해 상환 계획을 점검하세요. 예금 금리도 따라 오를 수 있어 만기를 정할 때 참고하세요.",
+      "source": "CNBC·CBS",
+      "read": 3,
+      "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "근원물가",
+          "explain": "변동이 큰 식품·에너지를 뺀 물가 지표"
+        },
+        {
+          "term": "연준",
+          "explain": "미국 중앙은행인 연방준비제도"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "citizenship",
+      "head": "시민권 심사, '도덕성' 기준 더 엄격",
+      "desc": "미국 이민국이 4일 시민권 신청자의 도덕성 판단 지침을 냈습니다. 부양 의무 불이행, 보증 의무 위반, 부정한 공공혜택 수급을 따집니다. N-400 서식 질문도 늘릴 예정입니다.",
+      "interp": "시민권을 준비 중이라면 <b>양육비·세금 납부 기록</b>과 공공혜택 이용 내역을 정리해 두세요. 애매한 이력은 신청 전 이민 변호사와 상의하세요.",
+      "source": "National Law Review·Hunton",
+      "read": 3,
+      "url": "https://natlawreview.com/article/uscis-announces-changes-good-moral-character-standard-naturalization-applicants",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "N-400",
+          "explain": "미국 시민권(귀화) 신청서"
+        },
+        {
+          "term": "보증 의무",
+          "explain": "가족 초청 때 보증인이 약속한 재정 부양 책임(I-864)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "시스코 오늘 장 마감 뒤 실적 발표",
+      "desc": "시스코가 11일 장 마감 뒤 분기 실적을 냅니다. 회사 전망은 주당순이익 1.32~1.34달러, 매출 180억~182억 달러입니다. 인공지능 네트워크 수요가 이어질지가 관건입니다.",
+      "interp": "미국 기술주를 가진 분은 다음 분기 <b>가이던스</b>를 눈여겨보세요. 최근 반도체주 급락으로 변동성이 커 발표 직후 추격 매매는 조심하세요.",
+      "source": "FN2·Constellation Research",
+      "read": 2,
+      "url": "https://fn2.ai/earnings/csco",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "주당순이익",
+          "explain": "회사 순이익을 주식 수로 나눈 값(EPS)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "life",
+      "head": "미국 휘발유, 4달러 선까지 내려와",
+      "desc": "미국자동차협회 집계 휘발유 전국 평균이 8일 갤런당 4.02달러로 일주일 새 12센트 내렸습니다. 유가가 유지되면 추수감사절 무렵 3.9달러대가 될 수 있습니다.",
+      "interp": "연휴 장거리 운전을 계획한다면 <b>주유 앱</b>으로 지역별 가격을 비교하세요. 주마다 차이가 커 경로상 싼 곳을 고르면 기름값을 아낄 수 있습니다.",
+      "source": "AAA·Travelers Today",
+      "read": 2,
+      "url": "https://gasprices.aaa.com/?p=5262",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "미국자동차협회",
+          "explain": "휘발유 가격을 매일 집계하는 미국 운전자 단체(AAA)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "국제유가 90달러 아래로, 8월 이후 처음",
+      "desc": "국제유가가 10일 배럴당 90달러 아래로 내려가 8월 이후 가장 낮아졌습니다. 최근 하락세가 이어진 결과입니다. 난방유값과 항공 유류할증료에도 시차를 두고 영향을 줍니다.",
+      "interp": "<b>난방유</b>를 쓰는 집은 가격 비교 사이트로 추이를 보고 주문 시기를 정하세요. 항공권은 유류할증료가 바뀌는 다음 달 발권분과 비교해 보세요.",
+      "source": "ZDF·TASS",
+      "read": 2,
+      "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "유류할증료",
+          "explain": "유가에 따라 항공 운임에 덧붙는 연료 비용"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "에티하드 사우디 결항, 19일까지 연장",
+      "desc": "에티하드항공이 아부다비~리야드·담맘 결항을 19일까지 늘렸고 제다 노선은 6일 재개했습니다. 플라이두바이는 리야드·아바 노선을 16일까지 쉽니다. 에미레이트는 재개에 나섰습니다.",
+      "interp": "걸프를 거쳐 사우디로 간다면 <b>예약 항공사</b>에 운항 여부를 직접 확인하세요. 결항 때는 환불이나 날짜 변경을 요청할 수 있습니다.",
+      "source": "Gulf News·Khaleej Times",
+      "read": 2,
+      "url": "https://gulfnews.com/business/aviation/etihad-extends-riyadh-dammam-cancellations-resumes-jeddah-flights-1.500735222",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
