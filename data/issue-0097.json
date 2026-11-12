@@ -1,0 +1,453 @@
+{
+  "number": 97,
+  "date": "2026-11-12",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "연방 예산 막판 심사, 전기세 인하는 빠져",
+      "desc": "연방하원 예산위원회가 12일 2027년 예산 최종 조정에 들어갑니다. 연정은 쟁점 대부분을 정리했지만 가정용 전기세 인하 재원은 못 찾았습니다. 1월 시행은 어렵다는 관측입니다.",
+      "interp": "인하되면 연 4,000kWh를 쓰는 3인 가구는 <b>월 7.75유로</b> 정도 아낍니다. 내년 전기요금 통지서에 반영됐는지 확인하세요.",
+      "source": "한델스블라트·슈투트가르터 나흐리히텐",
+      "read": 3,
+      "url": "https://www.handelsblatt.com/politik/deutschland/haushalt-koalition-findet-bisher-kein-geld-fuer-stromsteuer-senkung/100269235.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "전기세",
+          "explain": "전기 사용량에 붙는 독일 연방 소비세(Stromsteuer)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "tax",
+      "head": "세금등급 3·5 폐지안, 재무부 추진",
+      "desc": "클링바일 재무장관이 부부가 주로 쓰는 세금등급 3과 5를 없애자고 했습니다. 대신 소득 비율로 원천징수를 나누는 계수 방식을 쓰자는 구상입니다. 연합 측 반대로 확정은 미정입니다.",
+      "interp": "부부가 내는 <b>연간 세금 총액</b>은 같지만 매달 실수령액은 달라질 수 있습니다. 결정 전까지 지금 등급은 그대로 유효합니다.",
+      "source": "한델스블라트·포르츠하이머 차이퉁",
+      "read": 3,
+      "url": "https://www.handelsblatt.com/politik/deutschland/steuern-klingbeil-will-steuerklassen-iii-und-v-abschaffen/100268862.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "계수 방식",
+          "explain": "부부 소득 비율에 맞춰 원천징수를 나누는 방식(Faktorverfahren)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "education",
+      "head": "4세 언어검사 법, 오늘 하원 표결",
+      "desc": "모든 4세 아이의 언어·발달을 검사하는 법안이 12일 연방하원 표결에 부쳐집니다. 유치원에 안 다니는 아이도 대상입니다. 부족하면 입학 전 주 30분 이상 지원을 받습니다.",
+      "interp": "독일어가 두 번째 언어인 <b>한인 가정 자녀</b>도 검사 대상입니다. 시작 시기와 방식은 사는 주의 안내를 확인하세요.",
+      "source": "온비스타·ZDF",
+      "read": 3,
+      "url": "https://www.onvista.de/news/2026/11-12-bundestag-stimmt-ueber-tests-und-fruehe-foerderung-fuer-kinder-ab-0-10-26575342",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "내년 방송수신료, 7주 앞두고 미정",
+      "desc": "2027년 방송수신료가 아직 정해지지 않았습니다. 전문위원회는 월 18.64유로를 권고했지만 16개 주가 연내 협약을 맺어야 합니다. 주들은 헌법소원 판결을 기다리는 모습입니다.",
+      "interp": "결정 전까지는 <b>월 18.36유로</b>가 유지됩니다. 자동이체 금액이 바뀌는지 연초 수신료센터 안내를 확인하세요.",
+      "source": "베를리너 차이퉁·MS 악투엘",
+      "read": 3,
+      "url": "https://www.berliner-zeitung.de/article/rundfunkbeitrag-2027-sieben-wochen-vor-januar-weiss-niemand-wie-viel-sie-zahlen-muessen-10581808",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "헌법소원",
+          "explain": "기본권 침해를 헌법재판소에 직접 다투는 청구"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "도이체방크 사칭, 신분증 요구 메일",
+      "desc": "도이체방크를 사칭해 계좌 정지를 경고하는 피싱 메일이 돌고 있습니다. 자금세탁 점검이라며 링크로 신분증 사본과 세금번호를 올리라고 합니다. 기한을 적어 공문처럼 꾸몄습니다.",
+      "interp": "은행은 <b>메일 링크로 신분증</b>을 받지 않습니다. 의심되면 링크를 누르지 말고 은행 앱이나 지점에서 직접 확인하세요.",
+      "source": "티온라인·소비자센터",
+      "read": 2,
+      "url": "https://www.t-online.de/digital/aktuelles/id_101518312/deutsche-bank-betrueger-drohen-mit-kontosperre-verbraucherzentrale-warnt.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "세금번호",
+          "explain": "독일 거주자에게 평생 부여되는 11자리 납세자 번호(Steuer-ID)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "방한 외국인, 사상 첫 2000만 명",
+      "desc": "올해 방한 외국인이 처음으로 2000만 명을 넘었다고 문화체육관광부가 12일 밝혔습니다. 1000만 명을 넘은 지 14년 만입니다. 연말엔 2300만 명까지 늘 전망입니다.",
+      "interp": "연말 귀국 때 서울 도심 숙소와 항공권이 <b>빨리 찰 수</b> 있습니다. 한국 방문 일정이 있다면 예약을 서두르세요.",
+      "source": "한국경제·파이낸셜뉴스",
+      "read": 2,
+      "url": "https://www.hankyung.com/article/202611122693g",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "citizenship",
+      "head": "2002년생, 1월 15일까지 국외여행허가",
+      "desc": "2002년생 병역의무자가 내년에도 해외에 머물려면 1월 15일까지 국외여행허가를 받아야 합니다. 이주 사유면 거주 증명도 냅니다. 허가 없이 머물면 처벌될 수 있습니다.",
+      "interp": "자녀가 2002년생이면 <b>관할 공관</b>에 미리 신청하세요. 11월부터 신청서 양식이 바뀌었으니 새 양식을 쓰세요.",
+      "source": "병무청·주로스앤젤레스 총영사관",
+      "read": 3,
+      "url": "https://sisaissue.com/View.aspx?No=4304669",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [
+        {
+          "term": "국외여행허가",
+          "explain": "병역의무자가 25세 이후 해외에 머물 때 병무청에서 받는 허가"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "EU, 구독 해지 버튼 의무화 법안",
+      "desc": "EU 집행위원회가 11일 디지털공정법을 제안했습니다. 구독 해지 버튼과 자동갱신 전 알림을 의무화하고 다크패턴을 금지합니다. 위반 시 연 매출의 최대 6%까지 벌금을 물립니다.",
+      "interp": "아직 <b>제안 단계</b>라 유럽의회와 회원국 심의를 거쳐야 합니다. 지금 쓰는 구독은 해지 절차를 미리 점검해 두세요.",
+      "source": "더넥스트웹·쿼츠",
+      "read": 3,
+      "url": "https://thenextweb.com/news/eu-digital-fairness-act-loot-boxes-dark-patterns",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "다크패턴",
+          "explain": "소비자를 속여 결제·가입을 유도하는 화면 설계"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "invest",
+      "head": "유럽증시 사상 최고, 지멘스에너지 급등",
+      "desc": "스톡스600 지수가 11일 0.72% 오른 663.05로 사상 최고 종가를 썼습니다. 지멘스에너지는 이익률 목표를 올리며 10% 넘게 뛰었습니다. 인공지능주도 강세였습니다.",
+      "interp": "지수가 최고치 근처에선 <b>변동성</b>이 커질 수 있습니다. 소시에테제네랄은 연말까지 추가 상승 여력이 작다고 봤습니다.",
+      "source": "로이터·마켓스크리너",
+      "read": 2,
+      "url": "https://www.marketscreener.com/news/europe-s-stoxx-600-near-record-high-as-siemens-energy-coreweave-outlooks-lift-sentiment-ce785edbda88f720",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "스톡스600",
+          "explain": "유럽 17개국 대형·중형주 600개로 만든 대표 주가지수"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "travel",
+      "head": "스페인 총파업, 항공편 332편 결항",
+      "desc": "11일 스페인 총파업으로 항공편 4,529편 가운데 332편이 결항했습니다. 바르셀로나가 85편으로 가장 많았고 혼란은 제한적이었습니다. 란사로테는 관제사 파업으로 지연 중입니다.",
+      "interp": "카나리아 제도 <b>란사로테행</b> 항공편은 지연이 계속될 수 있습니다. 출발 전 항공사 운항 정보를 확인하세요.",
+      "source": "트래블엑스트라·테네리페 위클리",
+      "read": 2,
+      "url": "https://www.travelextra.ie/strike-causes-332-flights-across-spanish-airports/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "미국, 푸드스탬프 630만 명 탈락안",
+      "desc": "미국 농무부가 10일 저소득층 식비 지원 SNAP 자격을 좁히는 규칙안을 냈습니다. 630만 명이 자격을 잃는다고 봅니다. 시행은 2029년이며 12월 10일까지 의견을 받습니다.",
+      "interp": "수급 중이라도 당장 바뀌는 것은 없고 <b>12월 10일</b>까지 의견을 낼 수 있습니다. 학교 무상급식 자격과도 연결되니 확인하세요.",
+      "source": "미국 관보·ABC뉴스",
+      "read": 3,
+      "url": "https://www.federalregister.gov/documents/2026/11/10/2026-22936/supplemental-nutrition-assistance-program-reforming-categorical-eligibility",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "SNAP",
+          "explain": "미국 저소득층에게 식료품 구입비를 주는 연방 지원 제도"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "엔비디아 이사회, 젠슨 황 해임 검토",
+      "desc": "엔비디아 이사회가 젠슨 황 최고경영자 해임을 준비 중이라고 월스트리트저널이 11일 보도했습니다. 사생활 문제가 이유로 거론됩니다. 주가는 시간외 거래에서 약 8% 떨어졌습니다.",
+      "interp": "회사는 아직 <b>결정을 발표하지</b> 않았습니다. 엔비디아 비중이 큰 기술주 펀드를 가졌다면 이사회 발표를 지켜보세요.",
+      "source": "테크크런치·포춘",
+      "read": 2,
+      "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "시간외 거래",
+          "explain": "정규장 마감 뒤 따로 열리는 주식 거래 시간"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "visa",
+      "head": "취업비자 청원서, 9일부터 새 양식만",
+      "desc": "미국 이민국이 9일부터 취업비자 청원서 I-129를 9월 9일 판만 받습니다. 옛 양식은 접수 때 반려됩니다. H-1B·L-1 생체정보 수수료 규정과 함께 바뀐 양식입니다.",
+      "interp": "고용주가 청원을 준비 중이라면 <b>양식 판 번호</b>를 확인하도록 요청하세요. 바뀐 접수 주소도 이민국 누리집에서 확인하세요.",
+      "source": "이민국·F1잡스",
+      "read": 3,
+      "url": "https://immigration-analytics.com/2026/11/08/form-i-129-edition-cutoff/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "I-129",
+          "explain": "미국 고용주가 외국인 취업비자를 청원할 때 내는 이민국 서식"
+        },
+        {
+          "term": "H-1B",
+          "explain": "미국 전문직 외국인에게 주는 취업비자"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "콩고 에볼라 1만1천 명 넘어",
+      "desc": "콩고민주공화국의 에볼라 감염자가 11일 1만1,042명, 사망자는 5,387명이 됐습니다. 세계보건기구는 확산세가 꺾일 기미가 없다고 봅니다. 케냐는 마지막 환자가 퇴원했습니다.",
+      "interp": "콩고 동부 방문은 피하고 아프리카 출장 전 <b>외교부 안전공지</b>를 확인하세요. 세계보건기구는 일반 여행 제한은 권하지 않습니다.",
+      "source": "AP·세계보건기구",
+      "read": 2,
+      "url": "https://aol.com/articles/congos-ebola-outbreak-tops-11-061757000.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
