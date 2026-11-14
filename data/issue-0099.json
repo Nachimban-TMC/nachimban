@@ -1,0 +1,419 @@
+{
+  "number": 99,
+  "date": "2026-11-14",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "메르세데스, 독일 공장 신규투자 전면 중단",
+      "desc": "메르세데스벤츠가 독일 공장의 신규 투자를 모두 멈추고 폐쇄도 검토합니다. 임금 인상 없는 근무시간 연장안을 두고 노사 협상이 막혔습니다. 협력업체 고용에도 여파가 우려됩니다.",
+      "interp": "자동차 업계에 다니는 분은 회사의 <b>구조조정</b> 공지와 노조 안내를 챙기세요. 고용이 불안하면 <b>실업급여</b> 요건을 미리 알아 두면 좋습니다.",
+      "source": "The Local·heise",
+      "read": 3,
+      "url": "https://www.heise.de/news/Mercedes-stoppt-Investitionen-in-Deutschland-und-prueft-Werksschliessungen-11523770.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "20일부터 후불결제도 신용심사 의무",
+      "desc": "20일부터 클라르나·페이팔 후불결제와 200유로 미만 소액 할부도 신용심사를 거칩니다. 심사에 따라 결제가 거절될 수 있습니다. 새 계약에는 14일 철회권도 법으로 보장됩니다.",
+      "interp": "온라인 쇼핑 때 '나중에 결제'가 갑자기 막힐 수 있으니 <b>다른 결제수단</b>을 준비하세요. 자동 거절에는 <b>사람 재심사</b>를 요구할 수 있습니다.",
+      "source": "biallo·netzwelt",
+      "read": 3,
+      "url": "https://www.biallo.de/verbraucherschutz/news/ratenkauf-klarna-paypal-kleinkredite-neue-regeln/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "후불결제",
+          "explain": "물건을 먼저 받고 대금은 나중에 내는 결제 방식"
+        },
+        {
+          "term": "철회권",
+          "explain": "계약 뒤 정해진 기간 안에 이유 없이 취소할 수 있는 권리"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "health",
+      "head": "내년 건보 평균 추가보험료 2.9% 동결",
+      "desc": "연방보건부가 내년 공보험 평균 추가보험료율을 올해와 같은 2.9%로 정했습니다. 실제 요율은 보험사마다 정해 오를 수 있습니다. 인상 때 개별 안내 편지 의무도 사라졌습니다.",
+      "interp": "12월에 가입한 보험사 누리집에서 <b>내년 요율</b>을 직접 확인하세요. 오르면 1월 말까지 <b>특별해지</b>로 보험사를 바꿀 수 있습니다.",
+      "source": "연방보건부·krankenkasseninfo",
+      "read": 3,
+      "url": "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/zusatzbeitragssatz-gkv-2027-festgelegt",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "추가보험료율",
+          "explain": "공보험 기본요율 외에 보험사마다 따로 더 걷는 보험료 비율"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "외콜란트 간 소시지 회수, 금속 조각",
+      "desc": "외콜란트 '파이네 레버부르스트' 100g에 금속 조각이 들어 있을 수 있어 회수됩니다. 13일 공지됐고 14개 주에서 팔렸을 수 있습니다. 먹다가 입안을 다칠 위험이 있습니다.",
+      "interp": "집에 같은 제품이 있으면 먹지 말고 <b>식품경고 누리집</b>에서 유통기한을 대조하세요. 산 매장에 가져가면 보통 <b>환불</b>받을 수 있습니다.",
+      "source": "inFranken·produktwarnung",
+      "read": 2,
+      "url": "https://www.infranken.de/ratgeber/verbraucher/oekoland-leberwurst-rueckruf-metall-metallstueckchen-fremdkoerper-verletzungen-art-6411038",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "policy",
+      "head": "2027년 연방예산, 예산위 통과",
+      "desc": "연방하원 예산위원회가 밤샘 심사 뒤 13일 2027년 예산안을 의결했습니다. 투자 예산은 정부안보다 55억8천만 유로 늘어난 618억5천만 유로입니다. 본회의 표결만 남았습니다.",
+      "interp": "설탕세 연기 등 생활과 닿는 항목은 <b>본회의 표결</b> 뒤 확정됩니다. 지원금·공제 변화는 확정 발표를 보고 <b>내년 가계</b> 계획에 반영하세요.",
+      "source": "연방하원",
+      "read": 3,
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw46-pa-haushalt-1231890",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "19일 수능 듣기 시간, 항공 이착륙 조정",
+      "desc": "19일 수능 영어 듣기평가 시간인 오후 1시 10분부터 35분까지 항공기 이착륙이 조정됩니다. 이 시간 한국 도착·출발편은 늦어질 수 있습니다. 군 훈련도 잠시 멈춥니다.",
+      "interp": "19일 한국행이나 국내선 일정이 있다면 항공사의 <b>운항 시간 변경</b> 안내를 확인하세요. 공항 연결편은 <b>여유 시간</b>을 두는 게 좋습니다.",
+      "source": "교육부·아주경제",
+      "read": 2,
+      "url": "https://www.korea.kr/news/customizedNewsView.do?newsId=148973935",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "policy",
+      "head": "재외공관서 1종 면허 갱신·국제면허 신청",
+      "desc": "이달 2일부터 188개 재외공관에서 1종 보통 운전면허 갱신과 국제운전면허 신청을 받습니다. 전에는 2종 갱신과 재발급만 됐습니다. 면허는 국내에서 발급해 공관으로 보내 줍니다.",
+      "interp": "1종 갱신은 <b>2년 안의 국내 건강검진</b> 기록이 있어야 합니다. 필요한 서류는 <b>재외동포365민원포털</b>에서 먼저 확인하세요.",
+      "source": "재외동포청·경찰청",
+      "read": 2,
+      "url": "https://www.koreancenter.or.kr/news/articleView.html?idxno=1432828",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [
+        {
+          "term": "국제운전면허",
+          "explain": "외국에서 일정 기간 운전할 수 있도록 국내 면허를 근거로 내주는 증명서"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "EU, 우크라이나 협상 대표단 구성 합의",
+      "desc": "EU 정상들이 13일 더블린 회의에서 우크라이나 평화협상 대표단을 꾸리기로 했습니다. 인공지능 기가팩토리 7곳에 300억 유로 투입안도 논의했습니다. 제재안은 26일 다룹니다.",
+      "interp": "협상 결과에 따라 <b>에너지 가격</b>과 대러 제재 범위가 달라질 수 있습니다. 러시아 쪽 송금·거래가 있다면 <b>제재 목록</b>을 확인하세요.",
+      "source": "Irish Times·APA",
+      "read": 3,
+      "url": "https://www.irishtimes.com/politics/2026/11/13/europe-summit-meeting-dublin-traffic-disruption/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "기가팩토리",
+          "explain": "인공지능 학습용 초대형 연산 설비를 모은 시설"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "stocks",
+      "head": "유럽증시 또 최고, 6월 이후 최대 주간 상승",
+      "desc": "유럽 스톡스600 지수가 13일 664.14로 또 사상 최고치에 마감했습니다. 주간 상승률은 약 2.4%로 6월 이후 최대입니다. 은행주가 4% 넘게 오르며 상승을 이끌었습니다.",
+      "interp": "같은 날 기술주는 1.3% 내려 <b>업종별 차이</b>가 커졌습니다. 유럽 상장지수펀드를 가진 분은 한 업종에 쏠리지 않았는지 <b>비중</b>을 점검하세요.",
+      "source": "Reuters 인용·Business Recorder",
+      "read": 2,
+      "url": "https://www.brecorder.com/news/40448833/european-shares-end-best-week-since-june-on-strong-earnings",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "스톡스600",
+          "explain": "유럽 대형·중형주 600개로 만든 대표 주가지수"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "미국 관제 통신 장애, 4시간 이륙 중단",
+      "desc": "13일 오후 관제 통신 장애로 미 연방항공청이 전국 이륙을 4시간 넘게 멈췄습니다. 지연 1만 편, 결항 4천 편이 넘었습니다. 당국은 사이버 공격 흔적은 없다고 밝혔습니다.",
+      "interp": "주말에도 연쇄 지연이 이어질 수 있으니 출발 전 <b>항공사 앱</b>에서 운항 상태를 확인하세요. 결항되면 <b>환불·재예약</b> 조건을 챙기세요.",
+      "source": "Al Jazeera·워싱턴포스트",
+      "read": 3,
+      "url": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "연방항공청",
+          "explain": "미국 민간 항공 운항과 관제를 맡는 정부 기관"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "관제 마비 여파, 미국 항공주 하락",
+      "desc": "13일 마감 직전 이륙 중단 소식에 뉴욕 항공주 지수가 1.4% 내렸습니다. 시간외 거래에서 유나이티드·델타도 1% 넘게 더 밀렸습니다. 주말 결항 규모가 다음 주 변수입니다.",
+      "interp": "항공·여행주를 가진 분은 월요일 개장 전 <b>결항 집계</b>와 항공사 발표를 확인하세요. 단기 급락에 따라붙는 <b>추격 매매</b>는 조심하세요.",
+      "source": "Yahoo Finance·Investing.com",
+      "read": 2,
+      "url": "https://finance.yahoo.com/markets/article/faa-lifts-ground-stop-flights-airline-stocks-fall-015910724.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "시간외 거래",
+          "explain": "정규 장이 끝난 뒤 따로 열리는 주식 거래 시간"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "health",
+      "head": "오바마케어 가입 중, 보험료 평균 13%↑",
+      "desc": "2027년 오바마케어 가입이 진행 중이며 기준 실버 플랜 보험료가 평균 13% 오릅니다. 1월 1일 보장은 대부분 주가 12월 15일 마감입니다. 추가 보조금은 종료됐습니다.",
+      "interp": "자동 갱신만 믿지 말고 <b>healthcare.gov</b>에서 새 요금과 보조금을 비교하세요. 주 자체 거래소는 <b>마감일</b>이 달라 따로 확인하세요.",
+      "source": "KFF·ABC",
+      "read": 3,
+      "url": "https://kff.org/affordable-care-act/9-things-to-watch-for-the-2027-aca-open-enrollment-period/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "오바마케어",
+          "explain": "미국 건강보험개혁법에 따른 개인용 건강보험 장터"
+        },
+        {
+          "term": "실버 플랜",
+          "explain": "오바마케어 보험 등급 중 보조금 계산의 기준이 되는 중간 등급"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "중국 무비자 연말 만료, 연장 발표 아직",
+      "desc": "한국인 30일 중국 무비자 입국은 12월 31일까지만 확정돼 있습니다. 지난해엔 11월 3일 연장을 발표했지만 올해는 아직 없습니다. 슬로바키아 정부만 유지 의사를 전했습니다.",
+      "interp": "내년 초 중국에 갈 계획이면 <b>현지 중국대사관</b> 공지를 수시로 확인하세요. 연장이 없으면 <b>비자 발급</b> 기간을 감안해 일정을 잡으세요.",
+      "source": "VisasNews·China Easy Mode",
+      "read": 2,
+      "url": "https://visasnews.com/en/could-china-extend-its-30-day-visa-free-policy-through-2027/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
