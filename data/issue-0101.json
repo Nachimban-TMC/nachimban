@@ -1,0 +1,462 @@
+{
+  "number": 101,
+  "date": "2026-11-16",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "가스 저장 58%, 석탄발전 비상법 추진",
+      "desc": "독일 가스 저장률이 11일 58.5%로 예년보다 낮습니다. 경제부는 비상시 석탄·석유 예비발전소를 다시 돌리는 법안 초안을 마련했습니다. 혹한이면 1월부터 부족 우려가 있습니다.",
+      "interp": "당장 난방 제한은 없지만 <b>난방비 정산</b>이 오를 수 있습니다. 실내 온도를 조금 낮추고 공급사 요금 통지를 꼭 확인하세요.",
+      "source": "베를리너 차이퉁·타게스슈피겔",
+      "read": 3,
+      "url": "https://www.berliner-zeitung.de/article/deutschland-geht-das-gas-aus-jetzt-sollen-kohle-und-oel-den-winter-retten-10595160",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "예비발전소",
+          "explain": "가스가 부족할 때만 돌리도록 대기시켜 둔 석탄·석유 발전소"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "자동차보험 갈아타기, 30일까지 도착",
+      "desc": "자동차보험은 대부분 12월 31일 만기라 해지 통지가 30일까지 도착해야 합니다. 보낸 날이 아닌 받은 날 기준입니다. 보험료가 올랐다면 한 달 안에 특별해지도 할 수 있습니다.",
+      "interp": "먼저 새 보험에 가입한 뒤 해지하고, 기존 보험사에서 <b>무사고 등급</b> 확인서를 받아 두세요. 같은 보장 조건으로 비교하세요.",
+      "source": "니더작센 소비자센터",
+      "read": 3,
+      "url": "https://www.verbraucherzentrale-niedersachsen.de/wissen/geld-versicherungen/weitere-versicherungen/kfzversicherung-2026-vergleichen-bis-30-november-wechseln-und-beitraege-sparen-119983",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "특별해지",
+          "explain": "보험료 인상 같은 사유가 생겼을 때 만기 전에 계약을 끊을 수 있는 권리"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "travel",
+      "head": "12월 13일 새 열차시간표, 운임 동결",
+      "desc": "도이체반은 12월 13일 시간표 개편 때 장거리 운임을 올리지 않습니다. 할인·정가 운임과 반카드 25·50·100 가격이 그대로입니다. 연말 열차표는 이미 예매할 수 있습니다.",
+      "interp": "시간표가 바뀌면 같은 노선이라도 출발 시각이 달라질 수 있습니다. 13일 이후 표는 <b>앱에서 다시 확인</b>하고 일찍 예매하세요.",
+      "source": "ZDF·도이체반",
+      "read": 3,
+      "url": "https://www.zdfheute.de/politik/deutschland/bahn-fernverkehr-tickets-preise-100.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "반카드",
+          "explain": "도이체반 운임을 25~100% 깎아 주는 연간 할인 카드"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "policy",
+      "head": "하일 전 장관, 사민당 대표 출마",
+      "desc": "후베르투스 하일 전 노동장관이 사민당 대표 선거에 처음 공식 출마를 선언했습니다. 바스 대표 사퇴로 지도부 전체를 새로 뽑으며, 클링바일 공동대표는 재출마를 밝히지 않았습니다.",
+      "interp": "사민당은 연립정부 파트너라 최저임금·연금 같은 <b>노동 정책</b> 방향에 영향을 줄 수 있습니다. 결과는 내년 1월 전당대회에서 정해집니다.",
+      "source": "ZDF",
+      "read": 2,
+      "url": "https://www.zdfheute.de/politik/deutschland/hubertus-heil-spd-partei-vorsitz-kandidatur-100.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "코스피 장중 3% 가까이 급락",
+      "desc": "16일 코스피가 외국인 매도에 장중 2.9% 넘게 떨어져 5,110선까지 밀렸습니다. 외국인이 1조 원 넘게 팔았고 반도체 대형주가 특히 약했습니다. 환율은 1,330원대입니다.",
+      "interp": "한국 주식을 빚을 내 샀다면 <b>담보 비율</b>을 지금 확인하세요. 환율은 큰 변동이 없어 송금 일정은 그대로 두셔도 됩니다.",
+      "source": "미디어펜·프리진경제",
+      "read": 2,
+      "url": "https://www.mediapen.com/news/view/1137638",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "policy",
+      "head": "이 대통령, 아세안·APEC 3박4일 순방",
+      "desc": "이재명 대통령이 16일 필리핀 마닐라로 출국해 한·아세안 정상회의에 참석합니다. 18~19일엔 중국 선전 APEC 정상회의에 가며, 트럼프 대통령과 만날지도 관심입니다.",
+      "interp": "마닐라·선전 교민은 정상 일정 기간 <b>교통 통제</b>가 있을 수 있습니다. 공관 공지를 확인하고 이동 시간을 넉넉히 잡으세요.",
+      "source": "한국일보·헤럴드경제",
+      "read": 2,
+      "url": "https://www.hankookilbo.com/news/article/A2026111608380000800",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "APEC",
+          "explain": "아시아태평양 21개 국가·지역이 모이는 경제협력체"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "겨울 재난대책 시작, 대설·한파 '관심'",
+      "desc": "정부가 15일부터 내년 3월 15일까지 겨울철 자연재난 대책기간을 운영합니다. 대설·한파 위기경보를 '관심' 단계로 냈고, 대설 재난문자는 전국 227개 시·군·구로 넓혔습니다.",
+      "interp": "연말연시에 한국을 방문하면 휴대전화 <b>재난문자</b> 수신을 켜 두세요. 해외 유심이라면 안전디딤돌 앱으로도 경보를 볼 수 있습니다.",
+      "source": "머니투데이방송·파이낸셜뉴스",
+      "read": 2,
+      "url": "https://news.mtn.co.kr/article/2026111110262558057",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "유럽 가스 저장, 2011년 이후 최저",
+      "desc": "유럽연합 가스 저장률이 11월 초 72%대로, 기록이 있는 2011년 이후 같은 시기 최저입니다. 목표는 90%지만 못 미칩니다. 추운 겨울이면 가스값이 뛸 수 있습니다.",
+      "interp": "가스 도매가는 몇 달 뒤 가정 요금에 반영됩니다. <b>고정요금 계약</b>이 언제 끝나는지 확인하고 갱신 조건을 미리 비교하세요.",
+      "source": "인텔리뉴스·엔지",
+      "read": 3,
+      "url": "https://www.intellinews.com/europe-s-heating-season-underway-as-gas-drawdowns-start-from-record-low-storage-481346",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "stocks",
+      "head": "골드만, 유럽 지수 목표 700으로",
+      "desc": "골드만삭스가 유럽 스톡스600 지수의 12개월 목표를 695에서 700으로 올렸습니다. 지수는 13일 664.14로 사상 최고였습니다. 보험·유틸리티가 오르고 반도체는 약했습니다.",
+      "interp": "같은 유럽 주식이라도 <b>업종별 흐름</b>이 갈리고 있습니다. 지수형 상품은 반도체 비중을 확인하고 한쪽 쏠림을 점검하세요.",
+      "source": "비즈니스 레코더(로이터)",
+      "read": 2,
+      "url": "https://www.brecorder.com/news/40448833/european-shares-end-best-week-since-june-on-strong-earnings",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "스톡스600",
+          "explain": "유럽 17개국 대형·중형주 600개로 만든 대표 주가지수"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "미국 항공 대란, 이틀간 1만2천 편 결항",
+      "desc": "13일 관제 통신 장애로 시작된 미국 항공 대란으로 금·토 이틀 동안 1만2,500여 편이 결항했습니다. 교통장관은 라우터 고장을 원인으로 들며 16일 완전 정상화를 예상했습니다.",
+      "interp": "추수감사절 여행 전 항공사 앱에서 <b>운항 여부</b>를 확인하세요. 결항됐는데 대체편을 거절하면 현금 환불을 요구할 수 있습니다.",
+      "source": "NBC·ABC",
+      "read": 3,
+      "url": "https://www.nbcnews.com/news/us-news/live-blog/live-updates-faa-lifts-ground-stops-airports-rcna609302",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "invest",
+      "head": "도매물가 6.5% 상승, 12월 인상 무게",
+      "desc": "미국 10월 생산자물가가 1년 새 6.5% 올라 4년 만에 최대입니다. 시장은 12월 8~9일 회의에서 금리 인상 확률을 약 90%로 봅니다. 대출 금리도 오를 수 있습니다.",
+      "interp": "변동금리 대출이 있다면 <b>고정금리 전환</b> 조건을 은행에 물어보세요. 달러 예금 금리도 인상 전후로 비교해 보세요.",
+      "source": "CNBC·CNN",
+      "read": 3,
+      "url": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "생산자물가",
+          "explain": "기업끼리 원자재·제품을 사고팔 때의 가격 변화를 재는 지표"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "투자이민 EB-5 수수료, 30일부터 2배",
+      "desc": "미국 투자이민(EB-5) 청원 수수료가 30일 접수분부터 오릅니다. 현재 3,675달러인 핵심 서류 I-526E 수수료가 두 배 넘게 뛰고, 75달러 기술수수료도 새로 붙습니다.",
+      "interp": "준비 중이라면 <b>우편 소인</b>이 29일 이전이어야 옛 수수료가 적용됩니다. 내년 1월 최소 투자액 조정도 함께 확인하세요.",
+      "source": "프래고먼·뉴스위크",
+      "read": 3,
+      "url": "https://www.fragomen.com/insights/uscis-final-rule-increases-eb-5-fees-effective-november-30.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "EB-5",
+          "explain": "미국에 정해진 금액을 투자해 일자리를 만들면 영주권을 주는 제도"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "이번 주 실적, 엔비디아·월마트",
+      "desc": "엔비디아가 17일 장 마감 뒤 실적을 냅니다. 경영진 교체 뒤 첫 발표로 매출 예상치는 약 1,090억 달러입니다. 홈디포 17일, 타깃 18일, 월마트 19일 실적도 나옵니다.",
+      "interp": "실적 발표 전후로 주가가 크게 출렁일 수 있습니다. 개별 종목과 지수펀드의 <b>엔비디아 비중</b>을 확인하고 급한 매매는 피하세요.",
+      "source": "언유주얼웨일즈·스톡타이탄",
+      "read": 2,
+      "url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-16-2026",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "중동 노선 중단, 내년 1월까지 연장",
+      "desc": "루프트한자가 두바이 운항 재개를 25일로 미뤘습니다. 영국항공은 리야드 노선을 내년 1월 11일까지, ITA는 두바이 노선을 1월 30일까지 멈춥니다. 연말 여행 차질이 큽니다.",
+      "interp": "중동 경유 항공권이 있으면 항공사에서 <b>변경·환불</b> 안내를 받았는지 확인하세요. 재개 날짜는 또 바뀔 수 있습니다.",
+      "source": "더 내셔널·fvw",
+      "read": 2,
+      "url": "https://www.thenationalnews.com/travel/2026/11/09/uae-dubai-abu-dhabi-flights-status/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "health",
+      "head": "아프리카 \"에볼라 아직 통제 안 돼\"",
+      "desc": "아프리카 질병통제센터가 15일 콩고 에볼라가 통제되지 않았다고 밝혔습니다. 확진 1만1,200여 명, 사망 5,500여 명이고 새 환자 80% 이상이 접촉자 명단 밖에서 나옵니다.",
+      "interp": "콩고와 인근 국가를 방문할 계획이면 <b>외교부 여행경보</b>를 확인하세요. 미국행은 해당 국가 체류자에게 추가 확인 절차가 있습니다.",
+      "source": "알자지라·미국 질병통제예방센터",
+      "read": 2,
+      "url": "https://www.aljazeera.com/news/2026/11/15/africa-cdc-says-ebola-outbreak-in-dr-congo-still-not-under-control",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
