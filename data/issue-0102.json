@@ -1,0 +1,449 @@
+{
+  "number": 102,
+  "date": "2026-11-17",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "베를린 디프테리아 역대 최다, 2명 숨져",
+      "desc": "베를린의 올해 디프테리아 확진이 8명으로 2001년 집계 이후 가장 많고 2명이 숨졌습니다. 7명은 노숙인 중심 집단감염입니다. 독일 전체 확진은 올해 46명입니다.",
+      "interp": "성인도 <b>10년마다 추가접종</b>이 권고됩니다. 마지막 파상풍·디프테리아 접종일을 <b>예방접종 수첩</b>에서 확인하세요.",
+      "source": "베를리너 차이퉁·t-online",
+      "read": 3,
+      "url": "https://www.berliner-zeitung.de/article/diphtherie-faelle-berlin-hoechststand-10597720",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "디프테리아",
+          "explain": "목이나 피부에 염증을 일으키는 세균 감염병, 백신으로 예방 가능"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "travel",
+      "head": "루프트한자 웹 체크인, 트래블 ID 필수",
+      "desc": "루프트한자 그룹이 앱·웹 체크인에 트래블 ID 계정을 의무화하고 있습니다. 뮌헨 출발은 16일부터, 프랑크푸르트는 30일부터입니다. 공항 카운터·무인기기는 계정 없이 됩니다.",
+      "interp": "출국 전 <b>트래블 ID</b>를 미리 만들어 두세요. 일행 중 한 명만 계정이 있어도 <b>모두 체크인</b>할 수 있습니다.",
+      "source": "루프트한자 그룹·비즈니스 트래블러",
+      "read": 2,
+      "url": "https://business.lufthansagroup.com/gb/en/program/experts/news/travel-id-now-required-for-online-check-in",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "트래블 ID",
+          "explain": "루프트한자·스위스·오스트리아항공 등 그룹 항공사 공통 온라인 고객 계정"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "housing",
+      "head": "케이블TV 특별해지권, 헌재 '합헌'",
+      "desc": "연방헌법재판소가 16일 세입자 케이블TV 계약 특별해지권에 대한 방송사업자들의 헌법소원을 기각했습니다. 관리비 일괄 부과는 2024년 7월 끝났고, 해지 보상 의무도 없습니다.",
+      "interp": "관리비에 <b>TV 요금</b>이 아직 들어 있는지 <b>관리비 정산서</b>에서 확인하세요. 방송 상품은 세입자가 직접 고를 수 있습니다.",
+      "source": "연방헌법재판소·dpa",
+      "read": 2,
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/DE/2026/bvg26-073.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "특별해지권",
+          "explain": "계약 기간이 남아도 법이 정한 사유로 바로 끝낼 수 있는 권리"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "고아시아 와사비 쌀과자 회수",
+      "desc": "아시아 식료품점 고아시아가 와사비 쌀과자 125g 제품을 회수합니다. 유해물질 글리시돌이 기준치를 넘었고, 유통기한 2027년 2~6월인 제품 일부가 대상입니다.",
+      "interp": "집에 있는 제품의 <b>유통기한</b>을 확인하세요. 고아시아 매장에 가져가면 <b>영수증 없이도</b> 환불받을 수 있습니다.",
+      "source": "베를린 식품감독청·monrose",
+      "read": 2,
+      "url": "https://monrose.de/2026/11/10/go-asia-wasabi-rice-crackers-rueckruf/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "글리시돌",
+          "explain": "식품을 고온 가공할 때 생길 수 있는 발암 의심 물질"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "코스피 나흘째 하락, 장중 5000 깨져",
+      "desc": "코스피가 16일 3.59% 내린 5100.50에 마감한 데 이어 17일 장중 5000선 아래로 내려갔습니다. 미국의 중국 인공지능 반도체 우회 사용 제한 우려가 겹쳤습니다.",
+      "interp": "한국 주식은 <b>원화 환율</b>까지 함께 봐야 실제 수익을 알 수 있습니다. 급락기에는 <b>신용 거래</b> 비중을 점검하세요.",
+      "source": "파이낸셜뉴스·코리아타임스",
+      "read": 2,
+      "url": "https://www.fnnews.com/news/202611170931045856",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "travel",
+      "head": "국제면허 받으면 나라별 유의사항 문자",
+      "desc": "16일부터 국제운전면허증을 받으면 방문국 사용 가능 여부와 주의사항, 필수 서류를 문자로 안내받습니다. 경찰청·재외동포청·도로교통공단이 함께 시작했습니다.",
+      "interp": "<b>사용 가능 국가</b>가 아니면 국제면허가 통하지 않습니다. 문자 링크로 연결되는 <b>재외공관 안내</b>를 꼭 확인하세요.",
+      "source": "재외동포청·경찰청",
+      "read": 2,
+      "url": "https://www.korea.kr/news/ministryNewsList.do?repCode=B00024",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "travel",
+      "head": "K-ETA 면제, 연말 끝나는데 연장 미정",
+      "desc": "독일·미국 등 22개국 국민의 한국 입국 전자여행허가(K-ETA) 면제가 12월 31일 끝납니다. 2027년 연장 여부는 아직 발표되지 않았습니다. 외국 국적 가족에 해당됩니다.",
+      "interp": "1월 이후 한국에 가는 <b>외국 국적 배우자·자녀</b>는 일정을 미리 점검하세요. 연장이 없으면 <b>K-ETA 신청</b>이 필요할 수 있습니다.",
+      "source": "EY·법무부",
+      "read": 2,
+      "url": "https://www.ey.com/en_gl/technical/tax-alerts/korea-extends-temporary-electronic-travel-authorization-exemption-until-31-december-2026",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "K-ETA",
+          "explain": "무비자로 오는 외국인이 출발 전 온라인으로 받는 한국 입국 허가"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "구글 지도, 한국서 길찾기 길 열려",
+      "desc": "정부가 13일 구글의 1대5000 정밀지도 반출 보안조건 이행을 확인했습니다. 구글은 이르면 내년 초 한국에서 자동차·도보 길찾기를 강화할 전망이지만 시점은 미정입니다.",
+      "interp": "당장 한국 방문 때는 <b>국내 지도 앱</b>도 받아 두세요. 외국 국적 가족도 <b>구글 지도</b>로 길을 찾을 날이 가까워졌습니다.",
+      "source": "이투데이·뉴데일리",
+      "read": 2,
+      "url": "https://www.etoday.co.kr/news/view/2647915",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "유럽 5개국, 르완다 송환센터 발표",
+      "desc": "독일·오스트리아·덴마크·네덜란드·그리스가 16일 빈에서 르완다에 송환센터를 두는 계획을 발표했습니다. 2027년 중반까지 망명 거부자 이송을 시작한다는 목표입니다.",
+      "interp": "<b>망명이 거부된 사람</b>이 대상이라 체류허가가 있는 한인과는 무관합니다. 독일 <b>사민당 반대</b>가 있어 실제 시행은 지켜봐야 합니다.",
+      "source": "유로뉴스·디 로컬",
+      "read": 3,
+      "url": "https://www.euronews.com/just-in",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "송환센터",
+          "explain": "망명이 거부된 사람을 본국 송환 전 제3국에 머물게 하는 시설"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "stocks",
+      "head": "유니크레디트, 코메르츠방크 인수 EU 승인",
+      "desc": "EU 집행위원회가 16일 이탈리아 유니크레디트의 독일 코메르츠방크 인수를 조건 없이 승인했습니다. 미국 연준 승인도 받아 의결권 절반가량을 확보할 전망입니다.",
+      "interp": "코메르츠방크 <b>계좌 조건 변경</b>은 아직 발표된 바 없습니다. 주주라면 <b>주식 교환 제안</b> 조건과 기한을 확인하세요.",
+      "source": "로이터·MLex",
+      "read": 2,
+      "url": "https://www.aol.com/articles/unicredit-wins-eu-approval-commerzbank-103548000.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "의결권",
+          "explain": "주주총회에서 회사 결정에 찬반을 표시할 수 있는 권리"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "앤트로픽 상장, 19일 나스닥 거래",
+      "desc": "인공지능 기업 앤트로픽이 18일 공모가를 정하고 19일 나스닥에서 종목코드 ANT로 거래를 시작할 예정입니다. 주식 8억2500만 주를 주당 70~78달러에 내놓습니다.",
+      "interp": "공모주는 <b>첫날 변동성</b>이 큽니다. 이용하는 증권사의 <b>공모 청약 가능 여부</b>와 수수료를 먼저 확인하세요.",
+      "source": "CNBC·트레이딩키",
+      "read": 3,
+      "url": "https://www.cnbc.com/2026/11/16/anthropic-ipo-date-price-range.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "공모가",
+          "explain": "상장 전에 일반 투자자에게 주식을 파는 가격"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "invest",
+      "head": "401(k) 납입 한도, 내년 2만5500달러",
+      "desc": "미국 국세청이 2027년 401(k) 납입 한도를 2만4500달러에서 2만5500달러로 올렸습니다. 50세 이상 추가 납입은 8500달러, 개인은퇴계좌는 7500달러 유지입니다.",
+      "interp": "1월 첫 급여 전에 <b>납입 비율</b>을 조정하면 늘어난 한도를 채울 수 있습니다. 회사 <b>복리후생 포털</b>을 확인하세요.",
+      "source": "미국 국세청·저널 오브 어카운턴시",
+      "read": 2,
+      "url": "https://www.journalofaccountancy.com/news/2026/nov/inflation-adjustments-to-retirement-account-limits-issued-for-2027/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "401(k)",
+          "explain": "미국 직장인이 급여 일부를 세금 혜택을 받으며 적립하는 퇴직연금"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "선전 APEC 18~19일, 보안·교통 통제",
+      "desc": "중국 선전에서 18~19일 APEC 정상회의가 열려 외지 차량 운행이 시간·구역별로 제한됩니다. 홍콩·선전 세관도 검사를 강화해 국경 통과가 늦어질 수 있습니다.",
+      "interp": "이번 주 선전·홍콩을 오가면 <b>국경 통과 시간</b>을 넉넉히 잡으세요. 검문이 잦으니 <b>여권</b>을 늘 지니세요.",
+      "source": "더 스탠더드·선전시 정부",
+      "read": 2,
+      "url": "https://www.thestandard.com.hk/news/article/347883/Cross-border-coordination-ramped-up-ahead-of-APEC-Economic-Leaders-Meeting-in-Shenzhen",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "APEC",
+          "explain": "아시아태평양 21개 회원국이 모이는 경제협력체"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "health",
+      "head": "케냐 에볼라 마지막 환자 퇴원",
+      "desc": "유럽질병예방통제센터는 11일 케냐 에볼라 집단감염의 마지막 치료 환자가 퇴원했다고 밝혔습니다. 나이지리아도 10월 20일 이후 새 환자가 없습니다. 콩고 동부 확산은 계속됩니다.",
+      "interp": "케냐는 한숨 돌렸지만 <b>콩고 동부</b>는 여전히 위험합니다. 아프리카 방문 전 <b>외교부 여행경보</b>를 꼭 확인하세요.",
+      "source": "유럽질병예방통제센터·알자지라",
+      "read": 2,
+      "url": "https://www.ecdc.europa.eu/en/public-health-events/2026-eip-00026/2026-11-11",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
