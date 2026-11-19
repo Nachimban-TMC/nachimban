@@ -1,0 +1,426 @@
+{
+  "number": 104,
+  "date": "2026-11-19",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "전기세 내년 최저로, 연료가 상한도 합의",
+      "desc": "연정이 18일 내년 1월부터 가정 포함 모든 전기세를 킬로와트시당 2.05센트에서 유럽 최저 0.1센트로 낮추기로 했습니다. 유류세 인하는 연말 끝나고 연료가 상한을 추진합니다.",
+      "interp": "3인 가구 기준 한 달 약 7.75유로가 줄어듭니다. 유류세 인하가 끝나는 <b>연말 전 주유</b>를 챙기고, 1월 전기요금 고지서를 확인하세요.",
+      "source": "ZDF · AktienCheck",
+      "read": 3,
+      "url": "https://www.zdfheute.de/politik/stromsteuer-senkung-beschlossen-100.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "연정",
+          "explain": "여러 정당이 함께 꾸린 연립 정부"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "labor",
+      "head": "기간제 최장 4년, 내각 통과",
+      "desc": "연방내각이 18일 사유 없는 기간제를 최장 4년, 연장 6회까지 허용하는 개정안을 의결했습니다. 연봉 약 18만 유로 이상은 해고보호도 완화됩니다. 연방의회 심의가 남았습니다.",
+      "interp": "2030년 말까지 맺는 계약에 적용될 예정입니다. 기간제로 일한다면 <b>계약 만료일</b>과 연장 횟수를 계약서에서 미리 확인해 두세요.",
+      "source": "연방정부 · 노동사회부",
+      "read": 3,
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/arbeitsrechtspaket-kabinett-2461564",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "해고보호",
+          "explain": "정당한 사유 없는 해고를 막는 독일 노동법상 보호 장치"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "pension",
+      "head": "연금보험료 내년 18.6% 그대로",
+      "desc": "연방내각이 18일 연금보고서를 의결했습니다. 내년 연금보험료율은 18.6%로 유지되고 연금 수준은 2031년까지 48%입니다. 언론은 내년 7월 인상률을 4.09%로 내다봅니다.",
+      "interp": "월급에서 떼는 연금보험료는 내년에도 같습니다. 연금을 받는다면 7월 인상률이 <b>봄에 확정</b>되니 그때 수령액 변화를 확인하세요.",
+      "source": "연방정부 · cash-online",
+      "read": 3,
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/rentenversicherungsbericht-2026-2461526",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "연금 수준",
+          "explain": "평균 임금 대비 표준 연금액의 비율"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "welfare",
+      "head": "친권법 개편, 가정폭력 땐 면접 제한",
+      "desc": "연방내각이 18일 친권·면접교섭 제도 개편안을 의결했습니다. 가정폭력이 있으면 면접교섭을 제한할 수 있다고 법에 밝히고 자녀의 의견권을 넓힙니다. 연방의회 심의가 남았습니다.",
+      "interp": "별거·이혼 중인 국제결혼 가정은 <b>양육 방식</b> 협의에 영향을 받을 수 있습니다. 아직 확정 전이니 진행 중인 사건은 변호사와 상의하세요.",
+      "source": "LTO · beck-aktuell",
+      "read": 3,
+      "url": "https://www.lto.de/recht/nachrichten/n/schutz-vor-haeuslicher-gewalt-kinderrechte-umgangsrecht-sorgerecht-kinder",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "면접교섭",
+          "explain": "따로 사는 부모가 자녀를 만나고 연락할 권리"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "한중 FTA 서비스·투자 협상 타결",
+      "desc": "이재명 대통령과 시진핑 주석이 18일 선전에서 34분간 회담했습니다. 8년 8개월 끈 한중 자유무역협정 서비스·투자 후속협상의 실질 타결을 선언하고 문화 교류도 넓힙니다.",
+      "interp": "중국에 진출한 기업과 콘텐츠 업계에 기회가 커질 수 있습니다. 한국인 <b>중국 무비자</b> 연장은 아직 발표 전이니 연말 여행 전 확인하세요.",
+      "source": "디지털타임스 · 서울신문",
+      "read": 3,
+      "url": "https://www.dt.co.kr/article/12095951",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "실질 타결",
+          "explain": "핵심 쟁점 합의를 마치고 세부 문구 정리만 남은 단계"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "travel",
+      "head": "12월 유류할증료 전 구간 인하",
+      "desc": "대한항공이 12월 발권분 한국 출발 국제선 유류할증료를 모두 내렸습니다. 런던·파리 등 유럽 구간은 편도 33만6400원으로 3만3700원 내리고, 뉴욕은 37만7800원입니다.",
+      "interp": "할증료는 탑승일이 아니라 <b>발권일</b> 기준입니다. 한국에서 출발하는 연말·새해 항공권이라면 12월 1일 이후 발권이 유리한지 따져 보세요.",
+      "source": "재경일보 · SBS Biz",
+      "read": 3,
+      "url": "https://news.jkn.co.kr/post/800194",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [
+        {
+          "term": "유류할증료",
+          "explain": "항공유 가격에 따라 항공권에 덧붙는 추가 요금"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "travel",
+      "head": "아시아나 예약, 대한항공 편명으로 전환",
+      "desc": "대한항공·아시아나 통합을 앞두고 아시아나 예약을 대한항공 편명으로 바꾸는 작업이 12월 3일까지 이어집니다. 변경·환불 창구는 16일까지 아시아나, 17일부터 대한항공입니다.",
+      "interp": "12월 17일 통합 뒤 탈 아시아나 표가 있다면 <b>바뀐 편명</b>을 앱에서 확인하세요. 마일리지는 탑승분 1대1, 제휴분 1대0.82로 바뀝니다.",
+      "source": "대한항공 · 헤럴드경제",
+      "read": 3,
+      "url": "https://www.koreanair.com/contents/footer/customer-support/notice/2026/2609-rservation-information",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "EU, 우크라이나에 450억 유로 대출안",
+      "desc": "EU 집행위원회가 18일 공동채무로 450억 유로 우크라이나 대출안을 냈습니다. 무기 250억, 민생 200억 유로이며 원금은 러시아 배상금으로 갚습니다. 정상회의에 오릅니다.",
+      "interp": "이자는 회원국이 나눠 내야 해 각국 <b>재정 논쟁</b>이 커질 수 있습니다. 슬로바키아·헝가리 등 4개국은 빠지겠다는 뜻을 보였습니다.",
+      "source": "Euronews · Irish Times",
+      "read": 3,
+      "url": "https://www.euronews.com/2026/11/18/eurobonds-are-back-as-brussels-unveils-new-support-loan-for-ukraine",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "공동채무",
+          "explain": "유럽연합이 회원국 공동 명의로 시장에서 빌리는 돈"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "stocks",
+      "head": "유럽증시 사흘째 하락, 은행 규제 변수",
+      "desc": "18일 유럽 스톡스600 지수가 1.03% 내린 644.05로 사흘째 떨어졌습니다. 광산·에너지주가 약했고, 유럽중앙은행은 다음 주 은행 최소 지급준비금 인상을 논의합니다.",
+      "interp": "지급준비금이 늘면 은행 수익이 줄 수 있어 <b>유럽 은행주</b>에 부담입니다. 관련 상장지수펀드를 갖고 있다면 다음 주 결과를 지켜보세요.",
+      "source": "Reuters · QNA",
+      "read": 3,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/european-shares-muted-tech-offsets-082501845.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "지급준비금",
+          "explain": "은행이 예금의 일정 비율을 중앙은행에 맡겨 두는 돈"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "추수감사절 여행 8150만 명, 요금 17%↑",
+      "desc": "미국자동차협회가 24~30일 추수감사절 연휴 여행객을 8150만 명으로 내다봤습니다. 3년 연속 최고 뒤 소폭 줄었습니다. 국내선 왕복 평균 요금은 17% 오른 800달러입니다.",
+      "interp": "여행객 대부분은 자동차로 움직입니다. 비행기를 탄다면 <b>항공사 앱</b>으로 지연 여부를 확인하고 평소보다 여유 있게 공항에 가세요.",
+      "source": "AAA · NewsChannel 9",
+      "read": 3,
+      "url": "https://newschannel9.com/news/nation-world/aaa-815-million-americans-expected-to-travel-for-thanksgiving-nearly-90-will-drive",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "미국자동차협회",
+          "explain": "명절 여행·유가 전망을 내는 미국 최대 운전자 단체(AAA)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "앤트로픽 공모가 83달러, 오늘 상장",
+      "desc": "앤트로픽이 18일 공모가를 희망 범위 70~78달러보다 높은 주당 83달러로 정했습니다. 813억 달러를 모아 역대 최대 공모입니다. 19일 나스닥에서 거래를 시작합니다.",
+      "interp": "상장 첫날은 주가 변동이 클 수 있습니다. 증권사 앱으로 사려면 <b>해외주식 거래</b> 신청 여부와 환전 수수료부터 확인하세요.",
+      "source": "CNBC · TechCrunch",
+      "read": 3,
+      "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "공모가",
+          "explain": "상장 전에 새 주식을 투자자에게 파는 가격"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "travel",
+      "head": "미국 관제 마비, 장비 교체 중 라우터 탓",
+      "desc": "13일 미국 전역 이륙 중단은 구리선을 광케이블로 바꾸던 중 라우터가 접속 요청을 쏟아내 생긴 것으로 조사됐습니다. 당국은 사이버공격 흔적이 없다며 해당 장비 설치를 멈췄습니다.",
+      "interp": "운항은 정상으로 돌아왔지만 원인은 아직 <b>최종 확인 전</b>입니다. 연휴에 국내선을 탄다면 출발 전 항공사 알림을 켜 두세요.",
+      "source": "Fortune · Yahoo News",
+      "read": 3,
+      "url": "https://fortune.com/2026/11/15/cyberattack-hack-faa-air-traffic-control-communications-router-fbi-probe-sean-duffy-ground-stop/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "라우터",
+          "explain": "통신망에서 데이터가 갈 길을 정해 주는 장비"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "미·중·러 정상 오늘 회동, 이란 전쟁 논의",
+      "desc": "트럼프 대통령이 18일 중국 선전에 도착했고 시진핑·푸틴 정상은 따로 만났습니다. 19일 3자 회동에서는 이란 전쟁과 핵무기를 다룹니다. 중국은 세계 평화를 논의한다고 했습니다.",
+      "interp": "회담 결과에 따라 중동 항공 노선과 <b>국제유가</b>가 움직일 수 있습니다. 중동 경유편을 예약했다면 항공사 운항 공지를 계속 확인하세요.",
+      "source": "Al Jazeera · Euronews",
+      "read": 3,
+      "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
