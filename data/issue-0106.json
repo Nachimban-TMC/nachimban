@@ -1,0 +1,469 @@
+{
+  "number": 106,
+  "date": "2026-11-21",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "금속노조, 8년 만에 24시간 경고파업",
+      "desc": "금속노조 IG메탈이 20일 8년 만에 24시간 경고파업에 들어갔습니다. 바이에른 BMW·아우디 공장과 북부 조선소가 사실상 멈췄습니다. 다음 주에도 파업이 이어질 전망입니다.",
+      "interp": "자동차·부품 업체나 협력사에 다닌다면 <b>근무 일정</b>을 회사에 확인하세요. 파업 여부는 사업장별 투표로 정해지니 <b>사내 공지</b>를 챙기세요.",
+      "source": "The Local·dpa",
+      "read": 3,
+      "url": "https://www.thelocal.de/20261120/today-in-germany-a-roundup-of-the-latest-news-on-friday-149",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "경고파업",
+          "explain": "협상 중 압박을 위해 짧게 벌이는 독일식 시한부 파업"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "policy",
+      "head": "운전면허 개혁, 연방참사원 통과",
+      "desc": "연방참사원이 20일 운전면허 개혁법을 통과시켰습니다. 이론 수업 출석 의무가 없어져 앱으로 공부할 수 있고, 가족과 연습 주행도 허용됩니다. 대부분 2027년 7월 시행됩니다.",
+      "interp": "운전학원 등록을 앞뒀다면 <b>2027년 7월</b> 이후 비용이 줄지 비교해 보세요. 한국 면허가 있다면 먼저 <b>면허 교환</b> 가능 여부를 확인하세요.",
+      "source": "연방참사원·beck-aktuell",
+      "read": 3,
+      "url": "https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1070/62.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "연방참사원",
+          "explain": "독일 16개 주 정부 대표로 구성된 입법 기관"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "pension",
+      "head": "아이 연금 월 10유로, 최종 확정",
+      "desc": "연방참사원이 20일 아이 연금인 프뤼스타트렌테법을 승인했습니다. 2027년부터 2020년 이후 출생 아동에게 6~18세 동안 매달 10유로를 넣어 줍니다. 신청은 필요 없습니다.",
+      "interp": "독일에 <b>주소 등록</b>된 아이가 대상이니 전입신고 상태를 확인하세요. 찾는 시점은 65세 이후라 <b>계좌 안내</b> 우편을 잘 보관하세요.",
+      "source": "연방참사원·독일연금보험",
+      "read": 3,
+      "url": "https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1070/04.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "프뤼스타트렌테",
+          "explain": "국가가 아동 명의 투자계좌에 매달 돈을 넣어 주는 독일 조기 노후 적립 제도"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "health",
+      "head": "공보험 의무 기준, 내년 연 8만4150유로",
+      "desc": "연방참사원이 20일 2027년 사회보험 기준액을 승인했습니다. 공보험 의무 소득 기준이 연 7만7400유로에서 8만4150유로로 오르고, 보험료 산정 상한은 월 6375유로입니다.",
+      "interp": "민간보험 전환을 생각했다면 내년 연봉이 <b>8만4150유로</b>를 넘는지 계산해 보세요. 고소득 직장인은 내년 <b>건강보험료</b>가 오를 수 있습니다.",
+      "source": "연방참사원·연방정부",
+      "read": 3,
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/beitragsbemessungsgrenzen-2027-2454638",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "보험료 산정 상한",
+          "explain": "보험료를 매길 때 반영하는 월 소득의 최고 한도"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "health",
+      "head": "응급진료 개편법 확정, 116117 둘로",
+      "desc": "연방참사원이 20일 응급진료 개편법을 통과시켰습니다. 의료상담 번호 116117이 진료 예약과 급성 환자 상담으로 나뉘고, 급성 환자는 24시간 전화·화상 상담을 받습니다.",
+      "interp": "밤이나 주말에 아프면 응급실에 가기 전에 <b>116117</b>에 먼저 전화해 보세요. 생명이 위급할 때는 지금처럼 <b>112</b>를 누르면 됩니다.",
+      "source": "연방참사원·연방보건부",
+      "read": 3,
+      "url": "https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1070/06.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "116117",
+          "explain": "독일 전역에서 쓰는 외래 당직 의료상담 전화번호"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "코스피 5.2% 폭락, 4869로 마감",
+      "desc": "20일 코스피가 5.21% 내린 4869.96, 코스닥은 5.71% 내린 645.68에 마감했습니다. 외국인이 1조1320억 원을 순매도했고, 환율은 1336.2원으로 올랐습니다.",
+      "interp": "한국 주식을 가진 분은 급히 팔기보다 <b>보유 비중</b>을 차분히 점검하세요. 원화가 약해져 <b>한국 송금</b>은 유로·달러 기준으로 다소 유리합니다.",
+      "source": "베타뉴스·뉴스1",
+      "read": 3,
+      "url": "https://www.betanews.net/article/view/beta202611200165",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [
+        {
+          "term": "순매도",
+          "explain": "판 금액이 산 금액보다 많은 상태"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "pension",
+      "head": "해외 연금수급자, 서류 제출 줄어",
+      "desc": "국민연금공단이 10월 30일부터 해외수급자 수급권 확인 서비스를 시행했습니다. 출입국 사실증명·재외국민등록부 등본 등 4종을 공단이 직접 확인합니다. 홈페이지와 앱에서 신청합니다.",
+      "interp": "해외에서 국민연금을 받는다면 <b>내 곁에 국민연금</b> 앱에서 신청해 두세요. 매년 6월 내던 <b>수급권 확인</b> 서류 부담이 줄어듭니다.",
+      "source": "브라보마이라이프·헤럴드",
+      "read": 3,
+      "url": "https://bravo.etoday.co.kr/view/atc_view/20472",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "수급권",
+          "explain": "연금을 받을 수 있는 법적 자격"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "life",
+      "head": "농협, 재외국민용 인증서 시작",
+      "desc": "NH농협은행이 국내 휴대전화 번호 없이 받는 재외국민용 NH인증서 서비스를 시작한다고 16일 밝혔습니다. NH올원뱅크 앱에서 전자여권 확인과 얼굴 촬영으로 발급합니다.",
+      "interp": "한국 번호를 해지해 <b>본인인증</b>이 막혔다면 이 인증서를 써 보세요. 쓸 수 있는 사이트는 기관마다 다르니 <b>연계 여부</b>를 먼저 확인하세요.",
+      "source": "비즈니스코리아·재외동포청",
+      "read": 3,
+      "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=281355",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "전자여권",
+          "explain": "개인정보를 담은 칩이 들어 있는 여권"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "러시아 미사일, 폴란드 땅에 떨어져",
+      "desc": "20일 러시아의 우크라이나 공습 중 미사일 2발과 드론이 폴란드 남동부에 떨어졌습니다. 다친 사람은 없었습니다. 투스크 총리는 의도된 도발, 나토는 중대한 침범이라고 했습니다.",
+      "interp": "폴란드 동부를 오간다면 <b>공습경보</b> 때 대피 요령을 미리 알아 두세요. 현지에 머무는 분은 <b>대사관 공지</b>를 수시로 확인하세요.",
+      "source": "France 24·PBS",
+      "read": 3,
+      "url": "https://www.france24.com/en/europe/20261120-poland-says-russian-missile-hit-its-territory-during-attack-on-ukraine",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "나토",
+          "explain": "미국·유럽 등 32개국이 맺은 북대서양 군사 동맹"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "travel",
+      "head": "이탈리아 오늘 관제 파업, 내일 말펜사도",
+      "desc": "이탈리아 항공관제사들이 21일 오후 1~5시 전국 파업을 벌입니다. 22일에는 밀라노 말펜사 공항 24시간 파업이 예고됐습니다. 오전 7~10시, 오후 6~9시 편은 보장됩니다.",
+      "interp": "이탈리아행 항공권이 있다면 <b>항공사 앱</b>에서 운항 여부를 확인하세요. 결항되면 EU 규정에 따라 <b>대체편이나 환불</b>을 요구할 수 있습니다.",
+      "source": "The Flight Club·Missionline",
+      "read": 3,
+      "url": "https://www.theflightclub.it/2026/11/sciopero-aereo-domenica-22-novembre-aeroporti-voli-garantiti/amp/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "항공관제사",
+          "explain": "공항과 하늘에서 비행기 이착륙과 항로를 지시하는 사람"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "invest",
+      "head": "유럽중앙은행, AI 주가 급락 위험 경고",
+      "desc": "유럽중앙은행이 18일 금융안정보고서에서 AI 기업 주가가 높은 기대에 기대고 있어 급격한 조정에 취약하다고 경고했습니다. 이틀 뒤 유럽 증시도 기술주 중심으로 크게 내렸습니다.",
+      "interp": "AI·반도체 <b>상장지수펀드</b> 비중이 크다면 분산 상태를 점검하세요. 레버리지 상품은 급락기에 <b>손실이 더 커집니다</b>.",
+      "source": "유럽중앙은행·프랑스은행",
+      "read": 3,
+      "url": "https://www.banque-france.fr/en/press-release/risks-ai-valuations-fiscal-imbalances-and-geoeconomic-tensions-weigh-financial-stability-outlook",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "금융안정보고서",
+          "explain": "중앙은행이 금융시장 위험 요인을 점검해 1년에 두 번 내는 보고서"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "뉴욕증시 조정 진입, 나스닥 5.3%↓",
+      "desc": "20일 S&P500이 3.7%, 나스닥이 5.3%, 다우가 1.9% 내렸습니다. S&P500은 고점보다 10% 넘게 빠져 조정 국면입니다. 엔비디아도 10% 넘게 급락했습니다.",
+      "interp": "미국 주식을 가진 분은 변동성이 큰 때라 <b>서두른 매매</b>는 피하세요. 연말 전 손실 확정을 한다면 <b>워시세일 규정</b>을 먼저 확인하세요.",
+      "source": "Motley Fool·AP",
+      "read": 3,
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-20-223513707.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "조정 국면",
+          "explain": "주가가 최고점보다 10% 이상 떨어진 상태"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "추수감사절 26일 휴장, 27일 조기 마감",
+      "desc": "뉴욕증권거래소가 추수감사절인 26일 하루 문을 닫습니다. 27일에는 동부시간 오후 1시에 조기 마감하며, 채권시장은 오후 2시에 끝납니다. 독일 시간으로는 오후 7시입니다.",
+      "interp": "다음 주 미국 주식 주문은 <b>휴장일</b>을 피해 넣으세요. 27일에는 독일 시간 <b>오후 7시</b>에 장이 닫히니 예약 주문 시간을 확인하세요.",
+      "source": "뉴욕증권거래소·피델리티",
+      "read": 3,
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "조기 마감",
+          "explain": "평소보다 이른 시각에 거래를 끝내는 것"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "에스토니아, 12월 1일 러시아 국경 폐쇄",
+      "desc": "에스토니아가 12월 1일부터 러시아와 맞닿은 도로 검문소 3곳을 모두 닫습니다. 드론 업체 방화 시도 배후로 러시아 정보기관을 지목했습니다. 탈린~모스크바 버스도 끊길 전망입니다.",
+      "interp": "발트 3국을 거쳐 러시아를 오갈 계획이면 <b>다른 경로</b>를 찾아 두세요. 폐쇄 기간은 정해지지 않았으니 <b>현지 공지</b>를 확인하세요.",
+      "source": "Al Jazeera·Meduza",
+      "read": 3,
+      "url": "https://www.aljazeera.com/news/2026/11/15/estonia-to-close-border-crossings-with-russia-after-attack-on-drone-maker",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "검문소",
+          "explain": "국경에서 사람과 차량의 출입을 확인하는 곳"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
