@@ -1,0 +1,123 @@
+<!doctype html><html lang="ko"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>찡곰툰 업로드 · EP21</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-font-smoothing:antialiased}
+:root{
+  --kr:"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --paper:#F0DDC6; --ink:#2A2119; --soft:#6B5B49; --faint:#9C8B76;
+  --line:#D8C4A8; --panel:#F7EEE0; --bg:#FBF6EE;
+}
+body{font-family:var(--kr);color:var(--ink);background:var(--bg);line-height:1.6;
+  max-width:660px;margin:0 auto;padding:20px 16px 70px}
+.hd{border-bottom:3px solid var(--ink);padding-bottom:12px;margin-bottom:6px}
+.hd h1{font-size:23px;font-weight:800;letter-spacing:-.02em}
+.hd .sub{color:var(--faint);font-size:13px;margin-top:3px}
+h2{font-size:15px;font-weight:800;margin:28px 0 5px}
+.note{font-size:13px;color:var(--soft);margin-bottom:11px}
+.grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}
+.grid a{display:block;position:relative;text-decoration:none}
+.grid img{width:100%;aspect-ratio:4/5;object-fit:cover;background:var(--paper);
+  border:1px solid var(--line);border-radius:5px;display:block}
+.grid a.fallback{display:flex;align-items:center;justify-content:center;
+  aspect-ratio:4/5;background:var(--paper);border:1px dashed var(--line);border-radius:5px}
+.grid .fb{font-size:12px;font-weight:700;color:var(--soft);text-align:center;line-height:1.5}
+.grid .i{position:absolute;top:5px;left:5px;background:rgba(42,33,25,.85);color:#fff;
+  font-size:11px;font-weight:700;padding:2px 7px;border-radius:99px}
+.cap{background:var(--panel);border:1px solid var(--line);border-radius:8px;
+  padding:14px;font-size:14px;white-space:pre-wrap;word-break:break-word;margin-top:8px}
+button{font-family:inherit;font-size:14px;font-weight:700;border:0;border-radius:99px;
+  background:var(--ink);color:var(--bg);padding:11px 18px;margin-top:10px;cursor:pointer}
+button:active{opacity:.7}
+.tip{font-size:12px;color:var(--faint);margin-top:10px}
+.ep{margin-top:34px;padding-top:16px;border-top:1px solid var(--line)}
+.ep h3{font-size:14px;font-weight:800;margin-bottom:8px}
+@media(prefers-color-scheme:dark){
+  :root{--bg:#141210;--panel:#1e1b18;--line:#3a332c;--ink:#EFE7DA;--soft:#B5A794;--faint:#8B7F6E}
+}
+</style></head><body>
+
+<div class="hd">
+  <h1>찡곰툰 업로드</h1>
+  <div class="sub">EP21 · 태교여행을 떠나요 (3) 청수사 편 · 20컷 (4:5)</div>
+</div>
+
+<h2>컷 이미지</h2>
+<div class="note">이미지를 <b>길게 눌러 저장</b>하거나 아래 <b>전체 한번에 저장</b> 버튼을 누르세요. 번호 순서대로 저장하면 캐러셀 순서가 맞습니다.</div>
+<div class="grid" id="grid"></div>
+<button id="all" onclick="saveAll(this)">전체 한번에 저장</button>
+
+<h2>캡션</h2>
+<div class="cap" id="cap"></div>
+<button onclick="cp(CAP,this)">캡션 복사</button>
+
+<h2>첫 댓글용 해시태그</h2>
+<div class="cap" id="tag"></div>
+<button onclick="cp(TAG,this)">해시태그 복사</button>
+
+<p class="tip">에피소드가 추가되면 이 페이지가 갱신됩니다. · <a href="../" style="color:inherit">최신 편</a> · <a href="../ep20/" style="color:inherit">EP20</a> · <a href="../ep19/" style="color:inherit">EP19</a> · <a href="../ep18/" style="color:inherit">EP18</a> · <a href="../ep17/" style="color:inherit">EP17</a> · <a href="../ep16/" style="color:inherit">EP16</a> · <a href="../ep15/" style="color:inherit">EP15</a> · <a href="../ep14/" style="color:inherit">EP14</a> · <a href="../ep13/" style="color:inherit">EP13</a></p>
+
+<script>
+var BASE="https://d8j0ntlcm91z4.cloudfront.net/user_3GECC5TtJ9AV8a30xaCCexmEilq/";
+var CUTS=[
+ ["hf_20261112_001602_7efca290-fef3-4b14-a7b4-fd5b1dde4406.png", "제목"],
+ ["hf_20261112_094328_8e9f179d-2155-4c63-bfaa-cb356033643d.png", "짐 맡기기"],
+ ["hf_20261112_001613_695affbb-6c6d-42be-931a-935570df5b26.png", "어제와 오늘"],
+ ["hf_20261112_155140_a054512c-0fd9-49ba-a727-030d10984265.png", "오르막 영차"],
+ ["hf_20261112_154109_26db4432-2bc5-4049-9234-64dc7f2d4185.png", "수학여행 어린이"],
+ ["hf_20261116_071018_127144d0-7b29-45b7-b8d8-0fc5ef0c1c70.png", "행렬 이동"],
+ ["hf_20261117_111308_4e42315b-4363-49a2-9984-87c461956dab.png", "운세뽑기"],
+ ["hf_20261117_111443_2499f4a7-7f8c-40e1-ac91-09d6da4c07bb.png", "이치방"],
+ ["hf_20261117_111448_eb991935-c3b3-48e4-b9c7-a1bf8f4033f7.png", "쳇선생"],
+ ["hf_20261118_145733_6877e69b-eefe-4663-9693-d4b9495b5231.png", "길·대길"],
+ ["hf_20261118_135331_af549708-97ce-4667-bbda-81d9209d021d.png", "이치방 회상"],
+ ["/zzing/ep21/EP21_12.png", "흉이 나오면"],
+ ["hf_20261112_001507_0b478bd8-16a7-4bc3-8240-056bf9977f03.png", "삼중탑 사진"],
+ ["/zzing/ep21/EP21_14.png", "청수사 외전"],
+ ["/zzing/ep21/EP21_15.png", "꿈쩍 않는 석장"],
+ ["/zzing/ep21/EP21_16.png", "작은 창·철나막신"],
+ ["hf_20261119_004428_7bdaa744-8889-4f14-a644-eee332893fe8.png", "하아아아"],
+ ["hf_20261120_012944_40811307-b839-4914-9ee2-3ebafe34fc25.png", "살짝 들렸지만"],
+ ["hf_20261119_004438_78ea7d0d-4d2c-40b3-a451-9ec711662e91.png", "실패"],
+ ["/zzing/ep21/EP21_20.png", "4편에 계속"]
+];
+var g=document.getElementById('grid');
+function U(f){return f.indexOf('/')>=0?f:BASE+f;}
+CUTS.forEach(function(c,i){
+  var n=String(i+1).padStart(2,'0');
+  var a=document.createElement('a');
+  a.href=U(c[0]); a.target="_blank"; a.rel="noopener";
+  a.setAttribute('download','EP21_'+n+'.png');
+  a.innerHTML='<span class="i">'+n+'</span><img src="'+U(c[0])+'" alt="'+c[1]+'" onerror="this.style.display=\'none\';this.parentNode.classList.add(\'fallback\');this.parentNode.insertAdjacentHTML(\'beforeend\',\'<span class=&quot;fb&quot;>'+c[1]+'<br>열기 →</span>\')">';
+  g.appendChild(a);
+});
+
+var CAP="태교여행 3일차, 교토 청수사 🇯🇵\n\n✔️ 아침 일찍 체크아웃하고 짐은 호텔에 맡긴 뒤 버스로 청수사로 🚌\n가는 길이 계속 오르막이라 임산부 와이프는 뒤에서 밀어주며 영차영차\n\n✔️ 입구는 수학여행 온 일본 어린이들로 북적북적\n행렬에 실려 그대로 청수사 무대까지 😂\n\n✔️ 운세뽑기! 와이프는 길, 나는 대길\n스님(?)이 크게 외친 게 \"이치방!\"이었다 후후후\n\n💡 일본 절·신사에선 흉이 나오면 보통 묶어두고 가지만\n청수사 운세 종이엔 \"나무에 묶지 말고 가져가세요\"라고 적혀 있어요\n\n✔️ 청수사 외전\n벤케이가 썼다고 전해지는 90kg 석장 들어 올리기 도전 💪\n살짝 들렸지만… 실패\n다음엔 운동하고 꼭 다시 온다 (미련)\n\n4편에 계속 ✈️\n\n#임신툰 #부부툰 #태교여행 #교토여행 #예비아빠";
+var TAG="#임신일기 #태교 #교토 #청수사 #기요미즈데라 #오미쿠지 #벤케이 #곰과물개 #donyfilm #손그림웹툰 #그림일기";
+document.getElementById('cap').textContent=CAP;
+document.getElementById('tag').textContent=TAG;
+
+var EP='EP21', FILES=null;
+async function saveAll(b){
+  if(!FILES){ // 1단계: 다 받아두기 (아이폰은 공유창을 바로 띄워야 해서 미리 받는다)
+    b.disabled=true; var done=0;
+    FILES=await Promise.all(CUTS.map(function(c,i){
+      return fetch(U(c[0])).then(function(r){return r.blob();}).then(function(bl){
+        b.textContent='받는 중 '+(++done)+'/'+CUTS.length;
+        return new File([bl],EP+'_'+String(i+1).padStart(2,'0')+'.png',{type:'image/png'});});
+    }));
+    b.disabled=false;
+  }
+  if(navigator.canShare&&navigator.canShare({files:FILES})){
+    b.textContent='눌러서 사진에 저장';
+    if(b.dataset.ready){ try{await navigator.share({files:FILES});}catch(e){} }
+    b.dataset.ready=1; return;
+  }
+  // 컴퓨터: 한 장씩 연속 다운로드
+  for(var f of FILES){var a=document.createElement('a');a.href=URL.createObjectURL(f);a.download=f.name;a.click();await new Promise(function(r){setTimeout(r,300);});}
+  b.textContent='저장 완료 ✓';
+}
+function cp(t,b){navigator.clipboard.writeText(t).then(function(){
+  var o=b.textContent;b.textContent='복사됨 ✓';setTimeout(function(){b.textContent=o},1500);});}
+</script></body></html>
