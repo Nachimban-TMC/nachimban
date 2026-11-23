@@ -1,0 +1,499 @@
+{
+  "number": 108,
+  "date": "2026-11-23",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "금속노조 파업 이번 주도, 수요일 교섭",
+      "desc": "금속노조의 24시간 파업이 이번 주도 이어집니다. 노조는 5% 인상을, 사용자는 1% 일시금과 이듬해 1.3%를 제시했습니다. 벤너 위원장은 수요일 교섭 진전을 요구했습니다.",
+      "interp": "금속·전기 업종에 다니면 <b>파업 참여 사업장</b>인지 회사 공지를 확인하세요. 수요일 교섭 결과에 따라 파업이 더 커질 수 있습니다.",
+      "source": "ZDF·IG Metall",
+      "read": 3,
+      "url": "https://zdfheute.de/wirtschaft/ig-metall-chefin-christiane-benner-heute-journal-interview-100.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "일시금",
+          "explain": "임금표를 올리지 않고 한 번만 지급하는 돈"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "health",
+      "head": "1월부터 처방약 본인부담 최대 15유로",
+      "desc": "1월 1일부터 공보험 처방약 본인부담금이 약 한 개당 5~10유로에서 7.5~15유로로 오릅니다. 약값이 부담금보다 싸면 약값만 냅니다. 늘 먹는 약이 있으면 부담이 커집니다.",
+      "interp": "꾸준히 먹는 약이 있으면 <b>12월 안에 처방</b>을 받아 두는 게 나은지 의사와 상의하세요. 소득 대비 부담 상한(면제) 제도도 함께 확인하세요.",
+      "source": "아포테케 아드혹·베를리너 차이퉁",
+      "read": 3,
+      "url": "https://www.apotheke-adhoc.de/nachrichten/detail/politik/zuzahlung-steigt-ab-2027/print.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "본인부담금",
+          "explain": "약국에서 약을 받을 때 환자가 직접 내는 돈"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "27일 블랙프라이데이, 가짜 쇼핑몰 주의",
+      "desc": "27일 블랙프라이데이를 앞두고 소비자센터와 연방정보보안청이 가짜 쇼핑몰을 경고했습니다. 인공지능으로 만든 진짜 같은 사이트가 늘었습니다. 선입금 결제는 피하라고 당부했습니다.",
+      "interp": "결제 전 소비자센터의 <b>페이크숍 파인더</b>에 주소를 넣어 확인하세요. 회사 정보(임프레섬)가 없거나 지나치게 싼 곳은 피하는 게 좋습니다.",
+      "source": "니더작센 소비자센터·넷츠벨트",
+      "read": 3,
+      "url": "https://www.verbraucherzentrale-niedersachsen.de/wissen/vertraege-reklamation/kundenrechte/black-friday-cyber-monday-so-erkennen-sie-echte-schnaeppchen-und-fakeshops-120002",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "선입금",
+          "explain": "물건을 받기 전에 돈을 먼저 보내는 결제 방식"
+        },
+        {
+          "term": "연방정보보안청",
+          "explain": "독일 정부의 사이버 보안 담당 기관(BSI)"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "1월부터 우표 1.15유로, 첫 1유로 넘어",
+      "desc": "도이체포스트가 1월 1일부터 국내 일반 편지 요금을 0.95유로에서 1.15유로로, 해외 편지는 1.25유로에서 1.45유로로 올립니다. 연방망청의 최종 승인이 남아 있습니다.",
+      "interp": "옛 0.95유로 우표는 1월부터 <b>0.20유로 보충 우표</b>를 붙여야 합니다. 연하장이나 서류 우편은 12월 안에 부치면 지금 요금이 적용됩니다.",
+      "source": "DHL 그룹·PC벨트",
+      "read": 3,
+      "url": "https://group.dhl.com/de/presse/pressemitteilungen/2026/deutsche-post-ag-passt-briefporto-und-produkte-zum-ersten-januar-2027-an.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "연방망청",
+          "explain": "독일의 우편·통신·전기 시장을 감독하는 정부 기관"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "pension",
+      "head": "'63세 연금' 개편, 12월 내각 결정으로",
+      "desc": "45년 가입자 조기 연금 개편을 연정이 17일 합의하지 못해 12월로 미뤘습니다. 내각 의결은 9일이나 16일이 거론됩니다. 22일 쇠더 기사당 대표가 타협 뜻을 내비쳤습니다.",
+      "interp": "독일에서 오래 일해 <b>조기 연금</b>을 계획했다면 연금보험공단 상담으로 가입 기간을 확인해 두세요. 확정 전까지는 지금 규정이 그대로 적용됩니다.",
+      "source": "ZDF·캐시 온라인",
+      "read": 3,
+      "url": "https://www.cash-online.de/a/rentenreform-und-rente-mit-63-koalition-vertagt-entscheidung-730788/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "조기 연금",
+          "explain": "45년 이상 가입자가 감액 없이 일찍 받는 독일 연금"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "한국 수출 첫 1조 달러, 세계 4번째",
+      "desc": "한국의 올해 누적 수출이 19일 처음 1조 달러를 넘었습니다. 독일·미국·중국에 이어 세계 네 번째입니다. 산업통상부는 연간 수출을 1조1700억 달러로 내다봤습니다.",
+      "interp": "반도체와 함께 <b>화장품·식품</b> 수출도 사상 최대여서 현지 한국 제품 유통이 더 늘 수 있습니다. 한국 기업 취업·거래 기회도 눈여겨보세요.",
+      "source": "정책브리핑·전자신문",
+      "read": 3,
+      "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148976090",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "travel",
+      "head": "12월 17일 마일리지 통합, 제휴분 0.82",
+      "desc": "대한항공·아시아나 통합사가 12월 17일 출범해 마일리지도 합쳐집니다. 탑승분은 1대1, 제휴 마일리지는 1대0.82로 바뀝니다. 아시아나 마일리지는 10년간 유지됩니다.",
+      "interp": "전환은 의무가 아니니 <b>제휴 마일리지 비중</b>을 따져 시점을 정하세요. 전환하면 두 회사 실적을 합쳐 등급을 다시 심사받을 수 있습니다.",
+      "source": "MTN·데일리안",
+      "read": 3,
+      "url": "https://news.mtn.co.kr/news-detail/2026091509285655266",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [
+        {
+          "term": "제휴 마일리지",
+          "explain": "탑승이 아니라 카드 결제 등으로 쌓은 마일리지"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "stocks",
+      "head": "코스피 2.77% 급락 출발, 4734",
+      "desc": "23일 코스피가 2.77% 내린 4734.90에 출발했습니다. 미국 반도체 급락 여파로 코스닥도 1.66% 내린 634.93에 시작했습니다. 환율은 1335원대였습니다.",
+      "interp": "한국 주식·펀드를 가진 분은 <b>급하게 팔기보다</b> 투자 기간과 비중을 먼저 점검하세요. 환율이 크게 흔들리니 송금은 나눠 보내는 방법도 있습니다.",
+      "source": "파이낸셜뉴스·뉴스핌",
+      "read": 3,
+      "url": "https://www.fnnews.com/news/202611230851363654",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "코스닥",
+          "explain": "중소·기술 기업 중심의 한국 주식시장"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "26~27일 유럽 정상회의, 7년 예산 담판",
+      "desc": "유럽연합 정상들이 26~27일 2028~34년 장기예산을 논의합니다. 독일 등 6개국은 20% 감액을 요구합니다. 독일 농민들은 23일 총리실 앞에서 삭감 반대 시위를 엽니다.",
+      "interp": "농업·지역 지원과 <b>연구 예산</b>이 걸려 있어 지원 대상이면 결과를 지켜보세요. 최종 합의는 12월 17~18일 회의가 유력합니다.",
+      "source": "유뉴스·베를리너 차이퉁",
+      "read": 3,
+      "url": "https://www.eunews.it/en/2026/10/13/2028-2034-budget-plans-for-an-extraordinary-summit-of-leaders-on-26-and-27-november/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "장기예산",
+          "explain": "유럽연합이 7년 단위로 정하는 지출 한도 계획"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "stocks",
+      "head": "독일 닥스 주간 7.28%↓, 25000 붕괴",
+      "desc": "닥스지수가 20일 2.6% 내린 24802로 마감했습니다. 한 주 하락률은 7.28%로 2025년 4월 이후 가장 컸습니다. 미국 AI 투자 의문과 금리 인상 우려가 겹쳤습니다.",
+      "interp": "유럽 지수펀드에 적립식으로 투자 중이면 <b>자동이체를 멈추기 전</b> 투자 기간을 먼저 생각해 보세요. 기술주 비중이 높은 상품일수록 변동이 큽니다.",
+      "source": "MS 악투엘·악티엔체크",
+      "read": 3,
+      "url": "https://ms-aktuell.de/welt/dax-wochenbilanz-22-11-2026/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "닥스지수",
+          "explain": "독일 대표 40개 기업 주가로 만든 주가지수"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "travel",
+      "head": "이탈리아 12월 4일 총파업, 열차 영향",
+      "desc": "이탈리아에서 12월 4일 24시간 전국 총파업이 예고됐습니다. 철도는 3일 밤 9시부터 4일 밤 9시까지 영향을 받을 수 있습니다. 항공편 영향은 아직 발표되지 않았습니다.",
+      "interp": "12월 초 이탈리아에 갈 일이 있으면 <b>열차 운행 여부</b>를 미리 확인하고 일정 조정도 생각해 보세요. 파업 일정은 바뀔 수 있습니다.",
+      "source": "픽시디아·노티치에",
+      "read": 3,
+      "url": "https://pixidia.com/en/italian-airport-strikes-december-2026/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "민주당 하원 258석, 1992년 이후 최다",
+      "desc": "중간선거 개표가 거의 끝나 민주당이 하원 435석 중 최소 258석을 얻었습니다. 1992년 이후 최다이며 공화당은 173석, 4곳은 미정입니다. 새 의회는 1월에 출범합니다.",
+      "interp": "상원까지 민주당이 가져가 이민·관세 정책이 의회에서 <b>견제받을 가능성</b>이 커졌습니다. 비자·영주권 관련 법안 변화는 내년 초부터 지켜보세요.",
+      "source": "ZDF·유로뉴스",
+      "read": 3,
+      "url": "https://www.zdfheute.de/newsticker/schlagzeilen-100.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "중간선거",
+          "explain": "대통령 임기 중간에 치르는 미국 의회 선거"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "health",
+      "head": "메디케어 B 보험료 내년 209.40달러",
+      "desc": "메디케어 파트B 표준 보험료가 내년 월 209.40달러로 3.2% 오릅니다. 연간 공제액은 283달러에서 292달러가 됩니다. 플랜 변경 기간은 12월 7일에 끝납니다.",
+      "interp": "부모님이 메디케어 가입자라면 <b>12월 7일 전</b> 처방약 플랜과 어드밴티지 플랜을 비교해 보세요. 고소득자는 소득 연동 추가 보험료가 붙습니다.",
+      "source": "MOAA·연방관보",
+      "read": 3,
+      "url": "https://www.moaa.org/content/publications-and-media/news-articles/2026-news-articles/benefits/what-youll-pay-for-medicare-part-b-in-2027/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "메디케어",
+          "explain": "65세 이상이 주로 가입하는 미국 공공 의료보험"
+        },
+        {
+          "term": "파트B",
+          "explain": "외래·의사 진료비를 보장하는 메디케어 항목"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "PCE 물가 25일 발표, 3.2% 예상",
+      "desc": "25일 10월 개인소비지출 물가가 나옵니다. 근원 물가는 전월 대비 0.3%, 1년 전보다 3.2% 상승이 예상됩니다. 12월 9일 연준 회의 전 마지막 물가 지표입니다.",
+      "interp": "물가가 예상보다 높으면 <b>12월 금리 인상</b> 가능성이 커져 기술주 변동이 커질 수 있습니다. 25일 발표 뒤 시장 반응을 확인하고 대응하세요.",
+      "source": "FX엠파이어·무무",
+      "read": 3,
+      "url": "https://www.fxempire.com/forecasts/article/the-week-ahead-pce-in-focus-after-ai-sell-off-in-holiday-shortened-week-1646337",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "개인소비지출 물가",
+          "explain": "연준이 가장 중시하는 미국 소비자 물가 지표(PCE)"
+        },
+        {
+          "term": "근원 물가",
+          "explain": "변동이 큰 식품·에너지를 뺀 물가"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "알바니아 여행경보 2단계로 상향",
+      "desc": "외교부가 10일 알바니아 전역에 여행경보 2단계(여행자제)를 내렸습니다. 총리 퇴진 요구 반정부 시위가 폭력 사태로 번진 탓입니다. 수도 티라나 중심가 시위가 이어집니다.",
+      "interp": "연말 발칸 여행 계획이 있으면 <b>불필요한 방문은 미루고</b> 시위 장소를 피하세요. 출국 전 해외안전여행 누리집에서 최신 경보를 확인하세요.",
+      "source": "외교부·캐나다 정부",
+      "read": 3,
+      "url": "https://www.mofa.go.kr/www/brd/m_4076/view.do?seq=372544",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
