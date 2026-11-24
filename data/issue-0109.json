@@ -1,0 +1,312 @@
+{
+  "number": 109,
+  "date": "2026-11-24",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "하원 예산 주간 시작, 27일 표결",
+      "desc": "연방하원이 오늘부터 2027년 예산 심의 주간에 들어갔습니다. 막판 합의한 전기세 인하 비용 약 54억 유로도 예산에 넣습니다. 핵심 예산 차입은 약 1230억 유로입니다.",
+      "interp": "전기세 인하가 확정되면 <b>내년 전기요금 고지서</b>에 반영됩니다. 27일 표결 뒤 전력회사의 요금 안내를 확인하세요.",
+      "source": "dpa",
+      "read": 3,
+      "url": "https://de.nachrichten.yahoo.com/bundestagswoche-besonders-033338716.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "tax",
+      "head": "2022년분 세금 환급, 12월 31일 마감",
+      "desc": "신고 의무가 없는 근로자는 2022년분 소득세 신고를 12월 31일까지 낼 수 있습니다. 4년 기한이라 연장되지 않습니다. 통근·이사 비용이 있었다면 환급받는 경우가 많습니다.",
+      "interp": "<b>엘스터(ELSTER)</b>로 온라인 제출할 수 있고 마감일까지 세무서에 도착해야 합니다. 2022년 급여명세서부터 찾아 두세요.",
+      "source": "바덴뷔르템베르크 재무청",
+      "read": 3,
+      "url": "https://finanzamt-bw.fv-bwl.de/,Lde/Startseite/Service/Was+ist+eine+Antragsveranlagung_",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "housing",
+      "head": "난방 계량기 원격검침, 연말까지 교체",
+      "desc": "원격검침이 안 되는 난방비 분배기·온수 계량기는 12월 31일까지 바꿔야 합니다. 어기면 세입자는 난방·온수비를 3% 깎을 수 있습니다. 감액은 2027년 정산분부터입니다.",
+      "interp": "감액은 자동이 아니라 <b>세입자가 직접 요구</b>해야 합니다. 관리회사에 계량기 원격검침 여부를 서면으로 물어 두세요.",
+      "source": "외코테스트",
+      "read": 3,
+      "url": "https://www.oekotest.de/geld-versicherungen/frist-endet-am-31-dezember-wann-mieter-ihren-heizkostenanteil-teils-kuerzen-duerfen_602067_1.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "원격검침",
+          "explain": "검침원 방문 없이 무선으로 사용량을 읽는 방식"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "연료세 인하 연말 종료, 1월 인상 우려",
+      "desc": "휘발유·경유 에너지세를 리터당 약 14센트 낮춘 조치가 12월 31일 끝납니다. 부가세까지 합친 인하 효과는 약 17센트였습니다. 연장 여부는 아직 확정되지 않았습니다.",
+      "interp": "연장이 없으면 1월부터 <b>주유비가 다시 오를 수</b> 있습니다. 연말 장거리 운전 전에는 연료를 미리 채워 두는 것도 방법입니다.",
+      "source": "연방정부·슈투트가르터 차이퉁",
+      "read": 3,
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/spritpreis-entlastungspaket-2453198",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "에너지세",
+          "explain": "휘발유·경유 등 연료에 붙는 독일 소비세"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "policy",
+      "head": "여성 살해, 살인죄로 명확히 처벌 추진",
+      "desc": "후비히 법무장관이 성별을 이유로 한 살해를 살인죄 요건에 명시하는 법안을 마련했습니다. 이별 거부 살해에 종신형이 가능해집니다. 연내 주정부 의견 수렴에 들어갑니다.",
+      "interp": "아직 <b>내각 의결 전</b> 법안이라 당장 바뀌는 것은 없습니다. 가정폭력 피해를 입었다면 상담전화 116 016으로 연락할 수 있습니다.",
+      "source": "ZDF·타게스슈피겔",
+      "read": 3,
+      "url": "https://www.zdfheute.de/politik/deutschland/hubig-mordparagraph-femizide-100.html",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "코스피 하루 만에 급반등, 매수 사이드카",
+      "desc": "어제 매도 사이드카에 이어 24일 오전 코스피에 매수 사이드카가 발동됐습니다. 지수는 장중 5% 넘게 올라 5000선을 다시 밟았습니다. 젠슨 황 복귀 소식이 영향을 줬습니다.",
+      "interp": "변동성이 극심해 <b>하루 등락만 보고 매매</b>하기는 위험합니다. 해외에서 국내 주식을 거래한다면 마감 시세를 꼭 확인하세요.",
+      "source": "한국경제·아시아경제",
+      "read": 3,
+      "url": "https://www.hankyung.com/article/2026112458726",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [
+        {
+          "term": "사이드카",
+          "explain": "선물 급등락 때 프로그램 매매를 5분간 멈추는 장치"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "유럽 여행허가 ETIAS, 올해 시행 무산",
+      "desc": "EU가 ETIAS 누리집에서 2026년 4분기 시행 일정을 지웠습니다. 지금은 운영되지 않으며 시작일은 몇 달 전에 공지합니다. 한국 여권 소지자도 당장 신청할 필요가 없습니다.",
+      "interp": "ETIAS 신청을 대행한다며 <b>수수료를 받는 사이트</b>를 조심하세요. 독일 체류허가를 가진 분은 원래 신청 대상이 아닙니다.",
+      "source": "위치·코넥시옹",
+      "read": 3,
+      "url": "https://www.which.co.uk/news/article/etias-visa-waiver-europe-aUyAH7U3Hd2p",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "ETIAS",
+          "explain": "무비자 여행객이 EU 입국 전 받는 온라인 여행허가"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "젠슨 황 복귀, 엔비디아 하루 31% 급등",
+      "desc": "엔비디아 이사회가 23일 이달 초 물러난 젠슨 황을 최고경영자로 복귀시켰습니다. 주가는 31.5% 올라 시가총액 약 9500억 달러가 늘었습니다. TSMC 등도 뛰었습니다.",
+      "interp": "하루 급등 뒤에는 되돌림도 큽니다. 엔비디아 <b>비중이 큰 지수펀드</b>를 가졌다면 내 계좌의 종목 비중부터 점검하세요.",
+      "source": "NBC·CNN",
+      "read": 3,
+      "url": "https://www.nbcnews.com/business/markets/stocks-rebound-ai-tech-selloff-nvidia-rcna610833",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "health",
+      "head": "메디케어 약 보험 변경, 12월 7일 마감",
+      "desc": "메디케어 가입 변경 기간이 12월 7일 끝납니다. 처방약 보험(파트 D) 임시 보조금이 없어져 일부는 보험료가 오를 수 있습니다. 기간 안에 내년 플랜을 바꿀 수 있습니다.",
+      "interp": "부모님이 미국에 계시다면 <b>메디케어 누리집 플랜 비교</b>로 내년 보험료를 확인하세요. 마감 뒤에는 변경 기회가 크게 줄어듭니다.",
+      "source": "폭스 계열 방송",
+      "read": 3,
+      "url": "https://www.fox5ny.com/news/medicare-open-enrollment-why-premiums-could-increase-some-enrollees",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "파트 D",
+          "explain": "메디케어 가운데 처방약 비용을 보장하는 보험"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "몽골 무비자, 연말 만료·연장 미발표",
+      "desc": "한국인의 몽골 관광 무비자 입국이 12월 31일 끝나며 연장은 아직 발표되지 않았습니다. 법무부는 이달 초 조속한 발표를 요청했습니다. 1월 이후엔 비자가 필요할 수 있습니다.",
+      "interp": "1월 몽골 여행을 예약했다면 <b>몽골대사관 공지</b>를 계속 확인하세요. 발표가 늦어지면 미리 비자를 받아 두는 편이 안전합니다.",
+      "source": "법무부·라토파티",
+      "read": 3,
+      "url": "https://english.ratopati.com/story/44220/mongolia-extends-visa-free-travel-for-south-korean-tourists-until-2026",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
