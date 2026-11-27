@@ -1,0 +1,534 @@
+{
+  "number": 112,
+  "date": "2026-11-27",
+  "published": [
+    {
+      "region": "de",
+      "category": "general",
+      "head": "금속노조 합의, 2년간 4.3% 인상",
+      "desc": "금속·전기 노사가 26일 임금 협상을 타결했습니다. 내년 5월 2.0%, 2028년 4월 2.3% 오르고 내년 3월 일시금 150~450유로가 나옵니다. 370만 명이 대상입니다.",
+      "interp": "금속·전기 업체에 다니면 <b>내년 3월 일시금</b>이 회사 수익률에 따라 달라집니다. 회사 공지로 지급액을 확인하세요.",
+      "source": "ZDF · 로이터",
+      "read": 3,
+      "url": "https://www.zdfheute.de/wirtschaft/unternehmen/ig-metall-tarifstreit-einigung-100.html",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "일시금",
+          "explain": "임금 인상과 별도로 한 번만 주는 돈"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "life",
+      "head": "도이칠란트티켓, 30일까지 동의해야",
+      "desc": "도이체반에서 도이칠란트티켓을 구독하는 사람은 30일까지 요금 인상에 동의해야 합니다. 1월부터 월 63유로에서 66.80유로로 오르며, 동의하지 않으면 구독이 연말에 끝납니다.",
+      "interp": "<b>DB 내비게이터</b> 앱이나 bahn.de 구독 화면에서 동의하세요. 놓쳤다면 12월 31일까지 '구독 재개'로 되살릴 수 있습니다.",
+      "source": "베를리너 차이퉁 · 텔타리프",
+      "read": 2,
+      "url": "https://www.berliner-zeitung.de/article/deutschlandticket-kunden-muessen-bis-30-november-klicken-sonst-ist-das-abo-ab-januar-weg-10584426",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "도이칠란트티켓",
+          "explain": "독일 전국 근거리 대중교통을 타는 월 정기권"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "tax",
+      "head": "오늘 예산 표결, 1월 주류세 20%↑",
+      "desc": "하원이 27일 5560억 유로 규모의 2027년 예산을 최종 표결합니다. 예산 부수법에는 1월부터 증류주 등 주류세 20% 인상이 담겼고, 맥주·와인·스파클링와인은 빠졌습니다.",
+      "interp": "<b>증류주</b> 값은 1월부터 오를 수 있습니다. 설탕음료세는 2028년으로 미뤄졌으니 연말 주류 구매 때 참고하세요.",
+      "source": "dpa · 연방하원",
+      "read": 3,
+      "url": "https://www.bundestag.de/presse/hib/kurzmeldungen-1233052",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "예산 부수법",
+          "explain": "예산 시행에 필요한 세금·제도 변경을 묶은 법"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "de",
+      "category": "health",
+      "head": "볼프 메트부르스트 전국 회수",
+      "desc": "볼프가 '아페티터 슈트라이히메트부르스트 파인' 일부를 전국 회수합니다. 장출혈성 대장균이 나왔고, 2×100g·2×125g 포장 중 유통기한 11월 27일~12월 8일 제품입니다.",
+      "interp": "집에 있다면 <b>유통기한</b>을 확인하고 드시지 마세요. 구매한 매장에 반품 가능 여부를 문의하세요.",
+      "source": "루르 나흐리히텐 · 웹데",
+      "read": 2,
+      "url": "https://www.ruhrnachrichten.de/service/rueckruf-aktuell-ticker-lebensmittel-produkt-warnungen-gesundheitsgefahren-20-november-2026-w1246296-2002227025/",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "장출혈성 대장균",
+          "explain": "설사와 신장 손상을 일으키는 독소를 만드는 대장균"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "general",
+      "head": "삼성전자 오늘 배당 30조원 지급",
+      "desc": "삼성전자가 27일 3분기 배당금을 지급합니다. 주당 4601원, 총액 약 30조원이고 상반기를 합치면 올해 현금배당은 35조원입니다. 보유 주식 수만큼 증권 계좌로 들어옵니다.",
+      "interp": "<b>비거주자</b>로 등록된 분은 배당 원천징수 세율이 국내와 다를 수 있습니다. 증권사에 조세조약 세율 적용 여부를 확인하세요.",
+      "source": "SBS Biz · CEO스코어데일리",
+      "read": 2,
+      "url": "https://biz.sbs.co.kr/amp/article/20000342915",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "현금배당",
+          "explain": "회사가 이익 일부를 주주에게 돈으로 나눠 주는 것"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "policy",
+      "head": "위난 때 철수수단 투입 의무, 외통위 통과",
+      "desc": "국회 외교통일위원회가 26일 영사조력법 개정안을 의결했습니다. 위급한 재외국민에게 이동수단 투입을 의무화하고, 재외국민을 노린 범죄 정보의 삭제·차단 요청 근거를 담았습니다.",
+      "interp": "법사위와 <b>본회의</b>를 거쳐야 시행됩니다. 지금 위급할 때는 영사콜센터(+82-2-3210-0404)로 연락하세요.",
+      "source": "연합뉴스 · 재경일보",
+      "read": 3,
+      "url": "https://www.koreancenter.or.kr/news/articleView.html?idxno=1444378",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "For expats",
+      "terms": [
+        {
+          "term": "영사조력법",
+          "explain": "해외에서 사건·사고를 겪은 국민을 정부가 돕는 근거 법"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "kr",
+      "category": "health",
+      "head": "해외서 산 비만약, 남에게 넘기면 처벌",
+      "desc": "식약처가 26일 비만치료제 안전사용 안내를 냈습니다. 해외에서 처방·구입한 약을 쓰면 국내 진료 때 알려야 하고, 개인용으로 들여온 약을 팔거나 주면 최대 징역 5년입니다.",
+      "interp": "한국 방문 때 가져간 <b>위고비·마운자로</b>는 본인만 쓰세요. 반입은 원칙적으로 6개까지이고 냉장 보관이 필요합니다.",
+      "source": "정책브리핑 · 데일리메디",
+      "read": 2,
+      "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148976592",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "비만치료제",
+          "explain": "식욕을 줄여 체중 감량을 돕는 주사·먹는 약"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "general",
+      "head": "EU 정상회의, 7년 예산 합의 실패",
+      "desc": "EU 정상들이 26일 2028~2034년 예산 합의에 실패했습니다. 코스타 의장의 1조7800억 유로 타협안에 반발이 컸고, 마크롱은 12월 31일을 시한으로 제시했습니다.",
+      "interp": "EU 예산은 <b>농업·지역 보조금</b>과 교육·연구 사업에 쓰입니다. 12월 추가 협상 결과를 지켜보세요.",
+      "source": "유로뉴스",
+      "read": 3,
+      "url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "코스타 의장",
+          "explain": "EU 정상회의(유럽이사회)를 이끄는 상임의장 안토니우 코스타"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "stocks",
+      "head": "닥스 2.1% 급반등, 관세 우려 완화",
+      "desc": "26일 독일 닥스지수가 2.1% 올라 약 2만5200선에 마감했습니다. 미국의 EU 관세가 예상보다 낮을 수 있다는 보도에 스톡스600도 1.8% 오르며 이틀 하락을 끊었습니다.",
+      "interp": "하루 반등을 <b>추세 전환</b>으로 단정하긴 이릅니다. 유럽 상장지수펀드를 가진 분은 나눠 사고파는 원칙을 지키세요.",
+      "source": "CNBC · 비즈니스 레코더",
+      "read": 2,
+      "url": "https://www.brecorder.com/news/40450939/european-stocks-end-higher-on-easing-tariff-fears",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "닥스지수",
+          "explain": "독일 대표 40개 기업의 주가를 모은 지수"
+        },
+        {
+          "term": "스톡스600",
+          "explain": "유럽 600개 대형·중형 기업의 주가지수"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "eu",
+      "category": "invest",
+      "head": "유럽중앙은행 차기 총재, 데코스 지지",
+      "desc": "유로존 정상들이 26일 스페인의 파블로 에르난데스 데코스를 라가르드 후임 유럽중앙은행 총재로 지지했습니다. 그는 스페인 중앙은행 총재를 지냈고, 총재 임기는 8년 단임입니다.",
+      "interp": "총재가 바뀌어도 <b>금리 결정</b>은 위원회가 함께 합니다. 대출·예금에는 12월 회의 결과가 더 직접적입니다.",
+      "source": "유로뉴스",
+      "read": 2,
+      "url": "https://www.euronews.com/2026/11/26/eurozone-leaders-back-hernandez-de-cos-to-succeed-lagarde-at-ecb",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "유로존",
+          "explain": "유로화를 공식 통화로 쓰는 EU 나라들"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "general",
+      "head": "추수감사절 폭풍, 80만 가구 정전",
+      "desc": "추수감사절인 26일 동부를 덮친 폭풍으로 80만 가구 넘게 정전됐습니다. 미국 관련 항공편 417편이 결항되고 약 1800편이 지연됐으며, 뉴욕주는 비상사태를 선포했습니다.",
+      "interp": "주말 귀가편은 <b>항공사 앱</b>으로 운항 여부를 먼저 확인하세요. 정전 지역은 전력회사 정전 지도에서 복구 시간을 볼 수 있습니다.",
+      "source": "NBC · 코리아타임스",
+      "read": 2,
+      "url": "https://www.koreatimes.co.kr/world/20261127/thanksgiving-storm-knocks-out-power-disrupts-flights-on-us-east-coast",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "스페이스X, 미국 아이 계좌에 2주씩",
+      "desc": "머스크가 26일 트럼프 계좌를 가진 미국 아이에게 스페이스X 주식 2주씩 주겠다고 밝혔습니다. 회사 1주는 다음 달, 머스크 1주는 내년 6월에 주며 총 180억 달러 규모입니다.",
+      "interp": "<b>트럼프 계좌</b>는 사회보장번호가 있는 미국 시민 아이만 열 수 있습니다. 활성 계좌만 대상이니 자녀 계좌를 확인하세요.",
+      "source": "악시오스 · 포브스",
+      "read": 2,
+      "url": "https://www.axios.com/2026/11/26/musk-spacex-shares-trump-accounts",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "트럼프 계좌",
+          "explain": "미국 정부가 만든 18세 미만 아동용 투자 계좌"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "stocks",
+      "head": "엔비디아 신용등급 하향 검토, 3.9%↓",
+      "desc": "S&P가 25일 엔비디아의 AA 신용등급을 하향 검토 대상에 올렸습니다. 젠슨 황 사임·복귀 때 이사회 감독을 문제 삼았고, 주가는 3.9% 내린 149.30달러에 마감했습니다.",
+      "interp": "내려가도 한 단계여서 <b>투자등급</b>은 유지될 전망입니다. 90일 검토 결과가 나올 때까지 주가 변동이 클 수 있습니다.",
+      "source": "블룸버그 · 벤징가",
+      "read": 2,
+      "url": "https://www.benzinga.com/markets/tech/26/11/63659241/sp-global-ratings-nvidia-negative-credit-watch-moodys-jensen-huang-return",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "하향 검토",
+          "explain": "신용평가사가 등급을 낮출지 지켜보는 관찰 단계"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "us",
+      "category": "immigration",
+      "head": "영주권자, 비거주자 세금신고 주의",
+      "desc": "미국 영주권자가 세금 신고 때 비거주 외국인으로 신고하면 영주권을 포기한 것으로 추정될 수 있다는 지적이 26일 나왔습니다. 나중에 시민권을 신청할 때도 불리할 수 있습니다.",
+      "interp": "잘못 신고했다면 <b>수정 신고(1040-X)</b>로 바로잡으세요. 해외 체류가 길었다면 입국 때 영주권 포기서 서명 요구에 신중하세요.",
+      "source": "미주중앙일보 · 하이유에스코리아",
+      "read": 2,
+      "url": "https://www.koreadaily.com/article/20261126203915097",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "비거주 외국인",
+          "explain": "미국 세법상 거주자 요건을 갖추지 못한 외국인"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "general",
+      "head": "노스 애틀랜틱, 모든 항공편 중단",
+      "desc": "노르웨이 저비용 항공사 노스 애틀랜틱이 26일 모든 항공편 운항을 멈췄습니다. 긴급 자금을 못 구하면 파산을 신청하겠다고 밝혔고, 재개 시점과 환불 방법은 아직 나오지 않았습니다.",
+      "interp": "예약했다면 <b>카드 결제 취소</b> 신청이 가능한지 카드사에 확인하세요. 대체 항공편은 다른 항공사로 따로 예약해야 합니다.",
+      "source": "스키프트 · 야후 파이낸스",
+      "read": 2,
+      "url": "https://skift.com/2026/11/26/norse-atlantic-suspends-flights-as-bankruptcy-looms/",
+      "source_urls": [],
+      "hot": true,
+      "hotflag": "Must read",
+      "terms": [
+        {
+          "term": "저비용 항공사",
+          "explain": "기내 서비스를 줄이고 요금을 낮춘 항공사"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    },
+    {
+      "region": "wo",
+      "category": "travel",
+      "head": "쿠웨이트, 이란 드론 요격…항로 우회",
+      "desc": "쿠웨이트가 26일 이란 드론 공격을 요격했고, 이라크 상공을 지나 걸프 지역으로 가던 민항기 여러 편이 항로를 바꿨습니다. 중동을 지나는 항공편이 늦어질 수 있습니다.",
+      "interp": "카타르·두바이 등을 <b>경유</b>해 한국을 오가는 분은 출발 전 항공편 상태를 확인하세요. 외교부 해외안전여행 공지도 함께 보세요.",
+      "source": "유로뉴스 · 비지온에어",
+      "read": 2,
+      "url": "https://www.euronews.com/2026/11/26/civilian-flights-diverted-as-kuwait-army-intercepts-iranian-drone-attack",
+      "source_urls": [],
+      "hot": false,
+      "hotflag": null,
+      "terms": [
+        {
+          "term": "걸프 지역",
+          "explain": "페르시아만을 둘러싼 사우디·쿠웨이트·카타르 등"
+        }
+      ],
+      "verdict": "PASS",
+      "check_a": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_b": {
+        "verdict": "PASS",
+        "confidence": 0.95,
+        "sources_count": 2,
+        "issues": []
+      },
+      "check_notes": []
+    }
+  ],
+  "held": []
+}
